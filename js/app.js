@@ -31,7 +31,6 @@
 
   const searchInput = document.getElementById('searchInput');
   const phankhuSelect = document.getElementById('phankhuSelect');
-  const toBoiThuongSelect = document.getElementById('toBoiThuongSelect');
   const trangThaiSelect = document.getElementById('trangThaiSelect');
   const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
@@ -117,7 +116,6 @@
   function setupEventListeners() {
     searchInput.addEventListener('input', handleFilterChange);
     phankhuSelect.addEventListener('change', handleFilterChange);
-    toBoiThuongSelect.addEventListener('change', handleFilterChange);
     trangThaiSelect.addEventListener('change', handleFilterChange);
 
     if (ngayChuyenSelect) {
@@ -127,7 +125,6 @@
     resetFilterBtn.addEventListener('click', () => {
       searchInput.value = '';
       phankhuSelect.value = 'ALL';
-      toBoiThuongSelect.value = 'ALL';
       trangThaiSelect.value = 'ALL';
       if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
       
@@ -399,7 +396,6 @@
   function handleFilterChange() {
     const query = searchInput.value.toLowerCase().trim();
     const kpFilter = phankhuSelect.value;
-    const toFilter = toBoiThuongSelect.value;
     const stFilter = trangThaiSelect.value;
     const dtFilter = ngayChuyenSelect ? ngayChuyenSelect.value : 'ALL';
 
@@ -407,21 +403,18 @@
       // 1. Phân khu filter
       if (kpFilter !== 'ALL' && String(r.khuPho).trim() !== kpFilter) return false;
 
-      // 2. Tổ bồi thường filter
-      if (toFilter !== 'ALL' && r.toBoiThuong !== toFilter) return false;
-
-      // 3. Trạng thái filter
+      // 2. Trạng thái filter
       if (stFilter !== 'ALL') {
         if (!r.trangThai || !r.trangThai.includes(stFilter.substring(0, 2))) return false;
       }
 
-      // 4. Ngày chuyển filter
+      // 3. Ngày chuyển filter
       if (dtFilter !== 'ALL') {
         const rDate = r.ngayChuyen ? r.ngayChuyen.trim() : '';
         if (rDate !== dtFilter && !rDate.startsWith(dtFilter)) return false;
       }
 
-      // 5. Search query filter
+      // 4. Search query filter
       if (query) {
         const text = `${r.stt} ${r.canBoBBT} ${r.canBoKTHT} ${r.hoTen} ${r.diaChi} ${r.duong} ${r.toBanDo} ${r.thuaDat} ${r.ghiChu}`.toLowerCase();
         if (!text.includes(query)) return false;
@@ -658,14 +651,22 @@
 
   // 11. Render Master Section VI (Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT)
   function renderSection6() {
-    const list = Analytics.getDetailedTransferBreakdown(filteredRecords, activePeriodType);
+    const isDateFiltered = ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL';
+    const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
+    const thTimeKey = document.getElementById('thTimeKey');
+    if (thTimeKey) {
+      thTimeKey.style.display = isDateFiltered ? '' : 'none';
+    }
+
+    const list = Analytics.getDetailedTransferBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered);
     const tbody = document.getElementById('tbodySection6');
     if (!tbody) return;
 
     tbody.innerHTML = '';
 
     if (!list || list.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="10" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+      const colspanTotal = isDateFiltered ? 10 : 9;
+      tbody.innerHTML = `<tr><td colspan="${colspanTotal}" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
       return;
     }
 
@@ -681,26 +682,35 @@
       sumKthtGiu += item.kthtGiu;
       sumTraSua += item.traSua;
 
+      const isZero = item.totalChuyen === 0;
       const tr = document.createElement('tr');
+      if (isZero) {
+        tr.style.opacity = '0.75';
+        tr.style.background = 'rgba(239, 68, 68, 0.03)';
+      }
+
+      const timeTd = isDateFiltered ? `<td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>` : '';
+
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
-        <td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>
+        ${timeTd}
         <td><strong>${item.cbtl}</strong></td>
         <td class="text-center">${item.kp17}</td>
         <td class="text-center">${item.kp18}</td>
         <td class="text-center">${item.kp19}</td>
-        <td class="text-center"><span class="badge badge-neutral">${item.totalChuyen}</span></td>
-        <td class="text-center"><span class="badge badge-success">${item.thongQua}</span></td>
-        <td class="text-center"><span class="badge badge-warning">${item.kthtGiu}</span></td>
+        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa bàn giao)</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
+        <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
+        <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning">${item.kthtGiu}</span>` : '0'}</td>
         <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
       `;
       tbody.appendChild(tr);
     });
 
+    const colspanVal = isDateFiltered ? 3 : 2;
     const trTotal = document.createElement('tr');
     trTotal.classList.add('total-row');
     trTotal.innerHTML = `
-      <td colspan="3" class="text-center"><strong>TỔNG CỘNG</strong></td>
+      <td colspan="${colspanVal}" class="text-center"><strong>TỔNG CỘNG</strong></td>
       <td class="text-center">${sum17}</td>
       <td class="text-center">${sum18}</td>
       <td class="text-center">${sum19}</td>

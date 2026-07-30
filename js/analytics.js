@@ -297,8 +297,125 @@
     },
 
     // Section VI & VIII Unified: Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT
-    getDetailedTransferBreakdown(records, periodType = 'date') {
+    getDetailedTransferBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
+      // 1. Thu thập danh sách Cán bộ BBT (CBTL)
+      // Nếu ĐANG LỌC KHU PHỐ: chỉ lấy những Cán bộ CÓ hồ sơ thuộc Khu phố được lọc
+      // Nếu KHÔNG LỌC KHU PHỐ: lấy toàn bộ danh sách Cán bộ
+      const allOfficers = new Set();
+      if (isKhuPhoFiltered) {
+        records.forEach(r => {
+          if (r.canBoBBT && r.canBoBBT.trim()) {
+            allOfficers.add(r.canBoBBT.trim());
+          }
+        });
+      } else {
+        const source = (allRecords && allRecords.length > 0) ? allRecords : records;
+        source.forEach(r => {
+          if (r.canBoBBT && r.canBoBBT.trim()) {
+            allOfficers.add(r.canBoBBT.trim());
+          }
+        });
+      }
+
+      // BÌNH THƯỜNG (KHI KHÔNG LỌC NGÀY CỤ THỂ): Bảng tổng thể 1 cán bộ = 1 dòng duy nhất!
+      if (!isDateFiltered) {
+        const map = {};
+        allOfficers.forEach(cb => {
+          map[cb] = {
+            timeKey: '',
+            cbtl: cb,
+            kp17: 0,
+            kp18: 0,
+            kp19: 0,
+            totalChuyen: 0,
+            thongQua: 0,
+            kthtGiu: 0,
+            traSua: 0
+          };
+        });
+
+        records.forEach(r => {
+          const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+          if (!map[cb]) {
+            map[cb] = {
+              timeKey: '',
+              cbtl: cb,
+              kp17: 0,
+              kp18: 0,
+              kp19: 0,
+              totalChuyen: 0,
+              thongQua: 0,
+              kthtGiu: 0,
+              traSua: 0
+            };
+          }
+
+          let kp = '';
+          const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+          if (to === 'Tổ 1' || to.includes('1')) kp = '17';
+          else if (to === 'Tổ 2' || to.includes('2')) kp = '18';
+          else if (to === 'Tổ 3' || to.includes('3')) kp = '19';
+          else kp = r.khuPho ? String(r.khuPho).trim() : '';
+
+          if (kp === '17' || kp.includes('17')) map[cb].kp17++;
+          else if (kp === '18' || kp.includes('18')) map[cb].kp18++;
+          else if (kp === '19' || kp.includes('19')) map[cb].kp19++;
+
+          map[cb].totalChuyen++;
+
+          const st = r.trangThai || '';
+          if (st.includes('3.') || st.includes('thông qua')) {
+            map[cb].thongQua++;
+          } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+            map[cb].kthtGiu++;
+          } else if (st.includes('2.1') || st.includes('Trả về')) {
+            map[cb].traSua++;
+          }
+        });
+
+        let list = Object.values(map);
+
+        // Ẩn các dòng 0 hồ sơ trong bảng tổng thể
+        list = list.filter(item => item.totalChuyen > 0);
+
+        list.sort((a, b) => b.totalChuyen - a.totalChuyen || a.cbtl.localeCompare(b.cbtl, 'vi'));
+        return list;
+      }
+
+      // KHI CÓ LỌC NGÀY CỤ THỂ: Hiện chi tiết theo mốc Ngày + Cán bộ thuộc đợt lọc
+      const timeKeys = new Set();
+      records.forEach(r => {
+        let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
+        if (periodType === 'week') {
+          timeKey = getWeekLabel(r.ngayChuyen);
+        } else if (periodType === 'month') {
+          timeKey = getMonthLabel(r.ngayChuyen);
+        }
+        timeKeys.add(timeKey);
+      });
+
+      if (timeKeys.size === 0) {
+        timeKeys.add('Chưa có ngày');
+      }
+
       const map = {};
+
+      timeKeys.forEach(timeKey => {
+        allOfficers.forEach(cb => {
+          const key = `${timeKey}___${cb}`;
+          map[key] = {
+            timeKey: timeKey,
+            cbtl: cb,
+            kp17: 0,
+            kp18: 0,
+            kp19: 0,
+            totalChuyen: 0,
+            thongQua: 0,
+            kthtGiu: 0,
+            traSua: 0
+          };
+        });
+      });
 
       records.forEach(r => {
         const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
@@ -326,10 +443,16 @@
           };
         }
 
-        const kp = r.khuPho ? String(r.khuPho).trim() : '';
-        if (kp === '17') map[key].kp17++;
-        else if (kp === '18') map[key].kp18++;
-        else if (kp === '19') map[key].kp19++;
+        let kp = '';
+        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+        if (to === 'Tổ 1' || to.includes('1')) kp = '17';
+        else if (to === 'Tổ 2' || to.includes('2')) kp = '18';
+        else if (to === 'Tổ 3' || to.includes('3')) kp = '19';
+        else kp = r.khuPho ? String(r.khuPho).trim() : '';
+
+        if (kp === '17' || kp.includes('17')) map[key].kp17++;
+        else if (kp === '18' || kp.includes('18')) map[key].kp18++;
+        else if (kp === '19' || kp.includes('19')) map[key].kp19++;
 
         map[key].totalChuyen++;
 
@@ -343,7 +466,11 @@
         }
       });
 
-      const list = Object.values(map);
+      let list = Object.values(map);
+
+      if (timeKeys.size > 1) {
+        list = list.filter(item => item.totalChuyen > 0);
+      }
 
       list.sort((a, b) => {
         if (periodType === 'date') {
@@ -353,7 +480,8 @@
         }
         const timeCompare = b.timeKey.localeCompare(a.timeKey, 'vi');
         if (timeCompare !== 0) return timeCompare;
-        return b.totalChuyen - a.totalChuyen;
+        if (b.totalChuyen !== a.totalChuyen) return b.totalChuyen - a.totalChuyen;
+        return a.cbtl.localeCompare(b.cbtl, 'vi');
       });
 
       return list;
