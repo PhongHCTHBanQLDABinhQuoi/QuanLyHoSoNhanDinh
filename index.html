@@ -225,10 +225,9 @@
       </div>
     </div>
 
-    <!-- Section II & Section VII (Bổ sung 1) -->
+    <!-- Section II -->
     <div class="dashboard-grid">
-      <!-- Section II -->
-      <div class="col-8">
+      <div class="col-12">
         <div class="section-card">
           <div class="section-header">
             <h2>II. KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ BBT</h2>
@@ -246,31 +245,6 @@
                 </tr>
               </thead>
               <tbody id="tbodySection2">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <!-- Section VII: Bổ sung 1 - Pháp chế kiểm tra -->
-      <div class="col-4">
-        <div class="section-card">
-          <div class="section-header">
-            <h2>VII. KHỐI LƯỢNG HỒ SƠ THEO PHÁP CHẾ KIỂM TRA</h2>
-            <span class="section-tag">Bổ sung 1</span>
-          </div>
-          <div class="section-body max-height-table">
-            <table class="data-table" id="tableSection7">
-              <thead>
-                <tr>
-                  <th>PHÁP CHẾ KIỂM TRA</th>
-                  <th class="text-center">ĐÃ THÔNG QUA</th>
-                  <th class="text-center">KTHT GIỮ</th>
-                  <th class="text-center">TỔNG</th>
-                </tr>
-              </thead>
-              <tbody id="tbodySection7">
                 <!-- Rendered dynamically -->
               </tbody>
             </table>
@@ -332,10 +306,10 @@
       </div>
     </div>
 
-    <!-- Section VI & Section VIII -->
+    <!-- Section VI & Section VII -->
     <div class="dashboard-grid">
       <!-- Section VI -->
-      <div class="col-12">
+      <div class="col-6">
         <div class="section-card">
           <div class="section-header">
             <h2>VI. LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY</h2>
@@ -358,14 +332,38 @@
           </div>
         </div>
       </div>
+
+      <!-- Section VII: Pháp chế kiểm tra -->
+      <div class="col-6">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>VII. KHỐI LƯỢNG HỒ SƠ THEO PHÁP CHẾ KIỂM TRA</h2>
+          </div>
+          <div class="section-body max-height-table">
+            <table class="data-table" id="tableSection7">
+              <thead>
+                <tr>
+                  <th>PHÁP CHẾ KIỂM TRA</th>
+                  <th class="text-center">ĐÃ THÔNG QUA</th>
+                  <th class="text-center">KTHT GIỮ</th>
+                  <th class="text-center">TỔNG</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection7">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Section VIII: SỐ LƯỢNG HỒ SƠ THEO CÁN BỘ BBT -->
     <div class="dashboard-grid">
       <div class="col-12">
-        <div class="section-card">
+        <div class="section-card" style="border-top: 3px solid var(--primary-blue);">
           <div class="section-header">
-            <h2>VIII. SỐ LƯỢNG HỒ SƠ THEO CÁN BỘ BBT</h2>
+            <h2>VIII. SỐ LƯỢNG HỒ SƠ THEO CÁN BỘ BBT (CBTL)</h2>
             <span class="section-tag">Thống kê chi tiết cán bộ thụ lý</span>
           </div>
           <div class="section-body" style="overflow-x: auto;">
