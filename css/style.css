@@ -985,3 +985,14 @@ footer.app-footer {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
+/* Date Picker Control Theme Compatibility */
+input[type="date"].filter-control {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+[data-theme="dark"] input[type="date"].filter-control {
+  color-scheme: dark;
+}
+
+

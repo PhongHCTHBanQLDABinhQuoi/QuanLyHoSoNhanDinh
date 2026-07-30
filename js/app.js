@@ -33,6 +33,7 @@
   const phankhuSelect = document.getElementById('phankhuSelect');
   const trangThaiSelect = document.getElementById('trangThaiSelect');
   const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
+  const datePickerInput = document.getElementById('datePickerInput');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
 
   // KPI elements
@@ -119,7 +120,61 @@
     trangThaiSelect.addEventListener('change', handleFilterChange);
 
     if (ngayChuyenSelect) {
-      ngayChuyenSelect.addEventListener('change', handleFilterChange);
+      ngayChuyenSelect.addEventListener('change', () => {
+        // Sync datePickerInput if an exact date DD/MM/YYYY is selected
+        if (datePickerInput) {
+          const val = ngayChuyenSelect.value;
+          if (val && val.includes('/')) {
+            const parts = val.split('/');
+            if (parts.length === 3) {
+              datePickerInput.value = `${parts[2]}-${parts[1].padStart(2, '0')}-${parts[0].padStart(2, '0')}`;
+            }
+          } else if (val === 'ALL') {
+            datePickerInput.value = '';
+          }
+        }
+        handleFilterChange();
+      });
+    }
+
+    if (datePickerInput) {
+      datePickerInput.addEventListener('change', () => {
+        const val = datePickerInput.value; // YYYY-MM-DD
+        if (!val) {
+          if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+          handleFilterChange();
+          return;
+        }
+
+        const parts = val.split('-');
+        if (parts.length === 3) {
+          const formattedDate = `${parts[2]}/${parts[1]}/${parts[0]}`; // DD/MM/YYYY
+          
+          if (activePeriodType !== 'date') {
+            activePeriodType = 'date';
+            document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn').forEach(t => {
+              if (t.getAttribute('data-period') === 'date') t.classList.add('active');
+              else t.classList.remove('active');
+            });
+            populateDateDropdown();
+          }
+
+          if (ngayChuyenSelect) {
+            const hasOption = Array.from(ngayChuyenSelect.options).some(o => o.value === formattedDate);
+            if (hasOption) {
+              ngayChuyenSelect.value = formattedDate;
+            } else {
+              const newOpt = document.createElement('option');
+              newOpt.value = formattedDate;
+              newOpt.textContent = `📅 ${formattedDate}`;
+              ngayChuyenSelect.appendChild(newOpt);
+              ngayChuyenSelect.value = formattedDate;
+            }
+          }
+
+          handleFilterChange();
+        }
+      });
     }
 
     resetFilterBtn.addEventListener('click', () => {
@@ -127,6 +182,7 @@
       phankhuSelect.value = 'ALL';
       trangThaiSelect.value = 'ALL';
       if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+      if (datePickerInput) datePickerInput.value = '';
       
       // Reset chips UI
       document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
