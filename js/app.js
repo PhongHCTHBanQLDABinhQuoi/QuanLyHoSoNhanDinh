@@ -31,6 +31,7 @@
 
   const searchInput = document.getElementById('searchInput');
   const phankhuSelect = document.getElementById('phankhuSelect');
+  const tableKpFilterSelect = document.getElementById('tableKpFilterSelect');
   const toBoiThuongSelect = document.getElementById('toBoiThuongSelect');
   const trangThaiSelect = document.getElementById('trangThaiSelect');
   const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
@@ -115,7 +116,16 @@
   // 3. Event Listeners & Quick Chips
   function setupEventListeners() {
     searchInput.addEventListener('input', handleFilterChange);
-    phankhuSelect.addEventListener('change', handleFilterChange);
+    phankhuSelect.addEventListener('change', () => {
+      if (tableKpFilterSelect) tableKpFilterSelect.value = phankhuSelect.value;
+      handleFilterChange();
+    });
+    if (tableKpFilterSelect) {
+      tableKpFilterSelect.addEventListener('change', () => {
+        if (phankhuSelect) phankhuSelect.value = tableKpFilterSelect.value;
+        handleFilterChange();
+      });
+    }
     toBoiThuongSelect.addEventListener('change', handleFilterChange);
     trangThaiSelect.addEventListener('change', handleFilterChange);
 
@@ -136,6 +146,7 @@
     resetFilterBtn.addEventListener('click', () => {
       searchInput.value = '';
       phankhuSelect.value = 'ALL';
+      if (tableKpFilterSelect) tableKpFilterSelect.value = 'ALL';
       toBoiThuongSelect.value = 'ALL';
       trangThaiSelect.value = 'ALL';
       if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
@@ -162,9 +173,11 @@
 
         if (chipType === 'kp') {
           phankhuSelect.value = chipVal;
+          if (tableKpFilterSelect) tableKpFilterSelect.value = chipVal;
           trangThaiSelect.value = 'ALL';
         } else if (chipType === 'st') {
           phankhuSelect.value = 'ALL';
+          if (tableKpFilterSelect) tableKpFilterSelect.value = 'ALL';
           trangThaiSelect.value = chipVal === 'ALL' ? 'ALL' : (chipVal === '3.' ? '3. Hồ sơ thông qua nhận định pháp lý' : (chipVal === '1.' ? '1. Đã chuyển phòng KTHTĐT' : '2.1. Trả về chỉnh sửa lần 1'));
         }
 
@@ -414,24 +427,41 @@
 
   function handleFilterChange() {
     const query = searchInput.value.toLowerCase().trim();
-    const kpFilter = phankhuSelect.value;
+    const kpFilter = (phankhuSelect && phankhuSelect.value !== 'ALL')
+      ? phankhuSelect.value
+      : (tableKpFilterSelect ? tableKpFilterSelect.value : 'ALL');
+
     const toFilter = toBoiThuongSelect.value;
     const stFilter = trangThaiSelect.value;
-    const dtFilter = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL')
-      ? ngayChuyenSelect.value
-      : (dateFilterSelect ? dateFilterSelect.value : 'ALL');
+
+    const dtFilter = (dateFilterSelect && dateFilterSelect.value !== 'ALL')
+      ? dateFilterSelect.value
+      : (ngayChuyenSelect ? ngayChuyenSelect.value : 'ALL');
 
     filteredRecords = allRecords.filter(r => {
-      if (kpFilter !== 'ALL' && r.khuPho !== kpFilter) return false;
+      // 1. Phân khu filter
+      if (kpFilter !== 'ALL' && String(r.khuPho).trim() !== kpFilter) return false;
+
+      // 2. Tổ bồi thường filter
       if (toFilter !== 'ALL' && r.toBoiThuong !== toFilter) return false;
+
+      // 3. Trạng thái filter
       if (stFilter !== 'ALL') {
         if (!r.trangThai || !r.trangThai.includes(stFilter.substring(0, 2))) return false;
       }
-      if (dtFilter !== 'ALL' && r.ngayChuyen !== dtFilter) return false;
+
+      // 4. Ngày chuyển filter
+      if (dtFilter !== 'ALL') {
+        const rDate = r.ngayChuyen ? r.ngayChuyen.trim() : '';
+        if (rDate !== dtFilter && !rDate.startsWith(dtFilter)) return false;
+      }
+
+      // 5. Search query filter
       if (query) {
         const text = `${r.stt} ${r.canBoBBT} ${r.canBoKTHT} ${r.hoTen} ${r.diaChi} ${r.duong} ${r.toBanDo} ${r.thuaDat} ${r.ghiChu}`.toLowerCase();
         if (!text.includes(query)) return false;
       }
+
       return true;
     });
 
