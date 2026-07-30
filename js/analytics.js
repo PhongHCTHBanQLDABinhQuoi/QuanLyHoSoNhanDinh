@@ -263,13 +263,27 @@
 
     // Section VII Master: Thống kê chi tiết Khối lượng hồ sơ theo Cán bộ Pháp chế kiểm tra
     getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
-      const allOfficers = new Set();
       const source = (allRecords && allRecords.length > 0) ? allRecords : records;
+
+      // Tính tổng số liệu ĐÓ GIỜ (All-Time Overall Totals) cho tất cả Cán bộ Pháp chế từ source
+      const allTimeMap = {};
       source.forEach(r => {
-        const officer = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : '';
-        if (officer) allOfficers.add(officer);
+        const cb = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa phân công / Trống';
+        if (!allTimeMap[cb]) {
+          allTimeMap[cb] = { totalChuyen: 0, thongQua: 0, kthtGiu: 0, traSua: 0 };
+        }
+        allTimeMap[cb].totalChuyen++;
+        const st = r.trangThai || '';
+        if (st.includes('3.') || st.includes('thông qua')) {
+          allTimeMap[cb].thongQua++;
+        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+          allTimeMap[cb].kthtGiu++;
+        } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả về') || st.includes('chuyển sửa')) {
+          allTimeMap[cb].traSua++;
+        }
       });
-      allOfficers.add('Chưa phân công / Trống');
+
+      const allOfficers = new Set(Object.keys(allTimeMap));
 
       if (!isDateFiltered) {
         const map = {};
@@ -280,10 +294,11 @@
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            totalChuyen: 0,
-            thongQua: 0,
-            kthtGiu: 0,
-            traSua: 0
+            totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
+            thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
+            kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
+            traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+            filteredTotal: 0
           };
         });
 
@@ -296,10 +311,11 @@
               kp17: 0,
               kp18: 0,
               kp19: 0,
-              totalChuyen: 0,
-              thongQua: 0,
-              kthtGiu: 0,
-              traSua: 0
+              totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
+              thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
+              kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
+              traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+              filteredTotal: 0
             };
           }
 
@@ -314,22 +330,16 @@
           else if (kp === '18' || kp.includes('18')) map[cb].kp18++;
           else if (kp === '19' || kp.includes('19')) map[cb].kp19++;
 
-          map[cb].totalChuyen++;
-
-          const st = r.trangThai || '';
-          if (st.includes('3.') || st.includes('thông qua')) {
-            map[cb].thongQua++;
-          } else if (st.includes('1.') || st.includes('Đã chuyển')) {
-            map[cb].kthtGiu++;
-          } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả về') || st.includes('chuyển sửa')) {
-            map[cb].traSua++;
-          }
+          map[cb].filteredTotal++;
         });
 
         let list = Object.values(map);
-        if (isKhuPhoFiltered || (records && records.length < allRecords.length)) {
+        if (isKhuPhoFiltered || (records && records.length < source.length)) {
+          list = list.filter(item => item.filteredTotal > 0 || item.totalChuyen > 0);
+        } else {
           list = list.filter(item => item.totalChuyen > 0);
         }
+
         list.sort((a, b) => b.totalChuyen - a.totalChuyen || a.cbtl.localeCompare(b.cbtl, 'vi'));
         return list;
       }
@@ -353,10 +363,11 @@
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            totalChuyen: 0,
-            thongQua: 0,
-            kthtGiu: 0,
-            traSua: 0
+            totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
+            thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
+            kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
+            traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+            filteredTotal: 0
           };
         }
 
@@ -371,16 +382,7 @@
         else if (kp === '18' || kp.includes('18')) map[key].kp18++;
         else if (kp === '19' || kp.includes('19')) map[key].kp19++;
 
-        map[key].totalChuyen++;
-
-        const st = r.trangThai || '';
-        if (st.includes('3.') || st.includes('thông qua')) {
-          map[key].thongQua++;
-        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
-          map[key].kthtGiu++;
-        } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả về') || st.includes('chuyển sửa')) {
-          map[key].traSua++;
-        }
+        map[key].filteredTotal++;
       });
 
       let list = Object.values(map);
@@ -440,24 +442,27 @@
 
     // Section VI & VIII Unified: Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT
     getDetailedTransferBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
-      // 1. Thu thập danh sách Cán bộ BBT (CBTL)
-      // Nếu ĐANG LỌC KHU PHỐ: chỉ lấy những Cán bộ CÓ hồ sơ thuộc Khu phố được lọc
-      // Nếu KHÔNG LỌC KHU PHỐ: lấy toàn bộ danh sách Cán bộ
-      const allOfficers = new Set();
-      if (isKhuPhoFiltered) {
-        records.forEach(r => {
-          if (r.canBoBBT && r.canBoBBT.trim()) {
-            allOfficers.add(r.canBoBBT.trim());
-          }
-        });
-      } else {
-        const source = (allRecords && allRecords.length > 0) ? allRecords : records;
-        source.forEach(r => {
-          if (r.canBoBBT && r.canBoBBT.trim()) {
-            allOfficers.add(r.canBoBBT.trim());
-          }
-        });
-      }
+      const source = (allRecords && allRecords.length > 0) ? allRecords : records;
+
+      // Tính tổng số liệu ĐÓ GIỜ (All-Time Overall Totals) cho tất cả Cán bộ BBT từ source
+      const allTimeMap = {};
+      source.forEach(r => {
+        const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+        if (!allTimeMap[cb]) {
+          allTimeMap[cb] = { totalChuyen: 0, thongQua: 0, kthtGiu: 0, traSua: 0 };
+        }
+        allTimeMap[cb].totalChuyen++;
+        const st = r.trangThai || '';
+        if (st.includes('3.') || st.includes('thông qua')) {
+          allTimeMap[cb].thongQua++;
+        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+          allTimeMap[cb].kthtGiu++;
+        } else if (st.includes('2.1') || st.includes('Trả về')) {
+          allTimeMap[cb].traSua++;
+        }
+      });
+
+      const allOfficers = new Set(Object.keys(allTimeMap));
 
       // BÌNH THƯỜNG (KHI KHÔNG LỌC NGÀY CỤ THỂ): Bảng tổng thể 1 cán bộ = 1 dòng duy nhất!
       if (!isDateFiltered) {
@@ -469,10 +474,11 @@
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            totalChuyen: 0,
-            thongQua: 0,
-            kthtGiu: 0,
-            traSua: 0
+            totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
+            thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
+            kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
+            traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+            filteredTotal: 0
           };
         });
 
@@ -485,10 +491,11 @@
               kp17: 0,
               kp18: 0,
               kp19: 0,
-              totalChuyen: 0,
-              thongQua: 0,
-              kthtGiu: 0,
-              traSua: 0
+              totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
+              thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
+              kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
+              traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+              filteredTotal: 0
             };
           }
 
@@ -503,22 +510,15 @@
           else if (kp === '18' || kp.includes('18')) map[cb].kp18++;
           else if (kp === '19' || kp.includes('19')) map[cb].kp19++;
 
-          map[cb].totalChuyen++;
-
-          const st = r.trangThai || '';
-          if (st.includes('3.') || st.includes('thông qua')) {
-            map[cb].thongQua++;
-          } else if (st.includes('1.') || st.includes('Đã chuyển')) {
-            map[cb].kthtGiu++;
-          } else if (st.includes('2.1') || st.includes('Trả về')) {
-            map[cb].traSua++;
-          }
+          map[cb].filteredTotal++;
         });
 
         let list = Object.values(map);
-
-        // Ẩn các dòng 0 hồ sơ trong bảng tổng thể
-        list = list.filter(item => item.totalChuyen > 0);
+        if (isKhuPhoFiltered || (records && records.length < source.length)) {
+          list = list.filter(item => item.filteredTotal > 0 || item.totalChuyen > 0);
+        } else {
+          list = list.filter(item => item.totalChuyen > 0);
+        }
 
         list.sort((a, b) => b.totalChuyen - a.totalChuyen || a.cbtl.localeCompare(b.cbtl, 'vi'));
         return list;
@@ -542,23 +542,6 @@
 
       const map = {};
 
-      timeKeys.forEach(timeKey => {
-        allOfficers.forEach(cb => {
-          const key = `${timeKey}___${cb}`;
-          map[key] = {
-            timeKey: timeKey,
-            cbtl: cb,
-            kp17: 0,
-            kp18: 0,
-            kp19: 0,
-            totalChuyen: 0,
-            thongQua: 0,
-            kthtGiu: 0,
-            traSua: 0
-          };
-        });
-      });
-
       records.forEach(r => {
         const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
         let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
@@ -578,10 +561,11 @@
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            totalChuyen: 0,
-            thongQua: 0,
-            kthtGiu: 0,
-            traSua: 0
+            totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
+            thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
+            kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
+            traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+            filteredTotal: 0
           };
         }
 
@@ -596,22 +580,13 @@
         else if (kp === '18' || kp.includes('18')) map[key].kp18++;
         else if (kp === '19' || kp.includes('19')) map[key].kp19++;
 
-        map[key].totalChuyen++;
-
-        const st = r.trangThai || '';
-        if (st.includes('3.') || st.includes('thông qua')) {
-          map[key].thongQua++;
-        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
-          map[key].kthtGiu++;
-        } else if (st.includes('2.1') || st.includes('Trả về')) {
-          map[key].traSua++;
-        }
+        map[key].filteredTotal++;
       });
 
       let list = Object.values(map);
 
       if (timeKeys.size > 1) {
-        list = list.filter(item => item.totalChuyen > 0);
+        list = list.filter(item => item.filteredTotal > 0 || item.totalChuyen > 0);
       }
 
       list.sort((a, b) => {

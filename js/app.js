@@ -854,6 +854,7 @@
       return;
     }
 
+    const uniqueOfficers6 = new Set();
     let sum17 = 0, sum18 = 0, sum19 = 0;
     let sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
 
@@ -861,10 +862,14 @@
       sum17 += item.kp17;
       sum18 += item.kp18;
       sum19 += item.kp19;
-      sumTotal += item.totalChuyen;
-      sumThongQua += item.thongQua;
-      sumKthtGiu += item.kthtGiu;
-      sumTraSua += item.traSua;
+
+      if (!uniqueOfficers6.has(item.cbtl)) {
+        uniqueOfficers6.add(item.cbtl);
+        sumTotal += item.totalChuyen;
+        sumThongQua += item.thongQua;
+        sumKthtGiu += item.kthtGiu;
+        sumTraSua += item.traSua;
+      }
 
       const isZero = item.totalChuyen === 0;
       const tr = document.createElement('tr');
@@ -931,6 +936,7 @@
       return;
     }
 
+    const uniqueOfficers7 = new Set();
     let sum17 = 0, sum18 = 0, sum19 = 0;
     let sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
 
@@ -938,10 +944,14 @@
       sum17 += item.kp17;
       sum18 += item.kp18;
       sum19 += item.kp19;
-      sumTotal += item.totalChuyen;
-      sumThongQua += item.thongQua;
-      sumKthtGiu += item.kthtGiu;
-      sumTraSua += item.traSua;
+
+      if (!uniqueOfficers7.has(item.cbtl)) {
+        uniqueOfficers7.add(item.cbtl);
+        sumTotal += item.totalChuyen;
+        sumThongQua += item.thongQua;
+        sumKthtGiu += item.kthtGiu;
+        sumTraSua += item.traSua;
+      }
 
       const isZero = item.totalChuyen === 0;
       const tr = document.createElement('tr');
