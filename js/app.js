@@ -31,12 +31,9 @@
 
   const searchInput = document.getElementById('searchInput');
   const phankhuSelect = document.getElementById('phankhuSelect');
-  const tableKpFilterSelect = document.getElementById('tableKpFilterSelect');
   const toBoiThuongSelect = document.getElementById('toBoiThuongSelect');
   const trangThaiSelect = document.getElementById('trangThaiSelect');
   const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
-  const dateFilterSelect = document.getElementById('dateFilterSelect');
-  const datePickerInput = document.getElementById('datePickerInput');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
 
   // KPI elements
@@ -119,62 +116,20 @@
   // 3. Event Listeners & Quick Chips
   function setupEventListeners() {
     searchInput.addEventListener('input', handleFilterChange);
-    phankhuSelect.addEventListener('change', () => {
-      if (tableKpFilterSelect) tableKpFilterSelect.value = phankhuSelect.value;
-      handleFilterChange();
-    });
-    if (tableKpFilterSelect) {
-      tableKpFilterSelect.addEventListener('change', () => {
-        if (phankhuSelect) phankhuSelect.value = tableKpFilterSelect.value;
-        handleFilterChange();
-      });
-    }
+    phankhuSelect.addEventListener('change', handleFilterChange);
     toBoiThuongSelect.addEventListener('change', handleFilterChange);
     trangThaiSelect.addEventListener('change', handleFilterChange);
 
     if (ngayChuyenSelect) {
-      ngayChuyenSelect.addEventListener('change', () => {
-        if (dateFilterSelect) dateFilterSelect.value = ngayChuyenSelect.value;
-        if (datePickerInput) datePickerInput.value = '';
-        handleFilterChange();
-      });
-    }
-
-    if (dateFilterSelect) {
-      dateFilterSelect.addEventListener('change', () => {
-        if (ngayChuyenSelect) ngayChuyenSelect.value = dateFilterSelect.value;
-        if (datePickerInput) datePickerInput.value = '';
-        handleFilterChange();
-      });
-    }
-
-    if (datePickerInput) {
-      datePickerInput.addEventListener('change', (e) => {
-        const val = e.target.value;
-        if (!val) {
-          if (dateFilterSelect) dateFilterSelect.value = 'ALL';
-          if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
-        } else {
-          const parts = val.split('-');
-          if (parts.length === 3) {
-            const formatted = `${parts[2]}/${parts[1]}/${parts[0]}`;
-            if (dateFilterSelect) dateFilterSelect.value = formatted;
-            if (ngayChuyenSelect) ngayChuyenSelect.value = formatted;
-          }
-        }
-        handleFilterChange();
-      });
+      ngayChuyenSelect.addEventListener('change', handleFilterChange);
     }
 
     resetFilterBtn.addEventListener('click', () => {
       searchInput.value = '';
       phankhuSelect.value = 'ALL';
-      if (tableKpFilterSelect) tableKpFilterSelect.value = 'ALL';
       toBoiThuongSelect.value = 'ALL';
       trangThaiSelect.value = 'ALL';
       if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
-      if (dateFilterSelect) dateFilterSelect.value = 'ALL';
-      if (datePickerInput) datePickerInput.value = '';
       
       // Reset chips UI
       document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
@@ -197,11 +152,9 @@
 
         if (chipType === 'kp') {
           phankhuSelect.value = chipVal;
-          if (tableKpFilterSelect) tableKpFilterSelect.value = chipVal;
           trangThaiSelect.value = 'ALL';
         } else if (chipType === 'st') {
           phankhuSelect.value = 'ALL';
-          if (tableKpFilterSelect) tableKpFilterSelect.value = 'ALL';
           trangThaiSelect.value = chipVal === 'ALL' ? 'ALL' : (chipVal === '3.' ? '3. Hồ sơ thông qua nhận định pháp lý' : (chipVal === '1.' ? '1. Đã chuyển phòng KTHTĐT' : '2.1. Trả về chỉnh sửa lần 1'));
         }
 
@@ -441,28 +394,14 @@
         ngayChuyenSelect.value = val;
       }
     }
-
-    if (dateFilterSelect) {
-      const val = dateFilterSelect.value;
-      dateFilterSelect.innerHTML = optionsHtml;
-      if (val && Array.from(dateFilterSelect.options).some(o => o.value === val)) {
-        dateFilterSelect.value = val;
-      }
-    }
   }
 
   function handleFilterChange() {
     const query = searchInput.value.toLowerCase().trim();
-    const kpFilter = (phankhuSelect && phankhuSelect.value !== 'ALL')
-      ? phankhuSelect.value
-      : (tableKpFilterSelect ? tableKpFilterSelect.value : 'ALL');
-
+    const kpFilter = phankhuSelect.value;
     const toFilter = toBoiThuongSelect.value;
     const stFilter = trangThaiSelect.value;
-
-    const dtFilter = (dateFilterSelect && dateFilterSelect.value !== 'ALL')
-      ? dateFilterSelect.value
-      : (ngayChuyenSelect ? ngayChuyenSelect.value : 'ALL');
+    const dtFilter = ngayChuyenSelect ? ngayChuyenSelect.value : 'ALL';
 
     filteredRecords = allRecords.filter(r => {
       // 1. Phân khu filter
