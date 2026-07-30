@@ -47,6 +47,10 @@
   }
 
   const Analytics = {
+    parseDate,
+    getWeekLabel,
+    getMonthLabel,
+
     // 1. Section I: Tiến độ Pháp lý Chi tiết theo Từng Phân Khu
     getLegalProgressByKhuPho(records) {
       const result = {

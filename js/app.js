@@ -167,7 +167,11 @@
         const target = e.currentTarget;
         target.classList.add('active');
         activePeriodType = target.getAttribute('data-period');
-        renderSection6();
+        
+        // Update date/week/month dropdown & refresh filtering
+        populateDateDropdown();
+        if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+        handleFilterChange();
       });
     });
 
@@ -357,31 +361,47 @@
   function populateDateDropdown() {
     if (!allRecords || allRecords.length === 0) return;
 
-    const datesMap = {};
-    allRecords.forEach(r => {
-      if (r.ngayChuyen && r.ngayChuyen.trim()) {
-        const dt = r.ngayChuyen.trim();
-        datesMap[dt] = (datesMap[dt] || 0) + 1;
-      }
-    });
-
-    function parseDt(dateStr) {
-      if (!dateStr) return null;
-      const parts = dateStr.split('/');
-      if (parts.length !== 3) return null;
-      return new Date(parseInt(parts[2], 10), parseInt(parts[1], 10) - 1, parseInt(parts[0], 10));
+    const labelElem = document.querySelector('label[for="ngayChuyenSelect"]');
+    let defaultText = 'Tất cả các Ngày';
+    if (activePeriodType === 'week') {
+      if (labelElem) labelElem.textContent = '🗓️ Tuần Chuyển';
+      defaultText = 'Tất cả các Tuần';
+    } else if (activePeriodType === 'month') {
+      if (labelElem) labelElem.textContent = '📆 Tháng Chuyển';
+      defaultText = 'Tất cả các Tháng';
+    } else {
+      if (labelElem) labelElem.textContent = '📅 Ngày Chuyển';
+      defaultText = 'Tất cả các Ngày';
     }
 
-    const sortedDates = Object.keys(datesMap).sort((a, b) => {
-      const dA = parseDt(a);
-      const dB = parseDt(b);
-      if (!dA) return 1;
-      if (!dB) return -1;
-      return dB - dA;
+    const map = {};
+    allRecords.forEach(r => {
+      if (!r.ngayChuyen || !r.ngayChuyen.trim()) return;
+      let key = r.ngayChuyen.trim();
+      if (activePeriodType === 'week') {
+        key = Analytics.getWeekLabel(r.ngayChuyen);
+      } else if (activePeriodType === 'month') {
+        key = Analytics.getMonthLabel(r.ngayChuyen);
+      }
+      map[key] = (map[key] || 0) + 1;
     });
 
-    const optionsHtml = ['<option value="ALL">Tất cả các Ngày</option>']
-      .concat(sortedDates.map(dt => `<option value="${dt}">📅 ${dt} (${datesMap[dt]} hồ sơ)</option>`))
+    let sortedKeys = Object.keys(map);
+    if (activePeriodType === 'date') {
+      sortedKeys.sort((a, b) => {
+        const dA = Analytics.parseDate(a);
+        const dB = Analytics.parseDate(b);
+        if (!dA) return 1;
+        if (!dB) return -1;
+        return dB - dA;
+      });
+    } else {
+      sortedKeys.sort((a, b) => b.localeCompare(a, 'vi'));
+    }
+
+    const prefix = activePeriodType === 'week' ? '🗓️ ' : (activePeriodType === 'month' ? '📆 ' : '📅 ');
+    const optionsHtml = [`<option value="ALL">${defaultText}</option>`]
+      .concat(sortedKeys.map(k => `<option value="${k}">${prefix}${k} (${map[k]} hồ sơ)</option>`))
       .join('');
 
     if (ngayChuyenSelect) {
@@ -389,6 +409,8 @@
       ngayChuyenSelect.innerHTML = optionsHtml;
       if (val && Array.from(ngayChuyenSelect.options).some(o => o.value === val)) {
         ngayChuyenSelect.value = val;
+      } else {
+        ngayChuyenSelect.value = 'ALL';
       }
     }
   }
@@ -408,10 +430,18 @@
         if (!r.trangThai || !r.trangThai.includes(stFilter.substring(0, 2))) return false;
       }
 
-      // 3. Ngày chuyển filter
+      // 3. Ngày / Tuần / Tháng chuyển filter
       if (dtFilter !== 'ALL') {
         const rDate = r.ngayChuyen ? r.ngayChuyen.trim() : '';
-        if (rDate !== dtFilter && !rDate.startsWith(dtFilter)) return false;
+        if (activePeriodType === 'week') {
+          const wLabel = Analytics.getWeekLabel(rDate);
+          if (wLabel !== dtFilter) return false;
+        } else if (activePeriodType === 'month') {
+          const mLabel = Analytics.getMonthLabel(rDate);
+          if (mLabel !== dtFilter) return false;
+        } else {
+          if (rDate !== dtFilter && !rDate.startsWith(dtFilter)) return false;
+        }
       }
 
       // 4. Search query filter
@@ -438,7 +468,6 @@
     renderSection5();
     renderSection6();
     renderSection7();
-    renderSection8();
   }
 
   // 5. Render KPIs
@@ -655,6 +684,10 @@
     const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
     const thTimeKey = document.getElementById('thTimeKey');
     if (thTimeKey) {
+      if (activePeriodType === 'week') thTimeKey.textContent = 'TUẦN CHUYỂN';
+      else if (activePeriodType === 'month') thTimeKey.textContent = 'THÁNG CHUYỂN';
+      else thTimeKey.textContent = 'NGÀY CHUYỂN';
+
       thTimeKey.style.display = isDateFiltered ? '' : 'none';
     }
 
