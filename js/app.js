@@ -159,15 +159,22 @@
       });
     });
 
-    // Time Period Tabs for Master Section VI
-    const tabs = document.querySelectorAll('#timePeriodTabs .tab-btn');
-    tabs.forEach(btn => {
+    // Time Period Tabs for Master Section VI & VII
+    const tabBtns = document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn');
+    tabBtns.forEach(btn => {
       btn.addEventListener('click', (e) => {
-        tabs.forEach(t => t.classList.remove('active'));
         const target = e.currentTarget;
-        target.classList.add('active');
         activePeriodType = target.getAttribute('data-period');
         
+        // Sync active class across all tab groups
+        document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn').forEach(t => {
+          if (t.getAttribute('data-period') === activePeriodType) {
+            t.classList.add('active');
+          } else {
+            t.classList.remove('active');
+          }
+        });
+
         // Update date/week/month dropdown & refresh filtering
         populateDateDropdown();
         if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
@@ -755,23 +762,81 @@
     tbody.appendChild(trTotal);
   }
 
-  // 12. Render Section VII (Pháp chế kiểm tra)
+  // 12. Render Master Section VII (Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT)
   function renderSection7() {
-    const list = Analytics.getVolumeByPhapChe(filteredRecords);
+    const isDateFiltered = ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL';
+    const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
+    const thTimeKey7 = document.getElementById('thTimeKey7');
+    if (thTimeKey7) {
+      if (activePeriodType === 'week') thTimeKey7.textContent = 'TUẦN CHUYỂN';
+      else if (activePeriodType === 'month') thTimeKey7.textContent = 'THÁNG CHUYỂN';
+      else thTimeKey7.textContent = 'NGÀY CHUYỂN';
+
+      thTimeKey7.style.display = isDateFiltered ? '' : 'none';
+    }
+
+    const list = Analytics.getDetailedPhapCheBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered);
     const tbody = document.getElementById('tbodySection7');
     if (!tbody) return;
+
     tbody.innerHTML = '';
 
-    list.forEach(item => {
+    if (!list || list.length === 0) {
+      const colspanTotal = isDateFiltered ? 10 : 9;
+      tbody.innerHTML = `<tr><td colspan="${colspanTotal}" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+      return;
+    }
+
+    let sum17 = 0, sum18 = 0, sum19 = 0;
+    let sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
+
+    list.forEach((item, idx) => {
+      sum17 += item.kp17;
+      sum18 += item.kp18;
+      sum19 += item.kp19;
+      sumTotal += item.totalChuyen;
+      sumThongQua += item.thongQua;
+      sumKthtGiu += item.kthtGiu;
+      sumTraSua += item.traSua;
+
+      const isZero = item.totalChuyen === 0;
       const tr = document.createElement('tr');
+      if (isZero) {
+        tr.style.opacity = '0.75';
+        tr.style.background = 'rgba(239, 68, 68, 0.03)';
+      }
+
+      const timeTd = isDateFiltered ? `<td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>` : '';
+
       tr.innerHTML = `
-        <td><strong>${item.name}</strong></td>
-        <td class="text-center"><span class="badge badge-success">${item.thongQua}</span></td>
-        <td class="text-center"><span class="badge badge-warning">${item.kthtGiu}</span></td>
-        <td class="text-center"><strong>${item.total}</strong></td>
+        <td class="text-center"><strong>${idx + 1}</strong></td>
+        ${timeTd}
+        <td><strong>${item.cbtl}</strong></td>
+        <td class="text-center">${item.kp17}</td>
+        <td class="text-center">${item.kp18}</td>
+        <td class="text-center">${item.kp19}</td>
+        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa thụ lý)</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
+        <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
+        <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning">${item.kthtGiu}</span>` : '0'}</td>
+        <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
       `;
       tbody.appendChild(tr);
     });
+
+    const colspanVal = isDateFiltered ? 3 : 2;
+    const trTotal = document.createElement('tr');
+    trTotal.classList.add('total-row');
+    trTotal.innerHTML = `
+      <td colspan="${colspanVal}" class="text-center"><strong>TỔNG CỘNG</strong></td>
+      <td class="text-center">${sum17}</td>
+      <td class="text-center">${sum18}</td>
+      <td class="text-center">${sum19}</td>
+      <td class="text-center">${sumTotal}</td>
+      <td class="text-center">${sumThongQua}</td>
+      <td class="text-center">${sumKthtGiu}</td>
+      <td class="text-center">${sumTraSua}</td>
+    `;
+    tbody.appendChild(trTotal);
   }
 
   // 15. Detail Modal Control

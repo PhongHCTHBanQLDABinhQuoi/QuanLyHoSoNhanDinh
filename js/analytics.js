@@ -261,6 +261,144 @@
       return list;
     },
 
+    // Section VII Master: Thống kê chi tiết Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT
+    getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
+      const allOfficers = new Set();
+      const source = (allRecords && allRecords.length > 0) ? allRecords : records;
+      source.forEach(r => {
+        const officer = (r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : ((r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : '');
+        if (officer) allOfficers.add(officer);
+      });
+      if (allOfficers.size === 0) allOfficers.add('Chưa thụ lý / Trống');
+
+      if (!isDateFiltered) {
+        const map = {};
+        allOfficers.forEach(cb => {
+          map[cb] = {
+            timeKey: '',
+            cbtl: cb,
+            kp17: 0,
+            kp18: 0,
+            kp19: 0,
+            totalChuyen: 0,
+            thongQua: 0,
+            kthtGiu: 0,
+            traSua: 0
+          };
+        });
+
+        records.forEach(r => {
+          const cb = (r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : ((r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa thụ lý / Trống');
+          if (!map[cb]) {
+            map[cb] = {
+              timeKey: '',
+              cbtl: cb,
+              kp17: 0,
+              kp18: 0,
+              kp19: 0,
+              totalChuyen: 0,
+              thongQua: 0,
+              kthtGiu: 0,
+              traSua: 0
+            };
+          }
+
+          let kp = '';
+          const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+          if (to === 'Tổ 1' || to.includes('1')) kp = '17';
+          else if (to === 'Tổ 2' || to.includes('2')) kp = '18';
+          else if (to === 'Tổ 3' || to.includes('3')) kp = '19';
+          else kp = r.khuPho ? String(r.khuPho).trim() : '';
+
+          if (kp === '17' || kp.includes('17')) map[cb].kp17++;
+          else if (kp === '18' || kp.includes('18')) map[cb].kp18++;
+          else if (kp === '19' || kp.includes('19')) map[cb].kp19++;
+
+          map[cb].totalChuyen++;
+
+          const st = r.trangThai || '';
+          if (st.includes('3.') || st.includes('thông qua')) {
+            map[cb].thongQua++;
+          } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+            map[cb].kthtGiu++;
+          } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả về') || st.includes('chuyển sửa')) {
+            map[cb].traSua++;
+          }
+        });
+
+        let list = Object.values(map);
+        if (isKhuPhoFiltered || (records && records.length < allRecords.length)) {
+          list = list.filter(item => item.totalChuyen > 0);
+        }
+        list.sort((a, b) => b.totalChuyen - a.totalChuyen || a.cbtl.localeCompare(b.cbtl, 'vi'));
+        return list;
+      }
+
+      // KHI CÓ LỌC NGÀY / TUẦN / THÁNG CỤ THỂ
+      const map = {};
+      records.forEach(r => {
+        const cb = (r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : ((r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa thụ lý / Trống');
+        let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
+        if (periodType === 'week') {
+          timeKey = getWeekLabel(r.ngayChuyen);
+        } else if (periodType === 'month') {
+          timeKey = getMonthLabel(r.ngayChuyen);
+        }
+
+        const key = `${timeKey}___${cb}`;
+        if (!map[key]) {
+          map[key] = {
+            timeKey: timeKey,
+            cbtl: cb,
+            kp17: 0,
+            kp18: 0,
+            kp19: 0,
+            totalChuyen: 0,
+            thongQua: 0,
+            kthtGiu: 0,
+            traSua: 0
+          };
+        }
+
+        let kp = '';
+        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+        if (to === 'Tổ 1' || to.includes('1')) kp = '17';
+        else if (to === 'Tổ 2' || to.includes('2')) kp = '18';
+        else if (to === 'Tổ 3' || to.includes('3')) kp = '19';
+        else kp = r.khuPho ? String(r.khuPho).trim() : '';
+
+        if (kp === '17' || kp.includes('17')) map[key].kp17++;
+        else if (kp === '18' || kp.includes('18')) map[key].kp18++;
+        else if (kp === '19' || kp.includes('19')) map[key].kp19++;
+
+        map[key].totalChuyen++;
+
+        const st = r.trangThai || '';
+        if (st.includes('3.') || st.includes('thông qua')) {
+          map[key].thongQua++;
+        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+          map[key].kthtGiu++;
+        } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả về') || st.includes('chuyển sửa')) {
+          map[key].traSua++;
+        }
+      });
+
+      let list = Object.values(map);
+      list.sort((a, b) => {
+        if (periodType === 'date') {
+          const dA = parseDate(a.timeKey);
+          const dB = parseDate(b.timeKey);
+          if (dA && dB && dB.valueOf() !== dA.valueOf()) return dB - dA;
+        }
+        const timeCompare = b.timeKey.localeCompare(a.timeKey, 'vi');
+        if (timeCompare !== 0) return timeCompare;
+        if (b.totalChuyen !== a.totalChuyen) return b.totalChuyen - a.totalChuyen;
+        return a.cbtl.localeCompare(b.cbtl, 'vi');
+      });
+
+      return list;
+    },
+
     // 8. Bổ sung 2 (Section VIII): Thống kê Cán bộ đem hồ sơ qua theo Ngày / Tuần / Tháng
     getOfficerTransferTimeBreakdown(records, periodType = 'date') {
       const map = {};
