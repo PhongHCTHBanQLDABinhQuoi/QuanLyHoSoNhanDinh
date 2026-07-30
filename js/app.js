@@ -36,6 +36,7 @@
   const trangThaiSelect = document.getElementById('trangThaiSelect');
   const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
   const dateFilterSelect = document.getElementById('dateFilterSelect');
+  const datePickerInput = document.getElementById('datePickerInput');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
 
   // KPI elements
@@ -62,6 +63,8 @@
     initTheme();
     startLiveClock();
     setupEventListeners();
+    populateDateDropdown();
+    updateChipCounts();
     updateDashboard();
 
     // Auto load live data from Google Sheet & set 30s auto-refresh
@@ -132,6 +135,7 @@
     if (ngayChuyenSelect) {
       ngayChuyenSelect.addEventListener('change', () => {
         if (dateFilterSelect) dateFilterSelect.value = ngayChuyenSelect.value;
+        if (datePickerInput) datePickerInput.value = '';
         handleFilterChange();
       });
     }
@@ -139,6 +143,25 @@
     if (dateFilterSelect) {
       dateFilterSelect.addEventListener('change', () => {
         if (ngayChuyenSelect) ngayChuyenSelect.value = dateFilterSelect.value;
+        if (datePickerInput) datePickerInput.value = '';
+        handleFilterChange();
+      });
+    }
+
+    if (datePickerInput) {
+      datePickerInput.addEventListener('change', (e) => {
+        const val = e.target.value;
+        if (!val) {
+          if (dateFilterSelect) dateFilterSelect.value = 'ALL';
+          if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+        } else {
+          const parts = val.split('-');
+          if (parts.length === 3) {
+            const formatted = `${parts[2]}/${parts[1]}/${parts[0]}`;
+            if (dateFilterSelect) dateFilterSelect.value = formatted;
+            if (ngayChuyenSelect) ngayChuyenSelect.value = formatted;
+          }
+        }
         handleFilterChange();
       });
     }
@@ -151,6 +174,7 @@
       trangThaiSelect.value = 'ALL';
       if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
       if (dateFilterSelect) dateFilterSelect.value = 'ALL';
+      if (datePickerInput) datePickerInput.value = '';
       
       // Reset chips UI
       document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
@@ -254,6 +278,8 @@
       console.warn('Google Sheet Live Sync warning:', err);
       sheetSyncBadge.className = 'sheet-sync-pill offline';
       sheetSyncBadge.innerHTML = `🔴 Dữ liệu Offline (${allRecords.length.toLocaleString('vi-VN')} hồ sơ)`;
+      populateDateDropdown();
+      updateChipCounts();
     } finally {
       if (syncSheetBtn) syncSheetBtn.classList.remove('spinning');
     }
