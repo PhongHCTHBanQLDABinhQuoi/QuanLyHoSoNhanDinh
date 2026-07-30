@@ -356,8 +356,52 @@
                 <button class="tab-btn" data-period="month">📆 Theo Tháng</button>
               </div>
             </div>
+
+            <!-- Dedicated Filter Toolbar for Table VII -->
+            <div class="filter-bar" style="margin-top: 0; background: rgba(0,0,0,0.03); border: 1px solid var(--border-color); border-radius: 10px; padding: 12px;">
+              <div class="filter-group search-group" style="flex: 2; min-width: 220px;">
+                <label for="searchInput7">🔍 Tìm kiếm thông minh hồ sơ</label>
+                <input type="text" id="searchInput7" class="filter-control" placeholder="Nhập tên chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
+              </div>
+              
+              <div class="filter-group" style="min-width: 130px;">
+                <label for="phankhuSelect7">📍 Phân Khu</label>
+                <select id="phankhuSelect7" class="filter-control">
+                  <option value="ALL">Tất cả Phân Khu</option>
+                  <option value="17">Khu Phố 17</option>
+                  <option value="18">Khu Phố 18</option>
+                  <option value="19">Khu Phố 19</option>
+                </select>
+              </div>
+
+              <div class="filter-group" style="min-width: 150px;">
+                <label for="ngayChuyenSelect7">📅 Ngày Chuyển</label>
+                <select id="ngayChuyenSelect7" class="filter-control">
+                  <option value="ALL">Tất cả các Ngày</option>
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+
+              <div class="filter-group" style="min-width: 155px;">
+                <label for="datePickerInput7">📆 Chọn Lịch Cụ Thể</label>
+                <input type="date" id="datePickerInput7" class="filter-control" title="Chọn ngày trực tiếp từ lịch calendar">
+              </div>
+
+              <div class="filter-group" style="min-width: 150px;">
+                <label for="trangThaiSelect7">📌 Trạng Thái</label>
+                <select id="trangThaiSelect7" class="filter-control">
+                  <option value="ALL">Tất cả Trạng Thái</option>
+                  <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua pháp lý</option>
+                  <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ thụ lý</option>
+                  <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả về chỉnh sửa lần 1</option>
+                  <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Hồ sơ chuyển sửa lại</option>
+                </select>
+              </div>
+
+              <button id="resetFilterBtn7" class="btn-reset-filter" style="align-self: flex-end; margin-bottom: 2px;">🔄 Đặt lại</button>
+            </div>
           </div>
-          <div class="section-body section-body-master-vi" style="overflow-x: auto; max-height: 850px; min-height: 450px;">
+          <div class="section-body section-body-master-vi" style="overflow-x: auto; max-height: 1350px; min-height: 1100px;">
             <table class="data-table" id="tableSection7">
               <thead>
                 <tr>

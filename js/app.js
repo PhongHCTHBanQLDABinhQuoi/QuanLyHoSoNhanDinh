@@ -36,6 +36,14 @@
   const datePickerInput = document.getElementById('datePickerInput');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
 
+  // Toolbar VII elements
+  const searchInput7 = document.getElementById('searchInput7');
+  const phankhuSelect7 = document.getElementById('phankhuSelect7');
+  const trangThaiSelect7 = document.getElementById('trangThaiSelect7');
+  const ngayChuyenSelect7 = document.getElementById('ngayChuyenSelect7');
+  const datePickerInput7 = document.getElementById('datePickerInput7');
+  const resetFilterBtn7 = document.getElementById('resetFilterBtn7');
+
   // KPI elements
   const kpiTotal = document.getElementById('kpiTotal');
   const kpiApproved = document.getElementById('kpiApproved');
@@ -113,84 +121,132 @@
     updateThemeUI(next);
   });
 
+  function syncFilterControls(source) {
+    if (source === 'toolbar7') {
+      if (searchInput && searchInput7) searchInput.value = searchInput7.value;
+      if (phankhuSelect && phankhuSelect7) phankhuSelect.value = phankhuSelect7.value;
+      if (trangThaiSelect && trangThaiSelect7) trangThaiSelect.value = trangThaiSelect7.value;
+      if (ngayChuyenSelect && ngayChuyenSelect7) ngayChuyenSelect.value = ngayChuyenSelect7.value;
+      if (datePickerInput && datePickerInput7) datePickerInput.value = datePickerInput7.value;
+    } else {
+      if (searchInput && searchInput7) searchInput7.value = searchInput.value;
+      if (phankhuSelect && phankhuSelect7) phankhuSelect7.value = phankhuSelect.value;
+      if (trangThaiSelect && trangThaiSelect7) trangThaiSelect7.value = trangThaiSelect.value;
+      if (ngayChuyenSelect && ngayChuyenSelect7) ngayChuyenSelect7.value = ngayChuyenSelect.value;
+      if (datePickerInput && datePickerInput7) datePickerInput7.value = datePickerInput.value;
+    }
+  }
+
   // 3. Event Listeners & Quick Chips
   function setupEventListeners() {
-    searchInput.addEventListener('input', handleFilterChange);
-    phankhuSelect.addEventListener('change', handleFilterChange);
-    trangThaiSelect.addEventListener('change', handleFilterChange);
+    const triggerSyncAndFilter = (source) => {
+      syncFilterControls(source);
+      handleFilterChange();
+    };
 
-    if (ngayChuyenSelect) {
-      ngayChuyenSelect.addEventListener('change', () => {
-        // Sync datePickerInput if an exact date DD/MM/YYYY is selected
-        if (datePickerInput) {
-          const val = ngayChuyenSelect.value;
-          if (val && val.includes('/')) {
-            const parts = val.split('/');
-            if (parts.length === 3) {
-              datePickerInput.value = `${parts[2]}-${parts[1].padStart(2, '0')}-${parts[0].padStart(2, '0')}`;
-            }
-          } else if (val === 'ALL') {
-            datePickerInput.value = '';
+    // Toolbar VI Listeners
+    if (searchInput) searchInput.addEventListener('input', () => triggerSyncAndFilter('toolbar6'));
+    if (phankhuSelect) phankhuSelect.addEventListener('change', () => triggerSyncAndFilter('toolbar6'));
+    if (trangThaiSelect) trangThaiSelect.addEventListener('change', () => triggerSyncAndFilter('toolbar6'));
+
+    // Toolbar VII Listeners
+    if (searchInput7) searchInput7.addEventListener('input', () => triggerSyncAndFilter('toolbar7'));
+    if (phankhuSelect7) phankhuSelect7.addEventListener('change', () => triggerSyncAndFilter('toolbar7'));
+    if (trangThaiSelect7) trangThaiSelect7.addEventListener('change', () => triggerSyncAndFilter('toolbar7'));
+
+    // Date Dropdown Listeners
+    const handleDateSelectChange = (sourceElem) => {
+      const val = sourceElem.value;
+      const targetPicker = sourceElem === ngayChuyenSelect ? datePickerInput : datePickerInput7;
+      if (targetPicker) {
+        if (val && val.includes('/')) {
+          const parts = val.split('/');
+          if (parts.length === 3) {
+            targetPicker.value = `${parts[2]}-${parts[1].padStart(2, '0')}-${parts[0].padStart(2, '0')}`;
           }
+        } else if (val === 'ALL') {
+          targetPicker.value = '';
         }
+      }
+      syncFilterControls(sourceElem === ngayChuyenSelect ? 'toolbar6' : 'toolbar7');
+      handleFilterChange();
+    };
+
+    if (ngayChuyenSelect) ngayChuyenSelect.addEventListener('change', () => handleDateSelectChange(ngayChuyenSelect));
+    if (ngayChuyenSelect7) ngayChuyenSelect7.addEventListener('change', () => handleDateSelectChange(ngayChuyenSelect7));
+
+    // Date Picker Listeners
+    const handleDatePickerChange = (sourcePicker) => {
+      const val = sourcePicker.value; // YYYY-MM-DD
+      const targetSelect = sourcePicker === datePickerInput ? ngayChuyenSelect : ngayChuyenSelect7;
+      if (!val) {
+        if (targetSelect) targetSelect.value = 'ALL';
+        syncFilterControls(sourcePicker === datePickerInput ? 'toolbar6' : 'toolbar7');
         handleFilterChange();
-      });
-    }
+        return;
+      }
 
-    if (datePickerInput) {
-      datePickerInput.addEventListener('change', () => {
-        const val = datePickerInput.value; // YYYY-MM-DD
-        if (!val) {
-          if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
-          handleFilterChange();
-          return;
+      const parts = val.split('-');
+      if (parts.length === 3) {
+        const formattedDate = `${parts[2]}/${parts[1]}/${parts[0]}`; // DD/MM/YYYY
+        
+        if (activePeriodType !== 'date') {
+          activePeriodType = 'date';
+          document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn').forEach(t => {
+            if (t.getAttribute('data-period') === 'date') t.classList.add('active');
+            else t.classList.remove('active');
+          });
+          populateDateDropdown();
         }
 
-        const parts = val.split('-');
-        if (parts.length === 3) {
-          const formattedDate = `${parts[2]}/${parts[1]}/${parts[0]}`; // DD/MM/YYYY
-          
-          if (activePeriodType !== 'date') {
-            activePeriodType = 'date';
-            document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn').forEach(t => {
-              if (t.getAttribute('data-period') === 'date') t.classList.add('active');
-              else t.classList.remove('active');
-            });
-            populateDateDropdown();
+        const updateSelectOption = (sel) => {
+          if (!sel) return;
+          const hasOption = Array.from(sel.options).some(o => o.value === formattedDate);
+          if (hasOption) {
+            sel.value = formattedDate;
+          } else {
+            const newOpt = document.createElement('option');
+            newOpt.value = formattedDate;
+            newOpt.textContent = `📅 ${formattedDate}`;
+            sel.appendChild(newOpt);
+            sel.value = formattedDate;
           }
+        };
 
-          if (ngayChuyenSelect) {
-            const hasOption = Array.from(ngayChuyenSelect.options).some(o => o.value === formattedDate);
-            if (hasOption) {
-              ngayChuyenSelect.value = formattedDate;
-            } else {
-              const newOpt = document.createElement('option');
-              newOpt.value = formattedDate;
-              newOpt.textContent = `📅 ${formattedDate}`;
-              ngayChuyenSelect.appendChild(newOpt);
-              ngayChuyenSelect.value = formattedDate;
-            }
-          }
+        updateSelectOption(ngayChuyenSelect);
+        updateSelectOption(ngayChuyenSelect7);
 
-          handleFilterChange();
-        }
-      });
-    }
+        syncFilterControls(sourcePicker === datePickerInput ? 'toolbar6' : 'toolbar7');
+        handleFilterChange();
+      }
+    };
 
-    resetFilterBtn.addEventListener('click', () => {
-      searchInput.value = '';
-      phankhuSelect.value = 'ALL';
-      trangThaiSelect.value = 'ALL';
+    if (datePickerInput) datePickerInput.addEventListener('change', () => handleDatePickerChange(datePickerInput));
+    if (datePickerInput7) datePickerInput7.addEventListener('change', () => handleDatePickerChange(datePickerInput7));
+
+    // Reset Buttons
+    const handleResetAll = () => {
+      if (searchInput) searchInput.value = '';
+      if (phankhuSelect) phankhuSelect.value = 'ALL';
+      if (trangThaiSelect) trangThaiSelect.value = 'ALL';
       if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
       if (datePickerInput) datePickerInput.value = '';
-      
-      // Reset chips UI
+
+      if (searchInput7) searchInput7.value = '';
+      if (phankhuSelect7) phankhuSelect7.value = 'ALL';
+      if (trangThaiSelect7) trangThaiSelect7.value = 'ALL';
+      if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
+      if (datePickerInput7) datePickerInput7.value = '';
+
       document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
       const defaultChip = document.querySelector('.chip-btn[data-chip-val="ALL"]');
       if (defaultChip) defaultChip.classList.add('active');
 
       handleFilterChange();
-    });
+    };
+
+    if (resetFilterBtn) resetFilterBtn.addEventListener('click', handleResetAll);
+    if (resetFilterBtn7) resetFilterBtn7.addEventListener('click', handleResetAll);
 
     // Quick Chip Buttons
     const chips = document.querySelectorAll('.chip-btn');
@@ -424,18 +480,17 @@
   function populateDateDropdown() {
     if (!allRecords || allRecords.length === 0) return;
 
-    const labelElem = document.querySelector('label[for="ngayChuyenSelect"]');
+    const labelElems = document.querySelectorAll('label[for="ngayChuyenSelect"], label[for="ngayChuyenSelect7"]');
     let defaultText = 'Tất cả các Ngày';
+    let labelText = '📅 Ngày Chuyển';
     if (activePeriodType === 'week') {
-      if (labelElem) labelElem.textContent = '🗓️ Tuần Chuyển';
+      labelText = '🗓️ Tuần Chuyển';
       defaultText = 'Tất cả các Tuần';
     } else if (activePeriodType === 'month') {
-      if (labelElem) labelElem.textContent = '📆 Tháng Chuyển';
+      labelText = '📆 Tháng Chuyển';
       defaultText = 'Tất cả các Tháng';
-    } else {
-      if (labelElem) labelElem.textContent = '📅 Ngày Chuyển';
-      defaultText = 'Tất cả các Ngày';
     }
+    labelElems.forEach(l => l.textContent = labelText);
 
     const map = {};
     allRecords.forEach(r => {
@@ -467,15 +522,19 @@
       .concat(sortedKeys.map(k => `<option value="${k}">${prefix}${k} (${map[k]} hồ sơ)</option>`))
       .join('');
 
-    if (ngayChuyenSelect) {
-      const val = ngayChuyenSelect.value;
-      ngayChuyenSelect.innerHTML = optionsHtml;
-      if (val && Array.from(ngayChuyenSelect.options).some(o => o.value === val)) {
-        ngayChuyenSelect.value = val;
+    const updateDropdown = (sel) => {
+      if (!sel) return;
+      const val = sel.value;
+      sel.innerHTML = optionsHtml;
+      if (val && Array.from(sel.options).some(o => o.value === val)) {
+        sel.value = val;
       } else {
-        ngayChuyenSelect.value = 'ALL';
+        sel.value = 'ALL';
       }
-    }
+    };
+
+    updateDropdown(ngayChuyenSelect);
+    updateDropdown(ngayChuyenSelect7);
   }
 
   function handleFilterChange() {
