@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theo Dõi Tiến Độ Hồ Sơ Pháp Lý - Bình Quới Thanh Đa</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Chart.js (Local offline support) -->
+  <script src="js/chart.min.js"></script>
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-top">
+      <div class="header-title-group">
+        <div class="header-badge">🏛️ BAN BỒI THƯỜNG & PHÒNG KTHTĐT</div>
+        <h1>BẢNG THEO DÕI TIẾN ĐỘ PHÁP LÝ CHI TIẾT THEO PHÂN KHU</h1>
+        <p>
+          Dự án Khu đô thị mới Bình Quới - Thanh Đa
+          <span class="live-clock-pill" id="liveClockDisplay">📅 --/--/---- --:--:--</span>
+        </p>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" title="Chuyển chế độ Giao diện">
+          <span id="themeIcon">🌙</span> <span id="themeText">Chế độ Tối</span>
+        </button>
+        <button id="exportCsvBtn" class="btn-header-action btn-export-excel" title="Xuất dữ liệu ra file Excel">
+          📥 Xuất Excel (CSV)
+        </button>
+        <button id="printReportBtn" class="btn-header-action btn-print" title="In hoặc lưu dạng PDF">
+          🖨️ In Báo Cáo
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="app-container">
+
+    <!-- Quick Filter Chips -->
+    <div class="quick-chips-bar">
+      <span class="quick-chip-label">⚡ Lọc nhanh:</span>
+      <button class="chip-btn active" data-chip-type="kp" data-chip-val="ALL">Tất cả (1.141)</button>
+      <button class="chip-btn" data-chip-type="kp" data-chip-val="17">Khu Phố 17 (323)</button>
+      <button class="chip-btn" data-chip-type="kp" data-chip-val="18">Khu Phố 18 (295)</button>
+      <button class="chip-btn" data-chip-type="kp" data-chip-val="19">Khu Phố 19 (523)</button>
+      <button class="chip-btn" data-chip-type="st" data-chip-val="3.">✅ Đã thông qua (662)</button>
+      <button class="chip-btn" data-chip-type="st" data-chip-val="1.">⏳ KTHT đang giữ (477)</button>
+      <button class="chip-btn" data-chip-type="st" data-chip-val="2.1">⚠️ Trả sửa (2)</button>
+    </div>
+
+    <!-- Global Filter Bar -->
+    <div class="filter-bar">
+      <div class="filter-group search-group">
+        <label for="searchInput">🔍 Tìm kiếm thông minh hồ sơ</label>
+        <input type="text" id="searchInput" class="filter-control" placeholder="Nhập tên chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
+      </div>
+      
+      <div class="filter-group">
+        <label for="phankhuSelect">📍 Phân Khu</label>
+        <select id="phankhuSelect" class="filter-control">
+          <option value="ALL">Tất cả Phân Khu</option>
+          <option value="17">Khu Phố 17</option>
+          <option value="18">Khu Phố 18</option>
+          <option value="19">Khu Phố 19</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="toBoiThuongSelect">👥 Tổ Bồi Thường</label>
+        <select id="toBoiThuongSelect" class="filter-control">
+          <option value="ALL">Tất cả Tổ</option>
+          <option value="Tổ 1">Tổ 1</option>
+          <option value="Tổ 2">Tổ 2</option>
+          <option value="Tổ 3">Tổ 3</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="trangThaiSelect">📌 Trạng Thái Pháp Lý</label>
+        <select id="trangThaiSelect" class="filter-control">
+          <option value="ALL">Tất cả Trạng Thái</option>
+          <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua pháp lý</option>
+          <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ thụ lý</option>
+          <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả về chỉnh sửa lần 1</option>
+          <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Hồ sơ chuyển sửa lại</option>
+        </select>
+      </div>
+
+      <button id="resetFilterBtn" class="btn-reset-filter">🔄 Đặt lại bộ lọc</button>
+    </div>
+
+    <!-- KPI Summary Cards -->
+    <div class="kpi-grid">
+      <div class="kpi-card kpi-total">
+        <div class="kpi-header">
+          <span class="kpi-title">TỔNG HỒ SƠ CHUYỂN</span>
+          <span class="kpi-icon">📁</span>
+        </div>
+        <div class="kpi-value" id="kpiTotal">1,141</div>
+        <div class="kpi-subtitle">Hồ sơ đã tiếp nhận từ Ban Bồi Thường</div>
+      </div>
+
+      <div class="kpi-card kpi-approved">
+        <div class="kpi-header">
+          <span class="kpi-title">ĐÃ THÔNG QUA PHÁP LÝ</span>
+          <span class="kpi-icon">✅</span>
+        </div>
+        <div class="kpi-value" id="kpiApproved">662</div>
+        <div class="kpi-subtitle"><span id="kpiApprovedPct" style="font-weight:800; color:var(--success-green);">58.0%</span> tổng số hồ sơ</div>
+        <div class="kpi-progress-bar">
+          <div class="kpi-progress-fill" id="kpiApprovedBar" style="width: 58%;"></div>
+        </div>
+      </div>
+
+      <div class="kpi-card kpi-holding">
+        <div class="kpi-header">
+          <span class="kpi-title">KTHT ĐANG GIỮ THỤ LÝ</span>
+          <span class="kpi-icon">⏳</span>
+        </div>
+        <div class="kpi-value" id="kpiHolding">477</div>
+        <div class="kpi-subtitle"><span id="kpiHoldingPct" style="font-weight:800; color:var(--warning-amber);">41.8%</span> đang thẩm định</div>
+        <div class="kpi-progress-bar">
+          <div class="kpi-progress-fill" id="kpiHoldingBar" style="width: 41.8%;"></div>
+        </div>
+      </div>
+
+      <div class="kpi-card kpi-returned">
+        <div class="kpi-header">
+          <span class="kpi-title">TRẢ SỬA / CHUYỂN LẠI</span>
+          <span class="kpi-icon">⚠️</span>
+        </div>
+        <div class="kpi-value" id="kpiReturned">2</div>
+        <div class="kpi-subtitle"><span id="kpiReturnedPct" style="font-weight:800; color:var(--danger-red);">0.2%</span> cần cập nhật bản vẽ/HS</div>
+        <div class="kpi-progress-bar">
+          <div class="kpi-progress-fill" id="kpiReturnedBar" style="width: 0.2%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts Row -->
+    <div class="dashboard-grid">
+      <div class="col-8">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>📈 Biểu đồ Lượng hồ sơ chuyển sang theo Ngày</h2>
+            <span class="section-tag">Diễn biến thời gian</span>
+          </div>
+          <div class="section-body padded">
+            <canvas id="timelineChart" height="110"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>📊 Tỷ lệ Phân bổ theo Phân Khu</h2>
+            <span class="section-tag">KP 17 - 18 - 19</span>
+          </div>
+          <div class="section-body padded">
+            <canvas id="khuphoChart" height="230"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TABLES SECTION -->
+
+    <!-- Section I & Section III -->
+    <div class="dashboard-grid">
+      <!-- Section I -->
+      <div class="col-6">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>I. BẢNG THEO DÕI TIẾN ĐỘ PHÁP LÝ CHI TIẾT THEO TỪNG PHÂN KHU</h2>
+          </div>
+          <div class="section-body">
+            <table class="data-table" id="tableSection1">
+              <thead>
+                <tr>
+                  <th>ĐƠN VỊ</th>
+                  <th class="text-center">TỔNG HS</th>
+                  <th class="text-center">ĐÃ THÔNG QUA</th>
+                  <th class="text-center">KTHT ĐANG GIỮ</th>
+                  <th class="text-center">TRẢ SỬA</th>
+                  <th class="text-center">CHUYỂN SỬA LẠI</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection1">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section III -->
+      <div class="col-6">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>III. CHI TIẾT DIỄN BIẾN TRẠNG THÁI HỒ SƠ</h2>
+          </div>
+          <div class="section-body">
+            <table class="data-table" id="tableSection3">
+              <thead>
+                <tr>
+                  <th>DANH MỤC PHÂN LOẠI</th>
+                  <th class="text-center">KP 17</th>
+                  <th class="text-center">KP 18</th>
+                  <th class="text-center">KP 19</th>
+                  <th class="text-center">TỔNG</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection3">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section II & Section VII (Bổ sung 1) -->
+    <div class="dashboard-grid">
+      <!-- Section II -->
+      <div class="col-8">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>II. KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ BBT</h2>
+            <span class="section-tag" id="countOfficersTag">36 Cán bộ</span>
+          </div>
+          <div class="section-body max-height-table">
+            <table class="data-table" id="tableSection2">
+              <thead>
+                <tr>
+                  <th>DANH MỤC CÁN BỘ BBT</th>
+                  <th class="text-center">KP 17</th>
+                  <th class="text-center">KP 18</th>
+                  <th class="text-center">KP 19</th>
+                  <th class="text-center">TỔNG CỘNG</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection2">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section VII: Bổ sung 1 - Pháp chế kiểm tra -->
+      <div class="col-4">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>VII. KHỐI LƯỢNG HỒ SƠ THEO PHÁP CHẾ KIỂM TRA</h2>
+            <span class="section-tag">Bổ sung 1</span>
+          </div>
+          <div class="section-body max-height-table">
+            <table class="data-table" id="tableSection7">
+              <thead>
+                <tr>
+                  <th>PHÁP CHẾ KIỂM TRA</th>
+                  <th class="text-center">ĐÃ THÔNG QUA</th>
+                  <th class="text-center">KTHT GIỮ</th>
+                  <th class="text-center">TỔNG</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection7">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section IV & Section V -->
+    <div class="dashboard-grid">
+      <!-- Section IV -->
+      <div class="col-6">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>IV. THỐNG KÊ TỶ LỆ DIỆN TÍCH GIẢI TỎA</h2>
+          </div>
+          <div class="section-body">
+            <table class="data-table" id="tableSection4">
+              <thead>
+                <tr>
+                  <th>DANH MỤC PHÂN LOẠI</th>
+                  <th class="text-center">KP 17</th>
+                  <th class="text-center">KP 18</th>
+                  <th class="text-center">KP 19</th>
+                  <th class="text-center">TỔNG</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection4">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section V -->
+      <div class="col-6">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>V. PHÂN BIỆT ĐIỀU HÀNH THEO TỔ BỒI THƯỜNG</h2>
+          </div>
+          <div class="section-body">
+            <table class="data-table" id="tableSection5">
+              <thead>
+                <tr>
+                  <th>DANH MỤC TỔ BỒI THƯỜNG</th>
+                  <th class="text-center">KP 17</th>
+                  <th class="text-center">KP 18</th>
+                  <th class="text-center">KP 19</th>
+                  <th class="text-center">TỔNG</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection5">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section VI & Section VIII (Bổ sung 2) -->
+    <div class="dashboard-grid">
+      <!-- Section VI -->
+      <div class="col-6">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>VI. LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY</h2>
+          </div>
+          <div class="section-body max-height-table">
+            <table class="data-table" id="tableSection6">
+              <thead>
+                <tr>
+                  <th>NGÀY CHUYỂN</th>
+                  <th class="text-center">KP 17</th>
+                  <th class="text-center">KP 18</th>
+                  <th class="text-center">KP 19</th>
+                  <th class="text-center">TỔNG CỘNG</th>
+                </tr>
+              </thead>
+              <tbody id="tbodySection6">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section VIII: Bổ sung 2 -->
+      <div class="col-6">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>VIII. THỐNG KÊ HỒ SƠ CÁN BỘ ĐEM QUA THEO THỜI GIAN</h2>
+            <div class="tab-group" id="timePeriodTabs">
+              <button class="tab-btn active" data-period="date">Ngày</button>
+              <button class="tab-btn" data-period="week">Tuần</button>
+              <button class="tab-btn" data-period="month">Tháng</button>
+            </div>
+          </div>
+          <div class="section-body max-height-table">
+            <table class="data-table" id="tableSection8">
+              <thead id="theadSection8">
+                <!-- Header changes dynamically -->
+              </thead>
+              <tbody id="tbodySection8">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section IX: DANH SÁCH CHI TIẾT HỒ SƠ -->
+    <div class="dashboard-grid">
+      <div class="col-12">
+        <div class="section-card">
+          <div class="section-header">
+            <h2>📋 IX. DANH SÁCH CHI TIẾT HỒ SƠ PHÁP LÝ (BẤM VÀO HÀNG ĐỂ XEM CHI TIẾT)</h2>
+            <span class="section-tag" id="recordCountDisplay">1,141 Hồ sơ</span>
+          </div>
+          <div class="section-body" style="overflow-x: auto;">
+            <table class="data-table" id="detailRecordTable">
+              <thead>
+                <tr>
+                  <th>STT</th>
+                  <th>CÁN BỘ BBT</th>
+                  <th>CB THỤ LÝ KTHT</th>
+                  <th>NGÀY CHUYỂN</th>
+                  <th>TỔ BT</th>
+                  <th>HỌ VÀ TÊN CHỦ HỘ</th>
+                  <th>ĐỊA CHỈ / ĐƯỜNG</th>
+                  <th class="text-center">KP</th>
+                  <th class="text-center">TỜ</th>
+                  <th class="text-center">THỬA</th>
+                  <th class="text-right">GT MỘT PHẦN (M²)</th>
+                  <th class="text-right">GT TOÀN PHẦN (M²)</th>
+                  <th>TRẠNG THÁI</th>
+                  <th>GHI CHÚ</th>
+                </tr>
+              </thead>
+              <tbody id="detailRecordTbody">
+                <!-- Rendered dynamically with pagination -->
+              </tbody>
+            </table>
+          </div>
+          <div class="table-pagination">
+            <div id="paginationInfo">Hiển thị 1 - 20 trong số 1,141 hồ sơ</div>
+            <div class="pagination-btn-group" id="paginationControls">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- /app-container -->
+
+  <!-- Interactive Detail View Modal -->
+  <div class="modal-overlay" id="recordDetailModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>📄 CHI TIẾT HỒ SƠ BỒI THƯỜNG & PHÁP LÝ</h3>
+        <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid" id="modalDetailContent">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Footer -->
+  <footer class="app-footer">
+    <p>Hệ thống Trang Web Bảng Theo Dõi Tiến Độ Pháp Lý Hồ Sơ Dự Án Khu Đô Thị Mới Bình Quới - Thanh Đa</p>
+    <p style="margin-top: 4px; opacity: 0.7;">Bản quyền &copy; 2026 Ban Bồi Thường & Phòng Kinh Tế - Hạ Tầng - Đầu Tư</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

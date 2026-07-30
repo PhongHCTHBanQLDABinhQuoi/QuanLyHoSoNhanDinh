@@ -1,0 +1,794 @@
+/**
+ * app.js - Main Application Logic, Dynamic Interactivity & Executive Features
+ */
+
+(function () {
+  'use strict';
+
+  // State Management
+  let allRecords = window.DOSSIER_DATA || [];
+  let filteredRecords = [...allRecords];
+  let currentPage = 1;
+  const pageSize = 20;
+  let activePeriodType = 'date'; // 'date', 'week', 'month' for Section VIII
+
+  let timelineChartInstance = null;
+  let khuphoChartInstance = null;
+
+  // DOM Elements
+  const themeToggleBtn = document.getElementById('themeToggleBtn');
+  const themeIcon = document.getElementById('themeIcon');
+  const themeText = document.getElementById('themeText');
+  const exportCsvBtn = document.getElementById('exportCsvBtn');
+  const printReportBtn = document.getElementById('printReportBtn');
+  const liveClockDisplay = document.getElementById('liveClockDisplay');
+
+  const searchInput = document.getElementById('searchInput');
+  const phankhuSelect = document.getElementById('phankhuSelect');
+  const toBoiThuongSelect = document.getElementById('toBoiThuongSelect');
+  const trangThaiSelect = document.getElementById('trangThaiSelect');
+  const resetFilterBtn = document.getElementById('resetFilterBtn');
+
+  // KPI elements
+  const kpiTotal = document.getElementById('kpiTotal');
+  const kpiApproved = document.getElementById('kpiApproved');
+  const kpiApprovedPct = document.getElementById('kpiApprovedPct');
+  const kpiApprovedBar = document.getElementById('kpiApprovedBar');
+  
+  const kpiHolding = document.getElementById('kpiHolding');
+  const kpiHoldingPct = document.getElementById('kpiHoldingPct');
+  const kpiHoldingBar = document.getElementById('kpiHoldingBar');
+
+  const kpiReturned = document.getElementById('kpiReturned');
+  const kpiReturnedPct = document.getElementById('kpiReturnedPct');
+  const kpiReturnedBar = document.getElementById('kpiReturnedBar');
+
+  // Modal elements
+  const recordDetailModal = document.getElementById('recordDetailModal');
+  const modalCloseBtn = document.getElementById('modalCloseBtn');
+  const modalDetailContent = document.getElementById('modalDetailContent');
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
+    startLiveClock();
+    setupEventListeners();
+    updateDashboard();
+  });
+
+  // 1. Live Clock Widget
+  function startLiveClock() {
+    function updateClock() {
+      const now = new Date();
+      const day = String(now.getDate()).padStart(2, '0');
+      const month = String(now.getMonth() + 1).padStart(2, '0');
+      const year = now.getFullYear();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+
+      if (liveClockDisplay) {
+        liveClockDisplay.textContent = `📅 ${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;
+      }
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  }
+
+  // 2. Theme Management
+  function initTheme() {
+    const savedTheme = localStorage.getItem('dossier_theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeUI(savedTheme);
+  }
+
+  function updateThemeUI(theme) {
+    if (theme === 'dark') {
+      themeIcon.textContent = '☀️';
+      themeText.textContent = 'Chế độ Sáng';
+    } else {
+      themeIcon.textContent = '🌙';
+      themeText.textContent = 'Chế độ Tối';
+    }
+  }
+
+  themeToggleBtn.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('dossier_theme', next);
+    updateThemeUI(next);
+  });
+
+  // 3. Event Listeners & Quick Chips
+  function setupEventListeners() {
+    searchInput.addEventListener('input', handleFilterChange);
+    phankhuSelect.addEventListener('change', handleFilterChange);
+    toBoiThuongSelect.addEventListener('change', handleFilterChange);
+    trangThaiSelect.addEventListener('change', handleFilterChange);
+
+    resetFilterBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      phankhuSelect.value = 'ALL';
+      toBoiThuongSelect.value = 'ALL';
+      trangThaiSelect.value = 'ALL';
+      
+      // Reset chips UI
+      document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
+      const defaultChip = document.querySelector('.chip-btn[data-chip-val="ALL"]');
+      if (defaultChip) defaultChip.classList.add('active');
+
+      handleFilterChange();
+    });
+
+    // Quick Chip Buttons
+    const chips = document.querySelectorAll('.chip-btn');
+    chips.forEach(chip => {
+      chip.addEventListener('click', (e) => {
+        chips.forEach(c => c.classList.remove('active'));
+        const target = e.currentTarget;
+        target.classList.add('active');
+
+        const chipType = target.getAttribute('data-chip-type');
+        const chipVal = target.getAttribute('data-chip-val');
+
+        if (chipType === 'kp') {
+          phankhuSelect.value = chipVal;
+          trangThaiSelect.value = 'ALL';
+        } else if (chipType === 'st') {
+          phankhuSelect.value = 'ALL';
+          trangThaiSelect.value = chipVal === 'ALL' ? 'ALL' : (chipVal === '3.' ? '3. Hồ sơ thông qua nhận định pháp lý' : (chipVal === '1.' ? '1. Đã chuyển phòng KTHTĐT' : '2.1. Trả về chỉnh sửa lần 1'));
+        }
+
+        handleFilterChange();
+      });
+    });
+
+    // Time Period Tabs for Section VIII
+    const tabs = document.querySelectorAll('#timePeriodTabs .tab-btn');
+    tabs.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        tabs.forEach(t => t.classList.remove('active'));
+        e.target.classList.add('active');
+        activePeriodType = e.target.getAttribute('data-period');
+        renderSection8();
+      });
+    });
+
+    exportCsvBtn.addEventListener('click', exportToCSV);
+    if (printReportBtn) {
+      printReportBtn.addEventListener('click', () => window.print());
+    }
+
+    // Modal Close Events
+    modalCloseBtn.addEventListener('click', closeModal);
+    recordDetailModal.addEventListener('click', (e) => {
+      if (e.target === recordDetailModal) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+  }
+
+  function handleFilterChange() {
+    const query = searchInput.value.toLowerCase().trim();
+    const kpFilter = phankhuSelect.value;
+    const toFilter = toBoiThuongSelect.value;
+    const stFilter = trangThaiSelect.value;
+
+    filteredRecords = allRecords.filter(r => {
+      if (kpFilter !== 'ALL' && r.khuPho !== kpFilter) return false;
+      if (toFilter !== 'ALL' && r.toBoiThuong !== toFilter) return false;
+      if (stFilter !== 'ALL') {
+        if (!r.trangThai || !r.trangThai.includes(stFilter.substring(0, 2))) return false;
+      }
+      if (query) {
+        const text = `${r.stt} ${r.canBoBBT} ${r.canBoKTHT} ${r.hoTen} ${r.diaChi} ${r.duong} ${r.toBanDo} ${r.thuaDat} ${r.ghiChu}`.toLowerCase();
+        if (!text.includes(query)) return false;
+      }
+      return true;
+    });
+
+    currentPage = 1;
+    updateDashboard();
+  }
+
+  // 4. Main Dashboard Render Function
+  function updateDashboard() {
+    renderKPIs();
+    renderCharts();
+    renderSection1();
+    renderSection2();
+    renderSection3();
+    renderSection4();
+    renderSection5();
+    renderSection6();
+    renderSection7();
+    renderSection8();
+    renderDetailTable();
+  }
+
+  // 5. Render KPIs
+  function renderKPIs() {
+    const total = filteredRecords.length;
+    let approved = 0;
+    let holding = 0;
+    let returned = 0;
+
+    filteredRecords.forEach(r => {
+      const st = r.trangThai || '';
+      if (st.includes('3.') || st.includes('thông qua')) approved++;
+      else if (st.includes('1.') || st.includes('Đã chuyển')) holding++;
+      else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa')) returned++;
+    });
+
+    kpiTotal.textContent = total.toLocaleString('vi-VN');
+    kpiApproved.textContent = approved.toLocaleString('vi-VN');
+    kpiHolding.textContent = holding.toLocaleString('vi-VN');
+    kpiReturned.textContent = returned.toLocaleString('vi-VN');
+
+    const appPct = total > 0 ? ((approved / total) * 100).toFixed(1) : '0.0';
+    const holdPct = total > 0 ? ((holding / total) * 100).toFixed(1) : '0.0';
+    const retPct = total > 0 ? ((returned / total) * 100).toFixed(1) : '0.0';
+
+    kpiApprovedPct.textContent = `${appPct}%`;
+    kpiApprovedBar.style.width = `${appPct}%`;
+
+    kpiHoldingPct.textContent = `${holdPct}%`;
+    kpiHoldingBar.style.width = `${holdPct}%`;
+
+    kpiReturnedPct.textContent = `${retPct}%`;
+    kpiReturnedBar.style.width = `${retPct}%`;
+  }
+
+  // 6. Render Section I
+  function renderSection1() {
+    const data = Analytics.getLegalProgressByKhuPho(filteredRecords);
+    const tbody = document.getElementById('tbodySection1');
+    tbody.innerHTML = '';
+
+    const rows = ['KP 17', 'KP 18', 'KP 19', 'TỔNG CỘNG'];
+    rows.forEach(key => {
+      const item = data[key];
+      const tot = item.total;
+      const isTotal = key === 'TỔNG CỘNG';
+      const tr = document.createElement('tr');
+      if (isTotal) tr.classList.add('total-row');
+
+      const pct = (val) => tot > 0 ? `(${((val / tot) * 100).toFixed(1)}%)` : '(0.0%)';
+
+      tr.innerHTML = `
+        <td><strong>${key}</strong></td>
+        <td class="text-center"><strong>${tot}</strong></td>
+        <td class="text-center">${item.thongQua} <span class="pct-pill">${pct(item.thongQua)}</span></td>
+        <td class="text-center">${item.kthtGiu} <span class="pct-pill">${pct(item.kthtGiu)}</span></td>
+        <td class="text-center">${item.traSua} <span class="pct-pill">${pct(item.traSua)}</span></td>
+        <td class="text-center">${item.chuyenSuaLai} <span class="pct-pill">${pct(item.chuyenSuaLai)}</span></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // 7. Render Section II (Cán bộ BBT)
+  function renderSection2() {
+    const list = Analytics.getVolumeByOfficer(filteredRecords);
+    const tbody = document.getElementById('tbodySection2');
+    tbody.innerHTML = '';
+
+    document.getElementById('countOfficersTag').textContent = `${list.length} Cán bộ`;
+
+    let totalKP17 = 0, totalKP18 = 0, totalKP19 = 0, grandTotal = 0;
+
+    list.forEach(item => {
+      totalKP17 += item.kp17;
+      totalKP18 += item.kp18;
+      totalKP19 += item.kp19;
+      grandTotal += item.total;
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><strong>${item.name}</strong></td>
+        <td class="text-center">${item.kp17 || 0}</td>
+        <td class="text-center">${item.kp18 || 0}</td>
+        <td class="text-center">${item.kp19 || 0}</td>
+        <td class="text-center"><strong>${item.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    const trTotal = document.createElement('tr');
+    trTotal.classList.add('total-row');
+    trTotal.innerHTML = `
+      <td>TỔNG CỘNG</td>
+      <td class="text-center">${totalKP17}</td>
+      <td class="text-center">${totalKP18}</td>
+      <td class="text-center">${totalKP19}</td>
+      <td class="text-center">${grandTotal}</td>
+    `;
+    tbody.appendChild(trTotal);
+  }
+
+  // 8. Render Section III (Trạng thái)
+  function renderSection3() {
+    const map = Analytics.getStatusDetail(filteredRecords);
+    const tbody = document.getElementById('tbodySection3');
+    tbody.innerHTML = '';
+
+    const keys = [
+      '3. Hồ sơ thông qua nhận định pháp lý',
+      '1. Đã chuyển phòng KTHTĐT',
+      '2.1. Trả về chỉnh sửa lần 1',
+      '4. Hồ sơ chuyển sửa chỉnh lại'
+    ];
+
+    let t17 = 0, t18 = 0, t19 = 0, grand = 0;
+
+    keys.forEach(key => {
+      const item = map[key] || { 'KP 17': 0, 'KP 18': 0, 'KP 19': 0, total: 0 };
+      t17 += item['KP 17'];
+      t18 += item['KP 18'];
+      t19 += item['KP 19'];
+      grand += item.total;
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${key}</td>
+        <td class="text-center">${item['KP 17']}</td>
+        <td class="text-center">${item['KP 18']}</td>
+        <td class="text-center">${item['KP 19']}</td>
+        <td class="text-center"><strong>${item.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    const trTotal = document.createElement('tr');
+    trTotal.classList.add('total-row');
+    trTotal.innerHTML = `
+      <td>TỔNG CỘNG</td>
+      <td class="text-center">${t17}</td>
+      <td class="text-center">${t18}</td>
+      <td class="text-center">${t19}</td>
+      <td class="text-center">${grand}</td>
+    `;
+    tbody.appendChild(trTotal);
+  }
+
+  // 9. Render Section IV (Giải tỏa)
+  function renderSection4() {
+    const stats = Analytics.getClearanceStats(filteredRecords);
+    const tbody = document.getElementById('tbodySection4');
+    tbody.innerHTML = '';
+
+    const rows = [
+      { label: 'Giải tỏa toàn phần (số HS)', data: stats.toanPhan },
+      { label: 'Giải tỏa một phần (số HS)', data: stats.motPhan }
+    ];
+
+    rows.forEach(r => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${r.label}</td>
+        <td class="text-center">${r.data['KP 17']}</td>
+        <td class="text-center">${r.data['KP 18']}</td>
+        <td class="text-center">${r.data['KP 19']}</td>
+        <td class="text-center"><strong>${r.data.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // 10. Render Section V (Tổ bồi thường)
+  function renderSection5() {
+    const map = Analytics.getCompensationTeamStats(filteredRecords);
+    const tbody = document.getElementById('tbodySection5');
+    tbody.innerHTML = '';
+
+    const teams = ['Tổ 1', 'Tổ 2', 'Tổ 3'];
+    let t17 = 0, t18 = 0, t19 = 0, grand = 0;
+
+    teams.forEach(t => {
+      const item = map[t] || { 'KP 17': 0, 'KP 18': 0, 'KP 19': 0, total: 0 };
+      t17 += item['KP 17'];
+      t18 += item['KP 18'];
+      t19 += item['KP 19'];
+      grand += item.total;
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><strong>${t}</strong></td>
+        <td class="text-center">${item['KP 17']}</td>
+        <td class="text-center">${item['KP 18']}</td>
+        <td class="text-center">${item['KP 19']}</td>
+        <td class="text-center"><strong>${item.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    const trTotal = document.createElement('tr');
+    trTotal.classList.add('total-row');
+    trTotal.innerHTML = `
+      <td>TỔNG CỘNG</td>
+      <td class="text-center">${t17}</td>
+      <td class="text-center">${t18}</td>
+      <td class="text-center">${t19}</td>
+      <td class="text-center">${grand}</td>
+    `;
+    tbody.appendChild(trTotal);
+  }
+
+  // 11. Render Section VI (Hồ sơ chuyển theo ngày)
+  function renderSection6() {
+    const list = Analytics.getVolumeByDate(filteredRecords);
+    const tbody = document.getElementById('tbodySection6');
+    tbody.innerHTML = '';
+
+    let t17 = 0, t18 = 0, t19 = 0, grand = 0;
+
+    list.forEach(item => {
+      t17 += item.kp17;
+      t18 += item.kp18;
+      t19 += item.kp19;
+      grand += item.total;
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td class="text-center">${item.kp17}</td>
+        <td class="text-center">${item.kp18}</td>
+        <td class="text-center">${item.kp19}</td>
+        <td class="text-center"><strong>${item.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    const trTotal = document.createElement('tr');
+    trTotal.classList.add('total-row');
+    trTotal.innerHTML = `
+      <td>TỔNG CỘNG</td>
+      <td class="text-center">${t17}</td>
+      <td class="text-center">${t18}</td>
+      <td class="text-center">${t19}</td>
+      <td class="text-center">${grand}</td>
+    `;
+    tbody.appendChild(trTotal);
+  }
+
+  // 12. Render Section VII (Pháp chế kiểm tra)
+  function renderSection7() {
+    const list = Analytics.getVolumeByPhapChe(filteredRecords);
+    const tbody = document.getElementById('tbodySection7');
+    tbody.innerHTML = '';
+
+    list.forEach(item => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><strong>${item.name}</strong></td>
+        <td class="text-center"><span class="badge badge-success">${item.thongQua}</span></td>
+        <td class="text-center"><span class="badge badge-warning">${item.kthtGiu}</span></td>
+        <td class="text-center"><strong>${item.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // 13. Render Section VIII (Cán bộ đem qua theo Thời gian)
+  function renderSection8() {
+    const timeList = Analytics.getOfficerTransferTimeBreakdown(filteredRecords, activePeriodType);
+    const thead = document.getElementById('theadSection8');
+    const tbody = document.getElementById('tbodySection8');
+
+    let periodLabel = 'NGÀY CHUYỂN';
+    if (activePeriodType === 'week') periodLabel = 'TUẦN CHUYỂN HỒ SƠ';
+    if (activePeriodType === 'month') periodLabel = 'THÁNG CHUYỂN HỒ SƠ';
+
+    thead.innerHTML = `
+      <tr>
+        <th>${periodLabel}</th>
+        <th>CÁN BỘ CHUYỂN (SỐ HỒ SƠ)</th>
+        <th class="text-center">TỔNG HỒ SƠ</th>
+      </tr>
+    `;
+
+    tbody.innerHTML = '';
+
+    timeList.forEach(item => {
+      const tr = document.createElement('tr');
+
+      const officersHtml = Object.entries(item.officers)
+        .map(([officer, count]) => `<span class="badge badge-neutral" style="margin:2px;">${officer}: <strong>${count}</strong></span>`)
+        .join(' ');
+
+      tr.innerHTML = `
+        <td style="white-space:nowrap;"><strong>${item.timeKey}</strong></td>
+        <td>${officersHtml}</td>
+        <td class="text-center"><strong>${item.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // 14. Render Detail Data Table (Section IX) with Clickable Modal Rows
+  function renderDetailTable() {
+    const tbody = document.getElementById('detailRecordTbody');
+    const countTag = document.getElementById('recordCountDisplay');
+    const paginationInfo = document.getElementById('paginationInfo');
+    const paginationControls = document.getElementById('paginationControls');
+
+    countTag.textContent = `${filteredRecords.length.toLocaleString('vi-VN')} Hồ sơ`;
+
+    const totalRecords = filteredRecords.length;
+    const totalPages = Math.ceil(totalRecords / pageSize) || 1;
+
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = Math.min(startIndex + pageSize, totalRecords);
+    const pageRecords = filteredRecords.slice(startIndex, endIndex);
+
+    tbody.innerHTML = '';
+
+    if (pageRecords.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="14" class="text-center" style="padding: 24px; color: var(--text-muted);">Không tìm thấy hồ sơ phù hợp.</td></tr>`;
+    } else {
+      pageRecords.forEach(r => {
+        const tr = document.createElement('tr');
+        tr.classList.add('clickable-row');
+
+        let badgeClass = 'badge-neutral';
+        const st = r.trangThai || '';
+        if (st.includes('3.')) badgeClass = 'badge-success';
+        else if (st.includes('1.')) badgeClass = 'badge-warning';
+        else if (st.includes('2.1') || st.includes('4.')) badgeClass = 'badge-danger';
+
+        tr.innerHTML = `
+          <td class="text-center"><strong>${r.stt}</strong></td>
+          <td>${r.canBoBBT}</td>
+          <td>${r.canBoKTHT || '-'}</td>
+          <td>${r.ngayChuyen}</td>
+          <td class="text-center">${r.toBoiThuong}</td>
+          <td><strong>${r.hoTen}</strong></td>
+          <td>${r.diaChi || ''} ${r.duong ? '(' + r.duong + ')' : ''}</td>
+          <td class="text-center">KP ${r.khuPho}</td>
+          <td class="text-center">${r.toBanDo}</td>
+          <td class="text-center">${r.thuaDat}</td>
+          <td class="text-right">${r.giaiToaMotPhan || '-'}</td>
+          <td class="text-right">${r.giaiToaToanPhan || '-'}</td>
+          <td><span class="badge ${badgeClass}">${r.trangThai}</span></td>
+          <td><small>${r.ghiChu || ''}</small></td>
+        `;
+
+        // Click to view Detail Modal
+        tr.addEventListener('click', () => openModal(r));
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    paginationInfo.textContent = totalRecords > 0 
+      ? `Hiển thị ${startIndex + 1} - ${endIndex} trong số ${totalRecords.toLocaleString('vi-VN')} hồ sơ`
+      : 'Không có dữ liệu';
+
+    // Pagination Controls
+    paginationControls.innerHTML = '';
+
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'page-btn';
+    prevBtn.textContent = '❮ Trước';
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        renderDetailTable();
+      }
+    });
+    paginationControls.appendChild(prevBtn);
+
+    let startPage = Math.max(1, currentPage - 2);
+    let endPage = Math.min(totalPages, startPage + 4);
+    if (endPage - startPage < 4) {
+      startPage = Math.max(1, endPage - 4);
+    }
+
+    for (let p = startPage; p <= endPage; p++) {
+      const btn = document.createElement('button');
+      btn.className = `page-btn ${p === currentPage ? 'active' : ''}`;
+      btn.textContent = p;
+      btn.addEventListener('click', () => {
+        currentPage = p;
+        renderDetailTable();
+      });
+      paginationControls.appendChild(btn);
+    }
+
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'page-btn';
+    nextBtn.textContent = 'Sau ❯';
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.addEventListener('click', () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        renderDetailTable();
+      }
+    });
+    paginationControls.appendChild(nextBtn);
+  }
+
+  // 15. Detail Modal Control
+  function openModal(r) {
+    let badgeClass = 'badge-neutral';
+    const st = r.trangThai || '';
+    if (st.includes('3.')) badgeClass = 'badge-success';
+    else if (st.includes('1.')) badgeClass = 'badge-warning';
+    else if (st.includes('2.1') || st.includes('4.')) badgeClass = 'badge-danger';
+
+    modalDetailContent.innerHTML = `
+      <div class="modal-field">
+        <label>MÃ HỒ SƠ (STT)</label>
+        <p>HS-${String(r.stt).padStart(4, '0')} (STT ${r.stt})</p>
+      </div>
+      <div class="modal-field">
+        <label>TRẠNG THÁI PHÁP LÝ</label>
+        <p><span class="badge ${badgeClass}">${r.trangThai}</span></p>
+      </div>
+      <div class="modal-field full-width">
+        <label>HỌ VÀ TÊN CHỦ HỘ / SỬ DỤNG ĐẤT</label>
+        <p style="font-size:1.1rem; color:var(--primary-blue);">${r.hoTen}</p>
+      </div>
+      <div class="modal-field">
+        <label>CÁN BỘ BAN BỒI THƯỜNG</label>
+        <p>${r.canBoBBT}</p>
+      </div>
+      <div class="modal-field">
+        <label>CÁN BỘ THỤ LÝ KTHT</label>
+        <p>${r.canBoKTHT || 'Chưa thụ lý'}</p>
+      </div>
+      <div class="modal-field">
+        <label>NGÀY CHUYỂN KTHTĐT</label>
+        <p>${r.ngayChuyen}</p>
+      </div>
+      <div class="modal-field">
+        <label>TỔ BỒI THƯỜNG / PHÂN KHU</label>
+        <p>${r.toBoiThuong} - Khu Phố ${r.khuPho}</p>
+      </div>
+      <div class="modal-field">
+        <label>TỜ BẢN ĐỒ / THỬA ĐẤT</label>
+        <p>Tờ số ${r.toBanDo} | Thửa số ${r.thuaDat}</p>
+      </div>
+      <div class="modal-field">
+        <label>PHƯỜNG / ĐƯỜNG</label>
+        <p>${r.phuong} - ${r.duong}</p>
+      </div>
+      <div class="modal-field full-width">
+        <label>ĐỊA CHỈ THỰC TẾ CĂN NHÀ</label>
+        <p>${r.diaChi || 'Không số'}</p>
+      </div>
+      <div class="modal-field">
+        <label>GIẢI TỎA TOÀN PHẦN</label>
+        <p>${r.giaiToaToanPhan ? r.giaiToaToanPhan + ' m²' : 'Không'}</p>
+      </div>
+      <div class="modal-field">
+        <label>GIẢI TỎA MỘT PHẦN</label>
+        <p>${r.giaiToaMotPhan ? r.giaiToaMotPhan + ' m²' : 'Không'}</p>
+      </div>
+      <div class="modal-field full-width">
+        <label>GHI CHÚ VÀ DIỄN BIẾN HỒ SƠ</label>
+        <p style="background:var(--bg-input); padding:10px; border-radius:6px; font-weight:500;">${r.ghiChu || 'Không có ghi chú thêm.'}</p>
+      </div>
+    `;
+
+    recordDetailModal.classList.add('active');
+  }
+
+  function closeModal() {
+    recordDetailModal.classList.remove('active');
+  }
+
+  // 16. Render Charts (Timeline & Doughnut)
+  function renderCharts() {
+    const list = Analytics.getVolumeByDate(filteredRecords);
+
+    const sortedList = [...list].reverse();
+    const labels = sortedList.map(item => item.date);
+    const dataKP17 = sortedList.map(item => item.kp17);
+    const dataKP18 = sortedList.map(item => item.kp18);
+    const dataKP19 = sortedList.map(item => item.kp19);
+
+    const ctxTimeline = document.getElementById('timelineChart').getContext('2d');
+    if (timelineChartInstance) timelineChartInstance.destroy();
+
+    timelineChartInstance = new Chart(ctxTimeline, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [
+          { label: 'KP 17', data: dataKP17, backgroundColor: '#3b82f6', borderRadius: 4 },
+          { label: 'KP 18', data: dataKP18, backgroundColor: '#10b981', borderRadius: 4 },
+          { label: 'KP 19', data: dataKP19, backgroundColor: '#818cf8', borderRadius: 4 }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'top' },
+          tooltip: { mode: 'index', intersect: false }
+        },
+        scales: {
+          x: { stacked: true, grid: { display: false } },
+          y: { stacked: true, beginAtZero: true }
+        }
+      }
+    });
+
+    const progressData = Analytics.getLegalProgressByKhuPho(filteredRecords);
+    const ctxKhupho = document.getElementById('khuphoChart').getContext('2d');
+    if (khuphoChartInstance) khuphoChartInstance.destroy();
+
+    khuphoChartInstance = new Chart(ctxKhupho, {
+      type: 'doughnut',
+      data: {
+        labels: ['KP 17 (323 HS)', 'KP 18 (295 HS)', 'KP 19 (523 HS)'],
+        datasets: [{
+          data: [progressData['KP 17'].total, progressData['KP 18'].total, progressData['KP 19'].total],
+          backgroundColor: ['#3b82f6', '#10b981', '#818cf8'],
+          hoverOffset: 8,
+          borderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' }
+        }
+      }
+    });
+  }
+
+  // 17. Export CSV
+  function exportToCSV() {
+    if (filteredRecords.length === 0) {
+      alert('Không có dữ liệu để xuất!');
+      return;
+    }
+
+    const headers = [
+      'STT', 'Cán bộ BBT', 'Cán bộ KTHT', 'Ngày chuyển', 'Tổ bồi thường',
+      'Họ và tên', 'Địa chỉ', 'Đường', 'Phường', 'Tờ bản đồ', 'Thửa đất',
+      'Khu phố', 'Giải tỏa một phần (m2)', 'Giải tỏa toàn phần (m2)', 'Trạng Thái', 'Ghi chú'
+    ];
+
+    let csvContent = '\uFEFF' + headers.join(',') + '\n';
+
+    filteredRecords.forEach(r => {
+      const row = [
+        r.stt,
+        `"${(r.canBoBBT || '').replace(/"/g, '""')}"`,
+        `"${(r.canBoKTHT || '').replace(/"/g, '""')}"`,
+        `"${(r.ngayChuyen || '').replace(/"/g, '""')}"`,
+        `"${(r.toBoiThuong || '').replace(/"/g, '""')}"`,
+        `"${(r.hoTen || '').replace(/"/g, '""')}"`,
+        `"${(r.diaChi || '').replace(/"/g, '""')}"`,
+        `"${(r.duong || '').replace(/"/g, '""')}"`,
+        `"${(r.phuong || '').replace(/"/g, '""')}"`,
+        `"${(r.toBanDo || '').replace(/"/g, '""')}"`,
+        `"${(r.thuaDat || '').replace(/"/g, '""')}"`,
+        `"${(r.khuPho || '').replace(/"/g, '""')}"`,
+        `"${(r.giaiToaMotPhan || '').replace(/"/g, '""')}"`,
+        `"${(r.giaiToaToanPhan || '').replace(/"/g, '""')}"`,
+        `"${(r.trangThai || '').replace(/"/g, '""')}"`,
+        `"${(r.ghiChu || '').replace(/"/g, '""')}"`
+      ];
+      csvContent += row.join(',') + '\n';
+    });
+
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.setAttribute('href', url);
+    link.setAttribute('download', `Bang_Tien_Do_Phap_Ly_Binh_Quoi_Thanh_Da_${new Date().toISOString().slice(0,10)}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+})();
