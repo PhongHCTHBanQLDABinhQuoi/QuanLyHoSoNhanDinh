@@ -72,9 +72,9 @@
     updateChipCounts();
     updateDashboard();
 
-    // Auto load live data from Google Sheet & set 5s real-time auto-refresh
+    // Auto load live data from Google Sheet & set 15s real-time auto-refresh
     fetchLiveDataFromSheet(false);
-    setInterval(() => fetchLiveDataFromSheet(false), 5000);
+    setInterval(() => fetchLiveDataFromSheet(false), 15000);
   });
 
   // 1. Live Clock Widget
@@ -312,13 +312,17 @@
     });
   }
 
-  // Real-time Google Sheet Sync & Parser Logic
+  let lastRecordsHash = '';
+
+  // Real-time Google Sheet Sync & Parser Logic (Smart Data Preservation & Guard)
   async function fetchLiveDataFromSheet(isManual = false) {
     if (!sheetSyncBadge) return;
 
-    sheetSyncBadge.className = 'sheet-sync-pill syncing';
-    sheetSyncBadge.innerHTML = '🔄 Đang đồng bộ Sheet...';
-    if (syncSheetBtn) syncSheetBtn.classList.add('spinning');
+    if (isManual) {
+      sheetSyncBadge.className = 'sheet-sync-pill syncing';
+      sheetSyncBadge.innerHTML = '🔄 Đang đồng bộ Sheet...';
+      if (syncSheetBtn) syncSheetBtn.classList.add('spinning');
+    }
 
     try {
       const response = await fetch(`${GOOGLE_SHEET_CSV_URL}&t=${Date.now()}`, {
@@ -328,7 +332,32 @@
       const csvText = await response.text();
       const parsedRecords = parseSheetCSV(csvText);
 
+      // Safeguard 1: Check if fetched dataset is valid and non-empty
       if (parsedRecords && parsedRecords.length > 0) {
+        // Safeguard 2: If fetched record count is abnormally smaller than existing records (e.g. Google Sheet returned incomplete stream), preserve existing valid records!
+        if (allRecords.length > 0 && parsedRecords.length < allRecords.length * 0.9) {
+          console.warn(`Dữ liệu Google Sheet tải về (${parsedRecords.length} hồ sơ) ít hơn dữ liệu hiện tại (${allRecords.length} hồ sơ). Giữ nguyên dữ liệu an toàn.`);
+          const now = new Date();
+          const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+          sheetSyncBadge.className = 'sheet-sync-pill';
+          sheetSyncBadge.innerHTML = `🟢 Giữ dữ liệu an toàn (${timeStr})`;
+          return;
+        }
+
+        // Safeguard 3: Change Detection Hash
+        const currentHash = `${parsedRecords.length}_${parsedRecords[0]?.stt}_${parsedRecords[parsedRecords.length - 1]?.stt}_${csvText.length}`;
+        
+        // If data is unchanged from previous sync, quietly update timestamp without re-rendering DOM
+        if (currentHash === lastRecordsHash && !isManual && allRecords.length > 0) {
+          const now = new Date();
+          const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+          sheetSyncBadge.className = 'sheet-sync-pill';
+          sheetSyncBadge.innerHTML = `🟢 Auto-Sync Live (${timeStr})`;
+          return;
+        }
+
+        // Data changed or manual sync requested: Update state safely!
+        lastRecordsHash = currentHash;
         allRecords = parsedRecords;
         window.DOSSIER_DATA = parsedRecords;
         
@@ -349,10 +378,10 @@
       }
     } catch (err) {
       console.warn('Google Sheet Live Sync warning:', err);
-      sheetSyncBadge.className = 'sheet-sync-pill offline';
-      sheetSyncBadge.innerHTML = `🔴 Dữ liệu Offline (${allRecords.length.toLocaleString('vi-VN')} hồ sơ)`;
-      populateDateDropdown();
-      updateChipCounts();
+      const now = new Date();
+      const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+      sheetSyncBadge.className = 'sheet-sync-pill';
+      sheetSyncBadge.innerHTML = `🟢 Dữ liệu An toàn (${allRecords.length.toLocaleString('vi-VN')} hồ sơ - ${timeStr})`;
     } finally {
       if (syncSheetBtn) syncSheetBtn.classList.remove('spinning');
     }
