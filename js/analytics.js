@@ -296,16 +296,26 @@
       }));
     },
 
-    // Section VIII: Thống kê chi tiết số lượng hồ sơ theo Cán bộ BBT (CBTL)
-    getOfficerDetailedStats(records) {
+    // Section VI & VIII Unified: Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT
+    getDetailedTransferBreakdown(records, periodType = 'date') {
       const map = {};
+
       records.forEach(r => {
         const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
-        const kp = r.khuPho ? String(r.khuPho).trim() : '';
+        let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
 
-        if (!map[cb]) {
-          map[cb] = {
-            name: cb,
+        if (periodType === 'week') {
+          timeKey = getWeekLabel(r.ngayChuyen);
+        } else if (periodType === 'month') {
+          timeKey = getMonthLabel(r.ngayChuyen);
+        }
+
+        const key = `${timeKey}___${cb}`;
+
+        if (!map[key]) {
+          map[key] = {
+            timeKey: timeKey,
+            cbtl: cb,
             kp17: 0,
             kp18: 0,
             kp19: 0,
@@ -316,24 +326,36 @@
           };
         }
 
-        if (kp === '17') map[cb].kp17++;
-        else if (kp === '18') map[cb].kp18++;
-        else if (kp === '19') map[cb].kp19++;
+        const kp = r.khuPho ? String(r.khuPho).trim() : '';
+        if (kp === '17') map[key].kp17++;
+        else if (kp === '18') map[key].kp18++;
+        else if (kp === '19') map[key].kp19++;
 
-        map[cb].totalChuyen++;
+        map[key].totalChuyen++;
 
         const st = r.trangThai || '';
         if (st.includes('3.') || st.includes('thông qua')) {
-          map[cb].thongQua++;
+          map[key].thongQua++;
         } else if (st.includes('1.') || st.includes('Đã chuyển')) {
-          map[cb].kthtGiu++;
+          map[key].kthtGiu++;
         } else if (st.includes('2.1') || st.includes('Trả về')) {
-          map[cb].traSua++;
+          map[key].traSua++;
         }
       });
 
       const list = Object.values(map);
-      list.sort((a, b) => b.totalChuyen - a.totalChuyen || a.name.localeCompare(b.name, 'vi'));
+
+      list.sort((a, b) => {
+        if (periodType === 'date') {
+          const dA = parseDate(a.timeKey);
+          const dB = parseDate(b.timeKey);
+          if (dA && dB && dB.valueOf() !== dA.valueOf()) return dB - dA;
+        }
+        const timeCompare = b.timeKey.localeCompare(a.timeKey, 'vi');
+        if (timeCompare !== 0) return timeCompare;
+        return b.totalChuyen - a.totalChuyen;
+      });
+
       return list;
     }
   };

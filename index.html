@@ -306,35 +306,9 @@
       </div>
     </div>
 
-    <!-- Section VI & Section VII -->
+    <!-- Section VII: Pháp chế kiểm tra -->
     <div class="dashboard-grid">
-      <!-- Section VI -->
-      <div class="col-6">
-        <div class="section-card">
-          <div class="section-header">
-            <h2>VI. LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY</h2>
-          </div>
-          <div class="section-body max-height-table">
-            <table class="data-table" id="tableSection6">
-              <thead>
-                <tr>
-                  <th>NGÀY CHUYỂN</th>
-                  <th class="text-center">KP 17</th>
-                  <th class="text-center">KP 18</th>
-                  <th class="text-center">KP 19</th>
-                  <th class="text-center">TỔNG CỘNG</th>
-                </tr>
-              </thead>
-              <tbody id="tbodySection6">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <!-- Section VII: Pháp chế kiểm tra -->
-      <div class="col-6">
+      <div class="col-12">
         <div class="section-card">
           <div class="section-header">
             <h2>VII. KHỐI LƯỢNG HỒ SƠ THEO PHÁP CHẾ KIỂM TRA</h2>
@@ -358,20 +332,30 @@
       </div>
     </div>
 
-    <!-- Section VIII: SỐ LƯỢNG HỒ SƠ THEO CÁN BỘ BBT -->
+    <!-- Master Section VI & VIII Unified -->
     <div class="dashboard-grid">
       <div class="col-12">
-        <div class="section-card" style="border-top: 3px solid var(--primary-blue);">
-          <div class="section-header">
-            <h2>VIII. SỐ LƯỢNG HỒ SƠ THEO CÁN BỘ BBT (CBTL)</h2>
-            <span class="section-tag">Thống kê chi tiết cán bộ thụ lý</span>
+        <div class="section-card" style="border-top: 4px solid var(--primary-blue);">
+          <div class="section-header" style="flex-wrap: wrap; gap: 12px;">
+            <div>
+              <h2>VI. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
+              <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ Ngày/Thời gian chuyển, Cán bộ thụ lý BBT, Phân khu & Trạng thái xử lý P.KTHT</p>
+            </div>
+            <div class="header-actions" style="margin-left: auto;">
+              <div class="tab-group" id="timePeriodTabs">
+                <button class="tab-btn active" data-period="date">📅 Theo Ngày</button>
+                <button class="tab-btn" data-period="week">🗓️ Theo Tuần</button>
+                <button class="tab-btn" data-period="month">📆 Theo Tháng</button>
+              </div>
+            </div>
           </div>
-          <div class="section-body" style="overflow-x: auto;">
-            <table class="data-table" id="tableSection8">
+          <div class="section-body" style="overflow-x: auto; max-height: 650px;">
+            <table class="data-table" id="tableSection6">
               <thead>
                 <tr>
                   <th class="text-center" style="width: 50px;">STT</th>
-                  <th>CBTL</th>
+                  <th>THỜI GIAN CHUYỂN</th>
+                  <th>CBTL (CÁN BỘ BBT)</th>
                   <th class="text-center">KP 17</th>
                   <th class="text-center">KP 18</th>
                   <th class="text-center">KP 19</th>
@@ -381,7 +365,7 @@
                   <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
                 </tr>
               </thead>
-              <tbody id="tbodySection8">
+              <tbody id="tbodySection6">
                 <!-- Rendered dynamically -->
               </tbody>
             </table>

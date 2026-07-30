@@ -154,14 +154,15 @@
       });
     });
 
-    // Time Period Tabs for Section VIII
+    // Time Period Tabs for Master Section VI
     const tabs = document.querySelectorAll('#timePeriodTabs .tab-btn');
     tabs.forEach(btn => {
       btn.addEventListener('click', (e) => {
         tabs.forEach(t => t.classList.remove('active'));
-        e.target.classList.add('active');
-        activePeriodType = e.target.getAttribute('data-period');
-        renderSection8();
+        const target = e.currentTarget;
+        target.classList.add('active');
+        activePeriodType = target.getAttribute('data-period');
+        renderSection6();
       });
     });
 
@@ -590,68 +591,18 @@
     tbody.appendChild(trTotal);
   }
 
-  // 11. Render Section VI (Hồ sơ chuyển theo ngày)
+  // 11. Render Master Section VI (Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT)
   function renderSection6() {
-    const list = Analytics.getVolumeByDate(filteredRecords);
+    const list = Analytics.getDetailedTransferBreakdown(filteredRecords, activePeriodType);
     const tbody = document.getElementById('tbodySection6');
-    tbody.innerHTML = '';
-
-    let t17 = 0, t18 = 0, t19 = 0, grand = 0;
-
-    list.forEach(item => {
-      t17 += item.kp17;
-      t18 += item.kp18;
-      t19 += item.kp19;
-      grand += item.total;
-
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td>${item.date}</td>
-        <td class="text-center">${item.kp17}</td>
-        <td class="text-center">${item.kp18}</td>
-        <td class="text-center">${item.kp19}</td>
-        <td class="text-center"><strong>${item.total}</strong></td>
-      `;
-      tbody.appendChild(tr);
-    });
-
-    const trTotal = document.createElement('tr');
-    trTotal.classList.add('total-row');
-    trTotal.innerHTML = `
-      <td>TỔNG CỘNG</td>
-      <td class="text-center">${t17}</td>
-      <td class="text-center">${t18}</td>
-      <td class="text-center">${t19}</td>
-      <td class="text-center">${grand}</td>
-    `;
-    tbody.appendChild(trTotal);
-  }
-
-  // 12. Render Section VII (Pháp chế kiểm tra)
-  function renderSection7() {
-    const list = Analytics.getVolumeByPhapChe(filteredRecords);
-    const tbody = document.getElementById('tbodySection7');
-    tbody.innerHTML = '';
-
-    list.forEach(item => {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td><strong>${item.name}</strong></td>
-        <td class="text-center"><span class="badge badge-success">${item.thongQua}</span></td>
-        <td class="text-center"><span class="badge badge-warning">${item.kthtGiu}</span></td>
-        <td class="text-center"><strong>${item.total}</strong></td>
-      `;
-      tbody.appendChild(tr);
-    });
-  }
-
-  // 13. Render Section VIII (Số lượng hồ sơ theo Cán bộ BBT)
-  function renderSection8() {
-    const list = Analytics.getOfficerDetailedStats(filteredRecords);
-    const tbody = document.getElementById('tbodySection8');
     if (!tbody) return;
 
     tbody.innerHTML = '';
+
+    if (!list || list.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="10" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+      return;
+    }
 
     let sum17 = 0, sum18 = 0, sum19 = 0;
     let sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
@@ -668,7 +619,8 @@
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
-        <td><strong>${item.name}</strong></td>
+        <td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>
+        <td><strong>${item.cbtl}</strong></td>
         <td class="text-center">${item.kp17}</td>
         <td class="text-center">${item.kp18}</td>
         <td class="text-center">${item.kp19}</td>
@@ -683,7 +635,7 @@
     const trTotal = document.createElement('tr');
     trTotal.classList.add('total-row');
     trTotal.innerHTML = `
-      <td colspan="2" class="text-center"><strong>TỔNG CỘNG</strong></td>
+      <td colspan="3" class="text-center"><strong>TỔNG CỘNG</strong></td>
       <td class="text-center">${sum17}</td>
       <td class="text-center">${sum18}</td>
       <td class="text-center">${sum19}</td>
@@ -693,6 +645,25 @@
       <td class="text-center">${sumTraSua}</td>
     `;
     tbody.appendChild(trTotal);
+  }
+
+  // 12. Render Section VII (Pháp chế kiểm tra)
+  function renderSection7() {
+    const list = Analytics.getVolumeByPhapChe(filteredRecords);
+    const tbody = document.getElementById('tbodySection7');
+    if (!tbody) return;
+    tbody.innerHTML = '';
+
+    list.forEach(item => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><strong>${item.name}</strong></td>
+        <td class="text-center"><span class="badge badge-success">${item.thongQua}</span></td>
+        <td class="text-center"><span class="badge badge-warning">${item.kthtGiu}</span></td>
+        <td class="text-center"><strong>${item.total}</strong></td>
+      `;
+      tbody.appendChild(tr);
+    });
   }
 
   // 15. Detail Modal Control
