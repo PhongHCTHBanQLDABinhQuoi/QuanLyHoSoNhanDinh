@@ -23,6 +23,12 @@
   const printReportBtn = document.getElementById('printReportBtn');
   const liveClockDisplay = document.getElementById('liveClockDisplay');
 
+  // Real-time Sheet Sync Elements
+  const syncSheetBtn = document.getElementById('syncSheetBtn');
+  const syncSheetText = document.getElementById('syncSheetText');
+  const sheetSyncBadge = document.getElementById('sheetSyncBadge');
+  const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQl_XxFv-5zt2_IAgiKoZHEyzFD3KKGv5WYoJqWqk6lCXkmJEe8ioTT4DD2EfPlQZWYgQ9n1ckVg6KT/pub?gid=0&single=true&output=csv';
+
   const searchInput = document.getElementById('searchInput');
   const phankhuSelect = document.getElementById('phankhuSelect');
   const toBoiThuongSelect = document.getElementById('toBoiThuongSelect');
@@ -54,6 +60,10 @@
     startLiveClock();
     setupEventListeners();
     updateDashboard();
+
+    // Auto load live data from Google Sheet & set 30s auto-refresh
+    fetchLiveDataFromSheet(false);
+    setInterval(() => fetchLiveDataFromSheet(false), 30000);
   });
 
   // 1. Live Clock Widget
@@ -159,6 +169,9 @@
     if (printReportBtn) {
       printReportBtn.addEventListener('click', () => window.print());
     }
+    if (syncSheetBtn) {
+      syncSheetBtn.addEventListener('click', () => fetchLiveDataFromSheet(true));
+    }
 
     // Modal Close Events
     modalCloseBtn.addEventListener('click', closeModal);
@@ -168,6 +181,168 @@
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') closeModal();
     });
+  }
+
+  // Real-time Google Sheet Sync & Parser Logic
+  async function fetchLiveDataFromSheet(isManual = false) {
+    if (!sheetSyncBadge) return;
+
+    sheetSyncBadge.className = 'sheet-sync-pill syncing';
+    sheetSyncBadge.innerHTML = '🔄 Đang đồng bộ Sheet...';
+    if (syncSheetBtn) syncSheetBtn.classList.add('spinning');
+
+    try {
+      const response = await fetch(`${GOOGLE_SHEET_CSV_URL}&t=${Date.now()}`, {
+        cache: 'no-cache'
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const csvText = await response.text();
+      const parsedRecords = parseSheetCSV(csvText);
+
+      if (parsedRecords && parsedRecords.length > 0) {
+        allRecords = parsedRecords;
+        window.DOSSIER_DATA = parsedRecords;
+        
+        updateChipCounts();
+        handleFilterChange();
+
+        const now = new Date();
+        const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+        sheetSyncBadge.className = 'sheet-sync-pill';
+        sheetSyncBadge.innerHTML = `🟢 Sheet Live (${timeStr})`;
+        
+        if (isManual) {
+          showNotification(`Đã đồng bộ ${parsedRecords.length.toLocaleString('vi-VN')} hồ sơ mới nhất từ Google Sheet!`);
+        }
+      } else {
+        throw new Error('Dữ liệu CSV không hợp lệ');
+      }
+    } catch (err) {
+      console.warn('Google Sheet Live Sync warning:', err);
+      sheetSyncBadge.className = 'sheet-sync-pill offline';
+      sheetSyncBadge.innerHTML = `🔴 Dữ liệu Offline (${allRecords.length.toLocaleString('vi-VN')} hồ sơ)`;
+    } finally {
+      if (syncSheetBtn) syncSheetBtn.classList.remove('spinning');
+    }
+  }
+
+  function parseSheetCSV(csvText) {
+    const lines = [];
+    let row = [];
+    let current = '';
+    let inQuotes = false;
+
+    for (let i = 0; i < csvText.length; i++) {
+      const char = csvText[i];
+      const nextChar = csvText[i + 1];
+
+      if (char === '"') {
+        if (inQuotes && nextChar === '"') {
+          current += '"';
+          i++;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (char === ',' && !inQuotes) {
+        row.push(current.trim());
+        current = '';
+      } else if ((char === '\r' || char === '\n') && !inQuotes) {
+        if (char === '\r' && nextChar === '\n') i++;
+        row.push(current.trim());
+        if (row.some(f => f !== '')) lines.push(row);
+        row = [];
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    if (current !== '' || row.length > 0) {
+      row.push(current.trim());
+      if (row.some(f => f !== '')) lines.push(row);
+    }
+
+    let headerIndex = -1;
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i][0] === 'STT' || lines[i].includes('STT')) {
+        headerIndex = i;
+        break;
+      }
+    }
+    if (headerIndex === -1) return null;
+
+    const records = [];
+    for (let i = headerIndex + 1; i < lines.length; i++) {
+      const r = lines[i];
+      if (!r || r.length === 0) continue;
+      const sttVal = parseInt(r[0], 10);
+      if (isNaN(sttVal)) continue;
+
+      records.push({
+        stt: sttVal,
+        canBoBBT: r[1] || '',
+        canBoKTHT: r[2] || '',
+        ngayChuyen: r[3] || '',
+        toBoiThuong: r[4] || '',
+        hoTen: r[5] || '',
+        diaChi: r[6] || '',
+        duong: r[7] || '',
+        phuong: r[8] || '',
+        toBanDo: r[9] || '',
+        thuaDat: r[10] || '',
+        khuPho: r[11] || '',
+        giaiToaMotPhan: r[12] || '',
+        giaiToaToanPhan: r[13] || '',
+        trangThai: r[14] || '',
+        ghiChu: r[15] || '',
+        phapChe: r[16] || '',
+        doLuong: r[17] || '',
+        trungLap: r[18] || ''
+      });
+    }
+    return records;
+  }
+
+  function updateChipCounts() {
+    const total = allRecords.length;
+    const kp17 = allRecords.filter(r => r.khuPho === '17').length;
+    const kp18 = allRecords.filter(r => r.khuPho === '18').length;
+    const kp19 = allRecords.filter(r => r.khuPho === '19').length;
+    const approved = allRecords.filter(r => r.trangThai && r.trangThai.includes('3.')).length;
+    const holding = allRecords.filter(r => r.trangThai && r.trangThai.includes('1.')).length;
+    const returned = allRecords.filter(r => r.trangThai && r.trangThai.includes('2.1')).length;
+
+    const chipAll = document.querySelector('.chip-btn[data-chip-type="kp"][data-chip-val="ALL"]');
+    const chip17 = document.querySelector('.chip-btn[data-chip-type="kp"][data-chip-val="17"]');
+    const chip18 = document.querySelector('.chip-btn[data-chip-type="kp"][data-chip-val="18"]');
+    const chip19 = document.querySelector('.chip-btn[data-chip-type="kp"][data-chip-val="19"]');
+    const chipApproved = document.querySelector('.chip-btn[data-chip-type="st"][data-chip-val="3."]');
+    const chipHolding = document.querySelector('.chip-btn[data-chip-type="st"][data-chip-val="1."]');
+    const chipReturned = document.querySelector('.chip-btn[data-chip-type="st"][data-chip-val="2.1"]');
+
+    if (chipAll) chipAll.textContent = `Tất cả (${total.toLocaleString('vi-VN')})`;
+    if (chip17) chip17.textContent = `Khu Phố 17 (${kp17.toLocaleString('vi-VN')})`;
+    if (chip18) chip18.textContent = `Khu Phố 18 (${kp18.toLocaleString('vi-VN')})`;
+    if (chip19) chip19.textContent = `Khu Phố 19 (${kp19.toLocaleString('vi-VN')})`;
+    if (chipApproved) chipApproved.textContent = `✅ Đã thông qua (${approved.toLocaleString('vi-VN')})`;
+    if (chipHolding) chipHolding.textContent = `⏳ KTHT đang giữ (${holding.toLocaleString('vi-VN')})`;
+    if (chipReturned) chipReturned.textContent = `⚠️ Trả sửa (${returned.toLocaleString('vi-VN')})`;
+  }
+
+  function showNotification(msg) {
+    let toast = document.getElementById('toastNotification');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'toastNotification';
+      toast.style.cssText = 'position: fixed; bottom: 24px; right: 24px; background: #10b981; color: white; padding: 12px 20px; border-radius: 8px; font-weight: 600; box-shadow: 0 10px 25px rgba(0,0,0,0.2); z-index: 9999; transition: all 0.3s ease; opacity: 0; transform: translateY(20px);';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.style.opacity = '1';
+    toast.style.transform = 'translateY(0)';
+    setTimeout(() => {
+      toast.style.opacity = '0';
+      toast.style.transform = 'translateY(20px)';
+    }, 3500);
   }
 
   function handleFilterChange() {
