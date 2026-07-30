@@ -63,9 +63,9 @@
     updateChipCounts();
     updateDashboard();
 
-    // Auto load live data from Google Sheet & set 30s auto-refresh
+    // Auto load live data from Google Sheet & set 5s real-time auto-refresh
     fetchLiveDataFromSheet(false);
-    setInterval(() => fetchLiveDataFromSheet(false), 30000);
+    setInterval(() => fetchLiveDataFromSheet(false), 5000);
   });
 
   // 1. Live Clock Widget

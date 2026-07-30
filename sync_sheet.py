@@ -3,6 +3,7 @@ import io
 import json
 import os
 import sys
+import time
 import urllib.request
 
 # Ensure stdout uses utf-8 on Windows
@@ -14,7 +15,8 @@ GOOGLE_SHEET_CSV_URL = (
 )
 
 def fetch_and_sync():
-    print("Downloading latest Google Sheet CSV data...")
+    now_str = time.strftime("%H:%M:%S - %d/%m/%Y")
+    print(f"[{now_str}] Downloading latest Google Sheet CSV data...")
     req = urllib.request.Request(
         GOOGLE_SHEET_CSV_URL,
         headers={"User-Agent": "Mozilla/5.0"}
@@ -80,4 +82,20 @@ def fetch_and_sync():
     print(f"Updated js/data.js ({len(records)} records) successfully!")
 
 if __name__ == "__main__":
-    fetch_and_sync()
+    if "--loop" in sys.argv:
+        interval = 300  # Default 5 minutes (300 seconds)
+        for arg in sys.argv:
+            if arg.startswith("--interval="):
+                try:
+                    interval = int(arg.split("=")[1])
+                except ValueError:
+                    pass
+        print(f"Starting continuous auto-sync loop (every {interval}s / 5 minutes)... Press Ctrl+C to stop.")
+        while True:
+            try:
+                fetch_and_sync()
+            except Exception as e:
+                print(f"Sync error: {e}")
+            time.sleep(interval)
+    else:
+        fetch_and_sync()
