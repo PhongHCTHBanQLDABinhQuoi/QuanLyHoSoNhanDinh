@@ -961,8 +961,8 @@ footer.app-footer {
 
 /* Master Section VI Expanded Size & Spacious Layout */
 .section-body-master-vi {
-  max-height: 850px;
-  min-height: 520px;
+  max-height: 1350px;
+  min-height: 1100px;
   overflow-y: auto;
   overflow-x: auto;
 }
@@ -974,8 +974,8 @@ footer.app-footer {
 
 #tableSection6 th,
 #tableSection6 td {
-  padding: 15px 20px;
-  font-size: 0.9rem;
+  padding: 11px 18px;
+  font-size: 0.875rem;
 }
 
 #tableSection6 th {
