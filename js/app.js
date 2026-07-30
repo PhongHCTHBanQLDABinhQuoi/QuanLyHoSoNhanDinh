@@ -216,7 +216,7 @@
         const now = new Date();
         const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
         sheetSyncBadge.className = 'sheet-sync-pill';
-        sheetSyncBadge.innerHTML = `🟢 Sheet Live (${timeStr})`;
+        sheetSyncBadge.innerHTML = `🟢 Auto-Sync Live (${timeStr})`;
         
         if (isManual) {
           showNotification(`Đã đồng bộ ${parsedRecords.length.toLocaleString('vi-VN')} hồ sơ mới nhất từ Google Sheet!`);
