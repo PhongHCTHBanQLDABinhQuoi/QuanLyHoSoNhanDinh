@@ -42,66 +42,6 @@
   <div class="app-container">
 
     <!-- Quick Filter Chips -->
-    <div class="quick-chips-bar">
-      <span class="quick-chip-label">⚡ Lọc nhanh:</span>
-      <button class="chip-btn active" data-chip-type="kp" data-chip-val="ALL">Tất cả (1.141)</button>
-      <button class="chip-btn" data-chip-type="kp" data-chip-val="17">Khu Phố 17 (323)</button>
-      <button class="chip-btn" data-chip-type="kp" data-chip-val="18">Khu Phố 18 (295)</button>
-      <button class="chip-btn" data-chip-type="kp" data-chip-val="19">Khu Phố 19 (523)</button>
-      <button class="chip-btn" data-chip-type="st" data-chip-val="3.">✅ Đã thông qua (662)</button>
-      <button class="chip-btn" data-chip-type="st" data-chip-val="1.">⏳ KTHT đang giữ (477)</button>
-      <button class="chip-btn" data-chip-type="st" data-chip-val="2.1">⚠️ Trả sửa (2)</button>
-    </div>
-
-    <!-- Global Filter Bar -->
-    <div class="filter-bar">
-      <div class="filter-group search-group">
-        <label for="searchInput">🔍 Tìm kiếm thông minh hồ sơ</label>
-        <input type="text" id="searchInput" class="filter-control" placeholder="Nhập tên chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
-      </div>
-      
-      <div class="filter-group">
-        <label for="phankhuSelect">📍 Phân Khu</label>
-        <select id="phankhuSelect" class="filter-control">
-          <option value="ALL">Tất cả Phân Khu</option>
-          <option value="17">Khu Phố 17</option>
-          <option value="18">Khu Phố 18</option>
-          <option value="19">Khu Phố 19</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label for="toBoiThuongSelect">👥 Tổ Bồi Thường</label>
-        <select id="toBoiThuongSelect" class="filter-control">
-          <option value="ALL">Tất cả Tổ</option>
-          <option value="Tổ 1">Tổ 1</option>
-          <option value="Tổ 2">Tổ 2</option>
-          <option value="Tổ 3">Tổ 3</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label for="ngayChuyenSelect">📅 Ngày Chuyển Hồ Sơ</label>
-        <select id="ngayChuyenSelect" class="filter-control">
-          <option value="ALL">Tất cả các Ngày</option>
-          <!-- Populated dynamically -->
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label for="trangThaiSelect">📌 Trạng Thái Pháp Lý</label>
-        <select id="trangThaiSelect" class="filter-control">
-          <option value="ALL">Tất cả Trạng Thái</option>
-          <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua pháp lý</option>
-          <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ thụ lý</option>
-          <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả về chỉnh sửa lần 1</option>
-          <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Hồ sơ chuyển sửa lại</option>
-        </select>
-      </div>
-
-      <button id="resetFilterBtn" class="btn-reset-filter">🔄 Đặt lại bộ lọc</button>
-    </div>
-
     <!-- KPI Summary Cards -->
     <div class="kpi-grid">
       <div class="kpi-card kpi-total">
@@ -344,17 +284,66 @@
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card" style="border-top: 4px solid var(--primary-blue);">
-          <div class="section-header" style="flex-wrap: wrap; gap: 12px;">
-            <div>
-              <h2>VI. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
-              <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ Ngày/Thời gian chuyển, Cán bộ thụ lý BBT, Phân khu & Trạng thái xử lý P.KTHT</p>
-            </div>
-            <div class="header-actions" style="margin-left: auto;">
+          <div class="section-header" style="flex-direction: column; align-items: stretch; gap: 14px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+              <div>
+                <h2>VI. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
+                <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ Ngày/Thời gian chuyển, Cán bộ thụ lý BBT, Phân khu & Trạng thái xử lý P.KTHT</p>
+              </div>
               <div class="tab-group" id="timePeriodTabs">
                 <button class="tab-btn active" data-period="date">📅 Theo Ngày</button>
                 <button class="tab-btn" data-period="week">🗓️ Theo Tuần</button>
                 <button class="tab-btn" data-period="month">📆 Theo Tháng</button>
               </div>
+            </div>
+
+            <!-- Dedicated Filter Toolbar for Table VI -->
+            <div class="filter-bar" style="margin-top: 0; background: rgba(0,0,0,0.03); border: 1px solid var(--border-color); border-radius: 10px; padding: 12px;">
+              <div class="filter-group search-group" style="flex: 2; min-width: 220px;">
+                <label for="searchInput">🔍 Tìm kiếm thông minh hồ sơ</label>
+                <input type="text" id="searchInput" class="filter-control" placeholder="Nhập tên chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
+              </div>
+              
+              <div class="filter-group" style="min-width: 130px;">
+                <label for="phankhuSelect">📍 Phân Khu</label>
+                <select id="phankhuSelect" class="filter-control">
+                  <option value="ALL">Tất cả Phân Khu</option>
+                  <option value="17">Khu Phố 17</option>
+                  <option value="18">Khu Phố 18</option>
+                  <option value="19">Khu Phố 19</option>
+                </select>
+              </div>
+
+              <div class="filter-group" style="min-width: 150px;">
+                <label for="ngayChuyenSelect">📅 Ngày Chuyển</label>
+                <select id="ngayChuyenSelect" class="filter-control">
+                  <option value="ALL">Tất cả các Ngày</option>
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+
+              <div class="filter-group" style="min-width: 130px;">
+                <label for="toBoiThuongSelect">👥 Tổ Bồi Thường</label>
+                <select id="toBoiThuongSelect" class="filter-control">
+                  <option value="ALL">Tất cả Tổ</option>
+                  <option value="Tổ 1">Tổ 1</option>
+                  <option value="Tổ 2">Tổ 2</option>
+                  <option value="Tổ 3">Tổ 3</option>
+                </select>
+              </div>
+
+              <div class="filter-group" style="min-width: 150px;">
+                <label for="trangThaiSelect">📌 Trạng Thái</label>
+                <select id="trangThaiSelect" class="filter-control">
+                  <option value="ALL">Tất cả Trạng Thái</option>
+                  <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua pháp lý</option>
+                  <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ thụ lý</option>
+                  <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả về chỉnh sửa lần 1</option>
+                  <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Hồ sơ chuyển sửa lại</option>
+                </select>
+              </div>
+
+              <button id="resetFilterBtn" class="btn-reset-filter" style="align-self: flex-end; margin-bottom: 2px;">🔄 Đặt lại</button>
             </div>
           </div>
           <div class="section-body" style="overflow-x: auto; max-height: 650px;">
