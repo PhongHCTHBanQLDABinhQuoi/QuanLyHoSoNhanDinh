@@ -81,6 +81,14 @@
       </div>
 
       <div class="filter-group">
+        <label for="ngayChuyenSelect">📅 Ngày Chuyển Hồ Sơ</label>
+        <select id="ngayChuyenSelect" class="filter-control">
+          <option value="ALL">Tất cả các Ngày</option>
+          <!-- Populated dynamically -->
+        </select>
+      </div>
+
+      <div class="filter-group">
         <label for="trangThaiSelect">📌 Trạng Thái Pháp Lý</label>
         <select id="trangThaiSelect" class="filter-control">
           <option value="ALL">Tất cả Trạng Thái</option>
@@ -341,7 +349,13 @@
               <h2>VI. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
               <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ Ngày/Thời gian chuyển, Cán bộ thụ lý BBT, Phân khu & Trạng thái xử lý P.KTHT</p>
             </div>
-            <div class="header-actions" style="margin-left: auto;">
+            <div class="header-actions" style="margin-left: auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+              <div style="display: inline-flex; align-items: center; gap: 6px;">
+                <label for="dateFilterSelect" style="font-size: 0.8125rem; font-weight: 600; color: var(--text-muted); white-space: nowrap;">📅 Lọc Ngày:</label>
+                <select id="dateFilterSelect" class="filter-control" style="padding: 5px 10px; font-size: 0.875rem; border-radius: 6px; min-width: 170px;">
+                  <option value="ALL">Tất cả các Ngày</option>
+                </select>
+              </div>
               <div class="tab-group" id="timePeriodTabs">
                 <button class="tab-btn active" data-period="date">📅 Theo Ngày</button>
                 <button class="tab-btn" data-period="week">🗓️ Theo Tuần</button>

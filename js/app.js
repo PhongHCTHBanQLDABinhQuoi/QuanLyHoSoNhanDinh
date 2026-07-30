@@ -33,6 +33,8 @@
   const phankhuSelect = document.getElementById('phankhuSelect');
   const toBoiThuongSelect = document.getElementById('toBoiThuongSelect');
   const trangThaiSelect = document.getElementById('trangThaiSelect');
+  const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
+  const dateFilterSelect = document.getElementById('dateFilterSelect');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
 
   // KPI elements
@@ -117,11 +119,27 @@
     toBoiThuongSelect.addEventListener('change', handleFilterChange);
     trangThaiSelect.addEventListener('change', handleFilterChange);
 
+    if (ngayChuyenSelect) {
+      ngayChuyenSelect.addEventListener('change', () => {
+        if (dateFilterSelect) dateFilterSelect.value = ngayChuyenSelect.value;
+        handleFilterChange();
+      });
+    }
+
+    if (dateFilterSelect) {
+      dateFilterSelect.addEventListener('change', () => {
+        if (ngayChuyenSelect) ngayChuyenSelect.value = dateFilterSelect.value;
+        handleFilterChange();
+      });
+    }
+
     resetFilterBtn.addEventListener('click', () => {
       searchInput.value = '';
       phankhuSelect.value = 'ALL';
       toBoiThuongSelect.value = 'ALL';
       trangThaiSelect.value = 'ALL';
+      if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+      if (dateFilterSelect) dateFilterSelect.value = 'ALL';
       
       // Reset chips UI
       document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
@@ -204,6 +222,7 @@
         allRecords = parsedRecords;
         window.DOSSIER_DATA = parsedRecords;
         
+        populateDateDropdown();
         updateChipCounts();
         handleFilterChange();
 
@@ -346,11 +365,61 @@
     }, 3500);
   }
 
+  function populateDateDropdown() {
+    if (!allRecords || allRecords.length === 0) return;
+
+    const datesMap = {};
+    allRecords.forEach(r => {
+      if (r.ngayChuyen && r.ngayChuyen.trim()) {
+        const dt = r.ngayChuyen.trim();
+        datesMap[dt] = (datesMap[dt] || 0) + 1;
+      }
+    });
+
+    function parseDt(dateStr) {
+      if (!dateStr) return null;
+      const parts = dateStr.split('/');
+      if (parts.length !== 3) return null;
+      return new Date(parseInt(parts[2], 10), parseInt(parts[1], 10) - 1, parseInt(parts[0], 10));
+    }
+
+    const sortedDates = Object.keys(datesMap).sort((a, b) => {
+      const dA = parseDt(a);
+      const dB = parseDt(b);
+      if (!dA) return 1;
+      if (!dB) return -1;
+      return dB - dA;
+    });
+
+    const optionsHtml = ['<option value="ALL">Tất cả các Ngày</option>']
+      .concat(sortedDates.map(dt => `<option value="${dt}">📅 ${dt} (${datesMap[dt]} hồ sơ)</option>`))
+      .join('');
+
+    if (ngayChuyenSelect) {
+      const val = ngayChuyenSelect.value;
+      ngayChuyenSelect.innerHTML = optionsHtml;
+      if (val && Array.from(ngayChuyenSelect.options).some(o => o.value === val)) {
+        ngayChuyenSelect.value = val;
+      }
+    }
+
+    if (dateFilterSelect) {
+      const val = dateFilterSelect.value;
+      dateFilterSelect.innerHTML = optionsHtml;
+      if (val && Array.from(dateFilterSelect.options).some(o => o.value === val)) {
+        dateFilterSelect.value = val;
+      }
+    }
+  }
+
   function handleFilterChange() {
     const query = searchInput.value.toLowerCase().trim();
     const kpFilter = phankhuSelect.value;
     const toFilter = toBoiThuongSelect.value;
     const stFilter = trangThaiSelect.value;
+    const dtFilter = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL')
+      ? ngayChuyenSelect.value
+      : (dateFilterSelect ? dateFilterSelect.value : 'ALL');
 
     filteredRecords = allRecords.filter(r => {
       if (kpFilter !== 'ALL' && r.khuPho !== kpFilter) return false;
@@ -358,6 +427,7 @@
       if (stFilter !== 'ALL') {
         if (!r.trangThai || !r.trangThai.includes(stFilter.substring(0, 2))) return false;
       }
+      if (dtFilter !== 'ALL' && r.ngayChuyen !== dtFilter) return false;
       if (query) {
         const text = `${r.stt} ${r.canBoBBT} ${r.canBoKTHT} ${r.hoTen} ${r.diaChi} ${r.duong} ${r.toBanDo} ${r.thuaDat} ${r.ghiChu}`.toLowerCase();
         if (!text.includes(query)) return false;
