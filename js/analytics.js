@@ -261,15 +261,15 @@
       return list;
     },
 
-    // Section VII Master: Thống kê chi tiết Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT
+    // Section VII Master: Thống kê chi tiết Khối lượng hồ sơ theo Cán bộ Pháp chế kiểm tra
     getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
       const allOfficers = new Set();
       const source = (allRecords && allRecords.length > 0) ? allRecords : records;
       source.forEach(r => {
-        const officer = (r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : ((r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : '');
+        const officer = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : '';
         if (officer) allOfficers.add(officer);
       });
-      if (allOfficers.size === 0) allOfficers.add('Chưa thụ lý / Trống');
+      allOfficers.add('Chưa phân công / Trống');
 
       if (!isDateFiltered) {
         const map = {};
@@ -288,7 +288,7 @@
         });
 
         records.forEach(r => {
-          const cb = (r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : ((r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa thụ lý / Trống');
+          const cb = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa phân công / Trống';
           if (!map[cb]) {
             map[cb] = {
               timeKey: '',
@@ -337,7 +337,7 @@
       // KHI CÓ LỌC NGÀY / TUẦN / THÁNG CỤ THỂ
       const map = {};
       records.forEach(r => {
-        const cb = (r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : ((r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa thụ lý / Trống');
+        const cb = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa phân công / Trống';
         let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
         if (periodType === 'week') {
           timeKey = getWeekLabel(r.ngayChuyen);

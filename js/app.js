@@ -871,7 +871,7 @@
         <td class="text-center">${item.kp17}</td>
         <td class="text-center">${item.kp18}</td>
         <td class="text-center">${item.kp19}</td>
-        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa thụ lý)</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
+        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa phân công)</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
         <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
         <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning">${item.kthtGiu}</span>` : '0'}</td>
         <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
