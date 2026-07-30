@@ -332,10 +332,10 @@
       </div>
     </div>
 
-    <!-- Section VI & Section VIII (Bổ sung 2) -->
+    <!-- Section VI & Section VIII -->
     <div class="dashboard-grid">
       <!-- Section VI -->
-      <div class="col-6">
+      <div class="col-12">
         <div class="section-card">
           <div class="section-header">
             <h2>VI. LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY</h2>
@@ -358,70 +358,35 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- Section VIII: Bổ sung 2 -->
-      <div class="col-6">
+    <!-- Section VIII: SỐ LƯỢNG HỒ SƠ THEO CÁN BỘ BBT -->
+    <div class="dashboard-grid">
+      <div class="col-12">
         <div class="section-card">
           <div class="section-header">
-            <h2>VIII. THỐNG KÊ HỒ SƠ CÁN BỘ ĐEM QUA THEO THỜI GIAN</h2>
-            <div class="tab-group" id="timePeriodTabs">
-              <button class="tab-btn active" data-period="date">Ngày</button>
-              <button class="tab-btn" data-period="week">Tuần</button>
-              <button class="tab-btn" data-period="month">Tháng</button>
-            </div>
+            <h2>VIII. SỐ LƯỢNG HỒ SƠ THEO CÁN BỘ BBT</h2>
+            <span class="section-tag">Thống kê chi tiết cán bộ thụ lý</span>
           </div>
-          <div class="section-body max-height-table">
+          <div class="section-body" style="overflow-x: auto;">
             <table class="data-table" id="tableSection8">
-              <thead id="theadSection8">
-                <!-- Header changes dynamically -->
+              <thead>
+                <tr>
+                  <th class="text-center" style="width: 50px;">STT</th>
+                  <th>CBTL</th>
+                  <th class="text-center">KP 17</th>
+                  <th class="text-center">KP 18</th>
+                  <th class="text-center">KP 19</th>
+                  <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
+                  <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
+                  <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ)</small></th>
+                  <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
+                </tr>
               </thead>
               <tbody id="tbodySection8">
                 <!-- Rendered dynamically -->
               </tbody>
             </table>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Section IX: DANH SÁCH CHI TIẾT HỒ SƠ -->
-    <div class="dashboard-grid">
-      <div class="col-12">
-        <div class="section-card">
-          <div class="section-header">
-            <h2>📋 IX. DANH SÁCH CHI TIẾT HỒ SƠ PHÁP LÝ (BẤM VÀO HÀNG ĐỂ XEM CHI TIẾT)</h2>
-            <span class="section-tag" id="recordCountDisplay">1,141 Hồ sơ</span>
-          </div>
-          <div class="section-body" style="overflow-x: auto;">
-            <table class="data-table" id="detailRecordTable">
-              <thead>
-                <tr>
-                  <th>STT</th>
-                  <th>CÁN BỘ BBT</th>
-                  <th>CB THỤ LÝ KTHT</th>
-                  <th>NGÀY CHUYỂN</th>
-                  <th>TỔ BT</th>
-                  <th>HỌ VÀ TÊN CHỦ HỘ</th>
-                  <th>ĐỊA CHỈ / ĐƯỜNG</th>
-                  <th class="text-center">KP</th>
-                  <th class="text-center">TỜ</th>
-                  <th class="text-center">THỬA</th>
-                  <th class="text-right">GT MỘT PHẦN (M²)</th>
-                  <th class="text-right">GT TOÀN PHẦN (M²)</th>
-                  <th>TRẠNG THÁI</th>
-                  <th>GHI CHÚ</th>
-                </tr>
-              </thead>
-              <tbody id="detailRecordTbody">
-                <!-- Rendered dynamically with pagination -->
-              </tbody>
-            </table>
-          </div>
-          <div class="table-pagination">
-            <div id="paginationInfo">Hiển thị 1 - 20 trong số 1,141 hồ sơ</div>
-            <div class="pagination-btn-group" id="paginationControls">
-              <!-- Rendered dynamically -->
-            </div>
           </div>
         </div>
       </div>

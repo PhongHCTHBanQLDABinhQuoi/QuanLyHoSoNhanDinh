@@ -380,7 +380,6 @@
     renderSection6();
     renderSection7();
     renderSection8();
-    renderDetailTable();
   }
 
   // 5. Render KPIs
@@ -646,147 +645,54 @@
     });
   }
 
-  // 13. Render Section VIII (Cán bộ đem qua theo Thời gian)
+  // 13. Render Section VIII (Số lượng hồ sơ theo Cán bộ BBT)
   function renderSection8() {
-    const timeList = Analytics.getOfficerTransferTimeBreakdown(filteredRecords, activePeriodType);
-    const thead = document.getElementById('theadSection8');
+    const list = Analytics.getOfficerDetailedStats(filteredRecords);
     const tbody = document.getElementById('tbodySection8');
-
-    let periodLabel = 'NGÀY CHUYỂN';
-    if (activePeriodType === 'week') periodLabel = 'TUẦN CHUYỂN HỒ SƠ';
-    if (activePeriodType === 'month') periodLabel = 'THÁNG CHUYỂN HỒ SƠ';
-
-    thead.innerHTML = `
-      <tr>
-        <th>${periodLabel}</th>
-        <th>CÁN BỘ CHUYỂN (SỐ HỒ SƠ)</th>
-        <th class="text-center">TỔNG HỒ SƠ</th>
-      </tr>
-    `;
+    if (!tbody) return;
 
     tbody.innerHTML = '';
 
-    timeList.forEach(item => {
+    let sum17 = 0, sum18 = 0, sum19 = 0;
+    let sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
+
+    list.forEach((item, idx) => {
+      sum17 += item.kp17;
+      sum18 += item.kp18;
+      sum19 += item.kp19;
+      sumTotal += item.totalChuyen;
+      sumThongQua += item.thongQua;
+      sumKthtGiu += item.kthtGiu;
+      sumTraSua += item.traSua;
+
       const tr = document.createElement('tr');
-
-      const officersHtml = Object.entries(item.officers)
-        .map(([officer, count]) => `<span class="badge badge-neutral" style="margin:2px;">${officer}: <strong>${count}</strong></span>`)
-        .join(' ');
-
       tr.innerHTML = `
-        <td style="white-space:nowrap;"><strong>${item.timeKey}</strong></td>
-        <td>${officersHtml}</td>
-        <td class="text-center"><strong>${item.total}</strong></td>
+        <td class="text-center"><strong>${idx + 1}</strong></td>
+        <td><strong>${item.name}</strong></td>
+        <td class="text-center">${item.kp17}</td>
+        <td class="text-center">${item.kp18}</td>
+        <td class="text-center">${item.kp19}</td>
+        <td class="text-center"><span class="badge badge-neutral">${item.totalChuyen}</span></td>
+        <td class="text-center"><span class="badge badge-success">${item.thongQua}</span></td>
+        <td class="text-center"><span class="badge badge-warning">${item.kthtGiu}</span></td>
+        <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
       `;
       tbody.appendChild(tr);
     });
-  }
 
-  // 14. Render Detail Data Table (Section IX) with Clickable Modal Rows
-  function renderDetailTable() {
-    const tbody = document.getElementById('detailRecordTbody');
-    const countTag = document.getElementById('recordCountDisplay');
-    const paginationInfo = document.getElementById('paginationInfo');
-    const paginationControls = document.getElementById('paginationControls');
-
-    countTag.textContent = `${filteredRecords.length.toLocaleString('vi-VN')} Hồ sơ`;
-
-    const totalRecords = filteredRecords.length;
-    const totalPages = Math.ceil(totalRecords / pageSize) || 1;
-
-    if (currentPage > totalPages) currentPage = totalPages;
-    if (currentPage < 1) currentPage = 1;
-
-    const startIndex = (currentPage - 1) * pageSize;
-    const endIndex = Math.min(startIndex + pageSize, totalRecords);
-    const pageRecords = filteredRecords.slice(startIndex, endIndex);
-
-    tbody.innerHTML = '';
-
-    if (pageRecords.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="14" class="text-center" style="padding: 24px; color: var(--text-muted);">Không tìm thấy hồ sơ phù hợp.</td></tr>`;
-    } else {
-      pageRecords.forEach(r => {
-        const tr = document.createElement('tr');
-        tr.classList.add('clickable-row');
-
-        let badgeClass = 'badge-neutral';
-        const st = r.trangThai || '';
-        if (st.includes('3.')) badgeClass = 'badge-success';
-        else if (st.includes('1.')) badgeClass = 'badge-warning';
-        else if (st.includes('2.1') || st.includes('4.')) badgeClass = 'badge-danger';
-
-        tr.innerHTML = `
-          <td class="text-center"><strong>${r.stt}</strong></td>
-          <td>${r.canBoBBT}</td>
-          <td>${r.canBoKTHT || '-'}</td>
-          <td>${r.ngayChuyen}</td>
-          <td class="text-center">${r.toBoiThuong}</td>
-          <td><strong>${r.hoTen}</strong></td>
-          <td>${r.diaChi || ''} ${r.duong ? '(' + r.duong + ')' : ''}</td>
-          <td class="text-center">KP ${r.khuPho}</td>
-          <td class="text-center">${r.toBanDo}</td>
-          <td class="text-center">${r.thuaDat}</td>
-          <td class="text-right">${r.giaiToaMotPhan || '-'}</td>
-          <td class="text-right">${r.giaiToaToanPhan || '-'}</td>
-          <td><span class="badge ${badgeClass}">${r.trangThai}</span></td>
-          <td><small>${r.ghiChu || ''}</small></td>
-        `;
-
-        // Click to view Detail Modal
-        tr.addEventListener('click', () => openModal(r));
-
-        tbody.appendChild(tr);
-      });
-    }
-
-    paginationInfo.textContent = totalRecords > 0 
-      ? `Hiển thị ${startIndex + 1} - ${endIndex} trong số ${totalRecords.toLocaleString('vi-VN')} hồ sơ`
-      : 'Không có dữ liệu';
-
-    // Pagination Controls
-    paginationControls.innerHTML = '';
-
-    const prevBtn = document.createElement('button');
-    prevBtn.className = 'page-btn';
-    prevBtn.textContent = '❮ Trước';
-    prevBtn.disabled = currentPage === 1;
-    prevBtn.addEventListener('click', () => {
-      if (currentPage > 1) {
-        currentPage--;
-        renderDetailTable();
-      }
-    });
-    paginationControls.appendChild(prevBtn);
-
-    let startPage = Math.max(1, currentPage - 2);
-    let endPage = Math.min(totalPages, startPage + 4);
-    if (endPage - startPage < 4) {
-      startPage = Math.max(1, endPage - 4);
-    }
-
-    for (let p = startPage; p <= endPage; p++) {
-      const btn = document.createElement('button');
-      btn.className = `page-btn ${p === currentPage ? 'active' : ''}`;
-      btn.textContent = p;
-      btn.addEventListener('click', () => {
-        currentPage = p;
-        renderDetailTable();
-      });
-      paginationControls.appendChild(btn);
-    }
-
-    const nextBtn = document.createElement('button');
-    nextBtn.className = 'page-btn';
-    nextBtn.textContent = 'Sau ❯';
-    nextBtn.disabled = currentPage === totalPages;
-    nextBtn.addEventListener('click', () => {
-      if (currentPage < totalPages) {
-        currentPage++;
-        renderDetailTable();
-      }
-    });
-    paginationControls.appendChild(nextBtn);
+    const trTotal = document.createElement('tr');
+    trTotal.classList.add('total-row');
+    trTotal.innerHTML = `
+      <td colspan="2" class="text-center"><strong>TỔNG CỘNG</strong></td>
+      <td class="text-center">${sum17}</td>
+      <td class="text-center">${sum18}</td>
+      <td class="text-center">${sum19}</td>
+      <td class="text-center">${sumTotal}</td>
+      <td class="text-center">${sumThongQua}</td>
+      <td class="text-center">${sumKthtGiu}</td>
+      <td class="text-center">${sumTraSua}</td>
+    `;
+    tbody.appendChild(trTotal);
   }
 
   // 15. Detail Modal Control

@@ -294,6 +294,47 @@
         total: map[timeKey].total,
         officers: map[timeKey].officers
       }));
+    },
+
+    // Section VIII: Thống kê chi tiết số lượng hồ sơ theo Cán bộ BBT (CBTL)
+    getOfficerDetailedStats(records) {
+      const map = {};
+      records.forEach(r => {
+        const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+        const kp = r.khuPho ? String(r.khuPho).trim() : '';
+
+        if (!map[cb]) {
+          map[cb] = {
+            name: cb,
+            kp17: 0,
+            kp18: 0,
+            kp19: 0,
+            totalChuyen: 0,
+            thongQua: 0,
+            kthtGiu: 0,
+            traSua: 0
+          };
+        }
+
+        if (kp === '17') map[cb].kp17++;
+        else if (kp === '18') map[cb].kp18++;
+        else if (kp === '19') map[cb].kp19++;
+
+        map[cb].totalChuyen++;
+
+        const st = r.trangThai || '';
+        if (st.includes('3.') || st.includes('thông qua')) {
+          map[cb].thongQua++;
+        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+          map[cb].kthtGiu++;
+        } else if (st.includes('2.1') || st.includes('Trả về')) {
+          map[cb].traSua++;
+        }
+      });
+
+      const list = Object.values(map);
+      list.sort((a, b) => b.totalChuyen - a.totalChuyen || a.name.localeCompare(b.name, 'vi'));
+      return list;
     }
   };
 
