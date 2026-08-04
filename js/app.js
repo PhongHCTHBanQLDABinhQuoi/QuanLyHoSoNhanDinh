@@ -64,6 +64,15 @@
   const modalCloseBtn = document.getElementById('modalCloseBtn');
   const modalDetailContent = document.getElementById('modalDetailContent');
 
+  // Detect environment: GitHub Pages vs Local
+  // Trên GitHub Pages, KHÔNG fetch trực tiếp từ Google Sheet (CORS/cache không ổn định).
+  // Thay vào đó, chỉ tải lại js/data.js mỗi 5 phút (GitHub Actions đã sync sẵn).
+  const IS_GITHUB_PAGES = !(
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1' ||
+    window.location.hostname === ''
+  );
+
   // Initialize
   document.addEventListener('DOMContentLoaded', () => {
     initTheme();
@@ -73,10 +82,45 @@
     updateChipCounts();
     updateDashboard();
 
-    // Auto load live data from Google Sheet & set 20s real-time auto-refresh
-    fetchLiveDataFromSheet(false);
-    setInterval(() => fetchLiveDataFromSheet(false), 20000);
+    if (IS_GITHUB_PAGES) {
+      // Trên GitHub Pages: chỉ reload js/data.js mỗi 5 phút để lấy dữ liệu mới nhất từ GitHub Actions
+      setInterval(() => reloadDataJs(), 5 * 60 * 1000);
+      if (sheetSyncBadge) {
+        sheetSyncBadge.className = 'sheet-sync-pill';
+        sheetSyncBadge.innerHTML = `🟢 Dữ liệu đã đồng bộ (${(window.DOSSIER_DATA||[]).length.toLocaleString('vi-VN')} hồ sơ)`;
+      }
+    } else {
+      // Trên Local: fetch live từ Google Sheet mỗi 20 giây
+      fetchLiveDataFromSheet(false);
+      setInterval(() => fetchLiveDataFromSheet(false), 20000);
+    }
   });
+
+  // Tải lại js/data.js mới nhất từ GitHub (dùng cho GitHub Pages)
+  async function reloadDataJs() {
+    try {
+      const resp = await fetch(`js/data.js?t=${Date.now()}`, { cache: 'no-cache' });
+      if (!resp.ok) return;
+      const text = await resp.text();
+      (new Function(text))();
+      // Cập nhật lại allRecords từ DOSSIER_DATA mới
+      const newRecords = window.DOSSIER_DATA || [];
+      if (newRecords.length > 0 && newRecords.length >= allRecords.length * 0.9) {
+        allRecords = newRecords;
+        populateDateDropdown();
+        updateChipCounts();
+        handleFilterChange();
+        const now = new Date();
+        const timeStr = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}:${String(now.getSeconds()).padStart(2,'0')}`;
+        if (sheetSyncBadge) {
+          sheetSyncBadge.className = 'sheet-sync-pill';
+          sheetSyncBadge.innerHTML = `🟢 Auto-Sync (${newRecords.length.toLocaleString('vi-VN')} HS - ${timeStr})`;
+        }
+      }
+    } catch(e) {
+      console.warn('reloadDataJs warning:', e);
+    }
+  }
 
   // 1. Live Clock Widget
   function startLiveClock() {
