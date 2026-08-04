@@ -688,6 +688,10 @@
           if (key.startsWith('_')) return;
           const canon = this.getCanonicalOfficerName(key);
           if (canon && !canon.includes('Chưa') && !canon.includes('Khác') && !canon.includes('Ban QLDA')) {
+            if (window.BASE_HRM_DEPARTMENTS && window.BASE_HRM_DEPARTMENTS[canon]) {
+              const dept = String(window.BASE_HRM_DEPARTMENTS[canon]).toLowerCase();
+              if (dept.includes('pháp chế') || dept.includes('hành chính')) return;
+            }
             allOfficers.add(canon);
           }
         });
