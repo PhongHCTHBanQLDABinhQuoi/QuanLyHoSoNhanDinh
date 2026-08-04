@@ -1,0 +1,37 @@
+name: Auto Sync Base API & Sheet Data
+
+on:
+  schedule:
+    # Tự động đồng bộ mỗi 5 phút từ Base API & Google Sheet
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Nút bấm đồng bộ thủ công trên giao diện GitHub Actions
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Execute Live Sync Script
+        run: python sync_sheet.py
+
+      - name: Auto Commit and Push Live Data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add js/data.js
+          if git diff --staged --quiet; then
+            echo "Dữ liệu chưa có thay đổi mới."
+          else
+            git commit -m "🤖 Auto-sync live Base API & Google Sheet data"
+            git push origin main
+          fi
