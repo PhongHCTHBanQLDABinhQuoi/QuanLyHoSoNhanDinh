@@ -292,47 +292,81 @@ def fetch_and_sync():
     reader = list(csv.reader(io.StringIO(csv_text)))
     
     header_idx = -1
+    header_row = None
     for i, row in enumerate(reader):
-        if row and (row[0].strip() == "STT" or "STT" in row):
+        if row and any("STT" in cell for cell in row):
             header_idx = i
+            header_row = [cell.strip() for cell in row]
             break
             
     if header_idx == -1:
         print("Error: Could not find header row with STT!")
         sys.exit(1)
+
+    col_map = {}
+    for idx, h in enumerate(header_row):
+        clean_h = h.lower().replace("\n", " ").strip()
+        if "stt" in clean_h: col_map["stt"] = idx
+        elif "cán bộ bbt" in clean_h: col_map["canBoBBT"] = idx
+        elif "ngày chuyển" in clean_h: col_map["ngayChuyen"] = idx
+        elif "ktht" in clean_h or "phòng ktht" in clean_h: col_map["canBoKTHT"] = idx
+        elif "tổ bồi thường" in clean_h: col_map["toBoiThuong"] = idx
+        elif "mã hồ sơ" in clean_h or "mã hs" in clean_h: col_map["maHoSo"] = idx
+        elif "họ và tên" in clean_h or "họ tên" in clean_h: col_map["hoTen"] = idx
+        elif "địa chỉ" in clean_h: col_map["diaChi"] = idx
+        elif "đường" in clean_h: col_map["duong"] = idx
+        elif "phường" in clean_h: col_map["phuong"] = idx
+        elif "tờ bản đồ" in clean_h: col_map["toBanDo"] = idx
+        elif "thửa đất" in clean_h: col_map["thuaDat"] = idx
+        elif "khu phố" in clean_h: col_map["khuPho"] = idx
+        elif "một phần" in clean_h: col_map["giaiToaMotPhan"] = idx
+        elif "toàn phần" in clean_h: col_map["giaiToaToanPhan"] = idx
+        elif "trạng thái" in clean_h: col_map["trangThai"] = idx
+        elif "ghi chú" in clean_h: col_map["ghiChu"] = idx
+        elif "pháp chế" in clean_h: col_map["phapChe"] = idx
+        elif "đo lường" in clean_h: col_map["doLuong"] = idx
+        elif "trùng lặp" in clean_h: col_map["trungLap"] = idx
         
     records = []
     for row in reader[header_idx + 1:]:
-        if not row or not row[0].strip():
+        if not row or not any(row):
+            continue
+        
+        def g(key, default=""):
+            idx = col_map.get(key)
+            if idx is not None and idx < len(row):
+                return row[idx].strip()
+            return default
+
+        stt_str = g("stt")
+        if not stt_str:
             continue
         try:
-            stt_val = int(row[0].strip())
+            stt_val = int(stt_str)
         except ValueError:
             continue
-            
-        def g(idx):
-            return row[idx].strip() if len(row) > idx else ""
 
         records.append({
             "stt": stt_val,
-            "canBoBBT": g(1),
-            "canBoKTHT": g(2),
-            "ngayChuyen": g(3),
-            "toBoiThuong": g(4),
-            "hoTen": g(5),
-            "diaChi": g(6),
-            "duong": g(7),
-            "phuong": g(8),
-            "toBanDo": g(9),
-            "thuaDat": g(10),
-            "khuPho": g(11),
-            "giaiToaMotPhan": g(12),
-            "giaiToaToanPhan": g(13),
-            "trangThai": g(14),
-            "ghiChu": g(15),
-            "phapChe": g(16),
-            "doLuong": g(17),
-            "trungLap": g(18)
+            "canBoBBT": g("canBoBBT"),
+            "canBoKTHT": g("canBoKTHT"),
+            "ngayChuyen": g("ngayChuyen"),
+            "toBoiThuong": g("toBoiThuong"),
+            "maHoSo": g("maHoSo"),
+            "hoTen": g("hoTen"),
+            "diaChi": g("diaChi"),
+            "duong": g("duong"),
+            "phuong": g("phuong"),
+            "toBanDo": g("toBanDo"),
+            "thuaDat": g("thuaDat"),
+            "khuPho": g("khuPho"),
+            "giaiToaMotPhan": g("giaiToaMotPhan"),
+            "giaiToaToanPhan": g("giaiToaToanPhan"),
+            "trangThai": g("trangThai"),
+            "ghiChu": g("ghiChu"),
+            "phapChe": g("phapChe"),
+            "doLuong": g("doLuong"),
+            "trungLap": g("trungLap")
         })
 
     print(f"Parsed {len(records)} main dossier records successfully.")
