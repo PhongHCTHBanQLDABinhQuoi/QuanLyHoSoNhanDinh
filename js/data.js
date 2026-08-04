@@ -30277,7 +30277,7 @@ window.TABLE_VII_DATA_DAILY = [
   {
     "timeKey": "01/07/2026",
     "khuPho": "17",
-    "canBo": "Linh/Nhi",
+    "canBo": "Nhi",
     "soHsDuyet": 5,
     "soHsTraSua": 0,
     "tongHs": 5,
@@ -30414,8 +30414,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 15,
-    "soHsTraSua": 0,
-    "tongHs": 15,
+    "soHsTraSua": 25,
+    "tongHs": 40,
     "ghiChu": ""
   },
   {
@@ -30423,8 +30423,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 13,
-    "soHsTraSua": 0,
-    "tongHs": 13,
+    "soHsTraSua": 13,
+    "tongHs": 26,
     "ghiChu": ""
   },
   {
@@ -30432,8 +30432,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 26,
-    "soHsTraSua": 0,
-    "tongHs": 26,
+    "soHsTraSua": 27,
+    "tongHs": 53,
     "ghiChu": ""
   },
   {
@@ -30792,8 +30792,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 11,
-    "soHsTraSua": 0,
-    "tongHs": 11,
+    "soHsTraSua": 9,
+    "tongHs": 20,
     "ghiChu": ""
   },
   {
@@ -30801,8 +30801,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 11,
-    "soHsTraSua": 0,
-    "tongHs": 11,
+    "soHsTraSua": 2,
+    "tongHs": 13,
     "ghiChu": ""
   },
   {
@@ -30810,8 +30810,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 43,
-    "soHsTraSua": 0,
-    "tongHs": 43,
+    "soHsTraSua": 36,
+    "tongHs": 79,
     "ghiChu": ""
   },
   {
@@ -30819,8 +30819,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 13,
-    "soHsTraSua": 0,
-    "tongHs": 13,
+    "soHsTraSua": 4,
+    "tongHs": 17,
     "ghiChu": ""
   },
   {
@@ -30828,8 +30828,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 13,
-    "soHsTraSua": 0,
-    "tongHs": 13,
+    "soHsTraSua": 9,
+    "tongHs": 22,
     "ghiChu": ""
   },
   {
@@ -30837,8 +30837,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 38,
-    "soHsTraSua": 0,
-    "tongHs": 38,
+    "soHsTraSua": 5,
+    "tongHs": 43,
     "ghiChu": ""
   },
   {
@@ -30846,8 +30846,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 20,
-    "soHsTraSua": 0,
-    "tongHs": 20,
+    "soHsTraSua": 10,
+    "tongHs": 30,
     "ghiChu": ""
   },
   {
@@ -30855,8 +30855,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 16,
-    "soHsTraSua": 0,
-    "tongHs": 16,
+    "soHsTraSua": 5,
+    "tongHs": 21,
     "ghiChu": ""
   },
   {
@@ -30864,8 +30864,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 49,
-    "soHsTraSua": 0,
-    "tongHs": 49,
+    "soHsTraSua": 3,
+    "tongHs": 52,
     "ghiChu": ""
   },
   {
@@ -30873,8 +30873,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 19,
-    "soHsTraSua": 0,
-    "tongHs": 19,
+    "soHsTraSua": 5,
+    "tongHs": 24,
     "ghiChu": ""
   },
   {
@@ -30882,8 +30882,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 5,
-    "soHsTraSua": 0,
-    "tongHs": 5,
+    "soHsTraSua": 2,
+    "tongHs": 7,
     "ghiChu": ""
   },
   {
@@ -30891,8 +30891,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 35,
-    "soHsTraSua": 0,
-    "tongHs": 35,
+    "soHsTraSua": 12,
+    "tongHs": 47,
     "ghiChu": ""
   },
   {
@@ -30900,8 +30900,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 20,
-    "soHsTraSua": 0,
-    "tongHs": 20,
+    "soHsTraSua": 12,
+    "tongHs": 32,
     "ghiChu": ""
   },
   {
@@ -30909,8 +30909,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 27,
-    "soHsTraSua": 0,
-    "tongHs": 27,
+    "soHsTraSua": 5,
+    "tongHs": 32,
     "ghiChu": ""
   },
   {
@@ -30918,8 +30918,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 63,
-    "soHsTraSua": 0,
-    "tongHs": 63,
+    "soHsTraSua": 12,
+    "tongHs": 75,
     "ghiChu": ""
   },
   {
@@ -30999,8 +30999,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 24,
-    "soHsTraSua": 0,
-    "tongHs": 24,
+    "soHsTraSua": 3,
+    "tongHs": 27,
     "ghiChu": ""
   },
   {
@@ -31008,8 +31008,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 10,
-    "soHsTraSua": 0,
-    "tongHs": 10,
+    "soHsTraSua": 6,
+    "tongHs": 16,
     "ghiChu": ""
   },
   {
@@ -31017,8 +31017,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 23,
-    "soHsTraSua": 0,
-    "tongHs": 23,
+    "soHsTraSua": 6,
+    "tongHs": 29,
     "ghiChu": ""
   },
   {
@@ -31026,8 +31026,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 18,
-    "soHsTraSua": 0,
-    "tongHs": 18,
+    "soHsTraSua": 10,
+    "tongHs": 28,
     "ghiChu": ""
   },
   {
@@ -31035,8 +31035,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 27,
-    "soHsTraSua": 0,
-    "tongHs": 27,
+    "soHsTraSua": 12,
+    "tongHs": 39,
     "ghiChu": ""
   },
   {
@@ -31044,8 +31044,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 19,
-    "soHsTraSua": 0,
-    "tongHs": 19,
+    "soHsTraSua": 2,
+    "tongHs": 21,
     "ghiChu": ""
   },
   {
@@ -31053,8 +31053,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 61,
-    "soHsTraSua": 0,
-    "tongHs": 61,
+    "soHsTraSua": 23,
+    "tongHs": 84,
     "ghiChu": ""
   },
   {
@@ -31062,8 +31062,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 45,
-    "soHsTraSua": 0,
-    "tongHs": 45,
+    "soHsTraSua": 16,
+    "tongHs": 61,
     "ghiChu": ""
   },
   {
@@ -31071,8 +31071,8 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 35,
-    "soHsTraSua": 0,
-    "tongHs": 35,
+    "soHsTraSua": 7,
+    "tongHs": 42,
     "ghiChu": ""
   },
   {

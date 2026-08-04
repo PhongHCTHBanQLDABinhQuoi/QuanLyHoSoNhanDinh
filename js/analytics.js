@@ -83,6 +83,35 @@
         }
       });
 
+      // Nếu có dữ liệu Base Workflow API (Tổng HS nắm giữ):
+      // Sử dụng Tổng HS nắm giữ từ Base Workflow cho cột TỔNG HS ở Bảng I theo yêu cầu
+      if (window.BASE_WORKFLOW_COUNTS) {
+        let baseTotalSum = 0;
+        Object.keys(window.BASE_WORKFLOW_COUNTS).forEach(k => {
+          if (!k.startsWith('_')) {
+            baseTotalSum += (window.BASE_WORKFLOW_COUNTS[k] || 0);
+          }
+        });
+
+        if (baseTotalSum > 0) {
+          const sheetTotal = result['TỔNG CỘNG'].total;
+          if (sheetTotal > 0) {
+            const ratio17 = result['KP 17'].total / sheetTotal;
+            const ratio18 = result['KP 18'].total / sheetTotal;
+            const ratio19 = result['KP 19'].total / sheetTotal;
+
+            const b17 = Math.round(baseTotalSum * ratio17);
+            const b18 = Math.round(baseTotalSum * ratio18);
+            const b19 = baseTotalSum - b17 - b18;
+
+            result['KP 17'].total = b17;
+            result['KP 18'].total = b18;
+            result['KP 19'].total = b19;
+          }
+          result['TỔNG CỘNG'].total = baseTotalSum;
+        }
+      }
+
       return result;
     },
 
