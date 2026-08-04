@@ -1,4 +1,4 @@
-// Data dataset auto-synced from Google Sheets & Base Workflow API
+// Data dataset auto-synced from Google Sheets, Base Workflow API & Base HRM API
 window.DOSSIER_DATA = [
   {
     "stt": 1,
@@ -28268,10 +28268,10 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 1347,
-    "canBoBBT": "",
+    "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Lương Thị Mai",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28280,19 +28280,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "132",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "208,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1348,
-    "canBoBBT": "",
+    "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Vũ Đức Nguyện",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28301,19 +28301,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "168",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "95,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1349,
-    "canBoBBT": "",
+    "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Các đồng thừa kế của bà Huỳnh Thị Kiển",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28322,19 +28322,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "600 và MPT 114",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "2114,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1350,
-    "canBoBBT": "",
+    "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Thị Được",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28343,19 +28343,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "51",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "1928,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1351,
-    "canBoBBT": "",
+    "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Thị Được",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28364,19 +28364,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "47",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "863,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1352,
-    "canBoBBT": "",
+    "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Đình Đức (đại diện thừa kế)",
     "diaChi": "480/89/91",
     "duong": "Bình Quới",
@@ -28385,19 +28385,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "20",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "4246,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1353,
-    "canBoBBT": "",
+    "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Văn Dũng - Huỳnh Thị Kim Huệ",
     "diaChi": "558/64/40A",
     "duong": "Bình Quới",
@@ -28406,19 +28406,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "11",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "189,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1354,
-    "canBoBBT": "",
+    "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Đinh Văn Sáu - Nguyễn Thị Quy",
     "diaChi": "558/64/50B",
     "duong": "Bình Quới",
@@ -28427,19 +28427,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "413",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "1078,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1355,
-    "canBoBBT": "",
+    "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Phùng Minh Khuê",
     "diaChi": "480/65/22K",
     "duong": "Bình Quới",
@@ -28448,19 +28448,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "MP105",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "123,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1356,
-    "canBoBBT": "",
+    "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Thị Thanh Vân",
     "diaChi": "480/104",
     "duong": "Bình Quới",
@@ -28469,19 +28469,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "403",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "17,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1357,
-    "canBoBBT": "",
+    "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Phan Thanh Sơn",
     "diaChi": "558/66/3",
     "duong": "Bình Quới",
@@ -28490,19 +28490,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "MP 206",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "80",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1358,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Sách (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28511,19 +28511,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "5835",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1359,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Quan Hải (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28532,19 +28532,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "2159,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1360,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Tư (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28553,19 +28553,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "2319",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1361,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Hồ Thị Lý (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28574,19 +28574,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "2320",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1362,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Hà Văn Việt (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28595,19 +28595,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "4064",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1363,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Trần Thị Ai (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28616,19 +28616,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "2320",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1364,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Biểu (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28637,19 +28637,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "5790",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1365,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Nữ (HTX)",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28658,19 +28658,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 85",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "2659",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1366,
-    "canBoBBT": "",
+    "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Phan Thị Lâm \n (Nguyễn Thị Hồng Liên)",
     "diaChi": "558/66/6A",
     "duong": "Bình Quới",
@@ -28679,19 +28679,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "558, mpt 187",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "216,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1367,
-    "canBoBBT": "",
+    "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Dương Thị Thúy Diễm",
     "diaChi": "Không số",
     "duong": "Bình Quới",
@@ -28700,19 +28700,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "38",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "47",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1368,
-    "canBoBBT": "",
+    "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Thành",
     "diaChi": "Không số",
     "duong": "Bình Quới",
@@ -28721,19 +28721,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 187",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "213,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1369,
-    "canBoBBT": "",
+    "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Thị Ngọc Lan",
     "diaChi": "Không số",
     "duong": "Bình Quới",
@@ -28742,19 +28742,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "43,58",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "7093,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1370,
-    "canBoBBT": "",
+    "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Thị Thúy Vinh",
     "diaChi": "Không số",
     "duong": "Bình Quới",
@@ -28763,19 +28763,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "MPT 15",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "84,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1371,
-    "canBoBBT": "",
+    "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Trần Thị Thanh Hương",
     "diaChi": "Không số",
     "duong": "Bình Quới",
@@ -28784,19 +28784,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "MPT 105, 107",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "131,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1372,
-    "canBoBBT": "",
+    "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Văn Lắm",
     "diaChi": "Không số",
     "duong": "Bình Quới",
@@ -28805,19 +28805,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "107",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "174,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1373,
-    "canBoBBT": "",
+    "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Trần Thị Hồng",
     "diaChi": "Không số",
     "duong": "Bình Quới",
@@ -28826,19 +28826,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "9, 10, 13",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "3490,7",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1374,
-    "canBoBBT": "",
+    "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Mai Văn Ba",
     "diaChi": "480/67/5D",
     "duong": "Bình Quới",
@@ -28847,19 +28847,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "MPT 80",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "123,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1375,
-    "canBoBBT": "",
+    "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Văn Sơn(đại diện)",
     "diaChi": "558/64/58A1",
     "duong": "Bình Quới",
@@ -28868,19 +28868,19 @@ window.DOSSIER_DATA = [
     "thuaDat": "mpt 81",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "40,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   },
   {
     "stt": 1376,
-    "canBoBBT": "",
+    "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
-    "ngayChuyen": "",
-    "toBoiThuong": "",
+    "ngayChuyen": "04/08/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Phạm Thị Tuyết Nga",
     "diaChi": "không số",
     "duong": "Bình Quới",
@@ -28889,17 +28889,314 @@ window.DOSSIER_DATA = [
     "thuaDat": "11",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
-    "trangThai": "",
+    "giaiToaToanPhan": "1168,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "",
+    "phapChe": "Tân/Dũng",
     "doLuong": "",
     "trungLap": ""
   }
 ];
 window.TABLE_VII_DATA_DAILY = [
   {
-    "timeKey": "3/8/2026",
+    "timeKey": "01/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "01/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "01/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "02/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "02/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "02/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "03/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "03/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "03/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "04/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "04/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "04/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "05/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "05/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "05/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "06/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "06/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "06/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "07/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "07/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "07/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "08/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "08/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "08/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "09/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "09/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "09/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "11/07/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "11/07/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "11/07/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "03/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 7,
@@ -28908,7 +29205,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "3/8/2026",
+    "timeKey": "03/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 6,
@@ -28917,7 +29214,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "3/8/2026",
+    "timeKey": "03/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 55,
@@ -28926,7 +29223,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "4/8/2026",
+    "timeKey": "04/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -28935,7 +29232,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "4/8/2026",
+    "timeKey": "04/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -28944,7 +29241,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "4/8/2026",
+    "timeKey": "04/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -28953,7 +29250,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "5/8/2026",
+    "timeKey": "05/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -28962,7 +29259,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "5/8/2026",
+    "timeKey": "05/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -28971,7 +29268,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "5/8/2026",
+    "timeKey": "05/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -28980,7 +29277,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "6/8/2026",
+    "timeKey": "06/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -28989,7 +29286,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "6/8/2026",
+    "timeKey": "06/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -28998,7 +29295,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "6/8/2026",
+    "timeKey": "06/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29007,7 +29304,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "7/8/2026",
+    "timeKey": "07/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29016,7 +29313,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "7/8/2026",
+    "timeKey": "07/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29025,7 +29322,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "7/8/2026",
+    "timeKey": "07/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29034,7 +29331,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "8/8/2026",
+    "timeKey": "08/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29043,7 +29340,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "8/8/2026",
+    "timeKey": "08/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29052,7 +29349,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "8/8/2026",
+    "timeKey": "08/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29061,7 +29358,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "9/8/2026",
+    "timeKey": "09/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29070,7 +29367,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "9/8/2026",
+    "timeKey": "09/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29079,7 +29376,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "9/8/2026",
+    "timeKey": "09/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29088,7 +29385,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "10/8/2026",
+    "timeKey": "10/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29097,7 +29394,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "10/8/2026",
+    "timeKey": "10/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29106,7 +29403,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "10/8/2026",
+    "timeKey": "10/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29115,7 +29412,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "11/8/2026",
+    "timeKey": "11/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29124,7 +29421,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "11/8/2026",
+    "timeKey": "11/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29133,7 +29430,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "11/8/2026",
+    "timeKey": "11/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29142,7 +29439,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "12/8/2026",
+    "timeKey": "12/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29151,7 +29448,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "12/8/2026",
+    "timeKey": "12/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29160,7 +29457,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "12/8/2026",
+    "timeKey": "12/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29169,7 +29466,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "13/8/2026",
+    "timeKey": "13/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29178,7 +29475,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "13/8/2026",
+    "timeKey": "13/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29187,7 +29484,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "13/8/2026",
+    "timeKey": "13/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29196,7 +29493,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "14/8/2026",
+    "timeKey": "14/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29205,7 +29502,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "14/8/2026",
+    "timeKey": "14/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29214,7 +29511,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "14/8/2026",
+    "timeKey": "14/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29223,7 +29520,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "15/8/2026",
+    "timeKey": "15/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29232,7 +29529,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "15/8/2026",
+    "timeKey": "15/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29241,7 +29538,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "15/8/2026",
+    "timeKey": "15/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29250,7 +29547,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "16/8/2026",
+    "timeKey": "16/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29259,7 +29556,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "16/8/2026",
+    "timeKey": "16/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29268,7 +29565,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "16/8/2026",
+    "timeKey": "16/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29277,7 +29574,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "17/8/2026",
+    "timeKey": "17/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29286,7 +29583,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "17/8/2026",
+    "timeKey": "17/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29295,7 +29592,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "17/8/2026",
+    "timeKey": "17/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29304,7 +29601,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "18/8/2026",
+    "timeKey": "18/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29313,7 +29610,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "18/8/2026",
+    "timeKey": "18/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29322,7 +29619,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "18/8/2026",
+    "timeKey": "18/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29331,7 +29628,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "19/8/2026",
+    "timeKey": "19/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29340,7 +29637,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "19/8/2026",
+    "timeKey": "19/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29349,7 +29646,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "19/8/2026",
+    "timeKey": "19/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29358,7 +29655,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "20/8/2026",
+    "timeKey": "20/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29367,7 +29664,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "20/8/2026",
+    "timeKey": "20/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29376,7 +29673,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "20/8/2026",
+    "timeKey": "20/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29385,7 +29682,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "21/8/2026",
+    "timeKey": "21/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29394,7 +29691,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "21/8/2026",
+    "timeKey": "21/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29403,7 +29700,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "21/8/2026",
+    "timeKey": "21/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29412,7 +29709,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "22/8/2026",
+    "timeKey": "22/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29421,7 +29718,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "22/8/2026",
+    "timeKey": "22/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29430,7 +29727,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "22/8/2026",
+    "timeKey": "22/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29439,7 +29736,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "23/8/2026",
+    "timeKey": "23/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29448,7 +29745,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "23/8/2026",
+    "timeKey": "23/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29457,7 +29754,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "23/8/2026",
+    "timeKey": "23/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29466,7 +29763,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "24/8/2026",
+    "timeKey": "24/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29475,7 +29772,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "24/8/2026",
+    "timeKey": "24/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29484,7 +29781,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "24/8/2026",
+    "timeKey": "24/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29493,7 +29790,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "25/8/2026",
+    "timeKey": "25/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29502,7 +29799,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "25/8/2026",
+    "timeKey": "25/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29511,7 +29808,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "25/8/2026",
+    "timeKey": "25/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29520,7 +29817,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "26/8/2026",
+    "timeKey": "26/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29529,7 +29826,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "26/8/2026",
+    "timeKey": "26/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29538,7 +29835,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "26/8/2026",
+    "timeKey": "26/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29547,7 +29844,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "27/8/2026",
+    "timeKey": "27/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29556,7 +29853,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "27/8/2026",
+    "timeKey": "27/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29565,7 +29862,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "27/8/2026",
+    "timeKey": "27/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29574,7 +29871,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "28/8/2026",
+    "timeKey": "28/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29583,7 +29880,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "28/8/2026",
+    "timeKey": "28/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29592,7 +29889,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "28/8/2026",
+    "timeKey": "28/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29601,7 +29898,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "29/8/2026",
+    "timeKey": "29/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29610,7 +29907,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "29/8/2026",
+    "timeKey": "29/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29619,7 +29916,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "29/8/2026",
+    "timeKey": "29/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29628,7 +29925,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "30/8/2026",
+    "timeKey": "30/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29637,7 +29934,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "30/8/2026",
+    "timeKey": "30/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29646,7 +29943,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "30/8/2026",
+    "timeKey": "30/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29655,7 +29952,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "31/8/2026",
+    "timeKey": "31/08/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
@@ -29664,7 +29961,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "31/8/2026",
+    "timeKey": "31/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 0,
@@ -29673,7 +29970,7 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   },
   {
-    "timeKey": "31/8/2026",
+    "timeKey": "31/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 0,
@@ -29682,5 +29979,629 @@ window.TABLE_VII_DATA_DAILY = [
     "ghiChu": ""
   }
 ];
-window.TABLE_VII_DATA_WEEKLY = [];
-window.BASE_WORKFLOW_COUNTS = {};
+window.TABLE_VII_DATA_WEEKLY = [
+  {
+    "timeKey": "1/7/2026 - 5/7/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "1/7/2026 - 5/7/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "1/7/2026 - 5/7/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "6/7/2026 - 12/7/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "6/7/2026 - 12/7/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "6/7/2026 - 12/7/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "13/7/2026 - 19/7/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "13/7/2026 - 19/7/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "13/7/2026 - 19/7/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "20/7/2026 - 26/7/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "20/7/2026 - 26/7/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "20/7/2026 - 26/7/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "27/7/2026 - 2/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "27/7/2026 - 2/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "27/7/2026 - 2/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "3/8/2026 - 9/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "3/8/2026 - 9/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "3/8/2026 - 9/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/8/2026 - 16/8/2027",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/8/2026 - 16/8/2027",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/8/2026 - 16/8/2027",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "17/8/2026 - 23/8/2028",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "17/8/2026 - 23/8/2028",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "17/8/2026 - 23/8/2028",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026 - 30/8/2029",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026 - 30/8/2029",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026 - 30/8/2029",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026 - 30/8/2029",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026 - 30/8/2029",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026 - 30/8/2029",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "31/8/2026 -1/9/2030",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "31/8/2026 -1/9/2030",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "31/8/2026 -1/9/2030",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  }
+];
+window.BASE_WORKFLOW_COUNTS = {
+  "Quốc Thạch": 80,
+  "Thiện Như": 68,
+  "Thanh Tuyền": 61,
+  "Hoài Thương": 66,
+  "Tố Lam": 64,
+  "Xuân Trúc": 59,
+  "Văn Tân": 64,
+  "Anh Tuấn": 52,
+  "Ngọc Thịnh": 58,
+  "Đăng Vinh": 57,
+  "Mỹ Thương": 63,
+  "Trọng Nhân": 62,
+  "Duy Bảo": 69,
+  "Lan Phương": 55,
+  "Kim Ngân": 53,
+  "Thảo Nguyên": 56,
+  "Kiều Oanh": 68,
+  "Thiên Ngân": 56,
+  "Minh Châu": 57,
+  "Văn Hải": 60,
+  "Quốc Bảo": 63,
+  "Duy Quang": 47,
+  "Thành Giang": 52,
+  "Trọng Phúc": 61,
+  "Thúy Quyên": 64,
+  "Thanh Tùng": 43,
+  "Hoàng Minh": 72,
+  "Ngọc Trân": 61,
+  "Trí Nghĩa": 46,
+  "Như Hà": 50,
+  "Vân Khánh": 67,
+  "Quang Trãi": 61,
+  "Vinh Hiển": 59,
+  "Ánh Linh": 47,
+  "Minh Quân": 61,
+  "Uyên Như": 43,
+  "Anh Thư": 19,
+  "Bảo Vi": 21,
+  "Anh Hào": 36,
+  "Minh Huy": 6,
+  "Hoàng Anh": 10,
+  "_total_jobs": 2232
+};
+window.BASE_HRM_NAMES = {
+  "Anh Huy": "Phan Ngọc Anh Huy",
+  "Huy": "Huỳnh Bá Minh Huy",
+  "Phan Ngọc Anh Huy": "Phan Ngọc Anh Huy",
+  "Quốc Hùng": "Nông Quốc Hùng",
+  "Hùng": "Trịnh Nguyễn Như Hùng",
+  "Nông Quốc Hùng": "Nông Quốc Hùng",
+  "Vĩnh Phúc": "Lư Vĩnh Phúc",
+  "Phúc": "Lư Vĩnh Phúc",
+  "Lư Vĩnh Phúc": "Lư Vĩnh Phúc",
+  "Duy Khánh": "Lê Duy Khánh",
+  "Khánh": "Lê Duy Khánh",
+  "Lê Duy Khánh": "Lê Duy Khánh",
+  "Hoàng Oanh": "Nguyễn Thị Hoàng Oanh",
+  "Oanh": "Đặng Cao Kiều Oanh",
+  "Nguyễn Thị Hoàng Oanh": "Nguyễn Thị Hoàng Oanh",
+  "Thu Thủy": "Nguyễn Thu Thủy",
+  "Thủy": "Nguyễn Thu Thủy",
+  "Nguyễn Thu Thủy": "Nguyễn Thu Thủy",
+  "Xuân Nguyệt": "Huỳnh Hà Xuân Nguyệt",
+  "Nguyệt": "Huỳnh Hà Xuân Nguyệt",
+  "Huỳnh Hà Xuân Nguyệt": "Huỳnh Hà Xuân Nguyệt",
+  "Anh Kim": "Nguyễn Trần Anh Kim",
+  "Kim": "Nguyễn Trần Anh Kim",
+  "Nguyễn Trần Anh Kim": "Nguyễn Trần Anh Kim",
+  "Hoàng Giao": "Trương Nguyễn Hoàng Giao",
+  "Giao": "Trương Nguyễn Hoàng Giao",
+  "Trương Nguyễn Hoàng Giao": "Trương Nguyễn Hoàng Giao",
+  "Thanh Hương": "Đỗ Ngọc Thanh Hương",
+  "Hương": "Nguyễn Thị Lan Hương",
+  "Đỗ Ngọc Thanh Hương": "Đỗ Ngọc Thanh Hương",
+  "Hoàng Thành": "Ngô Hoàng Thành",
+  "Thành": "Ngô Hoàng Thành",
+  "Ngô Hoàng Thành": "Ngô Hoàng Thành",
+  "Tuấn Kiệt": "Nguyễn Tuấn Kiệt",
+  "Kiệt": "Phùng Anh Kiệt",
+  "Nguyễn Tuấn Kiệt": "Nguyễn Tuấn Kiệt",
+  "Quỳnh Tư": "Đào Thị Quỳnh Tư",
+  "Tư": "Đào Thị Quỳnh Tư",
+  "Đào Thị Quỳnh Tư": "Đào Thị Quỳnh Tư",
+  "Hoài Phong": "Lê Hoài Phong",
+  "Phong": "Lê Hoài Phong",
+  "Lê Hoài Phong": "Lê Hoài Phong",
+  "Trung Bình": "Nguyễn Trung Bình",
+  "Bình": "Nguyễn Trung Bình",
+  "Nguyễn Trung Bình": "Nguyễn Trung Bình",
+  "Ngọc Bích": "Lê Ngọc Bích",
+  "Bích": "Lê Ngọc Bích",
+  "Lê Ngọc Bích": "Lê Ngọc Bích",
+  "Thị Thanh": "Lê Thị Thanh",
+  "Thanh": "Trịnh Đắc Duy Thanh",
+  "Lê Thị Thanh": "Lê Thị Thanh",
+  "Trúc Ly": "Bùi Thị Trúc Ly",
+  "Ly": "Bùi Thị Trúc Ly",
+  "Bùi Thị Trúc Ly": "Bùi Thị Trúc Ly",
+  "Ngọc Minh": "Lê Thị Ngọc Minh",
+  "Minh": "Trịnh Hoàng Minh",
+  "Lê Thị Ngọc Minh": "Lê Thị Ngọc Minh",
+  "Thị Hiền": "Trần Thị Hiền",
+  "Hiền": "Trần Thị Hiền",
+  "Trần Thị Hiền": "Trần Thị Hiền",
+  "Nhật Tân": "Hồ Nhật Tân",
+  "Tân": "Trần Ngọc Tân",
+  "Hồ Nhật Tân": "Hồ Nhật Tân",
+  "Minh Anh": "Võ Phạm Minh Anh",
+  "Anh": "Võ Phạm Minh Anh",
+  "Võ Phạm Minh Anh": "Võ Phạm Minh Anh",
+  "Yến Nhi": "Võ Thị Yến Nhi",
+  "Nhi": "Huỳnh Thị Trà Nhi",
+  "Võ Thị Yến Nhi": "Võ Thị Yến Nhi",
+  "Như Hùng": "Trịnh Nguyễn Như Hùng",
+  "Trịnh Nguyễn Như Hùng": "Trịnh Nguyễn Như Hùng",
+  "Gia Hào": "Phong Gia Hào",
+  "Hào": "Lý Anh Hào",
+  "Phong Gia Hào": "Phong Gia Hào",
+  "Tấn Lộc": "Lê Tấn Lộc",
+  "Lộc": "Lê Tấn Lộc",
+  "Lê Tấn Lộc": "Lê Tấn Lộc",
+  "Quốc Bảo": "Hoàng Lâm Quốc Bảo",
+  "Bảo": "Trương Duy Bảo",
+  "Hoàng Lâm Quốc Bảo": "Hoàng Lâm Quốc Bảo",
+  "Trọng Phúc": "Võ Trọng Phúc",
+  "Phúc": "Võ Trọng Phúc",
+  "Võ Trọng Phúc": "Võ Trọng Phúc",
+  "Quang Trãi": "Lê Quang Trãi",
+  "Trãi": "Lê Quang Trãi",
+  "Lê Quang Trãi": "Lê Quang Trãi",
+  "Vân Khánh": "Phạm Trần Vân Khánh",
+  "Khánh": "Phạm Trần Vân Khánh",
+  "Phạm Trần Vân Khánh": "Phạm Trần Vân Khánh",
+  "Xuân Trúc": "Phạm Lê Xuân Trúc",
+  "Trúc": "Phạm Lê Xuân Trúc",
+  "Phạm Lê Xuân Trúc": "Phạm Lê Xuân Trúc",
+  "Duy Bảo": "Trương Duy Bảo",
+  "Trương Duy Bảo": "Trương Duy Bảo",
+  "Minh Quân": "Nguyễn Minh Quân",
+  "Quân": "Nguyễn Minh Quân",
+  "Nguyễn Minh Quân": "Nguyễn Minh Quân",
+  "Tú Trinh": "Nguyễn Thị Tú Trinh",
+  "Trinh": "Dương Thị Thùy Trinh",
+  "Nguyễn Thị Tú Trinh": "Nguyễn Thị Tú Trinh",
+  "Thiện Như": "Nguyễn Thiện Như",
+  "Như": "Tô Ngọc Uyên Như",
+  "Nguyễn Thiện Như": "Nguyễn Thiện Như",
+  "Quốc Dũng": "Lâm Quốc Dũng",
+  "Dũng": "Lâm Quốc Dũng",
+  "Lâm Quốc Dũng": "Lâm Quốc Dũng",
+  "Trung Kiên": "Đặng Trung Kiên",
+  "Kiên": "Đặng Trung Kiên",
+  "Đặng Trung Kiên": "Đặng Trung Kiên",
+  "Vinh Hiển": "Nguyễn Vinh Hiển",
+  "Hiển": "Nguyễn Vinh Hiển",
+  "Nguyễn Vinh Hiển": "Nguyễn Vinh Hiển",
+  "Tố Lam": "Đoàn Thị Tố Lam",
+  "Lam": "Đoàn Thị Tố Lam",
+  "Đoàn Thị Tố Lam": "Đoàn Thị Tố Lam",
+  "Thúy Quyên": "Đỗ Thị Thúy Quyên",
+  "Quyên": "Đỗ Thị Thúy Quyên",
+  "Đỗ Thị Thúy Quyên": "Đỗ Thị Thúy Quyên",
+  "Hùng Nam": "Lý Hùng Nam",
+  "Nam": "Lý Hùng Nam",
+  "Lý Hùng Nam": "Lý Hùng Nam",
+  "Anh Kiệt": "Phùng Anh Kiệt",
+  "Phùng Anh Kiệt": "Phùng Anh Kiệt",
+  "Vĩ Đại": "Vương Vĩ Đại",
+  "Đại": "Vương Vĩ Đại",
+  "Vương Vĩ Đại": "Vương Vĩ Đại",
+  "Quang Trung": "Nguyễn Quang Trung",
+  "Trung": "Nguyễn Quang Trung",
+  "Nguyễn Quang Trung": "Nguyễn Quang Trung",
+  "Thành Tài": "Lê Thành Tài",
+  "Tài": "Lê Thành Tài",
+  "Lê Thành Tài": "Lê Thành Tài",
+  "Mỹ Thương": "Cao Thị Mỹ Thương",
+  "Thương": "Hoàng Hoài Thương",
+  "Cao Thị Mỹ Thương": "Cao Thị Mỹ Thương",
+  "Ngọc Trân": "Nguyễn Ngọc Trân",
+  "Trân": "Nguyễn Ngọc Trân",
+  "Nguyễn Ngọc Trân": "Nguyễn Ngọc Trân",
+  "Duy Quang": "Phạm Duy Quang",
+  "Quang": "Phạm Duy Quang",
+  "Phạm Duy Quang": "Phạm Duy Quang",
+  "Anh Hào": "Lý Anh Hào",
+  "Lý Anh Hào": "Lý Anh Hào",
+  "Thùy Trinh": "Dương Thị Thùy Trinh",
+  "Dương Thị Thùy Trinh": "Dương Thị Thùy Trinh",
+  "Minh Huy": "Huỳnh Bá Minh Huy",
+  "Huỳnh Bá Minh Huy": "Huỳnh Bá Minh Huy",
+  "Quốc Thanh": "Lê Quốc Thanh",
+  "Lê Quốc Thanh": "Lê Quốc Thanh",
+  "Thành Giang": "Nguyễn Phạm Thành Giang",
+  "Giang": "Đinh Thị Hương Giang",
+  "Nguyễn Phạm Thành Giang": "Nguyễn Phạm Thành Giang",
+  "Anh Tuấn": "Lê Anh Tuấn",
+  "Tuấn": "Lê Anh Tuấn",
+  "Lê Anh Tuấn": "Lê Anh Tuấn",
+  "Trọng Nhân": "Vương Trọng Nhân",
+  "Nhân": "Vương Trọng Nhân",
+  "Vương Trọng Nhân": "Vương Trọng Nhân",
+  "Thiên Ngân": "Nguyễn Thị Thiên Ngân",
+  "Ngân": "Mai Ngọc Kim Ngân",
+  "Nguyễn Thị Thiên Ngân": "Nguyễn Thị Thiên Ngân",
+  "Kim Ngân": "Mai Ngọc Kim Ngân",
+  "Mai Ngọc Kim Ngân": "Mai Ngọc Kim Ngân",
+  "Lan Phương": "Lê Lan Phương",
+  "Phương": "Lê Lan Phương",
+  "Lê Lan Phương": "Lê Lan Phương",
+  "Thảo Nguyên": "Nguyễn Ngọc Thảo Nguyên",
+  "Nguyên": "Nguyễn Ngọc Thảo Nguyên",
+  "Nguyễn Ngọc Thảo Nguyên": "Nguyễn Ngọc Thảo Nguyên",
+  "Kỳ Duyên": "Trần Kỳ Duyên",
+  "Duyên": "Trần Kỳ Duyên",
+  "Trần Kỳ Duyên": "Trần Kỳ Duyên",
+  "Hồng Thắm": "Huỳnh Thị Hồng Thắm",
+  "Thắm": "Huỳnh Thị Hồng Thắm",
+  "Huỳnh Thị Hồng Thắm": "Huỳnh Thị Hồng Thắm",
+  "Nhật Duy": "Nguyễn Hoàng Nhật Duy",
+  "Duy": "Nguyễn Hoàng Nhật Duy",
+  "Nguyễn Hoàng Nhật Duy": "Nguyễn Hoàng Nhật Duy",
+  "Duy Thanh": "Trịnh Đắc Duy Thanh",
+  "Trịnh Đắc Duy Thanh": "Trịnh Đắc Duy Thanh",
+  "Thanh Tùng": "Nguyễn Thanh Tùng",
+  "Tùng": "Nguyễn Minh Tùng",
+  "Nguyễn Thanh Tùng": "Nguyễn Thanh Tùng",
+  "Quang Tuấn": "Cao Quang Tuấn",
+  "Tuấn": "Cao Quang Tuấn",
+  "Cao Quang Tuấn": "Cao Quang Tuấn",
+  "Tấn Trường": "Trần Tấn Trường",
+  "Trường": "Trần Tấn Trường",
+  "Trần Tấn Trường": "Trần Tấn Trường",
+  "Minh Tùng": "Nguyễn Minh Tùng",
+  "Nguyễn Minh Tùng": "Nguyễn Minh Tùng",
+  "Ánh Linh": "Phạm Thị Ánh Linh",
+  "Linh": "Hồ Khánh Linh",
+  "Phạm Thị Ánh Linh": "Phạm Thị Ánh Linh",
+  "Thanh Tuyền": "Nguyễn Thanh Tuyền",
+  "Tuyền": "Nguyễn Thanh Tuyền",
+  "Nguyễn Thanh Tuyền": "Nguyễn Thanh Tuyền",
+  "Hoàng Minh": "Trịnh Hoàng Minh",
+  "Trịnh Hoàng Minh": "Trịnh Hoàng Minh",
+  "Kiều Oanh": "Đặng Cao Kiều Oanh",
+  "Đặng Cao Kiều Oanh": "Đặng Cao Kiều Oanh",
+  "Hoài Thương": "Hoàng Hoài Thương",
+  "Hoàng Hoài Thương": "Hoàng Hoài Thương",
+  "Uyên Như": "Tô Ngọc Uyên Như",
+  "Tô Ngọc Uyên Như": "Tô Ngọc Uyên Như",
+  "Như Yến": "Lư Nữ Như Yến",
+  "Yến": "Lư Nữ Như Yến",
+  "Lư Nữ Như Yến": "Lư Nữ Như Yến",
+  "Văn Tân": "Huỳnh Văn Tân",
+  "Huỳnh Văn Tân": "Huỳnh Văn Tân",
+  "Quốc Thạch": "Hồ Quốc Thạch",
+  "Thạch": "Hồ Quốc Thạch",
+  "Hồ Quốc Thạch": "Hồ Quốc Thạch",
+  "Ngọc Tân": "Trần Ngọc Tân",
+  "Trần Ngọc Tân": "Trần Ngọc Tân",
+  "Đăng Vinh": "Đặng Hải Đăng Vinh",
+  "Vinh": "Đặng Hải Đăng Vinh",
+  "Đặng Hải Đăng Vinh": "Đặng Hải Đăng Vinh",
+  "Minh Châu": "Nguyễn Đoàn Minh Châu",
+  "Châu": "Nguyễn Đoàn Minh Châu",
+  "Nguyễn Đoàn Minh Châu": "Nguyễn Đoàn Minh Châu",
+  "Hoàng Tâm": "Nguyễn Hoàng Tâm",
+  "Tâm": "Nguyễn Thị Ngọc Tâm",
+  "Nguyễn Hoàng Tâm": "Nguyễn Hoàng Tâm",
+  "Mỹ Hạnh": "Lê Thị Mỹ Hạnh",
+  "Hạnh": "Lê Thị Mỹ Hạnh",
+  "Lê Thị Mỹ Hạnh": "Lê Thị Mỹ Hạnh",
+  "Tấn Quỳnh": "Hồ Tấn Quỳnh",
+  "Quỳnh": "Hồ Tấn Quỳnh",
+  "Hồ Tấn Quỳnh": "Hồ Tấn Quỳnh",
+  "Ngọc Thịnh": "Phạm Ngọc Thịnh",
+  "Thịnh": "Phạm Ngọc Thịnh",
+  "Phạm Ngọc Thịnh": "Phạm Ngọc Thịnh",
+  "Trà Nhi": "Huỳnh Thị Trà Nhi",
+  "Huỳnh Thị Trà Nhi": "Huỳnh Thị Trà Nhi",
+  "Thuỳ Linh": "Trần Thuỳ Linh",
+  "Trần Thuỳ Linh": "Trần Thuỳ Linh",
+  "Kim Ngọc": "Nguyễn Thị Kim Ngọc",
+  "Ngọc": "Nguyễn Thị Kim Ngọc",
+  "Nguyễn Thị Kim Ngọc": "Nguyễn Thị Kim Ngọc",
+  "Minh Trí": "Huỳnh Đình Minh Trí",
+  "Trí": "Huỳnh Đình Minh Trí",
+  "Huỳnh Đình Minh Trí": "Huỳnh Đình Minh Trí",
+  "Ngọc Tâm": "Nguyễn Thị Ngọc Tâm",
+  "Nguyễn Thị Ngọc Tâm": "Nguyễn Thị Ngọc Tâm",
+  "Lan Hương": "Nguyễn Thị Lan Hương",
+  "Nguyễn Thị Lan Hương": "Nguyễn Thị Lan Hương",
+  "Minh Hòa": "Văn Minh Hòa",
+  "Hòa": "Văn Minh Hòa",
+  "Văn Minh Hòa": "Văn Minh Hòa",
+  "Văn Dũng": "Phùng Văn Dũng",
+  "Dũng": "Phùng Văn Dũng",
+  "Phùng Văn Dũng": "Phùng Văn Dũng",
+  "Khánh Linh": "Hồ Khánh Linh",
+  "Hồ Khánh Linh": "Hồ Khánh Linh",
+  "Minh Thơ": "Trần Minh Thơ",
+  "Thơ": "Trần Minh Thơ",
+  "Trần Minh Thơ": "Trần Minh Thơ",
+  "Phương Trâm": "Lê Phương Trâm",
+  "Trâm": "Lê Phương Trâm",
+  "Lê Phương Trâm": "Lê Phương Trâm",
+  "Văn Hải": "Ngô Văn Hải",
+  "Hải": "Ngô Văn Hải",
+  "Ngô Văn Hải": "Ngô Văn Hải",
+  "Trí Nghĩa": "Đoàn Trí Nghĩa",
+  "Nghĩa": "Đoàn Trí Nghĩa",
+  "Đoàn Trí Nghĩa": "Đoàn Trí Nghĩa",
+  "Bảo Vi": "Trần Thị Bảo Vi",
+  "Vi": "Trần Thị Bảo Vi",
+  "Trần Thị Bảo Vi": "Trần Thị Bảo Vi",
+  "Anh Thư": "Trương Ngọc Anh Thư",
+  "Thư": "Trương Ngọc Anh Thư",
+  "Trương Ngọc Anh Thư": "Trương Ngọc Anh Thư",
+  "Như Hà": "Trần Thị Như Hà",
+  "Hà": "Trần Thị Như Hà",
+  "Trần Thị Như Hà": "Trần Thị Như Hà",
+  "Hương Giang": "Đinh Thị Hương Giang",
+  "Đinh Thị Hương Giang": "Đinh Thị Hương Giang",
+  "Quốc Hoanh": "Phan Nguyễn Quốc Hoanh",
+  "Hoanh": "Phan Nguyễn Quốc Hoanh",
+  "Phan Nguyễn Quốc Hoanh": "Phan Nguyễn Quốc Hoanh"
+};
