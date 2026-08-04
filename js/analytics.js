@@ -601,7 +601,7 @@
         "vittb": "Trần Thị Bảo Vi", "Bảo Vi": "Trần Thị Bảo Vi",
         "thutna": "Trương Ngọc Anh Thư", "Anh Thư": "Trương Ngọc Anh Thư",
         "linhhk": "Hồ Khánh Linh", "Khánh Linh": "Hồ Khánh Linh",
-        "anhvpm": "Vũ Phạm Hoàng Anh", "Hoàng Anh": "Vũ Phạm Hoàng Anh",
+        "anhvpm": "Hoàng Anh", "Hoàng Anh": "Hoàng Anh",
         "huyhbm": "Huỳnh Bá Minh Huy", "Minh Huy": "Huỳnh Bá Minh Huy"
       };
 
