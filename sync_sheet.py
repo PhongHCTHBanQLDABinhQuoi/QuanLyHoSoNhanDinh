@@ -117,10 +117,6 @@ def fetch_base_workflow_counts():
         for off_name, u_list in officer_to_username.items():
             result_map[off_name] = sum(raw_counts.get(u, 0) for u in u_list)
 
-        # Include raw username counts for flexible lookup
-        for un, cnt in raw_counts.items():
-            result_map[un] = cnt
-
         result_map["_total_jobs"] = total_jobs
         return result_map
     except Exception as e:
