@@ -176,20 +176,23 @@ def fetch_base_workflow_counts():
                         owners = j.get("owners", [])
                         stage_id = str(j.get("stage_id", ""))
                         
+                        excluded_users = {"anhvpm", "dunglq", "banqlda", "system", "admin", ""}
                         target_usernames = []
-                        if isinstance(owners, list) and len(owners) > 0 and stage_id != "116735":
+                        if isinstance(owners, list) and len(owners) > 0:
                             for o in owners:
-                                if isinstance(o, dict) and o.get("username"):
-                                    target_usernames.append(o.get("username"))
+                                if isinstance(o, dict):
+                                    un = o.get("username")
+                                    if un and un not in excluded_users:
+                                        target_usernames.append(un)
                         
-                        # Step 6 (Stage ID 116735) OR ownerless fallback rule:
-                        # Use the officer who handled the job at Step 5 (or previous step)
+                        # If owners is empty OR belongs to excluded accounts (banqlda, anhvpm, dunglq...):
+                        # Trace back through moves to find the actual compensation officer (e.g. hattn, vittb...)
                         if not target_usernames:
                             moves = j.get("moves", [])
                             if isinstance(moves, list):
                                 for m in reversed(moves):
                                     u = m.get("username")
-                                    if u and u not in ["", "system", "banqlda"]:
+                                    if u and u not in excluded_users:
                                         target_usernames.append(u)
                                         break
                                         
