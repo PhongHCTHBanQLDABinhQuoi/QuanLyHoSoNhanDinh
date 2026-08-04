@@ -502,76 +502,79 @@
   }
 
   function parseSheetCSV(csvText) {
-    const lines = [];
-    let row = [];
-    let current = '';
-    let inQuotes = false;
-
-    for (let i = 0; i < csvText.length; i++) {
-      const char = csvText[i];
-      const nextChar = csvText[i + 1];
-
-      if (char === '"') {
-        if (inQuotes && nextChar === '"') {
-          current += '"';
-          i++;
-        } else {
-          inQuotes = !inQuotes;
-        }
-      } else if (char === ',' && !inQuotes) {
-        row.push(current.trim());
-        current = '';
-      } else if ((char === '\r' || char === '\n') && !inQuotes) {
-        if (char === '\r' && nextChar === '\n') i++;
-        row.push(current.trim());
-        if (row.some(f => f !== '')) lines.push(row);
-        row = [];
-        current = '';
-      } else {
-        current += char;
-      }
-    }
-    if (current !== '' || row.length > 0) {
-      row.push(current.trim());
-      if (row.some(f => f !== '')) lines.push(row);
-    }
+    const lines = parseCSVToRows(csvText);
+    if (!lines || lines.length === 0) return null;
 
     let headerIndex = -1;
+    let headerRow = null;
     for (let i = 0; i < lines.length; i++) {
-      if (lines[i][0] === 'STT' || lines[i].includes('STT')) {
+      if (lines[i] && lines[i].some(cell => cell.includes('STT'))) {
         headerIndex = i;
+        headerRow = lines[i].map(c => c.trim());
         break;
       }
     }
     if (headerIndex === -1) return null;
 
+    const colMap = {};
+    headerRow.forEach((h, idx) => {
+      const cleanH = h.toLowerCase().replace(/\n/g, ' ').trim();
+      if (cleanH.includes('stt')) colMap.stt = idx;
+      else if (cleanH.includes('cán bộ bbt')) colMap.canBoBBT = idx;
+      else if (cleanH.includes('ngày chuyển')) colMap.ngayChuyen = idx;
+      else if (cleanH.includes('ktht') || cleanH.includes('phòng ktht')) colMap.canBoKTHT = idx;
+      else if (cleanH.includes('tổ bồi thường')) colMap.toBoiThuong = idx;
+      else if (cleanH.includes('mã hồ sơ') || cleanH.includes('mã hs')) colMap.maHoSo = idx;
+      else if (cleanH.includes('họ và tên') || cleanH.includes('họ tên')) colMap.hoTen = idx;
+      else if (cleanH.includes('địa chỉ')) colMap.diaChi = idx;
+      else if (cleanH.includes('đường')) colMap.duong = idx;
+      else if (cleanH.includes('phường')) colMap.phuong = idx;
+      else if (cleanH.includes('tờ bản đồ')) colMap.toBanDo = idx;
+      else if (cleanH.includes('thửa đất')) colMap.thuaDat = idx;
+      else if (cleanH.includes('khu phố')) colMap.khuPho = idx;
+      else if (cleanH.includes('một phần')) colMap.giaiToaMotPhan = idx;
+      else if (cleanH.includes('toàn phần')) colMap.giaiToaToanPhan = idx;
+      else if (cleanH.includes('trạng thái')) colMap.trangThai = idx;
+      else if (cleanH.includes('ghi chú')) colMap.ghiChu = idx;
+      else if (cleanH.includes('pháp chế')) colMap.phapChe = idx;
+      else if (cleanH.includes('đo lường')) colMap.doLuong = idx;
+      else if (cleanH.includes('trùng lặp')) colMap.trungLap = idx;
+    });
+
     const records = [];
     for (let i = headerIndex + 1; i < lines.length; i++) {
       const r = lines[i];
       if (!r || r.length === 0) continue;
-      const sttVal = parseInt(r[0], 10);
+
+      const g = (key, def = '') => {
+        const idx = colMap[key];
+        return (idx !== undefined && idx < r.length) ? r[idx].trim() : def;
+      };
+
+      const sttVal = parseInt(g('stt'), 10);
       if (isNaN(sttVal)) continue;
 
       records.push({
         stt: sttVal,
-        canBoBBT: r[1] || '',
-        canBoKTHT: r[2] || '',
-        ngayChuyen: r[3] || '',
-        toBoiThuong: r[4] || '',
-        hoTen: r[5] || '',
-        diaChi: r[6] || '',
-        duong: r[7] || '',
-        phuong: r[8] || '',
-        toBanDo: r[9] || '',
-        thuaDat: r[10] || '',
-        khuPho: r[11] || '',
-        giaiToaMotPhan: r[12] || '',
-        giaiToaToanPhan: r[13] || '',
-        trangThai: r[14] || '',
-        ghiChu: r[15] || '',
-        phapChe: r[16] || '',
-        doLuong: r[17] || '',
-        trungLap: r[18] || ''
+        canBoBBT: g('canBoBBT'),
+        canBoKTHT: g('canBoKTHT'),
+        ngayChuyen: g('ngayChuyen'),
+        toBoiThuong: g('toBoiThuong'),
+        maHoSo: g('maHoSo'),
+        hoTen: g('hoTen'),
+        diaChi: g('diaChi'),
+        duong: g('duong'),
+        phuong: g('phuong'),
+        toBanDo: g('toBanDo'),
+        thuaDat: g('thuaDat'),
+        khuPho: g('khuPho'),
+        giaiToaMotPhan: g('giaiToaMotPhan'),
+        giaiToaToanPhan: g('giaiToaToanPhan'),
+        trangThai: g('trangThai'),
+        ghiChu: g('ghiChu'),
+        phapChe: g('phapChe'),
+        doLuong: g('doLuong'),
+        trungLap: g('trungLap')
       });
     }
     return records;
@@ -740,7 +743,6 @@
     renderKPIs();
     renderCharts();
     renderSection1();
-    renderSection2();
     renderSection3();
     renderSection4();
     renderSection5();

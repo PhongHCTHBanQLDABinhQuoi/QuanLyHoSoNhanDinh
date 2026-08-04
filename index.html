@@ -117,12 +117,11 @@
       </div>
     </div>
 
-    <!-- TABLES SECTION IN CORRECT NUMERICAL ORDER: I -> II -> III -> IV -> V -> VI -> VII -->
+    <!-- TABLES SECTION IN CORRECT NUMERICAL ORDER: I -> II -> III -> IV -> V -> VI -->
 
-    <!-- Section I & Section II -->
+    <!-- Section I -->
     <div class="dashboard-grid">
-      <!-- Section I -->
-      <div class="col-6">
+      <div class="col-12">
         <div class="section-card">
           <div class="section-header">
             <h2>I. BẢNG THEO DÕI TIẾN ĐỘ PHÁP LÝ CHI TIẾT THEO TỪNG PHÂN KHU</h2>
@@ -146,41 +145,15 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <!-- Section II & Section III -->
+    <div class="dashboard-grid">
       <!-- Section II -->
       <div class="col-6">
         <div class="section-card">
           <div class="section-header">
-            <h2>II. KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ BBT</h2>
-            <span class="section-tag" id="countOfficersTag">36 Cán bộ</span>
-          </div>
-          <div class="section-body max-height-table">
-            <table class="data-table" id="tableSection2">
-              <thead>
-                <tr>
-                  <th>DANH MỤC CÁN BỘ BBT</th>
-                  <th class="text-center">KP 17</th>
-                  <th class="text-center">KP 18</th>
-                  <th class="text-center">KP 19</th>
-                  <th class="text-center">TỔNG CỘNG</th>
-                </tr>
-              </thead>
-              <tbody id="tbodySection2">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Section III & Section IV -->
-    <div class="dashboard-grid">
-      <!-- Section III -->
-      <div class="col-6">
-        <div class="section-card">
-          <div class="section-header">
-            <h2>III. CHI TIẾT DIỄN BIẾN TRẠNG THÁI HỒ SƠ</h2>
+            <h2>II. CHI TIẾT DIỄN BIẾN TRẠNG THÁI HỒ SƠ</h2>
           </div>
           <div class="section-body">
             <table class="data-table" id="tableSection3">
@@ -201,11 +174,11 @@
         </div>
       </div>
 
-      <!-- Section IV -->
+      <!-- Section III -->
       <div class="col-6">
         <div class="section-card">
           <div class="section-header">
-            <h2>IV. THỐNG KÊ TỶ LỆ DIỆN TÍCH GIẢI TỎA</h2>
+            <h2>III. THỐNG KÊ TỶ LỆ DIỆN TÍCH GIẢI TỎA</h2>
           </div>
           <div class="section-body">
             <table class="data-table" id="tableSection4">
@@ -227,12 +200,12 @@
       </div>
     </div>
 
-    <!-- Section V -->
+    <!-- Section IV -->
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card">
           <div class="section-header">
-            <h2>V. PHÂN BIỆT ĐIỀU HÀNH THEO TỔ BỒI THƯỜNG</h2>
+            <h2>IV. PHÂN BIỆT ĐIỀU HÀNH THEO TỔ BỒI THƯỜNG</h2>
           </div>
           <div class="section-body">
             <table class="data-table" id="tableSection5">
@@ -254,14 +227,14 @@
       </div>
     </div>
 
-    <!-- Master Section VI -->
+    <!-- Master Section V -->
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card" style="border-top: 4px solid var(--primary-blue);">
           <div class="section-header" style="flex-direction: column; align-items: stretch; gap: 14px;">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div>
-                <h2>VI. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
+                <h2>V. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
                 <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ Ngày/Thời gian chuyển, Cán bộ thụ lý BBT, Phân khu & Trạng thái xử lý P.KTHT</p>
               </div>
               <div class="tab-group" id="timePeriodTabs">
@@ -271,7 +244,7 @@
               </div>
             </div>
 
-            <!-- Dedicated Filter Toolbar for Table VI -->
+            <!-- Dedicated Filter Toolbar for Table V -->
             <div class="filter-bar" style="margin-top: 0; background: rgba(0,0,0,0.03); border: 1px solid var(--border-color); border-radius: 10px; padding: 12px;">
               <div class="filter-group search-group" style="flex: 2; min-width: 220px;">
                 <label for="searchInput">🔍 Tìm kiếm thông minh hồ sơ</label>
@@ -341,14 +314,14 @@
       </div>
     </div>
 
-    <!-- Master Section VII: Khối lượng hồ sơ theo Pháp chế & Thụ lý KTHT -->
+    <!-- Master Section VI: Khối lượng hồ sơ theo Pháp chế & Thụ lý KTHT -->
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card" style="border-top: 4px solid #10b981;">
           <div class="section-header" style="flex-direction: column; align-items: stretch; gap: 14px;">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div>
-                <h2>VII. BẢNG THỐNG KÊ CHI TIẾT KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ PHÁP CHẾ & THỤ LÝ KTHT</h2>
+                <h2>VI. BẢNG THỐNG KÊ CHI TIẾT KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ PHÁP CHẾ & THỤ LÝ KTHT</h2>
                 <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ mốc Thời gian (Ngày/Tuần/Tháng), Cán bộ Thụ lý KTHT / Pháp chế, Phân khu & Trạng thái xử lý</p>
               </div>
               <div class="tab-group" id="timePeriodTabs7">
