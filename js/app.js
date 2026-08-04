@@ -792,16 +792,17 @@
     const rows = ['KP 17', 'KP 18', 'KP 19', 'TỔNG CỘNG'];
     rows.forEach(key => {
       const item = data[key];
-      const tot = item.total;
+      const totGui = item.totalGui;
       const isTotal = key === 'TỔNG CỘNG';
       const tr = document.createElement('tr');
       if (isTotal) tr.classList.add('total-row');
 
-      const pct = (val) => tot > 0 ? `(${((val / tot) * 100).toFixed(1)}%)` : '(0.0%)';
+      const pct = (val) => totGui > 0 ? `(${((val / totGui) * 100).toFixed(1)}%)` : '(0.0%)';
 
       tr.innerHTML = `
         <td><strong>${key}</strong></td>
-        <td class="text-center"><strong>${tot}</strong></td>
+        <td class="text-center" style="background: rgba(14, 165, 233, 0.08); font-size: 1rem; color: #0284c7;"><strong>${item.totalBase.toLocaleString('vi-VN')}</strong></td>
+        <td class="text-center" style="background: rgba(16, 185, 129, 0.08); font-size: 1rem; color: #059669;"><strong>${totGui.toLocaleString('vi-VN')}</strong></td>
         <td class="text-center">${item.thongQua} <span class="pct-pill">${pct(item.thongQua)}</span></td>
         <td class="text-center">${item.kthtGiu} <span class="pct-pill">${pct(item.kthtGiu)}</span></td>
         <td class="text-center">${item.traSua} <span class="pct-pill">${pct(item.traSua)}</span></td>

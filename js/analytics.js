@@ -54,18 +54,18 @@
     // 1. Section I: Tiến độ Pháp lý Chi tiết theo Từng Phân Khu
     getLegalProgressByKhuPho(records) {
       const result = {
-        'KP 17': { total: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
-        'KP 18': { total: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
-        'KP 19': { total: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
-        'TỔNG CỘNG': { total: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 }
+        'KP 17': { totalBase: 0, totalGui: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
+        'KP 18': { totalBase: 0, totalGui: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
+        'KP 19': { totalBase: 0, totalGui: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
+        'TỔNG CỘNG': { totalBase: 0, totalGui: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 }
       };
 
       records.forEach(r => {
         const kp = r.khuPho ? `KP ${r.khuPho}` : null;
         if (!kp || !result[kp]) return;
 
-        result[kp].total++;
-        result['TỔNG CỘNG'].total++;
+        result[kp].totalGui++;
+        result['TỔNG CỘNG'].totalGui++;
 
         const st = r.trangThai || '';
         if (st.includes('3.') || st.includes('thông qua')) {
@@ -83,8 +83,13 @@
         }
       });
 
+      // Mặc định totalBase = totalGui
+      result['KP 17'].totalBase = result['KP 17'].totalGui;
+      result['KP 18'].totalBase = result['KP 18'].totalGui;
+      result['KP 19'].totalBase = result['KP 19'].totalGui;
+      result['TỔNG CỘNG'].totalBase = result['TỔNG CỘNG'].totalGui;
+
       // Nếu có dữ liệu Base Workflow API (Tổng HS nắm giữ):
-      // Sử dụng Tổng HS nắm giữ từ Base Workflow cho cột TỔNG HS ở Bảng I theo yêu cầu
       if (window.BASE_WORKFLOW_COUNTS) {
         let baseTotalSum = 0;
         Object.keys(window.BASE_WORKFLOW_COUNTS).forEach(k => {
@@ -94,21 +99,21 @@
         });
 
         if (baseTotalSum > 0) {
-          const sheetTotal = result['TỔNG CỘNG'].total;
+          const sheetTotal = result['TỔNG CỘNG'].totalGui;
           if (sheetTotal > 0) {
-            const ratio17 = result['KP 17'].total / sheetTotal;
-            const ratio18 = result['KP 18'].total / sheetTotal;
-            const ratio19 = result['KP 19'].total / sheetTotal;
+            const ratio17 = result['KP 17'].totalGui / sheetTotal;
+            const ratio18 = result['KP 18'].totalGui / sheetTotal;
+            const ratio19 = result['KP 19'].totalGui / sheetTotal;
 
             const b17 = Math.round(baseTotalSum * ratio17);
             const b18 = Math.round(baseTotalSum * ratio18);
             const b19 = baseTotalSum - b17 - b18;
 
-            result['KP 17'].total = b17;
-            result['KP 18'].total = b18;
-            result['KP 19'].total = b19;
+            result['KP 17'].totalBase = b17;
+            result['KP 18'].totalBase = b18;
+            result['KP 19'].totalBase = b19;
           }
-          result['TỔNG CỘNG'].total = baseTotalSum;
+          result['TỔNG CỘNG'].totalBase = baseTotalSum;
         }
       }
 
