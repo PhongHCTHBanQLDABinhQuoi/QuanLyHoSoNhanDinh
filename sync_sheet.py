@@ -29,6 +29,53 @@ BASE_ACCESS_TOKEN_V2 = "11836~YYEkzFCdqh2rl0G2kgDNWFzUlBfzVE2Ynf01bvh0qxm5Ws0q_9
 BASE_WORKFLOW_ID = "16526"
 BASE_API_URL = "https://workflow.base.vn/extapi/v1/workflow/jobs"
 
+# Base HRM API Config
+BASE_HRM_TOKEN = "11836~9NcWbodZ1ellG2VMFMW4n9VAo60JsKiJ3YobJBmDqmxEJJGW2Irj1wWc39yGmpQXu6vFFFO_PnKLZgjqo0ttr_I0hYH-s8f2achEYzWTYI4BImQG0hzMQ2HWhsMS-ZrjzIuQ3iyNKqHnvDvU8pVkNw"
+BASE_HRM_URL = "https://hrm.base.vn/extapi/v1/employee/list"
+
+def fetch_base_hrm_employees():
+    print("Fetching official personnel directory from Base HRM API...")
+    hrm_map = {}
+    try:
+        data = urllib.parse.urlencode({
+            "access_token_v2": BASE_HRM_TOKEN,
+            "updated_from": "0",
+            "updated_to": "2000000000"
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            BASE_HRM_URL, 
+            data=data, 
+            method="POST",
+            headers={"Content-Type": "application/x-www-form-urlencoded"}
+        )
+
+        with urllib.request.urlopen(req, timeout=15) as response:
+            res = json.loads(response.read().decode("utf-8"))
+            if res and res.get("code") == 1:
+                employees = res.get("employees", [])
+                for emp in employees:
+                    raw_name = emp.get("name", "").strip()
+                    first_name = emp.get("first_name", "").strip()
+                    last_name = emp.get("last_name", "").strip()
+                    full_name = f"{last_name} {first_name}".strip() if (last_name or first_name) else raw_name
+
+                    if full_name:
+                        parts = full_name.split()
+                        if len(parts) >= 2:
+                            short_2 = f"{parts[-2]} {parts[-1]}"
+                            hrm_map[short_2] = full_name
+                        if len(parts) >= 1:
+                            short_1 = parts[-1]
+                            hrm_map[short_1] = full_name
+                        hrm_map[full_name] = full_name
+
+                print(f"Parsed {len(employees)} official employees from Base HRM API.")
+                return hrm_map
+    except Exception as e:
+        print(f"Warning: Could not fetch Base HRM API: {e}")
+    return {}
+
 def fetch_base_workflow_counts():
     print("Fetching Base Workflow jobs data via API...")
     raw_counts = defaultdict(int)
@@ -248,21 +295,23 @@ def fetch_and_sync():
     table_vii_weekly = fetch_table_vii_sheet(TABLE_VII_WEEKLY_CSV_URL)
 
     base_counts = fetch_base_workflow_counts()
+    hrm_names = fetch_base_hrm_employees()
 
     print(f"Parsed Table VII: {len(table_vii_daily)} daily records, {len(table_vii_weekly)} weekly records.")
     
     output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "js", "data.js")
-    js_content = f"""// Data dataset auto-synced from Google Sheets & Base Workflow API
+    js_content = f"""// Data dataset auto-synced from Google Sheets, Base Workflow API & Base HRM API
 window.DOSSIER_DATA = {json.dumps(records, ensure_ascii=False, indent=2)};
 window.TABLE_VII_DATA_DAILY = {json.dumps(table_vii_daily, ensure_ascii=False, indent=2)};
 window.TABLE_VII_DATA_WEEKLY = {json.dumps(table_vii_weekly, ensure_ascii=False, indent=2)};
 window.BASE_WORKFLOW_COUNTS = {json.dumps(base_counts, ensure_ascii=False, indent=2)};
+window.BASE_HRM_NAMES = {json.dumps(hrm_names, ensure_ascii=False, indent=2)};
 """
     
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(js_content)
         
-    print(f"Updated js/data.js successfully!")
+    print(f"Updated js/data.js successfully with Base HRM official names!")
 
 if __name__ == "__main__":
     if "--loop" in sys.argv:
