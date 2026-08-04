@@ -1287,12 +1287,21 @@
     const ctxKhupho = document.getElementById('khuphoChart').getContext('2d');
     if (khuphoChartInstance) khuphoChartInstance.destroy();
 
+    const kp17 = progressData['KP 17'].totalBase;
+    const kp18 = progressData['KP 18'].totalBase;
+    const kp19 = progressData['KP 19'].totalBase;
+    const totalBase = progressData['TỔNG CỘNG'].totalBase;
+
     khuphoChartInstance = new Chart(ctxKhupho, {
       type: 'doughnut',
       data: {
-        labels: ['KP 17 (323 HS)', 'KP 18 (295 HS)', 'KP 19 (523 HS)'],
+        labels: [
+          `KP 17 (${kp17.toLocaleString('vi-VN')} HS)`,
+          `KP 18 (${kp18.toLocaleString('vi-VN')} HS)`,
+          `KP 19 (${kp19.toLocaleString('vi-VN')} HS)`
+        ],
         datasets: [{
-          data: [progressData['KP 17'].total, progressData['KP 18'].total, progressData['KP 19'].total],
+          data: [kp17, kp18, kp19],
           backgroundColor: ['#3b82f6', '#10b981', '#818cf8'],
           hoverOffset: 8,
           borderWidth: 2
@@ -1301,7 +1310,16 @@
       options: {
         responsive: true,
         plugins: {
-          legend: { position: 'bottom' }
+          legend: { position: 'bottom' },
+          tooltip: {
+            callbacks: {
+              label: function(ctx) {
+                const val = ctx.parsed;
+                const pct = totalBase > 0 ? ((val / totalBase) * 100).toFixed(1) : 0;
+                return ` ${val.toLocaleString('vi-VN')} hồ sơ (${pct}%)`;
+              }
+            }
+          }
         }
       }
     });
