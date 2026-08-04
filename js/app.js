@@ -564,7 +564,7 @@
     headerRow.forEach((h, idx) => {
       const cleanH = h.toLowerCase().replace(/\n/g, ' ').trim();
       if (cleanH.includes('stt')) colMap.stt = idx;
-      else if (cleanH.includes('cán bộ bbt')) colMap.canBoBBT = idx;
+      else if (cleanH.includes('cán bộ bbt') || cleanH.includes('bqlda') || cleanH.includes('thụ lý bqlda')) colMap.canBoBBT = idx;
       else if (cleanH.includes('ngày chuyển')) colMap.ngayChuyen = idx;
       else if (cleanH.includes('ktht') || cleanH.includes('phòng ktht')) colMap.canBoKTHT = idx;
       else if (cleanH.includes('tổ bồi thường')) colMap.toBoiThuong = idx;

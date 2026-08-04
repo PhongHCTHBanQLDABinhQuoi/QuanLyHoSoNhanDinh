@@ -307,7 +307,7 @@ def fetch_and_sync():
     for idx, h in enumerate(header_row):
         clean_h = h.lower().replace("\n", " ").strip()
         if "stt" in clean_h: col_map["stt"] = idx
-        elif "cán bộ bbt" in clean_h: col_map["canBoBBT"] = idx
+        elif "cán bộ bbt" in clean_h or "bqlda" in clean_h or "thụ lý bqlda" in clean_h or "thu ly bqlda" in clean_h: col_map["canBoBBT"] = idx
         elif "ngày chuyển" in clean_h: col_map["ngayChuyen"] = idx
         elif "ktht" in clean_h or "phòng ktht" in clean_h: col_map["canBoKTHT"] = idx
         elif "tổ bồi thường" in clean_h: col_map["toBoiThuong"] = idx
