@@ -148,8 +148,7 @@ def fetch_base_workflow_counts():
         "Anh Thư": ["thutna"],
         "Bảo Vi": ["vittb"],
         "Anh Hào": ["haola"],
-        "Minh Huy": ["huyhbm"],
-        "Hoàng Anh": ["anhvpm"]
+        "Minh Huy": ["huyhbm"]
     }
 
     try:

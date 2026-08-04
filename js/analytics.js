@@ -687,7 +687,7 @@
         Object.keys(window.BASE_WORKFLOW_COUNTS).forEach(key => {
           if (key.startsWith('_')) return;
           const canon = this.getCanonicalOfficerName(key);
-          if (canon && !canon.includes('Chưa') && !canon.includes('Khác') && !canon.includes('Ban QLDA')) {
+          if (canon && !canon.includes('Chưa') && !canon.includes('Khác') && !canon.includes('Ban QLDA') && !canon.includes('Hoàng Anh') && !canon.includes('anhvpm')) {
             if (window.BASE_HRM_DEPARTMENTS && window.BASE_HRM_DEPARTMENTS[canon]) {
               const dept = String(window.BASE_HRM_DEPARTMENTS[canon]).toLowerCase();
               if (dept.includes('pháp chế') || dept.includes('hành chính')) return;
