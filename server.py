@@ -1,6 +1,9 @@
 import http.server
 import socketserver
 import sys
+import threading
+import time
+import sync_sheet
 
 # Force UTF-8 on Windows stdout/stderr
 if hasattr(sys.stdout, 'reconfigure'):
@@ -17,7 +20,21 @@ class SafeHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         except Exception:
             pass
 
+def auto_sync_daemon():
+    """Background daemon thread to auto-sync Google Sheets & Base Workflow API every 20 seconds"""
+    print("[Auto-Sync Thread] Khởi chạy luồng tự động cập nhật dữ liệu (Google Sheets & Base Workflow) mỗi 20s...")
+    while True:
+        time.sleep(20)
+        try:
+            sync_sheet.fetch_and_sync()
+        except Exception as e:
+            print(f"[Auto-Sync Thread Error] Lỗi tự động đồng bộ: {e}")
+
 if __name__ == "__main__":
+    # Start auto-sync daemon thread
+    sync_thread = threading.Thread(target=auto_sync_daemon, daemon=True)
+    sync_thread.start()
+
     Handler = SafeHTTPRequestHandler
     socketserver.TCPServer.allow_reuse_address = True
     try:

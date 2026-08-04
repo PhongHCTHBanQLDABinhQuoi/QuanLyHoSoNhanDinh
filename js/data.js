@@ -1,5 +1,4 @@
-// Data dataset for 1247 records
-// Auto-synced from Google Sheet
+// Data dataset auto-synced from Google Sheets & Base Workflow API
 window.DOSSIER_DATA = [
   {
     "stt": 1,
@@ -3678,7 +3677,7 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 176,
-    "canBoBBT": "Quốc Thanh",
+    "canBoBBT": "Minh Huy",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/07/2026",
     "toBoiThuong": "Tổ 2",
@@ -3699,7 +3698,7 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 177,
-    "canBoBBT": "Quốc Thanh",
+    "canBoBBT": "Minh Huy",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/07/2026",
     "toBoiThuong": "Tổ 2",
@@ -4497,7 +4496,7 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 215,
-    "canBoBBT": "Tú Trinh",
+    "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Trường",
     "ngayChuyen": "07/07/2026",
     "toBoiThuong": "Tổ 3",
@@ -8013,7 +8012,7 @@ window.DOSSIER_DATA = [
     "duong": "Bình Quới",
     "phuong": "Bình Quới",
     "toBanDo": "44",
-    "thuaDat": "95",
+    "thuaDat": "MPT 95",
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3005,4",
@@ -8025,6 +8024,27 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 383,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "Bình",
+    "ngayChuyen": "13/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Tô Thị Ngọc Huệ",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "MPT 95",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "27/7",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 384,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8045,7 +8065,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 384,
+    "stt": 385,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8066,7 +8086,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 385,
+    "stt": 386,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8087,7 +8107,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 386,
+    "stt": 387,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8108,7 +8128,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 387,
+    "stt": 388,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8129,7 +8149,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 388,
+    "stt": 389,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8150,7 +8170,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 389,
+    "stt": 390,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8171,7 +8191,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 390,
+    "stt": 391,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8192,7 +8212,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 391,
+    "stt": 392,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8213,7 +8233,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 392,
+    "stt": 393,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8234,7 +8254,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 393,
+    "stt": 394,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8255,7 +8275,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 394,
+    "stt": 395,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8276,7 +8296,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 395,
+    "stt": 396,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8297,7 +8317,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 396,
+    "stt": 397,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "13/07/2026",
@@ -8318,7 +8338,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 397,
+    "stt": 398,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8339,7 +8359,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 398,
+    "stt": 399,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8360,7 +8380,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 399,
+    "stt": 400,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8381,7 +8401,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 400,
+    "stt": 401,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8402,7 +8422,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 401,
+    "stt": 402,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8423,7 +8443,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 402,
+    "stt": 403,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8444,7 +8464,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 403,
+    "stt": 404,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8465,7 +8485,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 404,
+    "stt": 405,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8486,7 +8506,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 405,
+    "stt": 406,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8507,7 +8527,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 406,
+    "stt": 407,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8528,7 +8548,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 407,
+    "stt": 408,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8549,7 +8569,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 408,
+    "stt": 409,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8570,7 +8590,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 409,
+    "stt": 410,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8591,7 +8611,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 410,
+    "stt": 411,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "13/07/2026",
@@ -8612,7 +8632,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 411,
+    "stt": 412,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "13/07/2026",
@@ -8633,7 +8653,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 412,
+    "stt": 413,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/07/2026",
@@ -8654,7 +8674,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 413,
+    "stt": 414,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Trường",
     "ngayChuyen": "13/07/2026",
@@ -8675,7 +8695,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 414,
+    "stt": 415,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8696,7 +8716,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 415,
+    "stt": 416,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8717,7 +8737,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 416,
+    "stt": 417,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8738,7 +8758,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 417,
+    "stt": 418,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8759,7 +8779,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 418,
+    "stt": 419,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "13/07/2026",
@@ -8780,7 +8800,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 419,
+    "stt": 420,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "13/07/2026",
@@ -8801,7 +8821,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 420,
+    "stt": 421,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8822,7 +8842,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 421,
+    "stt": 422,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8843,7 +8863,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 422,
+    "stt": 423,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8864,7 +8884,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 423,
+    "stt": 424,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8885,7 +8905,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 424,
+    "stt": 425,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8906,7 +8926,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 425,
+    "stt": 426,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8927,7 +8947,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 426,
+    "stt": 427,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8948,7 +8968,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 427,
+    "stt": 428,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "13/07/2026",
@@ -8969,7 +8989,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 428,
+    "stt": 429,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Trường",
     "ngayChuyen": "13/07/2026",
@@ -8990,7 +9010,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 429,
+    "stt": 430,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "14/07/2026",
@@ -9011,7 +9031,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 430,
+    "stt": 431,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "14/07/2026",
@@ -9032,7 +9052,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 431,
+    "stt": 432,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "14/07/2026",
@@ -9053,7 +9073,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 432,
+    "stt": 433,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "An",
     "ngayChuyen": "14/07/2026",
@@ -9074,7 +9094,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 433,
+    "stt": 434,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "14/07/2026",
@@ -9095,7 +9115,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 434,
+    "stt": 435,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tài",
     "ngayChuyen": "14/07/2026",
@@ -9116,7 +9136,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 435,
+    "stt": 436,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "14/07/2026",
@@ -9137,7 +9157,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 436,
+    "stt": 437,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "14/07/2026",
@@ -9158,7 +9178,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 437,
+    "stt": 438,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "14/07/2026",
@@ -9179,7 +9199,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 438,
+    "stt": 439,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "14/07/2026",
@@ -9200,7 +9220,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 439,
+    "stt": 440,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9221,7 +9241,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 440,
+    "stt": 441,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9242,7 +9262,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 441,
+    "stt": 442,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9263,7 +9283,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 442,
+    "stt": 443,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9284,7 +9304,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 443,
+    "stt": 444,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9305,7 +9325,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 444,
+    "stt": 445,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9326,7 +9346,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 445,
+    "stt": 446,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9347,7 +9367,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 446,
+    "stt": 447,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/07/2026",
@@ -9368,7 +9388,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 447,
+    "stt": 448,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Bình",
     "ngayChuyen": "14/07/2026",
@@ -9389,7 +9409,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 448,
+    "stt": 449,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Bình",
     "ngayChuyen": "14/07/2026",
@@ -9410,7 +9430,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 449,
+    "stt": 450,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Bình",
     "ngayChuyen": "14/07/2026",
@@ -9431,7 +9451,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 450,
+    "stt": 451,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Bình",
     "ngayChuyen": "14/07/2026",
@@ -9452,7 +9472,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 451,
+    "stt": 452,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Bình",
     "ngayChuyen": "14/07/2026",
@@ -9473,7 +9493,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 452,
+    "stt": 453,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Bình",
     "ngayChuyen": "14/07/2026",
@@ -9494,7 +9514,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 453,
+    "stt": 454,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "14/07/2026",
@@ -9515,7 +9535,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 454,
+    "stt": 455,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "14/07/2026",
@@ -9536,7 +9556,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 455,
+    "stt": 456,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "14/07/2026",
@@ -9557,7 +9577,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 456,
+    "stt": 457,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
@@ -9578,9 +9598,9 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 457,
+    "stt": 458,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Các đồng thừa kế của ông Nguyễn Trí Dũng",
@@ -9592,16 +9612,16 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "300,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 458,
+    "stt": 459,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Trí Quang",
@@ -9613,16 +9633,16 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "300,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 459,
+    "stt": 460,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Phạm Quang Thiên \n Nguyễn Thị Tường Vi",
@@ -9634,14 +9654,14 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "49,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 460,
+    "stt": 461,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
@@ -9662,9 +9682,9 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 461,
+    "stt": 462,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Thị Tư, Huỳnh Thị Năm, Huỳnh Thị Sáu, Bùi Thị Ne, Huỳnh Thị Ngọc Phước, Huỳnh Thị Ngọc Mỹ",
@@ -9676,16 +9696,16 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2401,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 462,
+    "stt": 463,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Triều Vũ - Võ Thị Bế",
@@ -9697,16 +9717,16 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "174,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 463,
+    "stt": 464,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "La Thị Sách",
@@ -9718,14 +9738,14 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "999,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 464,
+    "stt": 465,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/07/2026",
@@ -9746,7 +9766,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 465,
+    "stt": 466,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9767,7 +9787,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 466,
+    "stt": 467,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9788,7 +9808,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 467,
+    "stt": 468,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9809,7 +9829,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 09:55:53 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 468,
+    "stt": 469,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9830,7 +9850,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 10:01:54 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 469,
+    "stt": 470,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9851,7 +9871,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 470,
+    "stt": 471,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9872,7 +9892,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 471,
+    "stt": 472,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9893,7 +9913,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 472,
+    "stt": 473,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9914,7 +9934,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 09:59:40 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 473,
+    "stt": 474,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9935,7 +9955,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 474,
+    "stt": 475,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/07/2026",
@@ -9956,9 +9976,9 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 475,
+    "stt": 476,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Lê Thị Thu Hà",
@@ -9970,20 +9990,20 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "47,08",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 476,
+    "stt": 477,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Hồ Vương –Nguyễn Thị Mỹ Linh",
-    "diaChi": "0558/1/6",
+    "diaChi": "558/1/6",
     "duong": "Bình Quới",
     "phuong": "Bình Quới",
     "toBanDo": "41",
@@ -9991,29 +10011,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "40,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
-    "phapChe": "",
-    "doLuong": "",
-    "trungLap": ""
-  },
-  {
-    "stt": 477,
-    "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
-    "ngayChuyen": "16/07/2026",
-    "toBoiThuong": "Tổ 1",
-    "hoTen": "Nguyễn Ngọc Lợi",
-    "diaChi": "Không số (cạnh 558/15/16E/8)",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "42",
-    "thuaDat": "MP23",
-    "khuPho": "17",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "45",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -10021,7 +10020,28 @@ window.DOSSIER_DATA = [
   {
     "stt": 478,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Bình",
+    "ngayChuyen": "16/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Ngọc Lợi",
+    "diaChi": "Không số\n (cạnh 558/15/16E/8)",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "MP23",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "45",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 479,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Thị Lan",
@@ -10033,14 +10053,14 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2250",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 479,
+    "stt": 480,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -10061,7 +10081,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 480,
+    "stt": 481,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -10082,9 +10102,9 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 481,
+    "stt": 482,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Thị Trà My - Nguyễn Quốc Hiệp",
@@ -10096,16 +10116,16 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1595,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 482,
+    "stt": 483,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Đoàn Văn Vốn",
@@ -10117,16 +10137,16 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "379,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 483,
+    "stt": 484,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Bùi Thị Hồng Hải - Nguyễn Văn Tân",
@@ -10138,14 +10158,14 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1465,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 484,
+    "stt": 485,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10166,7 +10186,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 485,
+    "stt": 486,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10187,7 +10207,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 486,
+    "stt": 487,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10208,7 +10228,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 487,
+    "stt": 488,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10229,7 +10249,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 488,
+    "stt": 489,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10250,7 +10270,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 10:01:25 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 489,
+    "stt": 490,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10271,7 +10291,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 490,
+    "stt": 491,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10292,7 +10312,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 491,
+    "stt": 492,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10313,7 +10333,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 492,
+    "stt": 493,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10334,7 +10354,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 493,
+    "stt": 494,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10355,7 +10375,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 494,
+    "stt": 495,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10376,7 +10396,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 495,
+    "stt": 496,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10397,7 +10417,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 496,
+    "stt": 497,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10418,7 +10438,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 497,
+    "stt": 498,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10439,7 +10459,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 498,
+    "stt": 499,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10460,7 +10480,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 499,
+    "stt": 500,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10481,7 +10501,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 500,
+    "stt": 501,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10502,7 +10522,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 501,
+    "stt": 502,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10523,7 +10543,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 502,
+    "stt": 503,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10544,7 +10564,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 503,
+    "stt": 504,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "16/07/2026",
@@ -10565,7 +10585,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 504,
+    "stt": 505,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10586,7 +10606,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 505,
+    "stt": 506,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/07/2026",
@@ -10607,7 +10627,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 10:00:58 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 506,
+    "stt": 507,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10628,7 +10648,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 507,
+    "stt": 508,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10649,7 +10669,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 508,
+    "stt": 509,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10670,7 +10690,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 509,
+    "stt": 510,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10691,7 +10711,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 510,
+    "stt": 511,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10712,7 +10732,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 511,
+    "stt": 512,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10733,7 +10753,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 512,
+    "stt": 513,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10754,7 +10774,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 513,
+    "stt": 514,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10775,7 +10795,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 514,
+    "stt": 515,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10796,7 +10816,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 515,
+    "stt": 516,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10817,7 +10837,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 516,
+    "stt": 517,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10838,7 +10858,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 517,
+    "stt": 518,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "16/07/2026",
@@ -10859,7 +10879,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 518,
+    "stt": 519,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/07/2026",
@@ -10880,7 +10900,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 519,
+    "stt": 520,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/07/2026",
@@ -10901,7 +10921,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 520,
+    "stt": 521,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/07/2026",
@@ -10922,7 +10942,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 10:00:16 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 521,
+    "stt": 522,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/07/2026",
@@ -10943,7 +10963,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 522,
+    "stt": 523,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/07/2026",
@@ -10964,7 +10984,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 523,
+    "stt": 524,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/07/2026",
@@ -10985,7 +11005,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 524,
+    "stt": 525,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/07/2026",
@@ -11006,7 +11026,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 525,
+    "stt": 526,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "16/07/2026",
@@ -11027,7 +11047,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 526,
+    "stt": 527,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "16/07/2026",
@@ -11048,7 +11068,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 527,
+    "stt": 528,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -11062,27 +11082,6 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "186,4",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
-    "ghiChu": "22/7",
-    "phapChe": "",
-    "doLuong": "",
-    "trungLap": ""
-  },
-  {
-    "stt": 528,
-    "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "Bình",
-    "ngayChuyen": "16/07/2026",
-    "toBoiThuong": "Tổ 3",
-    "hoTen": "Hoàng Đức Kiên Thế",
-    "diaChi": "Không số",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "70",
-    "thuaDat": "42",
-    "khuPho": "19",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "1021,1",
     "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "22/7",
     "phapChe": "",
@@ -11116,6 +11115,27 @@ window.DOSSIER_DATA = [
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
     "toBoiThuong": "Tổ 3",
+    "hoTen": "Hoàng Đức Kiên Thế",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "70",
+    "thuaDat": "42",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1021,1",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "22/7",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 531,
+    "canBoBBT": "Xuân Trúc",
+    "canBoKTHT": "Bình",
+    "ngayChuyen": "16/07/2026",
+    "toBoiThuong": "Tổ 3",
     "hoTen": "Hà Quốc Thịnh",
     "diaChi": "480/65/24B",
     "duong": "Bình Quới",
@@ -11132,7 +11152,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 531,
+    "stt": 532,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -11153,7 +11173,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 532,
+    "stt": 533,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -11174,7 +11194,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 533,
+    "stt": 534,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -11195,7 +11215,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 09:54:04 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 534,
+    "stt": 535,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -11216,7 +11236,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 535,
+    "stt": 536,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Bình",
     "ngayChuyen": "16/07/2026",
@@ -11237,7 +11257,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 536,
+    "stt": 537,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11258,7 +11278,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 537,
+    "stt": 538,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11279,7 +11299,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 538,
+    "stt": 539,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11300,7 +11320,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 539,
+    "stt": 540,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11321,7 +11341,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 540,
+    "stt": 541,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11342,7 +11362,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 541,
+    "stt": 542,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11363,7 +11383,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 542,
+    "stt": 543,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11384,7 +11404,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 543,
+    "stt": 544,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11405,7 +11425,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 544,
+    "stt": 545,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11426,7 +11446,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 545,
+    "stt": 546,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11447,7 +11467,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 546,
+    "stt": 547,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11468,7 +11488,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 547,
+    "stt": 548,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11489,7 +11509,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 548,
+    "stt": 549,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11510,7 +11530,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 549,
+    "stt": 550,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11531,7 +11551,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 550,
+    "stt": 551,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -11552,7 +11572,7 @@ window.DOSSIER_DATA = [
     "trungLap": "05/05/2025 10:04:28 - khanh.bbtbt@gmail.com"
   },
   {
-    "stt": 551,
+    "stt": 552,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11573,7 +11593,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 552,
+    "stt": 553,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11594,7 +11614,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 553,
+    "stt": 554,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11615,7 +11635,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 554,
+    "stt": 555,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11636,7 +11656,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 555,
+    "stt": 556,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11657,7 +11677,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 556,
+    "stt": 557,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11678,7 +11698,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 557,
+    "stt": 558,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11699,7 +11719,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 558,
+    "stt": 559,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11720,7 +11740,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 559,
+    "stt": 560,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11741,7 +11761,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 560,
+    "stt": 561,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11762,7 +11782,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 561,
+    "stt": 562,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11783,7 +11803,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 562,
+    "stt": 563,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11804,7 +11824,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 563,
+    "stt": 564,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11825,7 +11845,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 564,
+    "stt": 565,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11846,7 +11866,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 565,
+    "stt": 566,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11867,7 +11887,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 566,
+    "stt": 567,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/07/2026",
@@ -11888,7 +11908,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 567,
+    "stt": 568,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -11909,7 +11929,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 568,
+    "stt": 569,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -11930,7 +11950,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 569,
+    "stt": 570,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -11951,7 +11971,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 570,
+    "stt": 571,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -11972,7 +11992,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 571,
+    "stt": 572,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -11993,7 +12013,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 572,
+    "stt": 573,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12014,7 +12034,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 573,
+    "stt": 574,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12035,7 +12055,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 574,
+    "stt": 575,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12056,7 +12076,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 575,
+    "stt": 576,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12077,7 +12097,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 576,
+    "stt": 577,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12098,7 +12118,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 577,
+    "stt": 578,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12119,7 +12139,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 578,
+    "stt": 579,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12140,7 +12160,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 579,
+    "stt": 580,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12161,7 +12181,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 580,
+    "stt": 581,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12182,7 +12202,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 581,
+    "stt": 582,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12203,7 +12223,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 582,
+    "stt": 583,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
@@ -12224,7 +12244,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 583,
+    "stt": 584,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12245,7 +12265,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 584,
+    "stt": 585,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12266,7 +12286,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 585,
+    "stt": 586,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12287,7 +12307,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 586,
+    "stt": 587,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12308,7 +12328,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 587,
+    "stt": 588,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12329,7 +12349,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 588,
+    "stt": 589,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12350,7 +12370,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 589,
+    "stt": 590,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12371,7 +12391,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 590,
+    "stt": 591,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12392,7 +12412,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 591,
+    "stt": 592,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12413,7 +12433,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 592,
+    "stt": 593,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12434,7 +12454,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 593,
+    "stt": 594,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12455,7 +12475,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 594,
+    "stt": 595,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12476,7 +12496,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 595,
+    "stt": 596,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12497,7 +12517,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 596,
+    "stt": 597,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12518,7 +12538,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 597,
+    "stt": 598,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12539,7 +12559,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 598,
+    "stt": 599,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "17/07/2026",
@@ -12560,7 +12580,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 599,
+    "stt": 600,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12581,7 +12601,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 600,
+    "stt": 601,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12602,7 +12622,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 601,
+    "stt": 602,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12623,7 +12643,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 602,
+    "stt": 603,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12644,7 +12664,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 603,
+    "stt": 604,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12665,7 +12685,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 604,
+    "stt": 605,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12686,7 +12706,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 605,
+    "stt": 606,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12707,7 +12727,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 606,
+    "stt": 607,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/07/2026",
@@ -12721,27 +12741,6 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "90",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
-    "ghiChu": "21/7",
-    "phapChe": "",
-    "doLuong": "",
-    "trungLap": ""
-  },
-  {
-    "stt": 607,
-    "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "Lộc",
-    "ngayChuyen": "17/07/2026",
-    "toBoiThuong": "Tổ 3",
-    "hoTen": "Nguyễn Thị Anh Thư",
-    "diaChi": "558/64/1",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "65",
-    "thuaDat": "104",
-    "khuPho": "19",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "454,7",
     "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "21/7",
     "phapChe": "",
@@ -12771,6 +12770,27 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 609,
+    "canBoBBT": "Xuân Trúc",
+    "canBoKTHT": "Lộc",
+    "ngayChuyen": "17/07/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Nguyễn Thị Anh Thư",
+    "diaChi": "558/64/1",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "65",
+    "thuaDat": "104",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "454,7",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "21/7",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 610,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12791,7 +12811,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 610,
+    "stt": 611,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12812,7 +12832,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 611,
+    "stt": 612,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12833,7 +12853,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 612,
+    "stt": 613,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12854,7 +12874,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 613,
+    "stt": 614,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12875,7 +12895,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 614,
+    "stt": 615,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12896,7 +12916,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 615,
+    "stt": 616,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12917,7 +12937,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 616,
+    "stt": 617,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12938,7 +12958,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 617,
+    "stt": 618,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12959,7 +12979,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 618,
+    "stt": 619,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Trường",
     "ngayChuyen": "17/07/2026",
@@ -12980,7 +13000,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 619,
+    "stt": 620,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13001,7 +13021,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 620,
+    "stt": 621,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13022,7 +13042,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 621,
+    "stt": 622,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13043,7 +13063,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 622,
+    "stt": 623,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13064,7 +13084,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 623,
+    "stt": 624,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13085,7 +13105,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 624,
+    "stt": 625,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13106,7 +13126,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 625,
+    "stt": 626,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13127,7 +13147,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 626,
+    "stt": 627,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13148,7 +13168,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 627,
+    "stt": 628,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13169,7 +13189,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 628,
+    "stt": 629,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13190,7 +13210,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 629,
+    "stt": 630,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13211,7 +13231,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 630,
+    "stt": 631,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13232,7 +13252,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 631,
+    "stt": 632,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13253,7 +13273,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 632,
+    "stt": 633,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13274,7 +13294,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 633,
+    "stt": 634,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13295,7 +13315,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 634,
+    "stt": 635,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13316,7 +13336,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 635,
+    "stt": 636,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13337,7 +13357,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 636,
+    "stt": 637,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13353,27 +13373,6 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "1799,8",
     "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "21/7",
-    "phapChe": "",
-    "doLuong": "",
-    "trungLap": ""
-  },
-  {
-    "stt": 637,
-    "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "Tùng",
-    "ngayChuyen": "20/07/2026",
-    "toBoiThuong": "Tổ 1",
-    "hoTen": "Lê Huy - Trần Thị Bích Dung",
-    "diaChi": "Không số \n(Cạnh 558/38B)",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "44",
-    "thuaDat": "179",
-    "khuPho": "17",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "118,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -13401,6 +13400,27 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 639,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "Tùng",
+    "ngayChuyen": "20/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Lê Huy - Trần Thị Bích Dung",
+    "diaChi": "Không số \n(Cạnh 558/38B)",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "179",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "118,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 640,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13421,7 +13441,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 640,
+    "stt": 641,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13442,7 +13462,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 641,
+    "stt": 642,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13463,7 +13483,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 642,
+    "stt": 643,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13484,7 +13504,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 643,
+    "stt": 644,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13505,7 +13525,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 644,
+    "stt": 645,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13526,9 +13546,9 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 645,
+    "stt": 646,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Trần Thị Cái",
@@ -13540,14 +13560,14 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2751,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 646,
+    "stt": 647,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13568,9 +13588,9 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 647,
+    "stt": 648,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Ngọc Thùy Dương",
@@ -13582,14 +13602,14 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "77,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
   {
-    "stt": 648,
+    "stt": 649,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13610,7 +13630,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 649,
+    "stt": 650,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13631,7 +13651,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 650,
+    "stt": 651,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13652,7 +13672,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 651,
+    "stt": 652,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13673,7 +13693,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 652,
+    "stt": 653,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13694,7 +13714,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 653,
+    "stt": 654,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13715,7 +13735,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 654,
+    "stt": 655,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13736,7 +13756,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 655,
+    "stt": 656,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13757,7 +13777,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 656,
+    "stt": 657,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "20/07/2026",
@@ -13778,7 +13798,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 657,
+    "stt": 658,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13799,7 +13819,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 658,
+    "stt": 659,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13820,7 +13840,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 659,
+    "stt": 660,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13841,7 +13861,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 660,
+    "stt": 661,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13862,7 +13882,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 661,
+    "stt": 662,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13883,7 +13903,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 662,
+    "stt": 663,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
@@ -13904,7 +13924,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 663,
+    "stt": 664,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13925,7 +13945,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 664,
+    "stt": 665,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13946,7 +13966,7 @@ window.DOSSIER_DATA = [
     "trungLap": ""
   },
   {
-    "stt": 665,
+    "stt": 666,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/07/2026",
@@ -13962,27 +13982,6 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "99,2",
     "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "24/7",
-    "phapChe": "",
-    "doLuong": "",
-    "trungLap": ""
-  },
-  {
-    "stt": 666,
-    "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
-    "ngayChuyen": "20/07/2026",
-    "toBoiThuong": "Tổ 1",
-    "hoTen": "Đỗ Cao Đức - Huỳnh Thị Bình - Nguyễn \nQuang Khoa - Hồ Thị Tuyết",
-    "diaChi": "558/18/11",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "44",
-    "thuaDat": "42",
-    "khuPho": "17",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "1167,9",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
-    "ghiChu": "27/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -14116,7 +14115,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 673,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "An",
+    "canBoKTHT": "",
     "ngayChuyen": "20/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Trần Văn Thành",
@@ -14662,7 +14661,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 699,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Trần Quốc Thông - Phạm Thị Thủy Tiên",
@@ -14674,8 +14673,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "120,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -14683,7 +14682,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 700,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Phạm Văn Thinh",
@@ -14695,8 +14694,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "101",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -14704,7 +14703,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 701,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Bạch Thế Vương",
@@ -14716,8 +14715,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1886,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -14746,7 +14745,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 703,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Văn Hiệp",
@@ -14758,8 +14757,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "601,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -15103,7 +15102,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 720,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Trần Thị Cái (Đại diện)",
@@ -15115,8 +15114,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "217,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -15124,7 +15123,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 721,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Gia Khôi - Trần Thị Chính",
@@ -15136,8 +15135,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "144,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -15145,7 +15144,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 722,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Văn Lang - Tạ Thị Sự",
@@ -15157,8 +15156,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "322,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -15187,7 +15186,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 724,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Đỗ Hùng Thái - Nguyễn Thị Mỹ Công",
@@ -15199,8 +15198,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "386,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -15208,7 +15207,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 725,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "21/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Bùi Thị Bâu",
@@ -15220,8 +15219,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2217,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16321,7 +16320,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 778,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "22/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Trần Kim Phụng - Trần Thị Chính",
@@ -16333,8 +16332,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "503,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16342,7 +16341,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 779,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "22/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Phạm Thị Hằng",
@@ -16354,8 +16353,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "118,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16363,7 +16362,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 780,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "22/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Thị Thanh Nhàn",
@@ -16375,8 +16374,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1333,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16384,7 +16383,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 781,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "22/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Lê Thế Dân",
@@ -16396,8 +16395,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "185,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16405,7 +16404,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 782,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "22/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Huỳnh Thị Xinh - Bùi Văn Trong",
@@ -16417,8 +16416,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2400,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16426,7 +16425,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 783,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "22/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Văn Minh",
@@ -16438,8 +16437,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "680,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16846,7 +16845,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 803,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Anh Tuấn - Nguyễn Thị Mai",
@@ -16858,8 +16857,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "83,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16930,7 +16929,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 807,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Huỳnh Công Ngàn (HTX)",
@@ -16942,8 +16941,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "6171,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -16951,7 +16950,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 808,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Thị Loan",
@@ -16963,8 +16962,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "722,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17728,7 +17727,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 845,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thành Trung",
@@ -17740,8 +17739,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "105,7",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17749,7 +17748,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 846,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Trần Ngọc Long",
@@ -17761,8 +17760,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "304,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17770,7 +17769,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 847,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Ngũ Tuyết Tâm",
@@ -17782,8 +17781,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "20",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17833,7 +17832,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 850,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Thủy Nguyên - Trần Thuận Lộc",
@@ -17845,8 +17844,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1018,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17896,7 +17895,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 853,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thu Thảo",
@@ -17908,8 +17907,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1285,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17938,7 +17937,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 855,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Thái Thị Hồng Loan",
@@ -17950,8 +17949,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "36,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17959,7 +17958,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 856,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Văn Tuấn",
@@ -17971,8 +17970,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "203,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -17980,7 +17979,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 857,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Kiên Karel",
@@ -17992,8 +17991,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3129,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18001,7 +18000,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 858,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Kiên Karel",
@@ -18013,8 +18012,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "454,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18022,7 +18021,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 859,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Kim Chi",
@@ -18034,8 +18033,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "491,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18043,7 +18042,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 860,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Văn Tường- Nguyễn Thị Sáng",
@@ -18055,8 +18054,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "190,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18064,7 +18063,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 861,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Bùi Đình Úy- Bùi Thị Hợi",
@@ -18076,8 +18075,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "75,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18085,7 +18084,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 862,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Các đồng thừa kế bà Trần Thị Khá",
@@ -18097,8 +18096,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "4088",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18106,7 +18105,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 863,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Tùng Sơn- Trương Văn Chương",
@@ -18118,8 +18117,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "4674,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18127,7 +18126,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 864,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Ngô Văn Minh - Huỳnh Thị Bảy",
@@ -18139,8 +18138,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "146",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18148,7 +18147,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 865,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Thị Thùy Trang",
@@ -18160,8 +18159,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "64,7",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18358,7 +18357,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 875,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Lê Văn Sơn - Lê Thủy Tiên",
@@ -18370,8 +18369,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "278,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18526,11 +18525,11 @@ window.DOSSIER_DATA = [
   {
     "stt": 883,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Trần Văn Sáu",
-    "diaChi": "0558/1/4",
+    "diaChi": "558/1/4",
     "duong": "Bình Quới",
     "phuong": "Bình Quới",
     "toBanDo": "41",
@@ -18538,8 +18537,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "26,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18568,7 +18567,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 885,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Ghết",
@@ -18580,8 +18579,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2137,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18589,7 +18588,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 886,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Bùi Thị Thanh",
@@ -18601,8 +18600,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "354,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18652,7 +18651,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 889,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Thị Kim Hương",
@@ -18664,8 +18663,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "319,7",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18757,7 +18756,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 894,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Ngọc Thạch",
@@ -18769,8 +18768,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "125,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18820,7 +18819,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 897,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Quách Trọng Nhân",
@@ -18832,8 +18831,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "130,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18904,7 +18903,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 901,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Hữu Nghĩa",
@@ -18916,8 +18915,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "78,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -18925,7 +18924,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 902,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Minh Đức",
@@ -18937,8 +18936,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "32,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19009,7 +19008,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 906,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Thị Ngọc Phước (đại diện)",
@@ -19021,8 +19020,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "237,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19051,7 +19050,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 908,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Văn Quí",
@@ -19063,8 +19062,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1101,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19093,7 +19092,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 910,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Võ Văn Mỹ - Phạm Thị Ánh Loan",
@@ -19105,8 +19104,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "114",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19114,7 +19113,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 911,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Võ Văn Tho",
@@ -19126,8 +19125,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "97",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19135,7 +19134,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 912,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Bùi Văn Sơn",
@@ -19147,8 +19146,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3820,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19156,7 +19155,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 913,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Ngọc Thu - Huỳnh Thị Huệ",
@@ -19168,8 +19167,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "40,7",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19177,7 +19176,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 914,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Hà Thị Lan Hương",
@@ -19189,8 +19188,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "60,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19198,7 +19197,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 915,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Võ Anh Tuấn",
@@ -19210,8 +19209,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "50,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19975,7 +19974,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 952,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Phạm Thị Cẩm Thu",
@@ -19987,8 +19986,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "52,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -19996,7 +19995,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 953,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Trần Ngọc Thành",
@@ -20008,8 +20007,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "25,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20017,7 +20016,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 954,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Lê Thị Thúy và các đồng thừa kế của ông Nguyễn Văn Thanh",
@@ -20029,8 +20028,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "246",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20038,7 +20037,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 955,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Thị Loan - Trần Mạnh Thông",
@@ -20050,8 +20049,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "50",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20059,7 +20058,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 956,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Bùi Trần Bảo Trân",
@@ -20071,8 +20070,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "234,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20080,7 +20079,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 957,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Lê Xuân Minh - Phạm Thị Hoàng Phong",
@@ -20092,8 +20091,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "27,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20101,7 +20100,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 958,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Thế Vinh - Phạm Thị Minh Nguyệt",
@@ -20113,8 +20112,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "81,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20122,7 +20121,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 959,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Phùng Minh Phúc",
@@ -20134,8 +20133,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "273,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20185,7 +20184,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 962,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Văn Do - Nguyễn Kiều Phụng Loan",
@@ -20197,8 +20196,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2649,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20206,7 +20205,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 963,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Văn Do - Nguyễn Kiều Phụng Loan",
@@ -20218,8 +20217,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20563,7 +20562,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 980,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Huỳnh Đình Đức (đại diện)",
@@ -20575,8 +20574,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3634,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20689,7 +20688,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 986,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Thị Cẩm (HTX)",
@@ -20701,8 +20700,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "7075,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20710,7 +20709,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 987,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Văn Hưng",
@@ -20722,8 +20721,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "231,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20794,7 +20793,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 991,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Đào Công Lan",
@@ -20806,8 +20805,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "161,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20815,7 +20814,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 992,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lê Văn Quí",
@@ -20827,8 +20826,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "241,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20878,7 +20877,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 995,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Võ Quang Trung",
@@ -20890,8 +20889,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "989,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20899,7 +20898,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 996,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Sách",
@@ -20911,8 +20910,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "753,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20920,7 +20919,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 997,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thị Kim Chi",
@@ -20932,8 +20931,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "100",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -20983,7 +20982,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1000,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Phạm Duy Minh Hiển",
@@ -20995,8 +20994,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "930,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21025,7 +21024,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1002,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Nguyễn Thanh Tuyền",
@@ -21037,8 +21036,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "624,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21382,7 +21381,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1019,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Huỳnh Thị Năm",
@@ -21394,8 +21393,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1828,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21403,7 +21402,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1020,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Lê Thị Út",
@@ -21415,8 +21414,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "4543,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21424,7 +21423,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1021,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Văn Bình",
@@ -21436,8 +21435,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1514,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21466,7 +21465,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1023,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Phan Thanh Long",
@@ -21478,8 +21477,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1172",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21487,7 +21486,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1024,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Thị Tốt",
@@ -21499,8 +21498,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "456,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21508,7 +21507,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1025,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Phạm Nghĩa Ân - Dương Kim Duyên",
@@ -21520,8 +21519,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "117,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21529,7 +21528,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1026,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Văn Phúc",
@@ -21541,8 +21540,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "141,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21571,7 +21570,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1028,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Thị Ai",
@@ -21583,8 +21582,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "486,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21592,7 +21591,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1029,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Văn Thanh",
@@ -21604,8 +21603,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "359",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21613,7 +21612,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1030,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Văn Thanh",
@@ -21625,8 +21624,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1265",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21634,7 +21633,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1031,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Lê Thị Chớ",
@@ -21646,8 +21645,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "728,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21655,7 +21654,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1032,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Lê Minh Thông - Nguyễn Thị Mỹ Liên",
@@ -21667,8 +21666,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "85,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21676,7 +21675,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1033,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Chu Văn Oai - Hà Thị Lê",
@@ -21688,8 +21687,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "61,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21697,7 +21696,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1034,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Huỳnh Công Ngàn (HTX)",
@@ -21709,8 +21708,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1514,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21718,7 +21717,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1035,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Đặng Hồng Hà",
@@ -21730,8 +21729,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "649,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21739,7 +21738,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1036,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Hà Đình Hội - Trần Thị Hạnh (Vắng chủ)",
@@ -21751,8 +21750,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "168",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21760,7 +21759,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1037,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Văn Chắt",
@@ -21772,8 +21771,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "684,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21781,7 +21780,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1038,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Văn Thanh",
@@ -21793,8 +21792,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "759,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21802,7 +21801,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1039,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Phạm Minh Anh",
@@ -21814,8 +21813,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2561,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -21823,7 +21822,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1040,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
     "toBoiThuong": "Tổ 2",
     "hoTen": "Nguyễn Phạm Minh Anh",
@@ -21835,8 +21834,8 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1161,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -22768,7 +22767,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1085,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Lưu Thị Duyên",
@@ -22780,8 +22779,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "436",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -22789,7 +22788,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1086,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
     "toBoiThuong": "Tổ 3",
     "hoTen": "Dương Kim Loan",
@@ -22801,8 +22800,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "48,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "31/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -23020,7 +23019,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1097,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Phan Tấn Công",
@@ -23032,8 +23031,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "6202,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -23083,7 +23082,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1100,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Nguyễn Thị Huệ - Lê Đức Thùy",
@@ -23095,8 +23094,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "497,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "03/08",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -23104,7 +23103,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1101,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
     "toBoiThuong": "Tổ 1",
     "hoTen": "Huỳnh Văn Lắm - Huỳnh Thị Giỏi",
@@ -23116,8 +23115,8 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "4418,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "ghiChu": "30/7",
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
@@ -23622,7 +23621,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "393",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23643,7 +23642,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "189,6",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23664,7 +23663,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "6089",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23685,7 +23684,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "139,2",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23706,7 +23705,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "124,5",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23727,7 +23726,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "185,1",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23748,7 +23747,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "574,8",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23769,7 +23768,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "2266,7",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23790,7 +23789,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "360",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23811,7 +23810,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "158,5",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23832,7 +23831,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "217,2",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23853,7 +23852,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "151,7",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23874,7 +23873,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "129,9",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23895,7 +23894,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "181",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23916,7 +23915,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "3629,9",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23937,7 +23936,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "186,6",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23958,7 +23957,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "200",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Dũng",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -23979,7 +23978,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "46,3",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24000,7 +23999,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "100",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24021,7 +24020,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "38,4",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24042,7 +24041,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "124,9",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24063,7 +24062,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "320,6",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24084,7 +24083,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "2847,4",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24105,7 +24104,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24126,7 +24125,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24147,7 +24146,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24168,7 +24167,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24189,7 +24188,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24210,7 +24209,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24231,7 +24230,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24252,7 +24251,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24273,7 +24272,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24294,7 +24293,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "1627,4",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Nhi",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24315,7 +24314,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Nhi",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24336,7 +24335,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Nhi",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24357,7 +24356,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Nhi",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24378,7 +24377,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Nhi",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24399,7 +24398,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Nhi",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24420,7 +24419,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Nhi",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24441,7 +24440,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "90,8",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -24462,7 +24461,7 @@ window.DOSSIER_DATA = [
     "giaiToaToanPhan": "",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
-    "phapChe": "Linh",
+    "phapChe": "",
     "doLuong": "",
     "trungLap": ""
   },
@@ -26187,5 +26186,2956 @@ window.DOSSIER_DATA = [
     "phapChe": "",
     "doLuong": "",
     "trungLap": ""
+  },
+  {
+    "stt": 1248,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Huỳnh Đức Lộc",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "41",
+    "thuaDat": "MP93",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "104,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1249,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Thị Mai",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "MP23",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "33,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1250,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Đức Toàn",
+    "diaChi": "558/15/10A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "MP30",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "304",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1251,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Đức Trí",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "MP30",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "858,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1252,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Đặng Ngọc Phong",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "MP23",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "51,7",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1253,
+    "canBoBBT": "Minh Châu",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Văn Giang",
+    "diaChi": "558/8B",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "560",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "200",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1254,
+    "canBoBBT": "Minh Châu",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Văn Giang",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "70",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "409,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1255,
+    "canBoBBT": "Minh Châu",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Dương Thị Bích Phượng",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "MP70",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "100",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1256,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Quốc Thanh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p88",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1901,5m²",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1257,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thành Tâm",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p88",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1258,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thành Được",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p88",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1259,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Kim Long",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p88",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1260,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Bùi Viết Nhựt",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p88",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1261,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Phạm Thị Hòng Nhung",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p88",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1262,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Lê Văn Xe",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "43",
+    "thuaDat": "6",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2.126,3 m²",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1263,
+    "canBoBBT": "Văn Tân",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Văn",
+    "diaChi": "A5 khu villas Thiên Hà",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "43",
+    "thuaDat": "215",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "288,5 m²",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1264,
+    "canBoBBT": "Đăng Vinh",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Huỳnh Thanh Sơn",
+    "diaChi": "558/45B",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "thửa 3 và MP 4",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1265,
+    "canBoBBT": "Đăng Vinh",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Huỳnh Thị Thanh Bạch",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "14",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1266,
+    "canBoBBT": "Đăng Vinh",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Huỳnh Trung Hiếu",
+    "diaChi": "558/47B",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "37",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1267,
+    "canBoBBT": "Đăng Vinh",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Hoàng Yên",
+    "diaChi": "558/47A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "MP15",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1268,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Hải Sơn",
+    "diaChi": "Khống số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "122",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1637,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1269,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Hải Sơn",
+    "diaChi": "Khống số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "123",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "608,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1270,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Hải Sơn",
+    "diaChi": "Khống số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "124",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "3483,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1271,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Hải Sơn",
+    "diaChi": "Khống số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "167",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "3725,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1272,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Hải Sơn",
+    "diaChi": "Khống số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "168",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "4789,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1273,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Huỳnh Thị Hà",
+    "diaChi": "Khống số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "MP46",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1274,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thủy Triều",
+    "diaChi": "558/12A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "583",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "7320,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1275,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thủy Trường",
+    "diaChi": "558/12A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "583",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1276,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thủy Tiên",
+    "diaChi": "558/12A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "583",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1277,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thủy Thạch",
+    "diaChi": "558/12A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "583",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1278,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Hồ Thanh Kiệt",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "MPT15",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "49,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1279,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trương Mạnh Cường",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "MPT15",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "69,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1280,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Kim Vân",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "MPT15",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "49,7",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1281,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Đoàn Thị Hai",
+    "diaChi": "558/15/8",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "41",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2026,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1282,
+    "canBoBBT": "Quốc Thạch",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Vũ Văn Tập - Trần Thị Luyến",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "MP15",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "120",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1283,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thị Thu",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "598",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "5815",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1284,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Thị Thanh Hằng",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "598",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1285,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thị Tuyết Thanh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "598",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1286,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Mậu Tuất",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "12",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2301,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1287,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Mậu Tuất",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "11",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "3922,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1288,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Mậu Tuất",
+    "diaChi": "558/50",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "584",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1247,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1289,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Mậu Tuất",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "13",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "3487,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1290,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Mậu Tuất",
+    "diaChi": "558/50",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "10",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2300,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1291,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Văn Tốt",
+    "diaChi": "558/50",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "12",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "4065,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1292,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "30/07/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Thị Lũng",
+    "diaChi": "558/6A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "MP12,13",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1315,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1293,
+    "canBoBBT": "Thiên Ngân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Năm",
+    "diaChi": "558/51/1",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "64",
+    "thuaDat": "3",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "959,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1294,
+    "canBoBBT": "Thiên Ngân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Lê Trọng Nghĩa - Đàm Ngọc Phượng",
+    "diaChi": "558/51/5",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "64",
+    "thuaDat": "5",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "749,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1295,
+    "canBoBBT": "Thiên Ngân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Huỳnh Công Hai - Lê Thị Thu Nguyệt",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "64",
+    "thuaDat": "24, 402",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "4171,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1296,
+    "canBoBBT": "Kim Ngân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Văn Tặng - Nguyễn Thị Ba",
+    "diaChi": "558/50/3P",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "118",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "695,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1297,
+    "canBoBBT": "Kim Ngân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Văn Hộ - Bùi Thị Hương",
+    "diaChi": "480/31/2/1",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "140",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2451,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1298,
+    "canBoBBT": "Thanh Tùng",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Văn Phúc",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "263",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1406,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1299,
+    "canBoBBT": "Thanh Tùng",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Tạ Hải Đường",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p185",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "95,7",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1300,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Phạm Minh Anh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "129",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1265,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1301,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Lê Văn Sáu",
+    "diaChi": "480/31/7/6",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "589",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "837,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1302,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Trần Văn Sấm",
+    "diaChi": "558/54",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "576",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1013,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1303,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Kim Thanh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "58",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "54,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1304,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Lê Cao Trí - Nguyễn Thị Yên",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "185",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "154,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1305,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Võ Văn Ngọc - Võ Thị Ngọc Anh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p31, 32, 40",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "55,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1306,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Võ Ngọc Tường Vi",
+    "diaChi": "558/54/17A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p185",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "98,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1307,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thanh Liêm - Huỳnh Thị Trà",
+    "diaChi": "558/54/13",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "194",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "620,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1308,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Hồng",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p576",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "54,7",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1309,
+    "canBoBBT": "Lan Phương",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Hoài An",
+    "diaChi": "558/50/3L",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "72",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "234,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1310,
+    "canBoBBT": "Lan Phương",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Bích Ngọc",
+    "diaChi": "cạnh 480/31/2/3",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "137",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "67,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1311,
+    "canBoBBT": "Lan Phương",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Lê Văn Thanh Phương - Lê Văn Thanh Thương",
+    "diaChi": "558/54/3",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "189",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "221,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1312,
+    "canBoBBT": "Anh Thư",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Huệ",
+    "diaChi": "558/62A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "65",
+    "thuaDat": "564",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "576",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1313,
+    "canBoBBT": "Anh Thư",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Võ Văn Ngọc (HTX)",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "269, 270, 271, 272, 273",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "8287,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1314,
+    "canBoBBT": "Anh Thư",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Văn Phúc (đại diện các đồng thừa kế)",
+    "diaChi": "558/56B",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "266",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "5078,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1315,
+    "canBoBBT": "Thảo Nguyên",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Tốt - Võ Văn Đẹp",
+    "diaChi": "558/51/2",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "1p30",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "702,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1316,
+    "canBoBBT": "Thảo Nguyên",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Lê Thị Hà",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "1p92, 1p93",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "81,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1317,
+    "canBoBBT": "Thảo Nguyên",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Lê Thị Út",
+    "diaChi": "558/47/4",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "26",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "756",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1318,
+    "canBoBBT": "Thảo Nguyên",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Huỳnh Kim Ca - Hồ Kim Huệ",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "64",
+    "thuaDat": "403",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2000,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1319,
+    "canBoBBT": "Thảo Nguyên",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 2",
+    "hoTen": "Nguyễn Thị Mai",
+    "diaChi": "558/49B",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "63",
+    "thuaDat": "402",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "277",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1320,
+    "canBoBBT": "Thanh Tuyền",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Mậu Tuất",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "77",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "4157",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1321,
+    "canBoBBT": "Ánh Linh",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Đinh Thị Diệu",
+    "diaChi": "558/15/25B2",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "41",
+    "thuaDat": "MP48",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "16,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1322,
+    "canBoBBT": "Hoàng Minh",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Quách Ngọc Sương (HTX)",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "3,4,2005",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "7516,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1323,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Tâm Cao Nguyên",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "MP23",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "26,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1324,
+    "canBoBBT": "Minh Châu",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Văn Tiến",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "44",
+    "thuaDat": "MP70",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "49",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1325,
+    "canBoBBT": "Uyên Như",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Nguyễn Ngọc Dương - Lê Thị \nHương Lan",
+    "diaChi": "D1 khu \nvillas Thiên Hà",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "43",
+    "thuaDat": "246",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "232,4",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1326,
+    "canBoBBT": "Uyên Như",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 1",
+    "hoTen": "Trần Thị Huyền",
+    "diaChi": "558/14",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "42",
+    "thuaDat": "MP23",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "226",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1327,
+    "canBoBBT": "Ngọc Trân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Lương Thị Mai",
+    "diaChi": "không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "65",
+    "thuaDat": "131",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "124,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1328,
+    "canBoBBT": "Ngọc Trân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Nguyễn Thị Trúc Ly",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "67",
+    "thuaDat": "MPT 26",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "49,1",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1329,
+    "canBoBBT": "Ngọc Trân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Nguyễn Tấn Lợi",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "67",
+    "thuaDat": "MPT 26",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "50",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1330,
+    "canBoBBT": "Thiện Như",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Phạm Thị Quí",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "67",
+    "thuaDat": "MPT 87",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2931,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1331,
+    "canBoBBT": "Ngọc Thịnh",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Hồ Nguyễn Hoàng Vũ",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "60",
+    "thuaDat": "73",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "361,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1332,
+    "canBoBBT": "Ngọc Trân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Lê Thị Khoán",
+    "diaChi": "558/66/3/17",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "65",
+    "thuaDat": "MPT 206",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "353,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1333,
+    "canBoBBT": "Ngọc Trân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Phan Ngọc Giang",
+    "diaChi": "558/57/1",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "70",
+    "thuaDat": "406",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "480",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1334,
+    "canBoBBT": "Duy Quang",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Hà Văn Việt (HTX)",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "66",
+    "thuaDat": "36",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2249,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1335,
+    "canBoBBT": "Duy Quang",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Hà Văn Việt (HTX)",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "66",
+    "thuaDat": "34",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1695,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1336,
+    "canBoBBT": "Vân Khánh",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Nguyễn Thị Thanh Nga",
+    "diaChi": "Không số (cạnh 480/65/24/1B)",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "66",
+    "thuaDat": "MPT 122",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "95,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1337,
+    "canBoBBT": "Duy Quang",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Lương Văn Khối",
+    "diaChi": "480/89/17",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "68",
+    "thuaDat": "403",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1465",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1338,
+    "canBoBBT": "Duy Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Ngô Thị Vân",
+    "diaChi": "480/75B",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "66",
+    "thuaDat": "72",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "60",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1339,
+    "canBoBBT": "Minh Quân",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Nguyễn Thị Nở",
+    "diaChi": "480/95A",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "67",
+    "thuaDat": "24",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "89,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1340,
+    "canBoBBT": "Văn Hải",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Huỳnh Thị Được",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "72",
+    "thuaDat": "48",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "234,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1341,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Phạm Văn Hùng",
+    "diaChi": "558/66A4",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "70",
+    "thuaDat": "423",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "219",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1342,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Nguyễn Thị Dung",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "73",
+    "thuaDat": "mp51",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1000",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1343,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Lê Thị Đố",
+    "diaChi": "558/64/44/1",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "69",
+    "thuaDat": "117",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "197,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1344,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Nguyễn Thị Dung",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "73",
+    "thuaDat": "19",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "400,7",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1345,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Thi Nguyễn Gia Minh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "66",
+    "thuaDat": "455",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "72,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
+  },
+  {
+    "stt": 1346,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "03/08/2026",
+    "toBoiThuong": "Tổ 3",
+    "hoTen": "Bùi Thị Ba",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "72",
+    "thuaDat": "20",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1493",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Tân/Dũng",
+    "doLuong": "",
+    "trungLap": ""
   }
 ];
+window.TABLE_VII_DATA_DAILY = [
+  {
+    "timeKey": "3/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 7,
+    "soHsTraSua": 21,
+    "tongHs": 28,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "3/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 6,
+    "soHsTraSua": 2,
+    "tongHs": 8,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "3/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 55,
+    "soHsTraSua": 10,
+    "tongHs": 65,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "4/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "4/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "4/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "5/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "5/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "5/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "6/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "6/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "6/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "7/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "7/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "7/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "8/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "8/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "8/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "9/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "9/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "9/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "10/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "11/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "11/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "11/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "12/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "12/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "12/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "13/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "13/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "13/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "14/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "14/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "14/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "15/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "15/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "15/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "16/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "16/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "16/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "17/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "17/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "17/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "18/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "18/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "18/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "19/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "19/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "19/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "20/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "20/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "20/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "21/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "21/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "21/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "22/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "22/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "22/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "23/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "23/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "23/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "24/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "25/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "25/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "25/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "26/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "26/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "26/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "27/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "27/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "27/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "28/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "28/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "28/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "29/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "29/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "29/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "30/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "30/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "30/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "31/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "31/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "31/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  }
+];
+window.TABLE_VII_DATA_WEEKLY = [];
+window.BASE_WORKFLOW_COUNTS = {
+  "Quốc Thạch": 80,
+  "Thiện Như": 68,
+  "Thanh Tuyền": 61,
+  "Hoài Thương": 66,
+  "Tố Lam": 64,
+  "Xuân Trúc": 59,
+  "Văn Tân": 64,
+  "Anh Tuấn": 52,
+  "Ngọc Thịnh": 62,
+  "Đăng Vinh": 57,
+  "Mỹ Thương": 63,
+  "Trọng Nhân": 62,
+  "Duy Bảo": 69,
+  "Lan Phương": 55,
+  "Kim Ngân": 53,
+  "Thảo Nguyên": 56,
+  "Kiều Oanh": 68,
+  "Thiên Ngân": 56,
+  "Minh Châu": 57,
+  "Văn Hải": 60,
+  "Quốc Bảo": 64,
+  "Duy Quang": 47,
+  "Thành Giang": 52,
+  "Trọng Phúc": 61,
+  "Thúy Quyên": 64,
+  "Thanh Tùng": 43,
+  "Hoàng Minh": 72,
+  "Ngọc Trân": 61,
+  "Trí Nghĩa": 46,
+  "Như Hà": 54,
+  "Vân Khánh": 67,
+  "Quang Trãi": 61,
+  "Vinh Hiển": 59,
+  "Ánh Linh": 47,
+  "Minh Quân": 61,
+  "Uyên Như": 43,
+  "Anh Thư": 19,
+  "Bảo Vi": 21,
+  "Anh Hào": 36,
+  "Minh Huy": 6,
+  "Hoàng Anh": 7,
+  "tuyennt": 61,
+  "haola": 36,
+  "phucvt": 61,
+  "nguyennnt": 56,
+  "nhunt": 68,
+  "trannn": 61,
+  "thutna": 19,
+  "chaundm": 57,
+  "baotd": 69,
+  "tuanla": 52,
+  "thachhq": 80,
+  "thuongctm": 63,
+  "hattn": 54,
+  "vittb": 21,
+  "trailq": 61,
+  "minhth": 72,
+  "lamdtt": 64,
+  "khanhptv": 67,
+  "nhutnu": 43,
+  "phuongll": 55,
+  "nganmnk": 53,
+  "nganntt": 56,
+  "tanhv": 64,
+  "tungnt": 43,
+  "thuonghh": 66,
+  "oanhdck": 68,
+  "linhhk": 8,
+  "vinhdhd": 57,
+  "linhpta": 39,
+  "quyendtt": 64,
+  "trucplx": 59,
+  "baohlq": 64,
+  "nhanvt": 62,
+  "giangnpt": 52,
+  "anhvpm": 7,
+  "quangpd": 47,
+  "huyhbm": 6,
+  "nghiadt": 46,
+  "hiennv": 59,
+  "quannm": 61,
+  "hainv": 60,
+  "thinhpn": 62,
+  "_total_jobs": 2232
+};

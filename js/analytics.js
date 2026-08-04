@@ -262,7 +262,119 @@
     },
 
     // Section VII Master: Thống kê chi tiết Khối lượng hồ sơ theo Cán bộ Pháp chế kiểm tra
-    getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
+    getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false, searchVal = '', selectedDateVal = '') {
+      // Prioritize dataset auto-synced from Google Sheet pubhtml for Table VII
+      const tableVIIDaily = window.TABLE_VII_DATA_DAILY || [];
+      const tableVIIWeekly = window.TABLE_VII_DATA_WEEKLY || [];
+
+      if (tableVIIDaily.length > 0) {
+        let sourceList = tableVIIDaily;
+        if (periodType === 'week' && tableVIIWeekly.length > 0 && tableVIIWeekly.some(r => r.canBo || r.soHsDuyet || r.soHsTraSua)) {
+          sourceList = tableVIIWeekly;
+        }
+
+        const selectedKp = document.getElementById('phankhuSelect7')?.value || document.getElementById('phankhuSelect')?.value;
+
+        // Apply filters to Table VII Google Sheet records
+        const filtered = sourceList.filter(r => {
+          // Phân khu filter
+          if (isKhuPhoFiltered && selectedKp && selectedKp !== 'ALL') {
+            if (r.khuPho !== selectedKp && !r.khuPho.includes(selectedKp)) return false;
+          }
+
+          // Date / Period filter
+          if (isDateFiltered && selectedDateVal && selectedDateVal !== 'ALL') {
+            let matchDate = (r.timeKey === selectedDateVal || r.timeKey.includes(selectedDateVal));
+            if (!matchDate) {
+              if (periodType === 'week') {
+                const wLabel = getWeekLabel(r.timeKey);
+                if (wLabel === selectedDateVal || wLabel.includes(selectedDateVal)) matchDate = true;
+              } else if (periodType === 'month') {
+                const mLabel = getMonthLabel(r.timeKey);
+                if (mLabel === selectedDateVal || mLabel.includes(selectedDateVal)) matchDate = true;
+              }
+            }
+            if (!matchDate) return false;
+          }
+
+          // Search query filter
+          if (searchVal && searchVal.trim()) {
+            const q = searchVal.trim().toLowerCase();
+            const text = `${r.canBo} ${r.timeKey} ${r.khuPho} ${r.ghiChu}`.toLowerCase();
+            if (!text.includes(q)) return false;
+          }
+
+          return true;
+        });
+
+        // Group records
+        const map = {};
+        filtered.forEach(r => {
+          const cb = (r.canBo && r.canBo.trim()) ? r.canBo.trim() : 'Chưa phân công / Trống';
+          
+          let tKey = '';
+          if (isDateFiltered) {
+            if (periodType === 'week') tKey = getWeekLabel(r.timeKey);
+            else if (periodType === 'month') tKey = getMonthLabel(r.timeKey);
+            else tKey = r.timeKey || '';
+          }
+
+          const mapKey = isDateFiltered ? `${tKey}___${cb}` : cb;
+
+          if (!map[mapKey]) {
+            map[mapKey] = {
+              timeKey: tKey,
+              cbtl: cb,
+              kp17: 0,
+              kp18: 0,
+              kp19: 0,
+              totalChuyen: 0,
+              thongQua: 0,
+              kthtGiu: 0,
+              traSua: 0,
+              ghiChuSet: new Set()
+            };
+          }
+
+          const kp = String(r.khuPho).trim();
+          const totalRowHs = (r.tongHs !== undefined) ? r.tongHs : ((r.soHsDuyet || 0) + (r.soHsTraSua || 0));
+          const duyetRowHs = r.soHsDuyet || 0;
+          const traSuaRowHs = r.soHsTraSua || 0;
+
+          if (kp === '17' || kp.includes('17')) map[mapKey].kp17 += totalRowHs;
+          else if (kp === '18' || kp.includes('18')) map[mapKey].kp18 += totalRowHs;
+          else if (kp === '19' || kp.includes('19')) map[mapKey].kp19 += totalRowHs;
+          else {
+            map[mapKey].kp17 += totalRowHs;
+          }
+
+          map[mapKey].totalChuyen += totalRowHs;
+          map[mapKey].thongQua += duyetRowHs;
+          map[mapKey].traSua += traSuaRowHs;
+
+          if (r.ghiChu && r.ghiChu.trim()) {
+            map[mapKey].ghiChuSet.add(r.ghiChu.trim());
+          }
+        });
+
+        let list = Object.values(map).map(item => ({
+          ...item,
+          ghiChu: Array.from(item.ghiChuSet).join('; ')
+        }));
+
+        list.sort((a, b) => {
+          if (isDateFiltered && periodType === 'date') {
+            const dA = parseDate(a.timeKey);
+            const dB = parseDate(b.timeKey);
+            if (dA && dB && dB.valueOf() !== dA.valueOf()) return dB - dA;
+          }
+          if (b.totalChuyen !== a.totalChuyen) return b.totalChuyen - a.totalChuyen;
+          return a.cbtl.localeCompare(b.cbtl, 'vi');
+        });
+
+        return list;
+      }
+
       const source = (allRecords && allRecords.length > 0) ? allRecords : records;
 
       // Tính tổng số liệu ĐÓ GIỜ (All-Time Overall Totals) cho tất cả Cán bộ Pháp chế từ source
@@ -440,6 +552,106 @@
       }));
     },
 
+    getCanonicalOfficerName(cbName) {
+      if (!cbName) return 'Khác / Chưa xếp';
+      const name = String(cbName).trim();
+      const map = {
+        "thachhq": "Quốc Thạch",
+        "minhth": "Hoàng Minh",
+        "baotd": "Duy Bảo",
+        "nhunt": "Thiện Như",
+        "oanhdck": "Kiều Oanh",
+        "khanhptv": "Vân Khánh",
+        "thuonghh": "Hoài Thương",
+        "phucvt": "Trọng Phúc",
+        "lamdtt": "Tố Lam",
+        "tanhv": "Văn Tân",
+        "quyendtt": "Thúy Quyên",
+        "baohlq": "Quốc Bảo",
+        "thuongctm": "Mỹ Thương",
+        "nhanvt": "Trọng Nhân",
+        "quannm": "Minh Quân",
+        "thinhpn": "Ngọc Thịnh",
+        "tuyennt": "Thanh Tuyền",
+        "trannn": "Ngọc Trân",
+        "trailq": "Quang Trãi",
+        "hainv": "Văn Hải",
+        "trucplx": "Xuân Trúc",
+        "hiennv": "Vinh Hiển",
+        "chaundm": "Minh Châu",
+        "vinhdhd": "Đăng Vinh",
+        "nguyennnt": "Thảo Nguyên",
+        "nganntt": "Thiên Ngân",
+        "phuongll": "Lan Phương",
+        "hattn": "Như Hà",
+        "nganmnk": "Kim Ngân",
+        "tuanla": "Anh Tuấn",
+        "giangnpt": "Thành Giang",
+        "quangpd": "Duy Quang",
+        "nghiadt": "Trí Nghĩa",
+        "nhutnu": "Uyên Như",
+        "tungnt": "Thanh Tùng",
+        "linhpta": "Ánh Linh",
+        "haola": "Anh Hào",
+        "vittb": "Bảo Vi",
+        "thutna": "Anh Thư",
+        "linhhk": "Khánh Linh",
+        "anhvpm": "Hoàng Anh",
+        "huyhbm": "Minh Huy"
+      };
+
+      if (map[name]) return map[name];
+      if (name.includes('/')) {
+        return name.split('/').map(p => this.getCanonicalOfficerName(p.trim())).join(' / ');
+      }
+      for (const [k, v] of Object.entries(map)) {
+        if (name.toLowerCase() === k.toLowerCase()) {
+          return v;
+        }
+      }
+      return name;
+    },
+
+    getOfficerFullName(cbName) {
+      return this.getCanonicalOfficerName(cbName);
+    },
+
+    getBaseCountForOfficer(cbName) {
+      if (!window.BASE_WORKFLOW_COUNTS) return 0;
+      const baseMap = window.BASE_WORKFLOW_COUNTS;
+      const name = String(cbName || '').trim();
+
+      if (!name || name.includes('Chưa') || name.includes('Khác')) return 0;
+      
+      const canon = this.getCanonicalOfficerName(name);
+      if (baseMap[canon] !== undefined) return baseMap[canon];
+      if (baseMap[name] !== undefined) return baseMap[name];
+
+      if (name.includes('/')) {
+        const parts = name.split('/');
+        let sum = 0;
+        parts.forEach(p => {
+          sum += this.getBaseCountForOfficer(p.trim());
+        });
+        if (sum > 0) return sum;
+      }
+
+      let total = 0;
+      let found = false;
+      const lName = name.toLowerCase();
+
+      Object.keys(baseMap).forEach(key => {
+        if (key.startsWith('_')) return;
+        const lKey = key.toLowerCase();
+        if (lName.includes(lKey) || lKey.includes(lName)) {
+          total += baseMap[key];
+          found = true;
+        }
+      });
+
+      return found ? total : 0;
+    },
+
     // Section VI & VIII Unified: Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT
     getDetailedTransferBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
       const source = (allRecords && allRecords.length > 0) ? allRecords : records;
@@ -447,7 +659,8 @@
       // Tính tổng số liệu ĐÓ GIỜ (All-Time Overall Totals) cho tất cả Cán bộ BBT từ source
       const allTimeMap = {};
       source.forEach(r => {
-        const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+        const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+        const cb = this.getCanonicalOfficerName(rawCb);
         if (!allTimeMap[cb]) {
           allTimeMap[cb] = { totalChuyen: 0, thongQua: 0, kthtGiu: 0, traSua: 0 };
         }
@@ -464,6 +677,17 @@
 
       const allOfficers = new Set(Object.keys(allTimeMap));
 
+      // Include officers from Base Workflow counts into allOfficers set
+      if (window.BASE_WORKFLOW_COUNTS) {
+        Object.keys(window.BASE_WORKFLOW_COUNTS).forEach(key => {
+          if (key.startsWith('_')) return;
+          const canon = this.getCanonicalOfficerName(key);
+          if (canon && !canon.includes('Chưa') && !canon.includes('Khác') && !canon.includes('Ban QLDA')) {
+            allOfficers.add(canon);
+          }
+        });
+      }
+
       // BÌNH THƯỜNG (KHI KHÔNG LỌC NGÀY CỤ THỂ): Bảng tổng thể 1 cán bộ = 1 dòng duy nhất!
       if (!isDateFiltered) {
         const map = {};
@@ -471,9 +695,11 @@
           map[cb] = {
             timeKey: '',
             cbtl: cb,
+            cbtlFull: cb,
             kp17: 0,
             kp18: 0,
             kp19: 0,
+            baseTotal: this.getBaseCountForOfficer(cb),
             totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
             thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
             kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
@@ -483,14 +709,17 @@
         });
 
         records.forEach(r => {
-          const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+          const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+          const cb = this.getCanonicalOfficerName(rawCb);
           if (!map[cb]) {
             map[cb] = {
               timeKey: '',
               cbtl: cb,
+              cbtlFull: cb,
               kp17: 0,
               kp18: 0,
               kp19: 0,
+              baseTotal: this.getBaseCountForOfficer(cb),
               totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
               thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
               kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
@@ -515,12 +744,12 @@
 
         let list = Object.values(map);
         if (isKhuPhoFiltered || (records && records.length < source.length)) {
-          list = list.filter(item => item.filteredTotal > 0 || item.totalChuyen > 0);
+          list = list.filter(item => item.filteredTotal > 0 || item.totalChuyen > 0 || item.baseTotal > 0);
         } else {
-          list = list.filter(item => item.totalChuyen > 0);
+          list = list.filter(item => item.totalChuyen > 0 || item.baseTotal > 0);
         }
 
-        list.sort((a, b) => b.totalChuyen - a.totalChuyen || a.cbtl.localeCompare(b.cbtl, 'vi'));
+        list.sort((a, b) => (b.baseTotal || 0) - (a.baseTotal || 0) || (b.totalChuyen || 0) - (a.totalChuyen || 0) || a.cbtlFull.localeCompare(b.cbtlFull, 'vi'));
         return list;
       }
 

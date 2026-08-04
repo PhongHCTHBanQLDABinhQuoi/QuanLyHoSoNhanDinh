@@ -26,8 +26,9 @@
   // Real-time Sheet Sync Elements
   const syncSheetBtn = document.getElementById('syncSheetBtn');
   const syncSheetText = document.getElementById('syncSheetText');
-  const sheetSyncBadge = document.getElementById('sheetSyncBadge');
   const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQl_XxFv-5zt2_IAgiKoZHEyzFD3KKGv5WYoJqWqk6lCXkmJEe8ioTT4DD2EfPlQZWYgQ9n1ckVg6KT/pub?gid=0&single=true&output=csv';
+  const TABLE_VII_DAILY_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmNo6_kkbQy6pA-VjrYbhZpDuVCZRA76oFKQorBxnOSwiIg8GMbGS6E6phfzFDbhxu4ZXnRd_wVScN/pub?gid=0&single=true&output=csv';
+  const TABLE_VII_WEEKLY_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmNo6_kkbQy6pA-VjrYbhZpDuVCZRA76oFKQorBxnOSwiIg8GMbGS6E6phfzFDbhxu4ZXnRd_wVScN/pub?gid=199224610&single=true&output=csv';
 
   const searchInput = document.getElementById('searchInput');
   const phankhuSelect = document.getElementById('phankhuSelect');
@@ -361,6 +362,31 @@
         allRecords = parsedRecords;
         window.DOSSIER_DATA = parsedRecords;
         
+        // Also fetch latest js/data.js for pre-synced Base Workflow API counts
+        try {
+          const respDataJs = await fetch(`js/data.js?t=${Date.now()}`, { cache: 'no-cache' });
+          if (respDataJs.ok) {
+            const dataJsText = await respDataJs.text();
+            (new Function(dataJsText))();
+          }
+        } catch (eJs) {
+          console.warn('data.js reload warning:', eJs);
+        }
+
+        // Also fetch Table VII Google Sheet live
+        try {
+          const respVII = await fetch(`${TABLE_VII_DAILY_CSV_URL}&t=${Date.now()}`, { cache: 'no-cache' });
+          if (respVII.ok) {
+            const textVII = await respVII.text();
+            const parsedVII = parseTableVIICSV(textVII);
+            if (parsedVII && parsedVII.length > 0) {
+              window.TABLE_VII_DATA_DAILY = parsedVII;
+            }
+          }
+        } catch (eVII) {
+          console.warn('Table VII Live Sync warning:', eVII);
+        }
+
         populateDateDropdown();
         updateChipCounts();
         handleFilterChange();
@@ -385,6 +411,94 @@
     } finally {
       if (syncSheetBtn) syncSheetBtn.classList.remove('spinning');
     }
+  }
+
+  function parseCSVToRows(csvText) {
+    const lines = [];
+    let row = [];
+    let current = '';
+    let inQuotes = false;
+
+    for (let i = 0; i < csvText.length; i++) {
+      const char = csvText[i];
+      const nextChar = csvText[i + 1];
+
+      if (char === '"') {
+        if (inQuotes && nextChar === '"') {
+          current += '"';
+          i++;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (char === ',' && !inQuotes) {
+        row.push(current.trim());
+        current = '';
+      } else if ((char === '\r' || char === '\n') && !inQuotes) {
+        if (char === '\r' && nextChar === '\n') i++;
+        row.push(current.trim());
+        if (row.some(f => f !== '')) lines.push(row);
+        row = [];
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    if (current !== '' || row.length > 0) {
+      row.push(current.trim());
+      if (row.some(f => f !== '')) lines.push(row);
+    }
+    return lines;
+  }
+
+  function parseTableVIICSV(csvText) {
+    const lines = parseCSVToRows(csvText);
+    if (!lines || lines.length === 0) return [];
+
+    let headerIndex = -1;
+    for (let i = 0; i < lines.length; i++) {
+      const r = lines[i];
+      if (r && r.length > 0 && (r[0].includes('Ngày') || r[0].includes('Tuần'))) {
+        headerIndex = i;
+        break;
+      }
+    }
+    if (headerIndex === -1) return [];
+
+    const records = [];
+    let currentTimeLabel = '';
+
+    for (let i = headerIndex + 1; i < lines.length; i++) {
+      const r = lines[i];
+      if (!r || r.length === 0) continue;
+
+      const firstCell = r[0] ? r[0].trim() : '';
+      if (firstCell) {
+        currentTimeLabel = firstCell;
+      }
+
+      const khuPho = r[1] ? r[1].trim() : '';
+      const canBo = r[2] ? r[2].trim() : '';
+      const soDuyetStr = r[3] ? r[3].trim() : '';
+      const soTraSuaStr = r[4] ? r[4].trim() : '';
+      const ghiChu = r[5] ? r[5].trim() : '';
+
+      if (!khuPho && !canBo && !soDuyetStr && !soTraSuaStr) continue;
+
+      const soHsDuyet = parseInt(soDuyetStr, 10) || 0;
+      const soHsTraSua = parseInt(soTraSuaStr, 10) || 0;
+
+      records.push({
+        timeKey: currentTimeLabel,
+        khuPho: khuPho,
+        canBo: canBo,
+        soHsDuyet: soHsDuyet,
+        soHsTraSua: soHsTraSua,
+        tongHs: soHsDuyet + soHsTraSua,
+        ghiChu: ghiChu
+      });
+    }
+
+    return records;
   }
 
   function parseSheetCSV(csvText) {
@@ -532,6 +646,19 @@
       }
       map[key] = (map[key] || 0) + 1;
     });
+
+    if (window.TABLE_VII_DATA_DAILY && window.TABLE_VII_DATA_DAILY.length > 0) {
+      window.TABLE_VII_DATA_DAILY.forEach(r => {
+        if (!r.timeKey || !r.timeKey.trim()) return;
+        let key = r.timeKey.trim();
+        if (activePeriodType === 'week') {
+          key = Analytics.getWeekLabel(r.timeKey);
+        } else if (activePeriodType === 'month') {
+          key = Analytics.getMonthLabel(r.timeKey);
+        }
+        map[key] = (map[key] || 0) + 1;
+      });
+    }
 
     let sortedKeys = Object.keys(map);
     if (activePeriodType === 'date') {
@@ -856,7 +983,7 @@
 
     const uniqueOfficers6 = new Set();
     let sum17 = 0, sum18 = 0, sum19 = 0;
-    let sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
+    let sumBaseTotal = 0, sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
 
     list.forEach((item, idx) => {
       sum17 += item.kp17;
@@ -865,6 +992,7 @@
 
       if (!uniqueOfficers6.has(item.cbtl)) {
         uniqueOfficers6.add(item.cbtl);
+        sumBaseTotal += (item.baseTotal || 0);
         sumTotal += item.totalChuyen;
         sumThongQua += item.thongQua;
         sumKthtGiu += item.kthtGiu;
@@ -879,14 +1007,18 @@
       }
 
       const timeTd = isDateFiltered ? `<td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>` : '';
+      const baseTd = item.baseTotal > 0 
+        ? `<span class="badge badge-info" style="background:#e0f2fe; color:#0369a1; border:1px solid #bae6fd; font-weight:700; font-size:0.875rem;">📦 ${item.baseTotal.toLocaleString('vi-VN')}</span>` 
+        : `<span class="badge badge-neutral">0</span>`;
 
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
         ${timeTd}
-        <td><strong>${item.cbtl}</strong></td>
+        <td><strong>${item.cbtlFull || item.cbtl}</strong></td>
         <td class="text-center">${item.kp17}</td>
         <td class="text-center">${item.kp18}</td>
         <td class="text-center">${item.kp19}</td>
+        <td class="text-center">${baseTd}</td>
         <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa bàn giao)</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
         <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
         <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning">${item.kthtGiu}</span>` : '0'}</td>
@@ -903,6 +1035,7 @@
       <td class="text-center">${sum17}</td>
       <td class="text-center">${sum18}</td>
       <td class="text-center">${sum19}</td>
+      <td class="text-center"><strong style="color:#0369a1;">📦 ${sumBaseTotal.toLocaleString('vi-VN')}</strong></td>
       <td class="text-center">${sumTotal}</td>
       <td class="text-center">${sumThongQua}</td>
       <td class="text-center">${sumKthtGiu}</td>
@@ -913,8 +1046,11 @@
 
   // 12. Render Master Section VII (Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT)
   function renderSection7() {
-    const isDateFiltered = ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL';
-    const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
+    const isDateFiltered = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') || (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') || (datePickerInput7 && datePickerInput7.value);
+    const isKhuPhoFiltered = (phankhuSelect7 && phankhuSelect7.value !== 'ALL') || (phankhuSelect && phankhuSelect.value !== 'ALL');
+    const searchVal7 = searchInput7 ? searchInput7.value : '';
+    const selectedDateVal7 = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : (ngayChuyenSelect ? ngayChuyenSelect.value : '');
+
     const thTimeKey7 = document.getElementById('thTimeKey7');
     if (thTimeKey7) {
       if (activePeriodType === 'week') thTimeKey7.textContent = 'TUẦN CHUYỂN';
@@ -924,7 +1060,7 @@
       thTimeKey7.style.display = isDateFiltered ? '' : 'none';
     }
 
-    const list = Analytics.getDetailedPhapCheBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered);
+    const list = Analytics.getDetailedPhapCheBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered, searchVal7, selectedDateVal7);
     const tbody = document.getElementById('tbodySection7');
     if (!tbody) return;
 
@@ -936,22 +1072,16 @@
       return;
     }
 
-    const uniqueOfficers7 = new Set();
     let sum17 = 0, sum18 = 0, sum19 = 0;
-    let sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
+    let sumTotal = 0, sumThongQua = 0, sumTraSua = 0;
 
     list.forEach((item, idx) => {
       sum17 += item.kp17;
       sum18 += item.kp18;
       sum19 += item.kp19;
-
-      if (!uniqueOfficers7.has(item.cbtl)) {
-        uniqueOfficers7.add(item.cbtl);
-        sumTotal += item.totalChuyen;
-        sumThongQua += item.thongQua;
-        sumKthtGiu += item.kthtGiu;
-        sumTraSua += item.traSua;
-      }
+      sumTotal += item.totalChuyen;
+      sumThongQua += item.thongQua;
+      sumTraSua += item.traSua;
 
       const isZero = item.totalChuyen === 0;
       const tr = document.createElement('tr');
@@ -961,6 +1091,7 @@
       }
 
       const timeTd = isDateFiltered ? `<td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>` : '';
+      const ghiChuTd = `<td>${item.ghiChu ? `<span class="badge badge-neutral">${item.ghiChu}</span>` : '-'}</td>`;
 
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
@@ -969,10 +1100,10 @@
         <td class="text-center">${item.kp17}</td>
         <td class="text-center">${item.kp18}</td>
         <td class="text-center">${item.kp19}</td>
-        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa phân công)</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
+        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
         <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
-        <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning">${item.kthtGiu}</span>` : '0'}</td>
         <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
+        ${ghiChuTd}
       `;
       tbody.appendChild(tr);
     });
@@ -987,8 +1118,8 @@
       <td class="text-center">${sum19}</td>
       <td class="text-center">${sumTotal}</td>
       <td class="text-center">${sumThongQua}</td>
-      <td class="text-center">${sumKthtGiu}</td>
       <td class="text-center">${sumTraSua}</td>
+      <td class="text-center">-</td>
     `;
     tbody.appendChild(trTotal);
   }

@@ -5,6 +5,8 @@ import os
 import sys
 import time
 import urllib.request
+import urllib.parse
+from collections import defaultdict
 
 # Ensure stdout uses utf-8 on Windows
 if hasattr(sys.stdout, 'reconfigure'):
@@ -13,6 +15,178 @@ if hasattr(sys.stdout, 'reconfigure'):
 GOOGLE_SHEET_CSV_URL = (
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQl_XxFv-5zt2_IAgiKoZHEyzFD3KKGv5WYoJqWqk6lCXkmJEe8ioTT4DD2EfPlQZWYgQ9n1ckVg6KT/pub?gid=0&single=true&output=csv"
 )
+
+# New Google Sheet URLs for Table VII (Bảng VII)
+TABLE_VII_DAILY_CSV_URL = (
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmNo6_kkbQy6pA-VjrYbhZpDuVCZRA76oFKQorBxnOSwiIg8GMbGS6E6phfzFDbhxu4ZXnRd_wVScN/pub?gid=0&single=true&output=csv"
+)
+TABLE_VII_WEEKLY_CSV_URL = (
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmNo6_kkbQy6pA-VjrYbhZpDuVCZRA76oFKQorBxnOSwiIg8GMbGS6E6phfzFDbhxu4ZXnRd_wVScN/pub?gid=199224610&single=true&output=csv"
+)
+
+# Base Workflow API Config
+BASE_ACCESS_TOKEN_V2 = "11836~YYEkzFCdqh2rl0G2kgDNWFzUlBfzVE2Ynf01bvh0qxm5Ws0q_9o8gaHoKNF_-VNQUE69iQZymyDyEfmzEfr2zgsThCymrAN0d8kEjji4sVe6UWWTJt3eKXgZE5c2w9ojLnuCQPXHWDZPIpVIQe4ORw"
+BASE_WORKFLOW_ID = "16526"
+BASE_API_URL = "https://workflow.base.vn/extapi/v1/workflow/jobs"
+
+def fetch_base_workflow_counts():
+    print("Fetching Base Workflow jobs data via API...")
+    raw_counts = defaultdict(int)
+    page = 0
+    total_jobs = 0
+
+    officer_to_username = {
+        "Quốc Thạch": ["thachhq"],
+        "Thiện Như": ["nhunt"],
+        "Thanh Tuyền": ["tuyennt"],
+        "Hoài Thương": ["thuonghh"],
+        "Tố Lam": ["lamdtt"],
+        "Xuân Trúc": ["trucplx"],
+        "Văn Tân": ["tanhv"],
+        "Anh Tuấn": ["tuanla"],
+        "Ngọc Thịnh": ["thinhpn"],
+        "Đăng Vinh": ["vinhdhd"],
+        "Mỹ Thương": ["thuongctm"],
+        "Trọng Nhân": ["nhanvt"],
+        "Duy Bảo": ["baotd"],
+        "Lan Phương": ["phuongll"],
+        "Kim Ngân": ["nganmnk"],
+        "Thảo Nguyên": ["nguyennnt"],
+        "Kiều Oanh": ["oanhdck"],
+        "Thiên Ngân": ["nganntt"],
+        "Minh Châu": ["chaundm"],
+        "Văn Hải": ["hainv"],
+        "Quốc Bảo": ["baohlq"],
+        "Duy Quang": ["quangpd"],
+        "Thành Giang": ["giangnpt"],
+        "Trọng Phúc": ["phucvt"],
+        "Thúy Quyên": ["quyendtt"],
+        "Thanh Tùng": ["tungnt"],
+        "Hoàng Minh": ["minhth"],
+        "Ngọc Trân": ["trannn"],
+        "Trí Nghĩa": ["nghiadt"],
+        "Như Hà": ["hattn"],
+        "Vân Khánh": ["khanhptv"],
+        "Quang Trãi": ["trailq"],
+        "Vinh Hiển": ["hiennv"],
+        "Ánh Linh": ["linhpta", "linhhk"],
+        "Minh Quân": ["quannm"],
+        "Uyên Như": ["nhutnu"],
+        "Anh Thư": ["thutna"],
+        "Bảo Vi": ["vittb"],
+        "Anh Hào": ["haola"],
+        "Minh Huy": ["huyhbm"],
+        "Hoàng Anh": ["anhvpm"]
+    }
+
+    try:
+        while True:
+            data = urllib.parse.urlencode({
+                "access_token_v2": BASE_ACCESS_TOKEN_V2,
+                "id": BASE_WORKFLOW_ID,
+                "page_id": page,
+                "limit": 100,
+            }).encode("utf-8")
+
+            req = urllib.request.Request(
+                BASE_API_URL, 
+                data=data, 
+                method="POST",
+                headers={"Content-Type": "application/x-www-form-urlencoded"}
+            )
+
+            with urllib.request.urlopen(req, timeout=25) as response:
+                result = json.loads(response.read().decode("utf-8"))
+                if result and result.get("code") == 1:
+                    jobs = result.get("jobs", [])
+                    total_jobs += len(jobs)
+                    for j in jobs:
+                        un = j.get("username")
+                        if un:
+                            raw_counts[un] += 1
+
+                    if len(jobs) < 100:
+                        break
+                    page += 1
+                else:
+                    break
+
+        print(f"Parsed {total_jobs} total jobs from Base Workflow across {page + 1} pages.")
+
+        result_map = {}
+        for off_name, u_list in officer_to_username.items():
+            result_map[off_name] = sum(raw_counts.get(u, 0) for u in u_list)
+
+        # Include raw username counts for flexible lookup
+        for un, cnt in raw_counts.items():
+            result_map[un] = cnt
+
+        result_map["_total_jobs"] = total_jobs
+        return result_map
+    except Exception as e:
+        print(f"Warning: Could not fetch Base Workflow API data: {e}")
+        return {}
+
+def fetch_table_vii_sheet(csv_url):
+    try:
+        req = urllib.request.Request(csv_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req) as response:
+            csv_bytes = response.read()
+
+        csv_text = csv_bytes.decode("utf-8-sig", errors="replace")
+        reader = list(csv.reader(io.StringIO(csv_text)))
+
+        header_idx = -1
+        for idx, row in enumerate(reader):
+            if row and any(h in row[0] for h in ["Ngày", "Tuần"]):
+                header_idx = idx
+                break
+
+        if header_idx == -1:
+            return []
+
+        records = []
+        current_time_label = ""
+
+        for row in reader[header_idx + 1:]:
+            if not row:
+                continue
+            first_cell = row[0].strip() if len(row) > 0 else ""
+            if first_cell:
+                current_time_label = first_cell
+
+            khu_pho = row[1].strip() if len(row) > 1 else ""
+            thu_ly = row[2].strip() if len(row) > 2 else ""
+            so_duyet = row[3].strip() if len(row) > 3 else ""
+            so_tra_sua = row[4].strip() if len(row) > 4 else ""
+            ghi_chu = row[5].strip() if len(row) > 5 else ""
+
+            if not khu_pho and not thu_ly and not so_duyet and not so_tra_sua:
+                continue
+
+            try:
+                val_duyet = int(so_duyet) if so_duyet else 0
+            except ValueError:
+                val_duyet = 0
+
+            try:
+                val_tra_sua = int(so_tra_sua) if so_tra_sua else 0
+            except ValueError:
+                val_tra_sua = 0
+
+            records.append({
+                "timeKey": current_time_label,
+                "khuPho": khu_pho,
+                "canBo": thu_ly,
+                "soHsDuyet": val_duyet,
+                "soHsTraSua": val_tra_sua,
+                "tongHs": val_duyet + val_tra_sua,
+                "ghiChu": ghi_chu
+            })
+        return records
+    except Exception as e:
+        print(f"Warning: Could not fetch Table VII sheet ({csv_url}): {e}")
+        return []
 
 def fetch_and_sync():
     now_str = time.strftime("%H:%M:%S - %d/%m/%Y")
@@ -71,15 +245,28 @@ def fetch_and_sync():
             "trungLap": g(18)
         })
 
-    print(f"Parsed {len(records)} records successfully.")
+    print(f"Parsed {len(records)} main dossier records successfully.")
+
+    print("Fetching Table VII Google Sheet data (Daily & Weekly)...")
+    table_vii_daily = fetch_table_vii_sheet(TABLE_VII_DAILY_CSV_URL)
+    table_vii_weekly = fetch_table_vii_sheet(TABLE_VII_WEEKLY_CSV_URL)
+
+    base_counts = fetch_base_workflow_counts()
+
+    print(f"Parsed Table VII: {len(table_vii_daily)} daily records, {len(table_vii_weekly)} weekly records.")
     
     output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "js", "data.js")
-    js_content = f"// Data dataset for {len(records)} records\n// Auto-synced from Google Sheet\nwindow.DOSSIER_DATA = {json.dumps(records, ensure_ascii=False, indent=2)};\n"
+    js_content = f"""// Data dataset auto-synced from Google Sheets & Base Workflow API
+window.DOSSIER_DATA = {json.dumps(records, ensure_ascii=False, indent=2)};
+window.TABLE_VII_DATA_DAILY = {json.dumps(table_vii_daily, ensure_ascii=False, indent=2)};
+window.TABLE_VII_DATA_WEEKLY = {json.dumps(table_vii_weekly, ensure_ascii=False, indent=2)};
+window.BASE_WORKFLOW_COUNTS = {json.dumps(base_counts, ensure_ascii=False, indent=2)};
+"""
     
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(js_content)
         
-    print(f"Updated js/data.js ({len(records)} records) successfully!")
+    print(f"Updated js/data.js successfully!")
 
 if __name__ == "__main__":
     if "--loop" in sys.argv:
