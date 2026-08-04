@@ -34,23 +34,44 @@ BASE_HRM_TOKEN = "11836~9NcWbodZ1ellG2VMFMW4n9VAo60JsKiJ3YobJBmDqmxEJJGW2Irj1wWc
 BASE_HRM_URL = "https://hrm.base.vn/extapi/v1/employee/list"
 
 def fetch_base_hrm_employees():
-    print("Fetching official personnel directory from Base HRM API...")
+    print("Fetching official personnel directory & departments from Base HRM API...")
     hrm_map = {}
+    user_dept_map = {}
     try:
-        data = urllib.parse.urlencode({
+        # 1. Fetch Area / Departments list
+        data_area = urllib.parse.urlencode({
+            "access_token_v2": BASE_HRM_TOKEN,
+            "updated_from": "0",
+            "updated_to": "2000000000"
+        }).encode("utf-8")
+        req_area = urllib.request.Request(
+            "https://hrm.base.vn/extapi/v1/area/list",
+            data=data_area,
+            method="POST",
+            headers={"Content-Type": "application/x-www-form-urlencoded"}
+        )
+        area_dict = {}
+        with urllib.request.urlopen(req_area, timeout=15) as res_a:
+            res_a_json = json.loads(res_a.read().decode("utf-8"))
+            if res_a_json and res_a_json.get("code") == 1:
+                for a in res_a_json.get("areas", []):
+                    area_dict[str(a.get("id"))] = a.get("name")
+
+        # 2. Fetch Employees list
+        data_emp = urllib.parse.urlencode({
             "access_token_v2": BASE_HRM_TOKEN,
             "updated_from": "0",
             "updated_to": "2000000000"
         }).encode("utf-8")
 
-        req = urllib.request.Request(
+        req_emp = urllib.request.Request(
             BASE_HRM_URL, 
-            data=data, 
+            data=data_emp, 
             method="POST",
             headers={"Content-Type": "application/x-www-form-urlencoded"}
         )
 
-        with urllib.request.urlopen(req, timeout=15) as response:
+        with urllib.request.urlopen(req_emp, timeout=15) as response:
             res = json.loads(response.read().decode("utf-8"))
             if res and res.get("code") == 1:
                 employees = res.get("employees", [])
@@ -59,25 +80,30 @@ def fetch_base_hrm_employees():
                     first_name = emp.get("first_name", "").strip()
                     last_name = emp.get("last_name", "").strip()
                     full_name = f"{last_name} {first_name}".strip() if (last_name or first_name) else raw_name
+                    area_id = str(emp.get("area_id", ""))
+                    dept_name = area_dict.get(area_id, "Ban QLDA")
 
                     if full_name:
                         parts = full_name.split()
                         if len(parts) >= 2:
                             short_2 = f"{parts[-2]} {parts[-1]}"
                             hrm_map[short_2] = full_name
+                            user_dept_map[short_2] = dept_name
                         if len(parts) >= 1:
                             short_1 = parts[-1]
                             hrm_map[short_1] = full_name
+                            user_dept_map[short_1] = dept_name
                         hrm_map[full_name] = full_name
+                        user_dept_map[full_name] = dept_name
 
-                print(f"Parsed {len(employees)} official employees from Base HRM API.")
-                return hrm_map
+                print(f"Parsed {len(employees)} official employees & departments from Base HRM API.")
+                return hrm_map, user_dept_map
     except Exception as e:
         print(f"Warning: Could not fetch Base HRM API: {e}")
-    return {}
+    return {}, {}
 
 def fetch_base_workflow_counts():
-    print("Fetching Base Workflow jobs data via API...")
+    print("Fetching Base Workflow jobs data via API (including Step 6 fallback rule)...")
     raw_counts = defaultdict(int)
     page = 0
     total_jobs = 0
@@ -148,17 +174,36 @@ def fetch_base_workflow_counts():
                     jobs = result.get("jobs", [])
                     total_jobs += len(jobs)
                     for j in jobs:
-                        un = j.get("username")
-                        if un:
+                        owners = j.get("owners", [])
+                        stage_id = str(j.get("stage_id", ""))
+                        
+                        target_usernames = []
+                        if isinstance(owners, list) and len(owners) > 0 and stage_id != "116735":
+                            for o in owners:
+                                if isinstance(o, dict) and o.get("username"):
+                                    target_usernames.append(o.get("username"))
+                        
+                        # Step 6 (Stage ID 116735) OR ownerless fallback rule:
+                        # Use the officer who handled the job at Step 5 (or previous step)
+                        if not target_usernames:
+                            moves = j.get("moves", [])
+                            if isinstance(moves, list):
+                                for m in reversed(moves):
+                                    u = m.get("username")
+                                    if u and u not in ["", "system", "banqlda"]:
+                                        target_usernames.append(u)
+                                        break
+                                        
+                        for un in target_usernames:
                             raw_counts[un] += 1
-
+                            
                     if len(jobs) < 100:
                         break
                     page += 1
                 else:
                     break
 
-        print(f"Parsed {total_jobs} total jobs from Base Workflow across {page + 1} pages.")
+        print(f"Parsed {total_jobs} total jobs from Base Workflow across {page + 1} pages with Step 6 fallback.")
 
         result_map = {}
         for off_name, u_list in officer_to_username.items():
@@ -295,7 +340,7 @@ def fetch_and_sync():
     table_vii_weekly = fetch_table_vii_sheet(TABLE_VII_WEEKLY_CSV_URL)
 
     base_counts = fetch_base_workflow_counts()
-    hrm_names = fetch_base_hrm_employees()
+    hrm_names, hrm_depts = fetch_base_hrm_employees()
 
     print(f"Parsed Table VII: {len(table_vii_daily)} daily records, {len(table_vii_weekly)} weekly records.")
     
@@ -306,6 +351,7 @@ window.TABLE_VII_DATA_DAILY = {json.dumps(table_vii_daily, ensure_ascii=False, i
 window.TABLE_VII_DATA_WEEKLY = {json.dumps(table_vii_weekly, ensure_ascii=False, indent=2)};
 window.BASE_WORKFLOW_COUNTS = {json.dumps(base_counts, ensure_ascii=False, indent=2)};
 window.BASE_HRM_NAMES = {json.dumps(hrm_names, ensure_ascii=False, indent=2)};
+window.BASE_HRM_DEPARTMENTS = {json.dumps(hrm_depts, ensure_ascii=False, indent=2)};
 """
     
     with open(output_path, "w", encoding="utf-8") as f:
