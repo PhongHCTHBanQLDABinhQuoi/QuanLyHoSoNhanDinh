@@ -117,20 +117,20 @@
       </div>
     </div>
 
-    <!-- TABLES SECTION IN CORRECT NUMERICAL ORDER: I -> II -> III -> IV -> V -> VI -->
+    <!-- TABLES SECTION IN CORRECT NUMERICAL ORDER: I -> II -> III -> IV -> V -->
 
     <!-- Section I -->
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card">
           <div class="section-header">
-            <h2>I. BẢNG THEO DÕI TIẾN ĐỘ PHÁP LÝ CHI TIẾT THEO TỪNG PHÂN KHU</h2>
+            <h2>I. BẢNG THEO DÕI TIẾN ĐỘ PHÁP LÝ & PHÂN BIỆT ĐIỀU HÀNH THEO TỔ BỒI THƯỜNG (PHÂN KHU)</h2>
           </div>
           <div class="section-body">
             <table class="data-table" id="tableSection1">
               <thead>
                 <tr>
-                  <th>ĐƠN VỊ</th>
+                  <th>ĐƠN VỊ / TỔ BỒI THƯỜNG</th>
                   <th class="text-center" style="background: rgba(14, 165, 233, 0.08); border-color: #38bdf8;">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
                   <th class="text-center" style="background: rgba(16, 185, 129, 0.08); border-color: #34d399;">HỒ SƠ ĐÃ GỬI<br><small style="font-weight:normal; opacity:0.85;">(trên Google Sheet)</small></th>
                   <th class="text-center">ĐÃ THÔNG QUA</th>
@@ -201,41 +201,14 @@
       </div>
     </div>
 
-    <!-- Section IV -->
-    <div class="dashboard-grid">
-      <div class="col-12">
-        <div class="section-card">
-          <div class="section-header">
-            <h2>IV. PHÂN BIỆT ĐIỀU HÀNH THEO TỔ BỒI THƯỜNG</h2>
-          </div>
-          <div class="section-body">
-            <table class="data-table" id="tableSection5">
-              <thead>
-                <tr>
-                  <th>DANH MỤC TỔ BỒI THƯỜNG</th>
-                  <th class="text-center">KP 17</th>
-                  <th class="text-center">KP 18</th>
-                  <th class="text-center">KP 19</th>
-                  <th class="text-center">TỔNG</th>
-                </tr>
-              </thead>
-              <tbody id="tbodySection5">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Master Section V -->
+    <!-- Master Section IV -->
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card" style="border-top: 4px solid var(--primary-blue);">
           <div class="section-header" style="flex-direction: column; align-items: stretch; gap: 14px;">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div>
-                <h2>V. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
+                <h2>IV. BẢNG THỐNG KÊ CHI TIẾT SỐ LƯỢNG HỒ SƠ CHUYỂN VỀ THEO NGÀY VÀ CÁN BỘ BBT (CBTL)</h2>
                 <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ Ngày/Thời gian chuyển, Cán bộ thụ lý BBT, Phân khu & Trạng thái xử lý P.KTHT</p>
               </div>
               <div class="tab-group" id="timePeriodTabs">
@@ -245,7 +218,7 @@
               </div>
             </div>
 
-            <!-- Dedicated Filter Toolbar for Table V -->
+            <!-- Dedicated Filter Toolbar for Table IV -->
             <div class="filter-bar" style="margin-top: 0; background: rgba(0,0,0,0.03); border: 1px solid var(--border-color); border-radius: 10px; padding: 12px;">
               <div class="filter-group search-group" style="flex: 2; min-width: 220px;">
                 <label for="searchInput">🔍 Tìm kiếm thông minh hồ sơ</label>
@@ -315,14 +288,14 @@
       </div>
     </div>
 
-    <!-- Master Section VI: Khối lượng hồ sơ theo Pháp chế & Thụ lý KTHT -->
+    <!-- Master Section V: Khối lượng hồ sơ theo Pháp chế & Thụ lý KTHT -->
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card" style="border-top: 4px solid #10b981;">
           <div class="section-header" style="flex-direction: column; align-items: stretch; gap: 14px;">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div>
-                <h2>VI. BẢNG THỐNG KÊ CHI TIẾT KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ PHÁP CHẾ & THỤ LÝ KTHT</h2>
+                <h2>V. BẢNG THỐNG KÊ CHI TIẾT KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ PHÁP CHẾ & THỤ LÝ KTHT</h2>
                 <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ mốc Thời gian (Ngày/Tuần/Tháng), Cán bộ Thụ lý KTHT / Pháp chế, Phân khu & Trạng thái xử lý</p>
               </div>
               <div class="tab-group" id="timePeriodTabs7">

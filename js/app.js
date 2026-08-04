@@ -745,7 +745,6 @@
     renderSection1();
     renderSection3();
     renderSection4();
-    renderSection5();
     renderSection6();
     renderSection7();
   }
@@ -789,6 +788,13 @@
     const tbody = document.getElementById('tbodySection1');
     tbody.innerHTML = '';
 
+    const labelMap = {
+      'KP 17': 'Tổ 1 (KP 17)',
+      'KP 18': 'Tổ 2 (KP 18)',
+      'KP 19': 'Tổ 3 (KP 19)',
+      'TỔNG CỘNG': 'TỔNG CỘNG'
+    };
+
     const rows = ['KP 17', 'KP 18', 'KP 19', 'TỔNG CỘNG'];
     rows.forEach(key => {
       const item = data[key];
@@ -800,7 +806,7 @@
       const pct = (val) => totGui > 0 ? `(${((val / totGui) * 100).toFixed(1)}%)` : '(0.0%)';
 
       tr.innerHTML = `
-        <td><strong>${key}</strong></td>
+        <td><strong>${labelMap[key]}</strong></td>
         <td class="text-center" style="background: rgba(14, 165, 233, 0.08); font-size: 1rem; color: #0284c7;"><strong>${item.totalBase.toLocaleString('vi-VN')}</strong></td>
         <td class="text-center" style="background: rgba(16, 185, 129, 0.08); font-size: 1rem; color: #059669;"><strong>${totGui.toLocaleString('vi-VN')}</strong></td>
         <td class="text-center">${item.thongQua} <span class="pct-pill">${pct(item.thongQua)}</span></td>
