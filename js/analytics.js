@@ -876,6 +876,7 @@
         timeKeys.add(timeKey);
       });
 
+      const map = {};
       records.forEach(r => {
         const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
         const cleanCb = rawCb.toLowerCase();
