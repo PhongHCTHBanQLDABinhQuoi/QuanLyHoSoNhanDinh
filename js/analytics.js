@@ -751,6 +751,10 @@
       const allTimeMap = {};
       source.forEach(r => {
         const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+        const cleanCb = rawCb.toLowerCase();
+        if (cleanCb === 'thụ lý' || cleanCb === 'cán bộ' || cleanCb === 'cán bộ thụ lý' || cleanCb === 'thụ lý bqlda' || cleanCb === 'tên cán bộ' || cleanCb === 'stt' || cleanCb === 'khu phố') {
+          return;
+        }
         const cb = this.getCanonicalOfficerName(rawCb);
         if (!allTimeMap[cb]) {
           allTimeMap[cb] = { totalChuyen: 0, thongQua: 0, kthtGiu: 0, traSua: 0 };
@@ -773,7 +777,7 @@
         Object.keys(window.BASE_WORKFLOW_COUNTS).forEach(key => {
           if (key.startsWith('_')) return;
           const canon = this.getCanonicalOfficerName(key);
-          if (canon && !canon.includes('Chưa') && !canon.includes('Khác') && !canon.includes('Ban QLDA') && !canon.includes('Hoàng Anh') && !canon.includes('anhvpm')) {
+          if (canon && !canon.includes('Chưa') && !canon.includes('Khác') && !canon.includes('Ban QLDA') && !canon.includes('Hoàng Anh') && !canon.includes('anhvpm') && canon !== 'Thụ lý' && canon !== 'Cán bộ') {
             if (window.BASE_HRM_DEPARTMENTS && window.BASE_HRM_DEPARTMENTS[canon]) {
               const dept = String(window.BASE_HRM_DEPARTMENTS[canon]).toLowerCase();
               if (dept.includes('pháp chế') || dept.includes('hành chính')) return;
@@ -808,6 +812,10 @@
 
         records.forEach(r => {
           const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+          const cleanCb = rawCb.toLowerCase();
+          if (cleanCb === 'thụ lý' || cleanCb === 'cán bộ' || cleanCb === 'cán bộ thụ lý' || cleanCb === 'thụ lý bqlda' || cleanCb === 'tên cán bộ' || cleanCb === 'stt' || cleanCb === 'khu phố') {
+            return;
+          }
           const cb = this.getCanonicalOfficerName(rawCb);
           if (!map[cb]) {
             const bCount = this.getBaseCountForOfficer(cb);
@@ -868,14 +876,13 @@
         timeKeys.add(timeKey);
       });
 
-      if (timeKeys.size === 0) {
-        timeKeys.add('Chưa có ngày');
-      }
-
-      const map = {};
-
       records.forEach(r => {
-        const cb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+        const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+        const cleanCb = rawCb.toLowerCase();
+        if (cleanCb === 'thụ lý' || cleanCb === 'cán bộ' || cleanCb === 'cán bộ thụ lý' || cleanCb === 'thụ lý bqlda' || cleanCb === 'tên cán bộ' || cleanCb === 'stt' || cleanCb === 'khu phố') {
+          return;
+        }
+        const cb = this.getCanonicalOfficerName(rawCb);
         let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
 
         if (periodType === 'week') {
