@@ -757,19 +757,6 @@
       mapChuyen[key] = (mapChuyen[key] || 0) + 1;
     });
 
-    if (window.TABLE_VII_DATA_DAILY && window.TABLE_VII_DATA_DAILY.length > 0) {
-      window.TABLE_VII_DATA_DAILY.forEach(r => {
-        if (!r.timeKey || !r.timeKey.trim()) return;
-        let key = Analytics.normalizeDateStr(r.timeKey);
-        if (activePeriodType === 'week') {
-          key = Analytics.getWeekLabel(r.timeKey);
-        } else if (activePeriodType === 'month') {
-          key = Analytics.getMonthLabel(r.timeKey);
-        }
-        mapChuyen[key] = (mapChuyen[key] || 0) + 1;
-      });
-    }
-
     // 2. Map for ngayKthtChuyenVe (Ngày P.KTHTĐT chuyển về)
     const mapTra = {};
     allRecords.forEach(r => {
