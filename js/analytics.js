@@ -110,31 +110,48 @@
       result['TỔNG CỘNG'].totalBase = result['TỔNG CỘNG'].totalGui;
 
       // Nếu có dữ liệu Base Workflow API (Tổng HS nắm giữ):
+      let baseTotalSum = 0;
       if (window.BASE_WORKFLOW_COUNTS) {
-        let baseTotalSum = 0;
         Object.keys(window.BASE_WORKFLOW_COUNTS).forEach(k => {
           if (!k.startsWith('_')) {
             baseTotalSum += (window.BASE_WORKFLOW_COUNTS[k] || 0);
           }
         });
+      }
 
-        if (baseTotalSum > 0) {
-          const sheetTotal = result['TỔNG CỘNG'].totalGui;
-          if (sheetTotal > 0) {
-            const ratio17 = result['KP 17'].totalGui / sheetTotal;
-            const ratio18 = result['KP 18'].totalGui / sheetTotal;
-            const ratio19 = result['KP 19'].totalGui / sheetTotal;
+      const allRecs = (window.ALL_RECORDS && window.ALL_RECORDS.length > 0) ? window.ALL_RECORDS : records;
+      let c17 = 0, c18 = 0, c19 = 0;
+      allRecs.forEach(r => {
+        const kp = String(r.khuPho || '').trim();
+        if (kp === '17') c17++;
+        else if (kp === '18') c18++;
+        else if (kp === '19') c19++;
+      });
+      const totAll = c17 + c18 + c19;
 
-            const b17 = Math.round(baseTotalSum * ratio17);
-            const b18 = Math.round(baseTotalSum * ratio18);
-            const b19 = baseTotalSum - b17 - b18;
+      if (baseTotalSum > 0) {
+        if (totAll > 0) {
+          const b17 = Math.round(baseTotalSum * (c17 / totAll));
+          const b18 = Math.round(baseTotalSum * (c18 / totAll));
+          const b19 = baseTotalSum - b17 - b18;
 
-            result['KP 17'].totalBase = b17;
-            result['KP 18'].totalBase = b18;
-            result['KP 19'].totalBase = b19;
-          }
-          result['TỔNG CỘNG'].totalBase = baseTotalSum;
+          result['KP 17'].totalBase = b17;
+          result['KP 18'].totalBase = b18;
+          result['KP 19'].totalBase = b19;
+        } else {
+          const b17 = Math.round(baseTotalSum / 3);
+          const b18 = Math.round(baseTotalSum / 3);
+          const b19 = baseTotalSum - b17 - b18;
+          result['KP 17'].totalBase = b17;
+          result['KP 18'].totalBase = b18;
+          result['KP 19'].totalBase = b19;
         }
+        result['TỔNG CỘNG'].totalBase = baseTotalSum;
+      } else {
+        result['KP 17'].totalBase = c17;
+        result['KP 18'].totalBase = c18;
+        result['KP 19'].totalBase = c19;
+        result['TỔNG CỘNG'].totalBase = totAll > 0 ? totAll : result['TỔNG CỘNG'].totalGui;
       }
 
       return result;
@@ -529,10 +546,10 @@
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
-            thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
-            kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
-            traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+            totalChuyen: 0,
+            thongQua: 0,
+            kthtGiu: 0,
+            traSua: 0,
             filteredTotal: 0
           };
         }
@@ -547,6 +564,17 @@
         if (kp === '17' || kp.includes('17')) map[key].kp17++;
         else if (kp === '18' || kp.includes('18')) map[key].kp18++;
         else if (kp === '19' || kp.includes('19')) map[key].kp19++;
+
+        map[key].totalChuyen++;
+
+        const st = r.trangThai || '';
+        if (st.includes('3.') || st.includes('thông qua')) {
+          map[key].thongQua++;
+        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+          map[key].kthtGiu++;
+        } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa')) {
+          map[key].traSua++;
+        }
 
         map[key].filteredTotal++;
       });
@@ -755,6 +783,9 @@
       if (!isDateFiltered) {
         const map = {};
         allOfficers.forEach(cb => {
+          const bCount = this.getBaseCountForOfficer(cb);
+          const finalBase = bCount > 0 ? bCount : (allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0);
+
           map[cb] = {
             timeKey: '',
             cbtl: cb,
@@ -762,7 +793,7 @@
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            baseTotal: this.getBaseCountForOfficer(cb),
+            baseTotal: finalBase,
             totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
             thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
             kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
@@ -775,6 +806,9 @@
           const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
           const cb = this.getCanonicalOfficerName(rawCb);
           if (!map[cb]) {
+            const bCount = this.getBaseCountForOfficer(cb);
+            const finalBase = bCount > 0 ? bCount : (allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0);
+
             map[cb] = {
               timeKey: '',
               cbtl: cb,
@@ -782,7 +816,7 @@
               kp17: 0,
               kp18: 0,
               kp19: 0,
-              baseTotal: this.getBaseCountForOfficer(cb),
+              baseTotal: finalBase,
               totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
               thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
               kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
@@ -806,8 +840,10 @@
         });
 
         let list = Object.values(map);
-        if (isKhuPhoFiltered || (records && records.length < source.length)) {
-          list = list.filter(item => item.filteredTotal > 0 || item.totalChuyen > 0 || item.baseTotal > 0);
+        if (isKhuPhoFiltered) {
+          list = list.filter(item => item.filteredTotal > 0);
+        } else if (records && records.length < source.length) {
+          list = list.filter(item => item.filteredTotal > 0);
         } else {
           list = list.filter(item => item.totalChuyen > 0 || item.baseTotal > 0);
         }
@@ -847,16 +883,21 @@
         const key = `${timeKey}___${cb}`;
 
         if (!map[key]) {
+          const bCount = this.getBaseCountForOfficer(cb);
+          const finalBase = bCount > 0 ? bCount : (allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0);
+
           map[key] = {
             timeKey: timeKey,
             cbtl: cb,
+            cbtlFull: cb,
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            totalChuyen: allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0,
-            thongQua: allTimeMap[cb] ? allTimeMap[cb].thongQua : 0,
-            kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
-            traSua: allTimeMap[cb] ? allTimeMap[cb].traSua : 0,
+            baseTotal: finalBase,
+            totalChuyen: 0,
+            thongQua: 0,
+            kthtGiu: 0,
+            traSua: 0,
             filteredTotal: 0
           };
         }
@@ -872,14 +913,23 @@
         else if (kp === '18' || kp.includes('18')) map[key].kp18++;
         else if (kp === '19' || kp.includes('19')) map[key].kp19++;
 
+        map[key].totalChuyen++;
+
+        const st = r.trangThai || '';
+        if (st.includes('3.') || st.includes('thông qua')) {
+          map[key].thongQua++;
+        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
+          map[key].kthtGiu++;
+        } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa')) {
+          map[key].traSua++;
+        }
+
         map[key].filteredTotal++;
       });
 
       let list = Object.values(map);
 
-      if (timeKeys.size > 1) {
-        list = list.filter(item => item.filteredTotal > 0 || item.totalChuyen > 0);
-      }
+      list = list.filter(item => item.totalChuyen > 0);
 
       list.sort((a, b) => {
         if (periodType === 'date') {

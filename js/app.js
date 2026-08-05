@@ -210,6 +210,20 @@
     // Date Dropdown Listeners
     const handleDateSelectChange = (sourceElem) => {
       const val = sourceElem.value;
+      const isChuyen = sourceElem === ngayChuyenSelect || sourceElem === ngayChuyenSelect7;
+
+      if (isChuyen && val !== 'ALL') {
+        if (ngayTraSelect) ngayTraSelect.value = 'ALL';
+        if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
+        if (datePickerTraInput) datePickerTraInput.value = '';
+        if (datePickerTraInput7) datePickerTraInput7.value = '';
+      } else if (!isChuyen && val !== 'ALL') {
+        if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+        if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
+        if (datePickerInput) datePickerInput.value = '';
+        if (datePickerInput7) datePickerInput7.value = '';
+      }
+
       let targetPicker = null;
       if (sourceElem === ngayChuyenSelect) targetPicker = datePickerInput;
       else if (sourceElem === ngayChuyenSelect7) targetPicker = datePickerInput7;
@@ -227,6 +241,7 @@
         }
       }
       syncFilterControls(sourceElem.id.includes('7') ? 'toolbar7' : 'toolbar6');
+      updateDateFilterVisibility();
       handleFilterChange();
     };
 
@@ -239,6 +254,20 @@
     // Date Picker Listeners
     const handleDatePickerChange = (sourcePicker) => {
       const val = sourcePicker.value; // YYYY-MM-DD
+      const isChuyenPicker = sourcePicker === datePickerInput || sourcePicker === datePickerInput7;
+
+      if (isChuyenPicker && val) {
+        if (ngayTraSelect) ngayTraSelect.value = 'ALL';
+        if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
+        if (datePickerTraInput) datePickerTraInput.value = '';
+        if (datePickerTraInput7) datePickerTraInput7.value = '';
+      } else if (!isChuyenPicker && val) {
+        if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+        if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
+        if (datePickerInput) datePickerInput.value = '';
+        if (datePickerInput7) datePickerInput7.value = '';
+      }
+
       let targetSelect = null;
       if (sourcePicker === datePickerInput) targetSelect = ngayChuyenSelect;
       else if (sourcePicker === datePickerInput7) targetSelect = ngayChuyenSelect7;
@@ -248,6 +277,7 @@
       if (!val) {
         if (targetSelect) targetSelect.value = 'ALL';
         syncFilterControls(sourcePicker.id.includes('7') ? 'toolbar7' : 'toolbar6');
+        updateDateFilterVisibility();
         handleFilterChange();
         return;
       }
@@ -320,6 +350,7 @@
       const defaultChip = document.querySelector('.chip-btn[data-chip-val="ALL"]');
       if (defaultChip) defaultChip.classList.add('active');
 
+      updateDateFilterVisibility();
       handleFilterChange();
     };
 
@@ -799,7 +830,30 @@
       return sorted;
     };
 
-    const prefix = activePeriodType === 'week' ? '🗓️ ' : (activePeriodType === 'month' ? '📆 ' : '📅 ');
+    const defaultText = activePeriodType === 'week' ? 'Tất cả Tuần Chuyển' : (activePeriodType === 'month' ? 'Tất cả Tháng Chuyển' : 'Tất cả Ngày Chuyển');
+    const defaultTraText = activePeriodType === 'week' ? 'Tất cả Tuần Trả' : (activePeriodType === 'month' ? 'Tất cả Tháng Trả' : 'Tất cả Ngày Trả');
+
+    const labelChuyenText = activePeriodType === 'week' ? '🗓️ Tuần Chuyển Đi' : (activePeriodType === 'month' ? '📆 Tháng Chuyển Đi' : '📅 Ngày Chuyển Đi');
+    const labelTraText = activePeriodType === 'week' ? '📤 Tuần Trả Về' : (activePeriodType === 'month' ? '📤 Tháng Trả Về' : '📤 Ngày Trả Về');
+
+    // Dynamic Label Update for Chuyển Đi and Trả Về
+    document.querySelectorAll('label[for="ngayChuyenSelect"], label[for="ngayChuyenSelect7"]').forEach(l => {
+      l.textContent = labelChuyenText;
+    });
+    document.querySelectorAll('label[for="ngayTraSelect"], label[for="ngayTraSelect7"]').forEach(l => {
+      l.textContent = labelTraText;
+    });
+
+    // Toggle Calendar Date Picker controls (only show calendar picker when mode is 'date')
+    const showCalendarPicker = (activePeriodType === 'date');
+    [datePickerInput, datePickerInput7, datePickerTraInput, datePickerTraInput7].forEach(picker => {
+      if (picker) {
+        const group = picker.closest('.filter-group');
+        if (group) {
+          group.style.display = showCalendarPicker ? '' : 'none';
+        }
+      }
+    });
 
     // Options HTML for ngayChuyenSelect
     const optionsChuyenHtml = [`<option value="ALL">${defaultText}</option>`]
@@ -807,7 +861,6 @@
       .join('');
 
     // Options HTML for ngayTraSelect
-    const defaultTraText = activePeriodType === 'week' ? 'Tất cả Tuần Trả' : (activePeriodType === 'month' ? 'Tất cả Tháng Trả' : 'Tất cả Ngày Trả');
     const optionsTraHtml = [`<option value="ALL">${defaultTraText}</option>`]
       .concat(sortKeys(mapTra).map(k => `<option value="${k}">${prefix}${k} (${mapTra[k]} hồ sơ)</option>`))
       .join('');
@@ -828,9 +881,53 @@
 
     updateDropdown(ngayTraSelect, optionsTraHtml);
     updateDropdown(ngayTraSelect7, optionsTraHtml);
+
+    updateDateFilterVisibility();
+  }
+
+  function updateDateFilterVisibility() {
+    const dtVal = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : ((datePickerInput && datePickerInput.value) ? datePickerInput.value : ((datePickerInput7 && datePickerInput7.value) ? datePickerInput7.value : '')));
+    const traVal = (ngayTraSelect && ngayTraSelect.value !== 'ALL') ? ngayTraSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : ((datePickerTraInput && datePickerTraInput.value) ? datePickerTraInput.value : ((datePickerTraInput7 && datePickerTraInput7.value) ? datePickerTraInput7.value : '')));
+
+    const isChuyenActive = Boolean(dtVal && dtVal !== 'ALL');
+    const isTraActive = Boolean(traVal && traVal !== 'ALL');
+
+    const showCalendar = (activePeriodType === 'date');
+
+    // Chuyển Đi Filter Groups (Dropdown & Calendar Picker)
+    const chuyenSelectGroups = [ngayChuyenSelect?.closest('.filter-group'), ngayChuyenSelect7?.closest('.filter-group')].filter(Boolean);
+    const chuyenPickerGroups = [datePickerInput?.closest('.filter-group'), datePickerInput7?.closest('.filter-group')].filter(Boolean);
+
+    // Trả Về Filter Groups (Dropdown & Calendar Picker)
+    const traSelectGroups = [ngayTraSelect?.closest('.filter-group'), ngayTraSelect7?.closest('.filter-group')].filter(Boolean);
+    const traPickerGroups = [datePickerTraInput?.closest('.filter-group'), datePickerTraInput7?.closest('.filter-group')].filter(Boolean);
+
+    if (isChuyenActive) {
+      // Chuyển Đi is ACTIVE -> Show Chuyển Đi, HIDE Trả Về
+      chuyenSelectGroups.forEach(g => { g.style.display = ''; });
+      chuyenPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
+
+      traSelectGroups.forEach(g => { g.style.display = 'none'; });
+      traPickerGroups.forEach(g => { g.style.display = 'none'; });
+    } else if (isTraActive) {
+      // Trả Về is ACTIVE -> Show Trả Về, HIDE Chuyển Đi
+      traSelectGroups.forEach(g => { g.style.display = ''; });
+      traPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
+
+      chuyenSelectGroups.forEach(g => { g.style.display = 'none'; });
+      chuyenPickerGroups.forEach(g => { g.style.display = 'none'; });
+    } else {
+      // Neither active -> Show BOTH Chuyển Đi and Trả Về
+      chuyenSelectGroups.forEach(g => { g.style.display = ''; });
+      traSelectGroups.forEach(g => { g.style.display = ''; });
+
+      chuyenPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
+      traPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
+    }
   }
 
   function handleFilterChange() {
+    updateDateFilterVisibility();
     const rawQuery = (searchInput ? searchInput.value : (searchInput7 ? searchInput7.value : '')).trim();
     const query = rawQuery.toLowerCase();
     const kpFilter = phankhuSelect ? phankhuSelect.value : 'ALL';
@@ -840,7 +937,22 @@
 
     filteredRecords = allRecords.filter(r => {
       // 1. Phân khu filter
-      if (kpFilter !== 'ALL' && String(r.khuPho).trim() !== kpFilter) return false;
+      if (kpFilter !== 'ALL') {
+        let rKp = '';
+        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+        if (to === 'Tổ 1' || to.includes('1')) rKp = '17';
+        else if (to === 'Tổ 2' || to.includes('2')) rKp = '18';
+        else if (to === 'Tổ 3' || to.includes('3')) rKp = '19';
+        else if (r.khuPho) {
+          const raw = String(r.khuPho).trim();
+          if (raw.includes('17')) rKp = '17';
+          else if (raw.includes('18')) rKp = '18';
+          else if (raw.includes('19')) rKp = '19';
+          else rKp = raw;
+        }
+
+        if (rKp !== kpFilter && !rKp.includes(kpFilter)) return false;
+      }
 
       // 2. Trạng thái filter
       if (stFilter !== 'ALL') {
@@ -1196,18 +1308,25 @@
     let sum17 = 0, sum18 = 0, sum19 = 0;
     let sumBaseTotal = 0, sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
 
+    let overallBaseTotal = 0;
+    if (window.BASE_WORKFLOW_COUNTS) {
+      Object.keys(window.BASE_WORKFLOW_COUNTS).forEach(k => {
+        if (!k.startsWith('_')) overallBaseTotal += (window.BASE_WORKFLOW_COUNTS[k] || 0);
+      });
+    }
+
     list.forEach((item, idx) => {
       sum17 += item.kp17;
       sum18 += item.kp18;
       sum19 += item.kp19;
+      sumTotal += (item.totalChuyen || 0);
+      sumThongQua += (item.thongQua || 0);
+      sumKthtGiu += (item.kthtGiu || 0);
+      sumTraSua += (item.traSua || 0);
 
       if (!uniqueOfficers6.has(item.cbtl)) {
         uniqueOfficers6.add(item.cbtl);
         sumBaseTotal += (item.baseTotal || 0);
-        sumTotal += item.totalChuyen;
-        sumThongQua += item.thongQua;
-        sumKthtGiu += item.kthtGiu;
-        sumTraSua += item.traSua;
       }
 
       const isZero = item.totalChuyen === 0;
@@ -1238,6 +1357,7 @@
       tbody.appendChild(tr);
     });
 
+    const displayBaseTotal = overallBaseTotal > 0 ? overallBaseTotal : sumBaseTotal;
     const colspanVal = isDateFiltered ? 3 : 2;
     const trTotal = document.createElement('tr');
     trTotal.classList.add('total-row');
@@ -1246,7 +1366,7 @@
       <td class="text-center">${sum17}</td>
       <td class="text-center">${sum18}</td>
       <td class="text-center">${sum19}</td>
-      <td class="text-center"><strong style="color:#0369a1;">📦 ${sumBaseTotal.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center"><strong style="color:#0369a1;">📦 ${displayBaseTotal.toLocaleString('vi-VN')}</strong></td>
       <td class="text-center">${sumTotal}</td>
       <td class="text-center">${sumThongQua}</td>
       <td class="text-center">${sumKthtGiu}</td>
