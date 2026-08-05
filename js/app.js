@@ -1247,13 +1247,45 @@
   function renderSection6() {
     const isDateFiltered = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') || (ngayTraSelect && ngayTraSelect.value !== 'ALL') || (datePickerInput && datePickerInput.value) || (datePickerTraInput && datePickerTraInput.value);
     const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
-    const thTimeKey = document.getElementById('thTimeKey');
-    if (thTimeKey) {
-      if (activePeriodType === 'week') thTimeKey.textContent = 'TUẦN CHUYỂN';
-      else if (activePeriodType === 'month') thTimeKey.textContent = 'THÁNG CHUYỂN';
-      else thTimeKey.textContent = 'NGÀY CHUYỂN';
-
-      thTimeKey.style.display = isDateFiltered ? '' : 'none';
+    
+    const tableElement = document.getElementById('tableSection6');
+    if (tableElement) {
+      const thead = tableElement.querySelector('thead');
+      if (thead) {
+        const timeHeaderTitle = activePeriodType === 'week' ? 'TUẦN CHUYỂN' : (activePeriodType === 'month' ? 'THÁNG CHUYỂN' : 'NGÀY CHUYỂN');
+        if (isDateFiltered) {
+          thead.innerHTML = `
+            <tr>
+              <th class="text-center" style="width: 50px;">STT</th>
+              <th class="text-center" style="min-width: 130px;">${timeHeaderTitle}</th>
+              <th>CBTL (CÁN BỘ BBT)</th>
+              <th class="text-center">TỔ 1<br><small style="font-weight:normal; opacity:0.85;">(KP 17)</small></th>
+              <th class="text-center">TỔ 2<br><small style="font-weight:normal; opacity:0.85;">(KP 18)</small></th>
+              <th class="text-center">TỔ 3<br><small style="font-weight:normal; opacity:0.85;">(KP 19)</small></th>
+              <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
+              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
+              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
+              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ)</small></th>
+              <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
+            </tr>
+          `;
+        } else {
+          thead.innerHTML = `
+            <tr>
+              <th class="text-center" style="width: 50px;">STT</th>
+              <th>CBTL (CÁN BỘ BBT)</th>
+              <th class="text-center">TỔ 1<br><small style="font-weight:normal; opacity:0.85;">(KP 17)</small></th>
+              <th class="text-center">TỔ 2<br><small style="font-weight:normal; opacity:0.85;">(KP 18)</small></th>
+              <th class="text-center">TỔ 3<br><small style="font-weight:normal; opacity:0.85;">(KP 19)</small></th>
+              <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
+              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
+              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
+              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ)</small></th>
+              <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
+            </tr>
+          `;
+        }
+      }
     }
 
     const list = Analytics.getDetailedTransferBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered);
@@ -1531,13 +1563,42 @@
     const searchVal7 = searchInput7 ? searchInput7.value : '';
     const selectedDateVal7 = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : ((ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : (ngayTraSelect ? ngayTraSelect.value : '')));
 
-    const thTimeKey7 = document.getElementById('thTimeKey7');
-    if (thTimeKey7) {
-      if (activePeriodType === 'week') thTimeKey7.textContent = 'TUẦN CHUYỂN';
-      else if (activePeriodType === 'month') thTimeKey7.textContent = 'THÁNG CHUYỂN';
-      else thTimeKey7.textContent = 'NGÀY CHUYỂN';
-
-      thTimeKey7.style.display = isDateFiltered ? '' : 'none';
+    const tableElement7 = document.getElementById('tableSection7');
+    if (tableElement7) {
+      const thead7 = tableElement7.querySelector('thead');
+      if (thead7) {
+        const timeHeaderTitle7 = activePeriodType === 'week' ? 'TUẦN CHUYỂN' : (activePeriodType === 'month' ? 'THÁNG CHUYỂN' : 'NGÀY CHUYỂN');
+        if (isDateFiltered) {
+          thead7.innerHTML = `
+            <tr>
+              <th class="text-center" style="width: 50px;">STT</th>
+              <th class="text-center" style="min-width: 130px;">${timeHeaderTitle7}</th>
+              <th>CÁN BỘ THỤ LÝ / PHÁP CHẾ</th>
+              <th class="text-center">KP 17</th>
+              <th class="text-center">KP 18</th>
+              <th class="text-center">KP 19</th>
+              <th class="text-center">TỔNG HS XỬ LÝ</th>
+              <th class="text-center">SỐ HS DUYỆT</th>
+              <th class="text-center">HS TRẢ SỬA</th>
+              <th>GHI CHÚ</th>
+            </tr>
+          `;
+        } else {
+          thead7.innerHTML = `
+            <tr>
+              <th class="text-center" style="width: 50px;">STT</th>
+              <th>CÁN BỘ THỤ LÝ / PHÁP CHẾ</th>
+              <th class="text-center">KP 17</th>
+              <th class="text-center">KP 18</th>
+              <th class="text-center">KP 19</th>
+              <th class="text-center">TỔNG HS XỬ LÝ</th>
+              <th class="text-center">SỐ HS DUYỆT</th>
+              <th class="text-center">HS TRẢ SỬA</th>
+              <th>GHI CHÚ</th>
+            </tr>
+          `;
+        }
+      }
     }
 
     const list = Analytics.getDetailedPhapCheBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered, searchVal7, selectedDateVal7);
