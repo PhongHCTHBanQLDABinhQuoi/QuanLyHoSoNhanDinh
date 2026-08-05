@@ -382,6 +382,10 @@
         const map = {};
         filtered.forEach(r => {
           const cb = (r.canBo && r.canBo.trim()) ? r.canBo.trim() : 'Chưa phân công / Trống';
+          const cleanCb = cb.toLowerCase();
+          if (cleanCb === 'thụ lý' || cleanCb === 'cán bộ' || cleanCb === 'cán bộ thụ lý' || cleanCb === 'thụ lý bqlda' || cleanCb === 'tên cán bộ') {
+            return;
+          }
           
           let tKey = '';
           if (isDateFiltered) {

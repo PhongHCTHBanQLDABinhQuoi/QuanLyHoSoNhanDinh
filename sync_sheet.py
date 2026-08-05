@@ -254,6 +254,10 @@ def fetch_table_vii_sheet(csv_url):
             if not khu_pho and not thu_ly and not so_duyet and not so_tra_sua:
                 continue
 
+            clean_thu_ly = thu_ly.strip().lower()
+            if clean_thu_ly in ["thụ lý", "cán bộ", "cán bộ thụ lý", "thụ lý bqlda", "tên cán bộ", "người thụ lý"]:
+                continue
+
             try:
                 val_duyet = int(so_duyet) if so_duyet else 0
             except ValueError:
