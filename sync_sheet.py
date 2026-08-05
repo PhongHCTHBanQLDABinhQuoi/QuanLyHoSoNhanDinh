@@ -2,6 +2,7 @@ import csv
 import io
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -107,6 +108,7 @@ def fetch_base_workflow_counts():
     raw_counts = defaultdict(int)
     page = 0
     total_jobs = 0
+    jobs_map = {}
 
     officer_to_username = {
         "Quốc Thạch": ["thachhq"],
@@ -198,6 +200,22 @@ def fetch_base_workflow_counts():
                                         
                         for un in target_usernames:
                             raw_counts[un] += 1
+
+                        j_id = j.get("id")
+                        j_name = j.get("name", "")
+                        j_stage_id = str(j.get("stage_id", ""))
+                        j_stage_name = str(j.get("stage_name", ""))
+                        link = f"https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job={j_id}"
+
+                        if j_name and j_id:
+                            clean_name = re.sub(r'[^A-Z0-9]', '', j_name.upper())
+                            jobs_map[clean_name] = {
+                                "id": j_id,
+                                "name": j_name,
+                                "stageId": j_stage_id,
+                                "stageName": j_stage_name,
+                                "link": link
+                            }
                             
                     if len(jobs) < 100:
                         break
@@ -212,10 +230,10 @@ def fetch_base_workflow_counts():
             result_map[off_name] = sum(raw_counts.get(u, 0) for u in u_list)
 
         result_map["_total_jobs"] = total_jobs
-        return result_map
+        return result_map, jobs_map
     except Exception as e:
         print(f"Warning: Could not fetch Base Workflow API data: {e}")
-        return {}
+        return {}, {}
 
 def fetch_table_vii_sheet(csv_url):
     try:
@@ -381,8 +399,33 @@ def fetch_and_sync():
     table_vii_daily = fetch_table_vii_sheet(TABLE_VII_DAILY_CSV_URL)
     table_vii_weekly = fetch_table_vii_sheet(TABLE_VII_WEEKLY_CSV_URL)
 
-    base_counts = fetch_base_workflow_counts()
+    base_counts, jobs_map = fetch_base_workflow_counts()
     hrm_names, hrm_depts = fetch_base_hrm_employees()
+
+    # Attach baseLink to each main dossier record based on maHoSo matching
+    for r in records:
+        ma_hs = r.get("maHoSo", "")
+        clean_hs = re.sub(r'[^A-Z0-9]', '', ma_hs.upper()) if ma_hs else ""
+        matched_job = None
+        if clean_hs and jobs_map:
+            if clean_hs in jobs_map:
+                matched_job = jobs_map[clean_hs]
+            else:
+                # Partial matching (e.g. 106KP18)
+                for k, j_info in jobs_map.items():
+                    if clean_hs in k or k in clean_hs:
+                        matched_job = j_info
+                        break
+
+        if matched_job:
+            r["baseJobId"] = matched_job["id"]
+            r["baseJobName"] = matched_job["name"]
+            r["baseStageName"] = matched_job["stageName"]
+            r["baseLink"] = matched_job["link"]
+        elif ma_hs:
+            r["baseLink"] = f"https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q={urllib.parse.quote(ma_hs)}"
+        else:
+            r["baseLink"] = "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
 
     print(f"Parsed Table VII: {len(table_vii_daily)} daily records, {len(table_vii_weekly)} weekly records.")
     
@@ -392,6 +435,7 @@ window.DOSSIER_DATA = {json.dumps(records, ensure_ascii=False, indent=2)};
 window.TABLE_VII_DATA_DAILY = {json.dumps(table_vii_daily, ensure_ascii=False, indent=2)};
 window.TABLE_VII_DATA_WEEKLY = {json.dumps(table_vii_weekly, ensure_ascii=False, indent=2)};
 window.BASE_WORKFLOW_COUNTS = {json.dumps(base_counts, ensure_ascii=False, indent=2)};
+window.BASE_JOBS_MAP = {json.dumps(jobs_map, ensure_ascii=False, indent=2)};
 window.BASE_HRM_NAMES = {json.dumps(hrm_names, ensure_ascii=False, indent=2)};
 window.BASE_HRM_DEPARTMENTS = {json.dumps(hrm_depts, ensure_ascii=False, indent=2)};
 """

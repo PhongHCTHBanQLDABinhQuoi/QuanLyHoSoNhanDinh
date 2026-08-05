@@ -1330,6 +1330,9 @@
         tr.style.background = 'rgba(239, 68, 68, 0.03)';
       }
 
+      tr.setAttribute('data-cbtl', item.cbtl);
+      if (isDateFiltered && item.timeKey) tr.setAttribute('data-timekey', item.timeKey);
+
       const timeTd = isDateFiltered ? `<td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>` : '';
       const baseTd = item.baseTotal > 0 
         ? `<span class="badge badge-info" style="background:#e0f2fe; color:#0369a1; border:1px solid #bae6fd; font-weight:700; font-size:0.875rem;">📦 ${item.baseTotal.toLocaleString('vi-VN')}</span>` 
@@ -1339,17 +1342,33 @@
         <td class="text-center"><strong>${idx + 1}</strong></td>
         ${timeTd}
         <td><strong>${item.cbtlFull || item.cbtl}</strong></td>
-        <td class="text-center">${item.kp17}</td>
-        <td class="text-center">${item.kp18}</td>
-        <td class="text-center">${item.kp19}</td>
+        <td class="text-center cell-clickable" data-action="KP17" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KP 17">${item.kp17 > 0 ? `<span class="badge badge-neutral hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kp17}</span>` : '0'}</td>
+        <td class="text-center cell-clickable" data-action="KP18" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KP 18">${item.kp18 > 0 ? `<span class="badge badge-neutral hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kp18}</span>` : '0'}</td>
+        <td class="text-center cell-clickable" data-action="KP19" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KP 19">${item.kp19 > 0 ? `<span class="badge badge-neutral hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kp19}</span>` : '0'}</td>
         <td class="text-center">${baseTd}</td>
-        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa bàn giao)</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
-        <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
-        <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning">${item.kthtGiu}</span>` : '0'}</td>
-        <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
+        <td class="text-center cell-clickable" data-action="totalChuyen" style="cursor:pointer;" title="Bấm để xem danh sách tất cả hồ sơ đã chuyển của cán bộ này">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa bàn giao)</span>` : `<span class="badge badge-info hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.totalChuyen}</span>`}</td>
+        <td class="text-center cell-clickable" data-action="thongQua" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ đã được Thông Qua">${item.thongQua > 0 ? `<span class="badge badge-success hover-badge" style="cursor:pointer; text-decoration:underline;">${item.thongQua}</span>` : '0'}</td>
+        <td class="text-center cell-clickable" data-action="kthtGiu" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KTHT đang giữ">${item.kthtGiu > 0 ? `<span class="badge badge-warning hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kthtGiu}</span>` : '0'}</td>
+        <td class="text-center cell-clickable" data-action="traSua" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ bị trả sửa">${item.traSua > 0 ? `<span class="badge badge-danger hover-badge" style="cursor:pointer; text-decoration:underline;">${item.traSua}</span>` : '0'}</td>
       `;
       tbody.appendChild(tr);
     });
+
+    if (!tbody.dataset.hasListener) {
+      tbody.dataset.hasListener = 'true';
+      tbody.addEventListener('click', (e) => {
+        const cell = e.target.closest('.cell-clickable');
+        if (!cell) return;
+        const tr = cell.closest('tr');
+        if (!tr) return;
+        const cbtl = tr.getAttribute('data-cbtl');
+        const timeKey = tr.getAttribute('data-timekey') || '';
+        const action = cell.getAttribute('data-action');
+        if (cbtl && action) {
+          showDossierListForOfficer(cbtl, action, timeKey);
+        }
+      });
+    }
 
     const displayBaseTotal = overallBaseTotal > 0 ? overallBaseTotal : sumBaseTotal;
     const colspanVal = isDateFiltered ? 3 : 2;
@@ -1367,6 +1386,159 @@
       <td class="text-center">${sumTraSua}</td>
     `;
     tbody.appendChild(trTotal);
+  }
+
+  function showDossierListForOfficer(officerName, category, dateKey = '') {
+    const canonName = Analytics.getCanonicalOfficerName(officerName);
+
+    let records = allRecords.filter(r => {
+      const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
+      const cb = Analytics.getCanonicalOfficerName(rawCb);
+      if (cb !== canonName && !cb.includes(canonName) && !canonName.includes(cb)) return false;
+
+      if (dateKey && dateKey !== '' && dateKey !== 'Chưa có ngày') {
+        let rDateKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : '';
+        if (activePeriodType === 'week') rDateKey = Analytics.getWeekLabel(r.ngayChuyen);
+        else if (activePeriodType === 'month') rDateKey = Analytics.getMonthLabel(r.ngayChuyen);
+
+        if (rDateKey !== dateKey && !rDateKey.includes(dateKey)) return false;
+      }
+
+      if (category === 'KP17') {
+        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+        const kp = r.khuPho ? String(r.khuPho).trim() : '';
+        return to.includes('1') || kp.includes('17');
+      } else if (category === 'KP18') {
+        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+        const kp = r.khuPho ? String(r.khuPho).trim() : '';
+        return to.includes('2') || kp.includes('18');
+      } else if (category === 'KP19') {
+        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+        const kp = r.khuPho ? String(r.khuPho).trim() : '';
+        return to.includes('3') || kp.includes('19');
+      } else if (category === 'thongQua') {
+        const st = r.trangThai || '';
+        return st.includes('3.') || st.includes('thông qua');
+      } else if (category === 'kthtGiu') {
+        const st = r.trangThai || '';
+        return st.includes('1.') || st.includes('Đã chuyển');
+      } else if (category === 'traSua') {
+        const st = r.trangThai || '';
+        return st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa');
+      }
+
+      return true;
+    });
+
+    openDossierBatchModal(officerName, category, dateKey, records);
+  }
+
+  function openDossierBatchModal(officerName, category, dateKey, records) {
+    const modal = document.getElementById('recordDetailModal');
+    const modalDetailContent = document.getElementById('modalDetailContent');
+    if (!modal || !modalDetailContent) return;
+
+    let categoryLabel = 'Tất cả hồ sơ đã chuyển';
+    if (category === 'KP17') categoryLabel = 'Hồ sơ Tổ 1 (Khu Phố 17)';
+    else if (category === 'KP18') categoryLabel = 'Hồ sơ Tổ 2 (Khu Phố 18)';
+    else if (category === 'KP19') categoryLabel = 'Hồ sơ Tổ 3 (Khu Phố 19)';
+    else if (category === 'thongQua') categoryLabel = 'Hồ sơ đã được P.KTHTĐT Thông Qua';
+    else if (category === 'kthtGiu') categoryLabel = 'Hồ sơ P.KTHTĐT đang giữ thụ lý';
+    else if (category === 'traSua') categoryLabel = 'Hồ sơ P.KTHTĐT trả về chỉnh sửa';
+
+    const dateSubtitle = dateKey ? ` | 📅 ${dateKey}` : '';
+
+    if (!records || records.length === 0) {
+      modalDetailContent.innerHTML = `
+        <div style="padding: 24px; text-align: center;">
+          <h3 style="color: var(--primary-blue); margin-bottom: 8px;">📋 Cán Bộ: ${officerName}</h3>
+          <p style="color: var(--text-muted);">Không tìm thấy hồ sơ chi tiết phù hợp với mục ${categoryLabel}.</p>
+        </div>
+      `;
+      modal.classList.add('active');
+      return;
+    }
+
+    const rowsHtml = records.map((r, i) => {
+      const maHS = r.maHoSo || `STT ${r.stt}`;
+      const hoTen = r.hoTen || 'Không tên';
+      const diaChi = `${r.duong ? r.duong + ', ' : ''}${r.phuong ? r.phuong : ''} (Thửa: ${r.thuaDat || '-'}, Tờ: ${r.toBanDo || '-'})`;
+      const kp = r.khuPho ? `KP ${r.khuPho}` : (r.toBoiThuong || '-');
+      const ngayChuyen = r.ngayChuyen || '-';
+
+      let stBadge = `<span class="badge badge-neutral">${r.trangThai || 'Khác'}</span>`;
+      if (r.trangThai && (r.trangThai.includes('3.') || r.trangThai.includes('thông qua'))) {
+        stBadge = `<span class="badge badge-success">3. Thông qua</span>`;
+      } else if (r.trangThai && (r.trangThai.includes('1.') || r.trangThai.includes('Đã chuyển'))) {
+        stBadge = `<span class="badge badge-warning">1. KTHT giữ</span>`;
+      } else if (r.trangThai && (r.trangThai.includes('2.1') || r.trangThai.includes('4.') || r.trangThai.includes('Trả'))) {
+        stBadge = `<span class="badge badge-danger">Trả sửa</span>`;
+      }
+
+      let baseLinkUrl = r.baseLink;
+      if (!baseLinkUrl) {
+        if (r.baseJobId) {
+          baseLinkUrl = `https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=${r.baseJobId}`;
+        } else if (r.maHoSo) {
+          baseLinkUrl = `https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=${encodeURIComponent(r.maHoSo)}`;
+        } else {
+          baseLinkUrl = `https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da`;
+        }
+      }
+
+      return `
+        <tr>
+          <td class="text-center" style="font-weight: 700;">${i + 1}</td>
+          <td><span class="badge badge-info" style="font-weight: 700;">${maHS}</span></td>
+          <td><strong>${hoTen}</strong><br><small style="opacity: 0.75;">${diaChi}</small></td>
+          <td class="text-center"><span class="badge badge-neutral">${kp}</span></td>
+          <td class="text-center">${stBadge}</td>
+          <td class="text-center" style="white-space: nowrap;">📅 ${ngayChuyen}</td>
+          <td class="text-center">
+            <a href="${baseLinkUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px; background: linear-gradient(135deg, #2563eb, #1d4ed8); color: white; border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 0.775rem; box-shadow: 0 2px 6px rgba(37,99,235,0.25); transition: all 0.2s ease;">
+              🚀 Mở Base ↗
+            </a>
+          </td>
+        </tr>
+      `;
+    }).join('');
+
+    modalDetailContent.innerHTML = `
+      <div style="margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+        <h3 style="color: var(--primary-blue); font-size: 1.15rem; margin-bottom: 4px;">
+          📋 Danh Sách Hồ Sơ: <strong>${officerName}</strong>
+        </h3>
+        <div style="font-size: 0.875rem; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+          <span>Phân loại: <strong style="color: var(--primary-dark);">${categoryLabel}</strong> ${dateSubtitle}</span>
+          <span style="background: #e0f2fe; color: #0369a1; padding: 3px 10px; border-radius: 12px; font-weight: 700; font-size: 0.8rem;">
+            Tổng số: ${records.length} hồ sơ
+          </span>
+        </div>
+      </div>
+      <div style="overflow-x: auto; max-height: 520px; border: 1px solid var(--border-color); border-radius: 8px;">
+        <table class="data-table" style="width: 100%; font-size: 0.875rem; border-collapse: collapse;">
+          <thead style="position: sticky; top: 0; background: var(--card-bg, #ffffff); z-index: 10;">
+            <tr>
+              <th class="text-center" style="width: 40px;">STT</th>
+              <th>MÃ HỒ SƠ</th>
+              <th>CHỦ HỘ & ĐỊA CHỈ</th>
+              <th class="text-center">PHÂN KHU</th>
+              <th class="text-center">TRẠNG THÁI</th>
+              <th class="text-center">NGÀY CHUYỂN</th>
+              <th class="text-center" style="width: 130px;">BASE WORKFLOW</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rowsHtml}
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top: 12px; font-size: 0.8rem; font-style: italic; color: var(--text-muted); text-align: right;">
+        * Nhấn "🚀 Mở Base ↗" để mở trực tiếp hồ sơ công việc tương ứng trên hệ thống Base.vn
+      </div>
+    `;
+
+    modal.classList.add('active');
   }
 
   // 12. Render Master Section VII (Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT)

@@ -21,7 +21,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:20:15",
-    "trungLap": "#REF!"
+    "trungLap": "#REF!",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=106/KP18/BQLDA"
   },
   {
     "stt": 2,
@@ -44,7 +45,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:44:07",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=510/KP18/BQLDA"
   },
   {
     "stt": 3,
@@ -67,7 +69,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:43:20",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=53/KP18/BQLDA"
   },
   {
     "stt": 4,
@@ -90,7 +93,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:19:25",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=161/KP18/BQLDA"
   },
   {
     "stt": 5,
@@ -113,7 +117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:19:00",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=405/KP18/BQLDA"
   },
   {
     "stt": 6,
@@ -136,7 +141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:35:26",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=289/KP18/BQLDA"
   },
   {
     "stt": 7,
@@ -159,7 +165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:07:10",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=401/KP17/BQLDA"
   },
   {
     "stt": 8,
@@ -182,7 +189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 17:57:06",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=476/KP17/BQLDA"
   },
   {
     "stt": 9,
@@ -205,7 +213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=402/KP17/BQLDA"
   },
   {
     "stt": 10,
@@ -228,7 +237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=401/KP17/BQLDA"
   },
   {
     "stt": 11,
@@ -251,7 +261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=459/KP17/BQLDA"
   },
   {
     "stt": 12,
@@ -274,7 +285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=462/KP17/BQLDA"
   },
   {
     "stt": 13,
@@ -297,7 +309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=459/KP17/BQLDA"
   },
   {
     "stt": 14,
@@ -320,7 +333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=559/KP17/BQLDA"
   },
   {
     "stt": 15,
@@ -343,7 +357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:03:59",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=317/KP17/BQLDA"
   },
   {
     "stt": 16,
@@ -366,7 +381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=534/KP17/BQLDA"
   },
   {
     "stt": 17,
@@ -389,7 +405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=11/KP17/BQLDA"
   },
   {
     "stt": 18,
@@ -412,7 +429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=702/KP19/BQLDA"
   },
   {
     "stt": 19,
@@ -435,7 +453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=689/KP19/BQLDA"
   },
   {
     "stt": 20,
@@ -458,7 +477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:55:30",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=262/KP18/BQLDA"
   },
   {
     "stt": 21,
@@ -481,7 +501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:56:08",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=489/KP18/BQLDA"
   },
   {
     "stt": 22,
@@ -504,7 +525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:56:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=01/KP18/BQLDA"
   },
   {
     "stt": 23,
@@ -527,7 +549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 07:59:40",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=400/KP18/BQLDA"
   },
   {
     "stt": 24,
@@ -550,7 +573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=306/KP18/BQLDA"
   },
   {
     "stt": 25,
@@ -573,7 +597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 07:59:55",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=520/KP18/BQLDA"
   },
   {
     "stt": 26,
@@ -596,7 +621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "01/07/2026 11:18:23",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=198/KP18/BQLDA"
   },
   {
     "stt": 27,
@@ -619,7 +645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:56:48",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=263/KP18/BQLDA"
   },
   {
     "stt": 28,
@@ -642,7 +669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 17:58:21",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=532/KP19/BQLDA"
   },
   {
     "stt": 29,
@@ -665,7 +693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=544/KP17/BQLDA"
   },
   {
     "stt": 30,
@@ -688,7 +717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=325/KP17/BQLDA"
   },
   {
     "stt": 31,
@@ -711,7 +741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:42:32",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=179/KP17/BQLDA"
   },
   {
     "stt": 32,
@@ -734,7 +765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:44:59",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=170/KP17/BQLDA"
   },
   {
     "stt": 33,
@@ -757,7 +789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:19:13",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=77/KP17/BQLDA"
   },
   {
     "stt": 34,
@@ -780,7 +813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:54:12",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=191/KP17/BQLDA"
   },
   {
     "stt": 35,
@@ -803,7 +837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:54:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=195/KP17/BQLDA"
   },
   {
     "stt": 36,
@@ -826,7 +861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:54:41",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=192/KP17/BQLDA"
   },
   {
     "stt": 37,
@@ -849,7 +885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:10:26",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=528/KP17/BQLDA"
   },
   {
     "stt": 38,
@@ -872,7 +909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:54:54",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=167/KP17/BQLDA"
   },
   {
     "stt": 39,
@@ -895,7 +933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:55:11",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=173/KP17/BQLDA"
   },
   {
     "stt": 40,
@@ -918,7 +957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:20:14",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=81/KP17/BQLDA"
   },
   {
     "stt": 41,
@@ -941,7 +981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:09:35",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=460/KP17/BQLDA"
   },
   {
     "stt": 42,
@@ -964,7 +1005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:23:59",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=469/KP17/BQLDA"
   },
   {
     "stt": 43,
@@ -987,7 +1029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:08:56",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=404/KP17/BQLDA"
   },
   {
     "stt": 44,
@@ -1010,7 +1053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:21:08",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=66/KP17/BQLDA"
   },
   {
     "stt": 45,
@@ -1033,7 +1077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=486/KP18/BQLDA"
   },
   {
     "stt": 46,
@@ -1056,7 +1101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:21:10",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=195/KP18/BQLDA"
   },
   {
     "stt": 47,
@@ -1079,7 +1125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:16:05",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=284/KP18/BQLDA"
   },
   {
     "stt": 48,
@@ -1102,7 +1149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:20:46",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=345/KP18/BQLDA"
   },
   {
     "stt": 49,
@@ -1125,7 +1173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:22:05",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=248/KP18/BQLDA"
   },
   {
     "stt": 50,
@@ -1148,7 +1197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:12:08",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=381/KP18/BQLDA"
   },
   {
     "stt": 51,
@@ -1171,7 +1221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:48:24",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=523/KP18/BQLDA"
   },
   {
     "stt": 52,
@@ -1194,7 +1245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=113/KP18/BQLDA"
   },
   {
     "stt": 53,
@@ -1217,7 +1269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=202/KP18/BQLDA"
   },
   {
     "stt": 54,
@@ -1240,7 +1293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "01/07/2026 15:51:37",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=450/KP18/BQLDA"
   },
   {
     "stt": 55,
@@ -1263,7 +1317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:17:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=235/KP18/BQLDA"
   },
   {
     "stt": 56,
@@ -1286,7 +1341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:05:51",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=30/KP18/BQLDA"
   },
   {
     "stt": 57,
@@ -1309,7 +1365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 07:59:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=317/KP18/BQLDA"
   },
   {
     "stt": 58,
@@ -1332,7 +1389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=310/KP18/BQLDA"
   },
   {
     "stt": 59,
@@ -1355,7 +1413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:12:40",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=89/KP18/BQLDA"
   },
   {
     "stt": 60,
@@ -1378,7 +1437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:06:11",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=426/KP18/BQLDA"
   },
   {
     "stt": 61,
@@ -1401,7 +1461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:17:54",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=372/KP18/BQLDA"
   },
   {
     "stt": 62,
@@ -1424,7 +1485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:14:36",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=933/KP19/BQLDA"
   },
   {
     "stt": 63,
@@ -1447,7 +1509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 16:02:39",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=443/KP17/BQLDA"
   },
   {
     "stt": 64,
@@ -1470,7 +1533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:58:06",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=426/KP17/BQLDA"
   },
   {
     "stt": 65,
@@ -1493,7 +1557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 08:00:16",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=329/KP18/BQLDA"
   },
   {
     "stt": 66,
@@ -1516,7 +1581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=129/KP18/BQLDA"
   },
   {
     "stt": 67,
@@ -1539,7 +1605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=242/KP18/BQLDA"
   },
   {
     "stt": 68,
@@ -1562,7 +1629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=233/KP18/BQLDA"
   },
   {
     "stt": 69,
@@ -1585,7 +1653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:21:36",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=522/KP18/BQLDA"
   },
   {
     "stt": 70,
@@ -1608,7 +1677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:57:36",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=470/KP18/BQLDA"
   },
   {
     "stt": 71,
@@ -1631,7 +1701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 11:22:26",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=21/KP18/BQLDA"
   },
   {
     "stt": 72,
@@ -1654,7 +1725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 07:58:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=468/KP18/BQLDA"
   },
   {
     "stt": 73,
@@ -1677,7 +1749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 07:58:57",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=314/KP18/BQLDA"
   },
   {
     "stt": 74,
@@ -1700,7 +1773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:57:06",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=249/KP18/BQLDA"
   },
   {
     "stt": 75,
@@ -1723,7 +1797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:57:56",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=503/KP18/BQLDA"
   },
   {
     "stt": 76,
@@ -1746,7 +1821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 11:44:23",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=939/KP19/BQLDA"
   },
   {
     "stt": 77,
@@ -1769,7 +1845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=134/KP19/BQLDA"
   },
   {
     "stt": 78,
@@ -1792,7 +1869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=339/KP19/BQLDA"
   },
   {
     "stt": 79,
@@ -1815,7 +1893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=471/KP19/BQLDA"
   },
   {
     "stt": 80,
@@ -1838,7 +1917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=452/KP19/BQLDA"
   },
   {
     "stt": 81,
@@ -1861,7 +1941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=873/KP19/BQLDA"
   },
   {
     "stt": 82,
@@ -1884,7 +1965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:11:33",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=737/KP19/BQLDA"
   },
   {
     "stt": 83,
@@ -1907,7 +1989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=792/KP19/BQLDA"
   },
   {
     "stt": 84,
@@ -1930,7 +2013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1213/KP19/BQLDA"
   },
   {
     "stt": 85,
@@ -1953,7 +2037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:06:06",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=534/KP19/BQLDA"
   },
   {
     "stt": 86,
@@ -1976,7 +2061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:08:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=911/KP19/BQLDA"
   },
   {
     "stt": 87,
@@ -1999,7 +2085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:13:46",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=712/KP19/BQLDA"
   },
   {
     "stt": 88,
@@ -2022,7 +2109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1009/KP19/BQLDA"
   },
   {
     "stt": 89,
@@ -2045,7 +2133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1049/KP19/BQLDA"
   },
   {
     "stt": 90,
@@ -2068,7 +2157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=740/KP19/BQLDA"
   },
   {
     "stt": 91,
@@ -2091,7 +2181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=869/KP19/BQLDA"
   },
   {
     "stt": 92,
@@ -2114,7 +2205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=543/KP17/BQLDA"
   },
   {
     "stt": 93,
@@ -2137,7 +2229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:05:44",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=542/KP17/BQLDA"
   },
   {
     "stt": 94,
@@ -2160,7 +2253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:23:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=70/KP17/BQLDA"
   },
   {
     "stt": 95,
@@ -2183,7 +2277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:22:46",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=67/KP17/BQLDA"
   },
   {
     "stt": 96,
@@ -2206,7 +2301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 17:57:23",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=84/KP17/BQLDA"
   },
   {
     "stt": 97,
@@ -2229,7 +2325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=584/KP17/BQLDA"
   },
   {
     "stt": 98,
@@ -2252,7 +2349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:22:18",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=182/KP17/BQLDA"
   },
   {
     "stt": 99,
@@ -2275,7 +2373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=526/KP17/BQLDA"
   },
   {
     "stt": 100,
@@ -2298,7 +2397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "",
     "doLuong": "02/07/2026 17:21:46",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=330/KP17/BQLDA"
   },
   {
     "stt": 101,
@@ -2321,7 +2421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 17:56:41",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=451/KP17/BQLDA"
   },
   {
     "stt": 102,
@@ -2344,7 +2445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:15:23",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=488/KP19/BQLDA"
   },
   {
     "stt": 103,
@@ -2367,7 +2469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:08:10",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=855/KP19/BQLDA"
   },
   {
     "stt": 104,
@@ -2390,7 +2493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "03/07/2026 18:24:58",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=429/KP19/BQLDA"
   },
   {
     "stt": 105,
@@ -2413,7 +2517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:16:44",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1171/KP19/BQLDA"
   },
   {
     "stt": 106,
@@ -2436,7 +2541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:15:08",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=319/KP19/BQLDA"
   },
   {
     "stt": 107,
@@ -2459,7 +2565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:15:46",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=327/KP19/BQLDA"
   },
   {
     "stt": 108,
@@ -2482,7 +2589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:06:37",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=791/KP19/BQLDA"
   },
   {
     "stt": 109,
@@ -2505,7 +2613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:16:05",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1188/KP19/BQLDA"
   },
   {
     "stt": 110,
@@ -2528,7 +2637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:04:38",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1140/KP19/BQLDA"
   },
   {
     "stt": 111,
@@ -2551,7 +2661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:07:10",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1137/KP19/BQLDA"
   },
   {
     "stt": 112,
@@ -2574,7 +2685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:05:41",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1138/KP19/BQLDA"
   },
   {
     "stt": 113,
@@ -2597,7 +2709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=32/KP18/BQLDA"
   },
   {
     "stt": 114,
@@ -2620,7 +2733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:51:06",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=32/KP18/BQLDA"
   },
   {
     "stt": 115,
@@ -2643,7 +2757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=288/KP18/BQLDA"
   },
   {
     "stt": 116,
@@ -2666,7 +2781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=133/KP18/BQLDA"
   },
   {
     "stt": 117,
@@ -2689,7 +2805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=58/KP18/BQLDA"
   },
   {
     "stt": 118,
@@ -2712,7 +2829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:33:43",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=439/KP17/BQLDA"
   },
   {
     "stt": 119,
@@ -2735,7 +2853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "",
     "doLuong": "01/07/2026 15:57:45",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=168/KP17/BQLDA"
   },
   {
     "stt": 120,
@@ -2758,7 +2877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 17:57:47",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=545/KP17/BQLDA"
   },
   {
     "stt": 121,
@@ -2781,7 +2901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:18:46",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1152/KP19/BQLDA"
   },
   {
     "stt": 122,
@@ -2804,7 +2925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:17:55",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=951/KP19/BQLDA"
   },
   {
     "stt": 123,
@@ -2827,7 +2949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:07:36",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=794/KP19/BQLDA"
   },
   {
     "stt": 124,
@@ -2850,7 +2973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:17:34",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=878/KP19/BQLDA"
   },
   {
     "stt": 125,
@@ -2873,7 +2997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:17:10",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1101/KP19/BQLDA"
   },
   {
     "stt": 126,
@@ -2896,7 +3021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "03/07/2026 18:25:14",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 127,
@@ -2919,7 +3045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "03/07/2026 18:25:40",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=649/KP19/BQLDA"
   },
   {
     "stt": 128,
@@ -2942,7 +3069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 16:07:31",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=699/KP19/BQLDA"
   },
   {
     "stt": 129,
@@ -2965,7 +3093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "03/07/2026 18:26:04",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=564/KP19/BQLDA"
   },
   {
     "stt": 130,
@@ -2988,7 +3117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=94/KP19/BQLDA"
   },
   {
     "stt": 131,
@@ -3011,7 +3141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:18:16",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=159/KP18/BQLDA"
   },
   {
     "stt": 132,
@@ -3034,7 +3165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:18:45",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=286/KP18/BQLDA"
   },
   {
     "stt": 133,
@@ -3057,7 +3189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=132/KP18/BQLDA"
   },
   {
     "stt": 134,
@@ -3080,7 +3213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:18:58",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=454/KP18/BQLDA"
   },
   {
     "stt": 135,
@@ -3103,7 +3237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:19:26",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=458/KP18/BQLDA"
   },
   {
     "stt": 136,
@@ -3126,7 +3261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:19:47",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=328/KP18/BQLDA"
   },
   {
     "stt": 137,
@@ -3149,7 +3285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:20:13",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=35/KP18/BQLDA"
   },
   {
     "stt": 138,
@@ -3172,7 +3309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:06:22",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=260/KP18/BQLDA"
   },
   {
     "stt": 139,
@@ -3195,7 +3333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:20:30",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=174/KP18/BQLDA"
   },
   {
     "stt": 140,
@@ -3218,7 +3357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:06:30",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=291/KP18/BQLDA"
   },
   {
     "stt": 141,
@@ -3241,7 +3381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:06:49",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=224/KP18/BQLDA"
   },
   {
     "stt": 142,
@@ -3264,7 +3405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:22:50",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=134/KP18/BQLDA"
   },
   {
     "stt": 143,
@@ -3287,7 +3429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:23:08",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=116/KP18/BQLDA"
   },
   {
     "stt": 144,
@@ -3310,7 +3453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 16:57:15",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=135/KP19/BQLDA"
   },
   {
     "stt": 145,
@@ -3333,7 +3477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 16:07:49",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=411/KP19/BQLDA"
   },
   {
     "stt": 146,
@@ -3356,7 +3501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 16:07:58",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=331/KP19/BQLDA"
   },
   {
     "stt": 147,
@@ -3379,7 +3525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 16:08:15",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=917/KP19/BQLDA"
   },
   {
     "stt": 148,
@@ -3402,7 +3549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 16:08:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=252/KP19/BQLDA"
   },
   {
     "stt": 149,
@@ -3425,7 +3573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 16:09:14",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=480/KP19/BQLDA"
   },
   {
     "stt": 150,
@@ -3448,7 +3597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:00:11",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=574/KP17/BQLDA"
   },
   {
     "stt": 151,
@@ -3471,7 +3621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:03:09",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=290/KP17/BQLDA"
   },
   {
     "stt": 152,
@@ -3494,7 +3645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:05:05",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=279/KP17/BQLDA"
   },
   {
     "stt": 153,
@@ -3517,7 +3669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "03/07/2026 18:05:27",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=289/KP17/BQLDA"
   },
   {
     "stt": 154,
@@ -3540,7 +3693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=313/KP17/BQLDA"
   },
   {
     "stt": 155,
@@ -3563,7 +3717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "03/07/2026 16:41:39",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1239/KP19/BQLDA"
   },
   {
     "stt": 156,
@@ -3586,7 +3741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=489/KP19/BQLDA"
   },
   {
     "stt": 157,
@@ -3609,7 +3765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=421/KP19/BQLDA"
   },
   {
     "stt": 158,
@@ -3632,7 +3789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1013/KP19/BQLDA"
   },
   {
     "stt": 159,
@@ -3655,7 +3813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 16:03:30",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=273/KP19/BQLDA"
   },
   {
     "stt": 160,
@@ -3678,7 +3837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:04:42",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=75/KP17/BQLDA"
   },
   {
     "stt": 161,
@@ -3701,7 +3861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=176/KP17/BQLDA"
   },
   {
     "stt": 162,
@@ -3724,7 +3885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=57/KP17/BQLDA"
   },
   {
     "stt": 163,
@@ -3747,7 +3909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=72/KP17/BQLDA"
   },
   {
     "stt": 164,
@@ -3770,7 +3933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:04:58",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=573/KP17/BQLDA"
   },
   {
     "stt": 165,
@@ -3793,7 +3957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=517/KP17/BQLDA"
   },
   {
     "stt": 166,
@@ -3816,7 +3981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=104/KP17/BQLDA"
   },
   {
     "stt": 167,
@@ -3839,7 +4005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:05:15",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=171/KP17/BQLDA"
   },
   {
     "stt": 168,
@@ -3862,7 +4029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "06/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 16:05:33",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=196/KP17/BQLDA"
   },
   {
     "stt": 169,
@@ -3885,7 +4053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "07/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=135/KP17/BQLDA"
   },
   {
     "stt": 170,
@@ -3908,7 +4077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "06/07/2026 17:48:07",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=385/KP18/BQLDA"
   },
   {
     "stt": 171,
@@ -3931,7 +4101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=126/KP18/BQLDA"
   },
   {
     "stt": 172,
@@ -3954,7 +4125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=244/KP18/BQLDA"
   },
   {
     "stt": 173,
@@ -3977,7 +4149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=498/KP18/BQLDA"
   },
   {
     "stt": 174,
@@ -4000,7 +4173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=505/KP18/BQLDA"
   },
   {
     "stt": 175,
@@ -4023,7 +4197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=346/KP18/BQLDA"
   },
   {
     "stt": 176,
@@ -4046,7 +4221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=28/KP18/BQLDA"
   },
   {
     "stt": 177,
@@ -4069,7 +4245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "trả 17/7: ĐN đo vẽ lại hiện trạng do sai bản vẽ",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=406/KP18/BQLDA"
   },
   {
     "stt": 178,
@@ -4092,7 +4269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=311/KP18/BQLDA"
   },
   {
     "stt": 179,
@@ -4115,7 +4293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=469/KP18/BQLDA"
   },
   {
     "stt": 180,
@@ -4138,7 +4317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=467/KP18/BQLDA"
   },
   {
     "stt": 181,
@@ -4161,7 +4341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=397/KP18/BQLDA"
   },
   {
     "stt": 182,
@@ -4184,7 +4365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=390/KP18/BQLDA"
   },
   {
     "stt": 183,
@@ -4207,7 +4389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=435/KP18/BQLDA"
   },
   {
     "stt": 184,
@@ -4230,7 +4413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=371/KP18/BQLDA"
   },
   {
     "stt": 185,
@@ -4253,7 +4437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=497/KP18/BQLDA"
   },
   {
     "stt": 186,
@@ -4276,7 +4461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=499/KP18/BQLDA"
   },
   {
     "stt": 187,
@@ -4299,7 +4485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=189/KP17/BQLDA"
   },
   {
     "stt": 188,
@@ -4322,7 +4509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=524/KP17/BQLDA"
   },
   {
     "stt": 189,
@@ -4345,7 +4533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=267/KP17/BQLDA"
   },
   {
     "stt": 190,
@@ -4368,7 +4557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=397/KP17/BQLDA"
   },
   {
     "stt": 191,
@@ -4391,7 +4581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=198/KP17/BQLDA"
   },
   {
     "stt": 192,
@@ -4414,7 +4605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=311/KP17/BQLDA"
   },
   {
     "stt": 193,
@@ -4437,7 +4629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=314/KP17/BQLDA"
   },
   {
     "stt": 194,
@@ -4460,7 +4653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=287/KP17/BQLDA"
   },
   {
     "stt": 195,
@@ -4483,7 +4677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=45/KP17/BQLDA"
   },
   {
     "stt": 196,
@@ -4506,7 +4701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=274/KP17/BQLDA"
   },
   {
     "stt": 197,
@@ -4529,7 +4725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=64/KP17/BQLDA"
   },
   {
     "stt": 198,
@@ -4552,7 +4749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=269/KP17/BQLDA"
   },
   {
     "stt": 199,
@@ -4575,7 +4773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=322/KP17/BQLDA"
   },
   {
     "stt": 200,
@@ -4598,7 +4797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=358/KP17/BQLDA"
   },
   {
     "stt": 201,
@@ -4621,7 +4821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=86/KP17/BQLDA"
   },
   {
     "stt": 202,
@@ -4644,7 +4845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=324/KP17/BQLDA"
   },
   {
     "stt": 203,
@@ -4667,7 +4869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=270/KP17/BQLDA"
   },
   {
     "stt": 204,
@@ -4690,7 +4893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=320/KP17/BQLDA"
   },
   {
     "stt": 205,
@@ -4713,7 +4917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1030/KP19/BQLDA"
   },
   {
     "stt": 206,
@@ -4736,7 +4941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1054/KP19/BQLDA"
   },
   {
     "stt": 207,
@@ -4759,7 +4965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=422/KP19/BQLDA"
   },
   {
     "stt": 208,
@@ -4782,7 +4989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=423/KP19/BQLDA"
   },
   {
     "stt": 209,
@@ -4805,7 +5013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1142/KP19/BQLDA"
   },
   {
     "stt": 210,
@@ -4828,7 +5037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=667/KP19/BQLDA"
   },
   {
     "stt": 211,
@@ -4851,7 +5061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=681/KP19/BQLDA"
   },
   {
     "stt": 212,
@@ -4874,7 +5085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=239/KP19/BQLDA"
   },
   {
     "stt": 213,
@@ -4897,7 +5109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "06/07/2026 18:04:32",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1114/KP19/BQLDA"
   },
   {
     "stt": 214,
@@ -4920,7 +5133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=746/KP19/BQLDA"
   },
   {
     "stt": 215,
@@ -4943,7 +5157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=186/KP19/BQLDA"
   },
   {
     "stt": 216,
@@ -4966,7 +5181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=186/KP19/BQLDA"
   },
   {
     "stt": 217,
@@ -4989,7 +5205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1205/KP19/BQLDA"
   },
   {
     "stt": 218,
@@ -5012,7 +5229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1061/KP19/BQLDA"
   },
   {
     "stt": 219,
@@ -5035,7 +5253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=716/KP19/BQLDA"
   },
   {
     "stt": 220,
@@ -5058,7 +5277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=320/KP19/BQLDA"
   },
   {
     "stt": 221,
@@ -5081,7 +5301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=720/KP19/BQLDA"
   },
   {
     "stt": 222,
@@ -5104,7 +5325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=356/KP19/BQLDA"
   },
   {
     "stt": 223,
@@ -5127,7 +5349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=346/KP19/BQLDA"
   },
   {
     "stt": 224,
@@ -5150,7 +5373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=347/KP19/BQLDA"
   },
   {
     "stt": 225,
@@ -5173,7 +5397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=336/KP19/BQLDA"
   },
   {
     "stt": 226,
@@ -5196,7 +5421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=328/KP19/BQLDA"
   },
   {
     "stt": 227,
@@ -5219,7 +5445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=913/KP19/BQLDA"
   },
   {
     "stt": 228,
@@ -5242,7 +5469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=919/KP19/BQLDA"
   },
   {
     "stt": 229,
@@ -5265,7 +5493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=946/KP19/BQLDA"
   },
   {
     "stt": 230,
@@ -5288,7 +5517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=916/KP19/BQLDA"
   },
   {
     "stt": 231,
@@ -5311,7 +5541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=943/KP19/BQLDA"
   },
   {
     "stt": 232,
@@ -5334,7 +5565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=944/KP19/BQLDA"
   },
   {
     "stt": 233,
@@ -5357,7 +5589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "08/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=239/KP19/BQLDA"
   },
   {
     "stt": 234,
@@ -5380,7 +5613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=244/KP19/BQLDA"
   },
   {
     "stt": 235,
@@ -5403,7 +5637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=422/KP18/BQLDA"
   },
   {
     "stt": 236,
@@ -5426,7 +5661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=357/KP18/BQLDA"
   },
   {
     "stt": 237,
@@ -5449,7 +5685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=157/KP18/BQLDA"
   },
   {
     "stt": 238,
@@ -5472,7 +5709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=327/KP18/BQLDA"
   },
   {
     "stt": 239,
@@ -5495,7 +5733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=305/KP18/BQLDA"
   },
   {
     "stt": 240,
@@ -5518,7 +5757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=182/KP18/BQLDA"
   },
   {
     "stt": 241,
@@ -5541,7 +5781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=529/KP18/BQLDA"
   },
   {
     "stt": 242,
@@ -5564,7 +5805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=436/KP18/BQLDA"
   },
   {
     "stt": 243,
@@ -5587,7 +5829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=256/KP18/BQLDA"
   },
   {
     "stt": 244,
@@ -5610,7 +5853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=219/KP18/BQLDA"
   },
   {
     "stt": 245,
@@ -5633,7 +5877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=107/KP18/BQLDA"
   },
   {
     "stt": 246,
@@ -5656,7 +5901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=212/KP18/BQLDA"
   },
   {
     "stt": 247,
@@ -5679,7 +5925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=271/KP18/BQLDA"
   },
   {
     "stt": 248,
@@ -5702,7 +5949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=23/KP17/BQLDA"
   },
   {
     "stt": 249,
@@ -5725,7 +5973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=42/KP17/BQLDA"
   },
   {
     "stt": 250,
@@ -5748,7 +5997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=59/KP17/BQLDA"
   },
   {
     "stt": 251,
@@ -5771,7 +6021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=60/KP17/BQLDA"
   },
   {
     "stt": 252,
@@ -5794,7 +6045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=80/KP17/BQLDA"
   },
   {
     "stt": 253,
@@ -5817,7 +6069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=94/KP17/BQLDA"
   },
   {
     "stt": 254,
@@ -5840,7 +6093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=100/KP17/BQLDA"
   },
   {
     "stt": 255,
@@ -5863,7 +6117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=101/KP17/BQLDA"
   },
   {
     "stt": 256,
@@ -5886,7 +6141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=158/KP17/BQLDA"
   },
   {
     "stt": 257,
@@ -5909,7 +6165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=282/KP17/BQLDA"
   },
   {
     "stt": 258,
@@ -5932,7 +6189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=305/KP17/BQLDA"
   },
   {
     "stt": 259,
@@ -5955,7 +6213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=342/KP17/BQLDA"
   },
   {
     "stt": 260,
@@ -5978,7 +6237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=351/KP17/BQLDA"
   },
   {
     "stt": 261,
@@ -6001,7 +6261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=360/KP17/BQLDA"
   },
   {
     "stt": 262,
@@ -6024,7 +6285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=396/KP17/BQLDA"
   },
   {
     "stt": 263,
@@ -6047,7 +6309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=398/KP17/BQLDA"
   },
   {
     "stt": 264,
@@ -6070,7 +6333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=399/KP17/BQLDA"
   },
   {
     "stt": 265,
@@ -6093,7 +6357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=400/KP17/BQLDA"
   },
   {
     "stt": 266,
@@ -6116,7 +6381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=406/KP17/BQLDA"
   },
   {
     "stt": 267,
@@ -6139,7 +6405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": "05/05/2025 09:56:15 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 09:56:15 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=434/KP17/BQLDA"
   },
   {
     "stt": 268,
@@ -6162,7 +6429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=438/KP17/BQLDA"
   },
   {
     "stt": 269,
@@ -6185,7 +6453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=521/KP17/BQLDA"
   },
   {
     "stt": 270,
@@ -6208,7 +6477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "09/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=527/KP17/BQLDA"
   },
   {
     "stt": 271,
@@ -6231,7 +6501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=541/KP17/BQLDA"
   },
   {
     "stt": 272,
@@ -6254,7 +6525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=605/KP17/BQLDA"
   },
   {
     "stt": 273,
@@ -6277,7 +6549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=266/KP18/BQLDA"
   },
   {
     "stt": 274,
@@ -6300,7 +6573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=276/KP18/BQLDA"
   },
   {
     "stt": 275,
@@ -6323,7 +6597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=308/KP18/BQLDA"
   },
   {
     "stt": 276,
@@ -6346,7 +6621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=361/KP18/BQLDA"
   },
   {
     "stt": 277,
@@ -6369,7 +6645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=356/KP18/BQLDA"
   },
   {
     "stt": 278,
@@ -6392,7 +6669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=363/KP18/BQLDA"
   },
   {
     "stt": 279,
@@ -6415,7 +6693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=60/KP18/BQLDA"
   },
   {
     "stt": 280,
@@ -6438,7 +6717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=531/KP18/BQLDA"
   },
   {
     "stt": 281,
@@ -6461,7 +6741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=23/KP18/BQLDA"
   },
   {
     "stt": 282,
@@ -6484,7 +6765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=140/KP18/BQLDA"
   },
   {
     "stt": 283,
@@ -6507,7 +6789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=218/KP18/BQLDA"
   },
   {
     "stt": 284,
@@ -6530,7 +6813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=93/KP18/BQLDA"
   },
   {
     "stt": 285,
@@ -6553,7 +6837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=94/KP18/BQLDA"
   },
   {
     "stt": 286,
@@ -6576,7 +6861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=254/KP18/BQLDA"
   },
   {
     "stt": 287,
@@ -6599,7 +6885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=457/KP18/BQLDA"
   },
   {
     "stt": 288,
@@ -6622,7 +6909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=451/KP18/BQLDA"
   },
   {
     "stt": 289,
@@ -6645,7 +6933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=524/KP18/BQLDA"
   },
   {
     "stt": 290,
@@ -6668,7 +6957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=257/KP18/BQLDA"
   },
   {
     "stt": 291,
@@ -6691,7 +6981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=33/KP18/BQLDA"
   },
   {
     "stt": 292,
@@ -6714,7 +7005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=240/KP19/BQLDA"
   },
   {
     "stt": 293,
@@ -6737,7 +7029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=241/KP19/BQLDA"
   },
   {
     "stt": 294,
@@ -6760,7 +7053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=543/KP19/BQLDA"
   },
   {
     "stt": 295,
@@ -6783,7 +7077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=365/KP19/BQLDA"
   },
   {
     "stt": 296,
@@ -6806,7 +7101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=332/KP19/BQLDA"
   },
   {
     "stt": 297,
@@ -6829,7 +7125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=334/KP19/BQLDA"
   },
   {
     "stt": 298,
@@ -6852,7 +7149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=335/KP19/BQLDA"
   },
   {
     "stt": 299,
@@ -6875,7 +7173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=277/KP18/BQLDA"
   },
   {
     "stt": 300,
@@ -6898,7 +7197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=252/KP18/BQLDA"
   },
   {
     "stt": 301,
@@ -6921,7 +7221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=215/KP18/BQLDA"
   },
   {
     "stt": 302,
@@ -6944,7 +7245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=268/KP18/BQLDA"
   },
   {
     "stt": 303,
@@ -6967,7 +7269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=475/KP18/BQLDA"
   },
   {
     "stt": 304,
@@ -6990,7 +7293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=452/KP18/BQLDA"
   },
   {
     "stt": 305,
@@ -7013,7 +7317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=471/KP18/BQLDA"
   },
   {
     "stt": 306,
@@ -7036,7 +7341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=170/KP18/BQLDA"
   },
   {
     "stt": 307,
@@ -7059,7 +7365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=402/KP18/BQLDA"
   },
   {
     "stt": 308,
@@ -7082,7 +7389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=122/KP18/BQLDA"
   },
   {
     "stt": 309,
@@ -7105,7 +7413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=506/KP18/BQLDA"
   },
   {
     "stt": 310,
@@ -7128,7 +7437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=396/KP18/BQLDA"
   },
   {
     "stt": 311,
@@ -7151,7 +7461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=303/KP18/BQLDA"
   },
   {
     "stt": 312,
@@ -7174,7 +7485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=275/KP18/BQLDA"
   },
   {
     "stt": 313,
@@ -7197,7 +7509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=373/KP18/BQLDA"
   },
   {
     "stt": 314,
@@ -7220,7 +7533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=124/KP18/BQLDA"
   },
   {
     "stt": 315,
@@ -7243,7 +7557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "10/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=138/KP18/BQLDA"
   },
   {
     "stt": 316,
@@ -7266,7 +7581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=245/KP19/BQLDA"
   },
   {
     "stt": 317,
@@ -7289,7 +7605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=246/KP19/BQLDA"
   },
   {
     "stt": 318,
@@ -7312,7 +7629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=904/KP19/BQLDA"
   },
   {
     "stt": 319,
@@ -7335,7 +7653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=952/KP19/BQLDA"
   },
   {
     "stt": 320,
@@ -7358,7 +7677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=929/KP19/BQLDA"
   },
   {
     "stt": 321,
@@ -7381,7 +7701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=915/KP19/BQLDA"
   },
   {
     "stt": 322,
@@ -7404,7 +7725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=926/KP19/BQLDA"
   },
   {
     "stt": 323,
@@ -7427,7 +7749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1144/KP19/BQLDA"
   },
   {
     "stt": 324,
@@ -7450,7 +7773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=337/KP19/BQLDA"
   },
   {
     "stt": 325,
@@ -7473,7 +7797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=531/KP19/BQLDA"
   },
   {
     "stt": 326,
@@ -7496,7 +7821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=536/KP19/BQLDA"
   },
   {
     "stt": 327,
@@ -7519,7 +7845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=03/KP17/BQLDA"
   },
   {
     "stt": 328,
@@ -7542,7 +7869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=02/KP17/BQLDA"
   },
   {
     "stt": 329,
@@ -7565,7 +7893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=36/KP17/BQLDA"
   },
   {
     "stt": 330,
@@ -7588,7 +7917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=46/KP17/BQLDA"
   },
   {
     "stt": 331,
@@ -7611,7 +7941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=47/KP17/BQLDA"
   },
   {
     "stt": 332,
@@ -7634,7 +7965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=62/KP17/BQLDA"
   },
   {
     "stt": 333,
@@ -7657,7 +7989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=65/KP17/BQLDA"
   },
   {
     "stt": 334,
@@ -7680,7 +8013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=68/KP17/BQLDA"
   },
   {
     "stt": 335,
@@ -7703,7 +8037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=96/KP17/BQLDA"
   },
   {
     "stt": 336,
@@ -7726,7 +8061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=97/KP17/BQLDA"
   },
   {
     "stt": 337,
@@ -7749,7 +8085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=103/KP17/BQLDA"
   },
   {
     "stt": 338,
@@ -7772,7 +8109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=119/KP17/BQLDA"
   },
   {
     "stt": 339,
@@ -7795,7 +8133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=142/KP17/BQLDA"
   },
   {
     "stt": 340,
@@ -7818,7 +8157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=169/KP17/BQLDA"
   },
   {
     "stt": 341,
@@ -7841,7 +8181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=177/KP17/BQLDA"
   },
   {
     "stt": 342,
@@ -7864,7 +8205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=184/KP17/BQLDA"
   },
   {
     "stt": 343,
@@ -7887,7 +8229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=232/KP17/BQLDA"
   },
   {
     "stt": 344,
@@ -7910,7 +8253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=261/KP17/BQLDA"
   },
   {
     "stt": 345,
@@ -7933,7 +8277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=262/KP17/BQLDA"
   },
   {
     "stt": 346,
@@ -7956,7 +8301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=278/KP17/BQLDA"
   },
   {
     "stt": 347,
@@ -7979,7 +8325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=288/KP17/BQLDA"
   },
   {
     "stt": 348,
@@ -8002,7 +8349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": "05/05/2025 10:02:21 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 10:02:21 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=338/KP17/BQLDA"
   },
   {
     "stt": 349,
@@ -8025,7 +8373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=349/KP17/BQLDA"
   },
   {
     "stt": 350,
@@ -8048,7 +8397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=394/KP17/BQLDA"
   },
   {
     "stt": 351,
@@ -8071,7 +8421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=405/KP17/BQLDA"
   },
   {
     "stt": 352,
@@ -8094,7 +8445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=445/KP17/BQLDA"
   },
   {
     "stt": 353,
@@ -8117,7 +8469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=448/KP17/BQLDA"
   },
   {
     "stt": 354,
@@ -8140,7 +8493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=467/KP17/BQLDA"
   },
   {
     "stt": 355,
@@ -8163,7 +8517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=479/KP17/BQLDA"
   },
   {
     "stt": 356,
@@ -8186,7 +8541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=480/KP17/BQLDA"
   },
   {
     "stt": 357,
@@ -8209,7 +8565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=536/KP17/BQLDA"
   },
   {
     "stt": 358,
@@ -8232,7 +8589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=547/KP17/BQLDA"
   },
   {
     "stt": 359,
@@ -8255,7 +8613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=557/KP17/BQLDA"
   },
   {
     "stt": 360,
@@ -8278,7 +8637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=576/KP17/BQLDA"
   },
   {
     "stt": 361,
@@ -8301,7 +8661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "13/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=587/KP17/BQLDA"
   },
   {
     "stt": 362,
@@ -8324,7 +8685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=604/KP17/BQLDA"
   },
   {
     "stt": 363,
@@ -8347,7 +8709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=34/KP18/BQLDA"
   },
   {
     "stt": 364,
@@ -8370,7 +8733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": "Điện Biên Phủ"
+    "trungLap": "Điện Biên Phủ",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=408/KP18/BQLDA"
   },
   {
     "stt": 365,
@@ -8393,7 +8757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=528/KP18/BQLDA"
   },
   {
     "stt": 366,
@@ -8416,7 +8781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=491/KP18/BQLDA"
   },
   {
     "stt": 367,
@@ -8439,7 +8805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=465/KP18/BQLDA"
   },
   {
     "stt": 368,
@@ -8462,7 +8829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=98/KP18/BQLDA"
   },
   {
     "stt": 369,
@@ -8485,7 +8853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=418/KP18/BQLDA"
   },
   {
     "stt": 370,
@@ -8508,7 +8877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=34/KP17/BQLDA"
   },
   {
     "stt": 371,
@@ -8531,7 +8901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=39/KP17/BQLDA"
   },
   {
     "stt": 372,
@@ -8554,7 +8925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=52/KP17/BQLDA"
   },
   {
     "stt": 373,
@@ -8577,7 +8949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=63/KP17/BQLDA"
   },
   {
     "stt": 374,
@@ -8600,7 +8973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=73/KP17/BQLDA"
   },
   {
     "stt": 375,
@@ -8623,7 +8997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=85/KP17/BQLDA"
   },
   {
     "stt": 376,
@@ -8646,7 +9021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=190/KP17/BQLDA"
   },
   {
     "stt": 377,
@@ -8669,7 +9045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=201/KP17/BQLDA"
   },
   {
     "stt": 378,
@@ -8692,7 +9069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=264/KP17/BQLDA"
   },
   {
     "stt": 379,
@@ -8715,7 +9093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=407/KP17/BQLDA"
   },
   {
     "stt": 380,
@@ -8738,7 +9117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=408/KP17/BQLDA"
   },
   {
     "stt": 381,
@@ -8761,7 +9141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=453/KP17/BQLDA"
   },
   {
     "stt": 382,
@@ -8784,7 +9165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=473/KP17/BQLDA"
   },
   {
     "stt": 383,
@@ -8807,7 +9189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=480/KP17/BQLDA"
   },
   {
     "stt": 384,
@@ -8830,7 +9213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=299/KP17/BQLDA"
   },
   {
     "stt": 385,
@@ -8853,7 +9237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=578/KP17/BQLDA"
   },
   {
     "stt": 386,
@@ -8876,7 +9261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=611/KP17/BQLDA"
   },
   {
     "stt": 387,
@@ -8899,7 +9285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=501/KP18/BQLDA"
   },
   {
     "stt": 388,
@@ -8922,7 +9309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=226/KP18/BQLDA"
   },
   {
     "stt": 389,
@@ -8945,7 +9333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=136/KP18/BQLDA"
   },
   {
     "stt": 390,
@@ -8968,7 +9357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=383/KP18/BQLDA"
   },
   {
     "stt": 391,
@@ -8991,7 +9381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=22/KP18/BQLDA"
   },
   {
     "stt": 392,
@@ -9014,7 +9405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=474/KP18/BQLDA"
   },
   {
     "stt": 393,
@@ -9037,7 +9429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=285/KP18/BQLDA"
   },
   {
     "stt": 394,
@@ -9060,7 +9453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=419/KP18/BQLDA"
   },
   {
     "stt": 395,
@@ -9083,7 +9477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=223/KP18/BQLDA"
   },
   {
     "stt": 396,
@@ -9106,7 +9501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=283/KP18/BQLDA"
   },
   {
     "stt": 397,
@@ -9129,7 +9525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=228/KP18/BQLDA"
   },
   {
     "stt": 398,
@@ -9152,7 +9549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=502/KP18/BQLDA"
   },
   {
     "stt": 399,
@@ -9175,7 +9573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=31/KP18/BQLDA"
   },
   {
     "stt": 400,
@@ -9198,7 +9597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=487/KP18/BQLDA"
   },
   {
     "stt": 401,
@@ -9221,7 +9621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=278/KP18/BQLDA"
   },
   {
     "stt": 402,
@@ -9244,7 +9645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=223/KP18/BQLDA"
   },
   {
     "stt": 403,
@@ -9267,7 +9669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=225/KP18/BQLDA"
   },
   {
     "stt": 404,
@@ -9290,7 +9693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=488/KP18/BQLDA"
   },
   {
     "stt": 405,
@@ -9313,7 +9717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=296/KP18/BQLDA"
   },
   {
     "stt": 406,
@@ -9336,7 +9741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=300/KP18/BQLDA"
   },
   {
     "stt": 407,
@@ -9359,7 +9765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=282/KP18/BQLDA"
   },
   {
     "stt": 408,
@@ -9382,7 +9789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=455/KP18/BQLDA"
   },
   {
     "stt": 409,
@@ -9405,7 +9813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=179/KP18/BQLDA"
   },
   {
     "stt": 410,
@@ -9428,7 +9837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=176/KP18/BQLDA"
   },
   {
     "stt": 411,
@@ -9451,7 +9861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=137/KP18/BQLDA"
   },
   {
     "stt": 412,
@@ -9474,7 +9885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "14/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=258/KP19/BQLDA"
   },
   {
     "stt": 413,
@@ -9497,7 +9909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=253/KP19/BQLDA"
   },
   {
     "stt": 414,
@@ -9520,7 +9933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "15/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1159/KP19/BQLDA"
   },
   {
     "stt": 415,
@@ -9543,7 +9957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=692/KP19/BQLDA"
   },
   {
     "stt": 416,
@@ -9566,7 +9981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1029/KP19/BQLDA"
   },
   {
     "stt": 417,
@@ -9589,7 +10005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1072/KP19/BQLDA"
   },
   {
     "stt": 418,
@@ -9612,7 +10029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1067/KP19/BQLDA"
   },
   {
     "stt": 419,
@@ -9635,7 +10053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=941/KP19/BQLDA"
   },
   {
     "stt": 420,
@@ -9658,7 +10077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=700/KP19/BQLDA"
   },
   {
     "stt": 421,
@@ -9681,7 +10101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=728/KP19/BQLDA"
   },
   {
     "stt": 422,
@@ -9704,7 +10125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=552/KP19/BQLDA"
   },
   {
     "stt": 423,
@@ -9727,7 +10149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=07/KP19/BQLDA"
   },
   {
     "stt": 424,
@@ -9750,7 +10173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=10/KP19/BQLDA"
   },
   {
     "stt": 425,
@@ -9773,7 +10197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1170/KP19/BQLDA"
   },
   {
     "stt": 426,
@@ -9796,7 +10221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1021/KP19/BQLDA"
   },
   {
     "stt": 427,
@@ -9819,7 +10245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=583/KP19/BQLDA"
   },
   {
     "stt": 428,
@@ -9842,7 +10269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=537/KP19/BQLDA"
   },
   {
     "stt": 429,
@@ -9865,7 +10293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=554/KP19/BQLDA"
   },
   {
     "stt": 430,
@@ -9888,7 +10317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=08/KP19/BQLDA"
   },
   {
     "stt": 431,
@@ -9911,7 +10341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=462/KP18/BQLDA"
   },
   {
     "stt": 432,
@@ -9934,7 +10365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=386/KP18/BQLDA"
   },
   {
     "stt": 433,
@@ -9957,7 +10389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=216/KP18/BQLDA"
   },
   {
     "stt": 434,
@@ -9980,7 +10413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=494/KP18/BQLDA"
   },
   {
     "stt": 435,
@@ -10003,7 +10437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1141/KP19/BQLDA"
   },
   {
     "stt": 436,
@@ -10026,7 +10461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=247/KP19/BQLDA"
   },
   {
     "stt": 437,
@@ -10049,7 +10485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=427/KP19/BQLDA"
   },
   {
     "stt": 438,
@@ -10072,7 +10509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=439/KP19/BQLDA"
   },
   {
     "stt": 439,
@@ -10095,7 +10533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=938/KP19/BQLDA"
   },
   {
     "stt": 440,
@@ -10118,7 +10557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=03/KP19/BQLDA"
   },
   {
     "stt": 441,
@@ -10141,7 +10581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=09/KP19/BQLDA"
   },
   {
     "stt": 442,
@@ -10164,7 +10605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=13/KP19/BQLDA"
   },
   {
     "stt": 443,
@@ -10187,7 +10629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=360/KP19/BQLDA"
   },
   {
     "stt": 444,
@@ -10210,7 +10653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=341/KP19/BQLDA"
   },
   {
     "stt": 445,
@@ -10233,7 +10677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=360/KP19/BQLDA"
   },
   {
     "stt": 446,
@@ -10256,7 +10701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=355/KP19/BQLDA"
   },
   {
     "stt": 447,
@@ -10279,7 +10725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "16/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=360/KP19/BQLDA"
   },
   {
     "stt": 448,
@@ -10302,7 +10749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=640/KP19/BQLDA"
   },
   {
     "stt": 449,
@@ -10325,7 +10773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=174/KP17/BQLDA"
   },
   {
     "stt": 450,
@@ -10348,7 +10797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=200/KP17/BQLDA"
   },
   {
     "stt": 451,
@@ -10371,7 +10821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=204/KP17/BQLDA"
   },
   {
     "stt": 452,
@@ -10394,7 +10845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=300/KP17/BQLDA"
   },
   {
     "stt": 453,
@@ -10417,7 +10869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=362/KP17/BQLDA"
   },
   {
     "stt": 454,
@@ -10440,7 +10893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=364/KP17/BQLDA"
   },
   {
     "stt": 455,
@@ -10463,7 +10917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=373/KP17/BQLDA"
   },
   {
     "stt": 456,
@@ -10486,7 +10941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=427/KP17/BQLDA"
   },
   {
     "stt": 457,
@@ -10509,7 +10965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=474/KP17/BQLDA"
   },
   {
     "stt": 458,
@@ -10532,7 +10989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 459,
@@ -10555,7 +11013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=930/KP19/BQLDA"
   },
   {
     "stt": 460,
@@ -10578,7 +11037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=924/KP19/BQLDA"
   },
   {
     "stt": 461,
@@ -10601,7 +11061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=910/KP19/BQLDA"
   },
   {
     "stt": 462,
@@ -10624,7 +11085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=443/KP19/BQLDA"
   },
   {
     "stt": 463,
@@ -10647,7 +11109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=927/KP19/BQLDA"
   },
   {
     "stt": 464,
@@ -10670,7 +11133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=251/KP19/BQLDA"
   },
   {
     "stt": 465,
@@ -10693,7 +11157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1160/KP19/BQLDA"
   },
   {
     "stt": 466,
@@ -10716,7 +11181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1135/KP19/BQLDA"
   },
   {
     "stt": 467,
@@ -10739,7 +11205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=992/KP19/BQLDA"
   },
   {
     "stt": 468,
@@ -10762,7 +11229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1241/KP19/BQLDA"
   },
   {
     "stt": 469,
@@ -10785,7 +11253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": "05/05/2025 09:55:53 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 09:55:53 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=322/KP19/BQLDA"
   },
   {
     "stt": 470,
@@ -10808,7 +11277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": "05/05/2025 10:01:54 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 10:01:54 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=322/KP19/BQLDA"
   },
   {
     "stt": 471,
@@ -10831,7 +11301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1073/KP19/BQLDA"
   },
   {
     "stt": 472,
@@ -10854,7 +11325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=12/KP19/BQLDA"
   },
   {
     "stt": 473,
@@ -10877,7 +11349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=490/KP19/BQLDA"
   },
   {
     "stt": 474,
@@ -10900,7 +11373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": "05/05/2025 09:59:40 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 09:59:40 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=388/KP19/BQLDA"
   },
   {
     "stt": 475,
@@ -10923,7 +11397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=393/KP19/BQLDA"
   },
   {
     "stt": 476,
@@ -10946,7 +11421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=407/KP19/BQLDA"
   },
   {
     "stt": 477,
@@ -10969,7 +11445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=10/KP17/BQLDA"
   },
   {
     "stt": 478,
@@ -10992,7 +11469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=54/KP17/BQLDA"
   },
   {
     "stt": 479,
@@ -11015,7 +11493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=108/KP17/BQLDA"
   },
   {
     "stt": 480,
@@ -11038,7 +11517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=111/KP17/BQLDA"
   },
   {
     "stt": 481,
@@ -11061,7 +11541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=202/KP17/BQLDA"
   },
   {
     "stt": 482,
@@ -11084,7 +11565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=203/KP17/BQLDA"
   },
   {
     "stt": 483,
@@ -11107,7 +11589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=283/KP17/BQLDA"
   },
   {
     "stt": 484,
@@ -11130,7 +11613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=295/KP17/BQLDA"
   },
   {
     "stt": 485,
@@ -11153,7 +11637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=298/KP17/BQLDA"
   },
   {
     "stt": 486,
@@ -11176,7 +11661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=307/KP17/BQLDA"
   },
   {
     "stt": 487,
@@ -11199,7 +11685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=310/KP17/BQLDA"
   },
   {
     "stt": 488,
@@ -11222,7 +11709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=366/KP17/BQLDA"
   },
   {
     "stt": 489,
@@ -11245,7 +11733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=371/KP17/BQLDA"
   },
   {
     "stt": 490,
@@ -11268,7 +11757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": "05/05/2025 10:01:25 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 10:01:25 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=436/KP17/BQLDA"
   },
   {
     "stt": 491,
@@ -11291,7 +11781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=437/KP17/BQLDA"
   },
   {
     "stt": 492,
@@ -11314,7 +11805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=305/KP17/BQLDA"
   },
   {
     "stt": 493,
@@ -11337,7 +11829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=516/KP17/BQLDA"
   },
   {
     "stt": 494,
@@ -11360,7 +11853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=563/KP17/BQLDA"
   },
   {
     "stt": 495,
@@ -11383,7 +11877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "17/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=583/KP17/BQLDA"
   },
   {
     "stt": 496,
@@ -11406,7 +11901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=247/KP18/BQLDA"
   },
   {
     "stt": 497,
@@ -11429,7 +11925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=447/KP18/BQLDA"
   },
   {
     "stt": 498,
@@ -11452,7 +11949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=33/KP18/BQLDA"
   },
   {
     "stt": 499,
@@ -11475,7 +11973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=46/KP18/BQLDA"
   },
   {
     "stt": 500,
@@ -11498,7 +11997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=245/KP18/BQLDA"
   },
   {
     "stt": 501,
@@ -11521,7 +12021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=530/KP18/BQLDA"
   },
   {
     "stt": 502,
@@ -11544,7 +12045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=520/KP18/BQLDA"
   },
   {
     "stt": 503,
@@ -11567,7 +12069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=205/KP18/BQLDA"
   },
   {
     "stt": 504,
@@ -11590,7 +12093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=57/KP18/BQLDA"
   },
   {
     "stt": 505,
@@ -11613,7 +12117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=114/KP18/BQLDA"
   },
   {
     "stt": 506,
@@ -11636,7 +12141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=241/KP18/BQLDA"
   },
   {
     "stt": 507,
@@ -11659,7 +12165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": "05/05/2025 10:00:58 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 10:00:58 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=220/KP18/BQLDA"
   },
   {
     "stt": 508,
@@ -11682,7 +12189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=55/KP18/BQLDA"
   },
   {
     "stt": 509,
@@ -11705,7 +12213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=922/KP19/BQLDA"
   },
   {
     "stt": 510,
@@ -11728,7 +12237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=905/KP19/BQLDA"
   },
   {
     "stt": 511,
@@ -11751,7 +12261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=920/KP19/BQLDA"
   },
   {
     "stt": 512,
@@ -11774,7 +12285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=925/KP19/BQLDA"
   },
   {
     "stt": 513,
@@ -11797,7 +12309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=221/KP19/BQLDA"
   },
   {
     "stt": 514,
@@ -11820,7 +12333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=223/KP19/BQLDA"
   },
   {
     "stt": 515,
@@ -11843,7 +12357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "20/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1149/KP19/BQLDA"
   },
   {
     "stt": 516,
@@ -11866,7 +12381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1033/KP19/BQLDA"
   },
   {
     "stt": 517,
@@ -11889,7 +12405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1008/KP19/BQLDA"
   },
   {
     "stt": 518,
@@ -11912,7 +12429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1027/KP19/BQLDA"
   },
   {
     "stt": 519,
@@ -11935,7 +12453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1016/KP19/BQLDA"
   },
   {
     "stt": 520,
@@ -11958,7 +12477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1123/KP19/BQLDA"
   },
   {
     "stt": 521,
@@ -11981,7 +12501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1115/KP19/BQLDA"
   },
   {
     "stt": 522,
@@ -12004,7 +12525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": "05/05/2025 10:00:16 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 10:00:16 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=492/KP19/BQLDA"
   },
   {
     "stt": 523,
@@ -12027,7 +12549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1103/KP19/BQLDA"
   },
   {
     "stt": 524,
@@ -12050,7 +12573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=506/KP19/BQLDA"
   },
   {
     "stt": 525,
@@ -12073,7 +12597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=520/KP19/BQLDA"
   },
   {
     "stt": 526,
@@ -12096,7 +12621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=529/KP19/BQLDA"
   },
   {
     "stt": 527,
@@ -12119,7 +12645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=121/KP19/BQLDA"
   },
   {
     "stt": 528,
@@ -12142,7 +12669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1094/KP19/BQLDA"
   },
   {
     "stt": 529,
@@ -12165,7 +12693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=717/KP19/BQLDA"
   },
   {
     "stt": 530,
@@ -12188,7 +12717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=361/KP19/BQLDA"
   },
   {
     "stt": 531,
@@ -12211,7 +12741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=361/KP19/BQLDA"
   },
   {
     "stt": 532,
@@ -12234,7 +12765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=342/KP19/BQLDA"
   },
   {
     "stt": 533,
@@ -12257,7 +12789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=349/KP19/BQLDA"
   },
   {
     "stt": 534,
@@ -12280,7 +12813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=348/KP19/BQLDA"
   },
   {
     "stt": 535,
@@ -12303,7 +12837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": "05/05/2025 09:54:04 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 09:54:04 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=349/KP19/BQLDA"
   },
   {
     "stt": 536,
@@ -12326,7 +12861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=719/KP19/BQLDA"
   },
   {
     "stt": 537,
@@ -12349,7 +12885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=690/KP19/BQLDA"
   },
   {
     "stt": 538,
@@ -12372,7 +12909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=21/KP17/BQLDA"
   },
   {
     "stt": 539,
@@ -12395,7 +12933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=48/KP17/BQLDA"
   },
   {
     "stt": 540,
@@ -12418,7 +12957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=93/KP17/BQLDA"
   },
   {
     "stt": 541,
@@ -12441,7 +12981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=105/KP17/BQLDA"
   },
   {
     "stt": 542,
@@ -12464,7 +13005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=109/KP17/BQLDA"
   },
   {
     "stt": 543,
@@ -12487,7 +13029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=175/KP17/BQLDA"
   },
   {
     "stt": 544,
@@ -12510,7 +13053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=183/KP17/BQLDA"
   },
   {
     "stt": 545,
@@ -12533,7 +13077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=199/KP17/BQLDA"
   },
   {
     "stt": 546,
@@ -12556,7 +13101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=260/KP17/BQLDA"
   },
   {
     "stt": 547,
@@ -12579,7 +13125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=271/KP17/BQLDA"
   },
   {
     "stt": 548,
@@ -12602,7 +13149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=315/KP17/BQLDA"
   },
   {
     "stt": 549,
@@ -12625,7 +13173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=367/KP17/BQLDA"
   },
   {
     "stt": 550,
@@ -12648,7 +13197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=442/KP17/BQLDA"
   },
   {
     "stt": 551,
@@ -12671,7 +13221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=444/KP17/BQLDA"
   },
   {
     "stt": 552,
@@ -12694,7 +13245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": "05/05/2025 10:04:28 - khanh.bbtbt@gmail.com"
+    "trungLap": "05/05/2025 10:04:28 - khanh.bbtbt@gmail.com",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=458/KP17/BQLDA"
   },
   {
     "stt": 553,
@@ -12717,7 +13269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=546/KP17/BQLDA"
   },
   {
     "stt": 554,
@@ -12740,7 +13293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=577/KP17/BQLDA"
   },
   {
     "stt": 555,
@@ -12763,7 +13317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=211/KP18/BQLDA"
   },
   {
     "stt": 556,
@@ -12786,7 +13341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=281/KP18/BQLDA"
   },
   {
     "stt": 557,
@@ -12809,7 +13365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=461/KP18/BQLDA"
   },
   {
     "stt": 558,
@@ -12832,7 +13389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=459/KP18/BQLDA"
   },
   {
     "stt": 559,
@@ -12855,7 +13413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=477/KP18/BQLDA"
   },
   {
     "stt": 560,
@@ -12878,7 +13437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=210/KP18/BQLDA"
   },
   {
     "stt": 561,
@@ -12901,7 +13461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=111/KP18/BQLDA"
   },
   {
     "stt": 562,
@@ -12924,7 +13485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=125/KP18/BQLDA"
   },
   {
     "stt": 563,
@@ -12947,7 +13509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=92/KP18/BQLDA"
   },
   {
     "stt": 564,
@@ -12970,7 +13533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=321/KP18/BQLDA"
   },
   {
     "stt": 565,
@@ -12993,7 +13557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=374/KP18/BQLDA"
   },
   {
     "stt": 566,
@@ -13016,7 +13581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=255/KP18/BQLDA"
   },
   {
     "stt": 567,
@@ -13039,7 +13605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=17/KP18/BQLDA"
   },
   {
     "stt": 568,
@@ -13062,7 +13629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=304/KP18/BQLDA"
   },
   {
     "stt": 569,
@@ -13085,7 +13653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=299/KP18/BQLDA"
   },
   {
     "stt": 570,
@@ -13108,7 +13677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=27/KP18/BQLDA"
   },
   {
     "stt": 571,
@@ -13131,7 +13701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=146/KP18/BQLDA"
   },
   {
     "stt": 572,
@@ -13154,7 +13725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=120/KP18/BQLDA"
   },
   {
     "stt": 573,
@@ -13177,7 +13749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=398/KP19/BQLDA"
   },
   {
     "stt": 574,
@@ -13200,7 +13773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=405/KP19/BQLDA"
   },
   {
     "stt": 575,
@@ -13223,7 +13797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=418/KP19/BQLDA"
   },
   {
     "stt": 576,
@@ -13246,7 +13821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=384/KP19/BQLDA"
   },
   {
     "stt": 577,
@@ -13269,7 +13845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=401/KP19/BQLDA"
   },
   {
     "stt": 578,
@@ -13292,7 +13869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=400/KP19/BQLDA"
   },
   {
     "stt": 579,
@@ -13315,7 +13893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=394/KP19/BQLDA"
   },
   {
     "stt": 580,
@@ -13338,7 +13917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=392/KP19/BQLDA"
   },
   {
     "stt": 581,
@@ -13361,7 +13941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=390/KP19/BQLDA"
   },
   {
     "stt": 582,
@@ -13384,7 +13965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1083/KP19/BQLDA"
   },
   {
     "stt": 583,
@@ -13407,7 +13989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=508/KP19/BQLDA"
   },
   {
     "stt": 584,
@@ -13430,7 +14013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=511/KP19/BQLDA"
   },
   {
     "stt": 585,
@@ -13453,7 +14037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=513/KP19/BQLDA"
   },
   {
     "stt": 586,
@@ -13476,7 +14061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=528/KP19/BQLDA"
   },
   {
     "stt": 587,
@@ -13499,7 +14085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1125/KP19/BQLDA"
   },
   {
     "stt": 588,
@@ -13522,7 +14109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 589,
@@ -13545,7 +14133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=704/KP19/BQLDA"
   },
   {
     "stt": 590,
@@ -13568,7 +14157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=391/KP19/BQLDA"
   },
   {
     "stt": 591,
@@ -13591,7 +14181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=415/KP19/BQLDA"
   },
   {
     "stt": 592,
@@ -13614,7 +14205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 593,
@@ -13637,7 +14229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 594,
@@ -13660,7 +14253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=301/KP19/BQLDA"
   },
   {
     "stt": 595,
@@ -13683,7 +14277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=15/KP19/BQLDA"
   },
   {
     "stt": 596,
@@ -13706,7 +14301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=21/KP19/BQLDA"
   },
   {
     "stt": 597,
@@ -13729,7 +14325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=44/KP19/BQLDA"
   },
   {
     "stt": 598,
@@ -13752,7 +14349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=317/KP19/BQLDA"
   },
   {
     "stt": 599,
@@ -13775,7 +14373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=750/KP19/BQLDA"
   },
   {
     "stt": 600,
@@ -13798,7 +14397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=318/KP19/BQLDA"
   },
   {
     "stt": 601,
@@ -13821,7 +14421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=868/KP19/BQLDA"
   },
   {
     "stt": 602,
@@ -13844,7 +14445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=872/KP19/BQLDA"
   },
   {
     "stt": 603,
@@ -13867,7 +14469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=874/KP19/BQLDA"
   },
   {
     "stt": 604,
@@ -13890,7 +14493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=875/KP19/BQLDA"
   },
   {
     "stt": 605,
@@ -13913,7 +14517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=876/KP19/BQLDA"
   },
   {
     "stt": 606,
@@ -13936,7 +14541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=886/KP19/BQLDA"
   },
   {
     "stt": 607,
@@ -13959,7 +14565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=899/KP19/BQLDA"
   },
   {
     "stt": 608,
@@ -13982,7 +14589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=752/KP19/BQLDA"
   },
   {
     "stt": 609,
@@ -14005,7 +14613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=338/KP19/BQLDA"
   },
   {
     "stt": 610,
@@ -14028,7 +14637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=338/KP19/BQLDA"
   },
   {
     "stt": 611,
@@ -14051,7 +14661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=685/KP19/BQLDA"
   },
   {
     "stt": 612,
@@ -14074,7 +14685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=663/KP19/BQLDA"
   },
   {
     "stt": 613,
@@ -14097,7 +14709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=675/KP19/BQLDA"
   },
   {
     "stt": 614,
@@ -14120,7 +14733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=654/KP19/BQLDA"
   },
   {
     "stt": 615,
@@ -14143,7 +14757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=660/KP19/BQLDA"
   },
   {
     "stt": 616,
@@ -14166,7 +14781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=440/KP19/BQLDA"
   },
   {
     "stt": 617,
@@ -14189,7 +14805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=652/KP19/BQLDA"
   },
   {
     "stt": 618,
@@ -14212,7 +14829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=38/KP19/BQLDA"
   },
   {
     "stt": 619,
@@ -14235,7 +14853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=45/KP19/BQLDA"
   },
   {
     "stt": 620,
@@ -14258,7 +14877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=547/KP19/BQLDA"
   },
   {
     "stt": 621,
@@ -14281,7 +14901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=49/KP17/BQLDA"
   },
   {
     "stt": 622,
@@ -14304,7 +14925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=92/KP17/BQLDA"
   },
   {
     "stt": 623,
@@ -14327,7 +14949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=185/KP17/BQLDA"
   },
   {
     "stt": 624,
@@ -14350,7 +14973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=186/KP17/BQLDA"
   },
   {
     "stt": 625,
@@ -14373,7 +14997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=217/KP17/BQLDA"
   },
   {
     "stt": 626,
@@ -14396,7 +15021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=226/KP17/BQLDA"
   },
   {
     "stt": 627,
@@ -14419,7 +15045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=460/KP17/BQLDA"
   },
   {
     "stt": 628,
@@ -14442,7 +15069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=291/KP17/BQLDA"
   },
   {
     "stt": 629,
@@ -14465,7 +15093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=309/KP17/BQLDA"
   },
   {
     "stt": 630,
@@ -14488,7 +15117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=319/KP17/BQLDA"
   },
   {
     "stt": 631,
@@ -14511,7 +15141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=365/KP17/BQLDA"
   },
   {
     "stt": 632,
@@ -14534,7 +15165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=393/KP17/BQLDA"
   },
   {
     "stt": 633,
@@ -14557,7 +15189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=425/KP17/BQLDA"
   },
   {
     "stt": 634,
@@ -14580,7 +15213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=454/KP17/BQLDA"
   },
   {
     "stt": 635,
@@ -14603,7 +15237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=483/KP17/BQLDA"
   },
   {
     "stt": 636,
@@ -14626,7 +15261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=484/KP17/BQLDA"
   },
   {
     "stt": 637,
@@ -14649,7 +15285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=491/KP17/BQLDA"
   },
   {
     "stt": 638,
@@ -14672,7 +15309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "21/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=523/KP17/BQLDA"
   },
   {
     "stt": 639,
@@ -14695,7 +15333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=536/KP17/BQLDA"
   },
   {
     "stt": 640,
@@ -14718,7 +15357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=536/KP17/BQLDA"
   },
   {
     "stt": 641,
@@ -14741,7 +15381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=227/KP18/BQLDA"
   },
   {
     "stt": 642,
@@ -14764,7 +15405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=144/KP18/BQLDA"
   },
   {
     "stt": 643,
@@ -14787,7 +15429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=429/KP18/BQLDA"
   },
   {
     "stt": 644,
@@ -14810,7 +15453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=208/KP18/BQLDA"
   },
   {
     "stt": 645,
@@ -14833,7 +15477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=999/KP19/BQLDA"
   },
   {
     "stt": 646,
@@ -14856,7 +15501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1006/KP19/BQLDA"
   },
   {
     "stt": 647,
@@ -14879,7 +15525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=979/KP19/BQLDA"
   },
   {
     "stt": 648,
@@ -14902,7 +15549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1001/KP19/BQLDA"
   },
   {
     "stt": 649,
@@ -14925,7 +15573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=965/KP19/BQLDA"
   },
   {
     "stt": 650,
@@ -14948,7 +15597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1005/KP19/BQLDA"
   },
   {
     "stt": 651,
@@ -14971,7 +15621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1243/KP19/BQLDA"
   },
   {
     "stt": 652,
@@ -14994,7 +15645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=748/KP19/BQLDA"
   },
   {
     "stt": 653,
@@ -15017,7 +15669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=39/KP19/BQLDA"
   },
   {
     "stt": 654,
@@ -15040,7 +15693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=40/KP19/BQLDA"
   },
   {
     "stt": 655,
@@ -15063,7 +15717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=736/KP19/BQLDA"
   },
   {
     "stt": 656,
@@ -15086,7 +15741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=248/KP19/BQLDA"
   },
   {
     "stt": 657,
@@ -15109,7 +15765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=243/KP19/BQLDA"
   },
   {
     "stt": 658,
@@ -15132,7 +15789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=254/KP19/BQLDA"
   },
   {
     "stt": 659,
@@ -15155,7 +15813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1019/KP19/BQLDA"
   },
   {
     "stt": 660,
@@ -15178,7 +15837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1012/KP19/BQLDA"
   },
   {
     "stt": 661,
@@ -15201,7 +15861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=453/KP19/BQLDA"
   },
   {
     "stt": 662,
@@ -15224,7 +15885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=430/KP19/BQLDA"
   },
   {
     "stt": 663,
@@ -15247,7 +15909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=485/KP19/BQLDA"
   },
   {
     "stt": 664,
@@ -15270,7 +15933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/7: chuyển lại P.KTHT ktra",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=515/KP19/BQLDA"
   },
   {
     "stt": 665,
@@ -15293,7 +15957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=493/KP19/BQLDA"
   },
   {
     "stt": 666,
@@ -15316,7 +15981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=521/KP19/BQLDA"
   },
   {
     "stt": 667,
@@ -15339,7 +16005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=138/KP19/BQLDA"
   },
   {
     "stt": 668,
@@ -15362,7 +16029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=294/KP17/BQLDA"
   },
   {
     "stt": 669,
@@ -15385,7 +16053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=556/KP17/BQLDA"
   },
   {
     "stt": 670,
@@ -15408,7 +16077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=328/KP17/BQLDA"
   },
   {
     "stt": 671,
@@ -15431,7 +16101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=259/KP17/BQLDA"
   },
   {
     "stt": 672,
@@ -15454,7 +16125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=187/KP17/BQLDA"
   },
   {
     "stt": 673,
@@ -15477,7 +16149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=188/KP17/BQLDA"
   },
   {
     "stt": 674,
@@ -15500,7 +16173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=529/KP17/BQLDA"
   },
   {
     "stt": 675,
@@ -15523,7 +16197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=181/KP17/BQLDA"
   },
   {
     "stt": 676,
@@ -15546,7 +16221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=95/KP17/BQLDA"
   },
   {
     "stt": 677,
@@ -15569,7 +16245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=90/KP17/BQLDA"
   },
   {
     "stt": 678,
@@ -15592,7 +16269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=102/KP17/BQLDA"
   },
   {
     "stt": 679,
@@ -15615,7 +16293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=810/KP19/BQLDA"
   },
   {
     "stt": 680,
@@ -15638,7 +16317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1145/KP19/BQLDA"
   },
   {
     "stt": 681,
@@ -15661,7 +16341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1147/KP19/BQLDA"
   },
   {
     "stt": 682,
@@ -15684,7 +16365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1155/KP19/BQLDA"
   },
   {
     "stt": 683,
@@ -15707,7 +16389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1165/KP19/BQLDA"
   },
   {
     "stt": 684,
@@ -15730,7 +16413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=735/KP19/BQLDA"
   },
   {
     "stt": 685,
@@ -15753,7 +16437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=747/KP19/BQLDA"
   },
   {
     "stt": 686,
@@ -15776,7 +16461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=358/KP19/BQLDA"
   },
   {
     "stt": 687,
@@ -15799,7 +16485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=954/KP19/BQLDA"
   },
   {
     "stt": 688,
@@ -15822,7 +16509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=948/KP19/BQLDA"
   },
   {
     "stt": 689,
@@ -15845,7 +16533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=745/KP19/BQLDA"
   },
   {
     "stt": 690,
@@ -15868,7 +16557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=953/KP19/BQLDA"
   },
   {
     "stt": 691,
@@ -15891,7 +16581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1230/KP19/BQLDA"
   },
   {
     "stt": 692,
@@ -15914,7 +16605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1087/KP19/BQLDA"
   },
   {
     "stt": 693,
@@ -15937,7 +16629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=734/KP19/BQLDA"
   },
   {
     "stt": 694,
@@ -15960,7 +16653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=412/KP18/BQLDA"
   },
   {
     "stt": 695,
@@ -15983,7 +16677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=193/KP18/BQLDA"
   },
   {
     "stt": 696,
@@ -16006,7 +16701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=460/KP18/BQLDA"
   },
   {
     "stt": 697,
@@ -16029,7 +16725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=102/KP18/BQLDA"
   },
   {
     "stt": 698,
@@ -16052,7 +16749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=88/KP18/BQLDA"
   },
   {
     "stt": 699,
@@ -16075,7 +16773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=392/KP18/BQLDA"
   },
   {
     "stt": 700,
@@ -16098,7 +16797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=369/KP18/BQLDA"
   },
   {
     "stt": 701,
@@ -16121,7 +16821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=287/KP18/BQLDA"
   },
   {
     "stt": 702,
@@ -16144,7 +16845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=258/KP18/BQLDA"
   },
   {
     "stt": 703,
@@ -16167,7 +16869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=485/KP18/BQLDA"
   },
   {
     "stt": 704,
@@ -16190,7 +16893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=71/KP18/BQLDA"
   },
   {
     "stt": 705,
@@ -16213,7 +16917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=609/KP17/BQLDA"
   },
   {
     "stt": 706,
@@ -16236,7 +16941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=608/KP17/BQLDA"
   },
   {
     "stt": 707,
@@ -16259,7 +16965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=519/KP17/BQLDA"
   },
   {
     "stt": 708,
@@ -16282,7 +16989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=154/KP17/BQLDA"
   },
   {
     "stt": 709,
@@ -16305,7 +17013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=26/KP17/BQLDA"
   },
   {
     "stt": 710,
@@ -16328,7 +17037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=124/KP17/BQLDA"
   },
   {
     "stt": 711,
@@ -16351,7 +17061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=09/KP17/BQLDA"
   },
   {
     "stt": 712,
@@ -16374,7 +17085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=71/KP17/BQLDA"
   },
   {
     "stt": 713,
@@ -16397,7 +17109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=40/KP17/BQLDA"
   },
   {
     "stt": 714,
@@ -16420,7 +17133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=112/KP17/BQLDA"
   },
   {
     "stt": 715,
@@ -16443,7 +17157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=449/KP17/BQLDA"
   },
   {
     "stt": 716,
@@ -16466,7 +17181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=178/KP17/BQLDA"
   },
   {
     "stt": 717,
@@ -16489,7 +17205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=339/KP17/BQLDA"
   },
   {
     "stt": 718,
@@ -16512,7 +17229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=20/KP19/BQLDA"
   },
   {
     "stt": 719,
@@ -16535,7 +17253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=22/KP19/BQLDA"
   },
   {
     "stt": 720,
@@ -16558,7 +17277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=41/KP19/BQLDA"
   },
   {
     "stt": 721,
@@ -16581,7 +17301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=22/KP19/BQLDA"
   },
   {
     "stt": 722,
@@ -16604,7 +17325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=378/KP19/BQLDA"
   },
   {
     "stt": 723,
@@ -16627,7 +17349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=382/KP19/BQLDA"
   },
   {
     "stt": 724,
@@ -16650,7 +17373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=404/KP19/BQLDA"
   },
   {
     "stt": 725,
@@ -16673,7 +17397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=386/KP19/BQLDA"
   },
   {
     "stt": 726,
@@ -16696,7 +17421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=412/KP19/BQLDA"
   },
   {
     "stt": 727,
@@ -16719,7 +17445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=373/KP19/BQLDA"
   },
   {
     "stt": 728,
@@ -16742,7 +17469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=409/KP19/BQLDA"
   },
   {
     "stt": 729,
@@ -16765,7 +17493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=661/KP19/BQLDA"
   },
   {
     "stt": 730,
@@ -16788,7 +17517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=432/KP19/BQLDA"
   },
   {
     "stt": 731,
@@ -16811,7 +17541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=739/KP19/BQLDA"
   },
   {
     "stt": 732,
@@ -16834,7 +17565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=815/KP19/BQLDA"
   },
   {
     "stt": 733,
@@ -16857,7 +17589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=817/KP19/BQLDA"
   },
   {
     "stt": 734,
@@ -16880,7 +17613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=959/KP19/BQLDA"
   },
   {
     "stt": 735,
@@ -16903,7 +17637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=985/KP19/BQLDA"
   },
   {
     "stt": 736,
@@ -16926,7 +17661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=966/KP19/BQLDA"
   },
   {
     "stt": 737,
@@ -16949,7 +17685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=988/KP19/BQLDA"
   },
   {
     "stt": 738,
@@ -16972,7 +17709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=961/KP19/BQLDA"
   },
   {
     "stt": 739,
@@ -16995,7 +17733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=977/KP19/BQLDA"
   },
   {
     "stt": 740,
@@ -17018,7 +17757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=986/KP19/BQLDA"
   },
   {
     "stt": 741,
@@ -17041,7 +17781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=19/KP19/BQLDA"
   },
   {
     "stt": 742,
@@ -17064,7 +17805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1202/KP19/BQLDA"
   },
   {
     "stt": 743,
@@ -17087,7 +17829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=550/KP19/BQLDA"
   },
   {
     "stt": 744,
@@ -17110,7 +17853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=25/KP19/BQLDA"
   },
   {
     "stt": 745,
@@ -17133,7 +17877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=911/KP19/BQLDA"
   },
   {
     "stt": 746,
@@ -17156,7 +17901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=932/KP19/BQLDA"
   },
   {
     "stt": 747,
@@ -17179,7 +17925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=921/KP19/BQLDA"
   },
   {
     "stt": 748,
@@ -17202,7 +17949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=670/KP19/BQLDA"
   },
   {
     "stt": 749,
@@ -17225,7 +17973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "23/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=639/KP19/BQLDA"
   },
   {
     "stt": 750,
@@ -17248,7 +17997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "24/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1060/KP19/BQLDA"
   },
   {
     "stt": 751,
@@ -17271,7 +18021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1037/KP19/BQLDA"
   },
   {
     "stt": 752,
@@ -17294,7 +18045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1025/KP19/BQLDA"
   },
   {
     "stt": 753,
@@ -17317,7 +18069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1017/KP19/BQLDA"
   },
   {
     "stt": 754,
@@ -17340,7 +18093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=454/KP19/BQLDA"
   },
   {
     "stt": 755,
@@ -17363,7 +18117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=451/KP19/BQLDA"
   },
   {
     "stt": 756,
@@ -17386,7 +18141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=457/KP19/BQLDA"
   },
   {
     "stt": 757,
@@ -17409,7 +18165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1015/KP19/BQLDA"
   },
   {
     "stt": 758,
@@ -17432,7 +18189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1044/KP19/BQLDA"
   },
   {
     "stt": 759,
@@ -17455,7 +18213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=142/KP19/BQLDA"
   },
   {
     "stt": 760,
@@ -17478,7 +18237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1265/KP19/BQLDA"
   },
   {
     "stt": 761,
@@ -17501,7 +18261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1263/KP19/BQLDA"
   },
   {
     "stt": 762,
@@ -17524,7 +18285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1264/KP19/BQLDA"
   },
   {
     "stt": 763,
@@ -17547,7 +18309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1262/KP19/BQLDA"
   },
   {
     "stt": 764,
@@ -17570,7 +18333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1261/KP19/BQLDA"
   },
   {
     "stt": 765,
@@ -17593,7 +18357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=293/KP19/BQLDA"
   },
   {
     "stt": 766,
@@ -17616,7 +18381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=304/KP19/BQLDA"
   },
   {
     "stt": 767,
@@ -17639,7 +18405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1237/KP19/BQLDA"
   },
   {
     "stt": 768,
@@ -17662,7 +18429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1231/KP19/BQLDA"
   },
   {
     "stt": 769,
@@ -17685,7 +18453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=255/KP19/BQLDA"
   },
   {
     "stt": 770,
@@ -17708,7 +18477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=302/KP19/BQLDA"
   },
   {
     "stt": 771,
@@ -17731,7 +18501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=275/KP18/BQLDA"
   },
   {
     "stt": 772,
@@ -17754,7 +18525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=316/KP18/BQLDA"
   },
   {
     "stt": 773,
@@ -17777,7 +18549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=484/KP18/BQLDA"
   },
   {
     "stt": 774,
@@ -17800,7 +18573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=301/KP18/BQLDA"
   },
   {
     "stt": 775,
@@ -17823,7 +18597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=521/KP18/BQLDA"
   },
   {
     "stt": 776,
@@ -17846,7 +18621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=399/KP18/BQLDA"
   },
   {
     "stt": 777,
@@ -17869,7 +18645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=191/KP18/BQLDA"
   },
   {
     "stt": 778,
@@ -17892,7 +18669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=143/KP18/BQLDA"
   },
   {
     "stt": 779,
@@ -17915,7 +18693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=97/KP18/BQLDA"
   },
   {
     "stt": 780,
@@ -17938,7 +18717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=466/KP18/BQLDA"
   },
   {
     "stt": 781,
@@ -17961,7 +18741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=355/KP18/BQLDA"
   },
   {
     "stt": 782,
@@ -17984,7 +18765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=350/KP18/BQLDA"
   },
   {
     "stt": 783,
@@ -18007,7 +18789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=118/KP18/BQLDA"
   },
   {
     "stt": 784,
@@ -18030,7 +18813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=329/KP17/BQLDA"
   },
   {
     "stt": 785,
@@ -18053,7 +18837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=610/KP17/BQLDA"
   },
   {
     "stt": 786,
@@ -18076,7 +18861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=378/KP17/BQLDA"
   },
   {
     "stt": 787,
@@ -18099,7 +18885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=193/KP17/BQLDA"
   },
   {
     "stt": 788,
@@ -18122,7 +18909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=194/KP17/BQLDA"
   },
   {
     "stt": 789,
@@ -18145,7 +18933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=508/KP17/BQLDA"
   },
   {
     "stt": 790,
@@ -18168,7 +18957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=612/KP17/BQLDA"
   },
   {
     "stt": 791,
@@ -18191,7 +18981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=117/KP17/BQLDA"
   },
   {
     "stt": 792,
@@ -18214,7 +19005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=38/KP17/BQLDA"
   },
   {
     "stt": 793,
@@ -18237,7 +19029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=218/KP17/BQLDA"
   },
   {
     "stt": 794,
@@ -18260,7 +19053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=219/KP17/BQLDA"
   },
   {
     "stt": 795,
@@ -18283,7 +19077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=216/KP17/BQLDA"
   },
   {
     "stt": 796,
@@ -18306,7 +19101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=215/KP17/BQLDA"
   },
   {
     "stt": 797,
@@ -18329,7 +19125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=51/KP17/BQLDA"
   },
   {
     "stt": 798,
@@ -18352,7 +19149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=140/KP17/BQLDA"
   },
   {
     "stt": 799,
@@ -18375,7 +19173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=551/KP17/BQLDA"
   },
   {
     "stt": 800,
@@ -18398,7 +19197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=552/KP17/BQLDA"
   },
   {
     "stt": 801,
@@ -18421,7 +19221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=553/KP17/BQLDA"
   },
   {
     "stt": 802,
@@ -18444,7 +19245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=554/KP17/BQLDA"
   },
   {
     "stt": 803,
@@ -18467,7 +19269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "27/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=126/KP17/BQLDA"
   },
   {
     "stt": 804,
@@ -18490,7 +19293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=29/KP18/BQLDA"
   },
   {
     "stt": 805,
@@ -18513,7 +19317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=340/KP18/BQLDA"
   },
   {
     "stt": 806,
@@ -18536,7 +19341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=525/KP18/BQLDA"
   },
   {
     "stt": 807,
@@ -18559,7 +19365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=347/KP18/BQLDA"
   },
   {
     "stt": 808,
@@ -18582,7 +19389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=409/KP18/BQLDA"
   },
   {
     "stt": 809,
@@ -18605,7 +19413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=08/KP18/BQLDA"
   },
   {
     "stt": 810,
@@ -18628,7 +19437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=333/KP18/BQLDA"
   },
   {
     "stt": 811,
@@ -18651,7 +19461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=339/KP18/BQLDA"
   },
   {
     "stt": 812,
@@ -18674,7 +19485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=87/KP18/BQLDA"
   },
   {
     "stt": 813,
@@ -18697,7 +19509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=349/KP18/BQLDA"
   },
   {
     "stt": 814,
@@ -18720,7 +19533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=370/KP18/BQLDA"
   },
   {
     "stt": 815,
@@ -18743,7 +19557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=123/KP18/BQLDA"
   },
   {
     "stt": 816,
@@ -18766,7 +19581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=353/KP18/BQLDA"
   },
   {
     "stt": 817,
@@ -18789,7 +19605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=414/KP18/BQLDA"
   },
   {
     "stt": 818,
@@ -18812,7 +19629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=431/KP18/BQLDA"
   },
   {
     "stt": 819,
@@ -18835,7 +19653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=213/KP18/BQLDA"
   },
   {
     "stt": 820,
@@ -18858,7 +19677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1229/KP19/BQLDA"
   },
   {
     "stt": 821,
@@ -18881,7 +19701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=63/KP19/BQLDA"
   },
   {
     "stt": 822,
@@ -18904,7 +19725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1043/KP19/BQLDA"
   },
   {
     "stt": 823,
@@ -18927,7 +19749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1011/KP19/BQLDA"
   },
   {
     "stt": 824,
@@ -18950,7 +19773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=143/KP19/BQLDA"
   },
   {
     "stt": 825,
@@ -18973,7 +19797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 826,
@@ -18996,7 +19821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 827,
@@ -19019,7 +19845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=340/KP19/BQLDA"
   },
   {
     "stt": 828,
@@ -19042,7 +19869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=352/KP19/BQLDA"
   },
   {
     "stt": 829,
@@ -19065,7 +19893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=266/KP19/BQLDA"
   },
   {
     "stt": 830,
@@ -19088,7 +19917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=843/KP19/BQLDA"
   },
   {
     "stt": 831,
@@ -19111,7 +19941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=369/KP19/BQLDA"
   },
   {
     "stt": 832,
@@ -19134,7 +19965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=323/KP19/BQLDA"
   },
   {
     "stt": 833,
@@ -19157,7 +19989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=326/KP19/BQLDA"
   },
   {
     "stt": 834,
@@ -19180,7 +20013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=359/KP19/BQLDA"
   },
   {
     "stt": 835,
@@ -19203,7 +20037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1089/KP19/BQLDA"
   },
   {
     "stt": 836,
@@ -19226,7 +20061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1086/KP19/BQLDA"
   },
   {
     "stt": 837,
@@ -19249,7 +20085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=437/KP19/BQLDA"
   },
   {
     "stt": 838,
@@ -19272,7 +20109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=455/KP19/BQLDA"
   },
   {
     "stt": 839,
@@ -19295,7 +20133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=299/KP19/BQLDA"
   },
   {
     "stt": 840,
@@ -19318,7 +20157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=298/KP19/BQLDA"
   },
   {
     "stt": 841,
@@ -19341,7 +20181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=300/KP19/BQLDA"
   },
   {
     "stt": 842,
@@ -19364,7 +20205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1236/KP19/BQLDA"
   },
   {
     "stt": 843,
@@ -19387,7 +20229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1238/KP19/BQLDA"
   },
   {
     "stt": 844,
@@ -19410,7 +20253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=697/KP19/BQLDA"
   },
   {
     "stt": 845,
@@ -19433,7 +20277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=114/KP19/BQLDA"
   },
   {
     "stt": 846,
@@ -19456,7 +20301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=144/KP19/BQLDA"
   },
   {
     "stt": 847,
@@ -19479,7 +20325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=936/KP19/BQLDA"
   },
   {
     "stt": 848,
@@ -19502,7 +20349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=907/KP19/BQLDA"
   },
   {
     "stt": 849,
@@ -19525,7 +20373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=743/KP19/BQLDA"
   },
   {
     "stt": 850,
@@ -19548,7 +20397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1227/KP19/BQLDA"
   },
   {
     "stt": 851,
@@ -19571,7 +20421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=811/KP19/BQLDA"
   },
   {
     "stt": 852,
@@ -19594,7 +20445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=812/KP19/BQLDA"
   },
   {
     "stt": 853,
@@ -19617,7 +20469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=813/KP19/BQLDA"
   },
   {
     "stt": 854,
@@ -19640,7 +20493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=814/KP19/BQLDA"
   },
   {
     "stt": 855,
@@ -19663,7 +20517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1124/KP19/BQLDA"
   },
   {
     "stt": 856,
@@ -19686,7 +20541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=133/KP19/BQLDA"
   },
   {
     "stt": 857,
@@ -19709,7 +20565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=316/KP19/BQLDA"
   },
   {
     "stt": 858,
@@ -19732,7 +20589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=867/KP19/BQLDA"
   },
   {
     "stt": 859,
@@ -19755,7 +20613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=871/KP19/BQLDA"
   },
   {
     "stt": 860,
@@ -19778,7 +20637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=567/KP19/BQLDA"
   },
   {
     "stt": 861,
@@ -19801,7 +20661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=533/KP19/BQLDA"
   },
   {
     "stt": 862,
@@ -19824,7 +20685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=282/KP19/BQLDA"
   },
   {
     "stt": 863,
@@ -19847,7 +20709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1203/KP19/BQLDA"
   },
   {
     "stt": 864,
@@ -19870,7 +20733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=283/KP19/BQLDA"
   },
   {
     "stt": 865,
@@ -19893,7 +20757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=666/KP19/BQLDA"
   },
   {
     "stt": 866,
@@ -19916,7 +20781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=662/KP19/BQLDA"
   },
   {
     "stt": 867,
@@ -19939,7 +20805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=296/KP17/BQLDA"
   },
   {
     "stt": 868,
@@ -19962,7 +20829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=122/KP17/BQLDA"
   },
   {
     "stt": 869,
@@ -19985,7 +20853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=121/KP17/BQLDA"
   },
   {
     "stt": 870,
@@ -20008,7 +20877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=165/KP17/BQLDA"
   },
   {
     "stt": 871,
@@ -20031,7 +20901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=538/KP17/BQLDA"
   },
   {
     "stt": 872,
@@ -20054,7 +20925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=403/KP17/BQLDA"
   },
   {
     "stt": 873,
@@ -20077,7 +20949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=599/KP17/BQLDA"
   },
   {
     "stt": 874,
@@ -20100,7 +20973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=220/KP17/BQLDA"
   },
   {
     "stt": 875,
@@ -20123,7 +20997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=225/KP17/BQLDA"
   },
   {
     "stt": 876,
@@ -20146,7 +21021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=180/KP17/BQLDA"
   },
   {
     "stt": 877,
@@ -20169,7 +21045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=144/KP17/BQLDA"
   },
   {
     "stt": 878,
@@ -20192,7 +21069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=150/KP17/BQLDA"
   },
   {
     "stt": 879,
@@ -20215,7 +21093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=137/KP17/BQLDA"
   },
   {
     "stt": 880,
@@ -20238,7 +21117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=249/KP17/BQLDA"
   },
   {
     "stt": 881,
@@ -20261,7 +21141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=252/KP17/BQLDA"
   },
   {
     "stt": 882,
@@ -20284,7 +21165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=251/KP17/BQLDA"
   },
   {
     "stt": 883,
@@ -20307,7 +21189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=286/KP17/BQLDA"
   },
   {
     "stt": 884,
@@ -20330,7 +21213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=06/KP17/BQLDA"
   },
   {
     "stt": 885,
@@ -20353,7 +21237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=43/KP17/BQLDA"
   },
   {
     "stt": 886,
@@ -20376,7 +21261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=24/KP19/BQLDA"
   },
   {
     "stt": 887,
@@ -20399,7 +21285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=413/KP19/BQLDA"
   },
   {
     "stt": 888,
@@ -20422,7 +21309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=379/KP19/BQLDA"
   },
   {
     "stt": 889,
@@ -20445,7 +21333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=374/KP19/BQLDA"
   },
   {
     "stt": 890,
@@ -20468,7 +21357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=798/KP19/BQLDA"
   },
   {
     "stt": 891,
@@ -20491,7 +21381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=800/KP19/BQLDA"
   },
   {
     "stt": 892,
@@ -20514,7 +21405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=801/KP19/BQLDA"
   },
   {
     "stt": 893,
@@ -20537,7 +21429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=805/KP19/BQLDA"
   },
   {
     "stt": 894,
@@ -20560,7 +21453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=806/KP19/BQLDA"
   },
   {
     "stt": 895,
@@ -20583,7 +21477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1046/KP19/BQLDA"
   },
   {
     "stt": 896,
@@ -20606,7 +21501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1045/KP19/BQLDA"
   },
   {
     "stt": 897,
@@ -20629,7 +21525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1007/KP17/BQLDA"
   },
   {
     "stt": 898,
@@ -20652,7 +21549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=967/KP17/BQLDA"
   },
   {
     "stt": 899,
@@ -20675,7 +21573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=510/KP19/BQLDA"
   },
   {
     "stt": 900,
@@ -20698,7 +21597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=777/KP19/BQLDA"
   },
   {
     "stt": 901,
@@ -20721,7 +21621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=778/KP19/BQLDA"
   },
   {
     "stt": 902,
@@ -20744,7 +21645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=119/KP19/BQLDA"
   },
   {
     "stt": 903,
@@ -20767,7 +21669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=151/KP19/BQLDA"
   },
   {
     "stt": 904,
@@ -20790,7 +21693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=308/KP19/BQLDA"
   },
   {
     "stt": 905,
@@ -20813,7 +21717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=309/KP19/BQLDA"
   },
   {
     "stt": 906,
@@ -20836,7 +21741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 907,
@@ -20859,7 +21765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=693/KP19/BQLDA"
   },
   {
     "stt": 908,
@@ -20882,7 +21789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=725/KP19/BQLDA"
   },
   {
     "stt": 909,
@@ -20905,7 +21813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1082/KP19/BQLDA"
   },
   {
     "stt": 910,
@@ -20928,7 +21837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1084/KP19/BQLDA"
   },
   {
     "stt": 911,
@@ -20951,7 +21861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=17/KP19/BQLDA"
   },
   {
     "stt": 912,
@@ -20974,7 +21885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=18/KP19/BQLDA"
   },
   {
     "stt": 913,
@@ -20997,7 +21909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=27/KP19/BQLDA"
   },
   {
     "stt": 914,
@@ -21020,7 +21933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=698/KP19/BQLDA"
   },
   {
     "stt": 915,
@@ -21043,7 +21957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1156/KP19/BQLDA"
   },
   {
     "stt": 916,
@@ -21066,7 +21981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1150/KP19/BQLDA"
   },
   {
     "stt": 917,
@@ -21089,7 +22005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1146/KP19/BQLDA"
   },
   {
     "stt": 918,
@@ -21112,7 +22029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1122/KP19/BQLDA"
   },
   {
     "stt": 919,
@@ -21135,7 +22053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1119/KP19/BQLDA"
   },
   {
     "stt": 920,
@@ -21158,7 +22077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=807/KP19/BQLDA"
   },
   {
     "stt": 921,
@@ -21181,7 +22101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=214/KP19/BQLDA"
   },
   {
     "stt": 922,
@@ -21204,7 +22125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=841/KP19/BQLDA"
   },
   {
     "stt": 923,
@@ -21227,7 +22149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=353/KP19/BQLDA"
   },
   {
     "stt": 924,
@@ -21250,7 +22173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=345/KP19/BQLDA"
   },
   {
     "stt": 925,
@@ -21273,7 +22197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=683/KP19/BQLDA"
   },
   {
     "stt": 926,
@@ -21296,7 +22221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=687/KP19/BQLDA"
   },
   {
     "stt": 927,
@@ -21319,7 +22245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=647/KP19/BQLDA"
   },
   {
     "stt": 928,
@@ -21342,7 +22269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=54/KP19/BQLDA"
   },
   {
     "stt": 929,
@@ -21365,7 +22293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=55/KP19/BQLDA"
   },
   {
     "stt": 930,
@@ -21388,7 +22317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=56/KP19/BQLDA"
   },
   {
     "stt": 931,
@@ -21411,7 +22341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=945/KP19/BQLDA"
   },
   {
     "stt": 932,
@@ -21434,7 +22365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=908/KP19/BQLDA"
   },
   {
     "stt": 933,
@@ -21457,7 +22389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1100/KP19/BQLDA"
   },
   {
     "stt": 934,
@@ -21480,7 +22413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 935,
@@ -21503,7 +22437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1059/KP19/BQLDA"
   },
   {
     "stt": 936,
@@ -21526,7 +22461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=456/KP19/BQLDA"
   },
   {
     "stt": 937,
@@ -21549,7 +22485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=461/KP19/BQLDA"
   },
   {
     "stt": 938,
@@ -21572,7 +22509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=449/KP19/BQLDA"
   },
   {
     "stt": 939,
@@ -21595,7 +22533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=57/KP19/BQLDA"
   },
   {
     "stt": 940,
@@ -21618,7 +22557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=68/KP19/BQLDA"
   },
   {
     "stt": 941,
@@ -21641,7 +22581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=579/KP19/BQLDA"
   },
   {
     "stt": 942,
@@ -21664,7 +22605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=231/KP18/BQLDA"
   },
   {
     "stt": 943,
@@ -21687,7 +22629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=453/KP18/BQLDA"
   },
   {
     "stt": 944,
@@ -21710,7 +22653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=379/KP18/BQLDA"
   },
   {
     "stt": 945,
@@ -21733,7 +22677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=365/KP18/BQLDA"
   },
   {
     "stt": 946,
@@ -21756,7 +22701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=47/KP18/BQLDA"
   },
   {
     "stt": 947,
@@ -21779,7 +22725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=281/KP17/BQLDA"
   },
   {
     "stt": 948,
@@ -21802,7 +22749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=475/KP17/BQLDA"
   },
   {
     "stt": 949,
@@ -21825,7 +22773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=590/KP17/BQLDA"
   },
   {
     "stt": 950,
@@ -21848,7 +22797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=61/KP17/BQLDA"
   },
   {
     "stt": 951,
@@ -21871,7 +22821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=139/KP17/BQLDA"
   },
   {
     "stt": 952,
@@ -21894,7 +22845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=82/KP17/BQLDA"
   },
   {
     "stt": 953,
@@ -21917,7 +22869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=50/KP17/BQLDA"
   },
   {
     "stt": 954,
@@ -21940,7 +22893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=99/KP17/BQLDA"
   },
   {
     "stt": 955,
@@ -21963,7 +22917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=138/KP17/BQLDA"
   },
   {
     "stt": 956,
@@ -21986,7 +22941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=567/KP17/BQLDA"
   },
   {
     "stt": 957,
@@ -22009,7 +22965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=250/KP17/BQLDA"
   },
   {
     "stt": 958,
@@ -22032,7 +22989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=568/KP17/BQLDA"
   },
   {
     "stt": 959,
@@ -22055,7 +23013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=151/KP17/BQLDA"
   },
   {
     "stt": 960,
@@ -22078,7 +23037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=301/KP17/BQLDA"
   },
   {
     "stt": 961,
@@ -22101,7 +23061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=380/KP17/BQLDA"
   },
   {
     "stt": 962,
@@ -22124,7 +23085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=384/KP17/BQLDA"
   },
   {
     "stt": 963,
@@ -22147,7 +23109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=430/KP17/BQLDA"
   },
   {
     "stt": 964,
@@ -22170,7 +23133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=429/KP17/BQLDA"
   },
   {
     "stt": 965,
@@ -22193,7 +23157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "28/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=172/KP17/BQLDA"
   },
   {
     "stt": 966,
@@ -22216,7 +23181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=432/KP17/BQLDA"
   },
   {
     "stt": 967,
@@ -22239,7 +23205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=160/KP17/BQLDA"
   },
   {
     "stt": 968,
@@ -22262,7 +23229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=41/KP17/BQLDA"
   },
   {
     "stt": 969,
@@ -22285,7 +23253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=156/KP17/BQLDA"
   },
   {
     "stt": 970,
@@ -22308,7 +23277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=161/KP17/BQLDA"
   },
   {
     "stt": 971,
@@ -22331,7 +23301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=275/KP17/BQLDA"
   },
   {
     "stt": 972,
@@ -22354,7 +23325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=268/KP19/BQLDA"
   },
   {
     "stt": 973,
@@ -22377,7 +23349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=363/KP19/BQLDA"
   },
   {
     "stt": 974,
@@ -22400,7 +23373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=354/KP19/BQLDA"
   },
   {
     "stt": 975,
@@ -22423,7 +23397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=695/KP19/BQLDA"
   },
   {
     "stt": 976,
@@ -22446,7 +23421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=718/KP19/BQLDA"
   },
   {
     "stt": 977,
@@ -22469,7 +23445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1121/KP19/BQLDA"
   },
   {
     "stt": 978,
@@ -22492,7 +23469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1153/KP19/BQLDA"
   },
   {
     "stt": 979,
@@ -22515,7 +23493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=202/KP19/BQLDA"
   },
   {
     "stt": 980,
@@ -22538,7 +23517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=203/KP19/BQLDA"
   },
   {
     "stt": 981,
@@ -22561,7 +23541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=30/KP19/BQLDA"
   },
   {
     "stt": 982,
@@ -22584,7 +23565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=937/KP19/BQLDA"
   },
   {
     "stt": 983,
@@ -22607,7 +23589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=749/KP19/BQLDA"
   },
   {
     "stt": 984,
@@ -22630,7 +23613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=906/KP19/BQLDA"
   },
   {
     "stt": 985,
@@ -22653,7 +23637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=914/KP19/BQLDA"
   },
   {
     "stt": 986,
@@ -22676,7 +23661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=942/KP19/BQLDA"
   },
   {
     "stt": 987,
@@ -22699,7 +23685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=296/KP19/BQLDA"
   },
   {
     "stt": 988,
@@ -22722,7 +23709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=259/KP19/BQLDA"
   },
   {
     "stt": 989,
@@ -22745,7 +23733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=237/KP19/BQLDA"
   },
   {
     "stt": 990,
@@ -22768,7 +23757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=295/KP19/BQLDA"
   },
   {
     "stt": 991,
@@ -22791,7 +23781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=236/KP19/BQLDA"
   },
   {
     "stt": 992,
@@ -22814,7 +23805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=250/KP19/BQLDA"
   },
   {
     "stt": 993,
@@ -22837,7 +23829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1081/KP19/BQLDA"
   },
   {
     "stt": 994,
@@ -22860,7 +23853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1093/KP19/BQLDA"
   },
   {
     "stt": 995,
@@ -22883,7 +23877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=116/KP19/BQLDA"
   },
   {
     "stt": 996,
@@ -22906,7 +23901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=797/KP19/BQLDA"
   },
   {
     "stt": 997,
@@ -22929,7 +23925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=416/KP19/BQLDA"
   },
   {
     "stt": 998,
@@ -22952,7 +23949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=580/KP19/BQLDA"
   },
   {
     "stt": 999,
@@ -22975,7 +23973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1206/KP19/BQLDA"
   },
   {
     "stt": 1000,
@@ -22998,7 +23997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1172/KP19/BQLDA"
   },
   {
     "stt": 1001,
@@ -23021,7 +24021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=519/KP19/BQLDA"
   },
   {
     "stt": 1002,
@@ -23044,7 +24045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1014/KP19/BQLDA"
   },
   {
     "stt": 1003,
@@ -23067,7 +24069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=525/KP19/BQLDA"
   },
   {
     "stt": 1004,
@@ -23090,7 +24093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1032/KP19/BQLDA"
   },
   {
     "stt": 1005,
@@ -23113,7 +24117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=526/KP19/BQLDA"
   },
   {
     "stt": 1006,
@@ -23136,7 +24141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=530/KP19/BQLDA"
   },
   {
     "stt": 1007,
@@ -23159,7 +24165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=783/KP19/BQLDA"
   },
   {
     "stt": 1008,
@@ -23182,7 +24189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=785/KP19/BQLDA"
   },
   {
     "stt": 1009,
@@ -23205,7 +24213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=787/KP19/BQLDA"
   },
   {
     "stt": 1010,
@@ -23228,7 +24237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=788/KP19/BQLDA"
   },
   {
     "stt": 1011,
@@ -23251,7 +24261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=784/KP19/BQLDA"
   },
   {
     "stt": 1012,
@@ -23274,7 +24285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=197/KP19/BQLDA"
   },
   {
     "stt": 1013,
@@ -23297,7 +24309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=199/KP19/BQLDA"
   },
   {
     "stt": 1014,
@@ -23320,7 +24333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=192/KP19/BQLDA"
   },
   {
     "stt": 1015,
@@ -23343,7 +24357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=989/KP19/BQLDA"
   },
   {
     "stt": 1016,
@@ -23366,7 +24381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=195/KP19/BQLDA"
   },
   {
     "stt": 1017,
@@ -23389,7 +24405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=189/KP19/BQLDA"
   },
   {
     "stt": 1018,
@@ -23412,7 +24429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=958/KP19/BQLDA"
   },
   {
     "stt": 1019,
@@ -23435,7 +24453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=959/KP19/BQLDA"
   },
   {
     "stt": 1020,
@@ -23458,7 +24477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=45/KP18/BQLDA"
   },
   {
     "stt": 1021,
@@ -23481,7 +24501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=315/KP18/BQLDA"
   },
   {
     "stt": 1022,
@@ -23504,7 +24525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=354/KP18/BQLDA"
   },
   {
     "stt": 1023,
@@ -23527,7 +24549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=196/KP18/BQLDA"
   },
   {
     "stt": 1024,
@@ -23550,7 +24573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=36/KP18/BQLDA"
   },
   {
     "stt": 1025,
@@ -23573,7 +24597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=147/KP18/BQLDA"
   },
   {
     "stt": 1026,
@@ -23596,7 +24621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=61/KP18/BQLDA"
   },
   {
     "stt": 1027,
@@ -23619,7 +24645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=26/KP18/BQLDA"
   },
   {
     "stt": 1028,
@@ -23642,7 +24669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=358/KP18/BQLDA"
   },
   {
     "stt": 1029,
@@ -23665,7 +24693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=298/KP18/BQLDA"
   },
   {
     "stt": 1030,
@@ -23688,7 +24717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=07/KP18/BQLDA"
   },
   {
     "stt": 1031,
@@ -23711,7 +24741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=430/KP18/BQLDA"
   },
   {
     "stt": 1032,
@@ -23734,7 +24765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=508/KP18/BQLDA"
   },
   {
     "stt": 1033,
@@ -23757,7 +24789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=158/KP18/BQLDA"
   },
   {
     "stt": 1034,
@@ -23780,7 +24813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=342/KP18/BQLDA"
   },
   {
     "stt": 1035,
@@ -23803,7 +24837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=500/KP18/BQLDA"
   },
   {
     "stt": 1036,
@@ -23826,7 +24861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=91/KP18/BQLDA"
   },
   {
     "stt": 1037,
@@ -23849,7 +24885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=389/KP18/BQLDA"
   },
   {
     "stt": 1038,
@@ -23872,7 +24909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=131/KP18/BQLDA"
   },
   {
     "stt": 1039,
@@ -23895,7 +24933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=420/KP18/BQLDA"
   },
   {
     "stt": 1040,
@@ -23918,7 +24957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=511/KP18/BQLDA"
   },
   {
     "stt": 1041,
@@ -23941,7 +24981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=398/KP18/BQLDA"
   },
   {
     "stt": 1042,
@@ -23964,7 +25005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=307/KP18/BQLDA"
   },
   {
     "stt": 1043,
@@ -23987,7 +25029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=323/KP18/BQLDA"
   },
   {
     "stt": 1044,
@@ -24010,7 +25053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=483/KP18/BQLDA"
   },
   {
     "stt": 1045,
@@ -24033,7 +25077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=490/KP18/BQLDA"
   },
   {
     "stt": 1046,
@@ -24056,7 +25101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=323/KP17/BQLDA"
   },
   {
     "stt": 1047,
@@ -24079,7 +25125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=321/KP17/BQLDA"
   },
   {
     "stt": 1048,
@@ -24102,7 +25149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=58/KP17/BQLDA"
   },
   {
     "stt": 1049,
@@ -24125,7 +25173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=04/KP17/BQLDA"
   },
   {
     "stt": 1050,
@@ -24148,7 +25197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=163/KP17/BQLDA"
   },
   {
     "stt": 1051,
@@ -24171,7 +25221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=570/KP17/BQLDA"
   },
   {
     "stt": 1052,
@@ -24194,7 +25245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1053,
@@ -24217,7 +25269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1054,
@@ -24240,7 +25293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1055,
@@ -24263,7 +25317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1056,
@@ -24286,7 +25341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1057,
@@ -24309,7 +25365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1068/KP19/BQLDA"
   },
   {
     "stt": 1058,
@@ -24332,7 +25389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1095/KP19/BQLDA"
   },
   {
     "stt": 1059,
@@ -24355,7 +25413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1096/KP19/BQLDA"
   },
   {
     "stt": 1060,
@@ -24378,7 +25437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1097/KP19/BQLDA"
   },
   {
     "stt": 1061,
@@ -24401,7 +25461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1098/KP19/BQLDA"
   },
   {
     "stt": 1062,
@@ -24424,7 +25485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=462/KP19/BQLDA"
   },
   {
     "stt": 1063,
@@ -24447,7 +25509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=460/KP19/BQLDA"
   },
   {
     "stt": 1064,
@@ -24470,7 +25533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=434/KP19/BQLDA"
   },
   {
     "stt": 1065,
@@ -24493,7 +25557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=458/KP19/BQLDA"
   },
   {
     "stt": 1066,
@@ -24516,7 +25581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1161/KP19/BQLDA"
   },
   {
     "stt": 1067,
@@ -24539,7 +25605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1164/KP19/BQLDA"
   },
   {
     "stt": 1068,
@@ -24562,7 +25629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=344/KP19/BQLDA"
   },
   {
     "stt": 1069,
@@ -24585,7 +25653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1267/KP19/BQLDA"
   },
   {
     "stt": 1070,
@@ -24608,7 +25677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=848/KP19/BQLDA"
   },
   {
     "stt": 1071,
@@ -24631,7 +25701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=343/KP19/BQLDA"
   },
   {
     "stt": 1072,
@@ -24654,7 +25725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1073,
@@ -24677,7 +25749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=706/KP19/BQLDA"
   },
   {
     "stt": 1074,
@@ -24700,7 +25773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=233/KP19/BQLDA"
   },
   {
     "stt": 1075,
@@ -24723,7 +25797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=213/KP19/BQLDA"
   },
   {
     "stt": 1076,
@@ -24746,7 +25821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=216/KP19/BQLDA"
   },
   {
     "stt": 1077,
@@ -24769,7 +25845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=62/KP19/BQLDA"
   },
   {
     "stt": 1078,
@@ -24792,7 +25869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=64/KP19/BQLDA"
   },
   {
     "stt": 1079,
@@ -24815,7 +25893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=65/KP19/BQLDA"
   },
   {
     "stt": 1080,
@@ -24838,7 +25917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=75/KP19/BQLDA"
   },
   {
     "stt": 1081,
@@ -24861,7 +25941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=84/KP19/BQLDA"
   },
   {
     "stt": 1082,
@@ -24884,7 +25965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=535/KP19/BQLDA"
   },
   {
     "stt": 1083,
@@ -24907,7 +25989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=641/KP19/BQLDA"
   },
   {
     "stt": 1084,
@@ -24930,7 +26013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=164/KP19/BQLDA"
   },
   {
     "stt": 1085,
@@ -24953,7 +26037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "29/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=163/KP19/BQLDA"
   },
   {
     "stt": 1086,
@@ -24976,7 +26061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1087,
@@ -24999,7 +26085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "31/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1088,
@@ -25022,7 +26109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=481/KP18/BQLDA"
   },
   {
     "stt": 1089,
@@ -25045,7 +26133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=62/KP18/BQLDA"
   },
   {
     "stt": 1090,
@@ -25068,7 +26157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=152/KP18/BQLDA"
   },
   {
     "stt": 1091,
@@ -25091,7 +26181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=294/KP18/BQLDA"
   },
   {
     "stt": 1092,
@@ -25114,7 +26205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=162/KP17/BQLDA"
   },
   {
     "stt": 1093,
@@ -25137,7 +26229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=485/KP17/BQLDA"
   },
   {
     "stt": 1094,
@@ -25160,7 +26253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=585/KP17/BQLDA"
   },
   {
     "stt": 1095,
@@ -25183,7 +26277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=27/KP17/BQLDA"
   },
   {
     "stt": 1096,
@@ -25206,7 +26301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=344/KP17/BQLDA"
   },
   {
     "stt": 1097,
@@ -25229,7 +26325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=306/KP17/BQLDA"
   },
   {
     "stt": 1098,
@@ -25252,7 +26349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=370/KP17/BQLDA"
   },
   {
     "stt": 1099,
@@ -25275,7 +26373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=197/KP17/BQLDA"
   },
   {
     "stt": 1100,
@@ -25298,7 +26397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=452/KP17/BQLDA"
   },
   {
     "stt": 1101,
@@ -25321,7 +26421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "03/08/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=162/KP17/BQLDA"
   },
   {
     "stt": 1102,
@@ -25344,7 +26445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "30/07/2026",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=423/KP17/BQLDA"
   },
   {
     "stt": 1103,
@@ -25367,7 +26469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=84/KP18/BQLDA"
   },
   {
     "stt": 1104,
@@ -25390,7 +26493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=199/KP18/BQLDA"
   },
   {
     "stt": 1105,
@@ -25413,7 +26517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=410/KP18/BQLDA"
   },
   {
     "stt": 1106,
@@ -25436,7 +26541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=101/KP18/BQLDA"
   },
   {
     "stt": 1107,
@@ -25459,7 +26565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=362/KP18/BQLDA"
   },
   {
     "stt": 1108,
@@ -25482,7 +26589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=240/KP18/BQLDA"
   },
   {
     "stt": 1109,
@@ -25505,7 +26613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=99/KP18/BQLDA"
   },
   {
     "stt": 1110,
@@ -25528,7 +26637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=448/KP18/BQLDA"
   },
   {
     "stt": 1111,
@@ -25551,7 +26661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=352/KP18/BQLDA"
   },
   {
     "stt": 1112,
@@ -25574,7 +26685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=367/KP18/BQLDA"
   },
   {
     "stt": 1113,
@@ -25597,7 +26709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=03/KP18/BQLDA"
   },
   {
     "stt": 1114,
@@ -25620,7 +26733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=189/KP18/BQLDA"
   },
   {
     "stt": 1115,
@@ -25643,7 +26757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=156/KP18/BQLDA"
   },
   {
     "stt": 1116,
@@ -25666,7 +26781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=02/KP18/BQLDA"
   },
   {
     "stt": 1117,
@@ -25689,7 +26805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=05/KP18/BQLDA"
   },
   {
     "stt": 1118,
@@ -25712,7 +26829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=117/KP18/BQLDA"
   },
   {
     "stt": 1119,
@@ -25735,7 +26853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=207/KP18/BQLDA"
   },
   {
     "stt": 1120,
@@ -25758,7 +26877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=43/KP18/BQLDA"
   },
   {
     "stt": 1121,
@@ -25781,7 +26901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=66/KP18/BQLDA"
   },
   {
     "stt": 1122,
@@ -25804,7 +26925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=95/KP18/BQLDA"
   },
   {
     "stt": 1123,
@@ -25827,7 +26949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=364/KP18/BQLDA"
   },
   {
     "stt": 1124,
@@ -25850,7 +26973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=139/KP18/BQLDA"
   },
   {
     "stt": 1125,
@@ -25873,7 +26997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=335/KP18/BQLDA"
   },
   {
     "stt": 1126,
@@ -25896,7 +27021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=205/KP19/BQLDA"
   },
   {
     "stt": 1127,
@@ -25919,7 +27045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=385/KP19/BQLDA"
   },
   {
     "stt": 1128,
@@ -25942,7 +27069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=802/KP19/BQLDA"
   },
   {
     "stt": 1129,
@@ -25965,7 +27093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1020/KP19/BQLDA"
   },
   {
     "stt": 1130,
@@ -25988,7 +27117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1048/KP19/BQLDA"
   },
   {
     "stt": 1131,
@@ -26011,7 +27141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1047/KP19/BQLDA"
   },
   {
     "stt": 1132,
@@ -26034,7 +27165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=158/KP19/BQLDA"
   },
   {
     "stt": 1133,
@@ -26057,7 +27189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=177/KP19/BQLDA"
   },
   {
     "stt": 1134,
@@ -26080,7 +27213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=808/KP19/BQLDA"
   },
   {
     "stt": 1135,
@@ -26103,7 +27237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=86/KP19/BQLDA"
   },
   {
     "stt": 1136,
@@ -26126,7 +27261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=89/KP19/BQLDA"
   },
   {
     "stt": 1137,
@@ -26149,7 +27285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=87/KP19/BQLDA"
   },
   {
     "stt": 1138,
@@ -26172,7 +27309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=949/KP19/BQLDA"
   },
   {
     "stt": 1139,
@@ -26195,7 +27333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=377/KP19/BQLDA"
   },
   {
     "stt": 1140,
@@ -26218,7 +27357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1040/KP19/BQLDA"
   },
   {
     "stt": 1141,
@@ -26241,7 +27381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=674/KP19/BQLDA"
   },
   {
     "stt": 1142,
@@ -26264,7 +27405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1076/KP19/BQLDA"
   },
   {
     "stt": 1143,
@@ -26287,7 +27429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=98/KP17/BQLDA"
   },
   {
     "stt": 1144,
@@ -26310,7 +27453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=412/KP17/BQLDA"
   },
   {
     "stt": 1145,
@@ -26333,7 +27477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=418/KP17/BQLDA"
   },
   {
     "stt": 1146,
@@ -26356,7 +27501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=304/KP17/BQLDA"
   },
   {
     "stt": 1147,
@@ -26379,7 +27525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=327/KP17/BQLDA"
   },
   {
     "stt": 1148,
@@ -26402,7 +27549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=504/KP17/BQLDA"
   },
   {
     "stt": 1149,
@@ -26425,7 +27573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=502/KP17/BQLDA"
   },
   {
     "stt": 1150,
@@ -26448,7 +27597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=495/KP17/BQLDA"
   },
   {
     "stt": 1151,
@@ -26471,7 +27621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=503/KP17/BQLDA"
   },
   {
     "stt": 1152,
@@ -26494,7 +27645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=497/KP17/BQLDA"
   },
   {
     "stt": 1153,
@@ -26517,7 +27669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=498/KP17/BQLDA"
   },
   {
     "stt": 1154,
@@ -26540,7 +27693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=500/KP17/BQLDA"
   },
   {
     "stt": 1155,
@@ -26563,7 +27717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=510/KP17/BQLDA"
   },
   {
     "stt": 1156,
@@ -26586,7 +27741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=302/KP17/BQLDA"
   },
   {
     "stt": 1157,
@@ -26609,7 +27765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=506/KP17/BQLDA"
   },
   {
     "stt": 1158,
@@ -26632,7 +27789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=495/KP17/BQLDA"
   },
   {
     "stt": 1159,
@@ -26655,7 +27813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=499/KP17/BQLDA"
   },
   {
     "stt": 1160,
@@ -26678,7 +27837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=500/KP17/BQLDA"
   },
   {
     "stt": 1161,
@@ -26701,7 +27861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=501/KP17/BQLDA"
   },
   {
     "stt": 1162,
@@ -26724,7 +27885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=503/KP17/BQLDA"
   },
   {
     "stt": 1163,
@@ -26747,7 +27909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=496/KP17/BQLDA"
   },
   {
     "stt": 1164,
@@ -26770,7 +27933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=513/KP17/BQLDA"
   },
   {
     "stt": 1165,
@@ -26793,7 +27957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=222/KP17/BQLDA"
   },
   {
     "stt": 1166,
@@ -26816,7 +27981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=223/KP17/BQLDA"
   },
   {
     "stt": 1167,
@@ -26839,7 +28005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=68/KP18/BQLDA"
   },
   {
     "stt": 1168,
@@ -26862,7 +28029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=403/KP18/BQLDA"
   },
   {
     "stt": 1169,
@@ -26885,7 +28053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=178/KP18/BQLDA"
   },
   {
     "stt": 1170,
@@ -26908,7 +28077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=493/KP18/BQLDA"
   },
   {
     "stt": 1171,
@@ -26931,7 +28101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=142/KP18/BQLDA"
   },
   {
     "stt": 1172,
@@ -26954,7 +28125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=151/KP18/BQLDA"
   },
   {
     "stt": 1173,
@@ -26977,7 +28149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=532/KP18/BQLDA"
   },
   {
     "stt": 1174,
@@ -27000,7 +28173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=110/KP18/BQLDA"
   },
   {
     "stt": 1175,
@@ -27023,7 +28197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=108/KP18/BQLDA"
   },
   {
     "stt": 1176,
@@ -27046,7 +28221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=127/KP18/BQLDA"
   },
   {
     "stt": 1177,
@@ -27069,7 +28245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=90/KP18/BQLDA"
   },
   {
     "stt": 1178,
@@ -27092,7 +28269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=04/KP18/BQLDA"
   },
   {
     "stt": 1179,
@@ -27115,7 +28293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=380/KP18/BQLDA"
   },
   {
     "stt": 1180,
@@ -27138,7 +28317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=41/KP18/BQLDA"
   },
   {
     "stt": 1181,
@@ -27161,7 +28341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=12/KP18/BQLDA"
   },
   {
     "stt": 1182,
@@ -27184,7 +28365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=404/KP18/BQLDA"
   },
   {
     "stt": 1183,
@@ -27207,7 +28389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=73/KP18/BQLDA"
   },
   {
     "stt": 1184,
@@ -27230,7 +28413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=72/KP18/BQLDA"
   },
   {
     "stt": 1185,
@@ -27253,7 +28437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=384/KP18/BQLDA"
   },
   {
     "stt": 1186,
@@ -27276,7 +28461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=350/KP19/BQLDA"
   },
   {
     "stt": 1187,
@@ -27299,7 +28485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=364/KP19/BQLDA"
   },
   {
     "stt": 1188,
@@ -27322,7 +28509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=333/KP19/BQLDA"
   },
   {
     "stt": 1189,
@@ -27345,7 +28533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1162/KP19/BQLDA"
   },
   {
     "stt": 1190,
@@ -27368,7 +28557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1166/KP19/BQLDA"
   },
   {
     "stt": 1191,
@@ -27391,7 +28581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1177/KP19/BQLDA"
   },
   {
     "stt": 1192,
@@ -27414,7 +28605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1116/KP19/BQLDA"
   },
   {
     "stt": 1193,
@@ -27437,7 +28629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1117/KP19/BQLDA"
   },
   {
     "stt": 1194,
@@ -27460,7 +28653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=721/KP19/BQLDA"
   },
   {
     "stt": 1195,
@@ -27483,7 +28677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=711/KP19/BQLDA"
   },
   {
     "stt": 1196,
@@ -27506,7 +28701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=714/KP19/BQLDA"
   },
   {
     "stt": 1197,
@@ -27529,7 +28725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=715/KP19/BQLDA"
   },
   {
     "stt": 1198,
@@ -27552,7 +28749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1036/KP19/BQLDA"
   },
   {
     "stt": 1199,
@@ -27575,7 +28773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1167/KP19/BQLDA"
   },
   {
     "stt": 1200,
@@ -27598,7 +28797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1018/KP19/BQLDA"
   },
   {
     "stt": 1201,
@@ -27621,7 +28821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1022/KP19/BQLDA"
   },
   {
     "stt": 1202,
@@ -27644,7 +28845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1039/KP19/BQLDA"
   },
   {
     "stt": 1203,
@@ -27667,7 +28869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1204,
@@ -27690,7 +28893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1205,
@@ -27713,7 +28917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1206,
@@ -27736,7 +28941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1207,
@@ -27759,7 +28965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=570/KP19/BQLDA"
   },
   {
     "stt": 1208,
@@ -27782,7 +28989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=58/KP19/BQLDA"
   },
   {
     "stt": 1209,
@@ -27805,7 +29013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=59/KP19/BQLDA"
   },
   {
     "stt": 1210,
@@ -27828,7 +29037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=249/KP19/BQLDA"
   },
   {
     "stt": 1211,
@@ -27851,7 +29061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=225/KP19/BQLDA"
   },
   {
     "stt": 1212,
@@ -27874,7 +29085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=220/KP19/BQLDA"
   },
   {
     "stt": 1213,
@@ -27897,7 +29109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=234/KP19/BQLDA"
   },
   {
     "stt": 1214,
@@ -27920,7 +29133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=222/KP19/BQLDA"
   },
   {
     "stt": 1215,
@@ -27943,7 +29157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=229/KP19/BQLDA"
   },
   {
     "stt": 1216,
@@ -27966,7 +29181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=232/KP19/BQLDA"
   },
   {
     "stt": 1217,
@@ -27989,7 +29205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=226/KP19/BQLDA"
   },
   {
     "stt": 1218,
@@ -28012,7 +29229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=215/KP19/BQLDA"
   },
   {
     "stt": 1219,
@@ -28035,7 +29253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=235/KP19/BQLDA"
   },
   {
     "stt": 1220,
@@ -28058,7 +29277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=57/KP19/BQLDA"
   },
   {
     "stt": 1221,
@@ -28081,7 +29301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=931/KP19/BQLDA"
   },
   {
     "stt": 1222,
@@ -28104,7 +29325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1223,
@@ -28127,7 +29349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=396/KP19/BQLDA"
   },
   {
     "stt": 1224,
@@ -28150,7 +29373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=419/KP19/BQLDA"
   },
   {
     "stt": 1225,
@@ -28173,7 +29397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=387/KP19/BQLDA"
   },
   {
     "stt": 1226,
@@ -28196,7 +29421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=399/KP19/BQLDA"
   },
   {
     "stt": 1227,
@@ -28219,7 +29445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=799/KP19/BQLDA"
   },
   {
     "stt": 1228,
@@ -28242,7 +29469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=376/KP19/BQLDA"
   },
   {
     "stt": 1229,
@@ -28265,7 +29493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=395/KP19/BQLDA"
   },
   {
     "stt": 1230,
@@ -28288,7 +29517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=381/KP19/BQLDA"
   },
   {
     "stt": 1231,
@@ -28311,7 +29541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=306/KP19/BQLDA"
   },
   {
     "stt": 1232,
@@ -28334,7 +29565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=315/KP19/BQLDA"
   },
   {
     "stt": 1233,
@@ -28357,7 +29589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=853/KP19/BQLDA"
   },
   {
     "stt": 1234,
@@ -28380,7 +29613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=866/KP19/BQLDA"
   },
   {
     "stt": 1235,
@@ -28403,7 +29637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=879/KP19/BQLDA"
   },
   {
     "stt": 1236,
@@ -28426,7 +29661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=892/KP19/BQLDA"
   },
   {
     "stt": 1237,
@@ -28449,7 +29685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=901/KP19/BQLDA"
   },
   {
     "stt": 1238,
@@ -28472,7 +29709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
   },
   {
     "stt": 1239,
@@ -28495,7 +29733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=04/KP19/BQLDA"
   },
   {
     "stt": 1240,
@@ -28518,7 +29757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=05/KP19/BQLDA"
   },
   {
     "stt": 1241,
@@ -28541,7 +29781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=16/KP19/BQLDA"
   },
   {
     "stt": 1242,
@@ -28564,7 +29805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=32/KP19/BQLDA"
   },
   {
     "stt": 1243,
@@ -28587,7 +29829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=46/KP19/BQLDA"
   },
   {
     "stt": 1244,
@@ -28610,7 +29853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=204/KP19/BQLDA"
   },
   {
     "stt": 1245,
@@ -28633,7 +29877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=208/KP19/BQLDA"
   },
   {
     "stt": 1246,
@@ -28656,7 +29901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=156/KP19/BQLDA"
   },
   {
     "stt": 1247,
@@ -28679,7 +29925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=774/KP19/BQLDA"
   },
   {
     "stt": 1248,
@@ -28702,7 +29949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=67/KP19/BQLDA"
   },
   {
     "stt": 1249,
@@ -28725,7 +29973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=569/KP17/BQLDA"
   },
   {
     "stt": 1250,
@@ -28748,7 +29997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=44/KP17/BQLDA"
   },
   {
     "stt": 1251,
@@ -28771,7 +30021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=248/KP17/BQLDA"
   },
   {
     "stt": 1252,
@@ -28794,7 +30045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=247/KP17/BQLDA"
   },
   {
     "stt": 1253,
@@ -28817,7 +30069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=35/KP17/BQLDA"
   },
   {
     "stt": 1254,
@@ -28840,7 +30093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=146/KP17/BQLDA"
   },
   {
     "stt": 1255,
@@ -28863,7 +30117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=450/KP17/BQLDA"
   },
   {
     "stt": 1256,
@@ -28886,7 +30141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=120/KP17/BQLDA"
   },
   {
     "stt": 1257,
@@ -28909,7 +30165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=511/KP17/BQLDA"
   },
   {
     "stt": 1258,
@@ -28932,7 +30189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=509/KP17/BQLDA"
   },
   {
     "stt": 1259,
@@ -28955,7 +30213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=502/KP17/BQLDA"
   },
   {
     "stt": 1260,
@@ -28978,7 +30237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=493/KP17/BQLDA"
   },
   {
     "stt": 1261,
@@ -29001,7 +30261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=505/KP17/BQLDA"
   },
   {
     "stt": 1262,
@@ -29024,7 +30285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=494/KP17/BQLDA"
   },
   {
     "stt": 1263,
@@ -29047,7 +30309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=333/KP17/BQLDA"
   },
   {
     "stt": 1264,
@@ -29070,7 +30333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=326/KP17/BQLDA"
   },
   {
     "stt": 1265,
@@ -29093,7 +30357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=354/KP17/BQLDA"
   },
   {
     "stt": 1266,
@@ -29116,7 +30381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=357/KP17/BQLDA"
   },
   {
     "stt": 1267,
@@ -29139,7 +30405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=477/KP17/BQLDA"
   },
   {
     "stt": 1268,
@@ -29162,7 +30429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=361/KP17/BQLDA"
   },
   {
     "stt": 1269,
@@ -29185,7 +30453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=381/KP17/BQLDA"
   },
   {
     "stt": 1270,
@@ -29208,7 +30477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=383/KP17/BQLDA"
   },
   {
     "stt": 1271,
@@ -29231,7 +30501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=386/KP17/BQLDA"
   },
   {
     "stt": 1272,
@@ -29254,7 +30525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=385/KP17/BQLDA"
   },
   {
     "stt": 1273,
@@ -29277,7 +30549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=385/KP17/BQLDA"
   },
   {
     "stt": 1274,
@@ -29300,7 +30573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=363/KP17/BQLDA"
   },
   {
     "stt": 1275,
@@ -29323,7 +30597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=87/KP17/BQLDA"
   },
   {
     "stt": 1276,
@@ -29346,7 +30621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=582/KP17/BQLDA"
   },
   {
     "stt": 1277,
@@ -29369,7 +30645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=581/KP17/BQLDA"
   },
   {
     "stt": 1278,
@@ -29392,7 +30669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=580/KP17/BQLDA"
   },
   {
     "stt": 1279,
@@ -29415,7 +30693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=413/KP17/BQLDA"
   },
   {
     "stt": 1280,
@@ -29438,7 +30717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=416/KP17/BQLDA"
   },
   {
     "stt": 1281,
@@ -29461,7 +30741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=414/KP17/BQLDA"
   },
   {
     "stt": 1282,
@@ -29484,7 +30765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=239/KP17/BQLDA"
   },
   {
     "stt": 1283,
@@ -29507,7 +30789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=419/KP17/BQLDA"
   },
   {
     "stt": 1284,
@@ -29530,7 +30813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=520/KP17/BQLDA"
   },
   {
     "stt": 1285,
@@ -29553,7 +30837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=336/KP17/BQLDA"
   },
   {
     "stt": 1286,
@@ -29576,7 +30861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=441/KP17/BQLDA"
   },
   {
     "stt": 1287,
@@ -29599,7 +30885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=389/KP17/BQLDA"
   },
   {
     "stt": 1288,
@@ -29622,7 +30909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=388/KP17/BQLDA"
   },
   {
     "stt": 1289,
@@ -29645,7 +30933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=387/KP17/BQLDA"
   },
   {
     "stt": 1290,
@@ -29668,7 +30957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=390/KP17/BQLDA"
   },
   {
     "stt": 1291,
@@ -29691,7 +30981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=391/KP17/BQLDA"
   },
   {
     "stt": 1292,
@@ -29714,7 +31005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=353/KP17/BQLDA"
   },
   {
     "stt": 1293,
@@ -29737,7 +31029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=292/KP17/BQLDA"
   },
   {
     "stt": 1294,
@@ -29760,7 +31053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=121/KP18/BQLDA"
   },
   {
     "stt": 1295,
@@ -29783,7 +31077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=54/KP18/BQLDA"
   },
   {
     "stt": 1296,
@@ -29806,7 +31101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=42/KP18/BQLDA"
   },
   {
     "stt": 1297,
@@ -29829,7 +31125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=135/KP18/BQLDA"
   },
   {
     "stt": 1298,
@@ -29852,7 +31149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=217/KP18/BQLDA"
   },
   {
     "stt": 1299,
@@ -29875,7 +31173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=516/KP18/BQLDA"
   },
   {
     "stt": 1300,
@@ -29898,7 +31197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=200/KP18/BQLDA"
   },
   {
     "stt": 1301,
@@ -29921,7 +31221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=416/KP18/BQLDA"
   },
   {
     "stt": 1302,
@@ -29944,7 +31245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=259/KP18/BQLDA"
   },
   {
     "stt": 1303,
@@ -29967,7 +31269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=59/KP18/BQLDA"
   },
   {
     "stt": 1304,
@@ -29990,7 +31293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=269/KP18/BQLDA"
   },
   {
     "stt": 1305,
@@ -30013,7 +31317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=56/KP18/BQLDA"
   },
   {
     "stt": 1306,
@@ -30036,7 +31341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=378/KP18/BQLDA"
   },
   {
     "stt": 1307,
@@ -30059,7 +31365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=376/KP18/BQLDA"
   },
   {
     "stt": 1308,
@@ -30082,7 +31389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=51/KP18/BQLDA"
   },
   {
     "stt": 1309,
@@ -30105,7 +31413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=52/KP18/BQLDA"
   },
   {
     "stt": 1310,
@@ -30128,7 +31437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=141/KP18/BQLDA"
   },
   {
     "stt": 1311,
@@ -30151,7 +31461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=415/KP18/BQLDA"
   },
   {
     "stt": 1312,
@@ -30174,7 +31485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=96/KP18/BQLDA"
   },
   {
     "stt": 1313,
@@ -30197,7 +31509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=13/KP18/BQLDA"
   },
   {
     "stt": 1314,
@@ -30220,7 +31533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=442/KP18/BQLDA"
   },
   {
     "stt": 1315,
@@ -30243,7 +31557,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=515/KP18/BQLDA"
   },
   {
     "stt": 1316,
@@ -30266,7 +31581,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=148/KP18/BQLDA"
   },
   {
     "stt": 1317,
@@ -30289,7 +31605,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=463/KP18/BQLDA"
   },
   {
     "stt": 1318,
@@ -30312,7 +31629,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=472/KP18/BQLDA"
   },
   {
     "stt": 1319,
@@ -30335,7 +31653,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=512/KP18/BQLDA"
   },
   {
     "stt": 1320,
@@ -30358,7 +31677,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=75/KP18/BQLDA"
   },
   {
     "stt": 1321,
@@ -30381,7 +31701,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=392/KP17/BQLDA"
   },
   {
     "stt": 1322,
@@ -30404,7 +31725,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=05/KP17/BQLDA"
   },
   {
     "stt": 1323,
@@ -30427,7 +31749,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=113/KP17/BQLDA"
   },
   {
     "stt": 1324,
@@ -30450,7 +31773,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=28/KP17/BQLDA"
   },
   {
     "stt": 1325,
@@ -30473,7 +31797,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=107/KP17/BQLDA"
   },
   {
     "stt": 1326,
@@ -30496,7 +31821,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=164/KP17/BQLDA"
   },
   {
     "stt": 1327,
@@ -30519,7 +31845,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=311/KP17/BQLDA"
   },
   {
     "stt": 1328,
@@ -30542,7 +31869,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=466/KP17/BQLDA"
   },
   {
     "stt": 1329,
@@ -30565,7 +31893,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=473/KP17/BQLDA"
   },
   {
     "stt": 1330,
@@ -30588,7 +31917,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=472/KP19/BQLDA"
   },
   {
     "stt": 1331,
@@ -30611,7 +31941,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1226/KP19/BQLDA"
   },
   {
     "stt": 1332,
@@ -30634,7 +31965,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=375/KP19/BQLDA"
   },
   {
     "stt": 1333,
@@ -30657,7 +31989,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=431/KP19/BQLDA"
   },
   {
     "stt": 1334,
@@ -30680,7 +32013,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=834/KP19/BQLDA"
   },
   {
     "stt": 1335,
@@ -30703,7 +32037,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=500/KP19/BQLDA"
   },
   {
     "stt": 1336,
@@ -30726,7 +32061,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=502/KP19/BQLDA"
   },
   {
     "stt": 1337,
@@ -30749,7 +32085,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=558/KP19/BQLDA"
   },
   {
     "stt": 1338,
@@ -30772,7 +32109,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1192/KP19/BQLDA"
   },
   {
     "stt": 1339,
@@ -30795,7 +32133,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1031/KP19/BQLDA"
   },
   {
     "stt": 1340,
@@ -30818,7 +32157,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=769/KP19/BQLDA"
   },
   {
     "stt": 1341,
@@ -30841,7 +32181,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=34/KP19/BQLDA"
   },
   {
     "stt": 1342,
@@ -30864,7 +32205,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1099/KP19/BQLDA"
   },
   {
     "stt": 1343,
@@ -30887,7 +32229,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1078/KP19/BQLDA"
   },
   {
     "stt": 1344,
@@ -30910,7 +32253,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1112/KP19/BQLDA"
   },
   {
     "stt": 1345,
@@ -30933,7 +32277,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1077/KP19/BQLDA"
   },
   {
     "stt": 1346,
@@ -30956,7 +32301,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1105/KP19/BQLDA"
   },
   {
     "stt": 1347,
@@ -30979,7 +32325,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1075/KP19/BQLDA"
   },
   {
     "stt": 1348,
@@ -31002,7 +32349,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=466/KP19/BQLDA"
   },
   {
     "stt": 1349,
@@ -31025,7 +32373,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=468/KP19/BQLDA"
   },
   {
     "stt": 1350,
@@ -31048,7 +32397,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=903/KP19/BQLDA"
   },
   {
     "stt": 1351,
@@ -31071,7 +32421,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=36/KP19/BQLDA"
   },
   {
     "stt": 1352,
@@ -31094,7 +32445,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=35/KP19/BQLDA"
   },
   {
     "stt": 1353,
@@ -31117,7 +32469,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=722/KP19/BQLDA"
   },
   {
     "stt": 1354,
@@ -31140,7 +32493,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=733/KP19/BQLDA"
   },
   {
     "stt": 1355,
@@ -31163,7 +32517,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=757/KP19/BQLDA"
   },
   {
     "stt": 1356,
@@ -31186,7 +32541,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1209/KP19/BQLDA"
   },
   {
     "stt": 1357,
@@ -31209,7 +32565,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=538/KP19/BQLDA"
   },
   {
     "stt": 1358,
@@ -31232,7 +32589,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=574/KP19/BQLDA"
   },
   {
     "stt": 1359,
@@ -31255,7 +32613,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1126/KP19/BQLDA"
   },
   {
     "stt": 1360,
@@ -31278,7 +32637,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1127/KP19/BQLDA"
   },
   {
     "stt": 1361,
@@ -31301,7 +32661,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1128/KP19/BQLDA"
   },
   {
     "stt": 1362,
@@ -31324,7 +32685,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1129/KP19/BQLDA"
   },
   {
     "stt": 1363,
@@ -31347,7 +32709,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1131/KP19/BQLDA"
   },
   {
     "stt": 1364,
@@ -31370,7 +32733,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1132/KP19/BQLDA"
   },
   {
     "stt": 1365,
@@ -31393,7 +32757,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1133/KP19/BQLDA"
   },
   {
     "stt": 1366,
@@ -31416,7 +32781,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1134/KP19/BQLDA"
   },
   {
     "stt": 1367,
@@ -31439,7 +32805,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=217/KP19/BQLDA"
   },
   {
     "stt": 1368,
@@ -31462,7 +32829,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=230/KP19/BQLDA"
   },
   {
     "stt": 1369,
@@ -31485,7 +32853,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=218/KP19/BQLDA"
   },
   {
     "stt": 1370,
@@ -31508,7 +32877,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=406/KP19/BQLDA"
   },
   {
     "stt": 1371,
@@ -31531,7 +32901,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=408/KP19/BQLDA"
   },
   {
     "stt": 1372,
@@ -31554,7 +32925,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=804/KP19/BQLDA"
   },
   {
     "stt": 1373,
@@ -31577,7 +32949,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=389/KP19/BQLDA"
   },
   {
     "stt": 1374,
@@ -31600,7 +32973,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=420/KP19/BQLDA"
   },
   {
     "stt": 1375,
@@ -31623,7 +32997,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1026/KP19/BQLDA"
   },
   {
     "stt": 1376,
@@ -31646,7 +33021,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1055/KP19/BQLDA"
   },
   {
     "stt": 1377,
@@ -31669,7 +33045,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1010/KP19/BQLDA"
   },
   {
     "stt": 1378,
@@ -31692,7 +33069,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=344/KP18/BQLDA"
   },
   {
     "stt": 1379,
@@ -31715,7 +33093,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=509/KP18/BQLDA"
   },
   {
     "stt": 1380,
@@ -31738,7 +33117,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=496/KP18/BQLDA"
   },
   {
     "stt": 1381,
@@ -31761,7 +33141,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=313/KP18/BQLDA"
   },
   {
     "stt": 1382,
@@ -31784,7 +33165,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=312/KP18/BQLDA"
   },
   {
     "stt": 1383,
@@ -31807,7 +33189,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=343/KP18/BQLDA"
   },
   {
     "stt": 1384,
@@ -31830,7 +33213,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=70/KP18/BQLDA"
   },
   {
     "stt": 1385,
@@ -31853,7 +33237,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=401/KP18/BQLDA"
   },
   {
     "stt": 1386,
@@ -31876,7 +33261,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=221/KP18/BQLDA"
   },
   {
     "stt": 1387,
@@ -31899,7 +33285,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=377/KP18/BQLDA"
   },
   {
     "stt": 1388,
@@ -31922,7 +33309,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=427/KP18/BQLDA"
   },
   {
     "stt": 1389,
@@ -31945,7 +33333,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=67/KP18/BQLDA"
   },
   {
     "stt": 1390,
@@ -31968,7 +33357,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=320/KP18/BQLDA"
   },
   {
     "stt": 1391,
@@ -31991,7 +33381,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=356/KP17/BQLDA"
   },
   {
     "stt": 1392,
@@ -32014,7 +33405,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=359//KP17/BQLDA"
   },
   {
     "stt": 1393,
@@ -32037,7 +33429,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=125/KP17/BQLDA"
   },
   {
     "stt": 1394,
@@ -32060,7 +33453,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=157/KP17/BQLDA"
   },
   {
     "stt": 1395,
@@ -32083,7 +33477,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=141/KP17/BQLDA"
   },
   {
     "stt": 1396,
@@ -32106,7 +33501,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=561/KP17/BQLDA"
   },
   {
     "stt": 1397,
@@ -32129,7 +33525,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=153/KP17/BQLDA"
   },
   {
     "stt": 1398,
@@ -32152,7 +33549,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=56/KP17/BQLDA"
   },
   {
     "stt": 1399,
@@ -32175,7 +33573,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=83/KP17/BQLDA"
   },
   {
     "stt": 1400,
@@ -32198,7 +33597,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=91/KP17/BQLDA"
   },
   {
     "stt": 1401,
@@ -32221,7 +33621,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=447/KP17/BQLDA"
   },
   {
     "stt": 1402,
@@ -32244,7 +33645,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1277/KP19/BQLDA"
   },
   {
     "stt": 1403,
@@ -32267,7 +33669,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=198/KP19/BQLDA"
   },
   {
     "stt": 1404,
@@ -32290,7 +33693,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=200/KP19/BQLDA"
   },
   {
     "stt": 1405,
@@ -32313,7 +33717,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=976/KP19/BQLDA"
   },
   {
     "stt": 1406,
@@ -32336,7 +33741,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=975/KP19/BQLDA"
   },
   {
     "stt": 1407,
@@ -32359,7 +33765,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1003/KP19/BQLDA"
   },
   {
     "stt": 1408,
@@ -32382,7 +33789,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=191/KP19/BQLDA"
   },
   {
     "stt": 1409,
@@ -32405,7 +33813,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=147/KP19/BQLDA"
   },
   {
     "stt": 1410,
@@ -32428,7 +33837,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1274/KP19/BQLDA"
   },
   {
     "stt": 1411,
@@ -32451,7 +33861,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1269/KP19/BQLDA"
   },
   {
     "stt": 1412,
@@ -32474,7 +33885,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=847/KP19/BQLDA"
   },
   {
     "stt": 1413,
@@ -32497,7 +33909,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=324/KP19/BQLDA"
   },
   {
     "stt": 1414,
@@ -32520,7 +33933,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=433/KP19/BQLDA"
   },
   {
     "stt": 1415,
@@ -32543,7 +33957,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=447/KP19/BQLDA"
   },
   {
     "stt": 1416,
@@ -32566,7 +33981,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=330/KP19/BQLDA"
   },
   {
     "stt": 1417,
@@ -32589,7 +34005,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=370/KP19/BQLDA"
   },
   {
     "stt": 1418,
@@ -32612,7 +34029,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=367/KP19/BQLDA"
   },
   {
     "stt": 1419,
@@ -32635,7 +34053,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=844/KP19/BQLDA"
   },
   {
     "stt": 1420,
@@ -32658,7 +34077,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=845/KP19/BQLDA"
   },
   {
     "stt": 1421,
@@ -32681,7 +34101,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1220/KP19/BQLDA"
   },
   {
     "stt": 1422,
@@ -32704,7 +34125,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1130/KP19/BQLDA"
   },
   {
     "stt": 1423,
@@ -32727,7 +34149,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=426/KP19/BQLDA"
   },
   {
     "stt": 1424,
@@ -32750,7 +34173,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1198/KP19/BQLDA"
   },
   {
     "stt": 1425,
@@ -32773,7 +34197,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=491/KP19/BQLDA"
   },
   {
     "stt": 1426,
@@ -32796,7 +34221,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=651/KP19/BQLDA"
   },
   {
     "stt": 1427,
@@ -32819,7 +34245,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=539/KP19/BQLDA"
   },
   {
     "stt": 1428,
@@ -32842,7 +34269,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=546/KP19/BQLDA"
   },
   {
     "stt": 1429,
@@ -32865,7 +34293,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=553/KP19/BQLDA"
   },
   {
     "stt": 1430,
@@ -32888,7 +34317,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1024/KP19/BQLDA"
   },
   {
     "stt": 1431,
@@ -32911,7 +34341,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=793/KP19/BQLDA"
   },
   {
     "stt": 1432,
@@ -32934,7 +34365,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=219/KP19/BQLDA"
   },
   {
     "stt": 1433,
@@ -32957,7 +34389,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1233/KP19/BQLDA"
   },
   {
     "stt": 1434,
@@ -32980,7 +34413,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=256/KP19/BQLDA"
   },
   {
     "stt": 1435,
@@ -33003,7 +34437,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=100/KP18/BQLDA"
   },
   {
     "stt": 1436,
@@ -33026,7 +34461,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=105/KP18/BQLDA"
   },
   {
     "stt": 1437,
@@ -33049,7 +34485,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=103/KP18/BQLDA"
   },
   {
     "stt": 1438,
@@ -33072,7 +34509,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=16/KP18/BQLDA"
   },
   {
     "stt": 1439,
@@ -33095,7 +34533,8 @@ window.DOSSIER_DATA = [
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
-    "trungLap": ""
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=232/KP18/BQLDA"
   }
 ];
 window.TABLE_VII_DATA_DAILY = [
@@ -34182,49 +35621,8 @@ window.TABLE_VII_DATA_WEEKLY = [
     "ghiChu": ""
   }
 ];
-window.BASE_WORKFLOW_COUNTS = {
-  "Quốc Thạch": 79,
-  "Thiện Như": 68,
-  "Thanh Tuyền": 62,
-  "Hoài Thương": 66,
-  "Tố Lam": 65,
-  "Xuân Trúc": 65,
-  "Văn Tân": 65,
-  "Anh Tuấn": 54,
-  "Ngọc Thịnh": 62,
-  "Đăng Vinh": 58,
-  "Mỹ Thương": 64,
-  "Trọng Nhân": 62,
-  "Duy Bảo": 67,
-  "Lan Phương": 55,
-  "Kim Ngân": 56,
-  "Thảo Nguyên": 56,
-  "Kiều Oanh": 69,
-  "Thiên Ngân": 55,
-  "Minh Châu": 62,
-  "Văn Hải": 60,
-  "Quốc Bảo": 65,
-  "Duy Quang": 47,
-  "Thành Giang": 52,
-  "Trọng Phúc": 64,
-  "Thúy Quyên": 64,
-  "Thanh Tùng": 43,
-  "Hoàng Minh": 71,
-  "Ngọc Trân": 61,
-  "Trí Nghĩa": 48,
-  "Như Hà": 54,
-  "Vân Khánh": 67,
-  "Quang Trãi": 60,
-  "Vinh Hiển": 59,
-  "Ánh Linh": 40,
-  "Minh Quân": 62,
-  "Uyên Như": 45,
-  "Anh Thư": 25,
-  "Bảo Vi": 29,
-  "Anh Hào": 21,
-  "Minh Huy": 6,
-  "_total_jobs": 2233
-};
+window.BASE_WORKFLOW_COUNTS = {};
+window.BASE_JOBS_MAP = {};
 window.BASE_HRM_NAMES = {
   "Anh Huy": "Phan Ngọc Anh Huy",
   "Huy": "Huỳnh Bá Minh Huy",
