@@ -82,6 +82,7 @@
     initTheme();
     startLiveClock();
     setupEventListeners();
+    handleResetAll();
     populateDateDropdown();
     updateChipCounts();
     updateDashboard();
@@ -327,32 +328,6 @@
 
     if (datePickerTraInput) datePickerTraInput.addEventListener('change', () => handleDatePickerChange(datePickerTraInput));
     if (datePickerTraInput7) datePickerTraInput7.addEventListener('change', () => handleDatePickerChange(datePickerTraInput7));
-
-    // Reset Buttons
-    const handleResetAll = () => {
-      if (searchInput) searchInput.value = '';
-      if (phankhuSelect) phankhuSelect.value = 'ALL';
-      if (trangThaiSelect) trangThaiSelect.value = 'ALL';
-      if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
-      if (datePickerInput) datePickerInput.value = '';
-      if (ngayTraSelect) ngayTraSelect.value = 'ALL';
-      if (datePickerTraInput) datePickerTraInput.value = '';
-
-      if (searchInput7) searchInput7.value = '';
-      if (phankhuSelect7) phankhuSelect7.value = 'ALL';
-      if (trangThaiSelect7) trangThaiSelect7.value = 'ALL';
-      if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
-      if (datePickerInput7) datePickerInput7.value = '';
-      if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
-      if (datePickerTraInput7) datePickerTraInput7.value = '';
-
-      document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
-      const defaultChip = document.querySelector('.chip-btn[data-chip-val="ALL"]');
-      if (defaultChip) defaultChip.classList.add('active');
-
-      updateDateFilterVisibility();
-      handleFilterChange();
-    };
 
     if (resetFilterBtn) resetFilterBtn.addEventListener('click', handleResetAll);
     if (resetFilterBtn7) resetFilterBtn7.addEventListener('click', handleResetAll);
@@ -883,6 +858,31 @@
     updateDropdown(ngayTraSelect7, optionsTraHtml);
 
     updateDateFilterVisibility();
+  }
+
+  function handleResetAll() {
+    if (searchInput) searchInput.value = '';
+    if (phankhuSelect) phankhuSelect.value = 'ALL';
+    if (trangThaiSelect) trangThaiSelect.value = 'ALL';
+    if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
+    if (datePickerInput) datePickerInput.value = '';
+    if (ngayTraSelect) ngayTraSelect.value = 'ALL';
+    if (datePickerTraInput) datePickerTraInput.value = '';
+
+    if (searchInput7) searchInput7.value = '';
+    if (phankhuSelect7) phankhuSelect7.value = 'ALL';
+    if (trangThaiSelect7) trangThaiSelect7.value = 'ALL';
+    if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
+    if (datePickerInput7) datePickerInput7.value = '';
+    if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
+    if (datePickerTraInput7) datePickerTraInput7.value = '';
+
+    document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
+    const defaultChip = document.querySelector('.chip-btn[data-chip-val="ALL"]');
+    if (defaultChip) defaultChip.classList.add('active');
+
+    updateDateFilterVisibility();
+    handleFilterChange();
   }
 
   function updateDateFilterVisibility() {
