@@ -13,8 +13,8 @@ Hệ thống Dashboard giao diện hiện đại, trực quan giúp quản lý, 
   4. Thống kê Tỷ lệ Diện tích Giải tỏa (Giải tỏa toàn phần: 1.131 HS).
   5. Phân biệt Điều hành theo Tổ Bồi Thường (Tổ 1, Tổ 2, Tổ 3).
   6. Lượng hồ sơ chuyển về theo từng Ngày (từ 17/06/2026 đến 29/07/2026).
-  7. *(Bổ sung 1)* Khối lượng hồ sơ theo Cán bộ Pháp chế kiểm tra.
-  8. *(Bổ sung 2)* Thống kê hồ sơ Cán bộ đem qua linh hoạt theo **Ngày**, **Tuần** (ISO Week) và **Tháng**.
+  7. _(Bổ sung 1)_ Khối lượng hồ sơ theo Cán bộ Pháp chế kiểm tra.
+  8. _(Bổ sung 2)_ Thống kê hồ sơ Cán bộ đem qua linh hoạt theo **Ngày**, **Tuần** (ISO Week) và **Tháng**.
 
 - 🔍 **Tra cứu & Lọc thông minh:** Tra cứu nhanh trên toàn bộ 1.141 hồ sơ theo tên chủ hộ, tờ bản đồ, số thửa, địa chỉ.
 - 📄 **Cửa sổ Xem Chi Tiết (Modal Popup):** Click vào từng dòng để xem đầy đủ hồ sơ pháp lý.

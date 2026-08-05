@@ -1288,9 +1288,7 @@
               <th class="text-center" style="width: 50px;">STT</th>
               <th class="text-center" style="min-width: 130px;">${timeHeaderTitle}</th>
               <th>CBTL (CÁN BỘ BBT)</th>
-              <th class="text-center">TỔ 1<br><small style="font-weight:normal; opacity:0.85;">(KP 17)</small></th>
-              <th class="text-center">TỔ 2<br><small style="font-weight:normal; opacity:0.85;">(KP 18)</small></th>
-              <th class="text-center">TỔ 3<br><small style="font-weight:normal; opacity:0.85;">(KP 19)</small></th>
+              <th class="text-center">TỔ BỒI THƯỜNG<br><small style="font-weight:normal; opacity:0.85;">(Phân khu)</small></th>
               <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
               <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
               <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
@@ -1303,9 +1301,7 @@
             <tr>
               <th class="text-center" style="width: 50px;">STT</th>
               <th>CBTL (CÁN BỘ BBT)</th>
-              <th class="text-center">TỔ 1<br><small style="font-weight:normal; opacity:0.85;">(KP 17)</small></th>
-              <th class="text-center">TỔ 2<br><small style="font-weight:normal; opacity:0.85;">(KP 18)</small></th>
-              <th class="text-center">TỔ 3<br><small style="font-weight:normal; opacity:0.85;">(KP 19)</small></th>
+              <th class="text-center">TỔ BỒI THƯỜNG<br><small style="font-weight:normal; opacity:0.85;">(Phân khu)</small></th>
               <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
               <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
               <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
@@ -1324,7 +1320,7 @@
     tbody.innerHTML = '';
 
     if (!list || list.length === 0) {
-      const colspanTotal = isDateFiltered ? 10 : 9;
+      const colspanTotal = isDateFiltered ? 9 : 8;
       tbody.innerHTML = `<tr><td colspan="${colspanTotal}" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
       return;
     }
@@ -1369,13 +1365,17 @@
         ? `<span class="badge badge-info" style="background:#e0f2fe; color:#0369a1; border:1px solid #bae6fd; font-weight:700; font-size:0.875rem;">📦 ${item.baseTotal.toLocaleString('vi-VN')}</span>` 
         : `<span class="badge badge-neutral">0</span>`;
 
+      const toList = [];
+      if (item.kp17 > 0) toList.push('<span class="badge badge-neutral">Tổ 1 (KP 17)</span>');
+      if (item.kp18 > 0) toList.push('<span class="badge badge-neutral">Tổ 2 (KP 18)</span>');
+      if (item.kp19 > 0) toList.push('<span class="badge badge-neutral">Tổ 3 (KP 19)</span>');
+      const toTd = toList.length > 0 ? toList.join(' ') : '<span class="badge badge-neutral">-</span>';
+
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
         ${timeTd}
         <td><strong>${item.cbtlFull || item.cbtl}</strong></td>
-        <td class="text-center cell-clickable" data-action="KP17" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KP 17">${item.kp17 > 0 ? `<span class="badge badge-neutral hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kp17}</span>` : '0'}</td>
-        <td class="text-center cell-clickable" data-action="KP18" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KP 18">${item.kp18 > 0 ? `<span class="badge badge-neutral hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kp18}</span>` : '0'}</td>
-        <td class="text-center cell-clickable" data-action="KP19" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KP 19">${item.kp19 > 0 ? `<span class="badge badge-neutral hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kp19}</span>` : '0'}</td>
+        <td class="text-center">${toTd}</td>
         <td class="text-center">${baseTd}</td>
         <td class="text-center cell-clickable" data-action="totalChuyen" style="cursor:pointer;" title="Bấm để xem danh sách tất cả hồ sơ đã chuyển của cán bộ này">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa bàn giao)</span>` : `<span class="badge badge-info hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.totalChuyen}</span>`}</td>
         <td class="text-center cell-clickable" data-action="thongQua" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ đã được Thông Qua">${item.thongQua > 0 ? `<span class="badge badge-success hover-badge" style="cursor:pointer; text-decoration:underline;">${item.thongQua}</span>` : '0'}</td>
@@ -1407,14 +1407,14 @@
     trTotal.classList.add('total-row');
     trTotal.innerHTML = `
       <td colspan="${colspanVal}" class="text-center"><strong>TỔNG CỘNG</strong></td>
-      <td class="text-center">${sum17}</td>
-      <td class="text-center">${sum18}</td>
-      <td class="text-center">${sum19}</td>
+      <td class="text-center">
+        <span style="font-size:0.8125rem; font-weight:600;">KP17: ${sum17} | KP18: ${sum18} | KP19: ${sum19}</span>
+      </td>
       <td class="text-center"><strong style="color:#0369a1;">📦 ${displayBaseTotal.toLocaleString('vi-VN')}</strong></td>
-      <td class="text-center">${sumTotal}</td>
-      <td class="text-center">${sumThongQua}</td>
-      <td class="text-center">${sumKthtGiu}</td>
-      <td class="text-center">${sumTraSua}</td>
+      <td class="text-center"><strong>${sumTotal}</strong></td>
+      <td class="text-center"><strong>${sumThongQua}</strong></td>
+      <td class="text-center"><strong>${sumKthtGiu}</strong></td>
+      <td class="text-center"><strong>${sumTraSua}</strong></td>
     `;
     tbody.appendChild(trTotal);
   }
@@ -1603,9 +1603,7 @@
               <th class="text-center" style="width: 50px;">STT</th>
               <th class="text-center" style="min-width: 130px;">${timeHeaderTitle7}</th>
               <th>CÁN BỘ THỤ LÝ / PHÁP CHẾ</th>
-              <th class="text-center">KP 17</th>
-              <th class="text-center">KP 18</th>
-              <th class="text-center">KP 19</th>
+              <th class="text-center">PHÂN KHU</th>
               <th class="text-center">TỔNG HS XỬ LÝ</th>
               <th class="text-center">SỐ HS DUYỆT</th>
               <th class="text-center">HS TRẢ SỬA</th>
@@ -1617,9 +1615,7 @@
             <tr>
               <th class="text-center" style="width: 50px;">STT</th>
               <th>CÁN BỘ THỤ LÝ / PHÁP CHẾ</th>
-              <th class="text-center">KP 17</th>
-              <th class="text-center">KP 18</th>
-              <th class="text-center">KP 19</th>
+              <th class="text-center">PHÂN KHU</th>
               <th class="text-center">TỔNG HS XỬ LÝ</th>
               <th class="text-center">SỐ HS DUYỆT</th>
               <th class="text-center">HS TRẢ SỬA</th>
@@ -1637,7 +1633,7 @@
     tbody.innerHTML = '';
 
     if (!list || list.length === 0) {
-      const colspanTotal = isDateFiltered ? 10 : 9;
+      const colspanTotal = isDateFiltered ? 8 : 7;
       tbody.innerHTML = `<tr><td colspan="${colspanTotal}" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
       return;
     }
@@ -1663,13 +1659,20 @@
       const timeTd = isDateFiltered ? `<td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>` : '';
       const ghiChuTd = `<td>${item.ghiChu ? `<span class="badge badge-neutral">${item.ghiChu}</span>` : '-'}</td>`;
 
+      const kpList = [];
+      if (item.kp17 > 0) kpList.push('<span class="badge badge-neutral">KP 17</span>');
+      if (item.kp18 > 0) kpList.push('<span class="badge badge-neutral">KP 18</span>');
+      if (item.kp19 > 0) kpList.push('<span class="badge badge-neutral">KP 19</span>');
+      if (kpList.length === 0 && item.khuPho) {
+        kpList.push(`<span class="badge badge-neutral">${item.khuPho}</span>`);
+      }
+      const kpTd = kpList.length > 0 ? kpList.join(' ') : '<span class="badge badge-neutral">-</span>';
+
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
         ${timeTd}
         <td><strong>${item.cbtl}</strong></td>
-        <td class="text-center">${item.kp17}</td>
-        <td class="text-center">${item.kp18}</td>
-        <td class="text-center">${item.kp19}</td>
+        <td class="text-center">${kpTd}</td>
         <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0</span>` : `<span class="badge badge-neutral">${item.totalChuyen}</span>`}</td>
         <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
         <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
@@ -1683,12 +1686,12 @@
     trTotal.classList.add('total-row');
     trTotal.innerHTML = `
       <td colspan="${colspanVal}" class="text-center"><strong>TỔNG CỘNG</strong></td>
-      <td class="text-center">${sum17}</td>
-      <td class="text-center">${sum18}</td>
-      <td class="text-center">${sum19}</td>
-      <td class="text-center">${sumTotal}</td>
-      <td class="text-center">${sumThongQua}</td>
-      <td class="text-center">${sumTraSua}</td>
+      <td class="text-center">
+        <span style="font-size:0.8125rem; font-weight:600;">KP17: ${sum17} | KP18: ${sum18} | KP19: ${sum19}</span>
+      </td>
+      <td class="text-center"><strong>${sumTotal}</strong></td>
+      <td class="text-center"><strong>${sumThongQua}</strong></td>
+      <td class="text-center"><strong>${sumTraSua}</strong></td>
       <td class="text-center">-</td>
     `;
     tbody.appendChild(trTotal);

@@ -3,7 +3,7 @@ name: Auto Sync Base API & Sheet Data
 on:
   schedule:
     # Tự động đồng bộ mỗi 5 phút từ Base API & Google Sheet
-    - cron: '*/5 * * * *'
+    - cron: "*/5 * * * *"
   workflow_dispatch: # Nút bấm đồng bộ thủ công trên giao diện GitHub Actions
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Execute Live Sync Script
         run: python sync_sheet.py
