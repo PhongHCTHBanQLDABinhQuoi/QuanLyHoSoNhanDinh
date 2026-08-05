@@ -854,6 +854,23 @@
     updateDateFilterVisibility();
   }
 
+  function updateDateFilterVisibility() {
+    const showCalendar = (activePeriodType === 'date');
+
+    const chuyenPickerGroups = [
+      datePickerInput?.closest('.filter-group'), 
+      datePickerInput7?.closest('.filter-group')
+    ].filter(Boolean);
+
+    const traPickerGroups = [
+      datePickerTraInput?.closest('.filter-group'), 
+      datePickerTraInput7?.closest('.filter-group')
+    ].filter(Boolean);
+
+    chuyenPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
+    traPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
+  }
+
   function handleResetAll() {
     if (searchInput) searchInput.value = '';
     if (phankhuSelect) phankhuSelect.value = 'ALL';
@@ -879,55 +896,21 @@
     handleFilterChange();
   }
 
-  function updateDateFilterVisibility() {
-    const dtVal = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : ((datePickerInput && datePickerInput.value) ? datePickerInput.value : ((datePickerInput7 && datePickerInput7.value) ? datePickerInput7.value : '')));
-    const traVal = (ngayTraSelect && ngayTraSelect.value !== 'ALL') ? ngayTraSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : ((datePickerTraInput && datePickerTraInput.value) ? datePickerTraInput.value : ((datePickerTraInput7 && datePickerTraInput7.value) ? datePickerTraInput7.value : '')));
-
-    const isChuyenActive = Boolean(dtVal && dtVal !== 'ALL');
-    const isTraActive = Boolean(traVal && traVal !== 'ALL');
-
-    const showCalendar = (activePeriodType === 'date');
-
-    // Chuyển Đi Filter Groups (Dropdown & Calendar Picker)
-    const chuyenSelectGroups = [ngayChuyenSelect?.closest('.filter-group'), ngayChuyenSelect7?.closest('.filter-group')].filter(Boolean);
-    const chuyenPickerGroups = [datePickerInput?.closest('.filter-group'), datePickerInput7?.closest('.filter-group')].filter(Boolean);
-
-    // Trả Về Filter Groups (Dropdown & Calendar Picker)
-    const traSelectGroups = [ngayTraSelect?.closest('.filter-group'), ngayTraSelect7?.closest('.filter-group')].filter(Boolean);
-    const traPickerGroups = [datePickerTraInput?.closest('.filter-group'), datePickerTraInput7?.closest('.filter-group')].filter(Boolean);
-
-    if (isChuyenActive) {
-      // Chuyển Đi is ACTIVE -> Show Chuyển Đi, HIDE Trả Về
-      chuyenSelectGroups.forEach(g => { g.style.display = ''; });
-      chuyenPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
-
-      traSelectGroups.forEach(g => { g.style.display = 'none'; });
-      traPickerGroups.forEach(g => { g.style.display = 'none'; });
-    } else if (isTraActive) {
-      // Trả Về is ACTIVE -> Show Trả Về, HIDE Chuyển Đi
-      traSelectGroups.forEach(g => { g.style.display = ''; });
-      traPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
-
-      chuyenSelectGroups.forEach(g => { g.style.display = 'none'; });
-      chuyenPickerGroups.forEach(g => { g.style.display = 'none'; });
-    } else {
-      // Neither active -> Show BOTH Chuyển Đi and Trả Về
-      chuyenSelectGroups.forEach(g => { g.style.display = ''; });
-      traSelectGroups.forEach(g => { g.style.display = ''; });
-
-      chuyenPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
-      traPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
-    }
-  }
-
   function handleFilterChange() {
     updateDateFilterVisibility();
-    const rawQuery = (searchInput ? searchInput.value : (searchInput7 ? searchInput7.value : '')).trim();
-    const query = rawQuery.toLowerCase();
-    const kpFilter = phankhuSelect ? phankhuSelect.value : 'ALL';
-    const stFilter = trangThaiSelect ? trangThaiSelect.value : 'ALL';
-    const dtFilter = ngayChuyenSelect ? ngayChuyenSelect.value : 'ALL';
-    const traFilter = ngayTraSelect ? ngayTraSelect.value : 'ALL';
+    const rawQuery = (searchInput && searchInput.value) ? searchInput.value : ((searchInput7 && searchInput7.value) ? searchInput7.value : '');
+    const query = rawQuery.trim().toLowerCase();
+
+    const kpFilter = (phankhuSelect && phankhuSelect.value !== 'ALL') ? phankhuSelect.value : ((phankhuSelect7 && phankhuSelect7.value !== 'ALL') ? phankhuSelect7.value : 'ALL');
+    const stFilter = (trangThaiSelect && trangThaiSelect.value !== 'ALL') ? trangThaiSelect.value : ((trangThaiSelect7 && trangThaiSelect7.value !== 'ALL') ? trangThaiSelect7.value : 'ALL');
+
+    const dtSelectVal = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : 'ALL');
+    const dtPickerVal = (datePickerInput && datePickerInput.value) ? datePickerInput.value : ((datePickerInput7 && datePickerInput7.value) ? datePickerInput7.value : '');
+    const dtFilter = dtSelectVal !== 'ALL' ? dtSelectVal : (dtPickerVal ? dtPickerVal : 'ALL');
+
+    const traSelectVal = (ngayTraSelect && ngayTraSelect.value !== 'ALL') ? ngayTraSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : 'ALL');
+    const traPickerVal = (datePickerTraInput && datePickerTraInput.value) ? datePickerTraInput.value : ((datePickerTraInput7 && datePickerTraInput7.value) ? datePickerTraInput7.value : '');
+    const traFilter = traSelectVal !== 'ALL' ? traSelectVal : (traPickerVal ? traPickerVal : 'ALL');
 
     filteredRecords = allRecords.filter(r => {
       // 1. Phân khu filter
