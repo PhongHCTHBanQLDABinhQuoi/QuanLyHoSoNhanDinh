@@ -883,7 +883,28 @@
     handleFilterChange();
   }
 
-  function handleFilterChange() {
+  function handleFilterChange(e) {
+    if (e && e.target) {
+      const tId = e.target.id;
+      if (tId === 'ngayChuyenSelect' && ngayChuyenSelect7) ngayChuyenSelect7.value = ngayChuyenSelect.value;
+      if (tId === 'ngayChuyenSelect7' && ngayChuyenSelect) ngayChuyenSelect.value = ngayChuyenSelect7.value;
+
+      if (tId === 'ngayTraSelect' && ngayTraSelect7) ngayTraSelect7.value = ngayTraSelect.value;
+      if (tId === 'ngayTraSelect7' && ngayTraSelect) ngayTraSelect.value = ngayTraSelect7.value;
+
+      if (tId === 'phankhuSelect' && phankhuSelect7) phankhuSelect7.value = phankhuSelect.value;
+      if (tId === 'phankhuSelect7' && phankhuSelect) phankhuSelect.value = phankhuSelect7.value;
+
+      if (tId === 'trangThaiSelect' && trangThaiSelect7) trangThaiSelect7.value = trangThaiSelect.value;
+      if (tId === 'trangThaiSelect7' && trangThaiSelect) trangThaiSelect.value = trangThaiSelect7.value;
+
+      if (tId === 'datePickerInput' && datePickerInput7) datePickerInput7.value = datePickerInput.value;
+      if (tId === 'datePickerInput7' && datePickerInput) datePickerInput.value = datePickerInput7.value;
+
+      if (tId === 'datePickerTraInput' && datePickerTraInput7) datePickerTraInput7.value = datePickerTraInput.value;
+      if (tId === 'datePickerTraInput7' && datePickerTraInput) datePickerTraInput.value = datePickerTraInput7.value;
+    }
+
     updateDateFilterVisibility();
     const rawQuery = (searchInput && searchInput.value) ? searchInput.value : ((searchInput7 && searchInput7.value) ? searchInput7.value : '');
     const query = rawQuery.trim().toLowerCase();
@@ -893,11 +914,19 @@
 
     const dtSelectVal = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : 'ALL');
     const dtPickerVal = (datePickerInput && datePickerInput.value) ? datePickerInput.value : ((datePickerInput7 && datePickerInput7.value) ? datePickerInput7.value : '');
-    const dtFilter = dtSelectVal !== 'ALL' ? dtSelectVal : (dtPickerVal ? dtPickerVal : 'ALL');
+    let dtFilter = dtSelectVal !== 'ALL' ? dtSelectVal : (dtPickerVal ? dtPickerVal : 'ALL');
+    if (dtFilter !== 'ALL' && dtFilter.includes('-')) {
+      dtFilter = Analytics.normalizeDateStr(dtFilter);
+    }
 
     const traSelectVal = (ngayTraSelect && ngayTraSelect.value !== 'ALL') ? ngayTraSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : 'ALL');
     const traPickerVal = (datePickerTraInput && datePickerTraInput.value) ? datePickerTraInput.value : ((datePickerTraInput7 && datePickerTraInput7.value) ? datePickerTraInput7.value : '');
-    const traFilter = traSelectVal !== 'ALL' ? traSelectVal : (traPickerVal ? traPickerVal : 'ALL');
+    let traFilter = traSelectVal !== 'ALL' ? traSelectVal : (traPickerVal ? traPickerVal : 'ALL');
+    if (traFilter !== 'ALL' && traFilter.includes('-')) {
+      traFilter = Analytics.normalizeDateStr(traFilter);
+    }
+
+    window.IS_DATE_FILTERED = (dtFilter !== 'ALL') || (traFilter !== 'ALL');
 
     filteredRecords = allRecords.filter(r => {
       // 1. Phân khu filter
@@ -1245,7 +1274,7 @@
 
   // 11. Render Master Section VI (Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT)
   function renderSection6() {
-    const isDateFiltered = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') || (ngayTraSelect && ngayTraSelect.value !== 'ALL') || (datePickerInput && datePickerInput.value) || (datePickerTraInput && datePickerTraInput.value);
+    const isDateFiltered = Boolean(window.IS_DATE_FILTERED);
     const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
     
     const tableElement = document.getElementById('tableSection6');
@@ -1558,7 +1587,7 @@
 
   // 12. Render Master Section VII (Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT)
   function renderSection7() {
-    const isDateFiltered = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') || (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') || (ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') || (ngayTraSelect && ngayTraSelect.value !== 'ALL') || (datePickerInput7 && datePickerInput7.value) || (datePickerTraInput7 && datePickerTraInput7.value);
+    const isDateFiltered = Boolean(window.IS_DATE_FILTERED);
     const isKhuPhoFiltered = (phankhuSelect7 && phankhuSelect7.value !== 'ALL') || (phankhuSelect && phankhuSelect.value !== 'ALL');
     const searchVal7 = searchInput7 ? searchInput7.value : '';
     const selectedDateVal7 = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : ((ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : (ngayTraSelect ? ngayTraSelect.value : '')));
