@@ -742,18 +742,6 @@
   function populateDateDropdown() {
     if (!allRecords || allRecords.length === 0) return;
 
-    const labelElems = document.querySelectorAll('label[for="ngayChuyenSelect"], label[for="ngayChuyenSelect7"]');
-    let defaultText = 'Tất cả Ngày Chuyển';
-    let labelText = '📅 Ngày Chuyển Đi';
-    if (activePeriodType === 'week') {
-      labelText = '🗓️ Tuần Chuyển Đi';
-      defaultText = 'Tất cả các Tuần';
-    } else if (activePeriodType === 'month') {
-      labelText = '📆 Tháng Chuyển Đi';
-      defaultText = 'Tất cả các Tháng';
-    }
-    labelElems.forEach(l => l.textContent = labelText);
-
     // 1. Map for ngayChuyen (Ngày chuyển đi sang KTHTĐT)
     const mapChuyen = {};
     allRecords.forEach(r => {
@@ -829,6 +817,8 @@
         }
       }
     });
+
+    const prefix = activePeriodType === 'week' ? '🗓️ ' : (activePeriodType === 'month' ? '📆 ' : '📅 ');
 
     // Options HTML for ngayChuyenSelect
     const optionsChuyenHtml = [`<option value="ALL">${defaultText}</option>`]
