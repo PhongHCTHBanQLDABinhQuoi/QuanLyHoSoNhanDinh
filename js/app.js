@@ -1391,17 +1391,30 @@
   function showDossierListForOfficer(officerName, category, dateKey = '') {
     const canonName = Analytics.getCanonicalOfficerName(officerName);
 
-    let records = allRecords.filter(r => {
+    // Filter strictly from filteredRecords (records matching active date/phankhu/search filters)
+    const sourcePool = (filteredRecords && filteredRecords.length > 0) ? filteredRecords : allRecords;
+
+    let records = sourcePool.filter(r => {
       const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
       const cb = Analytics.getCanonicalOfficerName(rawCb);
       if (cb !== canonName && !cb.includes(canonName) && !canonName.includes(cb)) return false;
 
       if (dateKey && dateKey !== '' && dateKey !== 'Chưa có ngày') {
-        let rDateKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : '';
-        if (activePeriodType === 'week') rDateKey = Analytics.getWeekLabel(r.ngayChuyen);
-        else if (activePeriodType === 'month') rDateKey = Analytics.getMonthLabel(r.ngayChuyen);
+        let rDateKey = r.ngayChuyen && r.ngayChuyen.trim() ? Analytics.normalizeDateStr(r.ngayChuyen) : '';
+        let rTraKey = r.ngayKthtChuyenVe && r.ngayKthtChuyenVe.trim() ? Analytics.normalizeDateStr(r.ngayKthtChuyenVe) : '';
 
-        if (rDateKey !== dateKey && !rDateKey.includes(dateKey)) return false;
+        if (activePeriodType === 'week') {
+          rDateKey = Analytics.getWeekLabel(r.ngayChuyen);
+          rTraKey = Analytics.getWeekLabel(r.ngayKthtChuyenVe);
+        } else if (activePeriodType === 'month') {
+          rDateKey = Analytics.getMonthLabel(r.ngayChuyen);
+          rTraKey = Analytics.getMonthLabel(r.ngayKthtChuyenVe);
+        }
+
+        const matchChuyen = rDateKey && (rDateKey === dateKey || rDateKey.includes(dateKey));
+        const matchTra = rTraKey && (rTraKey === dateKey || rTraKey.includes(dateKey));
+
+        if (!matchChuyen && !matchTra) return false;
       }
 
       if (category === 'KP17') {
