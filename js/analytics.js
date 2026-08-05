@@ -46,8 +46,28 @@
     return `Tháng ${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
   }
 
+  function normalizeDateStr(dateStr) {
+    if (!dateStr) return '';
+    const s = String(dateStr).trim();
+    if (!s) return '';
+    if (s.includes('-')) {
+      const p = s.split('-');
+      if (p.length === 3) {
+        return `${p[2].padStart(2, '0')}/${p[1].padStart(2, '0')}/${p[0]}`;
+      }
+    }
+    if (s.includes('/')) {
+      const p = s.split('/');
+      if (p.length === 3) {
+        return `${p[0].padStart(2, '0')}/${p[1].padStart(2, '0')}/${p[2]}`;
+      }
+    }
+    return s;
+  }
+
   const Analytics = {
     parseDate,
+    normalizeDateStr,
     getWeekLabel,
     getMonthLabel,
 
@@ -411,10 +431,10 @@
 
       const source = (allRecords && allRecords.length > 0) ? allRecords : records;
 
-      // Tính tổng số liệu ĐÓ GIỜ (All-Time Overall Totals) cho tất cả Cán bộ Pháp chế từ source
+      // Tính tổng số liệu ĐÓ GIỜ cho tất cả Cán bộ Pháp chế từ source
       const allTimeMap = {};
       source.forEach(r => {
-        const cb = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa phân công / Trống';
+        const cb = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : ((r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : 'Chưa phân công / Trống');
         if (!allTimeMap[cb]) {
           allTimeMap[cb] = { totalChuyen: 0, thongQua: 0, kthtGiu: 0, traSua: 0 };
         }
@@ -449,7 +469,7 @@
         });
 
         records.forEach(r => {
-          const cb = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : 'Chưa phân công / Trống';
+          const cb = (r.phapChe && r.phapChe.trim()) ? r.phapChe.trim() : ((r.canBoKTHT && r.canBoKTHT.trim()) ? r.canBoKTHT.trim() : 'Chưa phân công / Trống');
           if (!map[cb]) {
             map[cb] = {
               timeKey: '',

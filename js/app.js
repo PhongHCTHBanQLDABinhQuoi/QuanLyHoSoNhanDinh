@@ -35,6 +35,8 @@
   const trangThaiSelect = document.getElementById('trangThaiSelect');
   const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
   const datePickerInput = document.getElementById('datePickerInput');
+  const ngayTraSelect = document.getElementById('ngayTraSelect');
+  const datePickerTraInput = document.getElementById('datePickerTraInput');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
 
   // Toolbar VII elements
@@ -43,6 +45,8 @@
   const trangThaiSelect7 = document.getElementById('trangThaiSelect7');
   const ngayChuyenSelect7 = document.getElementById('ngayChuyenSelect7');
   const datePickerInput7 = document.getElementById('datePickerInput7');
+  const ngayTraSelect7 = document.getElementById('ngayTraSelect7');
+  const datePickerTraInput7 = document.getElementById('datePickerTraInput7');
   const resetFilterBtn7 = document.getElementById('resetFilterBtn7');
 
   // KPI elements
@@ -173,12 +177,16 @@
       if (trangThaiSelect && trangThaiSelect7) trangThaiSelect.value = trangThaiSelect7.value;
       if (ngayChuyenSelect && ngayChuyenSelect7) ngayChuyenSelect.value = ngayChuyenSelect7.value;
       if (datePickerInput && datePickerInput7) datePickerInput.value = datePickerInput7.value;
+      if (ngayTraSelect && ngayTraSelect7) ngayTraSelect.value = ngayTraSelect7.value;
+      if (datePickerTraInput && datePickerTraInput7) datePickerTraInput.value = datePickerTraInput7.value;
     } else {
       if (searchInput && searchInput7) searchInput7.value = searchInput.value;
       if (phankhuSelect && phankhuSelect7) phankhuSelect7.value = phankhuSelect.value;
       if (trangThaiSelect && trangThaiSelect7) trangThaiSelect7.value = trangThaiSelect.value;
       if (ngayChuyenSelect && ngayChuyenSelect7) ngayChuyenSelect7.value = ngayChuyenSelect.value;
       if (datePickerInput && datePickerInput7) datePickerInput7.value = datePickerInput.value;
+      if (ngayTraSelect && ngayTraSelect7) ngayTraSelect7.value = ngayTraSelect.value;
+      if (datePickerTraInput && datePickerTraInput7) datePickerTraInput7.value = datePickerTraInput.value;
     }
   }
 
@@ -202,7 +210,12 @@
     // Date Dropdown Listeners
     const handleDateSelectChange = (sourceElem) => {
       const val = sourceElem.value;
-      const targetPicker = sourceElem === ngayChuyenSelect ? datePickerInput : datePickerInput7;
+      let targetPicker = null;
+      if (sourceElem === ngayChuyenSelect) targetPicker = datePickerInput;
+      else if (sourceElem === ngayChuyenSelect7) targetPicker = datePickerInput7;
+      else if (sourceElem === ngayTraSelect) targetPicker = datePickerTraInput;
+      else if (sourceElem === ngayTraSelect7) targetPicker = datePickerTraInput7;
+
       if (targetPicker) {
         if (val && val.includes('/')) {
           const parts = val.split('/');
@@ -213,20 +226,28 @@
           targetPicker.value = '';
         }
       }
-      syncFilterControls(sourceElem === ngayChuyenSelect ? 'toolbar6' : 'toolbar7');
+      syncFilterControls(sourceElem.id.includes('7') ? 'toolbar7' : 'toolbar6');
       handleFilterChange();
     };
 
     if (ngayChuyenSelect) ngayChuyenSelect.addEventListener('change', () => handleDateSelectChange(ngayChuyenSelect));
     if (ngayChuyenSelect7) ngayChuyenSelect7.addEventListener('change', () => handleDateSelectChange(ngayChuyenSelect7));
 
+    if (ngayTraSelect) ngayTraSelect.addEventListener('change', () => handleDateSelectChange(ngayTraSelect));
+    if (ngayTraSelect7) ngayTraSelect7.addEventListener('change', () => handleDateSelectChange(ngayTraSelect7));
+
     // Date Picker Listeners
     const handleDatePickerChange = (sourcePicker) => {
       const val = sourcePicker.value; // YYYY-MM-DD
-      const targetSelect = sourcePicker === datePickerInput ? ngayChuyenSelect : ngayChuyenSelect7;
+      let targetSelect = null;
+      if (sourcePicker === datePickerInput) targetSelect = ngayChuyenSelect;
+      else if (sourcePicker === datePickerInput7) targetSelect = ngayChuyenSelect7;
+      else if (sourcePicker === datePickerTraInput) targetSelect = ngayTraSelect;
+      else if (sourcePicker === datePickerTraInput7) targetSelect = ngayTraSelect7;
+
       if (!val) {
         if (targetSelect) targetSelect.value = 'ALL';
-        syncFilterControls(sourcePicker === datePickerInput ? 'toolbar6' : 'toolbar7');
+        syncFilterControls(sourcePicker.id.includes('7') ? 'toolbar7' : 'toolbar6');
         handleFilterChange();
         return;
       }
@@ -258,16 +279,24 @@
           }
         };
 
-        updateSelectOption(ngayChuyenSelect);
-        updateSelectOption(ngayChuyenSelect7);
+        if (sourcePicker === datePickerInput || sourcePicker === datePickerInput7) {
+          updateSelectOption(ngayChuyenSelect);
+          updateSelectOption(ngayChuyenSelect7);
+        } else {
+          updateSelectOption(ngayTraSelect);
+          updateSelectOption(ngayTraSelect7);
+        }
 
-        syncFilterControls(sourcePicker === datePickerInput ? 'toolbar6' : 'toolbar7');
+        syncFilterControls(sourcePicker.id.includes('7') ? 'toolbar7' : 'toolbar6');
         handleFilterChange();
       }
     };
 
     if (datePickerInput) datePickerInput.addEventListener('change', () => handleDatePickerChange(datePickerInput));
     if (datePickerInput7) datePickerInput7.addEventListener('change', () => handleDatePickerChange(datePickerInput7));
+
+    if (datePickerTraInput) datePickerTraInput.addEventListener('change', () => handleDatePickerChange(datePickerTraInput));
+    if (datePickerTraInput7) datePickerTraInput7.addEventListener('change', () => handleDatePickerChange(datePickerTraInput7));
 
     // Reset Buttons
     const handleResetAll = () => {
@@ -276,12 +305,16 @@
       if (trangThaiSelect) trangThaiSelect.value = 'ALL';
       if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
       if (datePickerInput) datePickerInput.value = '';
+      if (ngayTraSelect) ngayTraSelect.value = 'ALL';
+      if (datePickerTraInput) datePickerTraInput.value = '';
 
       if (searchInput7) searchInput7.value = '';
       if (phankhuSelect7) phankhuSelect7.value = 'ALL';
       if (trangThaiSelect7) trangThaiSelect7.value = 'ALL';
       if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
       if (datePickerInput7) datePickerInput7.value = '';
+      if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
+      if (datePickerTraInput7) datePickerTraInput7.value = '';
 
       document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
       const defaultChip = document.querySelector('.chip-btn[data-chip-val="ALL"]');
@@ -501,12 +534,15 @@
     let headerIndex = -1;
     for (let i = 0; i < lines.length; i++) {
       const r = lines[i];
-      if (r && r.length > 0 && (r[0].includes('Ngày') || r[0].includes('Tuần'))) {
-        headerIndex = i;
-        break;
+      if (r && r.length > 0) {
+        const firstCell = String(r[0]).toLowerCase();
+        if (firstCell.includes('ngày') || firstCell.includes('ngay') || firstCell.includes('tuần') || firstCell.includes('tuan') || firstCell.includes('thời gian') || firstCell.includes('stt') || firstCell.includes('cán bộ') || firstCell.includes('khu phố')) {
+          headerIndex = i;
+          break;
+        }
       }
     }
-    if (headerIndex === -1) return [];
+    if (headerIndex === -1) headerIndex = 0;
 
     const records = [];
     let currentTimeLabel = '';
@@ -565,8 +601,9 @@
       const cleanH = h.toLowerCase().replace(/\n/g, ' ').trim();
       if (cleanH.includes('stt')) colMap.stt = idx;
       else if (cleanH.includes('cán bộ bbt') || cleanH.includes('bqlda') || cleanH.includes('thụ lý bqlda')) colMap.canBoBBT = idx;
+      else if (cleanH.includes('chuyển về') || cleanH.includes('kthtđt chuyển về')) colMap.ngayKthtChuyenVe = idx;
       else if (cleanH.includes('ngày chuyển')) colMap.ngayChuyen = idx;
-      else if (cleanH.includes('ktht') || cleanH.includes('phòng ktht')) colMap.canBoKTHT = idx;
+      else if ((cleanH.includes('cán bộ') && (cleanH.includes('ktht') || cleanH.includes('phòng ktht'))) || cleanH.includes('thụ lý phòng ktht') || cleanH.includes('thụ lý ktht')) colMap.canBoKTHT = idx;
       else if (cleanH.includes('tổ bồi thường')) colMap.toBoiThuong = idx;
       else if (cleanH.includes('mã hồ sơ') || cleanH.includes('mã hs')) colMap.maHoSo = idx;
       else if (cleanH.includes('họ và tên') || cleanH.includes('họ tên')) colMap.hoTen = idx;
@@ -598,13 +635,15 @@
       const sttVal = parseInt(g('stt'), 10);
       if (isNaN(sttVal)) continue;
 
-      records.push({
+      const maHoSoVal = g('maHoSo');
+      const rec = {
         stt: sttVal,
         canBoBBT: g('canBoBBT'),
         canBoKTHT: g('canBoKTHT'),
         ngayChuyen: g('ngayChuyen'),
+        ngayKthtChuyenVe: g('ngayKthtChuyenVe'),
         toBoiThuong: g('toBoiThuong'),
-        maHoSo: g('maHoSo'),
+        maHoSo: maHoSoVal,
         hoTen: g('hoTen'),
         diaChi: g('diaChi'),
         duong: g('duong'),
@@ -619,7 +658,34 @@
         phapChe: g('phapChe'),
         doLuong: g('doLuong'),
         trungLap: g('trungLap')
-      });
+      };
+
+      if (window.BASE_JOBS_MAP && maHoSoVal) {
+        const c = Analytics.removeVietnameseTones(maHoSoVal).replace(/[^A-Z0-9]/gi, '').toUpperCase();
+        let foundJob = window.BASE_JOBS_MAP[c];
+        if (!foundJob) {
+          const m = c.match(/(\d+KP\d+)/);
+          if (m) {
+            const shortC = m[1];
+            for (const [k, jobInfo] of Object.entries(window.BASE_JOBS_MAP)) {
+              if (k.includes(shortC)) {
+                foundJob = jobInfo;
+                break;
+              }
+            }
+          }
+        }
+        if (foundJob) {
+          rec.baseJobId = foundJob.id;
+          rec.baseJobName = foundJob.name;
+          rec.baseStageId = foundJob.stageId;
+          rec.baseStageName = foundJob.stageName;
+          rec.baseOwners = foundJob.owners;
+          rec.baseLink = foundJob.link;
+        }
+      }
+
+      records.push(rec);
     }
     return records;
   }
@@ -671,64 +737,85 @@
     if (!allRecords || allRecords.length === 0) return;
 
     const labelElems = document.querySelectorAll('label[for="ngayChuyenSelect"], label[for="ngayChuyenSelect7"]');
-    let defaultText = 'Tất cả các Ngày';
-    let labelText = '📅 Ngày Chuyển';
+    let defaultText = 'Tất cả Ngày Chuyển';
+    let labelText = '📅 Ngày Chuyển Đi';
     if (activePeriodType === 'week') {
-      labelText = '🗓️ Tuần Chuyển';
+      labelText = '🗓️ Tuần Chuyển Đi';
       defaultText = 'Tất cả các Tuần';
     } else if (activePeriodType === 'month') {
-      labelText = '📆 Tháng Chuyển';
+      labelText = '📆 Tháng Chuyển Đi';
       defaultText = 'Tất cả các Tháng';
     }
     labelElems.forEach(l => l.textContent = labelText);
 
-    const map = {};
+    // 1. Map for ngayChuyen (Ngày chuyển đi sang KTHTĐT)
+    const mapChuyen = {};
     allRecords.forEach(r => {
       if (!r.ngayChuyen || !r.ngayChuyen.trim()) return;
-      let key = r.ngayChuyen.trim();
-      if (activePeriodType === 'week') {
-        key = Analytics.getWeekLabel(r.ngayChuyen);
-      } else if (activePeriodType === 'month') {
-        key = Analytics.getMonthLabel(r.ngayChuyen);
-      }
-      map[key] = (map[key] || 0) + 1;
+      let key = Analytics.normalizeDateStr(r.ngayChuyen);
+      if (!key) return;
+      if (activePeriodType === 'week') key = Analytics.getWeekLabel(r.ngayChuyen);
+      else if (activePeriodType === 'month') key = Analytics.getMonthLabel(r.ngayChuyen);
+      mapChuyen[key] = (mapChuyen[key] || 0) + 1;
     });
 
     if (window.TABLE_VII_DATA_DAILY && window.TABLE_VII_DATA_DAILY.length > 0) {
       window.TABLE_VII_DATA_DAILY.forEach(r => {
         if (!r.timeKey || !r.timeKey.trim()) return;
-        let key = r.timeKey.trim();
+        let key = Analytics.normalizeDateStr(r.timeKey);
         if (activePeriodType === 'week') {
           key = Analytics.getWeekLabel(r.timeKey);
         } else if (activePeriodType === 'month') {
           key = Analytics.getMonthLabel(r.timeKey);
         }
-        map[key] = (map[key] || 0) + 1;
+        mapChuyen[key] = (mapChuyen[key] || 0) + 1;
       });
     }
 
-    let sortedKeys = Object.keys(map);
-    if (activePeriodType === 'date') {
-      sortedKeys.sort((a, b) => {
-        const dA = Analytics.parseDate(a);
-        const dB = Analytics.parseDate(b);
-        if (!dA) return 1;
-        if (!dB) return -1;
-        return dB - dA;
-      });
-    } else {
-      sortedKeys.sort((a, b) => b.localeCompare(a, 'vi'));
-    }
+    // 2. Map for ngayKthtChuyenVe (Ngày P.KTHTĐT chuyển về)
+    const mapTra = {};
+    allRecords.forEach(r => {
+      if (!r.ngayKthtChuyenVe || !r.ngayKthtChuyenVe.trim()) return;
+      let key = Analytics.normalizeDateStr(r.ngayKthtChuyenVe);
+      if (!key) return;
+      if (activePeriodType === 'week') key = Analytics.getWeekLabel(r.ngayKthtChuyenVe);
+      else if (activePeriodType === 'month') key = Analytics.getMonthLabel(r.ngayKthtChuyenVe);
+      mapTra[key] = (mapTra[key] || 0) + 1;
+    });
+
+    const sortKeys = (mapObj) => {
+      let sorted = Object.keys(mapObj);
+      if (activePeriodType === 'date') {
+        sorted.sort((a, b) => {
+          const dA = Analytics.parseDate(a);
+          const dB = Analytics.parseDate(b);
+          if (!dA) return 1;
+          if (!dB) return -1;
+          return dB - dA;
+        });
+      } else {
+        sorted.sort((a, b) => b.localeCompare(a, 'vi'));
+      }
+      return sorted;
+    };
 
     const prefix = activePeriodType === 'week' ? '🗓️ ' : (activePeriodType === 'month' ? '📆 ' : '📅 ');
-    const optionsHtml = [`<option value="ALL">${defaultText}</option>`]
-      .concat(sortedKeys.map(k => `<option value="${k}">${prefix}${k} (${map[k]} hồ sơ)</option>`))
+
+    // Options HTML for ngayChuyenSelect
+    const optionsChuyenHtml = [`<option value="ALL">${defaultText}</option>`]
+      .concat(sortKeys(mapChuyen).map(k => `<option value="${k}">${prefix}${k} (${mapChuyen[k]} hồ sơ)</option>`))
       .join('');
 
-    const updateDropdown = (sel) => {
+    // Options HTML for ngayTraSelect
+    const defaultTraText = activePeriodType === 'week' ? 'Tất cả Tuần Trả' : (activePeriodType === 'month' ? 'Tất cả Tháng Trả' : 'Tất cả Ngày Trả');
+    const optionsTraHtml = [`<option value="ALL">${defaultTraText}</option>`]
+      .concat(sortKeys(mapTra).map(k => `<option value="${k}">${prefix}${k} (${mapTra[k]} hồ sơ)</option>`))
+      .join('');
+
+    const updateDropdown = (sel, html) => {
       if (!sel) return;
       const val = sel.value;
-      sel.innerHTML = optionsHtml;
+      sel.innerHTML = html;
       if (val && Array.from(sel.options).some(o => o.value === val)) {
         sel.value = val;
       } else {
@@ -736,15 +823,20 @@
       }
     };
 
-    updateDropdown(ngayChuyenSelect);
-    updateDropdown(ngayChuyenSelect7);
+    updateDropdown(ngayChuyenSelect, optionsChuyenHtml);
+    updateDropdown(ngayChuyenSelect7, optionsChuyenHtml);
+
+    updateDropdown(ngayTraSelect, optionsTraHtml);
+    updateDropdown(ngayTraSelect7, optionsTraHtml);
   }
 
   function handleFilterChange() {
-    const query = searchInput.value.toLowerCase().trim();
-    const kpFilter = phankhuSelect.value;
-    const stFilter = trangThaiSelect.value;
+    const rawQuery = (searchInput ? searchInput.value : (searchInput7 ? searchInput7.value : '')).trim();
+    const query = rawQuery.toLowerCase();
+    const kpFilter = phankhuSelect ? phankhuSelect.value : 'ALL';
+    const stFilter = trangThaiSelect ? trangThaiSelect.value : 'ALL';
     const dtFilter = ngayChuyenSelect ? ngayChuyenSelect.value : 'ALL';
+    const traFilter = ngayTraSelect ? ngayTraSelect.value : 'ALL';
 
     filteredRecords = allRecords.filter(r => {
       // 1. Phân khu filter
@@ -755,24 +847,85 @@
         if (!r.trangThai || !r.trangThai.includes(stFilter.substring(0, 2))) return false;
       }
 
-      // 3. Ngày / Tuần / Tháng chuyển filter
+      // 3. Ngày / Tuần / Tháng chuyển đi sang KTHTĐT filter
       if (dtFilter !== 'ALL') {
-        const rDate = r.ngayChuyen ? r.ngayChuyen.trim() : '';
+        const normFilter = Analytics.normalizeDateStr(dtFilter);
+        const d1 = Analytics.normalizeDateStr(r.ngayChuyen);
+
         if (activePeriodType === 'week') {
-          const wLabel = Analytics.getWeekLabel(rDate);
-          if (wLabel !== dtFilter) return false;
+          const w1 = Analytics.getWeekLabel(r.ngayChuyen);
+          if (w1 !== dtFilter && !w1.includes(dtFilter)) return false;
         } else if (activePeriodType === 'month') {
-          const mLabel = Analytics.getMonthLabel(rDate);
-          if (mLabel !== dtFilter) return false;
+          const m1 = Analytics.getMonthLabel(r.ngayChuyen);
+          if (m1 !== dtFilter && !m1.includes(dtFilter)) return false;
         } else {
-          if (rDate !== dtFilter && !rDate.startsWith(dtFilter)) return false;
+          if (d1 !== normFilter && !d1.startsWith(normFilter)) return false;
         }
       }
 
-      // 4. Search query filter
+      // 4. Lọc riêng NGÀY P.KTHTĐT CHUYỂN VỀ (Ngày Trả Về)
+      if (traFilter !== 'ALL') {
+        if (!r.ngayKthtChuyenVe || !r.ngayKthtChuyenVe.trim()) return false;
+        const normTraFilter = Analytics.normalizeDateStr(traFilter);
+        const d2 = Analytics.normalizeDateStr(r.ngayKthtChuyenVe);
+
+        if (activePeriodType === 'week') {
+          const w2 = Analytics.getWeekLabel(r.ngayKthtChuyenVe);
+          if (w2 !== traFilter && !w2.includes(traFilter)) return false;
+        } else if (activePeriodType === 'month') {
+          const m2 = Analytics.getMonthLabel(r.ngayKthtChuyenVe);
+          if (m2 !== traFilter && !m2.includes(traFilter)) return false;
+        } else {
+          if (d2 !== normTraFilter && !d2.startsWith(normTraFilter)) return false;
+        }
+      }
+
+      // 5. Smart Multi-term Unaccented Search Filter
       if (query) {
-        const text = `${r.stt} ${r.canBoBBT} ${r.canBoKTHT} ${r.hoTen} ${r.diaChi} ${r.duong} ${r.toBanDo} ${r.thuaDat} ${r.ghiChu}`.toLowerCase();
-        if (!text.includes(query)) return false;
+        const qNoTone = Analytics.removeVietnameseTones(query);
+        const terms = query.split(/\s+/).filter(Boolean);
+        const termsNoTone = qNoTone.split(/\s+/).filter(Boolean);
+
+        const rawText = [
+          r.stt,
+          `stt ${r.stt}`,
+          `hs-${String(r.stt).padStart(4, '0')}`,
+          r.maHoSo,
+          r.baseJobId,
+          r.baseJobName,
+          r.baseStageName,
+          r.canBoBBT,
+          r.canBoKTHT,
+          r.hoTen,
+          r.diaChi,
+          r.duong,
+          r.phuong,
+          r.toBanDo,
+          `tờ ${r.toBanDo}`,
+          `to ${r.toBanDo}`,
+          r.thuaDat,
+          `thửa ${r.thuaDat}`,
+          `thua ${r.thuaDat}`,
+          r.khuPho,
+          `kp ${r.khuPho}`,
+          `kp${r.khuPho}`,
+          `khu phố ${r.khuPho}`,
+          r.toBoiThuong,
+          r.trangThai,
+          r.ngayChuyen,
+          r.ngayKthtChuyenVe,
+          r.ghiChu,
+          r.phapChe
+        ].filter(Boolean).join(' ').toLowerCase();
+
+        const noToneText = Analytics.removeVietnameseTones(rawText);
+
+        const match = termsNoTone.every((term, idx) => {
+          const rawTerm = terms[idx] || term;
+          return rawText.includes(rawTerm) || noToneText.includes(term);
+        });
+
+        if (!match) return false;
       }
 
       return true;
@@ -866,9 +1019,11 @@
   function renderSection2() {
     const list = Analytics.getVolumeByOfficer(filteredRecords);
     const tbody = document.getElementById('tbodySection2');
+    if (!tbody) return;
     tbody.innerHTML = '';
 
-    document.getElementById('countOfficersTag').textContent = `${list.length} Cán bộ`;
+    const countTag = document.getElementById('countOfficersTag');
+    if (countTag) countTag.textContent = `${list.length} Cán bộ`;
 
     let totalKP17 = 0, totalKP18 = 0, totalKP19 = 0, grandTotal = 0;
 
@@ -905,6 +1060,7 @@
   function renderSection3() {
     const map = Analytics.getStatusDetail(filteredRecords);
     const tbody = document.getElementById('tbodySection3');
+    if (!tbody) return;
     tbody.innerHTML = '';
 
     const keys = [
@@ -950,6 +1106,7 @@
   function renderSection4() {
     const stats = Analytics.getClearanceStats(filteredRecords);
     const tbody = document.getElementById('tbodySection4');
+    if (!tbody) return;
     tbody.innerHTML = '';
 
     const rows = [
@@ -974,6 +1131,7 @@
   function renderSection5() {
     const map = Analytics.getCompensationTeamStats(filteredRecords);
     const tbody = document.getElementById('tbodySection5');
+    if (!tbody) return;
     tbody.innerHTML = '';
 
     const teams = ['Tổ 1', 'Tổ 2', 'Tổ 3'];
@@ -1011,7 +1169,7 @@
 
   // 11. Render Master Section VI (Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT)
   function renderSection6() {
-    const isDateFiltered = ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL';
+    const isDateFiltered = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') || (ngayTraSelect && ngayTraSelect.value !== 'ALL') || (datePickerInput && datePickerInput.value) || (datePickerTraInput && datePickerTraInput.value);
     const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
     const thTimeKey = document.getElementById('thTimeKey');
     if (thTimeKey) {
@@ -1099,10 +1257,10 @@
 
   // 12. Render Master Section VII (Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT)
   function renderSection7() {
-    const isDateFiltered = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') || (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') || (datePickerInput7 && datePickerInput7.value);
+    const isDateFiltered = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') || (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') || (ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') || (ngayTraSelect && ngayTraSelect.value !== 'ALL') || (datePickerInput7 && datePickerInput7.value) || (datePickerTraInput7 && datePickerTraInput7.value);
     const isKhuPhoFiltered = (phankhuSelect7 && phankhuSelect7.value !== 'ALL') || (phankhuSelect && phankhuSelect.value !== 'ALL');
     const searchVal7 = searchInput7 ? searchInput7.value : '';
-    const selectedDateVal7 = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : (ngayChuyenSelect ? ngayChuyenSelect.value : '');
+    const selectedDateVal7 = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : ((ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : (ngayTraSelect ? ngayTraSelect.value : '')));
 
     const thTimeKey7 = document.getElementById('thTimeKey7');
     if (thTimeKey7) {

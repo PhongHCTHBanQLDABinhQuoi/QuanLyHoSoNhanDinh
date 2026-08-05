@@ -308,8 +308,9 @@ def fetch_and_sync():
         clean_h = h.lower().replace("\n", " ").strip()
         if "stt" in clean_h: col_map["stt"] = idx
         elif "cán bộ bbt" in clean_h or "bqlda" in clean_h or "thụ lý bqlda" in clean_h or "thu ly bqlda" in clean_h: col_map["canBoBBT"] = idx
+        elif "chuyển về" in clean_h or "kthtđt chuyển về" in clean_h: col_map["ngayKthtChuyenVe"] = idx
         elif "ngày chuyển" in clean_h: col_map["ngayChuyen"] = idx
-        elif "ktht" in clean_h or "phòng ktht" in clean_h: col_map["canBoKTHT"] = idx
+        elif ("cán bộ" in clean_h and ("ktht" in clean_h or "phòng ktht" in clean_h)) or "thụ lý phòng ktht" in clean_h or "thụ lý ktht" in clean_h: col_map["canBoKTHT"] = idx
         elif "tổ bồi thường" in clean_h: col_map["toBoiThuong"] = idx
         elif "mã hồ sơ" in clean_h or "mã hs" in clean_h: col_map["maHoSo"] = idx
         elif "họ và tên" in clean_h or "họ tên" in clean_h: col_map["hoTen"] = idx
@@ -351,6 +352,7 @@ def fetch_and_sync():
             "canBoBBT": g("canBoBBT"),
             "canBoKTHT": g("canBoKTHT"),
             "ngayChuyen": g("ngayChuyen"),
+            "ngayKthtChuyenVe": g("ngayKthtChuyenVe"),
             "toBoiThuong": g("toBoiThuong"),
             "maHoSo": g("maHoSo"),
             "hoTen": g("hoTen"),
