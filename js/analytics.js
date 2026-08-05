@@ -909,6 +909,9 @@
         const key = `${timeKey}___${cb}`;
 
         if (!map[key]) {
+          const bCount = this.getBaseCountForOfficer(cb);
+          const finalBase = bCount > 0 ? bCount : (allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0);
+
           map[key] = {
             timeKey: timeKey,
             cbtl: cb,
@@ -916,7 +919,7 @@
             kp17: 0,
             kp18: 0,
             kp19: 0,
-            baseTotal: 0,
+            baseTotal: finalBase,
             totalChuyen: 0,
             thongQua: 0,
             kthtGiu: 0,
