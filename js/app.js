@@ -564,6 +564,10 @@
 
       const khuPho = r[1] ? r[1].trim() : '';
       const canBo = r[2] ? r[2].trim() : '';
+      const cleanCanBo = canBo.toLowerCase();
+      if (cleanCanBo === 'thụ lý' || cleanCanBo === 'cán bộ' || cleanCanBo === 'cán bộ thụ lý' || cleanCanBo === 'thụ lý bqlda' || cleanCanBo === 'tên cán bộ' || cleanCanBo === 'người thụ lý') {
+        continue;
+      }
       const soDuyetStr = r[3] ? r[3].trim() : '';
       const soTraSuaStr = r[4] ? r[4].trim() : '';
       const ghiChu = r[5] ? r[5].trim() : '';
