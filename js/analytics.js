@@ -65,11 +65,25 @@
     return s;
   }
 
+  function removeVietnameseTones(str) {
+    if (!str) return '';
+    let s = String(str).toLowerCase().trim();
+    s = s.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+    s = s.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+    s = s.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+    s = s.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+    s = s.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+    s = s.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+    s = s.replace(/đ/g, "d");
+    return s;
+  }
+
   const Analytics = {
     parseDate,
     normalizeDateStr,
     getWeekLabel,
     getMonthLabel,
+    removeVietnameseTones,
 
     // 1. Section I: Tiến độ Pháp lý Chi tiết theo Từng Phân Khu
     getLegalProgressByKhuPho(records) {
