@@ -378,81 +378,336 @@ header.app-header::after {
   box-shadow: var(--shadow-sm);
 }
 
-.filter-bar {
+/* ==========================================================================
+   New Filter Toolbar (BEM style)
+   ========================================================================== */
+/* ==========================================================================
+   Executive Modern Filter Toolbar UI (Pixel-Perfect Grid & Styling)
+   ========================================================================== */
+.filter-toolbar {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  padding: 18px 24px;
-  margin-bottom: 28px;
-  box-shadow: var(--shadow-sm);
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin: 12px 0 18px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filter-toolbar:focus-within {
+  box-shadow: 0 6px 24px rgba(37, 99, 235, 0.1);
+  border-color: var(--primary-blue);
+}
+
+/* Header & Title */
+.filter-toolbar__header {
   display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
   align-items: center;
-  transition: box-shadow 0.2s ease;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed var(--border-color);
 }
 
-.filter-bar:focus-within {
-  box-shadow: var(--shadow-md);
-}
-
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  flex: 1;
-  min-width: 160px;
-}
-
-.filter-group.search-group {
-  flex: 2.2;
-  min-width: 280px;
-}
-
-.filter-group label {
-  font-size: 0.75rem;
+.filter-toolbar__title {
+  font-size: 0.85rem;
   font-weight: 700;
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Quick Chips Bar */
+.quick-chips-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  background: rgba(37, 99, 235, 0.03);
+  border-radius: 8px;
+  border: 1px solid rgba(37, 99, 235, 0.08);
+}
+
+.quick-chip-label {
+  font-size: 0.725rem;
+  font-weight: 800;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  margin-right: 4px;
 }
 
-.filter-control {
-  padding: 10px 14px;
-  background: var(--bg-input);
+.chip-btn {
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
   color: var(--text-main);
-  font-size: 0.875rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.775rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.chip-btn:hover {
+  border-color: var(--primary-blue);
+  color: var(--primary-blue);
+  background: rgba(37, 99, 235, 0.06);
+  transform: translateY(-1px);
+}
+
+.chip-btn.active {
+  background: var(--primary-blue);
+  color: #ffffff !important;
+  border-color: var(--primary-blue);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+}
+
+/* Form Grid Row */
+.filter-toolbar__row {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr 1.6fr 1.2fr auto;
+  gap: 14px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .filter-toolbar__row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .filter-toolbar__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.filter-toolbar__search,
+.filter-toolbar__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.filter-toolbar label {
+  font-size: 0.725rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Modern Input Controls */
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-box__icon {
+  position: absolute;
+  left: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.search-box__input {
+  width: 100%;
+  height: 40px;
+  padding: 0 34px 0 36px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 0.85rem;
   font-weight: 500;
   outline: none;
+  box-sizing: border-box;
   transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
 }
 
-.filter-control:focus {
-  border-color: var(--border-focus);
+.search-box__input:focus {
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.search-box__clear {
+  position: absolute;
+  right: 10px;
+  background: rgba(148, 163, 184, 0.2);
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.search-box__clear.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.search-box__clear:hover {
+  color: #ffffff;
+  background: var(--danger-red);
+}
+
+/* Modern Select Dropdown */
+.filter-select {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
   background: var(--bg-card);
-  box-shadow: 0 0 0 3px var(--primary-blue-light);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 0.85rem;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
 }
 
-.btn-reset-filter {
-  background: transparent;
+.filter-select:focus {
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Date Range Inputs */
+.date-range-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.filter-date {
+  flex: 1;
+  height: 40px;
+  padding: 0 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.filter-date:focus {
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.date-range-sep {
+  color: var(--primary-blue);
+  font-size: 0.9rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+/* Modern Reset Button */
+.filter-toolbar__reset {
+  height: 40px;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   color: var(--text-muted);
-  padding: 10px 16px;
-  border-radius: var(--radius-sm);
+  padding: 0 18px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 0.875rem;
-  font-weight: 600;
-  align-self: flex-end;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
   transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
 }
 
-.btn-reset-filter:hover {
-  background: var(--danger-red-light);
+.filter-toolbar__reset:hover {
+  background: rgba(239, 68, 68, 0.08);
   color: var(--danger-red);
   border-color: var(--danger-red);
+  transform: translateY(-1px);
 }
+
+/* Active Filter Summary Banner */
+.filter-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  padding: 10px 16px;
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 8px;
+  font-size: 0.8125rem;
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.filter-banner__text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-banner__clear {
+  background: none;
+  border: none;
+  color: var(--danger-red);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.filter-banner__clear:hover {
+  opacity: 0.8;
+}
+
+
 
 /* ==========================================================================
    KPI Summary Cards
