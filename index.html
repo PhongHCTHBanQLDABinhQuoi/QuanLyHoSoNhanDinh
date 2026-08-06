@@ -41,7 +41,90 @@
 
   <div class="app-container">
 
-    <!-- Quick Filter Chips -->
+    <!-- Global Main Filter Toolbar -->
+    <div class="filter-toolbar" style="margin-bottom: 24px; border-top: 4px solid var(--primary-blue); background: var(--bg-card); box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
+      <div class="filter-toolbar__header">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 1.25rem;">🎛️</span>
+          <div>
+            <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--primary-dark); margin: 0;">BỘ LỌC DỮ LIỆU & TÌM KIẾM TOÀN HỆ THỐNG</h3>
+            <p style="font-size: 0.775rem; color: var(--text-muted); margin: 2px 0 0 0;">Lọc đồng bộ từ khóa, khoảng ngày chuyển / trả về, phân khu và trạng thái hồ sơ trên toàn Dashboard</p>
+          </div>
+        </div>
+        
+        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+          <span class="badge badge-info" id="filterResultCountBadgeGlobal" style="font-size: 0.775rem; font-weight: 700; padding: 4px 12px;">1,141 hồ sơ</span>
+          <div class="tab-group" id="timePeriodTabsGlobal">
+            <button class="tab-btn active" data-period="date">📅 Theo Ngày</button>
+            <button class="tab-btn" data-period="week">🗓️ Theo Tuần</button>
+            <button class="tab-btn" data-period="month">📆 Theo Tháng</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Chips Bar -->
+      <div class="quick-chips-bar">
+        <span class="quick-chip-label">Lọc nhanh:</span>
+        <button class="chip-btn active" data-chip-type="kp" data-chip-val="ALL">🌐 Tất cả Phân khu</button>
+        <button class="chip-btn" data-chip-type="kp" data-chip-val="17">🏘️ KP 17 (Tổ 1)</button>
+        <button class="chip-btn" data-chip-type="kp" data-chip-val="18">🏡 KP 18 (Tổ 2)</button>
+        <button class="chip-btn" data-chip-type="kp" data-chip-val="19">🏢 KP 19 (Tổ 3)</button>
+        <span style="width: 1px; height: 16px; background: var(--border-color); margin: 0 4px;"></span>
+        <button class="chip-btn" data-chip-type="st" data-chip-val="3.">✅ Đã thông qua</button>
+        <button class="chip-btn" data-chip-type="st" data-chip-val="1.">⏳ KTHT đang giữ</button>
+        <button class="chip-btn" data-chip-type="st" data-chip-val="2.1">⚠️ Trả sửa</button>
+      </div>
+
+      <div class="filter-toolbar__row">
+        <div class="filter-toolbar__search">
+          <label for="searchInputGlobal">🔍 Tìm kiếm thông minh hồ sơ</label>
+          <div class="search-box">
+            <span class="search-box__icon">🔍</span>
+            <input type="text" id="searchInputGlobal" class="search-box__input" placeholder="Nhập mã HS, chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
+            <button type="button" class="search-box__clear" data-target="searchInputGlobal" title="Xóa từ khóa">&times;</button>
+          </div>
+        </div>
+
+        <div class="filter-toolbar__field">
+          <label for="phankhuSelectGlobal">📍 Phân khu</label>
+          <select id="phankhuSelectGlobal" class="filter-select">
+            <option value="ALL">Tất cả Phân Khu</option>
+            <option value="17">Khu Phố 17 (Tổ 1)</option>
+            <option value="18">Khu Phố 18 (Tổ 2)</option>
+            <option value="19">Khu Phố 19 (Tổ 3)</option>
+          </select>
+        </div>
+
+        <div class="filter-toolbar__field filter-toolbar__date-range">
+          <label>📆 Khoảng ngày (Từ - Đến)</label>
+          <div class="date-range-group">
+            <input type="date" id="datePickerFromInputGlobal" class="filter-date" title="Từ ngày">
+            <span class="date-range-sep">➜</span>
+            <input type="date" id="datePickerToInputGlobal" class="filter-date" title="Đến ngày">
+          </div>
+        </div>
+
+        <div class="filter-toolbar__field">
+          <label for="trangThaiSelectGlobal">📌 Trạng thái</label>
+          <select id="trangThaiSelectGlobal" class="filter-select">
+            <option value="ALL">Tất cả Trạng Thái</option>
+            <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua</option>
+            <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ</option>
+            <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả sửa lần 1</option>
+            <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Chuyển sửa lại</option>
+          </select>
+        </div>
+
+        <button id="resetFilterBtnGlobal" class="filter-toolbar__reset" title="Đặt lại tất cả bộ lọc">🔄 Đặt lại</button>
+      </div>
+
+      <!-- Active Filter Banner -->
+      <div id="activeFilterBannerGlobal" class="filter-banner" style="display: none;">
+        <div class="filter-banner__text" id="activeFilterBannerTextGlobal"></div>
+        <button id="clearActiveFilterBtnGlobal" class="filter-banner__clear">✕ Xóa bộ lọc</button>
+      </div>
+    </div>
+
     <!-- KPI Summary Cards -->
     <div class="kpi-grid">
       <div class="kpi-card kpi-total">
@@ -218,61 +301,76 @@
               </div>
             </div>
 
-            <!-- Dedicated Filter Toolbar for Table IV -->
-            <div class="filter-bar" style="margin-top: 0; background: rgba(0,0,0,0.03); border: 1px solid var(--border-color); border-radius: 10px; padding: 12px;">
-              <div class="filter-group search-group" style="flex: 2; min-width: 220px;">
-                <label for="searchInput">🔍 Tìm kiếm thông minh hồ sơ</label>
-                <input type="text" id="searchInput" class="filter-control" placeholder="Nhập tên chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
-              </div>
-              
-              <div class="filter-group" style="min-width: 130px;">
-                <label for="phankhuSelect">📍 Phân Khu</label>
-                <select id="phankhuSelect" class="filter-control">
-                  <option value="ALL">Tất cả Phân Khu</option>
-                  <option value="17">Khu Phố 17</option>
-                  <option value="18">Khu Phố 18</option>
-                  <option value="19">Khu Phố 19</option>
-                </select>
+            <!-- Filter Toolbar for Table IV -->
+            <div class="filter-toolbar" style="border-top: 3px solid var(--primary-blue);">
+              <div class="filter-toolbar__header">
+                <div class="filter-toolbar__title">
+                  <span>🎛️ BỘ LỌC TÌM KIẾM & KHOẢNG NGÀY BẢNG IV</span>
+                </div>
+                <span class="badge badge-info" id="filterResultCountBadge4" style="font-size: 0.75rem; font-weight: 700; padding: 3px 10px;">1,141 hồ sơ</span>
               </div>
 
-              <div class="filter-group" style="min-width: 150px;">
-                <label for="ngayChuyenSelect">📅 Ngày Chuyển Đi</label>
-                <select id="ngayChuyenSelect" class="filter-control">
-                  <option value="ALL">Tất cả Ngày Chuyển</option>
-                  <!-- Populated dynamically -->
-                </select>
+              <!-- Quick Chips Bar -->
+              <div class="quick-chips-bar">
+                <span class="quick-chip-label">Lọc nhanh:</span>
+                <button class="chip-btn active" data-chip-type="kp" data-chip-val="ALL">🌐 Tất cả Phân khu</button>
+                <button class="chip-btn" data-chip-type="kp" data-chip-val="17">🏘️ KP 17 (Tổ 1)</button>
+                <button class="chip-btn" data-chip-type="kp" data-chip-val="18">🏡 KP 18 (Tổ 2)</button>
+                <button class="chip-btn" data-chip-type="kp" data-chip-val="19">🏢 KP 19 (Tổ 3)</button>
+                <span style="width: 1px; height: 16px; background: var(--border-color); margin: 0 4px;"></span>
+                <button class="chip-btn" data-chip-type="st" data-chip-val="3.">✅ Đã thông qua</button>
+                <button class="chip-btn" data-chip-type="st" data-chip-val="1.">⏳ KTHT đang giữ</button>
+                <button class="chip-btn" data-chip-type="st" data-chip-val="2.1">⚠️ Trả sửa</button>
               </div>
 
-              <div class="filter-group" style="min-width: 155px;">
-                <label for="datePickerInput">📆 Lịch Ngày Chuyển</label>
-                <input type="date" id="datePickerInput" class="filter-control" title="Chọn ngày chuyển trực tiếp từ lịch calendar">
+              <div class="filter-toolbar__row">
+                <div class="filter-toolbar__search">
+                  <label for="searchInput">🔍 Tìm kiếm thông minh</label>
+                  <div class="search-box">
+                    <span class="search-box__icon">🔍</span>
+                    <input type="text" id="searchInput" class="search-box__input" placeholder="Nhập mã HS, chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
+                    <button type="button" class="search-box__clear" data-target="searchInput" title="Xóa">&times;</button>
+                  </div>
+                </div>
+
+                <div class="filter-toolbar__field">
+                  <label for="phankhuSelect">📍 Phân khu</label>
+                  <select id="phankhuSelect" class="filter-select">
+                    <option value="ALL">Tất cả Phân Khu</option>
+                    <option value="17">Khu Phố 17 (Tổ 1)</option>
+                    <option value="18">Khu Phố 18 (Tổ 2)</option>
+                    <option value="19">Khu Phố 19 (Tổ 3)</option>
+                  </select>
+                </div>
+
+                <div class="filter-toolbar__field filter-toolbar__date-range">
+                  <label>📆 Khoảng ngày (Từ - Đến)</label>
+                  <div class="date-range-group">
+                    <input type="date" id="datePickerFromInput" class="filter-date" title="Từ ngày">
+                    <span class="date-range-sep">➜</span>
+                    <input type="date" id="datePickerToInput" class="filter-date" title="Đến ngày">
+                  </div>
+                </div>
+
+                <div class="filter-toolbar__field">
+                  <label for="trangThaiSelect">📌 Trạng thái</label>
+                  <select id="trangThaiSelect" class="filter-select">
+                    <option value="ALL">Tất cả Trạng Thái</option>
+                    <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua</option>
+                    <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ</option>
+                    <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả sửa lần 1</option>
+                    <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Chuyển sửa lại</option>
+                  </select>
+                </div>
+
+                <button id="resetFilterBtn" class="filter-toolbar__reset" title="Đặt lại tất cả bộ lọc">🔄 Đặt lại</button>
               </div>
 
-              <div class="filter-group" style="min-width: 150px;">
-                <label for="ngayTraSelect">📤 Ngày Trả Về</label>
-                <select id="ngayTraSelect" class="filter-control">
-                  <option value="ALL">Tất cả Ngày Trả</option>
-                  <!-- Populated dynamically -->
-                </select>
+              <!-- Active Filter Banner -->
+              <div id="activeFilterBanner" class="filter-banner" style="display: none;">
+                <div class="filter-banner__text" id="activeFilterBannerText"></div>
+                <button id="clearActiveFilterBtn" class="filter-banner__clear">✕ Xóa bộ lọc</button>
               </div>
-
-              <div class="filter-group" style="min-width: 155px;">
-                <label for="datePickerTraInput">📆 Lịch Ngày Trả</label>
-                <input type="date" id="datePickerTraInput" class="filter-control" title="Chọn ngày trả về trực tiếp từ lịch calendar">
-              </div>
-
-              <div class="filter-group" style="min-width: 150px;">
-                <label for="trangThaiSelect">📌 Trạng Thái</label>
-                <select id="trangThaiSelect" class="filter-control">
-                  <option value="ALL">Tất cả Trạng Thái</option>
-                  <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua pháp lý</option>
-                  <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ thụ lý</option>
-                  <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả về chỉnh sửa lần 1</option>
-                  <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Hồ sơ chuyển sửa lại</option>
-                </select>
-              </div>
-
-              <button id="resetFilterBtn" class="btn-reset-filter" style="align-self: flex-end; margin-bottom: 2px;">🔄 Đặt lại</button>
             </div>
           </div>
           <div class="section-body section-body-master-vi" style="overflow-x: auto; max-height: 1350px; min-height: 1100px;">
@@ -316,61 +414,76 @@
               </div>
             </div>
 
-            <!-- Dedicated Filter Toolbar for Table VII -->
-            <div class="filter-bar" style="margin-top: 0; background: rgba(0,0,0,0.03); border: 1px solid var(--border-color); border-radius: 10px; padding: 12px;">
-              <div class="filter-group search-group" style="flex: 2; min-width: 220px;">
-                <label for="searchInput7">🔍 Tìm kiếm thông minh hồ sơ</label>
-                <input type="text" id="searchInput7" class="filter-control" placeholder="Nhập tên chủ hộ, địa chỉ, số tờ, số thửa, cán bộ thụ lý...">
-              </div>
-              
-              <div class="filter-group" style="min-width: 130px;">
-                <label for="phankhuSelect7">📍 Phân Khu</label>
-                <select id="phankhuSelect7" class="filter-control">
-                  <option value="ALL">Tất cả Phân Khu</option>
-                  <option value="17">Khu Phố 17</option>
-                  <option value="18">Khu Phố 18</option>
-                  <option value="19">Khu Phố 19</option>
-                </select>
+            <!-- Filter Toolbar for Table V -->
+            <div class="filter-toolbar" style="border-top: 3px solid #10b981;">
+              <div class="filter-toolbar__header">
+                <div class="filter-toolbar__title">
+                  <span>🎛️ BỘ LỌC TÌM KIẾM & KHOẢNG NGÀY BẢNG V</span>
+                </div>
+                <span class="badge badge-info" id="filterResultCountBadge5" style="font-size: 0.75rem; font-weight: 700; padding: 3px 10px; background: rgba(16, 185, 129, 0.15); color: #059669; border-color: rgba(16, 185, 129, 0.3);">1,141 hồ sơ</span>
               </div>
 
-              <div class="filter-group" style="min-width: 150px;">
-                <label for="ngayChuyenSelect7">📅 Ngày Chuyển Đi</label>
-                <select id="ngayChuyenSelect7" class="filter-control">
-                  <option value="ALL">Tất cả Ngày Chuyển</option>
-                  <!-- Populated dynamically -->
-                </select>
+              <!-- Quick Chips Bar -->
+              <div class="quick-chips-bar">
+                <span class="quick-chip-label">Lọc nhanh:</span>
+                <button class="chip-btn active" data-chip-type="kp" data-chip-val="ALL">🌐 Tất cả Phân khu</button>
+                <button class="chip-btn" data-chip-type="kp" data-chip-val="17">🏘️ KP 17 (Tổ 1)</button>
+                <button class="chip-btn" data-chip-type="kp" data-chip-val="18">🏡 KP 18 (Tổ 2)</button>
+                <button class="chip-btn" data-chip-type="kp" data-chip-val="19">🏢 KP 19 (Tổ 3)</button>
+                <span style="width: 1px; height: 16px; background: var(--border-color); margin: 0 4px;"></span>
+                <button class="chip-btn" data-chip-type="st" data-chip-val="3.">✅ Đã thông qua</button>
+                <button class="chip-btn" data-chip-type="st" data-chip-val="1.">⏳ KTHT đang giữ</button>
+                <button class="chip-btn" data-chip-type="st" data-chip-val="2.1">⚠️ Trả sửa</button>
               </div>
 
-              <div class="filter-group" style="min-width: 155px;">
-                <label for="datePickerInput7">📆 Lịch Ngày Chuyển</label>
-                <input type="date" id="datePickerInput7" class="filter-control" title="Chọn ngày chuyển trực tiếp từ lịch calendar">
+              <div class="filter-toolbar__row">
+                <div class="filter-toolbar__search">
+                  <label for="searchInput7">🔍 Tìm kiếm thông minh</label>
+                  <div class="search-box">
+                    <span class="search-box__icon">🔍</span>
+                    <input type="text" id="searchInput7" class="search-box__input" placeholder="Tìm theo cán bộ pháp chế, thời gian, phân khu, ghi chú...">
+                    <button type="button" class="search-box__clear" data-target="searchInput7" title="Xóa">&times;</button>
+                  </div>
+                </div>
+
+                <div class="filter-toolbar__field">
+                  <label for="phankhuSelect7">📍 Phân khu</label>
+                  <select id="phankhuSelect7" class="filter-select">
+                    <option value="ALL">Tất cả Phân Khu</option>
+                    <option value="17">Khu Phố 17 (Tổ 1)</option>
+                    <option value="18">Khu Phố 18 (Tổ 2)</option>
+                    <option value="19">Khu Phố 19 (Tổ 3)</option>
+                  </select>
+                </div>
+
+                <div class="filter-toolbar__field filter-toolbar__date-range">
+                  <label>📆 Khoảng ngày (Từ - Đến)</label>
+                  <div class="date-range-group">
+                    <input type="date" id="datePickerFromInput7" class="filter-date" title="Từ ngày">
+                    <span class="date-range-sep">➜</span>
+                    <input type="date" id="datePickerToInput7" class="filter-date" title="Đến ngày">
+                  </div>
+                </div>
+
+                <div class="filter-toolbar__field">
+                  <label for="trangThaiSelect7">📌 Trạng thái</label>
+                  <select id="trangThaiSelect7" class="filter-select">
+                    <option value="ALL">Tất cả Trạng Thái</option>
+                    <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua</option>
+                    <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ</option>
+                    <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả sửa lần 1</option>
+                    <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Chuyển sửa lại</option>
+                  </select>
+                </div>
+
+                <button id="resetFilterBtn7" class="filter-toolbar__reset" title="Đặt lại tất cả bộ lọc">🔄 Đặt lại</button>
               </div>
 
-              <div class="filter-group" style="min-width: 150px;">
-                <label for="ngayTraSelect7">📤 Ngày Trả Về</label>
-                <select id="ngayTraSelect7" class="filter-control">
-                  <option value="ALL">Tất cả Ngày Trả</option>
-                  <!-- Populated dynamically -->
-                </select>
+              <!-- Active Filter Banner -->
+              <div id="activeFilterBanner7" class="filter-banner" style="display: none;">
+                <div class="filter-banner__text" id="activeFilterBannerText7"></div>
+                <button id="clearActiveFilterBtn7" class="filter-banner__clear">✕ Xóa bộ lọc</button>
               </div>
-
-              <div class="filter-group" style="min-width: 155px;">
-                <label for="datePickerTraInput7">📆 Lịch Ngày Trả</label>
-                <input type="date" id="datePickerTraInput7" class="filter-control" title="Chọn ngày trả về trực tiếp từ lịch calendar">
-              </div>
-
-              <div class="filter-group" style="min-width: 150px;">
-                <label for="trangThaiSelect7">📌 Trạng Thái</label>
-                <select id="trangThaiSelect7" class="filter-control">
-                  <option value="ALL">Tất cả Trạng Thái</option>
-                  <option value="3. Hồ sơ thông qua nhận định pháp lý">3. Đã thông qua pháp lý</option>
-                  <option value="1. Đã chuyển phòng KTHTĐT">1. KTHT đang giữ thụ lý</option>
-                  <option value="2.1. Trả về chỉnh sửa lần 1">2.1. Trả về chỉnh sửa lần 1</option>
-                  <option value="4. Hồ sơ chuyển sửa chỉnh lại">4. Hồ sơ chuyển sửa lại</option>
-                </select>
-              </div>
-
-              <button id="resetFilterBtn7" class="btn-reset-filter" style="align-self: flex-end; margin-bottom: 2px;">🔄 Đặt lại</button>
             </div>
           </div>
           <div class="section-body section-body-master-vi" style="overflow-x: auto; max-height: 1350px; min-height: 1100px;">
@@ -420,8 +533,8 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=20260805_3"></script>
-  <script src="js/analytics.js?v=20260805_3"></script>
-  <script src="js/app.js?v=20260805_3"></script>
+  <script src="js/data.js?v=20260806_3"></script>
+  <script src="js/analytics.js?v=20260806_3"></script>
+  <script src="js/app.js?v=20260806_3"></script>
 </body>
 </html>

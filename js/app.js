@@ -15,6 +15,26 @@
   let timelineChartInstance = null;
   let khuphoChartInstance = null;
 
+  // Bộ lọc dùng chung — đồng bộ giữa 3 thanh (Global / Bảng IV / Bảng V).
+  // Mọi hàm render đọc từ đây thay vì tự đọc lại DOM, tránh lệch nguồn.
+  let currentFilter = { query: '', kpFilter: 'ALL', stFilter: 'ALL', fromD: null, toD: null, fromDateVal: '', toDateVal: '' };
+
+  // Debounce: hoãn thao tác nặng (lọc + vẽ lại toàn dashboard) khi đang gõ nhanh.
+  function debounce(fn, wait) {
+    let t;
+    return function (...args) {
+      clearTimeout(t);
+      t = setTimeout(() => fn.apply(this, args), wait);
+    };
+  }
+
+  // Lấy mã trạng thái ở đầu chuỗi: "2.1. Trả về..." -> "2.1", "1. Đã chuyển..." -> "1".
+  // Dùng để khớp trạng thái chính xác, tránh "1." dính nhầm vào "2.1.".
+  function statusCode(s) {
+    const m = String(s || '').trim().match(/^(\d+(?:\.\d+)?)/);
+    return m ? m[1] : '';
+  }
+
   // DOM Elements
   const themeToggleBtn = document.getElementById('themeToggleBtn');
   const themeIcon = document.getElementById('themeIcon');
@@ -30,24 +50,43 @@
   const TABLE_VII_DAILY_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmNo6_kkbQy6pA-VjrYbhZpDuVCZRA76oFKQorBxnOSwiIg8GMbGS6E6phfzFDbhxu4ZXnRd_wVScN/pub?gid=0&single=true&output=csv';
   const TABLE_VII_WEEKLY_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRmNo6_kkbQy6pA-VjrYbhZpDuVCZRA76oFKQorBxnOSwiIg8GMbGS6E6phfzFDbhxu4ZXnRd_wVScN/pub?gid=199224610&single=true&output=csv';
 
+  // Global Toolbar elements
+  const searchInputGlobal = document.getElementById('searchInputGlobal');
+  const phankhuSelectGlobal = document.getElementById('phankhuSelectGlobal');
+  const trangThaiSelectGlobal = document.getElementById('trangThaiSelectGlobal');
+  const datePickerFromInputGlobal = document.getElementById('datePickerFromInputGlobal');
+  const datePickerToInputGlobal = document.getElementById('datePickerToInputGlobal');
+  const resetFilterBtnGlobal = document.getElementById('resetFilterBtnGlobal');
+  const activeFilterBannerGlobal = document.getElementById('activeFilterBannerGlobal');
+  const activeFilterBannerTextGlobal = document.getElementById('activeFilterBannerTextGlobal');
+  const clearActiveFilterBtnGlobal = document.getElementById('clearActiveFilterBtnGlobal');
+
+  // Toolbar IV elements
   const searchInput = document.getElementById('searchInput');
   const phankhuSelect = document.getElementById('phankhuSelect');
   const trangThaiSelect = document.getElementById('trangThaiSelect');
-  const ngayChuyenSelect = document.getElementById('ngayChuyenSelect');
-  const datePickerInput = document.getElementById('datePickerInput');
-  const ngayTraSelect = document.getElementById('ngayTraSelect');
-  const datePickerTraInput = document.getElementById('datePickerTraInput');
+  const datePickerFromInput = document.getElementById('datePickerFromInput');
+  const datePickerToInput = document.getElementById('datePickerToInput');
   const resetFilterBtn = document.getElementById('resetFilterBtn');
 
-  // Toolbar VII elements
+  // Toolbar V elements
   const searchInput7 = document.getElementById('searchInput7');
   const phankhuSelect7 = document.getElementById('phankhuSelect7');
   const trangThaiSelect7 = document.getElementById('trangThaiSelect7');
-  const ngayChuyenSelect7 = document.getElementById('ngayChuyenSelect7');
-  const datePickerInput7 = document.getElementById('datePickerInput7');
-  const ngayTraSelect7 = document.getElementById('ngayTraSelect7');
-  const datePickerTraInput7 = document.getElementById('datePickerTraInput7');
+  const datePickerFromInput7 = document.getElementById('datePickerFromInput7');
+  const datePickerToInput7 = document.getElementById('datePickerToInput7');
   const resetFilterBtn7 = document.getElementById('resetFilterBtn7');
+
+  // Shared UI elements
+  const sheetSyncBadge = document.getElementById('sheetSyncBadge');
+  const activeFilterBanner = document.getElementById('activeFilterBanner');
+  const activeFilterBannerText = document.getElementById('activeFilterBannerText');
+  const clearActiveFilterBtn = document.getElementById('clearActiveFilterBtn');
+
+  // Toolbar V banner elements
+  const activeFilterBanner7 = document.getElementById('activeFilterBanner7');
+  const activeFilterBannerText7 = document.getElementById('activeFilterBannerText7');
+  const clearActiveFilterBtn7 = document.getElementById('clearActiveFilterBtn7');
 
   // KPI elements
   const kpiTotal = document.getElementById('kpiTotal');
@@ -83,7 +122,6 @@
     startLiveClock();
     setupEventListeners();
     handleResetAll();
-    populateDateDropdown();
     updateChipCounts();
     updateDashboard();
 
@@ -112,7 +150,6 @@
       const newRecords = window.DOSSIER_DATA || [];
       if (newRecords.length > 0 && newRecords.length >= allRecords.length * 0.9) {
         allRecords = newRecords;
-        populateDateDropdown();
         updateChipCounts();
         handleFilterChange();
         const now = new Date();
@@ -171,199 +208,140 @@
     updateThemeUI(next);
   });
 
+  // Sync filter values between Global ↔ Toolbar IV ↔ Toolbar V (3-way sync)
   function syncFilterControls(source) {
-    if (source === 'toolbar7') {
-      if (searchInput && searchInput7) searchInput.value = searchInput7.value;
-      if (phankhuSelect && phankhuSelect7) phankhuSelect.value = phankhuSelect7.value;
-      if (trangThaiSelect && trangThaiSelect7) trangThaiSelect.value = trangThaiSelect7.value;
-      if (ngayChuyenSelect && ngayChuyenSelect7) ngayChuyenSelect.value = ngayChuyenSelect7.value;
-      if (datePickerInput && datePickerInput7) datePickerInput.value = datePickerInput7.value;
-      if (ngayTraSelect && ngayTraSelect7) ngayTraSelect.value = ngayTraSelect7.value;
-      if (datePickerTraInput && datePickerTraInput7) datePickerTraInput.value = datePickerTraInput7.value;
-    } else {
-      if (searchInput && searchInput7) searchInput7.value = searchInput.value;
-      if (phankhuSelect && phankhuSelect7) phankhuSelect7.value = phankhuSelect.value;
-      if (trangThaiSelect && trangThaiSelect7) trangThaiSelect7.value = trangThaiSelect.value;
-      if (ngayChuyenSelect && ngayChuyenSelect7) ngayChuyenSelect7.value = ngayChuyenSelect.value;
-      if (datePickerInput && datePickerInput7) datePickerInput7.value = datePickerInput.value;
-      if (ngayTraSelect && ngayTraSelect7) ngayTraSelect7.value = ngayTraSelect.value;
-      if (datePickerTraInput && datePickerTraInput7) datePickerTraInput7.value = datePickerTraInput.value;
+    let src = { search: searchInputGlobal, pk: phankhuSelectGlobal, st: trangThaiSelectGlobal, from: datePickerFromInputGlobal, to: datePickerToInputGlobal };
+
+    if (source === 'toolbar6') {
+      src = { search: searchInput, pk: phankhuSelect, st: trangThaiSelect, from: datePickerFromInput, to: datePickerToInput };
+    } else if (source === 'toolbar7') {
+      src = { search: searchInput7, pk: phankhuSelect7, st: trangThaiSelect7, from: datePickerFromInput7, to: datePickerToInput7 };
     }
+
+    const allToolbars = [
+      { search: searchInputGlobal, pk: phankhuSelectGlobal, st: trangThaiSelectGlobal, from: datePickerFromInputGlobal, to: datePickerToInputGlobal },
+      { search: searchInput, pk: phankhuSelect, st: trangThaiSelect, from: datePickerFromInput, to: datePickerToInput },
+      { search: searchInput7, pk: phankhuSelect7, st: trangThaiSelect7, from: datePickerFromInput7, to: datePickerToInput7 }
+    ];
+
+    allToolbars.forEach(t => {
+      if (t.search && src.search && t.search !== src.search) t.search.value = src.search.value;
+      if (t.pk && src.pk && t.pk !== src.pk) t.pk.value = src.pk.value;
+      if (t.st && src.st && t.st !== src.st) t.st.value = src.st.value;
+      if (t.from && src.from && t.from !== src.from) t.from.value = src.from.value;
+      if (t.to && src.to && t.to !== src.to) t.to.value = src.to.value;
+    });
   }
 
-  // 3. Event Listeners & Quick Chips
+  // 3. Event Listeners
   function setupEventListeners() {
     const triggerSyncAndFilter = (source) => {
       syncFilterControls(source);
       handleFilterChange();
     };
 
-    // Toolbar VI Listeners
-    if (searchInput) searchInput.addEventListener('input', () => triggerSyncAndFilter('toolbar6'));
+    // Hiện/ẩn nút xóa (×) theo từng ô tìm kiếm dựa trên nội dung của chính ô đó
+    const updateClearButtons = () => {
+      document.querySelectorAll('.search-box__clear').forEach(btn => {
+        const inp = document.getElementById(btn.getAttribute('data-target'));
+        if (inp && inp.value) btn.classList.add('visible');
+        else btn.classList.remove('visible');
+      });
+    };
+
+    // Khi gõ: đồng bộ 3 thanh + hiện nút xóa NGAY, nhưng hoãn (debounce) việc lọc + vẽ lại
+    const debouncedFilter = debounce(() => handleFilterChange(), 220);
+    const triggerSearchInput = (source) => {
+      syncFilterControls(source);
+      updateClearButtons();
+      debouncedFilter();
+    };
+
+    // Search Clear Buttons
+    document.querySelectorAll('.search-box__clear').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const targetId = e.currentTarget.getAttribute('data-target');
+        const targetInput = document.getElementById(targetId);
+        if (targetInput) targetInput.value = '';
+        [searchInputGlobal, searchInput, searchInput7].forEach(el => { if (el) el.value = ''; });
+        document.querySelectorAll('.search-box__clear').forEach(b => b.classList.remove('visible'));
+        handleFilterChange();
+      });
+    });
+
+    // Global Toolbar Listeners (ô tìm dùng debounce; select đổi thì lọc ngay)
+    if (searchInputGlobal) searchInputGlobal.addEventListener('input', () => triggerSearchInput('global'));
+    if (phankhuSelectGlobal) phankhuSelectGlobal.addEventListener('change', () => triggerSyncAndFilter('global'));
+    if (trangThaiSelectGlobal) trangThaiSelectGlobal.addEventListener('change', () => triggerSyncAndFilter('global'));
+
+    // Section IV Listeners
+    if (searchInput) searchInput.addEventListener('input', () => triggerSearchInput('toolbar6'));
     if (phankhuSelect) phankhuSelect.addEventListener('change', () => triggerSyncAndFilter('toolbar6'));
     if (trangThaiSelect) trangThaiSelect.addEventListener('change', () => triggerSyncAndFilter('toolbar6'));
 
-    // Toolbar VII Listeners
-    if (searchInput7) searchInput7.addEventListener('input', () => triggerSyncAndFilter('toolbar7'));
+    // Section V Listeners
+    if (searchInput7) searchInput7.addEventListener('input', () => triggerSearchInput('toolbar7'));
     if (phankhuSelect7) phankhuSelect7.addEventListener('change', () => triggerSyncAndFilter('toolbar7'));
     if (trangThaiSelect7) trangThaiSelect7.addEventListener('change', () => triggerSyncAndFilter('toolbar7'));
 
-    // Date Dropdown Listeners
-    const handleDateSelectChange = (sourceElem) => {
-      const val = sourceElem.value;
-      const isChuyen = sourceElem === ngayChuyenSelect || sourceElem === ngayChuyenSelect7;
-
-      if (isChuyen && val !== 'ALL') {
-        if (ngayTraSelect) ngayTraSelect.value = 'ALL';
-        if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
-        if (datePickerTraInput) datePickerTraInput.value = '';
-        if (datePickerTraInput7) datePickerTraInput7.value = '';
-      } else if (!isChuyen && val !== 'ALL') {
-        if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
-        if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
-        if (datePickerInput) datePickerInput.value = '';
-        if (datePickerInput7) datePickerInput7.value = '';
-      }
-
-      let targetPicker = null;
-      if (sourceElem === ngayChuyenSelect) targetPicker = datePickerInput;
-      else if (sourceElem === ngayChuyenSelect7) targetPicker = datePickerInput7;
-      else if (sourceElem === ngayTraSelect) targetPicker = datePickerTraInput;
-      else if (sourceElem === ngayTraSelect7) targetPicker = datePickerTraInput7;
-
-      if (targetPicker) {
-        if (val && val.includes('/')) {
-          const parts = val.split('/');
-          if (parts.length === 3) {
-            targetPicker.value = `${parts[2]}-${parts[1].padStart(2, '0')}-${parts[0].padStart(2, '0')}`;
-          }
-        } else if (val === 'ALL') {
-          targetPicker.value = '';
-        }
-      }
-      syncFilterControls(sourceElem.id.includes('7') ? 'toolbar7' : 'toolbar6');
-      updateDateFilterVisibility();
-      handleFilterChange();
-    };
-
-    if (ngayChuyenSelect) ngayChuyenSelect.addEventListener('change', () => handleDateSelectChange(ngayChuyenSelect));
-    if (ngayChuyenSelect7) ngayChuyenSelect7.addEventListener('change', () => handleDateSelectChange(ngayChuyenSelect7));
-
-    if (ngayTraSelect) ngayTraSelect.addEventListener('change', () => handleDateSelectChange(ngayTraSelect));
-    if (ngayTraSelect7) ngayTraSelect7.addEventListener('change', () => handleDateSelectChange(ngayTraSelect7));
-
-    // Date Picker Listeners
-    const handleDatePickerChange = (sourcePicker) => {
-      const val = sourcePicker.value; // YYYY-MM-DD
-      const isChuyenPicker = sourcePicker === datePickerInput || sourcePicker === datePickerInput7;
-
-      if (isChuyenPicker && val) {
-        if (ngayTraSelect) ngayTraSelect.value = 'ALL';
-        if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
-        if (datePickerTraInput) datePickerTraInput.value = '';
-        if (datePickerTraInput7) datePickerTraInput7.value = '';
-      } else if (!isChuyenPicker && val) {
-        if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
-        if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
-        if (datePickerInput) datePickerInput.value = '';
-        if (datePickerInput7) datePickerInput7.value = '';
-      }
-
-      let targetSelect = null;
-      if (sourcePicker === datePickerInput) targetSelect = ngayChuyenSelect;
-      else if (sourcePicker === datePickerInput7) targetSelect = ngayChuyenSelect7;
-      else if (sourcePicker === datePickerTraInput) targetSelect = ngayTraSelect;
-      else if (sourcePicker === datePickerTraInput7) targetSelect = ngayTraSelect7;
-
-      if (!val) {
-        if (targetSelect) targetSelect.value = 'ALL';
-        syncFilterControls(sourcePicker.id.includes('7') ? 'toolbar7' : 'toolbar6');
-        updateDateFilterVisibility();
-        handleFilterChange();
-        return;
-      }
-
-      const parts = val.split('-');
-      if (parts.length === 3) {
-        const formattedDate = `${parts[2]}/${parts[1]}/${parts[0]}`; // DD/MM/YYYY
-        
-        if (activePeriodType !== 'date') {
-          activePeriodType = 'date';
-          document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn').forEach(t => {
-            if (t.getAttribute('data-period') === 'date') t.classList.add('active');
-            else t.classList.remove('active');
-          });
-          populateDateDropdown();
-        }
-
-        const updateSelectOption = (sel) => {
-          if (!sel) return;
-          const hasOption = Array.from(sel.options).some(o => o.value === formattedDate);
-          if (hasOption) {
-            sel.value = formattedDate;
-          } else {
-            const newOpt = document.createElement('option');
-            newOpt.value = formattedDate;
-            newOpt.textContent = `📅 ${formattedDate}`;
-            sel.appendChild(newOpt);
-            sel.value = formattedDate;
-          }
-        };
-
-        if (sourcePicker === datePickerInput || sourcePicker === datePickerInput7) {
-          updateSelectOption(ngayChuyenSelect);
-          updateSelectOption(ngayChuyenSelect7);
-        } else {
-          updateSelectOption(ngayTraSelect);
-          updateSelectOption(ngayTraSelect7);
-        }
-
-        syncFilterControls(sourcePicker.id.includes('7') ? 'toolbar7' : 'toolbar6');
-        handleFilterChange();
-      }
-    };
-
-    if (datePickerInput) datePickerInput.addEventListener('change', () => handleDatePickerChange(datePickerInput));
-    if (datePickerInput7) datePickerInput7.addEventListener('change', () => handleDatePickerChange(datePickerInput7));
-
-    if (datePickerTraInput) datePickerTraInput.addEventListener('change', () => handleDatePickerChange(datePickerTraInput));
-    if (datePickerTraInput7) datePickerTraInput7.addEventListener('change', () => handleDatePickerChange(datePickerTraInput7));
-
-    if (resetFilterBtn) resetFilterBtn.addEventListener('click', handleResetAll);
-    if (resetFilterBtn7) resetFilterBtn7.addEventListener('click', handleResetAll);
+    // Date Picker Listeners (sync between toolbars)
+    [datePickerFromInputGlobal, datePickerToInputGlobal].forEach(picker => {
+      if (picker) picker.addEventListener('change', () => triggerSyncAndFilter('global'));
+    });
+    [datePickerFromInput, datePickerToInput].forEach(picker => {
+      if (picker) picker.addEventListener('change', () => triggerSyncAndFilter('toolbar6'));
+    });
+    [datePickerFromInput7, datePickerToInput7].forEach(picker => {
+      if (picker) picker.addEventListener('change', () => triggerSyncAndFilter('toolbar7'));
+    });
 
     // Quick Chip Buttons
     const chips = document.querySelectorAll('.chip-btn');
     chips.forEach(chip => {
       chip.addEventListener('click', (e) => {
-        chips.forEach(c => c.classList.remove('active'));
         const target = e.currentTarget;
-        target.classList.add('active');
-
         const chipType = target.getAttribute('data-chip-type');
         const chipVal = target.getAttribute('data-chip-val');
 
+        chips.forEach(c => {
+          if (c.getAttribute('data-chip-type') === chipType) {
+            if (c.getAttribute('data-chip-val') === chipVal) c.classList.add('active');
+            else c.classList.remove('active');
+          }
+        });
+
         if (chipType === 'kp') {
-          phankhuSelect.value = chipVal;
-          trangThaiSelect.value = 'ALL';
+          if (phankhuSelectGlobal) phankhuSelectGlobal.value = chipVal;
+          if (phankhuSelect) phankhuSelect.value = chipVal;
+          if (phankhuSelect7) phankhuSelect7.value = chipVal;
         } else if (chipType === 'st') {
-          phankhuSelect.value = 'ALL';
-          trangThaiSelect.value = chipVal === 'ALL' ? 'ALL' : (chipVal === '3.' ? '3. Hồ sơ thông qua nhận định pháp lý' : (chipVal === '1.' ? '1. Đã chuyển phòng KTHTĐT' : '2.1. Trả về chỉnh sửa lần 1'));
+          const mappedSt = chipVal === 'ALL' ? 'ALL' : (chipVal === '3.' ? '3. Hồ sơ thông qua nhận định pháp lý' : (chipVal === '1.' ? '1. Đã chuyển phòng KTHTĐT' : '2.1. Trả về chỉnh sửa lần 1'));
+          if (trangThaiSelectGlobal) trangThaiSelectGlobal.value = mappedSt;
+          if (trangThaiSelect) trangThaiSelect.value = mappedSt;
+          if (trangThaiSelect7) trangThaiSelect7.value = mappedSt;
         }
 
         handleFilterChange();
       });
     });
 
-    // Time Period Tabs for Master Section VI & VII
-    const tabBtns = document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn');
+    // Reset Buttons
+    if (resetFilterBtnGlobal) resetFilterBtnGlobal.addEventListener('click', handleResetAll);
+    if (resetFilterBtn) resetFilterBtn.addEventListener('click', handleResetAll);
+    if (resetFilterBtn7) resetFilterBtn7.addEventListener('click', handleResetAll);
+    if (clearActiveFilterBtnGlobal) clearActiveFilterBtnGlobal.addEventListener('click', handleResetAll);
+    if (clearActiveFilterBtn) clearActiveFilterBtn.addEventListener('click', handleResetAll);
+    if (clearActiveFilterBtn7) clearActiveFilterBtn7.addEventListener('click', handleResetAll);
+
+    // Time Period Tabs for Master Sections
+    const tabBtns = document.querySelectorAll('#timePeriodTabsGlobal .tab-btn, #timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn');
     tabBtns.forEach(btn => {
       btn.addEventListener('click', (e) => {
         const target = e.currentTarget;
         activePeriodType = target.getAttribute('data-period');
         
         // Sync active class across all tab groups
-        document.querySelectorAll('#timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn').forEach(t => {
+        tabBtns.forEach(t => {
           if (t.getAttribute('data-period') === activePeriodType) {
             t.classList.add('active');
           } else {
@@ -371,9 +349,6 @@
           }
         });
 
-        // Update date/week/month dropdown & refresh filtering
-        populateDateDropdown();
-        if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
         handleFilterChange();
       });
     });
@@ -395,6 +370,11 @@
       if (e.key === 'Escape') closeModal();
     });
   }
+
+
+
+
+
 
   let lastRecordsHash = '';
 
@@ -470,7 +450,6 @@
           console.warn('Table VII Live Sync warning:', eVII);
         }
 
-        populateDateDropdown();
         updateChipCounts();
         handleFilterChange();
 
@@ -743,190 +722,70 @@
     }, 3500);
   }
 
-  function populateDateDropdown() {
-    if (!allRecords || allRecords.length === 0) return;
-
-    // 1. Map for ngayChuyen (Ngày chuyển đi sang KTHTĐT)
-    const mapChuyen = {};
-    allRecords.forEach(r => {
-      if (!r.ngayChuyen || !r.ngayChuyen.trim()) return;
-      let key = Analytics.normalizeDateStr(r.ngayChuyen);
-      if (!key) return;
-      if (activePeriodType === 'week') key = Analytics.getWeekLabel(r.ngayChuyen);
-      else if (activePeriodType === 'month') key = Analytics.getMonthLabel(r.ngayChuyen);
-      mapChuyen[key] = (mapChuyen[key] || 0) + 1;
-    });
-
-    // 2. Map for ngayKthtChuyenVe (Ngày P.KTHTĐT chuyển về)
-    const mapTra = {};
-    allRecords.forEach(r => {
-      if (!r.ngayKthtChuyenVe || !r.ngayKthtChuyenVe.trim()) return;
-      let key = Analytics.normalizeDateStr(r.ngayKthtChuyenVe);
-      if (!key) return;
-      if (activePeriodType === 'week') key = Analytics.getWeekLabel(r.ngayKthtChuyenVe);
-      else if (activePeriodType === 'month') key = Analytics.getMonthLabel(r.ngayKthtChuyenVe);
-      mapTra[key] = (mapTra[key] || 0) + 1;
-    });
-
-    const sortKeys = (mapObj) => {
-      let sorted = Object.keys(mapObj);
-      if (activePeriodType === 'date') {
-        sorted.sort((a, b) => {
-          const dA = Analytics.parseDate(a);
-          const dB = Analytics.parseDate(b);
-          if (!dA) return 1;
-          if (!dB) return -1;
-          return dB - dA;
-        });
-      } else {
-        sorted.sort((a, b) => b.localeCompare(a, 'vi'));
-      }
-      return sorted;
-    };
-
-    const defaultText = activePeriodType === 'week' ? 'Tất cả Tuần Chuyển' : (activePeriodType === 'month' ? 'Tất cả Tháng Chuyển' : 'Tất cả Ngày Chuyển');
-    const defaultTraText = activePeriodType === 'week' ? 'Tất cả Tuần Trả' : (activePeriodType === 'month' ? 'Tất cả Tháng Trả' : 'Tất cả Ngày Trả');
-
-    const labelChuyenText = activePeriodType === 'week' ? '🗓️ Tuần Chuyển Đi' : (activePeriodType === 'month' ? '📆 Tháng Chuyển Đi' : '📅 Ngày Chuyển Đi');
-    const labelTraText = activePeriodType === 'week' ? '📤 Tuần Trả Về' : (activePeriodType === 'month' ? '📤 Tháng Trả Về' : '📤 Ngày Trả Về');
-
-    // Dynamic Label Update for Chuyển Đi and Trả Về
-    document.querySelectorAll('label[for="ngayChuyenSelect"], label[for="ngayChuyenSelect7"]').forEach(l => {
-      l.textContent = labelChuyenText;
-    });
-    document.querySelectorAll('label[for="ngayTraSelect"], label[for="ngayTraSelect7"]').forEach(l => {
-      l.textContent = labelTraText;
-    });
-
-    // Toggle Calendar Date Picker controls (only show calendar picker when mode is 'date')
-    const showCalendarPicker = (activePeriodType === 'date');
-    [datePickerInput, datePickerInput7, datePickerTraInput, datePickerTraInput7].forEach(picker => {
-      if (picker) {
-        const group = picker.closest('.filter-group');
-        if (group) {
-          group.style.display = showCalendarPicker ? '' : 'none';
-        }
-      }
-    });
-
-    const prefix = activePeriodType === 'week' ? '🗓️ ' : (activePeriodType === 'month' ? '📆 ' : '📅 ');
-
-    // Options HTML for ngayChuyenSelect
-    const optionsChuyenHtml = [`<option value="ALL">${defaultText}</option>`]
-      .concat(sortKeys(mapChuyen).map(k => `<option value="${k}">${prefix}${k} (${mapChuyen[k]} hồ sơ)</option>`))
-      .join('');
-
-    // Options HTML for ngayTraSelect
-    const optionsTraHtml = [`<option value="ALL">${defaultTraText}</option>`]
-      .concat(sortKeys(mapTra).map(k => `<option value="${k}">${prefix}${k} (${mapTra[k]} hồ sơ)</option>`))
-      .join('');
-
-    const updateDropdown = (sel, html) => {
-      if (!sel) return;
-      const val = sel.value;
-      sel.innerHTML = html;
-      if (val && Array.from(sel.options).some(o => o.value === val)) {
-        sel.value = val;
-      } else {
-        sel.value = 'ALL';
-      }
-    };
-
-    updateDropdown(ngayChuyenSelect, optionsChuyenHtml);
-    updateDropdown(ngayChuyenSelect7, optionsChuyenHtml);
-
-    updateDropdown(ngayTraSelect, optionsTraHtml);
-    updateDropdown(ngayTraSelect7, optionsTraHtml);
-
-    updateDateFilterVisibility();
-  }
-
-  function updateDateFilterVisibility() {
-    const showCalendar = (activePeriodType === 'date');
-
-    const chuyenPickerGroups = [
-      datePickerInput?.closest('.filter-group'), 
-      datePickerInput7?.closest('.filter-group')
-    ].filter(Boolean);
-
-    const traPickerGroups = [
-      datePickerTraInput?.closest('.filter-group'), 
-      datePickerTraInput7?.closest('.filter-group')
-    ].filter(Boolean);
-
-    chuyenPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
-    traPickerGroups.forEach(g => { g.style.display = showCalendar ? '' : 'none'; });
-  }
-
   function handleResetAll() {
-    if (searchInput) searchInput.value = '';
-    if (phankhuSelect) phankhuSelect.value = 'ALL';
-    if (trangThaiSelect) trangThaiSelect.value = 'ALL';
-    if (ngayChuyenSelect) ngayChuyenSelect.value = 'ALL';
-    if (datePickerInput) datePickerInput.value = '';
-    if (ngayTraSelect) ngayTraSelect.value = 'ALL';
-    if (datePickerTraInput) datePickerTraInput.value = '';
+    [searchInputGlobal, searchInput, searchInput7].forEach(el => { if (el) el.value = ''; });
+    [phankhuSelectGlobal, phankhuSelect, phankhuSelect7].forEach(el => { if (el) el.value = 'ALL'; });
+    [trangThaiSelectGlobal, trangThaiSelect, trangThaiSelect7].forEach(el => { if (el) el.value = 'ALL'; });
+    [datePickerFromInputGlobal, datePickerFromInput, datePickerFromInput7].forEach(el => { if (el) el.value = ''; });
+    [datePickerToInputGlobal, datePickerToInput, datePickerToInput7].forEach(el => { if (el) el.value = ''; });
 
-    if (searchInput7) searchInput7.value = '';
-    if (phankhuSelect7) phankhuSelect7.value = 'ALL';
-    if (trangThaiSelect7) trangThaiSelect7.value = 'ALL';
-    if (ngayChuyenSelect7) ngayChuyenSelect7.value = 'ALL';
-    if (datePickerInput7) datePickerInput7.value = '';
-    if (ngayTraSelect7) ngayTraSelect7.value = 'ALL';
-    if (datePickerTraInput7) datePickerTraInput7.value = '';
-
+    document.querySelectorAll('.search-box__clear').forEach(b => b.classList.remove('visible'));
     document.querySelectorAll('.chip-btn').forEach(c => c.classList.remove('active'));
-    const defaultChip = document.querySelector('.chip-btn[data-chip-val="ALL"]');
-    if (defaultChip) defaultChip.classList.add('active');
+    const defaultChips = document.querySelectorAll('.chip-btn[data-chip-val="ALL"]');
+    defaultChips.forEach(c => c.classList.add('active'));
 
-    updateDateFilterVisibility();
     handleFilterChange();
+  }
+
+  function parseVietDateObj(str) {
+    if (!str || typeof str !== 'string') return null;
+    const clean = str.trim().split(' ')[0];
+    if (clean.includes('/')) {
+      const parts = clean.split('/');
+      if (parts.length === 3) {
+        const d = parseInt(parts[0], 10);
+        const m = parseInt(parts[1], 10) - 1;
+        const y = parseInt(parts[2], 10);
+        if (!isNaN(d) && !isNaN(m) && !isNaN(y)) return new Date(y, m, d);
+      }
+    } else if (clean.includes('-')) {
+      const parts = clean.split('-');
+      if (parts.length === 3) {
+        const y = parseInt(parts[0], 10);
+        const m = parseInt(parts[1], 10) - 1;
+        const d = parseInt(parts[2], 10);
+        if (!isNaN(d) && !isNaN(m) && !isNaN(y)) return new Date(y, m, d);
+      }
+    }
+    return null;
   }
 
   function handleFilterChange(e) {
     if (e && e.target) {
       const tId = e.target.id;
-      if (tId === 'ngayChuyenSelect' && ngayChuyenSelect7) ngayChuyenSelect7.value = ngayChuyenSelect.value;
-      if (tId === 'ngayChuyenSelect7' && ngayChuyenSelect) ngayChuyenSelect.value = ngayChuyenSelect7.value;
-
-      if (tId === 'ngayTraSelect' && ngayTraSelect7) ngayTraSelect7.value = ngayTraSelect.value;
-      if (tId === 'ngayTraSelect7' && ngayTraSelect) ngayTraSelect.value = ngayTraSelect7.value;
-
-      if (tId === 'phankhuSelect' && phankhuSelect7) phankhuSelect7.value = phankhuSelect.value;
-      if (tId === 'phankhuSelect7' && phankhuSelect) phankhuSelect.value = phankhuSelect7.value;
-
-      if (tId === 'trangThaiSelect' && trangThaiSelect7) trangThaiSelect7.value = trangThaiSelect.value;
-      if (tId === 'trangThaiSelect7' && trangThaiSelect) trangThaiSelect.value = trangThaiSelect7.value;
-
-      if (tId === 'datePickerInput' && datePickerInput7) datePickerInput7.value = datePickerInput.value;
-      if (tId === 'datePickerInput7' && datePickerInput) datePickerInput.value = datePickerInput7.value;
-
-      if (tId === 'datePickerTraInput' && datePickerTraInput7) datePickerTraInput7.value = datePickerTraInput.value;
-      if (tId === 'datePickerTraInput7' && datePickerTraInput) datePickerTraInput.value = datePickerTraInput7.value;
+      let srcKey = 'global';
+      if (tId.includes('toolbar6') || tId === 'searchInput' || tId === 'phankhuSelect' || tId === 'trangThaiSelect') srcKey = 'toolbar6';
+      else if (tId.includes('7')) srcKey = 'toolbar7';
+      syncFilterControls(srcKey);
     }
 
-    updateDateFilterVisibility();
-    const rawQuery = (searchInput && searchInput.value) ? searchInput.value : ((searchInput7 && searchInput7.value) ? searchInput7.value : '');
+    const rawQuery = (searchInputGlobal && searchInputGlobal.value) ? searchInputGlobal.value : ((searchInput && searchInput.value) ? searchInput.value : ((searchInput7 && searchInput7.value) ? searchInput7.value : ''));
     const query = rawQuery.trim().toLowerCase();
 
-    const kpFilter = (phankhuSelect && phankhuSelect.value !== 'ALL') ? phankhuSelect.value : ((phankhuSelect7 && phankhuSelect7.value !== 'ALL') ? phankhuSelect7.value : 'ALL');
-    const stFilter = (trangThaiSelect && trangThaiSelect.value !== 'ALL') ? trangThaiSelect.value : ((trangThaiSelect7 && trangThaiSelect7.value !== 'ALL') ? trangThaiSelect7.value : 'ALL');
+    const kpFilter = (phankhuSelectGlobal && phankhuSelectGlobal.value !== 'ALL') ? phankhuSelectGlobal.value : ((phankhuSelect && phankhuSelect.value !== 'ALL') ? phankhuSelect.value : ((phankhuSelect7 && phankhuSelect7.value !== 'ALL') ? phankhuSelect7.value : 'ALL'));
+    const stFilter = (trangThaiSelectGlobal && trangThaiSelectGlobal.value !== 'ALL') ? trangThaiSelectGlobal.value : ((trangThaiSelect && trangThaiSelect.value !== 'ALL') ? trangThaiSelect.value : ((trangThaiSelect7 && trangThaiSelect7.value !== 'ALL') ? trangThaiSelect7.value : 'ALL'));
 
-    const dtSelectVal = (ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : 'ALL');
-    const dtPickerVal = (datePickerInput && datePickerInput.value) ? datePickerInput.value : ((datePickerInput7 && datePickerInput7.value) ? datePickerInput7.value : '');
-    let dtFilter = dtSelectVal !== 'ALL' ? dtSelectVal : (dtPickerVal ? dtPickerVal : 'ALL');
-    if (dtFilter !== 'ALL' && dtFilter.includes('-')) {
-      dtFilter = Analytics.normalizeDateStr(dtFilter);
-    }
+    const fromDateVal = (datePickerFromInputGlobal && datePickerFromInputGlobal.value) ? datePickerFromInputGlobal.value : ((datePickerFromInput && datePickerFromInput.value) ? datePickerFromInput.value : ((datePickerFromInput7 && datePickerFromInput7.value) ? datePickerFromInput7.value : ''));
+    const toDateVal = (datePickerToInputGlobal && datePickerToInputGlobal.value) ? datePickerToInputGlobal.value : ((datePickerToInput && datePickerToInput.value) ? datePickerToInput.value : ((datePickerToInput7 && datePickerToInput7.value) ? datePickerToInput7.value : ''));
 
-    const traSelectVal = (ngayTraSelect && ngayTraSelect.value !== 'ALL') ? ngayTraSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : 'ALL');
-    const traPickerVal = (datePickerTraInput && datePickerTraInput.value) ? datePickerTraInput.value : ((datePickerTraInput7 && datePickerTraInput7.value) ? datePickerTraInput7.value : '');
-    let traFilter = traSelectVal !== 'ALL' ? traSelectVal : (traPickerVal ? traPickerVal : 'ALL');
-    if (traFilter !== 'ALL' && traFilter.includes('-')) {
-      traFilter = Analytics.normalizeDateStr(traFilter);
-    }
+    let fromD = fromDateVal ? parseVietDateObj(fromDateVal) : null;
+    let toD = toDateVal ? parseVietDateObj(toDateVal) : null;
+    if (toD) toD.setHours(23, 59, 59, 999);
 
-    window.IS_DATE_FILTERED = (dtFilter !== 'ALL') || (traFilter !== 'ALL');
+    window.IS_DATE_FILTERED = Boolean(fromD || toD);
+
+    // Lưu trạng thái lọc dùng chung để mọi hàm render đọc lại (không tự đọc DOM rời rạc)
+    currentFilter = { query, kpFilter, stFilter, fromD, toD, fromDateVal, toDateVal };
 
     filteredRecords = allRecords.filter(r => {
       // 1. Phân khu filter
@@ -947,45 +806,28 @@
         if (rKp !== kpFilter && !rKp.includes(kpFilter)) return false;
       }
 
-      // 2. Trạng thái filter
+      // 2. Trạng thái filter (khớp theo mã chính xác: chọn "1." KHÔNG dính "2.1.")
       if (stFilter !== 'ALL') {
-        if (!r.trangThai || !r.trangThai.includes(stFilter.substring(0, 2))) return false;
-      }
-
-      // 3. Ngày / Tuần / Tháng chuyển đi sang KTHTĐT filter
-      if (dtFilter !== 'ALL') {
-        const normFilter = Analytics.normalizeDateStr(dtFilter);
-        const d1 = Analytics.normalizeDateStr(r.ngayChuyen);
-
-        if (activePeriodType === 'week') {
-          const w1 = Analytics.getWeekLabel(r.ngayChuyen);
-          if (w1 !== dtFilter && !w1.includes(dtFilter)) return false;
-        } else if (activePeriodType === 'month') {
-          const m1 = Analytics.getMonthLabel(r.ngayChuyen);
-          if (m1 !== dtFilter && !m1.includes(dtFilter)) return false;
-        } else {
-          if (d1 !== normFilter && !d1.startsWith(normFilter)) return false;
+        const fc = statusCode(stFilter);
+        if (fc) {
+          if (statusCode(r.trangThai) !== fc) return false;
+        } else if (!r.trangThai || !r.trangThai.includes(stFilter)) {
+          return false;
         }
       }
 
-      // 4. Lọc riêng NGÀY P.KTHTĐT CHUYỂN VỀ (Ngày Trả Về)
-      if (traFilter !== 'ALL') {
-        if (!r.ngayKthtChuyenVe || !r.ngayKthtChuyenVe.trim()) return false;
-        const normTraFilter = Analytics.normalizeDateStr(traFilter);
-        const d2 = Analytics.normalizeDateStr(r.ngayKthtChuyenVe);
+      // 3. Khoảng Ngày (Lọc khớp với Ngày chuyển HOẶC Ngày trả về)
+      if (fromD || toD) {
+        const rChuyenD = r.ngayChuyen ? parseVietDateObj(r.ngayChuyen) : null;
+        const rTraD = r.ngayKthtChuyenVe ? parseVietDateObj(r.ngayKthtChuyenVe) : null;
 
-        if (activePeriodType === 'week') {
-          const w2 = Analytics.getWeekLabel(r.ngayKthtChuyenVe);
-          if (w2 !== traFilter && !w2.includes(traFilter)) return false;
-        } else if (activePeriodType === 'month') {
-          const m2 = Analytics.getMonthLabel(r.ngayKthtChuyenVe);
-          if (m2 !== traFilter && !m2.includes(traFilter)) return false;
-        } else {
-          if (d2 !== normTraFilter && !d2.startsWith(normTraFilter)) return false;
-        }
+        const matchChuyen = rChuyenD && (!fromD || rChuyenD >= fromD) && (!toD || rChuyenD <= toD);
+        const matchTra = rTraD && (!fromD || rTraD >= fromD) && (!toD || rTraD <= toD);
+
+        if (!matchChuyen && !matchTra) return false;
       }
 
-      // 5. Smart Multi-term Unaccented Search Filter
+      // 4. Smart Multi-term Unaccented Search Filter
       if (query) {
         const qNoTone = Analytics.removeVietnameseTones(query);
         const terms = query.split(/\s+/).filter(Boolean);
@@ -1034,6 +876,48 @@
       }
 
       return true;
+    });
+
+    // Toggle Search Clear Buttons Visibility (theo nội dung từng ô)
+    document.querySelectorAll('.search-box__clear').forEach(btn => {
+      const inp = document.getElementById(btn.getAttribute('data-target'));
+      if (inp && inp.value) btn.classList.add('visible');
+      else btn.classList.remove('visible');
+    });
+
+    // Update Result Count Badges on Global, Table IV & V Filter Headers
+    const badgeGlobal = document.getElementById('filterResultCountBadgeGlobal');
+    const badge4 = document.getElementById('filterResultCountBadge4');
+    const badge5 = document.getElementById('filterResultCountBadge5');
+    const badgeText = `${filteredRecords.length.toLocaleString('vi-VN')} / ${allRecords.length.toLocaleString('vi-VN')} HS`;
+    if (badgeGlobal) badgeGlobal.textContent = badgeText;
+    if (badge4) badge4.textContent = badgeText;
+    if (badge5) badge5.textContent = badgeText;
+
+    // Update Active Filter Summary Banners
+    const banners = [
+      { banner: activeFilterBannerGlobal, textEl: activeFilterBannerTextGlobal },
+      { banner: activeFilterBanner, textEl: activeFilterBannerText },
+      { banner: activeFilterBanner7, textEl: activeFilterBannerText7 }
+    ];
+
+    const badges = [];
+    if (query) badges.push(`🔍 Tìm kiếm: "<strong>${query}</strong>"`);
+    if (kpFilter !== 'ALL') badges.push(`📍 Phân khu: <strong>KP ${kpFilter}</strong>`);
+    if (stFilter !== 'ALL') badges.push(`📌 Trạng thái: <strong>${stFilter.substring(0, 15)}...</strong>`);
+    if (fromDateVal || toDateVal) {
+      badges.push(`📆 Khoảng ngày: <strong>${fromDateVal || '...'} ➜ ${toDateVal || '...'}</strong>`);
+    }
+
+    banners.forEach(item => {
+      if (item.banner && item.textEl) {
+        if (badges.length > 0) {
+          item.textEl.innerHTML = `<span>🎯 <strong>Đang lọc (${filteredRecords.length.toLocaleString('vi-VN')} / ${allRecords.length.toLocaleString('vi-VN')} hồ sơ):</strong> ${badges.join(' <span style="opacity:0.4;">|</span> ')}</span>`;
+          item.banner.style.display = 'flex';
+        } else {
+          item.banner.style.display = 'none';
+        }
+      }
     });
 
     currentPage = 1;
@@ -1275,41 +1159,24 @@
   // 11. Render Master Section VI (Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT)
   function renderSection6() {
     const isDateFiltered = Boolean(window.IS_DATE_FILTERED);
-    const isKhuPhoFiltered = phankhuSelect && phankhuSelect.value !== 'ALL';
-    
+    const isKhuPhoFiltered = currentFilter.kpFilter !== 'ALL';
+
     const tableElement = document.getElementById('tableSection6');
     if (tableElement) {
       const thead = tableElement.querySelector('thead');
       if (thead) {
-        const timeHeaderTitle = activePeriodType === 'week' ? 'TUẦN CHUYỂN' : (activePeriodType === 'month' ? 'THÁNG CHUYỂN' : 'NGÀY CHUYỂN');
-        if (isDateFiltered) {
-          thead.innerHTML = `
-            <tr>
-              <th class="text-center" style="width: 50px;">STT</th>
-              <th class="text-center" style="min-width: 130px;">${timeHeaderTitle}</th>
-              <th>CBTL (CÁN BỘ BBT)</th>
-              <th class="text-center">TỔ BỒI THƯỜNG<br><small style="font-weight:normal; opacity:0.85;">(Phân khu)</small></th>
-              <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
-              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
-              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
-              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ)</small></th>
-              <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
-            </tr>
-          `;
-        } else {
-          thead.innerHTML = `
-            <tr>
-              <th class="text-center" style="width: 50px;">STT</th>
-              <th>CBTL (CÁN BỘ BBT)</th>
-              <th class="text-center">TỔ BỒI THƯỜNG<br><small style="font-weight:normal; opacity:0.85;">(Phân khu)</small></th>
-              <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
-              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
-              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
-              <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ)</small></th>
-              <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
-            </tr>
-          `;
-        }
+        thead.innerHTML = `
+          <tr>
+            <th class="text-center" style="width: 50px;">STT</th>
+            <th>CBTL (CÁN BỘ BBT)</th>
+            <th class="text-center">TỔ BỒI THƯỜNG<br><small style="font-weight:normal; opacity:0.85;">(Phân khu)</small></th>
+            <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
+            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
+            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
+            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ - tất cả ngày)</small></th>
+            <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
+          </tr>
+        `;
       }
     }
 
@@ -1320,8 +1187,7 @@
     tbody.innerHTML = '';
 
     if (!list || list.length === 0) {
-      const colspanTotal = isDateFiltered ? 9 : 8;
-      tbody.innerHTML = `<tr><td colspan="${colspanTotal}" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="8" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
       return;
     }
 
@@ -1358,9 +1224,7 @@
       }
 
       tr.setAttribute('data-cbtl', item.cbtl);
-      if (isDateFiltered && item.timeKey) tr.setAttribute('data-timekey', item.timeKey);
 
-      const timeTd = isDateFiltered ? `<td><span class="badge badge-neutral">📅 ${item.timeKey}</span></td>` : '';
       const baseTd = item.baseTotal > 0 
         ? `<span class="badge badge-info" style="background:#e0f2fe; color:#0369a1; border:1px solid #bae6fd; font-weight:700; font-size:0.875rem;">📦 ${item.baseTotal.toLocaleString('vi-VN')}</span>` 
         : `<span class="badge badge-neutral">0</span>`;
@@ -1373,13 +1237,12 @@
 
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
-        ${timeTd}
         <td><strong>${item.cbtlFull || item.cbtl}</strong></td>
         <td class="text-center">${toTd}</td>
         <td class="text-center">${baseTd}</td>
-        <td class="text-center cell-clickable" data-action="totalChuyen" style="cursor:pointer;" title="Bấm để xem danh sách tất cả hồ sơ đã chuyển của cán bộ này">${isZero ? `<span class="badge badge-danger">⚠️ 0 (Chưa bàn giao)</span>` : `<span class="badge badge-info hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.totalChuyen}</span>`}</td>
+        <td class="text-center cell-clickable" data-action="totalChuyen" style="cursor:pointer;" title="Bấm để xem danh sách tất cả hồ sơ đã chuyển của cán bộ này">${isZero ? `<span class="badge badge-danger">⚠️ 0</span>` : `<span class="badge badge-info hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.totalChuyen}</span>`}</td>
         <td class="text-center cell-clickable" data-action="thongQua" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ đã được Thông Qua">${item.thongQua > 0 ? `<span class="badge badge-success hover-badge" style="cursor:pointer; text-decoration:underline;">${item.thongQua}</span>` : '0'}</td>
-        <td class="text-center cell-clickable" data-action="kthtGiu" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KTHT đang giữ">${item.kthtGiu > 0 ? `<span class="badge badge-warning hover-badge" style="cursor:pointer; text-decoration:underline;">${item.kthtGiu}</span>` : '0'}</td>
+        <td class="text-center cell-clickable" data-action="kthtGiu" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KTHT đang giữ (tất cả các ngày trên hệ thống)">${item.kthtGiu > 0 ? `<span class="badge badge-warning hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.kthtGiu}</span>` : '0'}</td>
         <td class="text-center cell-clickable" data-action="traSua" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ bị trả sửa">${item.traSua > 0 ? `<span class="badge badge-danger hover-badge" style="cursor:pointer; text-decoration:underline;">${item.traSua}</span>` : '0'}</td>
       `;
       tbody.appendChild(tr);
@@ -1393,20 +1256,18 @@
         const tr = cell.closest('tr');
         if (!tr) return;
         const cbtl = tr.getAttribute('data-cbtl');
-        const timeKey = tr.getAttribute('data-timekey') || '';
         const action = cell.getAttribute('data-action');
         if (cbtl && action) {
-          showDossierListForOfficer(cbtl, action, timeKey);
+          showDossierListForOfficer(cbtl, action);
         }
       });
     }
 
     const displayBaseTotal = overallBaseTotal > 0 ? overallBaseTotal : sumBaseTotal;
-    const colspanVal = isDateFiltered ? 3 : 2;
     const trTotal = document.createElement('tr');
     trTotal.classList.add('total-row');
     trTotal.innerHTML = `
-      <td colspan="${colspanVal}" class="text-center"><strong>TỔNG CỘNG</strong></td>
+      <td colspan="2" class="text-center"><strong>TỔNG CỘNG</strong></td>
       <td class="text-center">
         <span style="font-size:0.8125rem; font-weight:600;">KP17: ${sum17} | KP18: ${sum18} | KP19: ${sum19}</span>
       </td>
@@ -1422,15 +1283,17 @@
   function showDossierListForOfficer(officerName, category, dateKey = '') {
     const canonName = Analytics.getCanonicalOfficerName(officerName);
 
-    // Filter strictly from filteredRecords (records matching active date/phankhu/search filters)
-    const sourcePool = (filteredRecords && filteredRecords.length > 0) ? filteredRecords : allRecords;
+    // Filter from allRecords for kthtGiu (all-time held), or filteredRecords for period categories
+    const sourcePool = (category === 'kthtGiu')
+      ? allRecords
+      : ((filteredRecords && filteredRecords.length > 0) ? filteredRecords : allRecords);
 
     let records = sourcePool.filter(r => {
       const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
       const cb = Analytics.getCanonicalOfficerName(rawCb);
       if (cb !== canonName && !cb.includes(canonName) && !canonName.includes(cb)) return false;
 
-      if (dateKey && dateKey !== '' && dateKey !== 'Chưa có ngày') {
+      if (category !== 'kthtGiu' && dateKey && dateKey !== '' && dateKey !== 'Chưa có ngày') {
         let rDateKey = r.ngayChuyen && r.ngayChuyen.trim() ? Analytics.normalizeDateStr(r.ngayChuyen) : '';
         let rTraKey = r.ngayKthtChuyenVe && r.ngayKthtChuyenVe.trim() ? Analytics.normalizeDateStr(r.ngayKthtChuyenVe) : '';
 
@@ -1588,9 +1451,9 @@
   // 12. Render Master Section VII (Khối lượng hồ sơ theo Cán bộ Pháp chế & Thụ lý KTHT)
   function renderSection7() {
     const isDateFiltered = Boolean(window.IS_DATE_FILTERED);
-    const isKhuPhoFiltered = (phankhuSelect7 && phankhuSelect7.value !== 'ALL') || (phankhuSelect && phankhuSelect.value !== 'ALL');
-    const searchVal7 = searchInput7 ? searchInput7.value : '';
-    const selectedDateVal7 = (ngayChuyenSelect7 && ngayChuyenSelect7.value !== 'ALL') ? ngayChuyenSelect7.value : ((ngayChuyenSelect && ngayChuyenSelect.value !== 'ALL') ? ngayChuyenSelect.value : ((ngayTraSelect7 && ngayTraSelect7.value !== 'ALL') ? ngayTraSelect7.value : (ngayTraSelect ? ngayTraSelect.value : '')));
+    const isKhuPhoFiltered = currentFilter.kpFilter !== 'ALL';
+    const searchVal7 = currentFilter.query || '';
+    const dateRange7 = { from: currentFilter.fromD || null, to: currentFilter.toD || null };
 
     const tableElement7 = document.getElementById('tableSection7');
     if (tableElement7) {
@@ -1626,7 +1489,7 @@
       }
     }
 
-    const list = Analytics.getDetailedPhapCheBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered, searchVal7, selectedDateVal7);
+    const list = Analytics.getDetailedPhapCheBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered, searchVal7, dateRange7);
     const tbody = document.getElementById('tbodySection7');
     if (!tbody) return;
 
@@ -1634,7 +1497,10 @@
 
     if (!list || list.length === 0) {
       const colspanTotal = isDateFiltered ? 8 : 7;
-      tbody.innerHTML = `<tr><td colspan="${colspanTotal}" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+      const hint = (searchVal7 && searchVal7.trim())
+        ? `Không có dòng nào ở Bảng V khớp từ khóa "<strong>${searchVal7.trim()}</strong>".<br><small style="opacity:0.75;">Bảng V chỉ tìm theo Cán bộ pháp chế, Thời gian, Phân khu, Ghi chú.</small>`
+        : 'Không tìm thấy dữ liệu phù hợp.';
+      tbody.innerHTML = `<tr><td colspan="${colspanTotal}" class="text-center" style="padding:20px;">${hint}</td></tr>`;
       return;
     }
 

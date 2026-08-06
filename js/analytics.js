@@ -347,7 +347,7 @@
     },
 
     // Section VII Master: Thống kê chi tiết Khối lượng hồ sơ theo Cán bộ Pháp chế kiểm tra
-    getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false, searchVal = '', selectedDateVal = '') {
+    getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false, searchVal = '', dateRange = null) {
       // Prioritize dataset auto-synced from Google Sheet pubhtml for Table VII
       const tableVIIDaily = window.TABLE_VII_DATA_DAILY || [];
       const tableVIIWeekly = window.TABLE_VII_DATA_WEEKLY || [];
@@ -360,33 +360,56 @@
 
         const selectedKp = document.getElementById('phankhuSelect7')?.value || document.getElementById('phankhuSelect')?.value;
 
+        // Khoảng ngày lọc dùng chung toàn dashboard: {from, to} là Date hoặc null
+        const rangeFrom = dateRange && dateRange.from ? dateRange.from : null;
+        const rangeTo = dateRange && dateRange.to ? dateRange.to : null;
+
+        // timeKey có thể là 1 ngày "d/m/yyyy" (bảng ngày) hoặc 1 khoảng "d/m/yyyy - d/m/yyyy" (bảng tuần).
+        // Trả về [start, end] để so GIAO (overlap) với khoảng lọc, thay vì so bằng đơn ngày.
+        const rowDateRange = (tk) => {
+          if (!tk) return null;
+          const parts = String(tk).split(' - ');
+          const s = parseDate(parts[0].trim());
+          const e = parts[1] ? parseDate(parts[1].trim()) : s;
+          if (!s && !e) return null;
+          return { start: s || e, end: e || s };
+        };
+
         // Apply filters to Table VII Google Sheet records
         const filtered = sourceList.filter(r => {
           // Phân khu filter
           if (isKhuPhoFiltered && selectedKp && selectedKp !== 'ALL') {
-            if (r.khuPho !== selectedKp && !r.khuPho.includes(selectedKp)) return false;
+            if (r.khuPho !== selectedKp && !String(r.khuPho).includes(selectedKp)) return false;
           }
 
-          // Date / Period filter
-          if (isDateFiltered && selectedDateVal && selectedDateVal !== 'ALL') {
-            let matchDate = (r.timeKey === selectedDateVal || r.timeKey.includes(selectedDateVal));
-            if (!matchDate) {
-              if (periodType === 'week') {
-                const wLabel = getWeekLabel(r.timeKey);
-                if (wLabel === selectedDateVal || wLabel.includes(selectedDateVal)) matchDate = true;
-              } else if (periodType === 'month') {
-                const mLabel = getMonthLabel(r.timeKey);
-                if (mLabel === selectedDateVal || mLabel.includes(selectedDateVal)) matchDate = true;
-              }
-            }
-            if (!matchDate) return false;
+          // Lọc theo khoảng ngày: giữ dòng có [start, end] GIAO với khoảng lọc [from, to]
+          if (rangeFrom || rangeTo) {
+            const rr = rowDateRange(r.timeKey);
+            if (!rr) return false;
+            const rowEnd = new Date(rr.end); rowEnd.setHours(23, 59, 59, 999);
+            if (rangeTo && rr.start > rangeTo) return false;
+            if (rangeFrom && rowEnd < rangeFrom) return false;
           }
 
-          // Search query filter
+          // Tìm kiếm thông minh: bỏ dấu tiếng Việt + khớp nhiều từ khóa (AND)
           if (searchVal && searchVal.trim()) {
             const q = searchVal.trim().toLowerCase();
-            const text = `${r.canBo} ${r.timeKey} ${r.khuPho} ${r.ghiChu}`.toLowerCase();
-            if (!text.includes(q)) return false;
+            const qNoTone = removeVietnameseTones(q);
+            const terms = q.split(/\s+/).filter(Boolean);
+            const termsNoTone = qNoTone.split(/\s+/).filter(Boolean);
+
+            const rawText = [
+              r.canBo, r.timeKey, r.khuPho,
+              `kp ${r.khuPho}`, `kp${r.khuPho}`, `khu phố ${r.khuPho}`,
+              r.ghiChu
+            ].filter(Boolean).join(' ').toLowerCase();
+            const noToneText = removeVietnameseTones(rawText);
+
+            const match = termsNoTone.every((term, idx) => {
+              const rawTerm = terms[idx] || term;
+              return rawText.includes(rawTerm) || noToneText.includes(term);
+            });
+            if (!match) return false;
           }
 
           return true;
@@ -403,9 +426,16 @@
           
           let tKey = '';
           if (isDateFiltered) {
-            if (periodType === 'week') tKey = getWeekLabel(r.timeKey);
-            else if (periodType === 'month') tKey = getMonthLabel(r.timeKey);
-            else tKey = r.timeKey || '';
+            if (periodType === 'week') {
+              // Bảng tuần đã có sẵn timeKey dạng khoảng "1/7 - 5/7"; nếu không parse được thì giữ nguyên
+              const wl = getWeekLabel(r.timeKey);
+              tKey = (wl && wl !== 'Khác') ? wl : (r.timeKey || '');
+            } else if (periodType === 'month') {
+              const ml = getMonthLabel(r.timeKey);
+              tKey = (ml && ml !== 'Khác') ? ml : (r.timeKey || '');
+            } else {
+              tKey = r.timeKey || '';
+            }
           }
 
           const mapKey = isDateFiltered ? `${tKey}___${cb}` : cb;
@@ -878,18 +908,7 @@
         return list;
       }
 
-      // KHI CÓ LỌC NGÀY CỤ THỂ: Hiện chi tiết theo mốc Ngày + Cán bộ thuộc đợt lọc
-      const timeKeys = new Set();
-      records.forEach(r => {
-        let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
-        if (periodType === 'week') {
-          timeKey = getWeekLabel(r.ngayChuyen);
-        } else if (periodType === 'month') {
-          timeKey = getMonthLabel(r.ngayChuyen);
-        }
-        timeKeys.add(timeKey);
-      });
-
+      // KHI CÓ LỌC NGÀY / KHOẢNG NGÀY CỤ THỂ: Thống kê 1 cán bộ = 1 dòng duy nhất!
       const map = {};
       records.forEach(r => {
         const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
@@ -898,22 +917,13 @@
           return;
         }
         const cb = this.getCanonicalOfficerName(rawCb);
-        let timeKey = r.ngayChuyen && r.ngayChuyen.trim() ? r.ngayChuyen.trim() : 'Chưa có ngày';
 
-        if (periodType === 'week') {
-          timeKey = getWeekLabel(r.ngayChuyen);
-        } else if (periodType === 'month') {
-          timeKey = getMonthLabel(r.ngayChuyen);
-        }
-
-        const key = `${timeKey}___${cb}`;
-
-        if (!map[key]) {
+        if (!map[cb]) {
           const bCount = this.getBaseCountForOfficer(cb);
           const finalBase = bCount > 0 ? bCount : (allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0);
 
-          map[key] = {
-            timeKey: timeKey,
+          map[cb] = {
+            timeKey: '',
             cbtl: cb,
             cbtlFull: cb,
             kp17: 0,
@@ -922,7 +932,7 @@
             baseTotal: finalBase,
             totalChuyen: 0,
             thongQua: 0,
-            kthtGiu: 0,
+            kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0,
             traSua: 0,
             filteredTotal: 0
           };
@@ -935,40 +945,25 @@
         else if (to === 'Tổ 3' || to.includes('3')) kp = '19';
         else kp = r.khuPho ? String(r.khuPho).trim() : '';
 
-        if (kp === '17' || kp.includes('17')) map[key].kp17++;
-        else if (kp === '18' || kp.includes('18')) map[key].kp18++;
-        else if (kp === '19' || kp.includes('19')) map[key].kp19++;
+        if (kp === '17' || kp.includes('17')) map[cb].kp17++;
+        else if (kp === '18' || kp.includes('18')) map[cb].kp18++;
+        else if (kp === '19' || kp.includes('19')) map[cb].kp19++;
 
-        map[key].totalChuyen++;
+        map[cb].totalChuyen++;
 
         const st = r.trangThai || '';
         if (st.includes('3.') || st.includes('thông qua')) {
-          map[key].thongQua++;
-        } else if (st.includes('1.') || st.includes('Đã chuyển')) {
-          map[key].kthtGiu++;
+          map[cb].thongQua++;
         } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa')) {
-          map[key].traSua++;
+          map[cb].traSua++;
         }
 
-        map[key].filteredTotal++;
+        map[cb].filteredTotal++;
       });
 
       let list = Object.values(map);
-
-      list = list.filter(item => item.totalChuyen > 0);
-
-      list.sort((a, b) => {
-        if (periodType === 'date') {
-          const dA = parseDate(a.timeKey);
-          const dB = parseDate(b.timeKey);
-          if (dA && dB && dB.valueOf() !== dA.valueOf()) return dB - dA;
-        }
-        const timeCompare = b.timeKey.localeCompare(a.timeKey, 'vi');
-        if (timeCompare !== 0) return timeCompare;
-        if (b.totalChuyen !== a.totalChuyen) return b.totalChuyen - a.totalChuyen;
-        return a.cbtl.localeCompare(b.cbtl, 'vi');
-      });
-
+      list = list.filter(item => item.totalChuyen > 0 || item.filteredTotal > 0);
+      list.sort((a, b) => (b.totalChuyen || 0) - (a.totalChuyen || 0) || a.cbtlFull.localeCompare(b.cbtlFull, 'vi'));
       return list;
     }
   };
