@@ -89,12 +89,16 @@ Bang tien do cap nhat ho so/
 - **Bảng V / Bảng VII (Master Table KTHT & Pháp Chế):** Thống kê chi tiết khối lượng hồ sơ xử lý theo mốc thời gian (**Ngày**, **Tuần**, **Tháng**) và từng Cán bộ Thụ lý KTHT / Cán bộ Pháp chế kiểm tra. Cấu trúc cột tối ưu gồm: `STT`, `Thời gian chuyển`, `Cán bộ thụ lý / Pháp chế`, `Phân khu` (gộp 1 cột), cùng các cột `Tổng HS xử lý`, `Số HS duyệt`, `HS Trả sửa`, `Ghi chú`.
 
 ### 3.5. Bộ Lọc Thông Minh & Tra Cứu (Smart Filter Toolbar)
-- **Tìm kiếm đa từ khóa:** Tìm theo tên chủ hộ, địa chỉ, số tờ bản đồ, số thửa đất, tên cán bộ.
-- **Lọc Phân khu:** Chọn Tất cả hoặc riêng KP 17, KP 18, KP 19.
-- **Lọc Ngày chuyển đi & Lịch Calendar:** Cho phép chọn từ danh sách hoặc từ ô chọn ngày calendar.
-- **Lọc Ngày trả về & Lịch Calendar:** Cho phép chọn từ danh sách hoặc từ ô chọn ngày calendar.
-- **Lọc Trạng thái:** Đã thông qua, KTHT đang giữ, Trả về chỉnh sửa lần 1, Chuyển sửa lại.
-- **Nút Đặt lại (Reset Filter):** Xóa toàn bộ bộ lọc về trạng thái ban đầu.
+
+Hệ thống dùng **3 thanh lọc đồng bộ 2 chiều**: thanh Tổng (đầu trang), thanh riêng của **Bảng IV** và **Bảng V**. Thay đổi ở bất kỳ thanh nào đều được `syncFilterControls()` phản chiếu sang 2 thanh còn lại và **lọc chung toàn bộ dashboard**. Mọi hàm render đọc tiêu chí từ một state dùng chung `currentFilter` (không đọc DOM rời rạc).
+
+- **Tìm kiếm thông minh (bỏ dấu + đa từ khóa):** Khớp không phân biệt dấu tiếng Việt qua `Analytics.removeVietnameseTones`, tách nhiều từ khóa theo kiểu AND. Bảng IV tra trên toàn bộ trường hồ sơ (mã HS, chủ hộ, địa chỉ, số tờ, số thửa, cán bộ…). Bảng V lấy nguồn Google Sheet riêng (Bảng VII) nên tra theo **Cán bộ pháp chế / Thời gian / Phân khu / Ghi chú** — có thông báo rõ khi từ khóa không thuộc các trường này.
+- **Debounce 220ms:** Thao tác gõ chỉ chạy lọc + vẽ lại sau khi ngừng gõ, tránh giật khi lọc hơn 1.500 hồ sơ và vẽ lại biểu đồ theo từng ký tự.
+- **Lọc Phân khu:** Tất cả / KP 17 / KP 18 / KP 19 (kèm chip lọc nhanh).
+- **Lọc Khoảng ngày (Từ – Đến):** Hai ô calendar `type=date`, khớp theo Ngày chuyển HOẶC Ngày trả về; riêng Bảng V so **giao khoảng (overlap)** để xử lý đúng cả mốc ngày lẫn mốc tuần dạng `"1/7/2026 - 5/7/2026"`.
+- **Lọc Trạng thái (khớp mã chính xác):** Đã thông qua (`3.`), KTHT đang giữ (`1.`), Trả sửa lần 1 (`2.1`), Chuyển sửa lại (`4.`) — so theo mã ở đầu chuỗi nên chọn `"1."` không dính nhầm `"2.1."`.
+- **Banner "đang lọc" + Badge kết quả:** Cả 3 thanh hiển thị số hồ sơ khớp và tóm tắt tiêu chí; nút xóa (×) hiện/ẩn theo nội dung từng ô.
+- **Nút Đặt lại (Reset Filter):** Xóa toàn bộ bộ lọc, đưa 3 thanh về mặc định.
 
 ### 3.6. Cửa Sổ Xem Chi Tiết Hồ Sơ (Modal Popup)
 - Nhấp chuột vào bất kỳ dòng hồ sơ nào trên bảng dữ liệu để hiển thị popup thông tin pháp lý chi tiết toàn bộ các trường dữ liệu của hồ sơ đó.
@@ -130,7 +134,23 @@ flowchart TD
 
 ---
 
-## 📝 5. Quy Trình Cập Nhật Tài Liệu Này
+## 🆕 5. Nhật Ký Thay Đổi Gần Đây (Changelog)
+
+### 06/08/2026 — Viết lại logic & UI tìm kiếm/lọc Bảng IV–V
+- **Sửa lỗi nghiêm trọng:** `renderSection7` (Bảng V) tham chiếu biến chết `ngayChuyenSelect7` — tàn dư của thiết kế dropdown ngày cũ đã bị thay bằng ô calendar — gây `ReferenceError` ở bước render **cuối cùng**, làm văng và **hủy phần khởi tạo còn lại**: Bảng V trống hoàn toàn, `updateChipCounts()` không chạy (chip mất số đếm), và **auto-sync không khởi động**. Đã xóa lỗi và gỡ hàm chết `populateDateDropdown()`.
+- **State lọc dùng chung `currentFilter`:** Gom tiêu chí lọc về một nơi; `renderSection6/7` đọc từ đây thay vì tự đọc DOM rời rạc (tránh lệch nguồn).
+- **Tìm kiếm bỏ dấu + đa từ khóa (AND)** cho cả Bảng IV và Bảng V (Bảng V trên nguồn Google Sheet — Cán bộ/Thời gian/Phân khu/Ghi chú).
+- **Lọc khoảng ngày Bảng V theo giao-khoảng:** Xử lý đúng `timeKey` dạng ngày (`"01/07/2026"`) lẫn tuần (`"1/7/2026 - 5/7/2026"`); sửa nhãn cột tuần/tháng không còn hiển thị `"Khác"`.
+- **Lọc trạng thái khớp mã chính xác** (`statusCode`) — hết cảnh chọn `"1."` dính nhầm `"2.1."` (lỗi tiềm ẩn, sẽ lệch khi có hồ sơ trả-sửa-lần-1 đổ về qua live-sync).
+- **Debounce 220ms** khi gõ; **banner "đang lọc"** cho Bảng V; đồng bộ badge/banner/nút xóa cả 3 thanh; empty-state Bảng V rõ nghĩa.
+- **CSS bộ lọc/tìm kiếm** (`.filter-toolbar`, `.search-box`, `.filter-banner`…) bổ sung/hoàn thiện trong `css/style.css`.
+- Commit liên quan: `b4c2721` (logic/UI), `09be549` (CSS).
+
+> ⚠️ **Quy ước cache-bust bắt buộc:** Sau khi sửa `js/*.js`, phải tăng chuỗi `?v=YYYYMMDD_n` ở các thẻ `<script>` trong `index.html` (cả `data.js`, `analytics.js`, `app.js`), nếu không trình duyệt sẽ dùng bản cache cũ và thay đổi không hiển thị.
+
+---
+
+## 📝 6. Quy Trình Cập Nhật Tài Liệu Này
 
 - Khi có **tính năng mới, module mới, hoặc thay đổi về cấu trúc hệ thống**, Trợ lý AI (Antigravity) sẽ chủ động cập nhật trực tiếp tệp [SYSTEM_STRUCTURE.md](file:///d:/code%20banqlda/Bang%20tien%20do%20cap%20nhat%20ho%20so/SYSTEM_STRUCTURE.md) này để đảm bảo tài liệu luôn đồng bộ 100% với mã nguồn hiện tại của dự án.
 
