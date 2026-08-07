@@ -333,13 +333,34 @@
     if (clearActiveFilterBtn) clearActiveFilterBtn.addEventListener('click', handleResetAll);
     if (clearActiveFilterBtn7) clearActiveFilterBtn7.addEventListener('click', handleResetAll);
 
-    // Time Period Tabs for Master Sections
+    // Time Period Tabs = PRESET lọc nhanh theo thời gian:
+    //  - date  -> Tất cả (xoá khoảng ngày)
+    //  - week  -> Tuần này (Thứ 2 -> Chủ nhật)
+    //  - month -> Tháng này (ngày 1 -> cuối tháng)
+    const fmtDateInput = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    const applyPeriodPreset = (period) => {
+      let fromStr = '', toStr = '';
+      const now = new Date();
+      if (period === 'week') {
+        const dow = (now.getDay() + 6) % 7; // Thứ 2 = 0
+        const monday = new Date(now); monday.setDate(now.getDate() - dow);
+        const sunday = new Date(monday); sunday.setDate(monday.getDate() + 6);
+        fromStr = fmtDateInput(monday); toStr = fmtDateInput(sunday);
+      } else if (period === 'month') {
+        fromStr = fmtDateInput(new Date(now.getFullYear(), now.getMonth(), 1));
+        toStr = fmtDateInput(new Date(now.getFullYear(), now.getMonth() + 1, 0));
+      }
+      // period === 'date' -> để trống = xem tất cả
+      [datePickerFromInputGlobal, datePickerFromInput, datePickerFromInput7].forEach(el => { if (el) el.value = fromStr; });
+      [datePickerToInputGlobal, datePickerToInput, datePickerToInput7].forEach(el => { if (el) el.value = toStr; });
+    };
+
     const tabBtns = document.querySelectorAll('#timePeriodTabsGlobal .tab-btn, #timePeriodTabs .tab-btn, #timePeriodTabs7 .tab-btn');
     tabBtns.forEach(btn => {
       btn.addEventListener('click', (e) => {
         const target = e.currentTarget;
         activePeriodType = target.getAttribute('data-period');
-        
+
         // Sync active class across all tab groups
         tabBtns.forEach(t => {
           if (t.getAttribute('data-period') === activePeriodType) {
@@ -349,6 +370,7 @@
           }
         });
 
+        applyPeriodPreset(activePeriodType);
         handleFilterChange();
       });
     });
