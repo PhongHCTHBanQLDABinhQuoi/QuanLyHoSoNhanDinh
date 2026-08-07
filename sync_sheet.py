@@ -5,9 +5,23 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.request
 import urllib.parse
 from collections import defaultdict
+
+
+def deep_nfc(obj):
+    """Chuẩn hóa MỌI chuỗi (cả key lẫn value) về Unicode NFC.
+    Base HRM API trả tên dạng NFD (dấu tách rời) còn Google Sheet là NFC -> tra tên bị trượt.
+    Chuẩn hóa toàn bộ về NFC để khớp tên + để bộ tìm kiếm bỏ dấu (regex ký tự tổ hợp) hoạt động đúng."""
+    if isinstance(obj, str):
+        return unicodedata.normalize("NFC", obj)
+    if isinstance(obj, list):
+        return [deep_nfc(x) for x in obj]
+    if isinstance(obj, dict):
+        return {deep_nfc(k): deep_nfc(v) for k, v in obj.items()}
+    return obj
 
 # Ensure stdout uses utf-8 on Windows
 if hasattr(sys.stdout, 'reconfigure'):
@@ -36,8 +50,10 @@ BASE_HRM_URL = "https://hrm.base.vn/extapi/v1/employee/list"
 
 def fetch_base_hrm_employees():
     print("Fetching official personnel directory & departments from Base HRM API...")
-    hrm_map = {}
-    user_dept_map = {}
+    hrm_map = {}            # tên (đầy đủ / rút gọn) -> tên đầy đủ chuẩn
+    ambiguous_keys = set()  # key rút gọn trùng nhiều người -> sẽ loại bỏ để tránh map nhầm
+    user_dept_map = {}      # tên đầy đủ -> phòng ban
+    uid2name = {}           # user_id (Base) -> tên đầy đủ | KHÓA NỐI CHUẨN với Workflow moves[].user_id
     try:
         # 1. Fetch Area / Departments list
         data_area = urllib.parse.urlencode({
@@ -76,82 +92,59 @@ def fetch_base_hrm_employees():
             res = json.loads(response.read().decode("utf-8"))
             if res and res.get("code") == 1:
                 employees = res.get("employees", [])
+
+                # Thêm 1 key rút gọn -> tên đầy đủ. Nếu key đã trỏ người KHÁC => đánh dấu nhập nhằng để loại bỏ,
+                # tránh việc "Oanh"/"Phúc"/"Minh"... bị người xử lý sau ghi đè thành tên sai người.
+                def add_short_key(key, full):
+                    key = key.strip()
+                    if not key:
+                        return
+                    if key in hrm_map and hrm_map[key] != full:
+                        ambiguous_keys.add(key)
+                    else:
+                        hrm_map[key] = full
+
                 for emp in employees:
                     raw_name = emp.get("name", "").strip()
                     first_name = emp.get("first_name", "").strip()
                     last_name = emp.get("last_name", "").strip()
                     full_name = f"{last_name} {first_name}".strip() if (last_name or first_name) else raw_name
+                    uid = str(emp.get("user_id") or "").strip()
                     area_id = str(emp.get("area_id", ""))
                     dept_name = area_dict.get(area_id, "Ban QLDA")
 
-                    if full_name:
-                        parts = full_name.split()
-                        if len(parts) >= 2:
-                            short_2 = f"{parts[-2]} {parts[-1]}"
-                            hrm_map[short_2] = full_name
-                            user_dept_map[short_2] = dept_name
-                        if len(parts) >= 1:
-                            short_1 = parts[-1]
-                            hrm_map[short_1] = full_name
-                            user_dept_map[short_1] = dept_name
-                        hrm_map[full_name] = full_name
-                        user_dept_map[full_name] = dept_name
+                    if not full_name:
+                        continue
 
-                print(f"Parsed {len(employees)} official employees & departments from Base HRM API.")
-                return hrm_map, user_dept_map
+                    if uid:
+                        uid2name[uid] = full_name
+                    user_dept_map[full_name] = dept_name
+                    hrm_map[full_name] = full_name  # tên đầy đủ luôn an toàn
+
+                    parts = full_name.split()
+                    if len(parts) >= 2:
+                        add_short_key(f"{parts[-2]} {parts[-1]}", full_name)
+                    if len(parts) >= 1:
+                        add_short_key(parts[-1], full_name)
+
+                # Loại bỏ các key rút gọn bị nhiều người dùng chung (chỉ giữ tên đầy đủ để tra chính xác)
+                for k in ambiguous_keys:
+                    hrm_map.pop(k, None)
+
+                print(f"Parsed {len(employees)} employees | {len(uid2name)} user_id links | removed {len(ambiguous_keys)} ambiguous short keys.")
+                return hrm_map, user_dept_map, uid2name
     except Exception as e:
         print(f"Warning: Could not fetch Base HRM API: {e}")
-    return {}, {}
+    return {}, {}, {}
 
-def fetch_base_workflow_counts():
-    print("Fetching Base Workflow jobs data via API (including Step 6 fallback rule)...")
-    raw_counts = defaultdict(int)
+def fetch_base_workflow_counts(uid2name=None):
+    print("Fetching Base Workflow jobs data via API (đếm theo user_id, tên chuẩn từ HRM)...")
+    uid2name = uid2name or {}
+    raw_counts = defaultdict(int)   # key = user_id (hoặc 'u:username' nếu thiếu user_id) -> số job
+    uid_username = {}               # key -> username (để log/đối chiếu)
     page = 0
     total_jobs = 0
     jobs_map = {}
-
-    officer_to_username = {
-        "Quốc Thạch": ["thachhq"],
-        "Thiện Như": ["nhunt"],
-        "Thanh Tuyền": ["tuyennt"],
-        "Hoài Thương": ["thuonghh"],
-        "Tố Lam": ["lamdtt"],
-        "Xuân Trúc": ["trucplx"],
-        "Văn Tân": ["tanhv"],
-        "Anh Tuấn": ["tuanla"],
-        "Ngọc Thịnh": ["thinhpn"],
-        "Đăng Vinh": ["vinhdhd"],
-        "Mỹ Thương": ["thuongctm"],
-        "Trọng Nhân": ["nhanvt"],
-        "Duy Bảo": ["baotd"],
-        "Lan Phương": ["phuongll"],
-        "Kim Ngân": ["nganmnk"],
-        "Thảo Nguyên": ["nguyennnt"],
-        "Kiều Oanh": ["oanhdck"],
-        "Thiên Ngân": ["nganntt"],
-        "Minh Châu": ["chaundm"],
-        "Văn Hải": ["hainv"],
-        "Quốc Bảo": ["baohlq"],
-        "Duy Quang": ["quangpd"],
-        "Thành Giang": ["giangnpt"],
-        "Trọng Phúc": ["phucvt"],
-        "Thúy Quyên": ["quyendtt"],
-        "Thanh Tùng": ["tungnt"],
-        "Hoàng Minh": ["minhth"],
-        "Ngọc Trân": ["trannn"],
-        "Trí Nghĩa": ["nghiadt"],
-        "Như Hà": ["hattn"],
-        "Vân Khánh": ["khanhptv"],
-        "Quang Trãi": ["trailq"],
-        "Vinh Hiển": ["hiennv"],
-        "Ánh Linh": ["linhpta", "linhhk"],
-        "Minh Quân": ["quannm"],
-        "Uyên Như": ["nhutnu"],
-        "Anh Thư": ["thutna"],
-        "Bảo Vi": ["vittb"],
-        "Anh Hào": ["haola"],
-        "Minh Huy": ["huyhbm"]
-    }
 
     try:
         while True:
@@ -177,29 +170,30 @@ def fetch_base_workflow_counts():
                     for j in jobs:
                         owners = j.get("owners", [])
                         stage_id = str(j.get("stage_id", ""))
-                        
+
                         excluded_users = {"anhvpm", "dunglq", "linhhk", "banqlda", "system", "admin", ""}
-                        target_usernames = []
+                        targets = []  # danh sách (username, user_id) sẽ được tính
                         if isinstance(owners, list) and len(owners) > 0 and stage_id != "116735":
                             for o in owners:
                                 if isinstance(o, dict):
                                     un = o.get("username")
                                     if un and un not in excluded_users:
-                                        target_usernames.append(un)
-                        
-                        # Step 6 (116735) OR anhvpm/linhhk/dunglq/banqlda fallback rule:
-                        # Trace back through moves to find the compensation officer who handled it at Step 5
-                        if not target_usernames:
+                                        targets.append((un, str(o.get("user_id") or "")))
+
+                        # Step 6 (116735) hoặc owner bị loại: truy ngược moves tìm cán bộ bồi thường ở Bước 5
+                        if not targets:
                             moves = j.get("moves", [])
                             if isinstance(moves, list):
                                 for m in reversed(moves):
                                     u = m.get("username")
                                     if u and u not in excluded_users:
-                                        target_usernames.append(u)
+                                        targets.append((u, str(m.get("user_id") or "")))
                                         break
-                                        
-                        for un in target_usernames:
-                            raw_counts[un] += 1
+
+                        for un, uid in targets:
+                            key = uid if uid else f"u:{un}"  # ưu tiên user_id (khóa nối HRM), fallback username
+                            raw_counts[key] += 1
+                            uid_username[key] = un
 
                         j_id = j.get("id")
                         j_name = j.get("name", "")
@@ -225,11 +219,20 @@ def fetch_base_workflow_counts():
 
         print(f"Parsed {total_jobs} total jobs from Base Workflow across {page + 1} pages with Step 6 fallback.")
 
-        result_map = {}
-        for off_name, u_list in officer_to_username.items():
-            result_map[off_name] = sum(raw_counts.get(u, 0) for u in u_list)
-
+        # Quy đổi số đếm theo user_id -> TÊN ĐẦY ĐỦ chuẩn từ HRM (thiếu thì fallback username)
+        result_map = defaultdict(int)
+        unresolved = []
+        for key, cnt in raw_counts.items():
+            name = uid2name.get(key)
+            if not name:
+                name = uid_username.get(key, key)
+                unresolved.append(name)
+            result_map[name] += cnt
+        result_map = dict(result_map)
         result_map["_total_jobs"] = total_jobs
+        if unresolved:
+            print(f"Note: {len(set(unresolved))} user_id không có trong HRM, dùng username tạm: {sorted(set(unresolved))[:10]}")
+        print(f"BASE_WORKFLOW_COUNTS: {len([k for k in result_map if not k.startswith('_')])} cán bộ (đếm theo user_id).")
         return result_map, jobs_map
     except Exception as e:
         print(f"Warning: Could not fetch Base Workflow API data: {e}")
@@ -399,8 +402,20 @@ def fetch_and_sync():
     table_vii_daily = fetch_table_vii_sheet(TABLE_VII_DAILY_CSV_URL)
     table_vii_weekly = fetch_table_vii_sheet(TABLE_VII_WEEKLY_CSV_URL)
 
-    base_counts, jobs_map = fetch_base_workflow_counts()
-    hrm_names, hrm_depts = fetch_base_hrm_employees()
+    # HRM trước để lấy uid2name (khóa nối chuẩn), rồi mới đếm Workflow theo user_id
+    hrm_names, hrm_depts, hrm_uid2name = fetch_base_hrm_employees()
+    base_counts, jobs_map = fetch_base_workflow_counts(hrm_uid2name)
+
+    # Bí danh tên ngắn (2 từ) -> tên đầy đủ cho các cán bộ BBT thực tế (có trong Workflow counts).
+    # Sheet ghi tên 2 từ ("Duy Bảo", "Quốc Bảo"...); trong nhóm ~40 cán bộ này tên 2 từ là DUY NHẤT,
+    # nên tra chính xác VÀ ghi đè các key trước đó bị loại vì trùng tên với nhân sự phòng ban khác.
+    for full in list(base_counts.keys()):
+        if full.startswith("_"):
+            continue
+        hrm_names[full] = full
+        p = full.split()
+        if len(p) >= 2:
+            hrm_names[f"{p[-2]} {p[-1]}"] = full
 
     # Attach baseLink to each main dossier record based on maHoSo matching
     for r in records:
@@ -428,16 +443,25 @@ def fetch_and_sync():
             r["baseLink"] = "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
 
     print(f"Parsed Table VII: {len(table_vii_daily)} daily records, {len(table_vii_weekly)} weekly records.")
-    
+
+    # An toàn: nếu Workflow API lỗi/timeout (không có cán bộ nào) thì GIỮ NGUYÊN data.js cũ,
+    # tránh ghi đè làm mất sạch cột "TỔNG HS NẮM GIỮ" cho tới lần sync kế tiếp.
+    real_officers = [k for k in base_counts if not k.startswith("_")]
+    if not real_officers:
+        print("⚠️ Workflow API không trả dữ liệu (timeout?). GIỮ NGUYÊN js/data.js cũ, KHÔNG ghi đè.")
+        return
+
     output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "js", "data.js")
-    js_content = f"""// Data dataset auto-synced from Google Sheets, Base Workflow API & Base HRM API
-window.DOSSIER_DATA = {json.dumps(records, ensure_ascii=False, indent=2)};
-window.TABLE_VII_DATA_DAILY = {json.dumps(table_vii_daily, ensure_ascii=False, indent=2)};
-window.TABLE_VII_DATA_WEEKLY = {json.dumps(table_vii_weekly, ensure_ascii=False, indent=2)};
-window.BASE_WORKFLOW_COUNTS = {json.dumps(base_counts, ensure_ascii=False, indent=2)};
-window.BASE_JOBS_MAP = {json.dumps(jobs_map, ensure_ascii=False, indent=2)};
-window.BASE_HRM_NAMES = {json.dumps(hrm_names, ensure_ascii=False, indent=2)};
-window.BASE_HRM_DEPARTMENTS = {json.dumps(hrm_depts, ensure_ascii=False, indent=2)};
+    # Chuẩn hóa toàn bộ dữ liệu về Unicode NFC trước khi ghi (đồng bộ tên & tìm kiếm chính xác)
+    js_content = f"""// Data dataset auto-synced from Google Sheets, Base Workflow API & Base HRM API (Unicode NFC)
+window.DOSSIER_DATA = {json.dumps(deep_nfc(records), ensure_ascii=False, indent=2)};
+window.TABLE_VII_DATA_DAILY = {json.dumps(deep_nfc(table_vii_daily), ensure_ascii=False, indent=2)};
+window.TABLE_VII_DATA_WEEKLY = {json.dumps(deep_nfc(table_vii_weekly), ensure_ascii=False, indent=2)};
+window.BASE_WORKFLOW_COUNTS = {json.dumps(deep_nfc(base_counts), ensure_ascii=False, indent=2)};
+window.BASE_JOBS_MAP = {json.dumps(deep_nfc(jobs_map), ensure_ascii=False, indent=2)};
+window.BASE_HRM_NAMES = {json.dumps(deep_nfc(hrm_names), ensure_ascii=False, indent=2)};
+window.BASE_HRM_DEPARTMENTS = {json.dumps(deep_nfc(hrm_depts), ensure_ascii=False, indent=2)};
+window.BASE_HRM_UID_NAMES = {json.dumps(deep_nfc(hrm_uid2name), ensure_ascii=False, indent=2)};
 """
     
     with open(output_path, "w", encoding="utf-8") as f:

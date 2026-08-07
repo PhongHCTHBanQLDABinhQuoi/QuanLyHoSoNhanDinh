@@ -67,7 +67,7 @@
 
   function removeVietnameseTones(str) {
     if (!str) return '';
-    let s = String(str).toLowerCase().trim();
+    let s = String(str).normalize('NFC').toLowerCase().trim();
     s = s.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
     s = s.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
     s = s.replace(/ì|í|ị|ỉ|ĩ/g, "i");
@@ -684,66 +684,25 @@
 
     getCanonicalOfficerName(cbName) {
       if (!cbName) return 'Khác / Chưa xếp';
-      const name = String(cbName).trim();
+      const name = String(cbName).trim().normalize('NFC');
 
-      if (window.BASE_HRM_NAMES && window.BASE_HRM_NAMES[name]) {
-        return window.BASE_HRM_NAMES[name];
-      }
+      // Nguồn tên chuẩn DUY NHẤT: Base HRM (đồng bộ qua user_id trong sync_sheet.py).
+      // Không còn map cứng (trước đây gõ sai một số tên).
+      const hrm = window.BASE_HRM_NAMES || {};
+      if (hrm[name]) return hrm[name];
 
-      const map = {
-        "thachhq": "Hồ Quốc Thạch", "Quốc Thạch": "Hồ Quốc Thạch",
-        "minhth": "Trịnh Hoàng Minh", "Hoàng Minh": "Trịnh Hoàng Minh",
-        "baotd": "Trần Duy Bảo", "Duy Bảo": "Trần Duy Bảo",
-        "nhunt": "Nguyễn Thị Thiện Như", "Thiện Như": "Nguyễn Thị Thiện Như",
-        "oanhdck": "Đặng Cao Kiều Oanh", "Kiều Oanh": "Đặng Cao Kiều Oanh",
-        "khanhptv": "Phạm Thị Vân Khánh", "Vân Khánh": "Phạm Thị Vân Khánh",
-        "thuonghh": "Hoàng Hoài Thương", "Hoài Thương": "Hoàng Hoài Thương",
-        "phucvt": "Võ Trọng Phúc", "Trọng Phúc": "Võ Trọng Phúc",
-        "lamdtt": "Đoàn Thị Tố Lam", "Tố Lam": "Đoàn Thị Tố Lam",
-        "tanhv": "Huỳnh Văn Tân", "Văn Tân": "Huỳnh Văn Tân",
-        "quyendtt": "Đỗ Thị Thúy Quyên", "Thúy Quyên": "Đỗ Thị Thúy Quyên",
-        "baohlq": "Lê Quốc Bảo", "Quốc Bảo": "Lê Quốc Bảo",
-        "thuongctm": "Cao Thị Mỹ Thương", "Mỹ Thương": "Cao Thị Mỹ Thương",
-        "nhanvt": "Vương Trọng Nhân", "Trọng Nhân": "Vương Trọng Nhân",
-        "quannm": "Nguyễn Minh Quân", "Minh Quân": "Nguyễn Minh Quân",
-        "thinhpn": "Phạm Ngọc Thịnh", "Ngọc Thịnh": "Phạm Ngọc Thịnh",
-        "tuyennt": "Nguyễn Thanh Tuyền", "Thanh Tuyền": "Nguyễn Thanh Tuyền",
-        "trannn": "Nguyễn Ngọc Trân", "Ngọc Trân": "Nguyễn Ngọc Trân",
-        "trailq": "Lê Quang Trãi", "Quang Trãi": "Lê Quang Trãi",
-        "hainv": "Ngô Văn Hải", "Văn Hải": "Ngô Văn Hải",
-        "trucplx": "Phạm Lê Xuân Trúc", "Xuân Trúc": "Phạm Lê Xuân Trúc",
-        "hiennv": "Nguyễn Vinh Hiển", "Vinh Hiển": "Nguyễn Vinh Hiển",
-        "chaundm": "Nguyễn Đoàn Minh Châu", "Minh Châu": "Nguyễn Đoàn Minh Châu",
-        "vinhdhd": "Đặng Hải Đăng Vinh", "Đăng Vinh": "Đặng Hải Đăng Vinh",
-        "nguyennnt": "Nguyễn Ngọc Thảo Nguyên", "Thảo Nguyên": "Nguyễn Ngọc Thảo Nguyên",
-        "nganntt": "Nguyễn Thị Thiên Ngân", "Thiên Ngân": "Nguyễn Thị Thiên Ngân",
-        "phuongll": "Lê Lan Phương", "Lan Phương": "Lê Lan Phương",
-        "hattn": "Trần Thị Như Hà", "Như Hà": "Trần Thị Như Hà",
-        "nganmnk": "Mai Ngọc Kim Ngân", "Kim Ngân": "Mai Ngọc Kim Ngân",
-        "tuanla": "Lê Anh Tuấn", "Anh Tuấn": "Lê Anh Tuấn",
-        "giangnpt": "Nguyễn Phạm Thành Giang", "Thành Giang": "Nguyễn Phạm Thành Giang",
-        "quangpd": "Phạm Duy Quang", "Duy Quang": "Phạm Duy Quang",
-        "nghiadt": "Đoàn Trí Nghĩa", "Trí Nghĩa": "Đoàn Trí Nghĩa",
-        "nhutnu": "Tô Ngọc Uyên Như", "Uyên Như": "Tô Ngọc Uyên Như",
-        "tungnt": "Nguyễn Thanh Tùng", "Thanh Tùng": "Nguyễn Thanh Tùng",
-        "linhpta": "Phan Thị Ánh Linh", "Ánh Linh": "Phan Thị Ánh Linh",
-        "haola": "Lý Anh Hào", "Anh Hào": "Lý Anh Hào",
-        "vittb": "Trần Thị Bảo Vi", "Bảo Vi": "Trần Thị Bảo Vi",
-        "thutna": "Trương Ngọc Anh Thư", "Anh Thư": "Trương Ngọc Anh Thư",
-        "linhhk": "Hồ Khánh Linh", "Khánh Linh": "Hồ Khánh Linh",
-        "anhvpm": "Hoàng Anh", "Hoàng Anh": "Hoàng Anh",
-        "huyhbm": "Huỳnh Bá Minh Huy", "Minh Huy": "Huỳnh Bá Minh Huy"
-      };
-
-      if (map[name]) return map[name];
+      // Tên ghép nhiều người "Dũng/Tân" -> chuẩn hóa từng phần
       if (name.includes('/')) {
         return name.split('/').map(p => this.getCanonicalOfficerName(p.trim())).join(' / ');
       }
-      for (const [k, v] of Object.entries(map)) {
-        if (name.toLowerCase() === k.toLowerCase()) {
-          return v;
-        }
+
+      // Khớp không phân biệt hoa/thường
+      const lower = name.toLowerCase();
+      for (const k in hrm) {
+        if (k.toLowerCase() === lower) return hrm[k];
       }
+
+      // Không tra được -> giữ nguyên tên gốc (thà hiện tên ngắn còn hơn hiện SAI người)
       return name;
     },
 
@@ -904,6 +863,12 @@
           list = list.filter(item => item.totalChuyen > 0 || item.baseTotal > 0);
         }
 
+        // Số liệu ĐÓ GIỜ (all-time) từ sheet gốc — luôn hiển thị, không đổi theo bộ lọc ngày
+        list.forEach(item => {
+          const at = allTimeMap[item.cbtl];
+          item.allTimeChuyen = at ? at.totalChuyen : 0;
+          item.allTimeThongQua = at ? at.thongQua : 0;
+        });
         list.sort((a, b) => (b.baseTotal || 0) - (a.baseTotal || 0) || (b.totalChuyen || 0) - (a.totalChuyen || 0) || a.cbtlFull.localeCompare(b.cbtlFull, 'vi'));
         return list;
       }
@@ -963,6 +928,12 @@
 
       let list = Object.values(map);
       list = list.filter(item => item.totalChuyen > 0 || item.filteredTotal > 0);
+      // Số liệu ĐÓ GIỜ (all-time) từ sheet gốc — luôn hiển thị, không đổi theo bộ lọc ngày
+      list.forEach(item => {
+        const at = allTimeMap[item.cbtl];
+        item.allTimeChuyen = at ? at.totalChuyen : 0;
+        item.allTimeThongQua = at ? at.thongQua : 0;
+      });
       list.sort((a, b) => (b.totalChuyen || 0) - (a.totalChuyen || 0) || a.cbtlFull.localeCompare(b.cbtlFull, 'vi'));
       return list;
     }

@@ -1171,8 +1171,10 @@
             <th>CBTL (CÁN BỘ BBT)</th>
             <th class="text-center">TỔ BỒI THƯỜNG<br><small style="font-weight:normal; opacity:0.85;">(Phân khu)</small></th>
             <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
-            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT)</small></th>
-            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua)</small></th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">TỔNG HS ĐÃ CHUYỂN P.KTHT<br><small style="font-weight:normal; opacity:0.85;">(luỹ kế đó giờ - từ sheet)</small></th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">TỔNG HS ĐÃ THÔNG QUA<br><small style="font-weight:normal; opacity:0.85;">(luỹ kế đó giờ - từ sheet)</small></th>
+            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT - trong kỳ lọc)</small></th>
+            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua - trong kỳ lọc)</small></th>
             <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ - tất cả ngày)</small></th>
             <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
           </tr>
@@ -1187,13 +1189,14 @@
     tbody.innerHTML = '';
 
     if (!list || list.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="8" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="10" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
       return;
     }
 
     const uniqueOfficers6 = new Set();
     let sum17 = 0, sum18 = 0, sum19 = 0;
     let sumBaseTotal = 0, sumTotal = 0, sumThongQua = 0, sumKthtGiu = 0, sumTraSua = 0;
+    let sumAllTimeChuyen = 0, sumAllTimeThongQua = 0;
 
     let overallBaseTotal = 0;
     if (window.BASE_WORKFLOW_COUNTS) {
@@ -1210,6 +1213,8 @@
       sumThongQua += (item.thongQua || 0);
       sumKthtGiu += (item.kthtGiu || 0);
       sumTraSua += (item.traSua || 0);
+      sumAllTimeChuyen += (item.allTimeChuyen || 0);
+      sumAllTimeThongQua += (item.allTimeThongQua || 0);
 
       if (!uniqueOfficers6.has(item.cbtl)) {
         uniqueOfficers6.add(item.cbtl);
@@ -1240,6 +1245,8 @@
         <td><strong>${item.cbtlFull || item.cbtl}</strong></td>
         <td class="text-center">${toTd}</td>
         <td class="text-center">${baseTd}</td>
+        <td class="text-center" style="background: rgba(16,185,129,0.05);"><strong>${(item.allTimeChuyen || 0).toLocaleString('vi-VN')}</strong></td>
+        <td class="text-center" style="background: rgba(16,185,129,0.05);"><strong style="color:#059669;">${(item.allTimeThongQua || 0).toLocaleString('vi-VN')}</strong></td>
         <td class="text-center cell-clickable" data-action="totalChuyen" style="cursor:pointer;" title="Bấm để xem danh sách tất cả hồ sơ đã chuyển của cán bộ này">${isZero ? `<span class="badge badge-danger">⚠️ 0</span>` : `<span class="badge badge-info hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.totalChuyen}</span>`}</td>
         <td class="text-center cell-clickable" data-action="thongQua" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ đã được Thông Qua">${item.thongQua > 0 ? `<span class="badge badge-success hover-badge" style="cursor:pointer; text-decoration:underline;">${item.thongQua}</span>` : '0'}</td>
         <td class="text-center cell-clickable" data-action="kthtGiu" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ KTHT đang giữ (tất cả các ngày trên hệ thống)">${item.kthtGiu > 0 ? `<span class="badge badge-warning hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.kthtGiu}</span>` : '0'}</td>
@@ -1272,6 +1279,8 @@
         <span style="font-size:0.8125rem; font-weight:600;">KP17: ${sum17} | KP18: ${sum18} | KP19: ${sum19}</span>
       </td>
       <td class="text-center"><strong style="color:#0369a1;">📦 ${displayBaseTotal.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center" style="background: rgba(16,185,129,0.06);"><strong>${sumAllTimeChuyen.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center" style="background: rgba(16,185,129,0.06);"><strong style="color:#059669;">${sumAllTimeThongQua.toLocaleString('vi-VN')}</strong></td>
       <td class="text-center"><strong>${sumTotal}</strong></td>
       <td class="text-center"><strong>${sumThongQua}</strong></td>
       <td class="text-center"><strong>${sumKthtGiu}</strong></td>
