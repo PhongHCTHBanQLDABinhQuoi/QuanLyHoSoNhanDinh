@@ -108,8 +108,9 @@
   const modalDetailContent = document.getElementById('modalDetailContent');
 
   // Detect environment: GitHub Pages vs Local
-  // Trên GitHub Pages, KHÔNG fetch trực tiếp từ Google Sheet (CORS/cache không ổn định).
-  // Thay vào đó, chỉ tải lại js/data.js mỗi 5 phút (GitHub Actions đã sync sẵn).
+  // Google Sheet published CSV cho phép CORS -> fetch TRỰC TIẾP từ trình duyệt được (đã kiểm chứng),
+  // nên cả Pages lẫn Local đều tải Sheet realtime, KHÔNG chờ GitHub Actions (cron '*/5' thực tế chạy
+  // vài giờ/lần). Riêng số liệu Base API (cột NẮM GIỮ) không CORS -> vẫn lấy qua js/data.js.
   const IS_GITHUB_PAGES = !(
     window.location.hostname === 'localhost' ||
     window.location.hostname === '127.0.0.1' ||
@@ -126,12 +127,11 @@
     updateDashboard();
 
     if (IS_GITHUB_PAGES) {
-      // Trên GitHub Pages: chỉ reload js/data.js mỗi 5 phút để lấy dữ liệu mới nhất từ GitHub Actions
-      setInterval(() => reloadDataJs(), 5 * 60 * 1000);
-      if (sheetSyncBadge) {
-        sheetSyncBadge.className = 'sheet-sync-pill';
-        sheetSyncBadge.innerHTML = `🟢 Dữ liệu đã đồng bộ (${(window.DOSSIER_DATA||[]).length.toLocaleString('vi-VN')} hồ sơ)`;
-      }
+      // GitHub Pages: tải TRỰC TIẾP Google Sheet mỗi 30s -> hồ sơ (trạng thái/ngày/cán bộ) realtime,
+      // không phụ thuộc GitHub Actions. Số Base API (NẮM GIỮ) trong js/data.js -> reload mỗi 2 phút.
+      fetchLiveDataFromSheet(false);
+      setInterval(() => fetchLiveDataFromSheet(false), 30000);
+      setInterval(() => reloadDataJs(), 2 * 60 * 1000);
     } else {
       // Trên Local: fetch live từ Google Sheet mỗi 20 giây
       fetchLiveDataFromSheet(false);
