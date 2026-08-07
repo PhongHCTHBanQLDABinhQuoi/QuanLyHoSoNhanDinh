@@ -1167,16 +1167,16 @@
       if (thead) {
         thead.innerHTML = `
           <tr>
-            <th class="text-center" style="width: 50px;">STT</th>
-            <th>CBTL (CÁN BỘ BBT)</th>
-            <th class="text-center">TỔ BỒI THƯỜNG<br><small style="font-weight:normal; opacity:0.85;">(Phân khu)</small></th>
-            <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">TỔNG HS NẮM GIỮ<br><small style="font-weight:normal; opacity:0.85;">(trên Base Workflow)</small></th>
-            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">TỔNG HS ĐÃ CHUYỂN P.KTHT<br><small style="font-weight:normal; opacity:0.85;">(luỹ kế đó giờ - từ sheet)</small></th>
-            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">TỔNG HS ĐÃ THÔNG QUA<br><small style="font-weight:normal; opacity:0.85;">(luỹ kế đó giờ - từ sheet)</small></th>
-            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã chuyển P.KTHT - trong kỳ lọc)</small></th>
-            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(đã được P.KTHT thông qua - trong kỳ lọc)</small></th>
-            <th class="text-center">TỔNG HS<br><small style="font-weight:normal; opacity:0.85;">(P.KTHT còn giữ - tất cả ngày)</small></th>
-            <th class="text-center">HS P.KTHT<br><small style="font-weight:normal; opacity:0.85;">trả sửa</small></th>
+            <th class="text-center" style="width: 40px;">STT</th>
+            <th>CÁN BỘ BBT</th>
+            <th class="text-center">TỔ / PHÂN KHU</th>
+            <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">NẮM GIỮ<br><small style="font-weight:normal; opacity:0.8;">(Base)</small></th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">ĐÃ CHUYỂN<br><small style="font-weight:normal; opacity:0.8;">(luỹ kế)</small></th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">THÔNG QUA<br><small style="font-weight:normal; opacity:0.8;">(luỹ kế)</small></th>
+            <th class="text-center">ĐÃ CHUYỂN<br><small style="font-weight:normal; opacity:0.8;">(kỳ lọc)</small></th>
+            <th class="text-center">THÔNG QUA<br><small style="font-weight:normal; opacity:0.8;">(kỳ lọc)</small></th>
+            <th class="text-center">CÒN GIỮ<br><small style="font-weight:normal; opacity:0.8;">(P.KTHT)</small></th>
+            <th class="text-center">TRẢ SỬA</th>
           </tr>
         `;
       }
@@ -1235,9 +1235,9 @@
         : `<span class="badge badge-neutral">0</span>`;
 
       const toList = [];
-      if (item.kp17 > 0) toList.push('<span class="badge badge-neutral">Tổ 1 (KP 17)</span>');
-      if (item.kp18 > 0) toList.push('<span class="badge badge-neutral">Tổ 2 (KP 18)</span>');
-      if (item.kp19 > 0) toList.push('<span class="badge badge-neutral">Tổ 3 (KP 19)</span>');
+      if (item.kp17 > 0) toList.push('<span class="badge badge-neutral" title="Tổ 1 (KP 17)">KP 17</span>');
+      if (item.kp18 > 0) toList.push('<span class="badge badge-neutral" title="Tổ 2 (KP 18)">KP 18</span>');
+      if (item.kp19 > 0) toList.push('<span class="badge badge-neutral" title="Tổ 3 (KP 19)">KP 19</span>');
       const toTd = toList.length > 0 ? toList.join(' ') : '<span class="badge badge-neutral">-</span>';
 
       tr.innerHTML = `

@@ -932,6 +932,20 @@ header.app-header::after {
   font-weight: 500;
 }
 
+/* Bảng IV & V: nén cột/khoảng cách để vừa gọn 1 trang (bảng nhiều cột) */
+#tableSection6,
+#tableSection7 { font-size: 0.72rem; }
+#tableSection6 th,
+#tableSection7 th { padding: 8px 6px; font-size: 0.66rem; letter-spacing: 0.01em; }
+#tableSection6 td,
+#tableSection7 td { padding: 6px 6px; }
+#tableSection6 th small,
+#tableSection7 th small { font-size: 0.9em; text-transform: none; letter-spacing: 0; }
+#tableSection6 .badge,
+#tableSection7 .badge { padding: 2px 6px; font-size: 0.66rem; }
+#tableSection6 td:first-child,
+#tableSection7 td:first-child { padding-left: 4px; padding-right: 4px; }
+
 .data-table tbody tr {
   transition: background-color 0.15s ease;
 }
