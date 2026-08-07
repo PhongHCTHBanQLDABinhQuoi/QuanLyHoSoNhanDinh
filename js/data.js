@@ -42361,27 +42361,27 @@ window.TABLE_VII_DATA_DAILY = [
     "khuPho": "17",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 8,
-    "soHsTraSua": 0,
-    "tongHs": 8,
-    "ghiChu": ""
+    "soHsTraSua": 5,
+    "tongHs": 13,
+    "ghiChu": "7"
   },
   {
     "timeKey": "07/08/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
     "soHsDuyet": 22,
-    "soHsTraSua": 0,
-    "tongHs": 22,
-    "ghiChu": ""
+    "soHsTraSua": 13,
+    "tongHs": 35,
+    "ghiChu": "2"
   },
   {
     "timeKey": "07/08/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
     "soHsDuyet": 21,
-    "soHsTraSua": 0,
-    "tongHs": 21,
-    "ghiChu": ""
+    "soHsTraSua": 12,
+    "tongHs": 33,
+    "ghiChu": "10"
   }
 ];
 window.TABLE_VII_DATA_WEEKLY = [
@@ -42389,8 +42389,8 @@ window.TABLE_VII_DATA_WEEKLY = [
     "timeKey": "1/7/2026 - 5/7/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
-    "soHsDuyet": 18,
-    "soHsTraSua": 0,
+    "soHsDuyet": 0,
+    "soHsTraSua": 18,
     "tongHs": 18,
     "ghiChu": ""
   },
@@ -42398,8 +42398,8 @@ window.TABLE_VII_DATA_WEEKLY = [
     "timeKey": "1/7/2026 - 5/7/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
-    "soHsDuyet": 23,
-    "soHsTraSua": 0,
+    "soHsDuyet": 0,
+    "soHsTraSua": 23,
     "tongHs": 23,
     "ghiChu": ""
   },
@@ -42407,8 +42407,8 @@ window.TABLE_VII_DATA_WEEKLY = [
     "timeKey": "1/7/2026 - 5/7/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 16,
-    "soHsTraSua": 0,
+    "soHsDuyet": 0,
+    "soHsTraSua": 16,
     "tongHs": 16,
     "ghiChu": ""
   },
@@ -42416,112 +42416,140 @@ window.TABLE_VII_DATA_WEEKLY = [
     "timeKey": "6/7/2026 - 12/7/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
-    "soHsDuyet": 91,
-    "soHsTraSua": 55,
-    "tongHs": 146,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 91,
+    "tongHs": 91,
+    "ghiChu": "55"
   },
   {
     "timeKey": "6/7/2026 - 12/7/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
-    "soHsDuyet": 82,
-    "soHsTraSua": 33,
-    "tongHs": 115,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 82,
+    "tongHs": 82,
+    "ghiChu": "33"
   },
   {
     "timeKey": "6/7/2026 - 12/7/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 105,
-    "soHsTraSua": 77,
-    "tongHs": 182,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 105,
+    "tongHs": 105,
+    "ghiChu": "77"
   },
   {
     "timeKey": "13/7/2026 - 19/7/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
-    "soHsDuyet": 64,
-    "soHsTraSua": 54,
-    "tongHs": 118,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 64,
+    "tongHs": 64,
+    "ghiChu": "54"
   },
   {
     "timeKey": "13/7/2026 - 19/7/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
-    "soHsDuyet": 40,
-    "soHsTraSua": 17,
-    "tongHs": 57,
-    "ghiChu": ""
-  },
-  {
-    "timeKey": "13/7/2026 - 19/7/2026",
-    "khuPho": "19",
-    "canBo": "Tân/Dũng",
-    "soHsDuyet": 115,
-    "soHsTraSua": 42,
-    "tongHs": 157,
-    "ghiChu": ""
-  },
-  {
-    "timeKey": "20/7/2026 - 26/7/2026",
-    "khuPho": "17",
-    "canBo": "Linh/Nhi",
-    "soHsDuyet": 88,
+    "soHsDuyet": 0,
     "soHsTraSua": 40,
-    "tongHs": 128,
-    "ghiChu": ""
+    "tongHs": 40,
+    "ghiChu": "17"
+  },
+  {
+    "timeKey": "13/7/2026 - 19/7/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 115,
+    "tongHs": 115,
+    "ghiChu": "42"
+  },
+  {
+    "timeKey": "20/7/2026 - 26/7/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 88,
+    "tongHs": 88,
+    "ghiChu": "40"
   },
   {
     "timeKey": "20/7/2026 - 26/7/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
-    "soHsDuyet": 72,
-    "soHsTraSua": 23,
-    "tongHs": 95,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 72,
+    "tongHs": 72,
+    "ghiChu": "23"
   },
   {
     "timeKey": "20/7/2026 - 26/7/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 228,
-    "soHsTraSua": 68,
-    "tongHs": 296,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 228,
+    "tongHs": 228,
+    "ghiChu": "68"
   },
   {
     "timeKey": "27/7/2026 - 2/8/2026",
     "khuPho": "17",
     "canBo": "Linh/Nhi",
-    "soHsDuyet": 88,
-    "soHsTraSua": 34,
-    "tongHs": 122,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 88,
+    "tongHs": 88,
+    "ghiChu": "34"
   },
   {
     "timeKey": "27/7/2026 - 2/8/2026",
     "khuPho": "18",
     "canBo": "Hiền/Anh",
-    "soHsDuyet": 81,
-    "soHsTraSua": 15,
-    "tongHs": 96,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 81,
+    "tongHs": 81,
+    "ghiChu": "15"
   },
   {
     "timeKey": "27/7/2026 - 2/8/2026",
     "khuPho": "19",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 115,
-    "soHsTraSua": 36,
-    "tongHs": 151,
-    "ghiChu": ""
+    "soHsDuyet": 0,
+    "soHsTraSua": 115,
+    "tongHs": 115,
+    "ghiChu": "36"
+  },
+  {
+    "timeKey": "3/8/2026 - 9/8/2026",
+    "khuPho": "17",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 61,
+    "soHsTraSua": 54,
+    "tongHs": 115,
+    "ghiChu": "53"
+  },
+  {
+    "timeKey": "3/8/2026 - 9/8/2026",
+    "khuPho": "18",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 64,
+    "soHsTraSua": 41,
+    "tongHs": 105,
+    "ghiChu": "9"
+  },
+  {
+    "timeKey": "3/8/2026 - 9/8/2026",
+    "khuPho": "19",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 83,
+    "soHsTraSua": 125,
+    "tongHs": 208,
+    "ghiChu": "36"
   }
 ];
 window.BASE_WORKFLOW_COUNTS = {
+  "Phạm Trần Vân Khánh": 68,
   "Trương Ngọc Anh Thư": 31,
   "Nguyễn Ngọc Thảo Nguyên": 56,
   "Vương Trọng Nhân": 63,
@@ -42542,7 +42570,6 @@ window.BASE_WORKFLOW_COUNTS = {
   "Trần Thị Như Hà": 54,
   "Lê Quang Trãi": 59,
   "Trịnh Hoàng Minh": 71,
-  "Phạm Trần Vân Khánh": 67,
   "Tô Ngọc Uyên Như": 45,
   "Mai Ngọc Kim Ngân": 57,
   "Lý Anh Hào": 12,
@@ -42561,9 +42588,16 @@ window.BASE_WORKFLOW_COUNTS = {
   "Nguyễn Minh Quân": 62,
   "Ngô Văn Hải": 60,
   "Phạm Ngọc Thịnh": 62,
-  "_total_jobs": 2223
+  "_total_jobs": 2224
 };
 window.BASE_JOBS_MAP = {
+  "1211KP19BQLDANGUYNNGCTHANH": {
+    "id": "3308389",
+    "name": "1211/KP19/BQLDA Nguyễn Ngọc Thanh",
+    "stageId": "116733",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3308389"
+  },
   "395KP18BQLDANGUYNTHGI": {
     "id": "3306969",
     "name": "395/KP18/BQLDA Nguyễn Thị Gái",
@@ -42581,7 +42615,7 @@ window.BASE_JOBS_MAP = {
   "504KP18BQLDALTHVINH": {
     "id": "3305047",
     "name": "504/KP18/BQLDA Lê Thị Vinh",
-    "stageId": "116730",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3305047"
   },
@@ -42658,7 +42692,7 @@ window.BASE_JOBS_MAP = {
   "533KP18BQLDANGUYNTHTHUHINLQUANHI": {
     "id": "3299401",
     "name": "533/KP18/BQLDA Nguyễn Thị Thu Hiền - Lê Quan Hải",
-    "stageId": "116730",
+    "stageId": "116992",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299401"
   },
@@ -43736,7 +43770,7 @@ window.BASE_JOBS_MAP = {
   "125KP17BQLDALTHILINHNGUYNTHNHS": {
     "id": "3264010",
     "name": "125/KP17/BQLDA/LÊ THỊ ÁI LINH - NGUYỄN THÀNH SỸ",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264010"
   },
@@ -43876,7 +43910,7 @@ window.BASE_JOBS_MAP = {
   "424KP17BQLDATRNVNSM": {
     "id": "3263990",
     "name": "424/KP17/BQLDA/TRẦN VĂN SẤM",
-    "stageId": "116733",
+    "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263990"
   },
@@ -44765,7 +44799,7 @@ window.BASE_JOBS_MAP = {
   "424KP18BQLDAPHMQUANGMINH": {
     "id": "3233432",
     "name": "424/KP18/BQLDA Phạm Quang Minh",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233432"
   },
@@ -44856,7 +44890,7 @@ window.BASE_JOBS_MAP = {
   "438KP18BQLDAVVNNGCNGUYNTHGI": {
     "id": "3226683",
     "name": "438/KP18/BQLDA Võ Văn Ngọc - Nguyễn Thị Gái",
-    "stageId": "116730",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226683"
   },
@@ -45325,7 +45359,7 @@ window.BASE_JOBS_MAP = {
   "14KP17BQLDANGUYNTHHCAOMINHDNG": {
     "id": "3218818",
     "name": "14/ KP17/BQLDA NGUYỄN THỊ HÀ - CAO MINH DŨNG",
-    "stageId": "116730",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218818"
   },
@@ -46907,7 +46941,7 @@ window.BASE_JOBS_MAP = {
   "39KP18BQLDANGVTHSN": {
     "id": "3216698",
     "name": "39/KP18/BQLDA Ông Võ Thế Sơn",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216698"
   },
@@ -47369,7 +47403,7 @@ window.BASE_JOBS_MAP = {
   "112KP18BQLDANGNGUYNVNNGBHUNHTHCHNMT": {
     "id": "3216625",
     "name": "112/KP18/BQLDA Ông Nguyễn Văn Đàng Bà Huỳnh Thị Chín (đã mất)",
-    "stageId": "116733",
+    "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216625"
   },
@@ -47593,7 +47627,7 @@ window.BASE_JOBS_MAP = {
   "149KP18BQLDANHNGNGICTHAKQUYNSDUNGTCUANGNGUYNVNCVABANGUYNTHIVANG": {
     "id": "3216587",
     "name": "149/KP18/BQLDA Những người được thừa kế quyền sử dụng đất của ông Nguyễn Văn Đực và bà Nguyễn Thị Vàng",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216587"
   },
@@ -47964,7 +47998,7 @@ window.BASE_JOBS_MAP = {
   "203KP18BQLDANGNGUYNVNPHCBTRNKIMPHNG": {
     "id": "3216533",
     "name": "203/KP18/BQLDA Ông Nguyễn Văn Phúc Bà Trần Kim Phương",
-    "stageId": "116730",
+    "stageId": "116992",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216533"
   },
@@ -48958,7 +48992,7 @@ window.BASE_JOBS_MAP = {
   "359KP18BQLDAHUNHCNGNGN": {
     "id": "3216376",
     "name": "359/KP18/BQLDA Huỳnh Công Ngàn",
-    "stageId": "116734",
+    "stageId": "116992",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216376"
   },
@@ -51653,7 +51687,7 @@ window.BASE_JOBS_MAP = {
   "292KP19BQLDABITHTHANH": {
     "id": "3215914",
     "name": "292/KP19/BQLDABùi Thị Thanh",
-    "stageId": "116730",
+    "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215914"
   },
@@ -55020,7 +55054,7 @@ window.BASE_JOBS_MAP = {
   "250KP18BQLDANGUYNVNRT": {
     "id": "3215371",
     "name": "250/KP18/BQLDA Nguyễn Văn Rớt",
-    "stageId": "116734",
+    "stageId": "116992",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215371"
   },
