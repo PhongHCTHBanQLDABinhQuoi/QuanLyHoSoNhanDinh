@@ -42629,7 +42629,7 @@ window.BASE_JOBS_MAP = {
   "417KP18BQLDANGUYNTHLAN": {
     "id": "3303634",
     "name": "417/KP18/BQLDA Nguyễn Thị Lan",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3303634"
   },
@@ -42699,7 +42699,7 @@ window.BASE_JOBS_MAP = {
   "533KP18BQLDANGUYNTHTHUHINLQUANHI": {
     "id": "3299401",
     "name": "533/KP18/BQLDA Nguyễn Thị Thu Hiền - Lê Quan Hải",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299401"
   },
@@ -47228,7 +47228,7 @@ window.BASE_JOBS_MAP = {
   "83KP18BQLDANGVVNTRBNGUYNTHPHI": {
     "id": "3216654",
     "name": "83/KP18/BQLDA Ông Võ Văn Trí Bà Nguyễn Thị Phải",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216654"
   },
@@ -48005,7 +48005,7 @@ window.BASE_JOBS_MAP = {
   "203KP18BQLDANGNGUYNVNPHCBTRNKIMPHNG": {
     "id": "3216533",
     "name": "203/KP18/BQLDA Ông Nguyễn Văn Phúc Bà Trần Kim Phương",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216533"
   },
@@ -48999,7 +48999,7 @@ window.BASE_JOBS_MAP = {
   "359KP18BQLDAHUNHCNGNGN": {
     "id": "3216376",
     "name": "359/KP18/BQLDA Huỳnh Công Ngàn",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216376"
   },
@@ -55061,7 +55061,7 @@ window.BASE_JOBS_MAP = {
   "250KP18BQLDANGUYNVNRT": {
     "id": "3215371",
     "name": "250/KP18/BQLDA Nguyễn Văn Rớt",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215371"
   },
