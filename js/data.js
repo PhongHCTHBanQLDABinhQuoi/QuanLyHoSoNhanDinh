@@ -48243,7 +48243,7 @@ window.BASE_JOBS_MAP = {
   "237KP18BQLDANGTRNVITTIN": {
     "id": "3216498",
     "name": "237/KP18/BQLDA Ông Trần Viết Tiến",
-    "stageId": "116730",
+    "stageId": "116731",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216498"
   },
