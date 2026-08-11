@@ -1192,12 +1192,13 @@
             <th class="text-center" style="width: 40px;">STT</th>
             <th>CÁN BỘ BBT</th>
             <th class="text-center">TỔ / PHÂN KHU</th>
-            <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">NẮM GIỮ<br><small style="font-weight:normal; opacity:0.8;">(Base)</small></th>
-            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">ĐÃ CHUYỂN<br><small style="font-weight:normal; opacity:0.8;">(luỹ kế)</small></th>
-            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">THÔNG QUA<br><small style="font-weight:normal; opacity:0.8;">(luỹ kế)</small></th>
-            <th class="text-center">ĐÃ CHUYỂN<br><small style="font-weight:normal; opacity:0.8;">(kỳ lọc)</small></th>
-            <th class="text-center">THÔNG QUA<br><small style="font-weight:normal; opacity:0.8;">(kỳ lọc)</small></th>
-            <th class="text-center">CÒN GIỮ<br><small style="font-weight:normal; opacity:0.8;">(P.KTHT)</small></th>
+            <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">NẮM GIỮ</th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">ĐÃ CHUYỂN TỔNG</th>
+            <th class="text-center" style="background: rgba(245, 158, 11, 0.09); border-color: #fbbf24;">HỒ SƠ CÒN LẠI</th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">THÔNG QUA TỔNG</th>
+            <th class="text-center">ĐÃ CHUYỂN LỌC</th>
+            <th class="text-center">THÔNG QUA LỌC</th>
+            <th class="text-center">CÒN GIỮ</th>
             <th class="text-center">TRẢ SỬA</th>
           </tr>
         `;
@@ -1211,7 +1212,7 @@
     tbody.innerHTML = '';
 
     if (!list || list.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="10" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="11" class="text-center" style="padding:20px;">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
       return;
     }
 
@@ -1256,6 +1257,13 @@
         ? `<span class="badge badge-info" style="background:#e0f2fe; color:#0369a1; border:1px solid #bae6fd; font-weight:700; font-size:0.875rem;">📦 ${item.baseTotal.toLocaleString('vi-VN')}</span>` 
         : `<span class="badge badge-neutral">0</span>`;
 
+      const baseHold = (item.baseTotal || 0);
+      const allChuyen = (item.allTimeChuyen || 0);
+      const conLai = Math.max(0, baseHold - allChuyen);
+      const conLaiTd = conLai > 0 
+        ? `<strong style="color: #d97706; font-size:0.875rem;">${conLai.toLocaleString('vi-VN')}</strong>`
+        : `<span class="badge badge-neutral">0</span>`;
+
       const toList = [];
       if (item.kp17 > 0) toList.push('<span class="badge badge-neutral" title="Tổ 1 (KP 17)">KP 17</span>');
       if (item.kp18 > 0) toList.push('<span class="badge badge-neutral" title="Tổ 2 (KP 18)">KP 18</span>');
@@ -1268,6 +1276,7 @@
         <td class="text-center">${toTd}</td>
         <td class="text-center">${baseTd}</td>
         <td class="text-center" style="background: rgba(16,185,129,0.05);"><strong>${(item.allTimeChuyen || 0).toLocaleString('vi-VN')}</strong></td>
+        <td class="text-center" style="background: rgba(245, 158, 11, 0.05);">${conLaiTd}</td>
         <td class="text-center" style="background: rgba(16,185,129,0.05);"><strong style="color:#059669;">${(item.allTimeThongQua || 0).toLocaleString('vi-VN')}</strong></td>
         <td class="text-center cell-clickable" data-action="totalChuyen" style="cursor:pointer;" title="Bấm để xem danh sách tất cả hồ sơ đã chuyển của cán bộ này">${isZero ? `<span class="badge badge-danger">⚠️ 0</span>` : `<span class="badge badge-info hover-badge" style="cursor:pointer; text-decoration:underline; font-weight:700;">${item.totalChuyen}</span>`}</td>
         <td class="text-center cell-clickable" data-action="thongQua" style="cursor:pointer;" title="Bấm để xem danh sách hồ sơ đã được Thông Qua">${item.thongQua > 0 ? `<span class="badge badge-success hover-badge" style="cursor:pointer; text-decoration:underline;">${item.thongQua}</span>` : '0'}</td>
@@ -1293,6 +1302,7 @@
     }
 
     const displayBaseTotal = overallBaseTotal > 0 ? overallBaseTotal : sumBaseTotal;
+    const totalConLai = Math.max(0, displayBaseTotal - sumAllTimeChuyen);
     const trTotal = document.createElement('tr');
     trTotal.classList.add('total-row');
     trTotal.innerHTML = `
@@ -1302,6 +1312,7 @@
       </td>
       <td class="text-center"><strong style="color:#0369a1;">📦 ${displayBaseTotal.toLocaleString('vi-VN')}</strong></td>
       <td class="text-center" style="background: rgba(16,185,129,0.06);"><strong>${sumAllTimeChuyen.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center" style="background: rgba(245, 158, 11, 0.06);"><strong style="color: #d97706;">${totalConLai.toLocaleString('vi-VN')}</strong></td>
       <td class="text-center" style="background: rgba(16,185,129,0.06);"><strong style="color:#059669;">${sumAllTimeThongQua.toLocaleString('vi-VN')}</strong></td>
       <td class="text-center"><strong>${sumTotal}</strong></td>
       <td class="text-center"><strong>${sumThongQua}</strong></td>

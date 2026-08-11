@@ -43336,7 +43336,7 @@ window.BASE_WORKFLOW_COUNTS = {
   "Vương Trọng Nhân": 64,
   "Võ Trọng Phúc": 65,
   "Phạm Trần Vân Khánh": 68,
-  "Trương Ngọc Anh Thư": 31,
+  "Trương Ngọc Anh Thư": 28,
   "Nguyễn Ngọc Thảo Nguyên": 56,
   "Lê Lan Phương": 48,
   "Nguyễn Thanh Tuyền": 63,
@@ -43344,7 +43344,7 @@ window.BASE_WORKFLOW_COUNTS = {
   "Hoàng Lâm Quốc Bảo": 64,
   "Đoàn Thị Tố Lam": 65,
   "Trần Thị Bảo Vi": 32,
-  "Lê Anh Tuấn": 60,
+  "Lê Anh Tuấn": 63,
   "Nguyễn Thiện Như": 68,
   "Nguyễn Ngọc Trân": 61,
   "Nguyễn Đoàn Minh Châu": 62,
@@ -48242,7 +48242,7 @@ window.BASE_JOBS_MAP = {
   "119KP18BQLDABHUNHTHXINH": {
     "id": "3216618",
     "name": "119/KP18/BQLDA Bà Huỳnh Thị Xinh",
-    "stageId": "116733",
+    "stageId": "116992",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216618"
   },
@@ -49026,7 +49026,7 @@ window.BASE_JOBS_MAP = {
   "237KP18BQLDANGTRNVITTIN": {
     "id": "3216498",
     "name": "237/KP18/BQLDA Ông Trần Viết Tiến",
-    "stageId": "116731",
+    "stageId": "116732",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216498"
   },

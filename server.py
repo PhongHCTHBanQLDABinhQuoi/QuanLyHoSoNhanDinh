@@ -14,6 +14,12 @@ if hasattr(sys.stderr, 'reconfigure'):
 PORT = 8888
 
 class SafeHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
+        super().end_headers()
+
     def log_message(self, format, *args):
         try:
             sys.stderr.write("%s - - [%s] %s\n" % (self.address_string(), self.log_date_time_string(), format % args))
