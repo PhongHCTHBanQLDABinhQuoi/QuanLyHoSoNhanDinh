@@ -1196,8 +1196,8 @@
             <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">ĐÃ CHUYỂN TỔNG</th>
             <th class="text-center" style="background: rgba(245, 158, 11, 0.09); border-color: #fbbf24;">HỒ SƠ CÒN LẠI</th>
             <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">THÔNG QUA TỔNG</th>
-            <th class="text-center">ĐÃ CHUYỂN LỌC</th>
-            <th class="text-center">THÔNG QUA LỌC</th>
+            <th class="text-center">ĐÃ CHUYỂN KTHTĐT</th>
+            <th class="text-center">THÔNG QUA KTHTĐT</th>
             <th class="text-center">CÒN GIỮ</th>
             <th class="text-center">TRẢ SỬA</th>
           </tr>
