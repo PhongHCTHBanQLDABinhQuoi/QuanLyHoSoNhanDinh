@@ -1205,7 +1205,8 @@
       }
     }
 
-    const list = Analytics.getDetailedTransferBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered);
+    const dateRange6 = { from: currentFilter.fromD || null, to: currentFilter.toD || null };
+    const list = Analytics.getDetailedTransferBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered, dateRange6);
     const tbody = document.getElementById('tbodySection6');
     if (!tbody) return;
 

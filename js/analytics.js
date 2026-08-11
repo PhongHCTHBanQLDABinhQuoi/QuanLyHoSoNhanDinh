@@ -747,7 +747,7 @@
     },
 
     // Section VI & VIII Unified: Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT
-    getDetailedTransferBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false) {
+    getDetailedTransferBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false, dateRange = null) {
       const source = (allRecords && allRecords.length > 0) ? allRecords : records;
 
       // Tính tổng số liệu ĐÓ GIỜ (All-Time Overall Totals) cho tất cả Cán bộ BBT từ source
@@ -874,6 +874,18 @@
       }
 
       // KHI CÓ LỌC NGÀY / KHOẢNG NGÀY CỤ THỂ: Thống kê 1 cán bộ = 1 dòng duy nhất!
+      // Bảng IV = "hồ sơ CHUYỂN VỀ theo ngày" -> chỉ đếm hồ sơ có NGÀY CHUYỂN trong kỳ,
+      // KHÔNG tính hồ sơ chỉ khớp vì ngày TRẢ VỀ (tránh cột "ĐÃ CHUYỂN" bị đếm dư).
+      const rFrom = dateRange && dateRange.from ? dateRange.from : null;
+      const rTo = dateRange && dateRange.to ? dateRange.to : null;
+      const chuyenInRange = (r) => {
+        if (!rFrom && !rTo) return true;
+        const d = parseDate(r.ngayChuyen);
+        if (!d) return false;
+        if (rFrom && d < rFrom) return false;
+        if (rTo && d > rTo) return false;
+        return true;
+      };
       const map = {};
       records.forEach(r => {
         const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
@@ -881,6 +893,7 @@
         if (cleanCb === 'thụ lý' || cleanCb === 'cán bộ' || cleanCb === 'cán bộ thụ lý' || cleanCb === 'thụ lý bqlda' || cleanCb === 'tên cán bộ' || cleanCb === 'stt' || cleanCb === 'khu phố') {
           return;
         }
+        if (!chuyenInRange(r)) return; // hồ sơ chỉ khớp vì ngày trả về -> không tính "đã chuyển"
         const cb = this.getCanonicalOfficerName(rawCb);
 
         if (!map[cb]) {
