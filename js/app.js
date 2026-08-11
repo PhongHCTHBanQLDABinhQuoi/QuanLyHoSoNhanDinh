@@ -1198,7 +1198,7 @@
             <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">THÔNG QUA TỔNG</th>
             <th class="text-center">ĐÃ CHUYỂN KTHTĐT</th>
             <th class="text-center">THÔNG QUA KTHTĐT</th>
-            <th class="text-center">CÒN GIỮ</th>
+            <th class="text-center">KTHTĐT CÒN GIỮ</th>
             <th class="text-center">TRẢ SỬA</th>
           </tr>
         `;
