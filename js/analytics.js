@@ -86,7 +86,7 @@
     removeVietnameseTones,
 
     // 1. Section I: Tiến độ Pháp lý Chi tiết theo Từng Phân Khu
-    getLegalProgressByKhuPho(records) {
+    getLegalProgressByQuarter(records) {
       const result = {
         'KP 17': { totalBase: 0, totalGui: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
         'KP 18': { totalBase: 0, totalGui: 0, thongQua: 0, kthtGiu: 0, traSua: 0, chuyenSuaLai: 0 },
@@ -311,7 +311,7 @@
     },
 
     // 7. Bổ sung 1 (Section VII): Khối lượng hồ sơ theo Pháp chế kiểm tra
-    getVolumeByPhapChe(records) {
+    getVolumeByLegal(records) {
       const map = {};
       records.forEach(r => {
         const pc = r.phapChe && r.phapChe.trim() ? r.phapChe.trim() : 'Chưa phân công / Trống';
@@ -347,7 +347,7 @@
     },
 
     // Section VII Master: Thống kê chi tiết Khối lượng hồ sơ theo Cán bộ Pháp chế kiểm tra
-    getDetailedPhapCheBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false, searchVal = '', dateRange = null) {
+    getDetailedLegalBreakdown(records, periodType = 'date', allRecords = [], isDateFiltered = false, isKhuPhoFiltered = false, searchVal = '', dateRange = null) {
       // Prioritize dataset auto-synced from Google Sheet pubhtml for Table VII
       const tableVIIDaily = window.TABLE_VII_DATA_DAILY || [];
       const tableVIIWeekly = window.TABLE_VII_DATA_WEEKLY || [];
@@ -457,8 +457,8 @@
 
           const kp = String(r.khuPho).trim();
           const totalRowHs = (r.tongHs !== undefined) ? r.tongHs : ((r.soHsDuyet || 0) + (r.soHsTraSua || 0));
-          const duyetRowHs = r.soHsDuyet || 0;
-          const traSuaRowHs = r.soHsTraSua || 0;
+          const approvedRowCount = r.soHsDuyet || 0;
+          const returnedRowCount = r.soHsTraSua || 0;
 
           if (kp === '17' || kp.includes('17')) map[mapKey].kp17 += totalRowHs;
           else if (kp === '18' || kp.includes('18')) map[mapKey].kp18 += totalRowHs;
@@ -468,8 +468,8 @@
           }
 
           map[mapKey].totalChuyen += totalRowHs;
-          map[mapKey].thongQua += duyetRowHs;
-          map[mapKey].traSua += traSuaRowHs;
+          map[mapKey].thongQua += approvedRowCount;
+          map[mapKey].traSua += returnedRowCount;
 
           if (r.ghiChu && r.ghiChu.trim()) {
             map[mapKey].ghiChuSet.add(r.ghiChu.trim());

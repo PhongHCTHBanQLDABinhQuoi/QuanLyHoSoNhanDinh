@@ -563,29 +563,29 @@
         currentTimeLabel = firstCell;
       }
 
-      const khuPho = r[1] ? r[1].trim() : '';
-      const canBo = r[2] ? r[2].trim() : '';
-      const cleanCanBo = canBo.toLowerCase();
-      if (cleanCanBo === 'thụ lý' || cleanCanBo === 'cán bộ' || cleanCanBo === 'cán bộ thụ lý' || cleanCanBo === 'thụ lý bqlda' || cleanCanBo === 'tên cán bộ' || cleanCanBo === 'người thụ lý') {
+      const quarter = r[1] ? r[1].trim() : '';
+      const officer = r[2] ? r[2].trim() : '';
+      const cleanOfficer = officer.toLowerCase();
+      if (cleanOfficer === 'thụ lý' || cleanOfficer === 'cán bộ' || cleanOfficer === 'cán bộ thụ lý' || cleanOfficer === 'thụ lý bqlda' || cleanOfficer === 'tên cán bộ' || cleanOfficer === 'người thụ lý') {
         continue;
       }
-      const soDuyetStr = r[3] ? r[3].trim() : '';
-      const soTraSuaStr = r[4] ? r[4].trim() : '';
-      const ghiChu = r[5] ? r[5].trim() : '';
+      const approvedStr = r[3] ? r[3].trim() : '';
+      const returnedStr = r[4] ? r[4].trim() : '';
+      const note = r[5] ? r[5].trim() : '';
 
-      if (!khuPho && !canBo && !soDuyetStr && !soTraSuaStr) continue;
+      if (!quarter && !officer && !approvedStr && !returnedStr) continue;
 
-      const soHsDuyet = parseInt(soDuyetStr, 10) || 0;
-      const soHsTraSua = parseInt(soTraSuaStr, 10) || 0;
+      const approvedCount = parseInt(approvedStr, 10) || 0;
+      const returnedCount = parseInt(returnedStr, 10) || 0;
 
       records.push({
         timeKey: currentTimeLabel,
-        khuPho: khuPho,
-        canBo: canBo,
-        soHsDuyet: soHsDuyet,
-        soHsTraSua: soHsTraSua,
-        tongHs: soHsDuyet + soHsTraSua,
-        ghiChu: ghiChu
+        khuPho: quarter,
+        canBo: officer,
+        soHsDuyet: approvedCount,
+        soHsTraSua: returnedCount,
+        tongHs: approvedCount + returnedCount,
+        ghiChu: note
       });
     }
 
@@ -646,7 +646,7 @@
       const sttVal = parseInt(g('stt'), 10);
       if (isNaN(sttVal)) continue;
 
-      const maHoSoVal = g('maHoSo');
+      const dossierCodeVal = g('maHoSo');
       const rec = {
         stt: sttVal,
         canBoBBT: g('canBoBBT'),
@@ -654,7 +654,7 @@
         ngayChuyen: g('ngayChuyen'),
         ngayKthtChuyenVe: g('ngayKthtChuyenVe'),
         toBoiThuong: g('toBoiThuong'),
-        maHoSo: maHoSoVal,
+        maHoSo: dossierCodeVal,
         hoTen: g('hoTen'),
         diaChi: g('diaChi'),
         duong: g('duong'),
@@ -671,8 +671,8 @@
         trungLap: g('trungLap')
       };
 
-      if (window.BASE_JOBS_MAP && maHoSoVal) {
-        const c = Analytics.removeVietnameseTones(maHoSoVal).replace(/[^A-Z0-9]/gi, '').toUpperCase();
+      if (window.BASE_JOBS_MAP && dossierCodeVal) {
+        const c = Analytics.removeVietnameseTones(dossierCodeVal).replace(/[^A-Z0-9]/gi, '').toUpperCase();
         let foundJob = window.BASE_JOBS_MAP[c];
         if (!foundJob) {
           const m = c.match(/(\d+KP\d+)/);
@@ -992,7 +992,7 @@
 
   // 6. Render Section I
   function renderSection1() {
-    const data = Analytics.getLegalProgressByKhuPho(filteredRecords);
+    const data = Analytics.getLegalProgressByQuarter(filteredRecords);
     const tbody = document.getElementById('tbodySection1');
     tbody.innerHTML = '';
 
@@ -1409,11 +1409,11 @@
     }
 
     const rowsHtml = records.map((r, i) => {
-      const maHS = r.maHoSo || `STT ${r.stt}`;
-      const hoTen = r.hoTen || 'Không tên';
-      const diaChi = `${r.duong ? r.duong + ', ' : ''}${r.phuong ? r.phuong : ''} (Thửa: ${r.thuaDat || '-'}, Tờ: ${r.toBanDo || '-'})`;
+      const dossierCode = r.maHoSo || `STT ${r.stt}`;
+      const fullName = r.hoTen || 'Không tên';
+      const address = `${r.duong ? r.duong + ', ' : ''}${r.phuong ? r.phuong : ''} (Thửa: ${r.thuaDat || '-'}, Tờ: ${r.toBanDo || '-'})`;
       const kp = r.khuPho ? `KP ${r.khuPho}` : (r.toBoiThuong || '-');
-      const ngayChuyen = r.ngayChuyen || '-';
+      const transferDate = r.ngayChuyen || '-';
 
       let stBadge = `<span class="badge badge-neutral">${r.trangThai || 'Khác'}</span>`;
       if (r.trangThai && (r.trangThai.includes('3.') || r.trangThai.includes('thông qua'))) {
@@ -1438,11 +1438,11 @@
       return `
         <tr>
           <td class="text-center" style="font-weight: 700;">${i + 1}</td>
-          <td><span class="badge badge-info" style="font-weight: 700;">${maHS}</span></td>
-          <td><strong>${hoTen}</strong><br><small style="opacity: 0.75;">${diaChi}</small></td>
+          <td><span class="badge badge-info" style="font-weight: 700;">${dossierCode}</span></td>
+          <td><strong>${fullName}</strong><br><small style="opacity: 0.75;">${address}</small></td>
           <td class="text-center"><span class="badge badge-neutral">${kp}</span></td>
           <td class="text-center">${stBadge}</td>
-          <td class="text-center" style="white-space: nowrap;">📅 ${ngayChuyen}</td>
+          <td class="text-center" style="white-space: nowrap;">📅 ${transferDate}</td>
           <td class="text-center">
             <a href="${baseLinkUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px; background: linear-gradient(135deg, #2563eb, #1d4ed8); color: white; border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 0.775rem; box-shadow: 0 2px 6px rgba(37,99,235,0.25); transition: all 0.2s ease;">
               🚀 Mở Base ↗
@@ -1531,7 +1531,7 @@
       }
     }
 
-    const list = Analytics.getDetailedPhapCheBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered, searchVal7, dateRange7);
+    const list = Analytics.getDetailedLegalBreakdown(filteredRecords, activePeriodType, allRecords, isDateFiltered, isKhuPhoFiltered, searchVal7, dateRange7);
     const tbody = document.getElementById('tbodySection7');
     if (!tbody) return;
 
@@ -1711,7 +1711,7 @@
       }
     });
 
-    const progressData = Analytics.getLegalProgressByKhuPho(filteredRecords);
+    const progressData = Analytics.getLegalProgressByQuarter(filteredRecords);
     const ctxKhupho = document.getElementById('khuphoChart').getContext('2d');
     if (khuphoChartInstance) khuphoChartInstance.destroy();
 

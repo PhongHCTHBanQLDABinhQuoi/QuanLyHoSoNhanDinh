@@ -266,37 +266,37 @@ def fetch_table_vii_sheet(csv_url):
             if first_cell:
                 current_time_label = first_cell
 
-            khu_pho = row[1].strip() if len(row) > 1 else ""
-            thu_ly = row[2].strip() if len(row) > 2 else ""
-            so_duyet = row[3].strip() if len(row) > 3 else ""
-            so_tra_sua = row[4].strip() if len(row) > 4 else ""
-            ghi_chu = row[5].strip() if len(row) > 5 else ""
+            quarter = row[1].strip() if len(row) > 1 else ""
+            officer = row[2].strip() if len(row) > 2 else ""
+            approved_str = row[3].strip() if len(row) > 3 else ""
+            returned_str = row[4].strip() if len(row) > 4 else ""
+            note = row[5].strip() if len(row) > 5 else ""
 
-            if not khu_pho and not thu_ly and not so_duyet and not so_tra_sua:
+            if not quarter and not officer and not approved_str and not returned_str:
                 continue
 
-            clean_thu_ly = thu_ly.strip().lower()
-            if clean_thu_ly in ["thụ lý", "cán bộ", "cán bộ thụ lý", "thụ lý bqlda", "tên cán bộ", "người thụ lý"]:
+            clean_officer = officer.strip().lower()
+            if clean_officer in ["thụ lý", "cán bộ", "cán bộ thụ lý", "thụ lý bqlda", "tên cán bộ", "người thụ lý"]:
                 continue
 
             try:
-                val_duyet = int(so_duyet) if so_duyet else 0
+                approved_count = int(approved_str) if approved_str else 0
             except ValueError:
-                val_duyet = 0
+                approved_count = 0
 
             try:
-                val_tra_sua = int(so_tra_sua) if so_tra_sua else 0
+                returned_count = int(returned_str) if returned_str else 0
             except ValueError:
-                val_tra_sua = 0
+                returned_count = 0
 
             records.append({
                 "timeKey": current_time_label,
-                "khuPho": khu_pho,
-                "canBo": thu_ly,
-                "soHsDuyet": val_duyet,
-                "soHsTraSua": val_tra_sua,
-                "tongHs": val_duyet + val_tra_sua,
-                "ghiChu": ghi_chu
+                "khuPho": quarter,
+                "canBo": officer,
+                "soHsDuyet": approved_count,
+                "soHsTraSua": returned_count,
+                "tongHs": approved_count + returned_count,
+                "ghiChu": note
             })
         return records
     except Exception as e:
@@ -419,16 +419,16 @@ def fetch_and_sync():
 
     # Attach baseLink to each main dossier record based on maHoSo matching
     for r in records:
-        ma_hs = r.get("maHoSo", "")
-        clean_hs = re.sub(r'[^A-Z0-9]', '', ma_hs.upper()) if ma_hs else ""
+        dossier_code = r.get("maHoSo", "")
+        clean_dossier_code = re.sub(r'[^A-Z0-9]', '', dossier_code.upper()) if dossier_code else ""
         matched_job = None
-        if clean_hs and jobs_map:
-            if clean_hs in jobs_map:
-                matched_job = jobs_map[clean_hs]
+        if clean_dossier_code and jobs_map:
+            if clean_dossier_code in jobs_map:
+                matched_job = jobs_map[clean_dossier_code]
             else:
                 # Partial matching (e.g. 106KP18)
                 for k, j_info in jobs_map.items():
-                    if clean_hs in k or k in clean_hs:
+                    if clean_dossier_code in k or k in clean_dossier_code:
                         matched_job = j_info
                         break
 
@@ -437,8 +437,8 @@ def fetch_and_sync():
             r["baseJobName"] = matched_job["name"]
             r["baseStageName"] = matched_job["stageName"]
             r["baseLink"] = matched_job["link"]
-        elif ma_hs:
-            r["baseLink"] = f"https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q={urllib.parse.quote(ma_hs)}"
+        elif dossier_code:
+            r["baseLink"] = f"https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q={urllib.parse.quote(dossier_code)}"
         else:
             r["baseLink"] = "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
 
