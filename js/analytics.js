@@ -874,13 +874,16 @@
       }
 
       // KHI CÓ LỌC NGÀY / KHOẢNG NGÀY CỤ THỂ: Thống kê 1 cán bộ = 1 dòng duy nhất!
-      // Bảng IV = "hồ sơ CHUYỂN VỀ theo ngày" -> chỉ đếm hồ sơ có NGÀY CHUYỂN trong kỳ,
-      // KHÔNG tính hồ sơ chỉ khớp vì ngày TRẢ VỀ (tránh cột "ĐÃ CHUYỂN" bị đếm dư).
+      // Mỗi cột đếm theo ĐÚNG mốc ngày của nó:
+      //  - ĐÃ CHUYỂN + phân khu -> theo NGÀY CHUYỂN (ngayChuyen)
+      //  - THÔNG QUA / TRẢ SỬA  -> theo NGÀY TRẢ VỀ (ngayKthtChuyenVe), vì việc thông qua/trả sửa
+      //    xảy ra lúc P.KTHT chuyển hồ sơ về, không phải lúc chuyển đi.
+      //  - Cán bộ hiện dòng nếu có hoạt động (1 trong 2 ngày) trong kỳ.
       const rFrom = dateRange && dateRange.from ? dateRange.from : null;
       const rTo = dateRange && dateRange.to ? dateRange.to : null;
-      const chuyenInRange = (r) => {
+      const inRange = (dateStr) => {
         if (!rFrom && !rTo) return true;
-        const d = parseDate(r.ngayChuyen);
+        const d = parseDate(dateStr);
         if (!d) return false;
         if (rFrom && d < rFrom) return false;
         if (rTo && d > rTo) return false;
@@ -893,9 +896,11 @@
         if (cleanCb === 'thụ lý' || cleanCb === 'cán bộ' || cleanCb === 'cán bộ thụ lý' || cleanCb === 'thụ lý bqlda' || cleanCb === 'tên cán bộ' || cleanCb === 'stt' || cleanCb === 'khu phố') {
           return;
         }
-        if (!chuyenInRange(r)) return; // hồ sơ chỉ khớp vì ngày trả về -> không tính "đã chuyển"
-        const cb = this.getCanonicalOfficerName(rawCb);
+        const inChuyen = inRange(r.ngayChuyen);          // chuyển đi trong kỳ
+        const inTra = inRange(r.ngayKthtChuyenVe);       // P.KTHT trả về trong kỳ
+        if (!inChuyen && !inTra) return;                 // không có hoạt động trong kỳ
 
+        const cb = this.getCanonicalOfficerName(rawCb);
         if (!map[cb]) {
           const bCount = this.getBaseCountForOfficer(cb);
           const finalBase = bCount > 0 ? bCount : (allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0);
@@ -916,31 +921,38 @@
           };
         }
 
-        let kp = '';
-        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
-        if (to === 'Tổ 1' || to.includes('1')) kp = '17';
-        else if (to === 'Tổ 2' || to.includes('2')) kp = '18';
-        else if (to === 'Tổ 3' || to.includes('3')) kp = '19';
-        else kp = r.khuPho ? String(r.khuPho).trim() : '';
-
-        if (kp === '17' || kp.includes('17')) map[cb].kp17++;
-        else if (kp === '18' || kp.includes('18')) map[cb].kp18++;
-        else if (kp === '19' || kp.includes('19')) map[cb].kp19++;
-
-        map[cb].totalChuyen++;
-
         const st = r.trangThai || '';
-        if (st.includes('3.') || st.includes('thông qua')) {
-          map[cb].thongQua++;
-        } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa')) {
-          map[cb].traSua++;
+
+        // ĐÃ CHUYỂN + phân khu: theo NGÀY CHUYỂN
+        if (inChuyen) {
+          let kp = '';
+          const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+          if (to === 'Tổ 1' || to.includes('1')) kp = '17';
+          else if (to === 'Tổ 2' || to.includes('2')) kp = '18';
+          else if (to === 'Tổ 3' || to.includes('3')) kp = '19';
+          else kp = r.khuPho ? String(r.khuPho).trim() : '';
+
+          if (kp === '17' || kp.includes('17')) map[cb].kp17++;
+          else if (kp === '18' || kp.includes('18')) map[cb].kp18++;
+          else if (kp === '19' || kp.includes('19')) map[cb].kp19++;
+
+          map[cb].totalChuyen++;
+        }
+
+        // THÔNG QUA / TRẢ SỬA: theo NGÀY TRẢ VỀ (P.KTHT chuyển về)
+        if (inTra) {
+          if (st.includes('3.') || st.includes('thông qua')) {
+            map[cb].thongQua++;
+          } else if (st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa')) {
+            map[cb].traSua++;
+          }
         }
 
         map[cb].filteredTotal++;
       });
 
       let list = Object.values(map);
-      list = list.filter(item => item.totalChuyen > 0 || item.filteredTotal > 0);
+      list = list.filter(item => item.filteredTotal > 0);
       // Số liệu ĐÓ GIỜ (all-time) từ sheet gốc — luôn hiển thị, không đổi theo bộ lọc ngày
       list.forEach(item => {
         const at = allTimeMap[item.cbtl];
