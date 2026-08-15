@@ -50618,7 +50618,7 @@ window.BASE_JOBS_MAP = {
   "456KP17BQLDAVVNTRIU": {
     "id": "3263935",
     "name": "456/KP17/BQLDA/VÕ VĂN TRIỀU",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263935"
   },
@@ -62455,7 +62455,7 @@ window.BASE_JOBS_MAP = {
   "525KP17BQLDANGUYNKINKARELYQUYNNGUYNTHNHTRUNG": {
     "id": "3215180",
     "name": "525/KP17/BQLDA NGUYỄN KIÊN KAREL (ỦY QUYỀN NGUYỄN THÀNH TRUNG)",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215180"
   },
