@@ -52742,7 +52742,7 @@ window.BASE_JOBS_MAP = {
   "110KP17BQLDANGUYNVNLIM": {
     "id": "3218814",
     "name": "110/KP17/BQLDA NGUYỄN VĂN LIÊM",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218814"
   },
@@ -52931,7 +52931,7 @@ window.BASE_JOBS_MAP = {
   "471KP17BQLDATRNVNTHCHTRNTHLNH": {
     "id": "3218786",
     "name": "471/KP17/BQLDA TRẦN VĂN THẠCH - TRẦN THỊ LÀNH",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218786"
   },
