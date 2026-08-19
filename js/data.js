@@ -58813,7 +58813,7 @@ window.BASE_JOBS_MAP = {
   "347KP17BQLDALHNGVN": {
     "id": "3216323",
     "name": "347/KP17/BQLDA LÊ HỒNG VÂN",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216323"
   },
