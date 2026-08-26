@@ -375,7 +375,7 @@
       });
     });
 
-    exportCsvBtn.addEventListener('click', exportToCSV);
+    exportCsvBtn.addEventListener('click', exportToExcel);
     if (printReportBtn) {
       printReportBtn.addEventListener('click', () => window.print());
     }
@@ -1755,6 +1755,161 @@
   }
 
   // 17. Export CSV
+  // Xuất Excel (.xlsx THẬT) — dựng gói OOXML thuần JS, không cần thư viện ngoài.
+  // Mở trong Excel ra bảng cột/hàng chuẩn, tiêu đề in đậm, cố định dòng đầu + AutoFilter.
+  function exportToExcel() {
+    if (filteredRecords.length === 0) {
+      alert('Không có dữ liệu để xuất!');
+      return;
+    }
+
+    const columns = [
+      ['STT', r => r.stt],
+      ['Mã hồ sơ', r => r.maHoSo],
+      ['Cán bộ BBT', r => r.canBoBBT],
+      ['Ngày chuyển P.KTHTĐT', r => r.ngayChuyen],
+      ['Ngày P.KTHTĐT trả về', r => r.ngayKthtChuyenVe],
+      ['Cán bộ KTHT / Thụ lý', r => r.canBoKTHT],
+      ['Cán bộ Pháp chế', r => r.phapChe],
+      ['Tổ bồi thường', r => r.toBoiThuong],
+      ['Khu phố', r => r.khuPho],
+      ['Họ và tên chủ hộ', r => r.hoTen],
+      ['Địa chỉ', r => r.diaChi],
+      ['Đường', r => r.duong],
+      ['Phường', r => r.phuong],
+      ['Tờ bản đồ', r => r.toBanDo],
+      ['Thửa đất', r => r.thuaDat],
+      ['Giải tỏa một phần (m2)', r => r.giaiToaMotPhan],
+      ['Giải tỏa toàn phần (m2)', r => r.giaiToaToanPhan],
+      ['Trạng thái', r => r.trangThai],
+      ['Ghi chú', r => r.ghiChu]
+    ];
+    const widths = [6, 16, 14, 20, 20, 18, 16, 12, 8, 28, 24, 16, 14, 10, 10, 18, 18, 34, 32];
+
+    const enc = new TextEncoder();
+    const clean = (v) => String(v == null ? '' : v).replace(/[\r\n\t]+/g, ' ').replace(/\s+/g, ' ').trim();
+    const xmlEsc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    const colLetter = (n) => { let s = ''; n += 1; while (n > 0) { const m = (n - 1) % 26; s = String.fromCharCode(65 + m) + s; n = Math.floor((n - m - 1) / 26); } return s; };
+
+    const crcTable = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = (c & 1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1); t[n] = c >>> 0; } return t; })();
+    const crc32 = (u8) => { let c = 0xFFFFFFFF; for (let i = 0; i < u8.length; i++) c = crcTable[(c ^ u8[i]) & 0xFF] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+
+    const files = [];
+    const add = (name, str) => files.push({ name, data: enc.encode(str) });
+
+    add('[Content_Types].xml',
+      '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">' +
+      '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>' +
+      '<Default Extension="xml" ContentType="application/xml"/>' +
+      '<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>' +
+      '<Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>' +
+      '<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>' +
+      '</Types>');
+
+    add('_rels/.rels',
+      '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+      '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/>' +
+      '</Relationships>');
+
+    add('xl/workbook.xml',
+      '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">' +
+      '<sheets><sheet name="Danh sách hồ sơ" sheetId="1" r:id="rId1"/></sheets>' +
+      '</workbook>');
+
+    add('xl/_rels/workbook.xml.rels',
+      '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+      '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/>' +
+      '<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>' +
+      '</Relationships>');
+
+    add('xl/styles.xml',
+      '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">' +
+      '<fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><color rgb="FFFFFFFF"/><name val="Calibri"/></font></fonts>' +
+      '<fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF2563EB"/><bgColor indexed="64"/></patternFill></fill></fills>' +
+      '<borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders>' +
+      '<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>' +
+      '<cellXfs count="2"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf></cellXfs>' +
+      '<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>' +
+      '</styleSheet>');
+
+    const nRows = filteredRecords.length + 1;
+    const lastCol = colLetter(columns.length - 1);
+    const sd = [];
+    let hr = '<row r="1">';
+    for (let ci = 0; ci < columns.length; ci++) {
+      hr += '<c r="' + colLetter(ci) + '1" s="1" t="inlineStr"><is><t>' + xmlEsc(clean(columns[ci][0])) + '</t></is></c>';
+    }
+    hr += '</row>';
+    sd.push(hr);
+    for (let ri = 0; ri < filteredRecords.length; ri++) {
+      const r = filteredRecords[ri];
+      const rowNum = ri + 2;
+      let rowStr = '<row r="' + rowNum + '">';
+      for (let ci = 0; ci < columns.length; ci++) {
+        const ref = colLetter(ci) + rowNum;
+        const val = clean(columns[ci][1](r));
+        if (val === '') rowStr += '<c r="' + ref + '"/>';
+        else if (/^\d{1,9}$/.test(val)) rowStr += '<c r="' + ref + '"><v>' + val + '</v></c>';
+        else rowStr += '<c r="' + ref + '" t="inlineStr"><is><t xml:space="preserve">' + xmlEsc(val) + '</t></is></c>';
+      }
+      rowStr += '</row>';
+      sd.push(rowStr);
+    }
+    let colsXml = '<cols>';
+    for (let ci = 0; ci < columns.length; ci++) {
+      colsXml += '<col min="' + (ci + 1) + '" max="' + (ci + 1) + '" width="' + (widths[ci] || 14) + '" customWidth="1"/>';
+    }
+    colsXml += '</cols>';
+    add('xl/worksheets/sheet1.xml',
+      '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">' +
+      '<sheetViews><sheetView tabSelected="1" workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/><selection pane="bottomLeft" activeCell="A2" sqref="A2"/></sheetView></sheetViews>' +
+      colsXml +
+      '<sheetData>' + sd.join('') + '</sheetData>' +
+      '<autoFilter ref="A1:' + lastCol + nRows + '"/>' +
+      '</worksheet>');
+
+    // ---- Đóng gói ZIP (STORE, không nén) ----
+    const u16 = (n) => [n & 0xFF, (n >>> 8) & 0xFF];
+    const u32 = (n) => [n & 0xFF, (n >>> 8) & 0xFF, (n >>> 16) & 0xFF, (n >>> 24) & 0xFF];
+    const parts = [];
+    const central = [];
+    let offset = 0;
+    const DOSDATE = 0x21, DOSTIME = 0; // 1980-01-01
+    for (const f of files) {
+      const nameBytes = enc.encode(f.name);
+      const crc = crc32(f.data);
+      const size = f.data.length;
+      const local = [].concat(u32(0x04034b50), u16(20), u16(0x0800), u16(0), u16(DOSTIME), u16(DOSDATE), u32(crc), u32(size), u32(size), u16(nameBytes.length), u16(0));
+      parts.push(Uint8Array.from(local), nameBytes, f.data);
+      const cd = [].concat(u32(0x02014b50), u16(20), u16(20), u16(0x0800), u16(0), u16(DOSTIME), u16(DOSDATE), u32(crc), u32(size), u32(size), u16(nameBytes.length), u16(0), u16(0), u16(0), u16(0), u32(0), u32(offset));
+      central.push({ head: Uint8Array.from(cd), name: nameBytes });
+      offset += local.length + nameBytes.length + size;
+    }
+    const cdStart = offset;
+    let cdSize = 0;
+    for (const c of central) { parts.push(c.head, c.name); cdSize += c.head.length + c.name.length; }
+    parts.push(Uint8Array.from([].concat(u32(0x06054b50), u16(0), u16(0), u16(files.length), u16(files.length), u32(cdSize), u32(cdStart), u16(0))));
+
+    let total = 0; for (const p of parts) total += p.length;
+    const out = new Uint8Array(total); let pos = 0; for (const p of parts) { out.set(p, pos); pos += p.length; }
+
+    const blob = new Blob([out], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.setAttribute('href', url);
+    link.setAttribute('download', 'Bang_Tien_Do_Phap_Ly_Binh_Quoi_Thanh_Da_' + new Date().toISOString().slice(0, 10) + '.xlsx');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+
   function exportToCSV() {
     if (filteredRecords.length === 0) {
       alert('Không có dữ liệu để xuất!');
