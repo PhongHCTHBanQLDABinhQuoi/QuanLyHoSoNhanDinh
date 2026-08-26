@@ -1761,35 +1761,50 @@
       return;
     }
 
-    const headers = [
-      'STT', 'Cán bộ BBT', 'Cán bộ KTHT', 'Ngày chuyển', 'Tổ bồi thường',
-      'Họ và tên', 'Địa chỉ', 'Đường', 'Phường', 'Tờ bản đồ', 'Thửa đất',
-      'Khu phố', 'Giải tỏa một phần (m2)', 'Giải tỏa toàn phần (m2)', 'Trạng Thái', 'Ghi chú'
+    // Dấu phân cách cột = ';' (chuẩn Excel tiếng Việt); có khai báo "sep=;" ở đầu file
+    // để Excel LUÔN chia cột đúng, không dồn hết vào 1 cột.
+    const SEP = ';';
+    const esc = (v) => {
+      let s = (v === null || v === undefined) ? '' : String(v);
+      s = s.replace(/\r?\n/g, ' ').replace(/\s+/g, ' ').trim();
+      if (s.includes(SEP) || s.includes('"') || s.includes(',')) {
+        s = '"' + s.replace(/"/g, '""') + '"';
+      }
+      return s;
+    };
+    const columns = [
+      ['STT', r => r.stt],
+      ['Mã hồ sơ', r => r.maHoSo],
+      ['Cán bộ BBT', r => r.canBoBBT],
+      ['Ngày chuyển P.KTHTĐT', r => r.ngayChuyen],
+      ['Ngày P.KTHTĐT trả về', r => r.ngayKthtChuyenVe],
+      ['Cán bộ KTHT / Thụ lý', r => r.canBoKTHT],
+      ['Cán bộ Pháp chế', r => r.phapChe],
+      ['Tổ bồi thường', r => r.toBoiThuong],
+      ['Khu phố', r => r.khuPho],
+      ['Họ và tên chủ hộ', r => r.hoTen],
+      ['Địa chỉ', r => r.diaChi],
+      ['Đường', r => r.duong],
+      ['Phường', r => r.phuong],
+      ['Tờ bản đồ', r => r.toBanDo],
+      ['Thửa đất', r => r.thuaDat],
+      ['Giải tỏa một phần (m2)', r => r.giaiToaMotPhan],
+      ['Giải tỏa toàn phần (m2)', r => r.giaiToaToanPhan],
+      ['Trạng thái', r => r.trangThai],
+      ['Ghi chú', r => r.ghiChu]
     ];
 
-    let csvContent = '\uFEFF' + headers.join(',') + '\n';
+    const BOM = String.fromCharCode(0xFEFF);       // BOM UTF-8 \u0111\u1EC3 Excel hi\u1EC7n ti\u1EBFng Vi\u1EC7t \u0111\u00FAng
+    const EOL = String.fromCharCode(13, 10);        // CRLF chu\u1EA9n Excel
 
+    const lines = [];
+    lines.push('sep=' + SEP);                        // \u00E9p Excel d\u00F9ng d\u1EA5u ; -> chia c\u1ED9t \u0111\u00FAng
+    lines.push(columns.map(c => esc(c[0])).join(SEP)); // h\u00E0ng ti\u00EAu \u0111\u1EC1
     filteredRecords.forEach(r => {
-      const row = [
-        r.stt,
-        `"${(r.canBoBBT || '').replace(/"/g, '""')}"`,
-        `"${(r.canBoKTHT || '').replace(/"/g, '""')}"`,
-        `"${(r.ngayChuyen || '').replace(/"/g, '""')}"`,
-        `"${(r.toBoiThuong || '').replace(/"/g, '""')}"`,
-        `"${(r.hoTen || '').replace(/"/g, '""')}"`,
-        `"${(r.diaChi || '').replace(/"/g, '""')}"`,
-        `"${(r.duong || '').replace(/"/g, '""')}"`,
-        `"${(r.phuong || '').replace(/"/g, '""')}"`,
-        `"${(r.toBanDo || '').replace(/"/g, '""')}"`,
-        `"${(r.thuaDat || '').replace(/"/g, '""')}"`,
-        `"${(r.khuPho || '').replace(/"/g, '""')}"`,
-        `"${(r.giaiToaMotPhan || '').replace(/"/g, '""')}"`,
-        `"${(r.giaiToaToanPhan || '').replace(/"/g, '""')}"`,
-        `"${(r.trangThai || '').replace(/"/g, '""')}"`,
-        `"${(r.ghiChu || '').replace(/"/g, '""')}"`
-      ];
-      csvContent += row.join(',') + '\n';
+      lines.push(columns.map(c => esc(c[1](r))).join(SEP)); // t\u1EEBng h\u00E0ng d\u1EEF li\u1EC7u
     });
+
+    const csvContent = BOM + lines.join(EOL) + EOL;
 
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
