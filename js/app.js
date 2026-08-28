@@ -139,26 +139,24 @@
     }
   });
 
-  // Tải lại js/data.js mới nhất từ GitHub (dùng cho GitHub Pages)
+  // Tải lại js/data.js CHỈ để cập nhật SỐ LIỆU BASE API (NẮM GIỮ, tên chuẩn, Table VII).
+  // TUYỆT ĐỐI KHÔNG ghi đè dữ liệu hồ sơ đang lấy live từ Google Sheet — nếu không cứ 2 phút
+  // nó sẽ "nhảy về" bản data.js cũ đã commit và kẹt luôn ở đó (mất đồng bộ realtime).
   async function reloadDataJs() {
     try {
       const resp = await fetch(`js/data.js?t=${Date.now()}`, { cache: 'no-cache' });
       if (!resp.ok) return;
       const text = await resp.text();
-      (new Function(text))();
-      // Cập nhật lại allRecords từ DOSSIER_DATA mới
-      const newRecords = window.DOSSIER_DATA || [];
-      if (newRecords.length > 0 && newRecords.length >= allRecords.length * 0.9) {
-        allRecords = newRecords;
-        updateChipCounts();
-        handleFilterChange();
-        const now = new Date();
-        const timeStr = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}:${String(now.getSeconds()).padStart(2,'0')}`;
-        if (sheetSyncBadge) {
-          sheetSyncBadge.className = 'sheet-sync-pill';
-          sheetSyncBadge.innerHTML = `🟢 Auto-Sync (${newRecords.length.toLocaleString('vi-VN')} HS - ${timeStr})`;
-        }
+      const liveRecords = (allRecords && allRecords.length > 0) ? allRecords : null;
+      (new Function(text))(); // nạp lại các window.BASE_* + (vô tình) ghi đè DOSSIER_DATA
+      if (liveRecords) {
+        window.DOSSIER_DATA = liveRecords; // KHÔI PHỤC hồ sơ live; chỉ giữ số liệu Base vừa nạp
+        // allRecords giữ nguyên = liveRecords (không đụng)
+      } else {
+        allRecords = window.DOSSIER_DATA || []; // lần đầu chưa có live -> tạm dùng data.js
       }
+      updateChipCounts();
+      handleFilterChange();
     } catch(e) {
       console.warn('reloadDataJs warning:', e);
     }
@@ -453,6 +451,7 @@
           if (respDataJs.ok) {
             const dataJsText = await respDataJs.text();
             (new Function(dataJsText))();
+            window.DOSSIER_DATA = parsedRecords; // giữ hồ sơ live, không để data.js cũ đè
           }
         } catch (eJs) {
           console.warn('data.js reload warning:', eJs);
