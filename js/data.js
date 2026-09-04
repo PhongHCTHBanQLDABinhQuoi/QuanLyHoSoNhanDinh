@@ -54967,12 +54967,21 @@ window.TABLE_VII_DATA_DAILY = [
   },
   {
     "timeKey": "04/09/2026",
-    "khuPho": "19",
+    "khuPho": "19 (Tổ 3)",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 0,
+    "soHsDuyet": 7,
     "soHsTraSua": 33,
-    "tongHs": 33,
+    "tongHs": 40,
     "ghiChu": "3"
+  },
+  {
+    "timeKey": "04/09/2026",
+    "khuPho": "19 (Tổ 4)",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 33,
+    "soHsTraSua": 0,
+    "tongHs": 33,
+    "ghiChu": ""
   }
 ];
 window.TABLE_VII_DATA_WEEKLY = [
@@ -60858,7 +60867,7 @@ window.BASE_JOBS_MAP = {
   "188KP18BQLDANGNGUYNTHANHCNG": {
     "id": "3216548",
     "name": "188/KP18/BQLDA Ông Nguyễn Thanh Cường",
-    "stageId": "116730",
+    "stageId": "116992",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216548"
   },
@@ -63301,7 +63310,7 @@ window.BASE_JOBS_MAP = {
   "134KP19BQLDANGUYNVNTHANH": {
     "id": "3216128",
     "name": "134/KP19/BQLDANguyễn Văn Thanh",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216128"
   },
@@ -64666,7 +64675,7 @@ window.BASE_JOBS_MAP = {
   "314KP19BQLDANGUYNTHTHIT": {
     "id": "3215892",
     "name": "314/KP19/BQLDANguyễn Thị Thiệt",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215892"
   },
@@ -68236,7 +68245,7 @@ window.BASE_JOBS_MAP = {
   "31KP19BQLDABITHHAI": {
     "id": "3215316",
     "name": "31/KP19/BQLDABùi Thị Hai",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215316"
   },
@@ -68271,7 +68280,7 @@ window.BASE_JOBS_MAP = {
   "33KP19BQLDAPHMNGCTRUNG": {
     "id": "3215311",
     "name": "33/KP19/BQLDAPhạm Ngọc Trung",
-    "stageId": "116992",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215311"
   },
