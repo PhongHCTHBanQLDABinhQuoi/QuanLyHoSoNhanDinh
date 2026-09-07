@@ -11102,7 +11102,7 @@ window.DOSSIER_DATA = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3215949",
-    "baseJobName": "258/KP19/BQLDAPhạm Hoàng Phú",
+    "baseJobName": "258/KP19/BQLDAPhạm Hoàng Phú - Đặng Ngọc Lan",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215949"
   },
@@ -24702,7 +24702,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 917,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -24716,7 +24716,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "49,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -24972,7 +24972,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 927,
     "canBoBBT": "Anh Hào",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 2",
@@ -24986,7 +24986,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1510",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -24999,7 +24999,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 928,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -25013,7 +25013,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "5406",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -25026,7 +25026,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 929,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 3",
@@ -25040,7 +25040,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3300,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -25053,7 +25053,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 930,
     "canBoBBT": "Ngọc Thịnh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -25067,7 +25067,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3027,5",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -25188,7 +25188,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 935,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 3",
@@ -25202,7 +25202,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "315,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -25296,7 +25296,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 939,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -25310,7 +25310,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "344,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -25350,7 +25350,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 941,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 3",
@@ -25364,7 +25364,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "50,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -32019,7 +32019,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1188,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -32033,7 +32033,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "907,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -32046,7 +32046,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1189,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -32060,7 +32060,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2408,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -32127,7 +32127,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1192,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -32141,7 +32141,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "427,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -33585,7 +33585,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1246,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -33599,7 +33599,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "251,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -36228,7 +36228,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1344,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 3",
@@ -36242,7 +36242,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1000",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -36255,7 +36255,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1345,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -36269,7 +36269,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "197,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -40842,7 +40842,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1515,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -40856,7 +40856,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "222,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -40869,7 +40869,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1516,
     "canBoBBT": "Anh Hào",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 2",
@@ -40883,7 +40883,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "463,7",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -40896,7 +40896,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1517,
     "canBoBBT": "Anh Hào",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 2",
@@ -40910,7 +40910,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1405,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -40920,7 +40920,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1518,
     "canBoBBT": "Anh Hào",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 2",
@@ -40934,7 +40934,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2179,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -49923,7 +49923,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1852,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 3",
@@ -49937,7 +49937,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1141,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -49950,7 +49950,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 1853,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 3",
@@ -49964,7 +49964,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2709,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -54985,39 +54985,39 @@ window.TABLE_VII_DATA_DAILY = [
   },
   {
     "timeKey": "05/09/2026",
-    "khuPho": "17",
+    "khuPho": "17 (Tổ 1)",
     "canBo": "Linh/Nhi",
     "soHsDuyet": 0,
-    "soHsTraSua": 0,
-    "tongHs": 0,
-    "ghiChu": ""
+    "soHsTraSua": 16,
+    "tongHs": 16,
+    "ghiChu": "8"
   },
   {
     "timeKey": "05/09/2026",
-    "khuPho": "18",
+    "khuPho": "18 (Tổ 2)",
     "canBo": "Hiền/Anh",
-    "soHsDuyet": 0,
-    "soHsTraSua": 0,
-    "tongHs": 0,
-    "ghiChu": ""
+    "soHsDuyet": 8,
+    "soHsTraSua": 18,
+    "tongHs": 26,
+    "ghiChu": "3"
   },
   {
     "timeKey": "05/09/2026",
     "khuPho": "19 (Tổ 3)",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 0,
-    "soHsTraSua": 0,
-    "tongHs": 0,
-    "ghiChu": ""
+    "soHsDuyet": 18,
+    "soHsTraSua": 7,
+    "tongHs": 25,
+    "ghiChu": "0"
   },
   {
     "timeKey": "05/09/2026",
     "khuPho": "19 (Tổ 4)",
-    "canBo": "Tân/Dũng",
-    "soHsDuyet": 0,
-    "soHsTraSua": 0,
-    "tongHs": 0,
-    "ghiChu": ""
+    "canBo": "",
+    "soHsDuyet": 31,
+    "soHsTraSua": 33,
+    "tongHs": 64,
+    "ghiChu": "0"
   }
 ];
 window.TABLE_VII_DATA_WEEKLY = [
@@ -64351,9 +64351,9 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215963"
   },
-  "245KP19BQLDAHTHANHPHNG": {
+  "245KP19BQLDAHTHANHPHNGLNGIIDINCANHNGNGICTHAK": {
     "id": "3215962",
-    "name": "245/KP19/BQLDAHà Thanh Phương",
+    "name": "245/KP19/BQLDAHà Thanh Phương (Là người đại diện của những người được thừa kế)",
     "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215962"
@@ -64442,9 +64442,9 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215950"
   },
-  "258KP19BQLDAPHMHONGPH": {
+  "258KP19BQLDAPHMHONGPHNGNGCLAN": {
     "id": "3215949",
-    "name": "258/KP19/BQLDAPhạm Hoàng Phú",
+    "name": "258/KP19/BQLDAPhạm Hoàng Phú - Đặng Ngọc Lan",
     "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215949"
@@ -68813,7 +68813,7 @@ window.BASE_JOBS_MAP = {
   "180KP17BQLDALVNSN": {
     "id": "3215218",
     "name": "180/KP17/BQLDA LÊ VĂN SƠN",
-    "stageId": "117748",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215218"
   },
@@ -68834,7 +68834,7 @@ window.BASE_JOBS_MAP = {
   "184KP17BQLDATRNGTRNQUANGHU": {
     "id": "3215215",
     "name": "184/KP17/BQLDA TRƯƠNG TRẦN QUANG HẬU",
-    "stageId": "117748",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215215"
   },
