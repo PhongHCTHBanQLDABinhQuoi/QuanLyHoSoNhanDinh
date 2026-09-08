@@ -38114,11 +38114,11 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 1414,
-    "canBoBBT": "",
+    "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
-    "toBoiThuong": "Tổ 3",
+    "toBoiThuong": "Tổ 4",
     "maHoSo": "447/KP19/BQLDA",
     "hoTen": "Nguyễn Phương Loan\n Nguyễn Văn Tâm",
     "diaChi": "",
