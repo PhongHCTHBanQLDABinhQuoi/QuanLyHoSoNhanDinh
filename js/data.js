@@ -67387,7 +67387,7 @@ window.BASE_JOBS_MAP = {
   "908KP19BQLDATRNMINHHONG": {
     "id": "3215476",
     "name": "908/KP19/BQLDA - Trần Minh Hoàng",
-    "stageId": "116734",
+    "stageId": "116992",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215476"
   },
