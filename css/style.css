@@ -19,35 +19,35 @@
   --border-color: #e2e8f0;
   --border-focus: #3b82f6;
 
-  /* Accent Colors */
-  --primary-blue: #2563eb;
-  --primary-blue-hover: #1d4ed8;
-  --primary-blue-light: #eff6ff;
-  --primary-blue-glow: rgba(37, 99, 235, 0.2);
+  /* Accent Colors — dịu mắt (giảm bão hòa, chữ đạt WCAG AA trên nền trắng) */
+  --primary-blue: #3060a8;
+  --primary-blue-hover: #274e88;
+  --primary-blue-light: #eef2fb;
+  --primary-blue-glow: rgba(48, 96, 168, 0.18);
 
-  --success-green: #10b981;
-  --success-green-hover: #059669;
-  --success-green-light: #ecfdf5;
-  --success-green-glow: rgba(16, 185, 129, 0.2);
+  --success-green: #2c7a52;
+  --success-green-hover: #1f6a44;
+  --success-green-light: #e8f3ec;
+  --success-green-glow: rgba(44, 122, 82, 0.18);
 
-  --warning-amber: #f59e0b;
-  --warning-amber-hover: #d97706;
-  --warning-amber-light: #fffbe6;
-  --warning-amber-glow: rgba(245, 158, 11, 0.2);
+  --warning-amber: #985c00;
+  --warning-amber-hover: #7a4a00;
+  --warning-amber-light: #fdf3e0;
+  --warning-amber-glow: rgba(152, 92, 0, 0.16);
 
-  --danger-red: #ef4444;
-  --danger-red-hover: #dc2626;
-  --danger-red-light: #fef2f2;
-  --danger-red-glow: rgba(239, 68, 68, 0.2);
+  --danger-red: #a94747;
+  --danger-red-hover: #8f3a3a;
+  --danger-red-light: #fbeceb;
+  --danger-red-glow: rgba(169, 71, 71, 0.18);
 
-  --purple-indigo: #6366f1;
-  --purple-indigo-light: #e0e7ff;
+  --purple-indigo: #5b5f97;
+  --purple-indigo-light: #eef1f8;
 
   /* Shadows & Glassmorphism */
   --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06);
   --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
   --shadow-lg: 0 12px 28px rgba(15, 23, 42, 0.12);
-  --shadow-glow: 0 0 20px rgba(37, 99, 235, 0.15);
+  --shadow-glow: 0 2px 8px rgba(15, 23, 42, 0.08);
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -241,13 +241,13 @@ header.app-header::after {
 }
 
 .btn-sync-sheet {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  background: #3a6fb0;
   color: #ffffff;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
 }
 
 .btn-sync-sheet:hover {
-  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  background: #315f97;
   transform: translateY(-1px);
 }
 
@@ -302,25 +302,25 @@ header.app-header::after {
 }
 
 .btn-export-excel {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: #2c7a52;
   color: #ffffff;
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
 }
 
 .btn-export-excel:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+  transform: translateY(-1px);
+  background: #256a47;
 }
 
 .btn-print {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  background: #4c6d93;
   color: #ffffff;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
 }
 
 .btn-print:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+  transform: translateY(-1px);
+  background: #415d7e;
 }
 
 /* ==========================================================================
@@ -468,10 +468,10 @@ header.app-header::after {
 }
 
 .chip-btn.active {
-  background: var(--primary-blue);
+  background: #35608a;
   color: #ffffff !important;
-  border-color: var(--primary-blue);
-  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+  border-color: #35608a;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
 }
 
 /* Form Grid Row */
@@ -990,11 +990,12 @@ header.app-header::after {
   white-space: nowrap;
 }
 
-.badge-success { background: var(--success-green-light); color: var(--success-green); border: 1px solid var(--success-green-glow); }
-.badge-warning { background: var(--warning-amber-light); color: var(--warning-amber); border: 1px solid var(--warning-amber-glow); }
-.badge-danger { background: var(--danger-red-light); color: var(--danger-red); border: 1px solid var(--danger-red-glow); }
-.badge-indigo { background: var(--purple-indigo-light); color: var(--purple-indigo); }
-.badge-neutral { background: var(--bg-main); color: var(--text-muted); border: 1px solid var(--border-color); }
+.badge-success { background: #e8f3ec; color: #1f6a44; border: 1px solid #bfe0cd; }
+.badge-warning { background: #fdf3e0; color: #8a5200; border: 1px solid #f0dcb0; }
+.badge-danger { background: #fbeceb; color: #a5332a; border: 1px solid #f2c9c5; }
+.badge-info { background: #e9f0fb; color: #274e88; border: 1px solid #c9dcf3; }
+.badge-indigo { background: #eef1f8; color: #3d4f8a; border: 1px solid #cdd6ea; }
+.badge-neutral { background: #eef2f7; color: #3f4b5b; border: 1px solid #d7dee8; }
 
 /* Percent Text Pill */
 .pct-pill {
