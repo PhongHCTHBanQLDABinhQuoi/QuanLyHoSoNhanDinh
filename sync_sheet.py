@@ -31,6 +31,11 @@ GOOGLE_SHEET_CSV_URL = (
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQl_XxFv-5zt2_IAgiKoZHEyzFD3KKGv5WYoJqWqk6lCXkmJEe8ioTT4DD2EfPlQZWYgQ9n1ckVg6KT/pub?gid=0&single=true&output=csv"
 )
 
+# Tab "DS HS đi rà soát Lại Lần 2" (rà soát lần 2) — cùng spreadsheet chính, gid khác
+GOOGLE_SHEET_LAN2_CSV_URL = (
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQl_XxFv-5zt2_IAgiKoZHEyzFD3KKGv5WYoJqWqk6lCXkmJEe8ioTT4DD2EfPlQZWYgQ9n1ckVg6KT/pub?gid=1928402245&single=true&output=csv"
+)
+
 # New Google Sheet URLs for Table VII (Bảng VII)
 TABLE_VII_DAILY_CSV_URL = (
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmNo6_kkbQy6pA-VjrYbhZpDuVCZRA76oFKQorBxnOSwiIg8GMbGS6E6phfzFDbhxu4ZXnRd_wVScN/pub?gid=0&single=true&output=csv"
@@ -303,6 +308,106 @@ def fetch_table_vii_sheet(csv_url):
         print(f"Warning: Could not fetch Table VII sheet ({csv_url}): {e}")
         return []
 
+def fetch_round2_records():
+    """Hút tab 'DS HS đi rà soát Lại Lần 2' -> danh sách hồ sơ rà soát lần 2 (cùng cấu trúc
+    sheet chính + 2 cột ngày lần 2). Có Tổ 1/2/3/4."""
+    print("Fetching round-2 re-review list (DS HS rà soát lại lần 2)...")
+    try:
+        req = urllib.request.Request(GOOGLE_SHEET_LAN2_CSV_URL, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=25) as response:
+            csv_bytes = response.read()
+        csv_text = csv_bytes.decode("utf-8-sig", errors="replace")
+        reader = list(csv.reader(io.StringIO(csv_text)))
+
+        header_idx = -1
+        header_row = None
+        for i, row in enumerate(reader):
+            if row and any("STT" in cell for cell in row):
+                header_idx = i
+                header_row = [cell.strip() for cell in row]
+                break
+        if header_idx == -1:
+            print("Round-2: không tìm thấy dòng tiêu đề (STT).")
+            return []
+
+        col_map = {}
+        for idx, h in enumerate(header_row):
+            clean_h = h.lower().replace("\n", " ").strip()
+            if "stt" in clean_h: col_map["stt"] = idx
+            elif "lần 2" in clean_h and "chuyển phòng" in clean_h: col_map["ngayChuyenLan2"] = idx
+            elif "lần 2" in clean_h and "chuyển về" in clean_h: col_map["ngayKthtChuyenVeLan2"] = idx
+            elif "cán bộ bbt" in clean_h or "thụ lý bqlda" in clean_h or "bqlda" in clean_h: col_map["canBoBBT"] = idx
+            elif ("cán bộ" in clean_h and "ktht" in clean_h) or "thụ lý phòng ktht" in clean_h or "thụ lý ktht" in clean_h: col_map["canBoKTHT"] = idx
+            elif "chuyển về" in clean_h: col_map["ngayKthtChuyenVe"] = idx
+            elif "ngày chuyển" in clean_h: col_map["ngayChuyen"] = idx
+            elif "tổ bồi thường" in clean_h: col_map["toBoiThuong"] = idx
+            elif "mã hồ sơ" in clean_h or "mã hs" in clean_h: col_map["maHoSo"] = idx
+            elif "họ và tên" in clean_h or "họ tên" in clean_h: col_map["hoTen"] = idx
+            elif "địa chỉ" in clean_h: col_map["diaChi"] = idx
+            elif "đường" in clean_h: col_map["duong"] = idx
+            elif "phường" in clean_h: col_map["phuong"] = idx
+            elif "tờ bản đồ" in clean_h: col_map["toBanDo"] = idx
+            elif "thửa đất" in clean_h: col_map["thuaDat"] = idx
+            elif "khu phố" in clean_h: col_map["khuPho"] = idx
+            elif "một phần" in clean_h: col_map["giaiToaMotPhan"] = idx
+            elif "toàn phần" in clean_h: col_map["giaiToaToanPhan"] = idx
+            elif "trạng thái" in clean_h: col_map["trangThai"] = idx
+            elif "ghi chú" in clean_h: col_map["ghiChu"] = idx
+            elif "pháp chế" in clean_h: col_map["phapChe"] = idx
+            elif "đo lường" in clean_h: col_map["doLuong"] = idx
+            elif "trùng lặp" in clean_h: col_map["trungLap"] = idx
+
+        records = []
+        for row in reader[header_idx + 1:]:
+            if not row or not any(row):
+                continue
+
+            def g(key, default=""):
+                idx = col_map.get(key)
+                if idx is not None and idx < len(row):
+                    return row[idx].strip()
+                return default
+
+            stt_str = g("stt")
+            if not stt_str:
+                continue
+            try:
+                stt_val = int(stt_str)
+            except ValueError:
+                continue
+
+            records.append({
+                "stt": stt_val,
+                "canBoBBT": g("canBoBBT"),
+                "canBoKTHT": g("canBoKTHT"),
+                "ngayChuyen": g("ngayChuyen"),
+                "ngayKthtChuyenVe": g("ngayKthtChuyenVe"),
+                "ngayChuyenLan2": g("ngayChuyenLan2"),
+                "ngayKthtChuyenVeLan2": g("ngayKthtChuyenVeLan2"),
+                "toBoiThuong": g("toBoiThuong"),
+                "maHoSo": g("maHoSo"),
+                "hoTen": g("hoTen"),
+                "diaChi": g("diaChi"),
+                "duong": g("duong"),
+                "phuong": g("phuong"),
+                "toBanDo": g("toBanDo"),
+                "thuaDat": g("thuaDat"),
+                "khuPho": g("khuPho"),
+                "giaiToaMotPhan": g("giaiToaMotPhan"),
+                "giaiToaToanPhan": g("giaiToaToanPhan"),
+                "trangThai": g("trangThai"),
+                "ghiChu": g("ghiChu"),
+                "phapChe": g("phapChe"),
+                "doLuong": g("doLuong"),
+                "trungLap": g("trungLap"),
+            })
+        print(f"Parsed {len(records)} round-2 re-review records.")
+        return records
+    except Exception as e:
+        print(f"Warning: Could not fetch round-2 sheet: {e}")
+        return []
+
+
 def fetch_and_sync():
     now_str = time.strftime("%H:%M:%S - %d/%m/%Y")
     print(f"[{now_str}] Downloading latest Google Sheet CSV data...")
@@ -402,6 +507,9 @@ def fetch_and_sync():
     table_vii_daily = fetch_table_vii_sheet(TABLE_VII_DAILY_CSV_URL)
     table_vii_weekly = fetch_table_vii_sheet(TABLE_VII_WEEKLY_CSV_URL)
 
+    # Danh sách hồ sơ rà soát lại LẦN 2 (Bảng V)
+    records_lan2 = fetch_round2_records()
+
     # HRM trước để lấy uid2name (khóa nối chuẩn), rồi mới đếm Workflow theo user_id
     hrm_names, hrm_depts, hrm_uid2name = fetch_base_hrm_employees()
     base_counts, jobs_map = fetch_base_workflow_counts(hrm_uid2name)
@@ -442,7 +550,31 @@ def fetch_and_sync():
         else:
             r["baseLink"] = "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
 
+    # Gắn baseLink cho hồ sơ lần 2 (dùng cùng jobs_map như lần 1)
+    for r in records_lan2:
+        dossier_code = r.get("maHoSo", "")
+        clean_dossier_code = re.sub(r'[^A-Z0-9]', '', dossier_code.upper()) if dossier_code else ""
+        matched_job = None
+        if clean_dossier_code and jobs_map:
+            if clean_dossier_code in jobs_map:
+                matched_job = jobs_map[clean_dossier_code]
+            else:
+                for k, j_info in jobs_map.items():
+                    if clean_dossier_code in k or k in clean_dossier_code:
+                        matched_job = j_info
+                        break
+        if matched_job:
+            r["baseJobId"] = matched_job["id"]
+            r["baseJobName"] = matched_job["name"]
+            r["baseStageName"] = matched_job["stageName"]
+            r["baseLink"] = matched_job["link"]
+        elif dossier_code:
+            r["baseLink"] = f"https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q={urllib.parse.quote(dossier_code)}"
+        else:
+            r["baseLink"] = "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da"
+
     print(f"Parsed Table VII: {len(table_vii_daily)} daily records, {len(table_vii_weekly)} weekly records.")
+    print(f"Round-2 (Bảng V): {len(records_lan2)} hồ sơ.")
 
     # An toàn: nếu Workflow API lỗi/timeout (không có cán bộ nào) thì GIỮ NGUYÊN data.js cũ,
     # tránh ghi đè làm mất sạch cột "TỔNG HS NẮM GIỮ" cho tới lần sync kế tiếp.
@@ -455,6 +587,7 @@ def fetch_and_sync():
     # Chuẩn hóa toàn bộ dữ liệu về Unicode NFC trước khi ghi (đồng bộ tên & tìm kiếm chính xác)
     js_content = f"""// Data dataset auto-synced from Google Sheets, Base Workflow API & Base HRM API (Unicode NFC)
 window.DOSSIER_DATA = {json.dumps(deep_nfc(records), ensure_ascii=False, indent=2)};
+window.DOSSIER_DATA_LAN2 = {json.dumps(deep_nfc(records_lan2), ensure_ascii=False, indent=2)};
 window.TABLE_VII_DATA_DAILY = {json.dumps(deep_nfc(table_vii_daily), ensure_ascii=False, indent=2)};
 window.TABLE_VII_DATA_WEEKLY = {json.dumps(deep_nfc(table_vii_weekly), ensure_ascii=False, indent=2)};
 window.BASE_WORKFLOW_COUNTS = {json.dumps(deep_nfc(base_counts), ensure_ascii=False, indent=2)};

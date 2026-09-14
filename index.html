@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Theo Dõi Tiến Độ Hồ Sơ Pháp Lý - Bình Quới Thanh Đa</title>
-  <link rel="stylesheet" href="css/style.css?v=20260811_5">
+  <link rel="stylesheet" href="css/style.css?v=20260914_2">
   <!-- Chart.js (Local offline support) -->
   <script src="js/chart.min.js"></script>
 </head>
@@ -400,14 +400,34 @@
       </div>
     </div>
 
-    <!-- Master Section V: Khối lượng hồ sơ theo Pháp chế & Thụ lý KTHT -->
+    <!-- Master Section V (MỚI): Danh sách hồ sơ đi rà soát lại LẦN 2 -->
+    <div class="dashboard-grid">
+      <div class="col-12">
+        <div class="section-card" style="border-top: 4px solid #f59e0b;">
+          <div class="section-header" style="flex-direction: column; align-items: stretch; gap: 8px;">
+            <div>
+              <h2>V. BẢNG THỐNG KÊ CHI TIẾT HỒ SƠ ĐI RÀ SOÁT LẠI LẦN 2 THEO CÁN BỘ BBT</h2>
+              <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Danh sách hồ sơ rà soát lại <strong>lần 2</strong> (có thêm <strong>Tổ 4</strong>). Dùng chung bộ lọc &amp; khoảng ngày phía trên. <em>Bảng IV là lần 1.</em></p>
+            </div>
+          </div>
+          <div class="section-body section-body-master-vi" style="overflow-x: auto; max-height: 1350px; min-height: 400px;">
+            <table class="data-table" id="tableSectionVLan2">
+              <thead><tr><th>STT</th></tr></thead>
+              <tbody id="tbodySectionVLan2"><!-- Rendered dynamically --></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Master Section VI: Khối lượng hồ sơ theo Pháp chế & Thụ lý KTHT -->
     <div class="dashboard-grid">
       <div class="col-12">
         <div class="section-card" style="border-top: 4px solid #10b981;">
           <div class="section-header" style="flex-direction: column; align-items: stretch; gap: 14px;">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
               <div>
-                <h2>V. BẢNG THỐNG KÊ CHI TIẾT KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ PHÁP CHẾ & THỤ LÝ KTHT</h2>
+                <h2>VI. BẢNG THỐNG KÊ CHI TIẾT KHỐI LƯỢNG HỒ SƠ THEO CÁN BỘ PHÁP CHẾ & THỤ LÝ KTHT</h2>
                 <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: 2px;">Tích hợp đầy đủ mốc Thời gian (Ngày/Tuần/Tháng), Cán bộ Thụ lý KTHT / Pháp chế, Phân khu & Trạng thái xử lý</p>
               </div>
               <div class="tab-group" id="timePeriodTabs7">
@@ -421,7 +441,7 @@
             <div class="filter-toolbar" style="border-top: 3px solid #10b981;">
               <div class="filter-toolbar__header">
                 <div class="filter-toolbar__title">
-                  <span>🎛️ BỘ LỌC TÌM KIẾM & KHOẢNG NGÀY BẢNG V</span>
+                  <span>🎛️ BỘ LỌC TÌM KIẾM & KHOẢNG NGÀY BẢNG VI</span>
                 </div>
                 <span class="badge badge-info" id="filterResultCountBadge5" style="font-size: 0.75rem; font-weight: 700; padding: 3px 10px; background: rgba(16, 185, 129, 0.15); color: #059669; border-color: rgba(16, 185, 129, 0.3);">1,141 hồ sơ</span>
               </div>
@@ -536,8 +556,8 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=20260811_5"></script>
-  <script src="js/analytics.js?v=20260811_5"></script>
-  <script src="js/app.js?v=20260811_5"></script>
+  <script src="js/data.js?v=20260914_2"></script>
+  <script src="js/analytics.js?v=20260914_2"></script>
+  <script src="js/app.js?v=20260914_2"></script>
 </body>
 </html>

@@ -953,6 +953,7 @@
     renderSection3();
     renderSection4();
     renderSection6();
+    renderSectionVLan2();
     renderSection7();
   }
 
@@ -1178,6 +1179,149 @@
   }
 
   // 11. Render Master Section VI (Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT)
+  // BẢNG V (LẦN 2): danh sách hồ sơ đi rà soát lại lần 2 — giống Bảng IV nhưng có thêm Tổ 4.
+  function renderSectionVLan2() {
+    const round2All = window.DOSSIER_DATA_LAN2 || [];
+    const tableEl = document.getElementById('tableSectionVLan2');
+    const tbody = document.getElementById('tbodySectionVLan2');
+    if (!tbody) return;
+
+    if (tableEl) {
+      const thead = tableEl.querySelector('thead');
+      if (thead) {
+        thead.innerHTML = `
+          <tr>
+            <th class="text-center" style="width: 40px;">STT</th>
+            <th>CÁN BỘ BBT</th>
+            <th class="text-center">TỔ</th>
+            <th class="text-center" style="background: rgba(14, 165, 233, 0.1); border-color: #38bdf8;">NẮM GIỮ</th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">ĐÃ CHUYỂN TỔNG</th>
+            <th class="text-center" style="background: rgba(245, 158, 11, 0.09); border-color: #fbbf24;">HỒ SƠ CÒN LẠI</th>
+            <th class="text-center" style="background: rgba(16, 185, 129, 0.09); border-color: #34d399;">THÔNG QUA TỔNG</th>
+            <th class="text-center">ĐÃ CHUYỂN KTHTĐT</th>
+            <th class="text-center">THÔNG QUA KTHTĐT</th>
+            <th class="text-center">KTHTĐT CÒN GIỮ</th>
+            <th class="text-center">TRẢ SỬA</th>
+          </tr>
+        `;
+      }
+    }
+
+    // Lọc dữ liệu lần 2 theo bộ lọc chung (currentFilter)
+    const q = (currentFilter.query || '').trim().toLowerCase();
+    const qNoTone = q ? Analytics.removeVietnameseTones(q) : '';
+    const kpFilter = currentFilter.kpFilter || 'ALL';
+    const stFilter = currentFilter.stFilter || 'ALL';
+    const fromD = currentFilter.fromD || null;
+    const toD = currentFilter.toD || null;
+    const stCode = (s) => { const m = String(s || '').trim().match(/^(\d+(?:\.\d+)?)/); return m ? m[1] : ''; };
+    const inRange = (d) => d && (!fromD || d >= fromD) && (!toD || d <= toD);
+
+    const filtered = round2All.filter(r => {
+      if (kpFilter !== 'ALL') {
+        let rKp = '';
+        const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
+        if (to.includes('1')) rKp = '17';
+        else if (to.includes('2')) rKp = '18';
+        else if (to.includes('3') || to.includes('4')) rKp = '19';
+        else if (r.khuPho) rKp = String(r.khuPho).trim();
+        if (rKp !== kpFilter && !rKp.includes(kpFilter)) return false;
+      }
+      if (stFilter !== 'ALL') {
+        const fc = stCode(stFilter);
+        if (fc) { if (stCode(r.trangThai) !== fc) return false; }
+        else if (!r.trangThai || !r.trangThai.includes(stFilter)) return false;
+      }
+      if (fromD || toD) {
+        const rc = r.ngayChuyen ? parseVietDateObj(r.ngayChuyen) : null;
+        const rc2 = r.ngayChuyenLan2 ? parseVietDateObj(r.ngayChuyenLan2) : null;
+        const rt = r.ngayKthtChuyenVe ? parseVietDateObj(r.ngayKthtChuyenVe) : null;
+        const rt2 = r.ngayKthtChuyenVeLan2 ? parseVietDateObj(r.ngayKthtChuyenVeLan2) : null;
+        if (!(inRange(rc) || inRange(rc2) || inRange(rt) || inRange(rt2))) return false;
+      }
+      if (q) {
+        const raw = [r.stt, r.maHoSo, r.canBoBBT, r.canBoKTHT, r.hoTen, r.diaChi, r.duong, r.phuong, r.toBanDo, r.thuaDat, r.khuPho, r.toBoiThuong, r.trangThai, r.ngayChuyen, r.ghiChu, r.phapChe].filter(Boolean).join(' ').toLowerCase();
+        const noTone = Analytics.removeVietnameseTones(raw);
+        const terms = q.split(/\s+/).filter(Boolean);
+        const termsNT = qNoTone.split(/\s+/).filter(Boolean);
+        const ok = termsNT.every((t, i) => raw.includes(terms[i] || t) || noTone.includes(t));
+        if (!ok) return false;
+      }
+      return true;
+    });
+
+    const dateRange = { from: fromD, to: toD };
+    const list = Analytics.getRound2Breakdown(filtered, round2All, Boolean(fromD || toD), dateRange);
+
+    tbody.innerHTML = '';
+    if (!list || list.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="11" class="text-center" style="padding:20px;">Chưa có dữ liệu hồ sơ rà soát lại lần 2 phù hợp.</td></tr>`;
+      return;
+    }
+
+    let s17 = 0, s18 = 0, s19 = 0, s4 = 0;
+    let sBase = 0, sTotal = 0, sThongQua = 0, sKthtGiu = 0, sTraSua = 0, sAllChuyen = 0, sAllThongQua = 0;
+    const seen = new Set();
+
+    list.forEach((item, idx) => {
+      s17 += item.kp17; s18 += item.kp18; s19 += item.kp19; s4 += (item.to4 || 0);
+      sTotal += (item.totalChuyen || 0); sThongQua += (item.thongQua || 0);
+      sKthtGiu += (item.kthtGiu || 0); sTraSua += (item.traSua || 0);
+      sAllChuyen += (item.allTimeChuyen || 0); sAllThongQua += (item.allTimeThongQua || 0);
+      if (!seen.has(item.cbtl)) { seen.add(item.cbtl); sBase += (item.baseTotal || 0); }
+
+      const isZero = item.totalChuyen === 0;
+      const tr = document.createElement('tr');
+      if (isZero) { tr.style.opacity = '0.75'; tr.style.background = 'rgba(239, 68, 68, 0.03)'; }
+      tr.setAttribute('data-cbtl', item.cbtl);
+
+      const baseTd = item.baseTotal > 0
+        ? `<span class="badge badge-info" style="background:#e0f2fe; color:#0369a1; border:1px solid #bae6fd; font-weight:700; font-size:0.875rem;">📦 ${item.baseTotal.toLocaleString('vi-VN')}</span>`
+        : `<span class="badge badge-neutral">0</span>`;
+      const conLai = Math.max(0, (item.baseTotal || 0) - (item.allTimeChuyen || 0));
+      const conLaiTd = conLai > 0 ? `<strong style="color: #d97706; font-size:0.875rem;">${conLai.toLocaleString('vi-VN')}</strong>` : `<span class="badge badge-neutral">0</span>`;
+
+      const toList = [];
+      if (item.kp17 > 0) toList.push(`<span class="badge" style="background:#eef2ff; color:#3730a3; border:1px solid #c7d2fe;" title="Tổ 1">Tổ 1 <b>(${item.kp17})</b></span>`);
+      if (item.kp18 > 0) toList.push(`<span class="badge" style="background:#ecfeff; color:#155e75; border:1px solid #a5f3fc;" title="Tổ 2">Tổ 2 <b>(${item.kp18})</b></span>`);
+      if (item.kp19 > 0) toList.push(`<span class="badge" style="background:#f0fdf4; color:#166534; border:1px solid #bbf7d0;" title="Tổ 3">Tổ 3 <b>(${item.kp19})</b></span>`);
+      if (item.to4 > 0) toList.push(`<span class="badge" style="background:#fef3c7; color:#92400e; border:1px solid #fcd34d;" title="Tổ 4">Tổ 4 <b>(${item.to4})</b></span>`);
+      const toTd = toList.length > 0 ? toList.join(' ') : '<span class="badge badge-neutral">-</span>';
+
+      tr.innerHTML = `
+        <td class="text-center"><strong>${idx + 1}</strong></td>
+        <td><strong>${item.cbtlFull || item.cbtl}</strong></td>
+        <td class="text-center">${toTd}</td>
+        <td class="text-center">${baseTd}</td>
+        <td class="text-center" style="background: rgba(16,185,129,0.05);"><strong>${(item.allTimeChuyen || 0).toLocaleString('vi-VN')}</strong></td>
+        <td class="text-center" style="background: rgba(245, 158, 11, 0.05);">${conLaiTd}</td>
+        <td class="text-center" style="background: rgba(16,185,129,0.05);"><strong style="color:#059669;">${(item.allTimeThongQua || 0).toLocaleString('vi-VN')}</strong></td>
+        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0</span>` : `<span class="badge badge-info" style="font-weight:700;">${item.totalChuyen}</span>`}</td>
+        <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
+        <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning" style="font-weight:700;">${item.kthtGiu}</span>` : '0'}</td>
+        <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    const trTotal = document.createElement('tr');
+    trTotal.classList.add('total-row');
+    const totalConLai = Math.max(0, sBase - sAllChuyen);
+    trTotal.innerHTML = `
+      <td colspan="2" class="text-center"><strong>TỔNG CỘNG</strong></td>
+      <td class="text-center"><span style="font-size:0.8125rem; font-weight:600;">T1:${s17} | T2:${s18} | T3:${s19} | T4:${s4}</span></td>
+      <td class="text-center"><strong style="color:#0369a1;">📦 ${sBase.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center" style="background: rgba(16,185,129,0.06);"><strong>${sAllChuyen.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center" style="background: rgba(245, 158, 11, 0.06);"><strong style="color: #d97706;">${totalConLai.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center" style="background: rgba(16,185,129,0.06);"><strong style="color:#059669;">${sAllThongQua.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center"><strong>${sTotal}</strong></td>
+      <td class="text-center"><strong>${sThongQua}</strong></td>
+      <td class="text-center"><strong>${sKthtGiu}</strong></td>
+      <td class="text-center"><strong>${sTraSua}</strong></td>
+    `;
+    tbody.appendChild(trTotal);
+  }
+
   function renderSection6() {
     const isDateFiltered = Boolean(window.IS_DATE_FILTERED);
     const isKhuPhoFiltered = currentFilter.kpFilter !== 'ALL';
