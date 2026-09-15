@@ -7818,7 +7818,7 @@ window.DOSSIER_DATA = [
   {
     "stt": 291,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 2",
@@ -7832,7 +7832,7 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1628,2m²",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
@@ -16324,10 +16324,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215868",
-    "baseJobName": "338/KP19/BQLDANguyễn Thị Anh Thư",
+    "baseJobId": "3372423",
+    "baseJobName": "1338_KP19_BQLDA-Nguyễn Kim Hường",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215868"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372423"
   },
   {
     "stt": 607,
@@ -16351,10 +16351,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215868",
-    "baseJobName": "338/KP19/BQLDANguyễn Thị Anh Thư",
+    "baseJobId": "3372423",
+    "baseJobName": "1338_KP19_BQLDA-Nguyễn Kim Hường",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215868"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372423"
   },
   {
     "stt": 608,
@@ -16567,10 +16567,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3276756",
-    "baseJobName": "1238_KP19_BQLDA-Lê Thị Nguyệt",
+    "baseJobId": "3372423",
+    "baseJobName": "1338_KP19_BQLDA-Nguyễn Kim Hường",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276756"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372423"
   },
   {
     "stt": 616,
@@ -28786,10 +28786,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215863",
-    "baseJobName": "343/KP19/BQLDANguyễn Thị Tư",
+    "baseJobId": "3372478",
+    "baseJobName": "1343/KP19/BQLDA La Xuân Hạnh",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215863"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372478"
   },
   {
     "stt": 1069,
@@ -43270,10 +43270,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3261823",
-    "baseJobName": "1243/KP19/BQLDANguyễn Thị Minh Nguyệt",
+    "baseJobId": "3372478",
+    "baseJobName": "1343/KP19/BQLDA La Xuân Hạnh",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3261823"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372478"
   },
   {
     "stt": 1606,
@@ -50549,7 +50549,7 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 1876,
-    "canBoBBT": "Duy Bảo",
+    "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "",
     "ngayKthtChuyenVe": "",
@@ -50560,7 +50560,7 @@ window.DOSSIER_DATA = [
     "duong": "Bình Quới",
     "phuong": "Bình Quới",
     "toBanDo": "67",
-    "thuaDat": "MPT 55",
+    "thuaDat": "MPT 84",
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "37,1",
@@ -53783,6 +53783,33 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 1997,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "519/KP18/BQLDA",
+    "hoTen": "Đoàn Thái Minh Hoàng",
+    "diaChi": "558/50/11D",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "22",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "43,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3226603",
+    "baseJobName": "519/KP18/BQLDA Đoàn Thái Minh Hoàng",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226603"
+  },
+  {
+    "stt": 1998,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53809,7 +53836,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215024"
   },
   {
-    "stt": 1998,
+    "stt": 1999,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53836,7 +53863,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264028"
   },
   {
-    "stt": 1999,
+    "stt": 2000,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53863,7 +53890,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264019"
   },
   {
-    "stt": 2000,
+    "stt": 2001,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53890,7 +53917,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264142"
   },
   {
-    "stt": 2001,
+    "stt": 2002,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53917,7 +53944,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218707"
   },
   {
-    "stt": 2002,
+    "stt": 2003,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53944,7 +53971,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218705"
   },
   {
-    "stt": 2003,
+    "stt": 2004,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53971,7 +53998,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218733"
   },
   {
-    "stt": 2004,
+    "stt": 2005,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -53998,7 +54025,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348916"
   },
   {
-    "stt": 2005,
+    "stt": 2006,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -54025,7 +54052,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218726"
   },
   {
-    "stt": 2006,
+    "stt": 2007,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -54052,7 +54079,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218725"
   },
   {
-    "stt": 2007,
+    "stt": 2008,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -54079,7 +54106,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264088"
   },
   {
-    "stt": 2008,
+    "stt": 2009,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -54106,7 +54133,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264086"
   },
   {
-    "stt": 2009,
+    "stt": 2010,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "",
@@ -54137,7 +54164,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 1,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "26/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54166,7 +54193,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 2,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "26/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54195,7 +54222,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 3,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "26/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54224,7 +54251,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 4,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "26/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54253,7 +54280,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 5,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "26/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54282,7 +54309,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 6,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "26/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54311,7 +54338,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 7,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "26/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54340,7 +54367,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 8,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Yến",
     "ngayChuyen": "27/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54369,7 +54396,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 9,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54398,7 +54425,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 10,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54427,7 +54454,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 11,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "27/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54456,7 +54483,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 12,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "27/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54485,7 +54512,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 13,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "27/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54514,7 +54541,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 14,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "27/08/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54543,7 +54570,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 15,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54572,7 +54599,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 16,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54601,7 +54628,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 17,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54630,7 +54657,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 18,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54659,7 +54686,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 19,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54688,7 +54715,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 20,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54717,7 +54744,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 21,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54775,7 +54802,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 23,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54804,7 +54831,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 24,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54833,7 +54860,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 25,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54862,7 +54889,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 26,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54891,7 +54918,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 27,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54920,7 +54947,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 28,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54949,7 +54976,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 29,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -54978,7 +55005,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 30,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55007,7 +55034,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 31,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55036,7 +55063,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 32,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55065,7 +55092,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 33,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55094,7 +55121,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 34,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55123,7 +55150,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 35,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55152,7 +55179,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 36,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55181,7 +55208,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 37,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55210,7 +55237,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 38,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Yến",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55239,7 +55266,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 39,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55268,7 +55295,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 40,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55297,7 +55324,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 41,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55326,7 +55353,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 42,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55355,7 +55382,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 43,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55384,7 +55411,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 44,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55413,7 +55440,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 45,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55442,7 +55469,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 46,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55471,7 +55498,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 47,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55500,7 +55527,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 48,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55558,7 +55585,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 50,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55587,7 +55614,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 51,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55616,7 +55643,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 52,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55645,7 +55672,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 53,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55671,7 +55698,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 54,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55700,7 +55727,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 55,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55729,7 +55756,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 56,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55758,7 +55785,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 57,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55787,7 +55814,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 58,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55816,7 +55843,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 59,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55845,7 +55872,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 60,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55874,7 +55901,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 61,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55903,7 +55930,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 62,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55932,7 +55959,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 63,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55961,7 +55988,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 64,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -55990,7 +56017,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 65,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56019,7 +56046,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 66,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56048,7 +56075,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 67,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56077,7 +56104,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 68,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56106,7 +56133,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 69,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56135,7 +56162,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 70,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56164,7 +56191,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 71,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56193,7 +56220,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 72,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56222,7 +56249,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 73,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56251,7 +56278,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 74,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56280,7 +56307,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 75,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56338,7 +56365,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 77,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56367,7 +56394,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 78,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56396,7 +56423,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 79,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56425,7 +56452,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 80,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56454,7 +56481,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 81,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56483,7 +56510,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 82,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56512,7 +56539,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 83,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56541,7 +56568,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 84,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56570,7 +56597,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 85,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56599,7 +56626,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 86,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56628,7 +56655,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 87,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56657,7 +56684,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 88,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56686,7 +56713,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 89,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56715,7 +56742,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 90,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56744,7 +56771,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 91,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56773,7 +56800,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 92,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56802,7 +56829,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 93,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56831,7 +56858,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 94,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56860,7 +56887,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 95,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56889,7 +56916,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 96,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56918,7 +56945,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 97,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56947,7 +56974,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 98,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -56976,7 +57003,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 99,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57005,7 +57032,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 100,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57034,7 +57061,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 101,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57063,7 +57090,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 102,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57092,7 +57119,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 103,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57121,7 +57148,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 104,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57150,7 +57177,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 105,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57179,7 +57206,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 106,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57208,7 +57235,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 107,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57266,7 +57293,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 109,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Yến",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57295,7 +57322,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 110,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57324,7 +57351,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 111,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Yến",
     "ngayChuyen": "04/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57353,7 +57380,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 112,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57382,7 +57409,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 113,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57411,7 +57438,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 114,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57440,7 +57467,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 115,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57469,7 +57496,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 116,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57498,7 +57525,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 117,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57527,7 +57554,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 118,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57556,7 +57583,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 119,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57585,7 +57612,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 120,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57614,7 +57641,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 121,
     "canBoBBT": "Uyên Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "H.Phương",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57643,7 +57670,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 122,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57672,7 +57699,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 123,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57701,7 +57728,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 124,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57730,7 +57757,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 125,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57759,7 +57786,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 126,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57788,7 +57815,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 127,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57817,7 +57844,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 128,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57843,7 +57870,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 129,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57872,7 +57899,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 130,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57901,7 +57928,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 131,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57930,7 +57957,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 132,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57959,7 +57986,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 133,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -57988,7 +58015,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 134,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58017,7 +58044,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 135,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58046,7 +58073,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 136,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58075,7 +58102,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 137,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58104,7 +58131,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 138,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58133,7 +58160,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 139,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58162,7 +58189,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 140,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58191,7 +58218,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 141,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58220,7 +58247,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 142,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58249,7 +58276,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 143,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58278,7 +58305,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 144,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58307,7 +58334,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 145,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58336,7 +58363,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 146,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58365,7 +58392,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 147,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tái",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58394,7 +58421,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 148,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58423,7 +58450,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 149,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58452,7 +58479,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 150,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58481,7 +58508,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 151,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58510,7 +58537,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 152,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58539,7 +58566,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 153,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58568,7 +58595,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 154,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58597,7 +58624,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 155,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58626,7 +58653,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 156,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58655,7 +58682,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 157,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58684,7 +58711,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 158,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58713,7 +58740,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 159,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58742,7 +58769,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 160,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "07/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58771,7 +58798,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 161,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58829,7 +58856,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 163,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58858,7 +58885,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 164,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58887,7 +58914,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 165,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58916,7 +58943,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 166,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58945,7 +58972,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 167,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -58974,7 +59001,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 168,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59003,7 +59030,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 169,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59032,7 +59059,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 170,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59061,7 +59088,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 171,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59090,7 +59117,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 172,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59119,7 +59146,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 173,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59148,7 +59175,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 174,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59177,7 +59204,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 175,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59206,7 +59233,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 176,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59235,7 +59262,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 177,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59264,7 +59291,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 178,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59293,7 +59320,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 179,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59322,7 +59349,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 180,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59409,7 +59436,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 183,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59438,7 +59465,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 184,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59467,7 +59494,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 185,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59496,7 +59523,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 186,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59525,7 +59552,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 187,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59554,7 +59581,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 188,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59583,7 +59610,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 189,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59612,7 +59639,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 190,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59641,7 +59668,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 191,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59670,7 +59697,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 192,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59699,7 +59726,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 193,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59728,7 +59755,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 194,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59757,7 +59784,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 195,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59786,7 +59813,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 196,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59815,7 +59842,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 197,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59841,7 +59868,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 198,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59870,7 +59897,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 199,
     "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59899,7 +59926,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 200,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59928,7 +59955,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 201,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59957,7 +59984,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 202,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -59986,7 +60013,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 203,
     "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60015,7 +60042,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 204,
     "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60044,7 +60071,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 205,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60073,7 +60100,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 206,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60102,7 +60129,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 207,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60128,7 +60155,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 208,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60157,7 +60184,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 209,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60186,7 +60213,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 210,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60215,7 +60242,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 211,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60244,7 +60271,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 212,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60273,7 +60300,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 213,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60302,7 +60329,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 214,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60331,7 +60358,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 215,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60360,7 +60387,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 216,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60389,7 +60416,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 217,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60418,7 +60445,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 218,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60447,7 +60474,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 219,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60476,7 +60503,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 220,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60505,7 +60532,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 221,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60534,7 +60561,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 222,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60563,7 +60590,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 223,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60592,7 +60619,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 224,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60621,7 +60648,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 225,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60650,7 +60677,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 226,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60679,7 +60706,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 227,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60708,7 +60735,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 228,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60737,7 +60764,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 229,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60766,7 +60793,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 230,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60795,7 +60822,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 231,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60824,7 +60851,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 232,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60845,15 +60872,15 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215863",
-    "baseJobName": "343/KP19/BQLDANguyễn Thị Tư",
+    "baseJobId": "3372478",
+    "baseJobName": "1343/KP19/BQLDA La Xuân Hạnh",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215863"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372478"
   },
   {
     "stt": 233,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60882,7 +60909,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 234,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60911,7 +60938,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 235,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60940,7 +60967,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 236,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60969,7 +60996,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 237,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -60998,7 +61025,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 238,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61027,7 +61054,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 239,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61056,7 +61083,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 240,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61085,7 +61112,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 241,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61114,7 +61141,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 242,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61143,7 +61170,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 243,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61172,7 +61199,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 244,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61201,7 +61228,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 245,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61230,7 +61257,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 246,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61259,7 +61286,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 247,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "09/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61288,7 +61315,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 248,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61317,7 +61344,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 249,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61346,7 +61373,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 250,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61375,7 +61402,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 251,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61433,7 +61460,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 253,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61462,7 +61489,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 254,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61491,7 +61518,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 255,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61520,7 +61547,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 256,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61549,7 +61576,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 257,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61578,7 +61605,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 258,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61607,7 +61634,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 259,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61636,7 +61663,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 260,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61665,7 +61692,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 261,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61694,7 +61721,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 262,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61723,7 +61750,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 263,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61752,7 +61779,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 264,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61781,7 +61808,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 265,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61802,15 +61829,15 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215868",
-    "baseJobName": "338/KP19/BQLDANguyễn Thị Anh Thư",
+    "baseJobId": "3372423",
+    "baseJobName": "1338_KP19_BQLDA-Nguyễn Kim Hường",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215868"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372423"
   },
   {
     "stt": 266,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61868,7 +61895,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 268,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61897,7 +61924,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 269,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61926,7 +61953,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 270,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61955,7 +61982,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 271,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -61984,7 +62011,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 272,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62013,7 +62040,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 273,
     "canBoBBT": "Minh Quân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62042,7 +62069,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 274,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62071,7 +62098,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 275,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62100,7 +62127,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 276,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62129,7 +62156,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 277,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62158,7 +62185,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 278,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62187,7 +62214,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 279,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62216,7 +62243,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 280,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62245,7 +62272,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 281,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62274,7 +62301,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 282,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62303,7 +62330,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 283,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62332,7 +62359,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 284,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62361,7 +62388,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 285,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62390,7 +62417,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 286,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62419,7 +62446,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 287,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62448,7 +62475,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 288,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62477,7 +62504,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 289,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62506,7 +62533,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 290,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62535,7 +62562,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 291,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62564,7 +62591,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 292,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62593,7 +62620,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 293,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62622,7 +62649,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 294,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62651,7 +62678,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 295,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62680,7 +62707,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 296,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62709,7 +62736,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 297,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62738,7 +62765,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 298,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62767,7 +62794,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 299,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62796,7 +62823,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 300,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62825,7 +62852,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 301,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62854,7 +62881,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 302,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62883,7 +62910,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 303,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62912,7 +62939,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 304,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62941,7 +62968,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 305,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62970,7 +62997,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 306,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -62999,7 +63026,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 307,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63028,7 +63055,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 308,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63057,7 +63084,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 309,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63086,7 +63113,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 310,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63115,7 +63142,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 311,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63144,7 +63171,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 312,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63173,7 +63200,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 313,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63202,7 +63229,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 314,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63231,7 +63258,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 315,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63260,7 +63287,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 316,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63289,7 +63316,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 317,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63318,7 +63345,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 318,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63347,7 +63374,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 319,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63376,7 +63403,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 320,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63405,7 +63432,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 321,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63434,7 +63461,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 322,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63463,7 +63490,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 323,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63492,7 +63519,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 324,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63521,7 +63548,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 325,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63550,7 +63577,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 326,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63579,7 +63606,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 327,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63608,7 +63635,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 328,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63666,7 +63693,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 330,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63695,7 +63722,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 331,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63724,7 +63751,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 332,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63753,7 +63780,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 333,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63782,7 +63809,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 334,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63811,7 +63838,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 335,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63840,7 +63867,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 336,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63869,7 +63896,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 337,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63898,7 +63925,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 338,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63927,7 +63954,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 339,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63956,7 +63983,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 340,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -63985,7 +64012,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 341,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64014,7 +64041,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 342,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64043,7 +64070,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 343,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64072,7 +64099,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 344,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64101,7 +64128,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 345,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64130,7 +64157,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 346,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64159,7 +64186,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 347,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64188,7 +64215,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 348,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64217,7 +64244,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 349,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64246,7 +64273,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 350,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64275,7 +64302,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 351,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64304,7 +64331,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 352,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64333,7 +64360,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 353,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64362,7 +64389,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 354,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64391,7 +64418,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 355,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64420,7 +64447,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 356,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64449,7 +64476,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 357,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64478,7 +64505,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 358,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64536,7 +64563,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 360,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64565,7 +64592,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 361,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64594,7 +64621,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 362,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64623,7 +64650,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 363,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64652,7 +64679,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 364,
     "canBoBBT": "Thảo Nguyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64681,7 +64708,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 365,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64710,7 +64737,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 366,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64739,7 +64766,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 367,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64768,7 +64795,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 368,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64797,7 +64824,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 369,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64826,7 +64853,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 370,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64884,7 +64911,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 372,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64913,7 +64940,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 373,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -64942,7 +64969,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 374,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65000,7 +65027,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 376,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65029,7 +65056,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 377,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65058,7 +65085,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 378,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65087,7 +65114,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 379,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65116,7 +65143,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 380,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65145,7 +65172,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 381,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65174,7 +65201,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 382,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65232,7 +65259,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 384,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65261,7 +65288,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 385,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65290,7 +65317,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 386,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65319,7 +65346,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 387,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65377,7 +65404,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 389,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65403,7 +65430,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 390,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65432,7 +65459,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 391,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65461,7 +65488,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 392,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65490,7 +65517,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 393,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65519,7 +65546,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 394,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65548,7 +65575,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 395,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65577,7 +65604,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 396,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65606,7 +65633,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 397,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65635,7 +65662,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 398,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65664,7 +65691,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 399,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65693,7 +65720,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 400,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65722,7 +65749,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 401,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65751,7 +65778,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 402,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65780,7 +65807,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 403,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65809,7 +65836,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 404,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65838,7 +65865,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 405,
     "canBoBBT": "Thành Giang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65867,7 +65894,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 406,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65896,7 +65923,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 407,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65925,7 +65952,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 408,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65954,7 +65981,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 409,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -65983,7 +66010,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 410,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66012,7 +66039,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 411,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66041,7 +66068,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 412,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66070,7 +66097,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 413,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66099,7 +66126,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 414,
     "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66128,7 +66155,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 415,
     "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66157,7 +66184,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 416,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66186,7 +66213,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 417,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66215,7 +66242,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 418,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66244,7 +66271,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 419,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66273,7 +66300,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 420,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66302,7 +66329,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 421,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66331,7 +66358,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 422,
     "canBoBBT": "Duy Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66360,7 +66387,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 423,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66418,7 +66445,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 425,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66447,7 +66474,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 426,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66476,7 +66503,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 427,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66505,7 +66532,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 428,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66534,7 +66561,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 429,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66563,7 +66590,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 430,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66592,7 +66619,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 431,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66620,35 +66647,6 @@ window.DOSSIER_DATA_LAN2 = [
   },
   {
     "stt": 432,
-    "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
-    "ngayChuyen": "11/09/2026",
-    "ngayKthtChuyenVe": "",
-    "ngayChuyenLan2": "",
-    "ngayKthtChuyenVeLan2": "",
-    "toBoiThuong": "Tổ 2",
-    "maHoSo": "519/KP18/BQLDA",
-    "hoTen": "Đoàn Thái Minh Hoàng",
-    "diaChi": "558/50/11D",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "62",
-    "thuaDat": "22",
-    "khuPho": "18",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "43,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
-    "phapChe": "Hiền/Anh",
-    "doLuong": "",
-    "trungLap": "",
-    "baseJobId": "3226603",
-    "baseJobName": "519/KP18/BQLDA Đoàn Thái Minh Hoàng",
-    "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226603"
-  },
-  {
-    "stt": 433,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -66677,9 +66675,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3310748"
   },
   {
-    "stt": 434,
+    "stt": 433,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66706,9 +66704,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216391"
   },
   {
-    "stt": 435,
+    "stt": 434,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66735,9 +66733,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216439"
   },
   {
-    "stt": 436,
+    "stt": 435,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66764,9 +66762,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216450"
   },
   {
-    "stt": 437,
+    "stt": 436,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66793,9 +66791,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216502"
   },
   {
-    "stt": 438,
+    "stt": 437,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66822,9 +66820,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216493"
   },
   {
-    "stt": 439,
+    "stt": 438,
     "canBoBBT": "Trọng Nhân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66851,9 +66849,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216434"
   },
   {
-    "stt": 440,
+    "stt": 439,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66880,9 +66878,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216480"
   },
   {
-    "stt": 441,
+    "stt": 440,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66909,9 +66907,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216610"
   },
   {
-    "stt": 442,
+    "stt": 441,
     "canBoBBT": "Bảo Vi",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66938,9 +66936,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216446"
   },
   {
-    "stt": 443,
+    "stt": 442,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66967,9 +66965,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216604"
   },
   {
-    "stt": 444,
+    "stt": 443,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -66996,9 +66994,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216608"
   },
   {
-    "stt": 445,
+    "stt": 444,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67025,9 +67023,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216623"
   },
   {
-    "stt": 446,
+    "stt": 445,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67054,9 +67052,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216566"
   },
   {
-    "stt": 447,
+    "stt": 446,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67083,9 +67081,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216577"
   },
   {
-    "stt": 448,
+    "stt": 447,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67112,9 +67110,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3267299"
   },
   {
-    "stt": 449,
+    "stt": 448,
     "canBoBBT": "Thanh Tùng",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67141,9 +67139,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216560"
   },
   {
-    "stt": 450,
+    "stt": 449,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Phượng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67170,9 +67168,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214913"
   },
   {
-    "stt": 451,
+    "stt": 450,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67199,9 +67197,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214954"
   },
   {
-    "stt": 452,
+    "stt": 451,
     "canBoBBT": "Uyên Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67228,9 +67226,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263990"
   },
   {
-    "stt": 453,
+    "stt": 452,
     "canBoBBT": "Uyên Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67257,9 +67255,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264010"
   },
   {
-    "stt": 454,
+    "stt": 453,
     "canBoBBT": "Minh Châu",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67286,9 +67284,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218732"
   },
   {
-    "stt": 455,
+    "stt": 454,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67315,9 +67313,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264431"
   },
   {
-    "stt": 456,
+    "stt": 455,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67344,9 +67342,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263970"
   },
   {
-    "stt": 457,
+    "stt": 456,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67373,9 +67371,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215151"
   },
   {
-    "stt": 458,
+    "stt": 457,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67402,9 +67400,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215176"
   },
   {
-    "stt": 459,
+    "stt": 458,
     "canBoBBT": "Kiều Oanh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67431,9 +67429,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215175"
   },
   {
-    "stt": 460,
+    "stt": 459,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67460,9 +67458,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216311"
   },
   {
-    "stt": 461,
+    "stt": 460,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67489,9 +67487,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218680"
   },
   {
-    "stt": 462,
+    "stt": 461,
     "canBoBBT": "Hoàng Minh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67518,9 +67516,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264034"
   },
   {
-    "stt": 463,
+    "stt": 462,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67547,9 +67545,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217496"
   },
   {
-    "stt": 464,
+    "stt": 463,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67576,9 +67574,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263955"
   },
   {
-    "stt": 465,
+    "stt": 464,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67605,9 +67603,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264076"
   },
   {
-    "stt": 466,
+    "stt": 465,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67634,7 +67632,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263957"
   },
   {
-    "stt": 467,
+    "stt": 466,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -67663,7 +67661,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263942"
   },
   {
-    "stt": 468,
+    "stt": 467,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -67692,7 +67690,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263939"
   },
   {
-    "stt": 469,
+    "stt": 468,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -67721,9 +67719,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263946"
   },
   {
-    "stt": 470,
+    "stt": 469,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67750,9 +67748,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263964"
   },
   {
-    "stt": 471,
+    "stt": 470,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67779,7 +67777,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263963"
   },
   {
-    "stt": 472,
+    "stt": 471,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -67808,9 +67806,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263940"
   },
   {
-    "stt": 473,
+    "stt": 472,
     "canBoBBT": "Văn Tân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67837,9 +67835,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263944"
   },
   {
-    "stt": 474,
+    "stt": 473,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67866,9 +67864,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215210"
   },
   {
-    "stt": 475,
+    "stt": 474,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67895,9 +67893,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215204"
   },
   {
-    "stt": 476,
+    "stt": 475,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67924,9 +67922,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215216"
   },
   {
-    "stt": 477,
+    "stt": 476,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67953,9 +67951,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264068"
   },
   {
-    "stt": 478,
+    "stt": 477,
     "canBoBBT": "Đăng Vinh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -67982,9 +67980,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264069"
   },
   {
-    "stt": 479,
+    "stt": 478,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68011,9 +68009,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3261916"
   },
   {
-    "stt": 480,
+    "stt": 479,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68040,9 +68038,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215883"
   },
   {
-    "stt": 481,
+    "stt": 480,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68069,9 +68067,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3283914"
   },
   {
-    "stt": 482,
+    "stt": 481,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68098,9 +68096,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215642"
   },
   {
-    "stt": 483,
+    "stt": 482,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68127,9 +68125,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216744"
   },
   {
-    "stt": 484,
+    "stt": 483,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68156,9 +68154,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216126"
   },
   {
-    "stt": 485,
+    "stt": 484,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68185,9 +68183,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3258527"
   },
   {
-    "stt": 486,
+    "stt": 485,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68214,9 +68212,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3236089"
   },
   {
-    "stt": 487,
+    "stt": 486,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68243,9 +68241,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215793"
   },
   {
-    "stt": 488,
+    "stt": 487,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68272,9 +68270,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215791"
   },
   {
-    "stt": 489,
+    "stt": 488,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68301,9 +68299,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215529"
   },
   {
-    "stt": 490,
+    "stt": 489,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68330,9 +68328,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215869"
   },
   {
-    "stt": 491,
+    "stt": 490,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68359,9 +68357,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215393"
   },
   {
-    "stt": 492,
+    "stt": 491,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68388,9 +68386,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215676"
   },
   {
-    "stt": 493,
+    "stt": 492,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68417,9 +68415,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215890"
   },
   {
-    "stt": 494,
+    "stt": 493,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68446,9 +68444,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215842"
   },
   {
-    "stt": 495,
+    "stt": 494,
     "canBoBBT": "Quốc Bảo",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68475,7 +68473,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276792"
   },
   {
-    "stt": 496,
+    "stt": 495,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -68504,9 +68502,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214747"
   },
   {
-    "stt": 497,
+    "stt": 496,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68533,9 +68531,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215850"
   },
   {
-    "stt": 498,
+    "stt": 497,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68562,9 +68560,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215556"
   },
   {
-    "stt": 499,
+    "stt": 498,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68591,9 +68589,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214800"
   },
   {
-    "stt": 500,
+    "stt": 499,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68620,9 +68618,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216265"
   },
   {
-    "stt": 501,
+    "stt": 500,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68649,9 +68647,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215744"
   },
   {
-    "stt": 502,
+    "stt": 501,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68678,9 +68676,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215716"
   },
   {
-    "stt": 503,
+    "stt": 502,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68707,9 +68705,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214741"
   },
   {
-    "stt": 504,
+    "stt": 503,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68736,9 +68734,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215421"
   },
   {
-    "stt": 505,
+    "stt": 504,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68765,9 +68763,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215866"
   },
   {
-    "stt": 506,
+    "stt": 505,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "H.Phương",
     "ngayChuyen": "11/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68794,9 +68792,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215436"
   },
   {
-    "stt": 507,
+    "stt": 506,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68823,9 +68821,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216516"
   },
   {
-    "stt": 508,
+    "stt": 507,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68852,9 +68850,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216381"
   },
   {
-    "stt": 509,
+    "stt": 508,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68881,9 +68879,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226615"
   },
   {
-    "stt": 510,
+    "stt": 509,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68910,9 +68908,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216477"
   },
   {
-    "stt": 511,
+    "stt": 510,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68939,9 +68937,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268224"
   },
   {
-    "stt": 512,
+    "stt": 511,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68968,9 +68966,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268231"
   },
   {
-    "stt": 513,
+    "stt": 512,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -68997,9 +68995,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216501"
   },
   {
-    "stt": 514,
+    "stt": 513,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69026,7 +69024,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216521"
   },
   {
-    "stt": 515,
+    "stt": 514,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -69055,9 +69053,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216497"
   },
   {
-    "stt": 516,
+    "stt": 515,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69084,9 +69082,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216645"
   },
   {
-    "stt": 517,
+    "stt": 516,
     "canBoBBT": "Anh Tuấn",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69113,9 +69111,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216508"
   },
   {
-    "stt": 518,
+    "stt": 517,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69142,9 +69140,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226667"
   },
   {
-    "stt": 519,
+    "stt": 518,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69171,9 +69169,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226674"
   },
   {
-    "stt": 520,
+    "stt": 519,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69200,9 +69198,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226678"
   },
   {
-    "stt": 521,
+    "stt": 520,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69229,9 +69227,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3227566"
   },
   {
-    "stt": 522,
+    "stt": 521,
     "canBoBBT": "Anh Thư",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69258,9 +69256,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3291897"
   },
   {
-    "stt": 523,
+    "stt": 522,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69287,9 +69285,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216343"
   },
   {
-    "stt": 524,
+    "stt": 523,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69316,9 +69314,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216594"
   },
   {
-    "stt": 525,
+    "stt": 524,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69345,9 +69343,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216349"
   },
   {
-    "stt": 526,
+    "stt": 525,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69374,9 +69372,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216414"
   },
   {
-    "stt": 527,
+    "stt": 526,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69403,9 +69401,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226619"
   },
   {
-    "stt": 528,
+    "stt": 527,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69432,9 +69430,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226709"
   },
   {
-    "stt": 529,
+    "stt": 528,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69461,9 +69459,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216607"
   },
   {
-    "stt": 530,
+    "stt": 529,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69490,9 +69488,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226630"
   },
   {
-    "stt": 531,
+    "stt": 530,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69519,9 +69517,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226659"
   },
   {
-    "stt": 532,
+    "stt": 531,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69548,9 +69546,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216362"
   },
   {
-    "stt": 533,
+    "stt": 532,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69577,9 +69575,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226634"
   },
   {
-    "stt": 534,
+    "stt": 533,
     "canBoBBT": "Lan Phương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69606,9 +69604,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226681"
   },
   {
-    "stt": 535,
+    "stt": 534,
     "canBoBBT": "Thiên Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69635,9 +69633,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216506"
   },
   {
-    "stt": 536,
+    "stt": 535,
     "canBoBBT": "Kim Ngân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69664,9 +69662,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216519"
   },
   {
-    "stt": 537,
+    "stt": 536,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69693,9 +69691,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216170"
   },
   {
-    "stt": 538,
+    "stt": 537,
     "canBoBBT": "Trọng Phúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69722,9 +69720,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214737"
   },
   {
-    "stt": 539,
+    "stt": 538,
     "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69751,9 +69749,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214792"
   },
   {
-    "stt": 540,
+    "stt": 539,
     "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69780,9 +69778,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215523"
   },
   {
-    "stt": 541,
+    "stt": 540,
     "canBoBBT": "Vân Khánh",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69809,9 +69807,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216169"
   },
   {
-    "stt": 542,
+    "stt": 541,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69838,9 +69836,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215513"
   },
   {
-    "stt": 543,
+    "stt": 542,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69867,7 +69865,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215686"
   },
   {
-    "stt": 544,
+    "stt": 543,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -69896,9 +69894,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214805"
   },
   {
-    "stt": 545,
+    "stt": 544,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69925,9 +69923,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215626"
   },
   {
-    "stt": 546,
+    "stt": 545,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69954,9 +69952,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215624"
   },
   {
-    "stt": 547,
+    "stt": 546,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -69983,9 +69981,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215859"
   },
   {
-    "stt": 548,
+    "stt": 547,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70012,9 +70010,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215820"
   },
   {
-    "stt": 549,
+    "stt": 548,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70041,9 +70039,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215470"
   },
   {
-    "stt": 550,
+    "stt": 549,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70070,9 +70068,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215525"
   },
   {
-    "stt": 551,
+    "stt": 550,
     "canBoBBT": "Duy Quang",
-    "canBoKTHT": "",
+    "canBoKTHT": "H.Phương",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70099,9 +70097,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215453"
   },
   {
-    "stt": 552,
+    "stt": 551,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70128,9 +70126,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215271"
   },
   {
-    "stt": 553,
+    "stt": 552,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70157,9 +70155,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215886"
   },
   {
-    "stt": 554,
+    "stt": 553,
     "canBoBBT": "Thúy Quyên",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70186,9 +70184,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3309129"
   },
   {
-    "stt": 555,
+    "stt": 554,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70215,9 +70213,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215425"
   },
   {
-    "stt": 556,
+    "stt": 555,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70244,9 +70242,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215399"
   },
   {
-    "stt": 557,
+    "stt": 556,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70273,9 +70271,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215816"
   },
   {
-    "stt": 558,
+    "stt": 557,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70302,9 +70300,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215298"
   },
   {
-    "stt": 559,
+    "stt": 558,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70331,9 +70329,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262743"
   },
   {
-    "stt": 560,
+    "stt": 559,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70360,9 +70358,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214826"
   },
   {
-    "stt": 561,
+    "stt": 560,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70389,9 +70387,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215433"
   },
   {
-    "stt": 562,
+    "stt": 561,
     "canBoBBT": "Vinh Hiển",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70418,7 +70416,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215310"
   },
   {
-    "stt": 563,
+    "stt": 562,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -70447,9 +70445,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215302"
   },
   {
-    "stt": 564,
+    "stt": 563,
     "canBoBBT": "Như Hà",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70476,9 +70474,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215748"
   },
   {
-    "stt": 565,
+    "stt": 564,
     "canBoBBT": "Trí Nghĩa",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70505,9 +70503,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215314"
   },
   {
-    "stt": 566,
+    "stt": 565,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70534,9 +70532,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216022"
   },
   {
-    "stt": 567,
+    "stt": 566,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70563,9 +70561,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3331671"
   },
   {
-    "stt": 568,
+    "stt": 567,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70592,9 +70590,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216087"
   },
   {
-    "stt": 569,
+    "stt": 568,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70621,9 +70619,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215511"
   },
   {
-    "stt": 570,
+    "stt": 569,
     "canBoBBT": "Thiện Như",
-    "canBoKTHT": "",
+    "canBoKTHT": "Lộc",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70650,9 +70648,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216088"
   },
   {
-    "stt": 571,
+    "stt": 570,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70679,9 +70677,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215710"
   },
   {
-    "stt": 572,
+    "stt": 571,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70708,9 +70706,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214827"
   },
   {
-    "stt": 573,
+    "stt": 572,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70737,9 +70735,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215448"
   },
   {
-    "stt": 574,
+    "stt": 573,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70760,15 +70758,15 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3276756",
-    "baseJobName": "1238_KP19_BQLDA-Lê Thị Nguyệt",
+    "baseJobId": "3372423",
+    "baseJobName": "1338_KP19_BQLDA-Nguyễn Kim Hường",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276756"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372423"
   },
   {
-    "stt": 575,
+    "stt": 574,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70795,9 +70793,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216032"
   },
   {
-    "stt": 576,
+    "stt": 575,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70824,9 +70822,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265197"
   },
   {
-    "stt": 577,
+    "stt": 576,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70853,9 +70851,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215905"
   },
   {
-    "stt": 578,
+    "stt": 577,
     "canBoBBT": "Tố Lam",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70882,9 +70880,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215408"
   },
   {
-    "stt": 579,
+    "stt": 578,
     "canBoBBT": "Ngọc Trân",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70911,9 +70909,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216031"
   },
   {
-    "stt": 580,
+    "stt": 579,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70940,9 +70938,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216147"
   },
   {
-    "stt": 581,
+    "stt": 580,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70969,9 +70967,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216275"
   },
   {
-    "stt": 582,
+    "stt": 581,
     "canBoBBT": "Mỹ Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -70998,9 +70996,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215777"
   },
   {
-    "stt": 583,
+    "stt": 582,
     "canBoBBT": "Thanh Tuyền",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tài",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -71027,9 +71025,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215036"
   },
   {
-    "stt": 584,
+    "stt": 583,
     "canBoBBT": "Ánh Linh",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -71056,7 +71054,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3272907"
   },
   {
-    "stt": 585,
+    "stt": 584,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -71085,9 +71083,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3352195"
   },
   {
-    "stt": 586,
+    "stt": 585,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -71114,9 +71112,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216304"
   },
   {
-    "stt": 587,
+    "stt": 586,
     "canBoBBT": "Quốc Thạch",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -71143,9 +71141,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264026"
   },
   {
-    "stt": 588,
+    "stt": 587,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -71172,9 +71170,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218673"
   },
   {
-    "stt": 589,
+    "stt": 588,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -71201,9 +71199,9 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3290246"
   },
   {
-    "stt": 590,
+    "stt": 589,
     "canBoBBT": "Hoài Thương",
-    "canBoKTHT": "",
+    "canBoKTHT": "Văn Bình",
     "ngayChuyen": "14/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -73107,19 +73105,55 @@ window.TABLE_VII_DATA_DAILY = [
     "timeKey": "14/09/2026",
     "khuPho": "19 (Tổ 3)",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 0,
+    "soHsDuyet": 10,
     "soHsTraSua": 3,
-    "tongHs": 3,
+    "tongHs": 13,
     "ghiChu": "3"
   },
   {
     "timeKey": "14/09/2026",
     "khuPho": "19 (Tổ 4)",
     "canBo": "Tân/Dũng",
-    "soHsDuyet": 0,
+    "soHsDuyet": 13,
     "soHsTraSua": 12,
-    "tongHs": 12,
+    "tongHs": 25,
     "ghiChu": "10"
+  },
+  {
+    "timeKey": "15/09/2026",
+    "khuPho": "17 (Tổ 1)",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "15/09/2026",
+    "khuPho": "18 (Tổ 2)",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "15/09/2026",
+    "khuPho": "19 (Tổ 3)",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
+  },
+  {
+    "timeKey": "15/09/2026",
+    "khuPho": "19 (Tổ 4)",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 0,
+    "soHsTraSua": 0,
+    "tongHs": 0,
+    "ghiChu": ""
   }
 ];
 window.TABLE_VII_DATA_WEEKLY = [
@@ -73431,29 +73465,29 @@ window.TABLE_VII_DATA_WEEKLY = [
   }
 ];
 window.BASE_WORKFLOW_COUNTS = {
-  "Phạm Lê Xuân Trúc": 85,
-  "Đoàn Thị Tố Lam": 60,
+  "Ngô Văn Hải": 48,
+  "Đoàn Thị Tố Lam": 61,
+  "Phạm Lê Xuân Trúc": 79,
   "Nguyễn Ngọc Thảo Nguyên": 60,
-  "Cao Thị Mỹ Thương": 86,
+  "Cao Thị Mỹ Thương": 87,
   "Hồ Quốc Thạch": 92,
   "Trương Duy Bảo": 54,
-  "Phạm Duy Quang": 66,
-  "Nguyễn Minh Quân": 58,
+  "Phạm Duy Quang": 65,
+  "Nguyễn Minh Quân": 59,
   "Nguyễn Thiện Như": 78,
   "Nguyễn Đoàn Minh Châu": 62,
-  "Lý Anh Hào": 23,
-  "Trần Thị Như Hà": 47,
-  "Nguyễn Vinh Hiển": 61,
+  "Lý Anh Hào": 27,
+  "Trần Thị Như Hà": 49,
+  "Nguyễn Vinh Hiển": 60,
   "Phạm Thị Ánh Linh": 42,
   "Hoàng Lâm Quốc Bảo": 65,
   "Nguyễn Thanh Tùng": 44,
   "Phạm Ngọc Thịnh": 52,
   "Võ Trọng Phúc": 55,
   "Mai Ngọc Kim Ngân": 57,
-  "Ngô Văn Hải": 47,
   "Nguyễn Thanh Tuyền": 63,
   "Đoàn Trí Nghĩa": 66,
-  "Lê Quang Trãi": 59,
+  "Lê Quang Trãi": 58,
   "Trần Thị Bảo Vi": 30,
   "Lê Anh Tuấn": 60,
   "Nguyễn Ngọc Trân": 40,
@@ -73468,15 +73502,29 @@ window.BASE_WORKFLOW_COUNTS = {
   "Hoàng Hoài Thương": 66,
   "Đặng Cao Kiều Oanh": 62,
   "Đặng Hải Đăng Vinh": 56,
-  "Đỗ Thị Thúy Quyên": 68,
+  "Đỗ Thị Thúy Quyên": 69,
   "Nguyễn Phạm Thành Giang": 53,
-  "_total_jobs": 2244
+  "_total_jobs": 2246
 };
 window.BASE_JOBS_MAP = {
+  "1343KP19BQLDALAXUNHNH": {
+    "id": "3372478",
+    "name": "1343/KP19/BQLDA La Xuân Hạnh",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372478"
+  },
+  "1338KP19BQLDANGUYNKIMHNG": {
+    "id": "3372423",
+    "name": "1338_KP19_BQLDA-Nguyễn Kim Hường",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372423"
+  },
   "273KP19BQLDATRNGTHHOAMAI": {
     "id": "3372312",
     "name": "273_KP19_BQLDA - Trương Thị Hoa Mai",
-    "stageId": "116730",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372312"
   },
@@ -74519,21 +74567,21 @@ window.BASE_JOBS_MAP = {
   "212KP17BQLDAVVNXEMNGUYNTHLAN": {
     "id": "3264088",
     "name": "212/KP17/BQLDA/VÕ VĂN XEM - NGUYỄN THỊ LAN",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264088"
   },
   "273KP17BQLDAVTHTHANHPHC": {
     "id": "3264086",
     "name": "273/KP17/BQLDA/VÕ THỊ THANH PHÚC",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264086"
   },
   "280KP17BQLDAVTHTHANHN": {
     "id": "3264085",
     "name": "280/KP17/BQLDA/VÕ THỊ THANH NỞ",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264085"
   },
@@ -74638,14 +74686,14 @@ window.BASE_JOBS_MAP = {
   "356KP17BQLDAHUNHTHNHNGUYT": {
     "id": "3264069",
     "name": "356/KP17/BQLDA/HUỲNH THỊ ÁNH NGUYỆT",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264069"
   },
   "357KP17BQLDAHUNHTHTHANHBCH": {
     "id": "3264068",
     "name": "357/KP17/BQLDA/HUỲNH THỊ THANH BẠCH",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264068"
   },
@@ -76927,14 +76975,14 @@ window.BASE_JOBS_MAP = {
   "209KP17BQLDANGUYNTHTNG": {
     "id": "3218726",
     "name": "209/KP17/BQLDA NGUYỄN THỊ TÙNG",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218726"
   },
   "213KP17BQLDAVTHANHHOA": {
     "id": "3218725",
     "name": "213/KP17/BQLDA VÕ THANH HOA",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218725"
   },
@@ -80553,7 +80601,7 @@ window.BASE_JOBS_MAP = {
   "195KP17BQLDATRNVN": {
     "id": "3216296",
     "name": "195/KP17/BQLDA TRẦN VĂN",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216296"
   },
@@ -85824,7 +85872,7 @@ window.BASE_JOBS_MAP = {
   "727KP19BQLDANGUYNTHKIMDUNG": {
     "id": "3215410",
     "name": "727/KP19/BQLDANguyễn Thị Kim Dung",
-    "stageId": "116732",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215410"
   },
@@ -85852,7 +85900,7 @@ window.BASE_JOBS_MAP = {
   "731KP19BQLDANGUYNXUNMNHONGTHHA": {
     "id": "3215405",
     "name": "731/KP19/BQLDANguyễn Xuân Mến - Hoàng Thị Hứa",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215405"
   },
@@ -85922,14 +85970,14 @@ window.BASE_JOBS_MAP = {
   "741KP19BQLDANGUYNTHTHANHTHO": {
     "id": "3215395",
     "name": "741/KP19/BQLDANguyễn Thị Thanh Thảo",
-    "stageId": "116732",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215395"
   },
   "742KP19BQLDAHNGNGCSN": {
     "id": "3215394",
     "name": "742/KP19/BQLDAHồng Ngọc Sơn",
-    "stageId": "116732",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215394"
   },
@@ -86958,7 +87006,7 @@ window.BASE_JOBS_MAP = {
   "183KP17BQLDATRNGTRNQUANGHU": {
     "id": "3215216",
     "name": "183/KP17/BQLDA TRƯƠNG TRẦN QUANG HẬU",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215216"
   },
@@ -87000,7 +87048,7 @@ window.BASE_JOBS_MAP = {
   "189KP17BQLDALTHTRCMAI": {
     "id": "3215210",
     "name": "189/KP17/BQLDA LÊ THỊ TRÚC MAI",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215210"
   },
@@ -87021,14 +87069,14 @@ window.BASE_JOBS_MAP = {
   "193KP17BQLDATRNVN": {
     "id": "3215207",
     "name": "193/KP17/BQLDA TRẦN VĂN",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215207"
   },
   "194KP17BQLDATRNVN": {
     "id": "3215206",
     "name": "194/KP17/BQLDA TRẦN VĂN",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215206"
   },
@@ -87042,7 +87090,7 @@ window.BASE_JOBS_MAP = {
   "198KP17BQLDATRNANHV": {
     "id": "3215204",
     "name": "198/KP17/BQLDA TRẦN ANH VŨ",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215204"
   },
@@ -87119,21 +87167,21 @@ window.BASE_JOBS_MAP = {
   "524KP17BQLDANGUYNKINKARELYQUYNNGUYNTHNHTRUNG": {
     "id": "3215193",
     "name": "524/KP17/BQLDA NGUYỄN KIÊN KAREL (ỦY QUYỀN NGUYỄN THÀNH TRUNG)",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215193"
   },
   "526KP17BQLDANGUYNKINKARELYQUYNNGUYNTHNHTRUNG": {
     "id": "3215192",
     "name": "526/KP17/BQLDA NGUYỄN KIÊN KAREL (ỦY QUYỀN NGUYỄN THÀNH TRUNG)",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215192"
   },
   "527KP17BQLDANGUYNKINKARELYQUYNNGUYNTHNHTRUNG": {
     "id": "3215191",
     "name": "527/KP17/BQLDA NGUYỄN KIÊN KAREL (ỦY QUYỀN NGUYỄN THÀNH TRUNG)",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215191"
   },
