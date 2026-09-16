@@ -1194,14 +1194,8 @@
             <th class="text-center" style="width: 40px;">STT</th>
             <th>CÁN BỘ BBT</th>
             <th class="text-center">TỔ</th>
-            <th class="text-center" style="background: rgba(48, 96, 168, 0.07); border-color: #c9dcf3;">NẮM GIỮ</th>
-            <th class="text-center" style="background: rgba(44, 122, 82, 0.06); border-color: #bfe0cd;">ĐÃ CHUYỂN TỔNG</th>
-            <th class="text-center" style="background: rgba(152, 92, 0, 0.06); border-color: #f0dcb0;">HỒ SƠ CÒN LẠI</th>
-            <th class="text-center" style="background: rgba(44, 122, 82, 0.06); border-color: #bfe0cd;">THÔNG QUA TỔNG</th>
-            <th class="text-center">ĐÃ CHUYỂN KTHTĐT</th>
-            <th class="text-center">THÔNG QUA KTHTĐT</th>
-            <th class="text-center">KTHTĐT CÒN GIỮ</th>
-            <th class="text-center">TRẢ SỬA</th>
+            <th class="text-center" style="background: rgba(48, 96, 168, 0.07); border-color: #c9dcf3;">SỐ HS RÀ SOÁT LẠI (LẦN 2)</th>
+            <th style="min-width: 160px;">TỶ LỆ</th>
           </tr>
         `;
       }
@@ -1250,74 +1244,65 @@
       return true;
     });
 
-    const dateRange = { from: fromD, to: toD };
-    const list = Analytics.getRound2Breakdown(filtered, round2All, Boolean(fromD || toD), dateRange);
+    const list = Analytics.getRound2Breakdown(filtered);
 
     tbody.innerHTML = '';
     if (!list || list.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="11" class="text-center" style="padding:20px;">Chưa có dữ liệu hồ sơ rà soát lại lần 2 phù hợp.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="5" class="text-center" style="padding:20px;">Chưa có dữ liệu hồ sơ rà soát lại lần 2 phù hợp.</td></tr>`;
       return;
     }
 
+    const grand = list.reduce((s, it) => s + (it.total || 0), 0) || 1;
     let s17 = 0, s18 = 0, s19 = 0, s4 = 0;
-    let sBase = 0, sTotal = 0, sThongQua = 0, sKthtGiu = 0, sTraSua = 0, sAllChuyen = 0, sAllThongQua = 0;
-    const seen = new Set();
+
+    const toBadge = (label, n, bg, color, border) =>
+      `<span class="badge" style="background:${bg}; color:${color}; border:1px solid ${border};" title="${label}">${label}</span>`;
+    const pctBar = (pct) => `
+      <div style="display:flex; align-items:center; gap:8px;">
+        <div style="flex:1; height:8px; min-width:60px; background:var(--bg-input); border-radius:4px; overflow:hidden;">
+          <div style="width:${Math.max(2, pct)}%; height:100%; background:#3a6fb0; border-radius:4px;"></div>
+        </div>
+        <span style="font-size:0.75rem; font-weight:600; color:var(--text-muted); min-width:40px; text-align:right;">${pct.toFixed(1)}%</span>
+      </div>`;
 
     list.forEach((item, idx) => {
       s17 += item.kp17; s18 += item.kp18; s19 += item.kp19; s4 += (item.to4 || 0);
-      sTotal += (item.totalChuyen || 0); sThongQua += (item.thongQua || 0);
-      sKthtGiu += (item.kthtGiu || 0); sTraSua += (item.traSua || 0);
-      sAllChuyen += (item.allTimeChuyen || 0); sAllThongQua += (item.allTimeThongQua || 0);
-      if (!seen.has(item.cbtl)) { seen.add(item.cbtl); sBase += (item.baseTotal || 0); }
 
-      const isZero = item.totalChuyen === 0;
+      // Badge tổ: đa số cán bộ chỉ ở 1 tổ -> chỉ hiện tên tổ; nếu ở nhiều tổ thì kèm số.
+      const parts = [];
+      if (item.kp17 > 0) parts.push(['kp17', 'Tổ 1', item.kp17, '#eef1f8', '#3d4f8a', '#cdd6ea']);
+      if (item.kp18 > 0) parts.push(['kp18', 'Tổ 2', item.kp18, '#e9f3f5', '#1f6577', '#c2e0e5']);
+      if (item.kp19 > 0) parts.push(['kp19', 'Tổ 3', item.kp19, '#ecf4ee', '#3a6f4e', '#cbe4d3']);
+      if (item.to4 > 0) parts.push(['to4', 'Tổ 4', item.to4, '#f6efe1', '#8a5d24', '#e6d5b6']);
+      const multi = parts.length > 1;
+      const toTd = parts.length
+        ? parts.map(([, lbl, n, bg, c, br]) => toBadge(multi ? `${lbl} (${n})` : lbl, n, bg, c, br)).join(' ')
+        : '<span class="badge badge-neutral">-</span>';
+
+      const rawTag = (item.rawNames && item.rawNames.length)
+        ? `<div style="font-size:0.68rem; color:var(--text-muted); margin-top:1px;">theo phiếu: ${item.rawNames.join(', ')}</div>`
+        : '';
+
+      const pct = (item.total / grand) * 100;
       const tr = document.createElement('tr');
-      if (isZero) { tr.style.opacity = '0.75'; tr.style.background = 'rgba(169, 71, 71, 0.035)'; }
       tr.setAttribute('data-cbtl', item.cbtl);
-
-      const baseTd = item.baseTotal > 0
-        ? `<span class="badge badge-info" style="background:#e9f0fb; color:#274e88; border:1px solid #c9dcf3; font-weight:700; font-size:0.875rem;">📦 ${item.baseTotal.toLocaleString('vi-VN')}</span>`
-        : `<span class="badge badge-neutral">0</span>`;
-      const conLai = Math.max(0, (item.baseTotal || 0) - (item.allTimeChuyen || 0));
-      const conLaiTd = conLai > 0 ? `<strong style="color: #8a5200; font-size:0.875rem;">${conLai.toLocaleString('vi-VN')}</strong>` : `<span class="badge badge-neutral">0</span>`;
-
-      const toList = [];
-      if (item.kp17 > 0) toList.push(`<span class="badge" style="background:#eef1f8; color:#3d4f8a; border:1px solid #cdd6ea;" title="Tổ 1">Tổ 1 <b>(${item.kp17})</b></span>`);
-      if (item.kp18 > 0) toList.push(`<span class="badge" style="background:#e9f3f5; color:#1f6577; border:1px solid #c2e0e5;" title="Tổ 2">Tổ 2 <b>(${item.kp18})</b></span>`);
-      if (item.kp19 > 0) toList.push(`<span class="badge" style="background:#ecf4ee; color:#3a6f4e; border:1px solid #cbe4d3;" title="Tổ 3">Tổ 3 <b>(${item.kp19})</b></span>`);
-      if (item.to4 > 0) toList.push(`<span class="badge" style="background:#f6efe1; color:#8a5d24; border:1px solid #e6d5b6;" title="Tổ 4">Tổ 4 <b>(${item.to4})</b></span>`);
-      const toTd = toList.length > 0 ? toList.join(' ') : '<span class="badge badge-neutral">-</span>';
-
       tr.innerHTML = `
         <td class="text-center"><strong>${idx + 1}</strong></td>
-        <td><strong>${item.cbtlFull || item.cbtl}</strong></td>
+        <td><strong>${item.cbtlFull || item.cbtl}</strong>${rawTag}</td>
         <td class="text-center">${toTd}</td>
-        <td class="text-center">${baseTd}</td>
-        <td class="text-center" style="background: rgba(44,122,82,0.04);"><strong>${(item.allTimeChuyen || 0).toLocaleString('vi-VN')}</strong></td>
-        <td class="text-center" style="background: rgba(152, 92, 0, 0.04);">${conLaiTd}</td>
-        <td class="text-center" style="background: rgba(44,122,82,0.04);"><strong style="color:#1f6a44;">${(item.allTimeThongQua || 0).toLocaleString('vi-VN')}</strong></td>
-        <td class="text-center">${isZero ? `<span class="badge badge-danger">⚠️ 0</span>` : `<span class="badge badge-info" style="font-weight:700;">${item.totalChuyen}</span>`}</td>
-        <td class="text-center">${item.thongQua > 0 ? `<span class="badge badge-success">${item.thongQua}</span>` : '0'}</td>
-        <td class="text-center">${item.kthtGiu > 0 ? `<span class="badge badge-warning" style="font-weight:700;">${item.kthtGiu}</span>` : '0'}</td>
-        <td class="text-center">${item.traSua > 0 ? `<span class="badge badge-danger">${item.traSua}</span>` : '0'}</td>
+        <td class="text-center" style="background: rgba(48,96,168,0.045);"><span class="badge badge-info" style="font-weight:700; font-size:0.9rem;">${item.total.toLocaleString('vi-VN')}</span></td>
+        <td>${pctBar(pct)}</td>
       `;
       tbody.appendChild(tr);
     });
 
     const trTotal = document.createElement('tr');
     trTotal.classList.add('total-row');
-    const totalConLai = Math.max(0, sBase - sAllChuyen);
     trTotal.innerHTML = `
-      <td colspan="2" class="text-center"><strong>TỔNG CỘNG</strong></td>
-      <td class="text-center"><span style="font-size:0.8125rem; font-weight:600;">T1:${s17} | T2:${s18} | T3:${s19} | T4:${s4}</span></td>
-      <td class="text-center"><strong style="color:#274e88;">📦 ${sBase.toLocaleString('vi-VN')}</strong></td>
-      <td class="text-center" style="background: rgba(44,122,82,0.045);"><strong>${sAllChuyen.toLocaleString('vi-VN')}</strong></td>
-      <td class="text-center" style="background: rgba(152, 92, 0, 0.045);"><strong style="color: #8a5200;">${totalConLai.toLocaleString('vi-VN')}</strong></td>
-      <td class="text-center" style="background: rgba(44,122,82,0.045);"><strong style="color:#1f6a44;">${sAllThongQua.toLocaleString('vi-VN')}</strong></td>
-      <td class="text-center"><strong>${sTotal}</strong></td>
-      <td class="text-center"><strong>${sThongQua}</strong></td>
-      <td class="text-center"><strong>${sKthtGiu}</strong></td>
-      <td class="text-center"><strong>${sTraSua}</strong></td>
+      <td colspan="2" class="text-center"><strong>TỔNG CỘNG (${list.length} cán bộ)</strong></td>
+      <td class="text-center"><span style="font-size:0.8125rem; font-weight:600;">Tổ 1:${s17} · Tổ 2:${s18} · Tổ 3:${s19} · Tổ 4:${s4}</span></td>
+      <td class="text-center"><strong style="color:#274e88; font-size:0.95rem;">${grand.toLocaleString('vi-VN')}</strong></td>
+      <td class="text-center"><strong>100%</strong></td>
     `;
     tbody.appendChild(trTotal);
   }

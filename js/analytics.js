@@ -749,8 +749,10 @@
     // Section VI & VIII Unified: Thống kê chi tiết Lượng hồ sơ chuyển về theo Ngày/Tuần/Tháng x Cán bộ BBT
     // Bảng V (LẦN 2): thống kê hồ sơ rà soát lại lần 2 theo Cán bộ BBT — như Bảng IV nhưng có THÊM Tổ 4.
     // records = hồ sơ lần 2 sau lọc; allRecords = toàn bộ hồ sơ lần 2 (cho cột luỹ kế). Ngày ưu tiên mốc "lần 2".
-    getRound2Breakdown(records, allRecords = [], isDateFiltered = false, dateRange = null) {
-      const source = (allRecords && allRecords.length > 0) ? allRecords : records;
+    getRound2Breakdown(records) {
+      // Bảng V (LẦN 2): danh sách hồ sơ đi rà soát lại lần 2, thống kê theo Cán bộ BBT & Tổ.
+      // Dữ liệu lần 2 hiện chỉ có mốc "đã chuyển phòng KTHTĐT" (chưa có kết quả trả về / thông qua / trả sửa),
+      // nên chỉ thống kê SỐ LƯỢNG hồ sơ theo cán bộ và theo tổ — không dựng cột kết quả rỗng.
       const isJunk = (cb) => { const c = cb.toLowerCase(); return c === 'thụ lý' || c === 'cán bộ' || c === 'cán bộ thụ lý' || c === 'thụ lý bqlda' || c === 'tên cán bộ' || c === 'stt' || c === 'khu phố'; };
       const teamOf = (r) => {
         const to = r.toBoiThuong ? String(r.toBoiThuong).trim() : '';
@@ -763,63 +765,21 @@
         if (kp.includes('18')) return 'kp18';
         return 'kp19';
       };
-      const isThongQua = (st) => st.includes('3.') || st.includes('thông qua');
-      const isKthtGiu = (st) => st.includes('1.') || st.includes('Đã chuyển');
-      const isTraSua = (st) => st.includes('2.1') || st.includes('4.') || st.includes('Trả') || st.includes('chuyển sửa');
-
-      const allTimeMap = {};
-      source.forEach(r => {
-        const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
-        if (isJunk(rawCb)) return;
-        const cb = this.getCanonicalOfficerName(rawCb);
-        if (!allTimeMap[cb]) allTimeMap[cb] = { totalChuyen: 0, thongQua: 0, kthtGiu: 0, traSua: 0 };
-        allTimeMap[cb].totalChuyen++;
-        const st = r.trangThai || '';
-        if (isThongQua(st)) allTimeMap[cb].thongQua++;
-        else if (isKthtGiu(st)) allTimeMap[cb].kthtGiu++;
-        else if (isTraSua(st)) allTimeMap[cb].traSua++;
-      });
-
-      const rFrom = dateRange && dateRange.from ? dateRange.from : null;
-      const rTo = dateRange && dateRange.to ? dateRange.to : null;
-      const dChuyen = (r) => parseDate((r.ngayChuyenLan2 && r.ngayChuyenLan2.trim()) ? r.ngayChuyenLan2 : r.ngayChuyen);
-      const dTra = (r) => parseDate((r.ngayKthtChuyenVeLan2 && r.ngayKthtChuyenVeLan2.trim()) ? r.ngayKthtChuyenVeLan2 : r.ngayKthtChuyenVe);
-      const inR = (d) => { if (!rFrom && !rTo) return true; if (!d) return false; if (rFrom && d < rFrom) return false; if (rTo && d > rTo) return false; return true; };
 
       const map = {};
-      const ensure = (cb) => {
-        if (!map[cb]) {
-          // Bảng V (lần 2): "NẮM GIỮ" lấy theo chính DS rà soát lại lần 2 (danh sách đã khác base lần 1),
-          // KHÔNG dùng số đang giữ ở Base Workflow (đó là lần 1).
-          const finalBase = allTimeMap[cb] ? allTimeMap[cb].totalChuyen : 0;
-          map[cb] = { timeKey: '', cbtl: cb, cbtlFull: cb, kp17: 0, kp18: 0, kp19: 0, to4: 0, baseTotal: finalBase, totalChuyen: 0, thongQua: 0, kthtGiu: allTimeMap[cb] ? allTimeMap[cb].kthtGiu : 0, traSua: 0, filteredTotal: 0 };
-        }
-        return map[cb];
-      };
-
       records.forEach(r => {
         const rawCb = r.canBoBBT && r.canBoBBT.trim() ? r.canBoBBT.trim() : 'Khác / Chưa xếp';
         if (isJunk(rawCb)) return;
-        const inChuyen = inR(dChuyen(r));
-        const inTra = inR(dTra(r));
-        if (!inChuyen && !inTra) return;
-        const it = ensure(this.getCanonicalOfficerName(rawCb));
-        const st = r.trangThai || '';
-        if (inChuyen) { it[teamOf(r)]++; it.totalChuyen++; }
-        if (inTra) {
-          if (isThongQua(st)) it.thongQua++;
-          else if (isTraSua(st)) it.traSua++;
-        }
-        it.filteredTotal++;
+        const full = this.getCanonicalOfficerName(rawCb);
+        if (!map[full]) map[full] = { cbtl: full, cbtlFull: full, rawNames: new Set(), kp17: 0, kp18: 0, kp19: 0, to4: 0, total: 0 };
+        const it = map[full];
+        it[teamOf(r)]++;
+        it.total++;
+        if (rawCb !== full) it.rawNames.add(rawCb); // tên gốc theo phiếu (để đối chiếu)
       });
 
-      let list = Object.values(map).filter(item => item.filteredTotal > 0);
-      list.forEach(item => {
-        const at = allTimeMap[item.cbtl];
-        item.allTimeChuyen = at ? at.totalChuyen : 0;
-        item.allTimeThongQua = at ? at.thongQua : 0;
-      });
-      list.sort((a, b) => (b.baseTotal || 0) - (a.baseTotal || 0) || (b.totalChuyen || 0) - (a.totalChuyen || 0) || a.cbtlFull.localeCompare(b.cbtlFull, 'vi'));
+      const list = Object.values(map).map(it => ({ ...it, rawNames: [...it.rawNames] }));
+      list.sort((a, b) => (b.total - a.total) || a.cbtlFull.localeCompare(b.cbtlFull, 'vi'));
       return list;
     },
 
