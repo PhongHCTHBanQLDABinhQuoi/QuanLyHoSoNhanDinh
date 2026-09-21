@@ -61277,7 +61277,7 @@ window.DOSSIER_DATA_LAN2 = [
   {
     "stt": 181,
     "canBoBBT": "Văn Hải",
-    "canBoKTHT": "",
+    "canBoKTHT": "Tùng",
     "ngayChuyen": "08/09/2026",
     "ngayKthtChuyenVe": "",
     "ngayChuyenLan2": "",
@@ -76190,7 +76190,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1448,4",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -76219,7 +76219,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1992,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -87643,14 +87643,14 @@ window.BASE_JOBS_MAP = {
   "1339KP19BQLDAPHMHNGHOICHU": {
     "id": "3378281",
     "name": "1339/KP19/BQLDA - Phạm Hồng Hoài Châu",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378281"
   },
   "1341KP19BQLDANGUYNTHKIMHA": {
     "id": "3378089",
     "name": "1341/KP19/BQLDA - Nguyễn Thị Kim Hóa",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378089"
   },
@@ -87671,7 +87671,7 @@ window.BASE_JOBS_MAP = {
   "1342KP19BQLDANGUYNVNLMNGUYNHIUKHANGNGUYNDUYLP": {
     "id": "3377765",
     "name": "1342/KP19/BQLDA - Nguyễn Văn Lắm - Nguyễn Hiếu Khang - Nguyễn Duy Lập",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377765"
   },
