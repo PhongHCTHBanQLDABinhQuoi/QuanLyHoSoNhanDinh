@@ -92831,7 +92831,7 @@ window.BASE_JOBS_MAP = {
   "1397KP19BQLDANGUYNTHANHPHONGTXUNHOA": {
     "id": "3385483",
     "name": "1397/KP19/BQLDA_ Nguyễn Thanh Phong - Từ Xuân Hoa",
-    "stageId": "116730",
+    "stageId": "116731",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3385483"
   },
