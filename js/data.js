@@ -1985,7 +1985,7 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "142,6",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "03/07/2026",
     "phapChe": "Hiền/Anh",
     "doLuong": "02/07/2026 17:57:56",
@@ -2873,7 +2873,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2000,0",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "01/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "01/07/2026 16:06:37",
@@ -3332,7 +3332,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "698,9",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "03/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "02/07/2026 18:17:10",
@@ -3629,7 +3629,7 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1229,9",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "06/07/2026",
     "phapChe": "Hiền/Anh",
     "doLuong": "03/07/2026 18:19:47",
@@ -5999,7 +5999,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3097,3",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "09/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -6652,10 +6652,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Linh/Nhi",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3384746",
-    "baseJobName": "642/KP17/BQLDA TRẦN VĂN MÂN (VC)",
+    "baseJobId": "3218807",
+    "baseJobName": "142/KP17/BQLDA NGUYỄN THỊ NHỊ",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384746"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218807"
   },
   {
     "stt": 248,
@@ -7862,7 +7862,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1007,3",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "10/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -8669,7 +8669,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "140,40",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -8696,7 +8696,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "86,00",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -14150,30 +14150,30 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 526,
-    "canBoBBT": "Thúy Quyên",
+    "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/07/2026",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 3",
-    "maHoSo": "349/KP19/BQLDA",
-    "hoTen": "Lương Ngọc Anh Đào",
+    "maHoSo": "368/KP19/BQLDA",
+    "hoTen": "Nguyễn Thị Huệ",
     "diaChi": "Không số",
     "duong": "Bình Quới",
     "phuong": "Bình Quới",
-    "toBanDo": "66",
-    "thuaDat": "10",
+    "toBanDo": "69",
+    "thuaDat": "36",
     "khuPho": "19",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "400,1",
+    "giaiToaToanPhan": "445,9",
     "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
     "ghiChu": "22/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215857",
-    "baseJobName": "349/KP19/BQLDALương Ngọc Anh Đào",
+    "baseJobId": "3386297",
+    "baseJobName": "1368/KP19/BQLDA LÊ KIỆT",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215857"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386297"
   },
   {
     "stt": 527,
@@ -15254,7 +15254,7 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 567,
-    "canBoBBT": "Thúy Quyên",
+    "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/07/2026",
     "ngayKthtChuyenVe": "",
@@ -16349,7 +16349,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "450",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "21/07/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -17407,10 +17407,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3395600",
-    "baseJobName": "1439/KP19/BQLDAHuỳnh Đình Nhỏ đại diện",
+    "baseJobId": "3400081",
+    "baseJobName": "839/KP19/BQLDA Huỳnh Văn Hạnh",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395600"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400081"
   },
   {
     "stt": 647,
@@ -21292,10 +21292,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Linh/Nhi",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3384755",
-    "baseJobName": "651/KP17/BQLDA TRẦN VĂN MÂN (VC)",
+    "baseJobId": "3263981",
+    "baseJobName": "151/KP17/BQLDA/PHẠM THỊ MINH NGUYỆT",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384755"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263981"
   },
   {
     "stt": 791,
@@ -21581,7 +21581,7 @@ window.DOSSIER_DATA = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "6171,3",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "30/07/2026",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
@@ -21728,6 +21728,60 @@ window.DOSSIER_DATA = [
   },
   {
     "stt": 807,
+    "canBoBBT": "Bảo Vi",
+    "canBoKTHT": "",
+    "ngayChuyen": "23/07/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "336/KP18/BQLDA",
+    "hoTen": "Bùi Hồng Thái",
+    "diaChi": "558/54/4/5/9",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "147",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3400150",
+    "baseJobName": "336/KP18/BQLDA Bùi Hồng Thái",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400150"
+  },
+  {
+    "stt": 808,
+    "canBoBBT": "Bảo Vi",
+    "canBoKTHT": "",
+    "ngayChuyen": "23/07/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "348/KP18/BQLDA",
+    "hoTen": "Võ Thanh Phương- Bùi Thị Mộng Thúy",
+    "diaChi": "558/54/4/5/9",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "147",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3400173",
+    "baseJobName": "348/KP18/BQLDA Võ Thanh Phương - Bùi Thị Mộng Thúy",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400173"
+  },
+  {
+    "stt": 809,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -21754,7 +21808,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216365"
   },
   {
-    "stt": 808,
+    "stt": 810,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -21781,7 +21835,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216614"
   },
   {
-    "stt": 809,
+    "stt": 811,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -21808,7 +21862,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216382"
   },
   {
-    "stt": 810,
+    "stt": 812,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -21835,7 +21889,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3271775"
   },
   {
-    "stt": 811,
+    "stt": 813,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -21862,7 +21916,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3271780"
   },
   {
-    "stt": 812,
+    "stt": 814,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -21889,7 +21943,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216522"
   },
   {
-    "stt": 813,
+    "stt": 815,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -21916,7 +21970,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3275319"
   },
   {
-    "stt": 814,
+    "stt": 816,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -21937,13 +21991,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3271638",
-    "baseJobName": "1263/KP19/BQLDALưu Thị Duyên",
+    "baseJobId": "3400024",
+    "baseJobName": "1363/KP19/BQLDA Huỳnh Văn Quốc - Nguyễn Thị Kim Ngà",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3271638"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400024"
   },
   {
-    "stt": 815,
+    "stt": 817,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -21970,7 +22024,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215702"
   },
   {
-    "stt": 816,
+    "stt": 818,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -21997,7 +22051,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214741"
   },
   {
-    "stt": 817,
+    "stt": 819,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -22024,7 +22078,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216110"
   },
   {
-    "stt": 818,
+    "stt": 820,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22051,7 +22105,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215621"
   },
   {
-    "stt": 819,
+    "stt": 821,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -22078,7 +22132,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216261"
   },
   {
-    "stt": 820,
+    "stt": 822,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22105,7 +22159,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3376430"
   },
   {
-    "stt": 821,
+    "stt": 823,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22132,7 +22186,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3388684"
   },
   {
-    "stt": 822,
+    "stt": 824,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22159,7 +22213,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3279604"
   },
   {
-    "stt": 823,
+    "stt": 825,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22186,7 +22240,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216225"
   },
   {
-    "stt": 824,
+    "stt": 826,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22213,7 +22267,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397420"
   },
   {
-    "stt": 825,
+    "stt": 827,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22240,7 +22294,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215883"
   },
   {
-    "stt": 826,
+    "stt": 828,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22267,7 +22321,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215880"
   },
   {
-    "stt": 827,
+    "stt": 829,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -22294,7 +22348,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397124"
   },
   {
-    "stt": 828,
+    "stt": 830,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22321,7 +22375,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215611"
   },
   {
-    "stt": 829,
+    "stt": 831,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22348,7 +22402,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3261798"
   },
   {
-    "stt": 830,
+    "stt": 832,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -22375,7 +22429,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395100"
   },
   {
-    "stt": 831,
+    "stt": 833,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22402,7 +22456,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216274"
   },
   {
-    "stt": 832,
+    "stt": 834,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22429,7 +22483,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215907"
   },
   {
-    "stt": 833,
+    "stt": 835,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22456,7 +22510,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215908"
   },
   {
-    "stt": 834,
+    "stt": 836,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22483,7 +22537,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3371478"
   },
   {
-    "stt": 835,
+    "stt": 837,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22510,7 +22564,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276792"
   },
   {
-    "stt": 836,
+    "stt": 838,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22537,7 +22591,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276756"
   },
   {
-    "stt": 837,
+    "stt": 839,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/07/2026",
@@ -22564,7 +22618,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215441"
   },
   {
-    "stt": 838,
+    "stt": 840,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -22591,7 +22645,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216299"
   },
   {
-    "stt": 839,
+    "stt": 841,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22618,7 +22672,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216108"
   },
   {
-    "stt": 840,
+    "stt": 842,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22645,7 +22699,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214813"
   },
   {
-    "stt": 841,
+    "stt": 843,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22672,7 +22726,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215434"
   },
   {
-    "stt": 842,
+    "stt": 844,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22699,7 +22753,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215393"
   },
   {
-    "stt": 843,
+    "stt": 845,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22726,7 +22780,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3273150"
   },
   {
-    "stt": 844,
+    "stt": 846,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22753,7 +22807,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215269"
   },
   {
-    "stt": 845,
+    "stt": 847,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22780,7 +22834,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215267"
   },
   {
-    "stt": 846,
+    "stt": 848,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22807,7 +22861,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215265"
   },
   {
-    "stt": 847,
+    "stt": 849,
     "canBoBBT": "như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22834,7 +22888,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215263"
   },
   {
-    "stt": 848,
+    "stt": 850,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22861,7 +22915,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215544"
   },
   {
-    "stt": 849,
+    "stt": 851,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22888,7 +22942,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216130"
   },
   {
-    "stt": 850,
+    "stt": 852,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22915,7 +22969,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215890"
   },
   {
-    "stt": 851,
+    "stt": 853,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22942,7 +22996,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216178"
   },
   {
-    "stt": 852,
+    "stt": 854,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22969,7 +23023,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216169"
   },
   {
-    "stt": 853,
+    "stt": 855,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -22996,7 +23050,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215697"
   },
   {
-    "stt": 854,
+    "stt": 856,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -23023,7 +23077,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214737"
   },
   {
-    "stt": 855,
+    "stt": 857,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -23050,7 +23104,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316503"
   },
   {
-    "stt": 856,
+    "stt": 858,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -23077,7 +23131,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216905"
   },
   {
-    "stt": 857,
+    "stt": 859,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -23104,7 +23158,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316236"
   },
   {
-    "stt": 858,
+    "stt": 860,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -23131,7 +23185,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
   },
   {
-    "stt": 859,
+    "stt": 861,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -23158,7 +23212,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215509"
   },
   {
-    "stt": 860,
+    "stt": 862,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tài",
     "ngayChuyen": "23/07/2026",
@@ -23185,7 +23239,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215004"
   },
   {
-    "stt": 861,
+    "stt": 863,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "23/07/2026",
@@ -23212,7 +23266,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264051"
   },
   {
-    "stt": 862,
+    "stt": 864,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "23/07/2026",
@@ -23239,7 +23293,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218810"
   },
   {
-    "stt": 863,
+    "stt": 865,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -23266,7 +23320,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3274073"
   },
   {
-    "stt": 864,
+    "stt": 866,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -23293,7 +23347,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264024"
   },
   {
-    "stt": 865,
+    "stt": 867,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -23320,7 +23374,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216309"
   },
   {
-    "stt": 866,
+    "stt": 868,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -23347,7 +23401,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263951"
   },
   {
-    "stt": 867,
+    "stt": 869,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -23374,7 +23428,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218718"
   },
   {
-    "stt": 868,
+    "stt": 870,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "23/07/2026",
@@ -23401,7 +23455,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218713"
   },
   {
-    "stt": 869,
+    "stt": 871,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "An",
     "ngayChuyen": "23/07/2026",
@@ -23428,7 +23482,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215218"
   },
   {
-    "stt": 870,
+    "stt": 872,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23455,7 +23509,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263986"
   },
   {
-    "stt": 871,
+    "stt": 873,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23482,7 +23536,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263982"
   },
   {
-    "stt": 872,
+    "stt": 874,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23509,7 +23563,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264041"
   },
   {
-    "stt": 873,
+    "stt": 875,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23536,7 +23590,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264039"
   },
   {
-    "stt": 874,
+    "stt": 876,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23563,7 +23617,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218692"
   },
   {
-    "stt": 875,
+    "stt": 877,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23590,7 +23644,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218693"
   },
   {
-    "stt": 876,
+    "stt": 878,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23617,7 +23671,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218685"
   },
   {
-    "stt": 877,
+    "stt": 879,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23644,7 +23698,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3266716"
   },
   {
-    "stt": 878,
+    "stt": 880,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/07/2026",
@@ -23671,7 +23725,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384764"
   },
   {
-    "stt": 879,
+    "stt": 881,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -23698,7 +23752,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3334144"
   },
   {
-    "stt": 880,
+    "stt": 882,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -23725,7 +23779,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215793"
   },
   {
-    "stt": 881,
+    "stt": 883,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -23752,7 +23806,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395136"
   },
   {
-    "stt": 882,
+    "stt": 884,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -23779,7 +23833,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215832"
   },
   {
-    "stt": 883,
+    "stt": 885,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -23806,7 +23860,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215296"
   },
   {
-    "stt": 884,
+    "stt": 886,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -23833,7 +23887,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215292"
   },
   {
-    "stt": 885,
+    "stt": 887,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -23860,7 +23914,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215290"
   },
   {
-    "stt": 886,
+    "stt": 888,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -23887,7 +23941,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215282"
   },
   {
-    "stt": 887,
+    "stt": 889,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -23914,7 +23968,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215280"
   },
   {
-    "stt": 888,
+    "stt": 890,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -23941,7 +23995,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215696"
   },
   {
-    "stt": 889,
+    "stt": 891,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -23968,7 +24022,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215698"
   },
   {
-    "stt": 890,
+    "stt": 892,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -23992,7 +24046,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1007/KP17/BQLDA"
   },
   {
-    "stt": 891,
+    "stt": 893,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24016,7 +24070,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=967/KP17/BQLDA"
   },
   {
-    "stt": 892,
+    "stt": 894,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24043,7 +24097,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214777"
   },
   {
-    "stt": 893,
+    "stt": 895,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24070,7 +24124,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215339"
   },
   {
-    "stt": 894,
+    "stt": 896,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24097,7 +24151,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215337"
   },
   {
-    "stt": 895,
+    "stt": 897,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24124,7 +24178,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216158"
   },
   {
-    "stt": 896,
+    "stt": 898,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24151,7 +24205,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216100"
   },
   {
-    "stt": 897,
+    "stt": 899,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24178,7 +24232,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215898"
   },
   {
-    "stt": 898,
+    "stt": 900,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24205,7 +24259,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215897"
   },
   {
-    "stt": 899,
+    "stt": 901,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24232,7 +24286,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215617"
   },
   {
-    "stt": 900,
+    "stt": 902,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24259,7 +24313,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215445"
   },
   {
-    "stt": 901,
+    "stt": 903,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24286,7 +24340,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215412"
   },
   {
-    "stt": 902,
+    "stt": 904,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24313,7 +24367,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215624"
   },
   {
-    "stt": 903,
+    "stt": 905,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24340,7 +24394,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215620"
   },
   {
-    "stt": 904,
+    "stt": 906,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24367,7 +24421,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395039"
   },
   {
-    "stt": 905,
+    "stt": 907,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24394,7 +24448,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216160"
   },
   {
-    "stt": 906,
+    "stt": 908,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24421,7 +24475,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383556"
   },
   {
-    "stt": 907,
+    "stt": 909,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24448,7 +24502,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215440"
   },
   {
-    "stt": 908,
+    "stt": 910,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24475,7 +24529,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215480"
   },
   {
-    "stt": 909,
+    "stt": 911,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -24502,7 +24556,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215493"
   },
   {
-    "stt": 910,
+    "stt": 912,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -24529,7 +24583,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215501"
   },
   {
-    "stt": 911,
+    "stt": 913,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24556,7 +24610,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216302"
   },
   {
-    "stt": 912,
+    "stt": 914,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24583,7 +24637,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215553"
   },
   {
-    "stt": 913,
+    "stt": 915,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24610,7 +24664,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215278"
   },
   {
-    "stt": 914,
+    "stt": 916,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24637,7 +24691,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3337778"
   },
   {
-    "stt": 915,
+    "stt": 917,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -24664,7 +24718,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216229"
   },
   {
-    "stt": 916,
+    "stt": 918,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24691,7 +24745,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215853"
   },
   {
-    "stt": 917,
+    "stt": 919,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24718,7 +24772,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215861"
   },
   {
-    "stt": 918,
+    "stt": 920,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24734,8 +24788,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "37",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "2.Trả về chỉnh sửa",
+    "ghiChu": "Trả về tổ sửa 29/9/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
@@ -24745,7 +24799,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215466"
   },
   {
-    "stt": 919,
+    "stt": 921,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24761,8 +24815,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "36,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "2.Trả về chỉnh sửa",
+    "ghiChu": "Trả về tổ sửa 29/9/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
@@ -24772,7 +24826,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215457"
   },
   {
-    "stt": 920,
+    "stt": 922,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -24799,7 +24853,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3261041"
   },
   {
-    "stt": 921,
+    "stt": 923,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -24826,7 +24880,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397097"
   },
   {
-    "stt": 922,
+    "stt": 924,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -24853,7 +24907,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386428"
   },
   {
-    "stt": 923,
+    "stt": 925,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -24880,7 +24934,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396483"
   },
   {
-    "stt": 924,
+    "stt": 926,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24907,7 +24961,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214820"
   },
   {
-    "stt": 925,
+    "stt": 927,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24934,7 +24988,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215476"
   },
   {
-    "stt": 926,
+    "stt": 928,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24961,7 +25015,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215392"
   },
   {
-    "stt": 927,
+    "stt": 929,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -24988,7 +25042,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215659"
   },
   {
-    "stt": 928,
+    "stt": 930,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25015,7 +25069,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215670"
   },
   {
-    "stt": 929,
+    "stt": 931,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -25042,7 +25096,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216768"
   },
   {
-    "stt": 930,
+    "stt": 932,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -25069,7 +25123,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216765"
   },
   {
-    "stt": 931,
+    "stt": 933,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -25096,7 +25150,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395616"
   },
   {
-    "stt": 932,
+    "stt": 934,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25117,13 +25171,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3384792",
-    "baseJobName": "1357/KP19/BQLDA Nguyễn Thị Kim Hóa",
+    "baseJobId": "3399516",
+    "baseJobName": "1057/KP19/BQLDA Hội Đình Thần Bình Quới Tây",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384792"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399516"
   },
   {
-    "stt": 933,
+    "stt": 935,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "24/07/2026",
@@ -25150,7 +25204,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386297"
   },
   {
-    "stt": 934,
+    "stt": 936,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25177,7 +25231,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215673"
   },
   {
-    "stt": 935,
+    "stt": 937,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25204,7 +25258,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216504"
   },
   {
-    "stt": 936,
+    "stt": 938,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25231,7 +25285,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226668"
   },
   {
-    "stt": 937,
+    "stt": 939,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25258,7 +25312,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216356"
   },
   {
-    "stt": 938,
+    "stt": 940,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25285,7 +25339,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216370"
   },
   {
-    "stt": 939,
+    "stt": 941,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25312,7 +25366,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226674"
   },
   {
-    "stt": 940,
+    "stt": 942,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/07/2026",
@@ -25339,7 +25393,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264084"
   },
   {
-    "stt": 941,
+    "stt": 943,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/07/2026",
@@ -25366,7 +25420,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264081"
   },
   {
-    "stt": 942,
+    "stt": 944,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/07/2026",
@@ -25393,7 +25447,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215120"
   },
   {
-    "stt": 943,
+    "stt": 945,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/07/2026",
@@ -25420,7 +25474,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386574"
   },
   {
-    "stt": 944,
+    "stt": 946,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/07/2026",
@@ -25447,7 +25501,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263989"
   },
   {
-    "stt": 945,
+    "stt": 947,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/07/2026",
@@ -25474,7 +25528,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264080"
   },
   {
-    "stt": 946,
+    "stt": 948,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -25501,7 +25555,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384793"
   },
   {
-    "stt": 947,
+    "stt": 949,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -25528,7 +25582,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3288382"
   },
   {
-    "stt": 948,
+    "stt": 950,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -25555,7 +25609,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264040"
   },
   {
-    "stt": 949,
+    "stt": 951,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -25582,7 +25636,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264431"
   },
   {
-    "stt": 950,
+    "stt": 952,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -25609,7 +25663,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264038"
   },
   {
-    "stt": 951,
+    "stt": 953,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "24/07/2026",
@@ -25636,7 +25690,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264033"
   },
   {
-    "stt": 952,
+    "stt": 954,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -25663,7 +25717,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263981"
   },
   {
-    "stt": 953,
+    "stt": 955,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -25690,7 +25744,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217515"
   },
   {
-    "stt": 954,
+    "stt": 956,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -25717,7 +25771,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215029"
   },
   {
-    "stt": 955,
+    "stt": 957,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -25744,7 +25798,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215033"
   },
   {
-    "stt": 956,
+    "stt": 958,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -25771,7 +25825,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264163"
   },
   {
-    "stt": 957,
+    "stt": 959,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -25798,7 +25852,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3311920"
   },
   {
-    "stt": 958,
+    "stt": 960,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/07/2026",
@@ -25825,7 +25879,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215223"
   },
   {
-    "stt": 959,
+    "stt": 961,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tài",
     "ngayChuyen": "24/07/2026",
@@ -25852,7 +25906,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264151"
   },
   {
-    "stt": 960,
+    "stt": 962,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -25879,7 +25933,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263978"
   },
   {
-    "stt": 961,
+    "stt": 963,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -25906,7 +25960,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3374921"
   },
   {
-    "stt": 962,
+    "stt": 964,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -25933,7 +25987,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218805"
   },
   {
-    "stt": 963,
+    "stt": 965,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -25960,7 +26014,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218803"
   },
   {
-    "stt": 964,
+    "stt": 966,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -25987,7 +26041,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217526"
   },
   {
-    "stt": 965,
+    "stt": 967,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26014,7 +26068,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215939"
   },
   {
-    "stt": 966,
+    "stt": 968,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26035,13 +26089,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215843",
-    "baseJobName": "363/KP19/BQLDANguyễn Văn Tây và các đồng thừa kế của bà Phạm Thị Bảy",
+    "baseJobId": "3400024",
+    "baseJobName": "1363/KP19/BQLDA Huỳnh Văn Quốc - Nguyễn Thị Kim Ngà",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215843"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400024"
   },
   {
-    "stt": 967,
+    "stt": 969,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26068,7 +26122,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397097"
   },
   {
-    "stt": 968,
+    "stt": 970,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26095,7 +26149,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215443"
   },
   {
-    "stt": 969,
+    "stt": 971,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26122,7 +26176,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215419"
   },
   {
-    "stt": 970,
+    "stt": 972,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26149,7 +26203,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215549"
   },
   {
-    "stt": 971,
+    "stt": 973,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26176,7 +26230,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215487"
   },
   {
-    "stt": 972,
+    "stt": 974,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26203,7 +26257,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216903"
   },
   {
-    "stt": 973,
+    "stt": 975,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26230,7 +26284,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216905"
   },
   {
-    "stt": 974,
+    "stt": 976,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26257,7 +26311,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395068"
   },
   {
-    "stt": 975,
+    "stt": 977,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26284,7 +26338,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214814"
   },
   {
-    "stt": 976,
+    "stt": 978,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26311,7 +26365,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215387"
   },
   {
-    "stt": 977,
+    "stt": 979,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26338,7 +26392,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215379"
   },
   {
-    "stt": 978,
+    "stt": 980,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26365,7 +26419,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214790"
   },
   {
-    "stt": 979,
+    "stt": 981,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26392,7 +26446,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214817"
   },
   {
-    "stt": 980,
+    "stt": 982,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26419,7 +26473,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215910"
   },
   {
-    "stt": 981,
+    "stt": 983,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26446,7 +26500,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3334155"
   },
   {
-    "stt": 982,
+    "stt": 984,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26473,7 +26527,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3274781"
   },
   {
-    "stt": 983,
+    "stt": 985,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -26500,7 +26554,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395032"
   },
   {
-    "stt": 984,
+    "stt": 986,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26527,7 +26581,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276792"
   },
   {
-    "stt": 985,
+    "stt": 987,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26554,7 +26608,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393611"
   },
   {
-    "stt": 986,
+    "stt": 988,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26581,7 +26635,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215626"
   },
   {
-    "stt": 987,
+    "stt": 989,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26608,7 +26662,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215603"
   },
   {
-    "stt": 988,
+    "stt": 990,
     "canBoBBT": "Tiến Thành",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26635,7 +26689,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216164"
   },
   {
-    "stt": 989,
+    "stt": 991,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26662,7 +26716,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215298"
   },
   {
-    "stt": 990,
+    "stt": 992,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26689,7 +26743,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215790"
   },
   {
-    "stt": 991,
+    "stt": 993,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -26716,7 +26770,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215671"
   },
   {
-    "stt": 992,
+    "stt": 994,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -26743,7 +26797,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265190"
   },
   {
-    "stt": 993,
+    "stt": 995,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -26770,7 +26824,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215446"
   },
   {
-    "stt": 994,
+    "stt": 996,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -26797,7 +26851,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214765"
   },
   {
-    "stt": 995,
+    "stt": 997,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "27/07/2026",
@@ -26824,7 +26878,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3278916"
   },
   {
-    "stt": 996,
+    "stt": 998,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -26851,7 +26905,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214753"
   },
   {
-    "stt": 997,
+    "stt": 999,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "27/07/2026",
@@ -26878,7 +26932,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215680"
   },
   {
-    "stt": 998,
+    "stt": 1000,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "27/07/2026",
@@ -26905,7 +26959,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214751"
   },
   {
-    "stt": 999,
+    "stt": 1001,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "27/07/2026",
@@ -26932,7 +26986,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214744"
   },
   {
-    "stt": 1000,
+    "stt": 1002,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -26959,7 +27013,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215327"
   },
   {
-    "stt": 1001,
+    "stt": 1003,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -26986,7 +27040,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215323"
   },
   {
-    "stt": 1002,
+    "stt": 1004,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "27/07/2026",
@@ -27013,7 +27067,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215319"
   },
   {
-    "stt": 1003,
+    "stt": 1005,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27040,7 +27094,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215317"
   },
   {
-    "stt": 1004,
+    "stt": 1006,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27067,7 +27121,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215325"
   },
   {
-    "stt": 1005,
+    "stt": 1007,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27094,7 +27148,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216053"
   },
   {
-    "stt": 1006,
+    "stt": 1008,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27121,7 +27175,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216048"
   },
   {
-    "stt": 1007,
+    "stt": 1009,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27148,7 +27202,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216058"
   },
   {
-    "stt": 1008,
+    "stt": 1010,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27175,7 +27229,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215983"
   },
   {
-    "stt": 1009,
+    "stt": 1011,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27202,7 +27256,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216055"
   },
   {
-    "stt": 1010,
+    "stt": 1012,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27229,7 +27283,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216062"
   },
   {
-    "stt": 1011,
+    "stt": 1013,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27256,7 +27310,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3283914"
   },
   {
-    "stt": 1012,
+    "stt": 1014,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -27283,7 +27337,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216043"
   },
   {
-    "stt": 1013,
+    "stt": 1015,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27310,7 +27364,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226629"
   },
   {
-    "stt": 1014,
+    "stt": 1016,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27337,7 +27391,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216420"
   },
   {
-    "stt": 1015,
+    "stt": 1017,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27364,7 +27418,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216381"
   },
   {
-    "stt": 1016,
+    "stt": 1018,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27391,7 +27445,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216540"
   },
   {
-    "stt": 1017,
+    "stt": 1019,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27412,13 +27466,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Hiền/Anh",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3247905",
-    "baseJobName": "436/KP18/BQLDA Phạm Thị Tuyết Nga",
+    "baseJobId": "3400150",
+    "baseJobName": "336/KP18/BQLDA Bùi Hồng Thái",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247905"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400150"
   },
   {
-    "stt": 1018,
+    "stt": 1020,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27445,7 +27499,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216589"
   },
   {
-    "stt": 1019,
+    "stt": 1021,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27472,7 +27526,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3246385"
   },
   {
-    "stt": 1020,
+    "stt": 1022,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27499,7 +27553,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233535"
   },
   {
-    "stt": 1021,
+    "stt": 1023,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "27/07/2026",
@@ -27526,7 +27580,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216377"
   },
   {
-    "stt": 1022,
+    "stt": 1024,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27553,7 +27607,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216437"
   },
   {
-    "stt": 1023,
+    "stt": 1025,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27580,7 +27634,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268668"
   },
   {
-    "stt": 1024,
+    "stt": 1026,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27607,7 +27661,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268231"
   },
   {
-    "stt": 1025,
+    "stt": 1027,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27634,7 +27688,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226614"
   },
   {
-    "stt": 1026,
+    "stt": 1028,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27661,7 +27715,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216578"
   },
   {
-    "stt": 1027,
+    "stt": 1029,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27688,7 +27742,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216393"
   },
   {
-    "stt": 1028,
+    "stt": 1030,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27715,7 +27769,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3273642"
   },
   {
-    "stt": 1029,
+    "stt": 1031,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27742,7 +27796,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226630"
   },
   {
-    "stt": 1030,
+    "stt": 1032,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27769,7 +27823,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216346"
   },
   {
-    "stt": 1031,
+    "stt": 1033,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27796,7 +27850,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216606"
   },
   {
-    "stt": 1032,
+    "stt": 1034,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27823,7 +27877,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268224"
   },
   {
-    "stt": 1033,
+    "stt": 1035,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27850,7 +27904,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226611"
   },
   {
-    "stt": 1034,
+    "stt": 1036,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/07/2026",
@@ -27877,7 +27931,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3277998"
   },
   {
-    "stt": 1035,
+    "stt": 1037,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "27/07/2026",
@@ -27904,7 +27958,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216428"
   },
   {
-    "stt": 1036,
+    "stt": 1038,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "27/07/2026",
@@ -27931,7 +27985,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216412"
   },
   {
-    "stt": 1037,
+    "stt": 1039,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "27/07/2026",
@@ -27958,7 +28012,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226638"
   },
   {
-    "stt": 1038,
+    "stt": 1040,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "27/07/2026",
@@ -27985,7 +28039,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226631"
   },
   {
-    "stt": 1039,
+    "stt": 1041,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -28012,7 +28066,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217506"
   },
   {
-    "stt": 1040,
+    "stt": 1042,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -28039,7 +28093,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217508"
   },
   {
-    "stt": 1041,
+    "stt": 1043,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -28066,7 +28120,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386579"
   },
   {
-    "stt": 1042,
+    "stt": 1044,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -28093,7 +28147,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264013"
   },
   {
-    "stt": 1043,
+    "stt": 1045,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "27/07/2026",
@@ -28120,7 +28174,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218801"
   },
   {
-    "stt": 1044,
+    "stt": 1046,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "27/07/2026",
@@ -28147,7 +28201,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218673"
   },
   {
-    "stt": 1045,
+    "stt": 1047,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28174,7 +28228,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215580"
   },
   {
-    "stt": 1046,
+    "stt": 1048,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28201,7 +28255,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3279604"
   },
   {
-    "stt": 1047,
+    "stt": 1049,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28228,7 +28282,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215590"
   },
   {
-    "stt": 1048,
+    "stt": 1050,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28255,7 +28309,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215604"
   },
   {
-    "stt": 1049,
+    "stt": 1051,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28282,7 +28336,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215570"
   },
   {
-    "stt": 1050,
+    "stt": 1052,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28309,7 +28363,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215652"
   },
   {
-    "stt": 1051,
+    "stt": 1053,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28336,7 +28390,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215599"
   },
   {
-    "stt": 1052,
+    "stt": 1054,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28363,7 +28417,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215597"
   },
   {
-    "stt": 1053,
+    "stt": 1055,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28390,7 +28444,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215595"
   },
   {
-    "stt": 1054,
+    "stt": 1056,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28417,7 +28471,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215593"
   },
   {
-    "stt": 1055,
+    "stt": 1057,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28444,7 +28498,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216277"
   },
   {
-    "stt": 1056,
+    "stt": 1058,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -28471,7 +28525,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396544"
   },
   {
-    "stt": 1057,
+    "stt": 1059,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28498,7 +28552,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395089"
   },
   {
-    "stt": 1058,
+    "stt": 1060,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28525,7 +28579,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396558"
   },
   {
-    "stt": 1059,
+    "stt": 1061,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28552,7 +28606,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215469"
   },
   {
-    "stt": 1060,
+    "stt": 1062,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28579,7 +28633,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215463"
   },
   {
-    "stt": 1061,
+    "stt": 1063,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28606,7 +28660,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377760"
   },
   {
-    "stt": 1062,
+    "stt": 1064,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28633,7 +28687,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302283"
   },
   {
-    "stt": 1063,
+    "stt": 1065,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28660,7 +28714,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216215"
   },
   {
-    "stt": 1064,
+    "stt": 1066,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28687,7 +28741,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372478"
   },
   {
-    "stt": 1065,
+    "stt": 1067,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28714,7 +28768,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216257"
   },
   {
-    "stt": 1066,
+    "stt": 1068,
     "canBoBBT": "Tiến Thành",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28741,7 +28795,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215431"
   },
   {
-    "stt": 1067,
+    "stt": 1069,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28768,7 +28822,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3301631"
   },
   {
-    "stt": 1068,
+    "stt": 1070,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28795,7 +28849,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216020"
   },
   {
-    "stt": 1069,
+    "stt": 1071,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -28822,7 +28876,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216014"
   },
   {
-    "stt": 1070,
+    "stt": 1072,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -28849,7 +28903,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384811"
   },
   {
-    "stt": 1071,
+    "stt": 1073,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -28876,7 +28930,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386539"
   },
   {
-    "stt": 1072,
+    "stt": 1074,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -28903,7 +28957,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397040"
   },
   {
-    "stt": 1073,
+    "stt": 1075,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -28930,7 +28984,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320901"
   },
   {
-    "stt": 1074,
+    "stt": 1076,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -28957,7 +29011,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395071"
   },
   {
-    "stt": 1075,
+    "stt": 1077,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -28984,7 +29038,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214733"
   },
   {
-    "stt": 1076,
+    "stt": 1078,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -29011,7 +29065,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215550"
   },
   {
-    "stt": 1077,
+    "stt": 1079,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -29038,7 +29092,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216087"
   },
   {
-    "stt": 1078,
+    "stt": 1080,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "28/07/2026",
@@ -29065,7 +29119,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216088"
   },
   {
-    "stt": 1079,
+    "stt": 1081,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -29092,7 +29146,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215899"
   },
   {
-    "stt": 1080,
+    "stt": 1082,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -29119,7 +29173,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216147"
   },
   {
-    "stt": 1081,
+    "stt": 1083,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/07/2026",
@@ -29146,7 +29200,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226640"
   },
   {
-    "stt": 1082,
+    "stt": 1084,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/07/2026",
@@ -29173,7 +29227,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226659"
   },
   {
-    "stt": 1083,
+    "stt": 1085,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -29200,7 +29254,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216584"
   },
   {
-    "stt": 1084,
+    "stt": 1086,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "28/07/2026",
@@ -29227,7 +29281,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216441"
   },
   {
-    "stt": 1085,
+    "stt": 1087,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/07/2026",
@@ -29254,7 +29308,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216442"
   },
   {
-    "stt": 1086,
+    "stt": 1088,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29281,7 +29335,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264079"
   },
   {
-    "stt": 1087,
+    "stt": 1089,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29308,7 +29362,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264093"
   },
   {
-    "stt": 1088,
+    "stt": 1090,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29335,7 +29389,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384582"
   },
   {
-    "stt": 1089,
+    "stt": 1091,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29362,7 +29416,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217494"
   },
   {
-    "stt": 1090,
+    "stt": 1092,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29389,7 +29443,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217513"
   },
   {
-    "stt": 1091,
+    "stt": 1093,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29416,7 +29470,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218653"
   },
   {
-    "stt": 1092,
+    "stt": 1094,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29443,7 +29497,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263977"
   },
   {
-    "stt": 1093,
+    "stt": 1095,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29470,7 +29524,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215143"
   },
   {
-    "stt": 1094,
+    "stt": 1096,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "28/07/2026",
@@ -29486,7 +29540,7 @@ window.DOSSIER_DATA = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "497,6",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "03/08/2026",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
@@ -29497,7 +29551,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218802"
   },
   {
-    "stt": 1095,
+    "stt": 1097,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/07/2026",
@@ -29524,7 +29578,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264191"
   },
   {
-    "stt": 1096,
+    "stt": 1098,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29551,7 +29605,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3331999"
   },
   {
-    "stt": 1097,
+    "stt": 1099,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29578,7 +29632,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216537"
   },
   {
-    "stt": 1098,
+    "stt": 1100,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29605,7 +29659,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216325"
   },
   {
-    "stt": 1099,
+    "stt": 1101,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -29632,7 +29686,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216636"
   },
   {
-    "stt": 1100,
+    "stt": 1102,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -29659,7 +29713,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216373"
   },
   {
-    "stt": 1101,
+    "stt": 1103,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -29686,7 +29740,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216495"
   },
   {
-    "stt": 1102,
+    "stt": 1104,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -29713,7 +29767,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3246378"
   },
   {
-    "stt": 1103,
+    "stt": 1105,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -29740,7 +29794,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226673"
   },
   {
-    "stt": 1104,
+    "stt": 1106,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29767,7 +29821,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216383"
   },
   {
-    "stt": 1105,
+    "stt": 1107,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29794,7 +29848,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216368"
   },
   {
-    "stt": 1106,
+    "stt": 1108,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29821,7 +29875,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3291897"
   },
   {
-    "stt": 1107,
+    "stt": 1109,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29848,7 +29902,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216547"
   },
   {
-    "stt": 1108,
+    "stt": 1110,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29875,7 +29929,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216580"
   },
   {
-    "stt": 1109,
+    "stt": 1111,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29902,7 +29956,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226619"
   },
   {
-    "stt": 1110,
+    "stt": 1112,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -29929,7 +29983,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226616"
   },
   {
-    "stt": 1111,
+    "stt": 1113,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -29956,7 +30010,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216620"
   },
   {
-    "stt": 1112,
+    "stt": 1114,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -29983,7 +30037,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216529"
   },
   {
-    "stt": 1113,
+    "stt": 1115,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -30010,7 +30064,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226678"
   },
   {
-    "stt": 1114,
+    "stt": 1116,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -30037,7 +30091,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233591"
   },
   {
-    "stt": 1115,
+    "stt": 1117,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -30064,7 +30118,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320176"
   },
   {
-    "stt": 1116,
+    "stt": 1118,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -30091,7 +30145,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216371"
   },
   {
-    "stt": 1117,
+    "stt": 1119,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -30118,7 +30172,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216597"
   },
   {
-    "stt": 1118,
+    "stt": 1120,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "29/07/2026",
@@ -30145,7 +30199,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216400"
   },
   {
-    "stt": 1119,
+    "stt": 1121,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -30172,7 +30226,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3236089"
   },
   {
-    "stt": 1120,
+    "stt": 1122,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -30199,7 +30253,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383291"
   },
   {
-    "stt": 1121,
+    "stt": 1123,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -30226,7 +30280,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215288"
   },
   {
-    "stt": 1122,
+    "stt": 1124,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -30253,7 +30307,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214722"
   },
   {
-    "stt": 1123,
+    "stt": 1125,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "29/07/2026",
@@ -30280,7 +30334,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215692"
   },
   {
-    "stt": 1124,
+    "stt": 1126,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -30307,7 +30361,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215694"
   },
   {
-    "stt": 1125,
+    "stt": 1127,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -30334,7 +30388,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216093"
   },
   {
-    "stt": 1126,
+    "stt": 1128,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -30361,7 +30415,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3285004"
   },
   {
-    "stt": 1127,
+    "stt": 1129,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -30388,7 +30442,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215276"
   },
   {
-    "stt": 1128,
+    "stt": 1130,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -30415,7 +30469,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395063"
   },
   {
-    "stt": 1129,
+    "stt": 1131,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -30442,7 +30496,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3329801"
   },
   {
-    "stt": 1130,
+    "stt": 1132,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "29/07/2026",
@@ -30469,7 +30523,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3329922"
   },
   {
-    "stt": 1131,
+    "stt": 1133,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "29/07/2026",
@@ -30496,7 +30550,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214824"
   },
   {
-    "stt": 1132,
+    "stt": 1134,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tài",
     "ngayChuyen": "29/07/2026",
@@ -30523,7 +30577,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393663"
   },
   {
-    "stt": 1133,
+    "stt": 1135,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "29/07/2026",
@@ -30550,7 +30604,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215708"
   },
   {
-    "stt": 1134,
+    "stt": 1136,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "29/07/2026",
@@ -30577,7 +30631,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215485"
   },
   {
-    "stt": 1135,
+    "stt": 1137,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "29/07/2026",
@@ -30604,7 +30658,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215636"
   },
   {
-    "stt": 1136,
+    "stt": 1138,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30631,7 +30685,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263963"
   },
   {
-    "stt": 1137,
+    "stt": 1139,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30658,7 +30712,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264000"
   },
   {
-    "stt": 1138,
+    "stt": 1140,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30685,7 +30739,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263994"
   },
   {
-    "stt": 1139,
+    "stt": 1141,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30712,7 +30766,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217514"
   },
   {
-    "stt": 1140,
+    "stt": 1142,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30739,7 +30793,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217503"
   },
   {
-    "stt": 1141,
+    "stt": 1143,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30766,7 +30820,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263957"
   },
   {
-    "stt": 1142,
+    "stt": 1144,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30793,7 +30847,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263959"
   },
   {
-    "stt": 1143,
+    "stt": 1145,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30820,7 +30874,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263966"
   },
   {
-    "stt": 1144,
+    "stt": 1146,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30847,7 +30901,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263958"
   },
   {
-    "stt": 1145,
+    "stt": 1147,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30874,7 +30928,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263964"
   },
   {
-    "stt": 1146,
+    "stt": 1148,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30901,7 +30955,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263963"
   },
   {
-    "stt": 1147,
+    "stt": 1149,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30928,7 +30982,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263961"
   },
   {
-    "stt": 1148,
+    "stt": 1150,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30955,7 +31009,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263944"
   },
   {
-    "stt": 1149,
+    "stt": 1151,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -30982,7 +31036,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264076"
   },
   {
-    "stt": 1150,
+    "stt": 1152,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31009,7 +31063,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263955"
   },
   {
-    "stt": 1151,
+    "stt": 1153,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31036,7 +31090,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263966"
   },
   {
-    "stt": 1152,
+    "stt": 1154,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31063,7 +31117,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263962"
   },
   {
-    "stt": 1153,
+    "stt": 1155,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31090,7 +31144,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263961"
   },
   {
-    "stt": 1154,
+    "stt": 1156,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31117,7 +31171,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263960"
   },
   {
-    "stt": 1155,
+    "stt": 1157,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31144,7 +31198,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263958"
   },
   {
-    "stt": 1156,
+    "stt": 1158,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31171,7 +31225,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263965"
   },
   {
-    "stt": 1157,
+    "stt": 1159,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31198,7 +31252,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263941"
   },
   {
-    "stt": 1158,
+    "stt": 1160,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -31225,7 +31279,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218716"
   },
   {
-    "stt": 1159,
+    "stt": 1161,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -31252,7 +31306,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218715"
   },
   {
-    "stt": 1160,
+    "stt": 1162,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31279,7 +31333,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377177"
   },
   {
-    "stt": 1161,
+    "stt": 1163,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31306,7 +31360,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216332"
   },
   {
-    "stt": 1162,
+    "stt": 1164,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31333,7 +31387,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216558"
   },
   {
-    "stt": 1163,
+    "stt": 1165,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31360,7 +31414,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226628"
   },
   {
-    "stt": 1164,
+    "stt": 1166,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31387,7 +31441,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216594"
   },
   {
-    "stt": 1165,
+    "stt": 1167,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31414,7 +31468,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216585"
   },
   {
-    "stt": 1166,
+    "stt": 1168,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31441,7 +31495,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3281278"
   },
   {
-    "stt": 1167,
+    "stt": 1169,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -31468,7 +31522,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216627"
   },
   {
-    "stt": 1168,
+    "stt": 1170,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31495,7 +31549,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216629"
   },
   {
-    "stt": 1169,
+    "stt": 1171,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31522,7 +31576,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216610"
   },
   {
-    "stt": 1170,
+    "stt": 1172,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31549,7 +31603,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3317125"
   },
   {
-    "stt": 1171,
+    "stt": 1173,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31576,7 +31630,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3305047"
   },
   {
-    "stt": 1172,
+    "stt": 1174,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31603,7 +31657,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216355"
   },
   {
-    "stt": 1173,
+    "stt": 1175,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31630,7 +31684,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216696"
   },
   {
-    "stt": 1174,
+    "stt": 1176,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31657,7 +31711,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233593"
   },
   {
-    "stt": 1175,
+    "stt": 1177,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31684,7 +31738,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216331"
   },
   {
-    "stt": 1176,
+    "stt": 1178,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31711,7 +31765,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3365667"
   },
   {
-    "stt": 1177,
+    "stt": 1179,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31738,7 +31792,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226649"
   },
   {
-    "stt": 1178,
+    "stt": 1180,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31765,7 +31819,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216351"
   },
   {
-    "stt": 1179,
+    "stt": 1181,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "30/07/2026",
@@ -31792,7 +31846,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215856"
   },
   {
-    "stt": 1180,
+    "stt": 1182,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "30/07/2026",
@@ -31819,7 +31873,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386539"
   },
   {
-    "stt": 1181,
+    "stt": 1183,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "30/07/2026",
@@ -31846,7 +31900,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383254"
   },
   {
-    "stt": 1182,
+    "stt": 1184,
     "canBoBBT": "vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -31873,7 +31927,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215467"
   },
   {
-    "stt": 1183,
+    "stt": 1185,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -31900,7 +31954,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
   },
   {
-    "stt": 1184,
+    "stt": 1186,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "30/07/2026",
@@ -31927,7 +31981,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3285004"
   },
   {
-    "stt": 1185,
+    "stt": 1187,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -31954,7 +32008,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215559"
   },
   {
-    "stt": 1186,
+    "stt": 1188,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -31981,7 +32035,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215557"
   },
   {
-    "stt": 1187,
+    "stt": 1189,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "30/07/2026",
@@ -32008,7 +32062,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215416"
   },
   {
-    "stt": 1188,
+    "stt": 1190,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "30/07/2026",
@@ -32035,7 +32089,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215426"
   },
   {
-    "stt": 1189,
+    "stt": 1191,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "30/07/2026",
@@ -32062,7 +32116,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215423"
   },
   {
-    "stt": 1190,
+    "stt": 1192,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32089,7 +32143,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215422"
   },
   {
-    "stt": 1191,
+    "stt": 1193,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32116,7 +32170,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215716"
   },
   {
-    "stt": 1192,
+    "stt": 1194,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32143,7 +32197,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3290143"
   },
   {
-    "stt": 1193,
+    "stt": 1195,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32170,7 +32224,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214726"
   },
   {
-    "stt": 1194,
+    "stt": 1196,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32197,7 +32251,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215746"
   },
   {
-    "stt": 1195,
+    "stt": 1197,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32224,7 +32278,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215710"
   },
   {
-    "stt": 1196,
+    "stt": 1198,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32251,7 +32305,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216265"
   },
   {
-    "stt": 1197,
+    "stt": 1199,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32278,7 +32332,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216263"
   },
   {
-    "stt": 1198,
+    "stt": 1200,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32305,7 +32359,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215568"
   },
   {
-    "stt": 1199,
+    "stt": 1201,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32332,7 +32386,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215600"
   },
   {
-    "stt": 1200,
+    "stt": 1202,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -32359,7 +32413,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215691"
   },
   {
-    "stt": 1201,
+    "stt": 1203,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32386,7 +32440,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396558"
   },
   {
-    "stt": 1202,
+    "stt": 1204,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32413,7 +32467,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397124"
   },
   {
-    "stt": 1203,
+    "stt": 1205,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32440,7 +32494,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395002"
   },
   {
-    "stt": 1204,
+    "stt": 1206,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32467,7 +32521,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3309129"
   },
   {
-    "stt": 1205,
+    "stt": 1207,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32494,7 +32548,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3298211"
   },
   {
-    "stt": 1206,
+    "stt": 1208,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32521,7 +32575,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216183"
   },
   {
-    "stt": 1207,
+    "stt": 1209,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32548,7 +32602,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216002"
   },
   {
-    "stt": 1208,
+    "stt": 1210,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32575,7 +32629,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3275319"
   },
   {
-    "stt": 1209,
+    "stt": 1211,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32602,7 +32656,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215982"
   },
   {
-    "stt": 1210,
+    "stt": 1212,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32629,7 +32683,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3292050"
   },
   {
-    "stt": 1211,
+    "stt": 1213,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32656,7 +32710,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3321058"
   },
   {
-    "stt": 1212,
+    "stt": 1214,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tái",
     "ngayChuyen": "30/07/2026",
@@ -32683,7 +32737,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216172"
   },
   {
-    "stt": 1213,
+    "stt": 1215,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tái",
     "ngayChuyen": "30/07/2026",
@@ -32704,13 +32758,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3384792",
-    "baseJobName": "1357/KP19/BQLDA Nguyễn Thị Kim Hóa",
+    "baseJobId": "3399516",
+    "baseJobName": "1057/KP19/BQLDA Hội Đình Thần Bình Quới Tây",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384792"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399516"
   },
   {
-    "stt": 1214,
+    "stt": 1216,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32737,7 +32791,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214808"
   },
   {
-    "stt": 1215,
+    "stt": 1217,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -32764,7 +32818,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215556"
   },
   {
-    "stt": 1216,
+    "stt": 1218,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -32791,7 +32845,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215810"
   },
   {
-    "stt": 1217,
+    "stt": 1219,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -32818,7 +32872,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215787"
   },
   {
-    "stt": 1218,
+    "stt": 1220,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -32845,7 +32899,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215819"
   },
   {
-    "stt": 1219,
+    "stt": 1221,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -32872,7 +32926,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215807"
   },
   {
-    "stt": 1220,
+    "stt": 1222,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -32899,7 +32953,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215294"
   },
   {
-    "stt": 1221,
+    "stt": 1223,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -32926,7 +32980,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393683"
   },
   {
-    "stt": 1222,
+    "stt": 1224,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -32953,7 +33007,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215811"
   },
   {
-    "stt": 1223,
+    "stt": 1225,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -32980,7 +33034,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215825"
   },
   {
-    "stt": 1224,
+    "stt": 1226,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -33007,7 +33061,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215900"
   },
   {
-    "stt": 1225,
+    "stt": 1227,
     "canBoBBT": "Tiến Thành",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -33034,7 +33088,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215891"
   },
   {
-    "stt": 1226,
+    "stt": 1228,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -33061,7 +33115,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216205"
   },
   {
-    "stt": 1227,
+    "stt": 1229,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33088,7 +33142,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
   },
   {
-    "stt": 1228,
+    "stt": 1230,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33115,7 +33169,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216153"
   },
   {
-    "stt": 1229,
+    "stt": 1231,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33142,7 +33196,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216127"
   },
   {
-    "stt": 1230,
+    "stt": 1232,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33169,7 +33223,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216109"
   },
   {
-    "stt": 1231,
+    "stt": 1233,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33196,7 +33250,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216091"
   },
   {
-    "stt": 1232,
+    "stt": 1234,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33223,7 +33277,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3275012"
   },
   {
-    "stt": 1233,
+    "stt": 1235,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33250,7 +33304,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3236089"
   },
   {
-    "stt": 1234,
+    "stt": 1236,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33277,7 +33331,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216164"
   },
   {
-    "stt": 1235,
+    "stt": 1237,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -33304,7 +33358,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395075"
   },
   {
-    "stt": 1236,
+    "stt": 1238,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -33331,7 +33385,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395611"
   },
   {
-    "stt": 1237,
+    "stt": 1239,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33358,7 +33412,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3275012"
   },
   {
-    "stt": 1238,
+    "stt": 1240,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33385,7 +33439,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265197"
   },
   {
-    "stt": 1239,
+    "stt": 1241,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -33412,7 +33466,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216095"
   },
   {
-    "stt": 1240,
+    "stt": 1242,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "30/07/2026",
@@ -33439,7 +33493,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215345"
   },
   {
-    "stt": 1241,
+    "stt": 1243,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "30/07/2026",
@@ -33460,13 +33514,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3302283",
-    "baseJobName": "1267/KP19/BQLDA Huỳnh Trung Dũng",
+    "baseJobId": "3400034",
+    "baseJobName": "1367/KP19/BQLDA Lưu Thị Duyên",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302283"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400034"
   },
   {
-    "stt": 1242,
+    "stt": 1244,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33493,7 +33547,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218674"
   },
   {
-    "stt": 1243,
+    "stt": 1245,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33520,7 +33574,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3379929"
   },
   {
-    "stt": 1244,
+    "stt": 1246,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33547,7 +33601,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263969"
   },
   {
-    "stt": 1245,
+    "stt": 1247,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33574,7 +33628,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263970"
   },
   {
-    "stt": 1246,
+    "stt": 1248,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33601,7 +33655,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378386"
   },
   {
-    "stt": 1247,
+    "stt": 1249,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33628,7 +33682,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218729"
   },
   {
-    "stt": 1248,
+    "stt": 1250,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33655,7 +33709,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263827"
   },
   {
-    "stt": 1249,
+    "stt": 1251,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33682,7 +33736,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218734"
   },
   {
-    "stt": 1250,
+    "stt": 1252,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33709,7 +33763,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263943"
   },
   {
-    "stt": 1251,
+    "stt": 1253,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33736,7 +33790,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263945"
   },
   {
-    "stt": 1252,
+    "stt": 1254,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33763,7 +33817,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263959"
   },
   {
-    "stt": 1253,
+    "stt": 1255,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33790,7 +33844,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263968"
   },
   {
-    "stt": 1254,
+    "stt": 1256,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33817,7 +33871,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263956"
   },
   {
-    "stt": 1255,
+    "stt": 1257,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33844,7 +33898,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263967"
   },
   {
-    "stt": 1256,
+    "stt": 1258,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33871,7 +33925,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217499"
   },
   {
-    "stt": 1257,
+    "stt": 1259,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33898,7 +33952,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217504"
   },
   {
-    "stt": 1258,
+    "stt": 1260,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33925,7 +33979,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264070"
   },
   {
-    "stt": 1259,
+    "stt": 1261,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "An",
     "ngayChuyen": "30/07/2026",
@@ -33952,7 +34006,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264068"
   },
   {
-    "stt": 1260,
+    "stt": 1262,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -33979,7 +34033,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264061"
   },
   {
-    "stt": 1261,
+    "stt": 1263,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34006,7 +34060,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264067"
   },
   {
-    "stt": 1262,
+    "stt": 1264,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34033,7 +34087,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215030"
   },
   {
-    "stt": 1263,
+    "stt": 1265,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34060,7 +34114,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215031"
   },
   {
-    "stt": 1264,
+    "stt": 1266,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34087,7 +34141,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215035"
   },
   {
-    "stt": 1265,
+    "stt": 1267,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34114,7 +34168,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214916"
   },
   {
-    "stt": 1266,
+    "stt": 1268,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34141,7 +34195,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214916"
   },
   {
-    "stt": 1267,
+    "stt": 1269,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34168,7 +34222,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215023"
   },
   {
-    "stt": 1268,
+    "stt": 1270,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34195,7 +34249,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264078"
   },
   {
-    "stt": 1269,
+    "stt": 1271,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34222,7 +34276,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215122"
   },
   {
-    "stt": 1270,
+    "stt": 1272,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34249,7 +34303,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215123"
   },
   {
-    "stt": 1271,
+    "stt": 1273,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34276,7 +34330,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215124"
   },
   {
-    "stt": 1272,
+    "stt": 1274,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34303,7 +34357,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263999"
   },
   {
-    "stt": 1273,
+    "stt": 1275,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34330,7 +34384,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263996"
   },
   {
-    "stt": 1274,
+    "stt": 1276,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34357,7 +34411,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263998"
   },
   {
-    "stt": 1275,
+    "stt": 1277,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34384,7 +34438,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264009"
   },
   {
-    "stt": 1276,
+    "stt": 1278,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34411,7 +34465,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263993"
   },
   {
-    "stt": 1277,
+    "stt": 1279,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34438,7 +34492,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3323004"
   },
   {
-    "stt": 1278,
+    "stt": 1280,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34465,7 +34519,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264075"
   },
   {
-    "stt": 1279,
+    "stt": 1281,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34492,7 +34546,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263879"
   },
   {
-    "stt": 1280,
+    "stt": 1282,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34519,7 +34573,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263861"
   },
   {
-    "stt": 1281,
+    "stt": 1283,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34546,7 +34600,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263852"
   },
   {
-    "stt": 1282,
+    "stt": 1284,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34573,7 +34627,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214912"
   },
   {
-    "stt": 1283,
+    "stt": 1285,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34600,7 +34654,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263872"
   },
   {
-    "stt": 1284,
+    "stt": 1286,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34627,7 +34681,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264244"
   },
   {
-    "stt": 1285,
+    "stt": 1287,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34654,7 +34708,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264071"
   },
   {
-    "stt": 1286,
+    "stt": 1288,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "30/07/2026",
@@ -34681,7 +34735,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215003"
   },
   {
-    "stt": 1287,
+    "stt": 1289,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "03/08/2026",
@@ -34708,7 +34762,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216616"
   },
   {
-    "stt": 1288,
+    "stt": 1290,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "03/08/2026",
@@ -34735,7 +34789,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226667"
   },
   {
-    "stt": 1289,
+    "stt": 1291,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -34762,7 +34816,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226679"
   },
   {
-    "stt": 1290,
+    "stt": 1292,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -34789,7 +34843,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216602"
   },
   {
-    "stt": 1291,
+    "stt": 1293,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -34816,7 +34870,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216518"
   },
   {
-    "stt": 1292,
+    "stt": 1294,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -34843,7 +34897,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226606"
   },
   {
-    "stt": 1293,
+    "stt": 1295,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -34870,7 +34924,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216536"
   },
   {
-    "stt": 1294,
+    "stt": 1296,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "03/08/2026",
@@ -34897,7 +34951,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3289891"
   },
   {
-    "stt": 1295,
+    "stt": 1297,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -34921,7 +34975,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=259/KP18/BQLDA"
   },
   {
-    "stt": 1296,
+    "stt": 1298,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -34948,7 +35002,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233452"
   },
   {
-    "stt": 1297,
+    "stt": 1299,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -34975,7 +35029,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216466"
   },
   {
-    "stt": 1298,
+    "stt": 1300,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "03/08/2026",
@@ -35002,7 +35056,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226604"
   },
   {
-    "stt": 1299,
+    "stt": 1301,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35029,7 +35083,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216357"
   },
   {
-    "stt": 1300,
+    "stt": 1302,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -35056,7 +35110,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216359"
   },
   {
-    "stt": 1301,
+    "stt": 1303,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35083,7 +35137,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226670"
   },
   {
-    "stt": 1302,
+    "stt": 1304,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35110,7 +35164,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216685"
   },
   {
-    "stt": 1303,
+    "stt": 1305,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35137,7 +35191,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216595"
   },
   {
-    "stt": 1304,
+    "stt": 1306,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35164,7 +35218,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226706"
   },
   {
-    "stt": 1305,
+    "stt": 1307,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35191,7 +35245,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226625"
   },
   {
-    "stt": 1306,
+    "stt": 1308,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35218,7 +35272,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226708"
   },
   {
-    "stt": 1307,
+    "stt": 1309,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35245,7 +35299,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226679"
   },
   {
-    "stt": 1308,
+    "stt": 1310,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35272,7 +35326,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226607"
   },
   {
-    "stt": 1309,
+    "stt": 1311,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35299,7 +35353,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216588"
   },
   {
-    "stt": 1310,
+    "stt": 1312,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35326,7 +35380,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233462"
   },
   {
-    "stt": 1311,
+    "stt": 1313,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35353,7 +35407,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226649"
   },
   {
-    "stt": 1312,
+    "stt": 1314,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35380,7 +35434,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233593"
   },
   {
-    "stt": 1313,
+    "stt": 1315,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35407,7 +35461,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268345"
   },
   {
-    "stt": 1314,
+    "stt": 1316,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35434,7 +35488,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263829"
   },
   {
-    "stt": 1315,
+    "stt": 1317,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35461,7 +35515,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264089"
   },
   {
-    "stt": 1316,
+    "stt": 1318,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35488,7 +35542,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264054"
   },
   {
-    "stt": 1317,
+    "stt": 1319,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35515,7 +35569,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384554"
   },
   {
-    "stt": 1318,
+    "stt": 1320,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35542,7 +35596,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218735"
   },
   {
-    "stt": 1319,
+    "stt": 1321,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35569,7 +35623,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218800"
   },
   {
-    "stt": 1320,
+    "stt": 1322,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "03/08/2026",
@@ -35596,7 +35650,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218788"
   },
   {
-    "stt": 1321,
+    "stt": 1323,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35623,7 +35677,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216761"
   },
   {
-    "stt": 1322,
+    "stt": 1324,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35650,7 +35704,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215131"
   },
   {
-    "stt": 1323,
+    "stt": 1325,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35677,7 +35731,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216281"
   },
   {
-    "stt": 1324,
+    "stt": 1326,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35704,7 +35758,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3292050"
   },
   {
-    "stt": 1325,
+    "stt": 1327,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35731,7 +35785,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215831"
   },
   {
-    "stt": 1326,
+    "stt": 1328,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35758,7 +35812,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395072"
   },
   {
-    "stt": 1327,
+    "stt": 1329,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35785,7 +35839,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216243"
   },
   {
-    "stt": 1328,
+    "stt": 1330,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35812,7 +35866,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214787"
   },
   {
-    "stt": 1329,
+    "stt": 1331,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35839,7 +35893,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214785"
   },
   {
-    "stt": 1330,
+    "stt": 1332,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35866,7 +35920,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215715"
   },
   {
-    "stt": 1331,
+    "stt": 1333,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35893,7 +35947,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214783"
   },
   {
-    "stt": 1332,
+    "stt": 1334,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "03/08/2026",
@@ -35920,7 +35974,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215726"
   },
   {
-    "stt": 1333,
+    "stt": 1335,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -35947,7 +36001,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215355"
   },
   {
-    "stt": 1334,
+    "stt": 1336,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "03/08/2026",
@@ -35974,7 +36028,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395089"
   },
   {
-    "stt": 1335,
+    "stt": 1337,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -36001,7 +36055,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215591"
   },
   {
-    "stt": 1336,
+    "stt": 1338,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -36028,7 +36082,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215632"
   },
   {
-    "stt": 1337,
+    "stt": 1339,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -36055,7 +36109,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215565"
   },
   {
-    "stt": 1338,
+    "stt": 1340,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -36082,7 +36136,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215634"
   },
   {
-    "stt": 1339,
+    "stt": 1341,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -36109,7 +36163,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215579"
   },
   {
-    "stt": 1340,
+    "stt": 1342,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "03/08/2026",
@@ -36136,7 +36190,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215638"
   },
   {
-    "stt": 1341,
+    "stt": 1343,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36163,7 +36217,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216760"
   },
   {
-    "stt": 1342,
+    "stt": 1344,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36190,7 +36244,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216278"
   },
   {
-    "stt": 1343,
+    "stt": 1345,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36217,7 +36271,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216175"
   },
   {
-    "stt": 1344,
+    "stt": 1346,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36244,7 +36298,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395097"
   },
   {
-    "stt": 1345,
+    "stt": 1347,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36271,7 +36325,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395093"
   },
   {
-    "stt": 1346,
+    "stt": 1348,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36298,7 +36352,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215415"
   },
   {
-    "stt": 1347,
+    "stt": 1349,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36325,7 +36379,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215403"
   },
   {
-    "stt": 1348,
+    "stt": 1350,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36352,7 +36406,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215378"
   },
   {
-    "stt": 1349,
+    "stt": 1351,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36379,7 +36433,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265199"
   },
   {
-    "stt": 1350,
+    "stt": 1352,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "04/08/2026",
@@ -36406,7 +36460,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214727"
   },
   {
-    "stt": 1351,
+    "stt": 1353,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -36433,7 +36487,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215683"
   },
   {
-    "stt": 1352,
+    "stt": 1354,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36460,7 +36514,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215540"
   },
   {
-    "stt": 1353,
+    "stt": 1355,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36487,7 +36541,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215538"
   },
   {
-    "stt": 1354,
+    "stt": 1356,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36514,7 +36568,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215536"
   },
   {
-    "stt": 1355,
+    "stt": 1357,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36541,7 +36595,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215534"
   },
   {
-    "stt": 1356,
+    "stt": 1358,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36568,7 +36622,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215530"
   },
   {
-    "stt": 1357,
+    "stt": 1359,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36595,7 +36649,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215528"
   },
   {
-    "stt": 1358,
+    "stt": 1360,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36622,7 +36676,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215526"
   },
   {
-    "stt": 1359,
+    "stt": 1361,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36649,7 +36703,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215524"
   },
   {
-    "stt": 1360,
+    "stt": 1362,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -36676,7 +36730,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395022"
   },
   {
-    "stt": 1361,
+    "stt": 1363,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -36703,7 +36757,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268292"
   },
   {
-    "stt": 1362,
+    "stt": 1364,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36730,7 +36784,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216010"
   },
   {
-    "stt": 1363,
+    "stt": 1365,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36757,7 +36811,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215800"
   },
   {
-    "stt": 1364,
+    "stt": 1366,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36784,7 +36838,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3389641"
   },
   {
-    "stt": 1365,
+    "stt": 1367,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36811,7 +36865,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215284"
   },
   {
-    "stt": 1366,
+    "stt": 1368,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36838,7 +36892,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215817"
   },
   {
-    "stt": 1367,
+    "stt": 1369,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36865,7 +36919,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395092"
   },
   {
-    "stt": 1368,
+    "stt": 1370,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36892,7 +36946,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215737"
   },
   {
-    "stt": 1369,
+    "stt": 1371,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36919,7 +36973,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215678"
   },
   {
-    "stt": 1370,
+    "stt": 1372,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -36946,7 +37000,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214734"
   },
   {
-    "stt": 1371,
+    "stt": 1373,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "04/08/2026",
@@ -36973,7 +37027,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216391"
   },
   {
-    "stt": 1372,
+    "stt": 1374,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37000,7 +37054,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226613"
   },
   {
-    "stt": 1373,
+    "stt": 1375,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37027,7 +37081,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226625"
   },
   {
-    "stt": 1374,
+    "stt": 1376,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37054,7 +37108,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216422"
   },
   {
-    "stt": 1375,
+    "stt": 1377,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "04/08/2026",
@@ -37081,7 +37135,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216423"
   },
   {
-    "stt": 1376,
+    "stt": 1378,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37108,7 +37162,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216392"
   },
   {
-    "stt": 1377,
+    "stt": 1379,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "04/08/2026",
@@ -37135,7 +37189,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3227566"
   },
   {
-    "stt": 1378,
+    "stt": 1380,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "04/08/2026",
@@ -37162,7 +37216,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216334"
   },
   {
-    "stt": 1379,
+    "stt": 1381,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37189,7 +37243,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216514"
   },
   {
-    "stt": 1380,
+    "stt": 1382,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37216,7 +37270,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216358"
   },
   {
-    "stt": 1381,
+    "stt": 1383,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "04/08/2026",
@@ -37243,7 +37297,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226694"
   },
   {
-    "stt": 1382,
+    "stt": 1384,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37270,7 +37324,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3289760"
   },
   {
-    "stt": 1383,
+    "stt": 1385,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "04/08/2026",
@@ -37297,7 +37351,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216415"
   },
   {
-    "stt": 1384,
+    "stt": 1386,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37324,7 +37378,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264069"
   },
   {
-    "stt": 1385,
+    "stt": 1387,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37351,7 +37405,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264074"
   },
   {
-    "stt": 1386,
+    "stt": 1388,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37378,7 +37432,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264010"
   },
   {
-    "stt": 1387,
+    "stt": 1389,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37405,7 +37459,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218728"
   },
   {
-    "stt": 1388,
+    "stt": 1390,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37432,7 +37486,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218731"
   },
   {
-    "stt": 1389,
+    "stt": 1391,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37459,7 +37513,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264020"
   },
   {
-    "stt": 1390,
+    "stt": 1392,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37486,7 +37540,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263980"
   },
   {
-    "stt": 1391,
+    "stt": 1393,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37513,7 +37567,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384831"
   },
   {
-    "stt": 1392,
+    "stt": 1394,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37540,7 +37594,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218699"
   },
   {
-    "stt": 1393,
+    "stt": 1395,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37567,7 +37621,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264244"
   },
   {
-    "stt": 1394,
+    "stt": 1396,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "04/08/2026",
@@ -37594,7 +37648,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218679"
   },
   {
-    "stt": 1395,
+    "stt": 1397,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37621,7 +37675,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262937"
   },
   {
-    "stt": 1396,
+    "stt": 1398,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37648,7 +37702,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216050"
   },
   {
-    "stt": 1397,
+    "stt": 1399,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37675,7 +37729,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216046"
   },
   {
-    "stt": 1398,
+    "stt": 1400,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37702,7 +37756,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216009"
   },
   {
-    "stt": 1399,
+    "stt": 1401,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37729,7 +37783,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216011"
   },
   {
-    "stt": 1400,
+    "stt": 1402,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37756,7 +37810,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214756"
   },
   {
-    "stt": 1401,
+    "stt": 1403,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37783,7 +37837,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216060"
   },
   {
-    "stt": 1402,
+    "stt": 1404,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37810,7 +37864,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216105"
   },
   {
-    "stt": 1403,
+    "stt": 1405,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37837,7 +37891,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302261"
   },
   {
-    "stt": 1404,
+    "stt": 1406,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37864,7 +37918,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302274"
   },
   {
-    "stt": 1405,
+    "stt": 1407,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -37891,7 +37945,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216217"
   },
   {
-    "stt": 1406,
+    "stt": 1408,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -37907,15 +37961,15 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "548,63",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "2.Trả về chỉnh sửa",
+    "ghiChu": "trả hs sửa 29/9/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=324/KP19/BQLDA"
   },
   {
-    "stt": 1407,
+    "stt": 1409,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -37931,8 +37985,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "2.Trả về chỉnh sửa",
+    "ghiChu": "trả hs sửa 29/9/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
@@ -37942,7 +37996,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395084"
   },
   {
-    "stt": 1408,
+    "stt": 1410,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -37958,8 +38012,8 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
+    "trangThai": "2.Trả về chỉnh sửa",
+    "ghiChu": "trả hs sửa 29/9/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
@@ -37969,7 +38023,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395612"
   },
   {
-    "stt": 1409,
+    "stt": 1411,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -37996,7 +38050,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3376175"
   },
   {
-    "stt": 1410,
+    "stt": 1412,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38023,7 +38077,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215836"
   },
   {
-    "stt": 1411,
+    "stt": 1413,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38044,13 +38098,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215839",
-    "baseJobName": "367/KP19/BQLDA &#8220;Trần Văn Kiên Lê Thị Tư&#8221;",
+    "baseJobId": "3400034",
+    "baseJobName": "1367/KP19/BQLDA Lưu Thị Duyên",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215839"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400034"
   },
   {
-    "stt": 1412,
+    "stt": 1414,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38077,7 +38131,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216223"
   },
   {
-    "stt": 1413,
+    "stt": 1415,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38104,7 +38158,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302303"
   },
   {
-    "stt": 1414,
+    "stt": 1416,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38131,7 +38185,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3298211"
   },
   {
-    "stt": 1415,
+    "stt": 1417,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "05/08/2026",
@@ -38158,7 +38212,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215532"
   },
   {
-    "stt": 1416,
+    "stt": 1418,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38185,7 +38239,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395042"
   },
   {
-    "stt": 1417,
+    "stt": 1419,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38212,7 +38266,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214780"
   },
   {
-    "stt": 1418,
+    "stt": 1420,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38239,7 +38293,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216743"
   },
   {
-    "stt": 1419,
+    "stt": 1421,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38266,7 +38320,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215531"
   },
   {
-    "stt": 1420,
+    "stt": 1422,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38293,7 +38347,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214725"
   },
   {
-    "stt": 1421,
+    "stt": 1423,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38320,7 +38374,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215739"
   },
   {
-    "stt": 1422,
+    "stt": 1424,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38347,7 +38401,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215725"
   },
   {
-    "stt": 1423,
+    "stt": 1425,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38374,7 +38428,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215742"
   },
   {
-    "stt": 1424,
+    "stt": 1426,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38401,7 +38455,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215306"
   },
   {
-    "stt": 1425,
+    "stt": 1427,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38428,7 +38482,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216008"
   },
   {
-    "stt": 1426,
+    "stt": 1428,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "05/08/2026",
@@ -38455,7 +38509,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3301631"
   },
   {
-    "stt": 1427,
+    "stt": 1429,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "05/08/2026",
@@ -38482,7 +38536,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215951"
   },
   {
-    "stt": 1428,
+    "stt": 1430,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "05/08/2026",
@@ -38509,7 +38563,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216637"
   },
   {
-    "stt": 1429,
+    "stt": 1431,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "05/08/2026",
@@ -38536,7 +38590,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216632"
   },
   {
-    "stt": 1430,
+    "stt": 1432,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "05/08/2026",
@@ -38563,7 +38617,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3291897"
   },
   {
-    "stt": 1431,
+    "stt": 1433,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "05/08/2026",
@@ -38590,7 +38644,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3289891"
   },
   {
-    "stt": 1432,
+    "stt": 1434,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "05/08/2026",
@@ -38617,7 +38671,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216503"
   },
   {
-    "stt": 1433,
+    "stt": 1435,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -38644,7 +38698,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263976"
   },
   {
-    "stt": 1434,
+    "stt": 1436,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -38671,7 +38725,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3284874"
   },
   {
-    "stt": 1435,
+    "stt": 1437,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -38698,7 +38752,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263974"
   },
   {
-    "stt": 1436,
+    "stt": 1438,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -38725,7 +38779,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3380584"
   },
   {
-    "stt": 1437,
+    "stt": 1439,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -38752,7 +38806,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216410"
   },
   {
-    "stt": 1438,
+    "stt": 1440,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -38779,7 +38833,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216367"
   },
   {
-    "stt": 1439,
+    "stt": 1441,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -38806,7 +38860,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216499"
   },
   {
-    "stt": 1440,
+    "stt": 1442,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -38833,7 +38887,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233537"
   },
   {
-    "stt": 1441,
+    "stt": 1443,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -38860,7 +38914,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216456"
   },
   {
-    "stt": 1442,
+    "stt": 1444,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -38887,7 +38941,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216607"
   },
   {
-    "stt": 1443,
+    "stt": 1445,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -38914,7 +38968,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226605"
   },
   {
-    "stt": 1444,
+    "stt": 1446,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -38941,7 +38995,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215452"
   },
   {
-    "stt": 1445,
+    "stt": 1447,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -38968,7 +39022,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215684"
   },
   {
-    "stt": 1446,
+    "stt": 1448,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -38995,7 +39049,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215718"
   },
   {
-    "stt": 1447,
+    "stt": 1449,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39022,7 +39076,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215640"
   },
   {
-    "stt": 1448,
+    "stt": 1450,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39049,7 +39103,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215575"
   },
   {
-    "stt": 1449,
+    "stt": 1451,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39076,7 +39130,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215573"
   },
   {
-    "stt": 1450,
+    "stt": 1452,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39103,7 +39157,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215650"
   },
   {
-    "stt": 1451,
+    "stt": 1453,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39130,7 +39184,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216122"
   },
   {
-    "stt": 1452,
+    "stt": 1454,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39157,7 +39211,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216092"
   },
   {
-    "stt": 1453,
+    "stt": 1455,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39184,7 +39238,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216106"
   },
   {
-    "stt": 1454,
+    "stt": 1456,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39211,7 +39265,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215363"
   },
   {
-    "stt": 1455,
+    "stt": 1457,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39238,7 +39292,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395071"
   },
   {
-    "stt": 1456,
+    "stt": 1458,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39265,7 +39319,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215625"
   },
   {
-    "stt": 1457,
+    "stt": 1459,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39292,7 +39346,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215619"
   },
   {
-    "stt": 1458,
+    "stt": 1460,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39319,7 +39373,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215615"
   },
   {
-    "stt": 1459,
+    "stt": 1461,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39346,7 +39400,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215574"
   },
   {
-    "stt": 1460,
+    "stt": 1462,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39373,7 +39427,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215586"
   },
   {
-    "stt": 1461,
+    "stt": 1463,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39400,7 +39454,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215561"
   },
   {
-    "stt": 1462,
+    "stt": 1464,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39427,7 +39481,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215498"
   },
   {
-    "stt": 1463,
+    "stt": 1465,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39454,7 +39508,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215496"
   },
   {
-    "stt": 1464,
+    "stt": 1466,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39481,7 +39535,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215517"
   },
   {
-    "stt": 1465,
+    "stt": 1467,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39508,7 +39562,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215353"
   },
   {
-    "stt": 1466,
+    "stt": 1468,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39535,7 +39589,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216300"
   },
   {
-    "stt": 1467,
+    "stt": 1469,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -39562,7 +39616,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218724"
   },
   {
-    "stt": 1468,
+    "stt": 1470,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39589,7 +39643,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215185"
   },
   {
-    "stt": 1469,
+    "stt": 1471,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39616,7 +39670,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218779"
   },
   {
-    "stt": 1470,
+    "stt": 1472,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -39643,7 +39697,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215164"
   },
   {
-    "stt": 1471,
+    "stt": 1473,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39670,7 +39724,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264036"
   },
   {
-    "stt": 1472,
+    "stt": 1474,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39697,7 +39751,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264034"
   },
   {
-    "stt": 1473,
+    "stt": 1475,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39724,7 +39778,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264035"
   },
   {
-    "stt": 1474,
+    "stt": 1476,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39751,7 +39805,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264037"
   },
   {
-    "stt": 1475,
+    "stt": 1477,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39778,7 +39832,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263973"
   },
   {
-    "stt": 1476,
+    "stt": 1478,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39805,7 +39859,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263972"
   },
   {
-    "stt": 1477,
+    "stt": 1479,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39832,7 +39886,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348918"
   },
   {
-    "stt": 1478,
+    "stt": 1480,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39859,7 +39913,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348916"
   },
   {
-    "stt": 1479,
+    "stt": 1481,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39886,7 +39940,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3284877"
   },
   {
-    "stt": 1480,
+    "stt": 1482,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39913,7 +39967,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276652"
   },
   {
-    "stt": 1481,
+    "stt": 1483,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39940,7 +39994,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384794"
   },
   {
-    "stt": 1482,
+    "stt": 1484,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39967,7 +40021,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263852"
   },
   {
-    "stt": 1483,
+    "stt": 1485,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -39994,7 +40048,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264016"
   },
   {
-    "stt": 1484,
+    "stt": 1486,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -40021,7 +40075,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218804"
   },
   {
-    "stt": 1485,
+    "stt": 1487,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -40048,7 +40102,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264095"
   },
   {
-    "stt": 1486,
+    "stt": 1488,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -40075,7 +40129,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3266716"
   },
   {
-    "stt": 1487,
+    "stt": 1489,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -40102,7 +40156,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264029"
   },
   {
-    "stt": 1488,
+    "stt": 1490,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "06/08/2026",
@@ -40129,7 +40183,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264005"
   },
   {
-    "stt": 1489,
+    "stt": 1491,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "An",
     "ngayChuyen": "06/08/2026",
@@ -40156,7 +40210,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263985"
   },
   {
-    "stt": 1490,
+    "stt": 1492,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -40183,7 +40237,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218690"
   },
   {
-    "stt": 1491,
+    "stt": 1493,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -40210,7 +40264,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218691"
   },
   {
-    "stt": 1492,
+    "stt": 1494,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -40237,7 +40291,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264042"
   },
   {
-    "stt": 1493,
+    "stt": 1495,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "06/08/2026",
@@ -40264,7 +40318,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218689"
   },
   {
-    "stt": 1494,
+    "stt": 1496,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40291,7 +40345,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395612"
   },
   {
-    "stt": 1495,
+    "stt": 1497,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "07/08/2026",
@@ -40318,7 +40372,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302267"
   },
   {
-    "stt": 1496,
+    "stt": 1498,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40345,34 +40399,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216094"
   },
   {
-    "stt": 1497,
-    "canBoBBT": "Quang Trãi",
-    "canBoKTHT": "",
-    "ngayChuyen": "07/08/2026",
-    "ngayKthtChuyenVe": "",
-    "toBoiThuong": "Tổ 3",
-    "maHoSo": "1066/KP19/BQLDA",
-    "hoTen": "Đỗ Thị Ánh Tuyết (đại diện)",
-    "diaChi": "Không số",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "66",
-    "thuaDat": "68",
-    "khuPho": "19",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "605,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
-    "phapChe": "Dũng/Tân",
-    "doLuong": "",
-    "trungLap": "",
-    "baseJobId": "3216264",
-    "baseJobName": "66/KP19/BQLDA",
-    "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
-  },
-  {
-    "stt": 1498,
+    "stt": 1499,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40399,7 +40426,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215630"
   },
   {
-    "stt": 1499,
+    "stt": 1500,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40426,7 +40453,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216283"
   },
   {
-    "stt": 1500,
+    "stt": 1501,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40453,7 +40480,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215803"
   },
   {
-    "stt": 1501,
+    "stt": 1502,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40480,7 +40507,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215367"
   },
   {
-    "stt": 1502,
+    "stt": 1503,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40507,7 +40534,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215365"
   },
   {
-    "stt": 1503,
+    "stt": 1504,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "07/08/2026",
@@ -40534,7 +40561,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320433"
   },
   {
-    "stt": 1504,
+    "stt": 1505,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40561,7 +40588,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3332287"
   },
   {
-    "stt": 1505,
+    "stt": 1506,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40588,7 +40615,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215380"
   },
   {
-    "stt": 1506,
+    "stt": 1507,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40615,7 +40642,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3323956"
   },
   {
-    "stt": 1507,
+    "stt": 1508,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tài",
     "ngayChuyen": "07/08/2026",
@@ -40642,7 +40669,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386422"
   },
   {
-    "stt": 1508,
+    "stt": 1509,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "07/08/2026",
@@ -40669,7 +40696,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3319902"
   },
   {
-    "stt": 1509,
+    "stt": 1510,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "07/08/2026",
@@ -40696,7 +40723,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396394"
   },
   {
-    "stt": 1510,
+    "stt": 1511,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "07/08/2026",
@@ -40723,7 +40750,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393611"
   },
   {
-    "stt": 1511,
+    "stt": 1512,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40750,7 +40777,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216101"
   },
   {
-    "stt": 1512,
+    "stt": 1513,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "07/08/2026",
@@ -40777,7 +40804,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216501"
   },
   {
-    "stt": 1513,
+    "stt": 1514,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "07/08/2026",
@@ -40801,7 +40828,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=238/KP18/BQLDA"
   },
   {
-    "stt": 1514,
+    "stt": 1515,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "07/08/2026",
@@ -40828,7 +40855,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216521"
   },
   {
-    "stt": 1515,
+    "stt": 1516,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "07/08/2026",
@@ -40855,7 +40882,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216618"
   },
   {
-    "stt": 1516,
+    "stt": 1517,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "07/08/2026",
@@ -40882,7 +40909,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216354"
   },
   {
-    "stt": 1517,
+    "stt": 1518,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40909,7 +40936,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233466"
   },
   {
-    "stt": 1518,
+    "stt": 1519,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "07/08/2026",
@@ -40936,7 +40963,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216559"
   },
   {
-    "stt": 1519,
+    "stt": 1520,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/08/2026",
@@ -40963,7 +40990,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226708"
   },
   {
-    "stt": 1520,
+    "stt": 1521,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "07/08/2026",
@@ -40990,7 +41017,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216513"
   },
   {
-    "stt": 1521,
+    "stt": 1522,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "07/08/2026",
@@ -41017,7 +41044,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216581"
   },
   {
-    "stt": 1522,
+    "stt": 1523,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/08/2026",
@@ -41044,7 +41071,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215160"
   },
   {
-    "stt": 1523,
+    "stt": 1524,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/08/2026",
@@ -41071,7 +41098,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217500"
   },
   {
-    "stt": 1524,
+    "stt": 1525,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/08/2026",
@@ -41098,7 +41125,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215142"
   },
   {
-    "stt": 1525,
+    "stt": 1526,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/08/2026",
@@ -41125,7 +41152,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263990"
   },
   {
-    "stt": 1526,
+    "stt": 1527,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "07/08/2026",
@@ -41152,7 +41179,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384656"
   },
   {
-    "stt": 1527,
+    "stt": 1528,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41179,7 +41206,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233535"
   },
   {
-    "stt": 1528,
+    "stt": 1529,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41206,7 +41233,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226638"
   },
   {
-    "stt": 1529,
+    "stt": 1530,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41233,7 +41260,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215371"
   },
   {
-    "stt": 1530,
+    "stt": 1531,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41260,7 +41287,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226682"
   },
   {
-    "stt": 1531,
+    "stt": 1532,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41287,7 +41314,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216533"
   },
   {
-    "stt": 1532,
+    "stt": 1533,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41314,7 +41341,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216376"
   },
   {
-    "stt": 1533,
+    "stt": 1534,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41341,7 +41368,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216530"
   },
   {
-    "stt": 1534,
+    "stt": 1535,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41368,7 +41395,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299401"
   },
   {
-    "stt": 1535,
+    "stt": 1536,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41395,7 +41422,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233432"
   },
   {
-    "stt": 1536,
+    "stt": 1537,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41422,7 +41449,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3303634"
   },
   {
-    "stt": 1537,
+    "stt": 1538,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41449,7 +41476,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216587"
   },
   {
-    "stt": 1538,
+    "stt": 1539,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41476,7 +41503,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216398"
   },
   {
-    "stt": 1539,
+    "stt": 1540,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41503,7 +41530,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3301669"
   },
   {
-    "stt": 1540,
+    "stt": 1541,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41530,7 +41557,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215664"
   },
   {
-    "stt": 1541,
+    "stt": 1542,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "10/08/2026",
@@ -41557,7 +41584,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396550"
   },
   {
-    "stt": 1542,
+    "stt": 1543,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41584,7 +41611,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215744"
   },
   {
-    "stt": 1543,
+    "stt": 1544,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41611,7 +41638,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215965"
   },
   {
-    "stt": 1544,
+    "stt": 1545,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41638,7 +41665,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3373943"
   },
   {
-    "stt": 1545,
+    "stt": 1546,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41665,7 +41692,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3357373"
   },
   {
-    "stt": 1546,
+    "stt": 1547,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41692,7 +41719,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216032"
   },
   {
-    "stt": 1547,
+    "stt": 1548,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41719,7 +41746,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215375"
   },
   {
-    "stt": 1548,
+    "stt": 1549,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41746,7 +41773,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386039"
   },
   {
-    "stt": 1549,
+    "stt": 1550,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41773,7 +41800,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215631"
   },
   {
-    "stt": 1550,
+    "stt": 1551,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "10/08/2026",
@@ -41800,7 +41827,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215686"
   },
   {
-    "stt": 1551,
+    "stt": 1552,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41827,7 +41854,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218652"
   },
   {
-    "stt": 1552,
+    "stt": 1553,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41854,7 +41881,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218651"
   },
   {
-    "stt": 1553,
+    "stt": 1554,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "10/08/2026",
@@ -41881,7 +41908,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3286342"
   },
   {
-    "stt": 1554,
+    "stt": 1555,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "10/08/2026",
@@ -41908,7 +41935,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215165"
   },
   {
-    "stt": 1555,
+    "stt": 1556,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -41935,7 +41962,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216369"
   },
   {
-    "stt": 1556,
+    "stt": 1557,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -41962,7 +41989,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233438"
   },
   {
-    "stt": 1557,
+    "stt": 1558,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -41989,7 +42016,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216700"
   },
   {
-    "stt": 1558,
+    "stt": 1559,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42016,7 +42043,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299304"
   },
   {
-    "stt": 1559,
+    "stt": 1560,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42043,7 +42070,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3305047"
   },
   {
-    "stt": 1560,
+    "stt": 1561,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "11/08/2026",
@@ -42070,7 +42097,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216625"
   },
   {
-    "stt": 1561,
+    "stt": 1562,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "11/08/2026",
@@ -42097,7 +42124,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226604"
   },
   {
-    "stt": 1562,
+    "stt": 1563,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "11/08/2026",
@@ -42124,7 +42151,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226678"
   },
   {
-    "stt": 1563,
+    "stt": 1564,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "11/08/2026",
@@ -42151,7 +42178,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216506"
   },
   {
-    "stt": 1564,
+    "stt": 1565,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "11/08/2026",
@@ -42178,7 +42205,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226681"
   },
   {
-    "stt": 1565,
+    "stt": 1566,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "11/08/2026",
@@ -42205,7 +42232,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215444"
   },
   {
-    "stt": 1566,
+    "stt": 1567,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "11/08/2026",
@@ -42232,7 +42259,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215741"
   },
   {
-    "stt": 1567,
+    "stt": 1568,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "11/08/2026",
@@ -42259,7 +42286,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395100"
   },
   {
-    "stt": 1568,
+    "stt": 1569,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "11/08/2026",
@@ -42286,7 +42313,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215555"
   },
   {
-    "stt": 1569,
+    "stt": 1570,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "11/08/2026",
@@ -42313,7 +42340,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215491"
   },
   {
-    "stt": 1570,
+    "stt": 1571,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "11/08/2026",
@@ -42334,13 +42361,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3397420",
-    "baseJobName": "1369/KP19/BQLDA - Nguyễn Văn Hiếu - Hồng Ngọc Phụng",
+    "baseJobId": "3399754",
+    "baseJobName": "1469/KP19/BQLDA Dương Thị Thu Thanh - Hồ Trung Nghĩa",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397420"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399754"
   },
   {
-    "stt": 1571,
+    "stt": 1572,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "11/08/2026",
@@ -42367,7 +42394,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3315417"
   },
   {
-    "stt": 1572,
+    "stt": 1573,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "11/08/2026",
@@ -42394,7 +42421,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3330911"
   },
   {
-    "stt": 1573,
+    "stt": 1574,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "11/08/2026",
@@ -42421,7 +42448,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3319782"
   },
   {
-    "stt": 1574,
+    "stt": 1575,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42448,7 +42475,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3321444"
   },
   {
-    "stt": 1575,
+    "stt": 1576,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42475,7 +42502,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3319878"
   },
   {
-    "stt": 1576,
+    "stt": 1577,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42502,7 +42529,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216090"
   },
   {
-    "stt": 1577,
+    "stt": 1578,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42529,7 +42556,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3290143"
   },
   {
-    "stt": 1578,
+    "stt": 1579,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42556,7 +42583,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215577"
   },
   {
-    "stt": 1579,
+    "stt": 1580,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "11/08/2026",
@@ -42583,7 +42610,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216096"
   },
   {
-    "stt": 1580,
+    "stt": 1581,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -42610,7 +42637,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216445"
   },
   {
-    "stt": 1581,
+    "stt": 1582,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -42637,7 +42664,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3310748"
   },
   {
-    "stt": 1582,
+    "stt": 1583,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -42664,7 +42691,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216484"
   },
   {
-    "stt": 1583,
+    "stt": 1584,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42691,7 +42718,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226635"
   },
   {
-    "stt": 1584,
+    "stt": 1585,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42718,7 +42745,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3297582"
   },
   {
-    "stt": 1585,
+    "stt": 1586,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42745,7 +42772,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216542"
   },
   {
-    "stt": 1586,
+    "stt": 1587,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42772,7 +42799,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216571"
   },
   {
-    "stt": 1587,
+    "stt": 1588,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42799,7 +42826,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216549"
   },
   {
-    "stt": 1588,
+    "stt": 1589,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42826,7 +42853,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216568"
   },
   {
-    "stt": 1589,
+    "stt": 1590,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42853,7 +42880,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216574"
   },
   {
-    "stt": 1590,
+    "stt": 1591,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42880,7 +42907,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216532"
   },
   {
-    "stt": 1591,
+    "stt": 1592,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42907,7 +42934,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226682"
   },
   {
-    "stt": 1592,
+    "stt": 1593,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42924,7 +42951,7 @@ window.DOSSIER_DATA = [
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "159,1",
     "trangThai": "2.Trả về chỉnh sửa",
-    "ghiChu": "",
+    "ghiChu": "trả về tổ sửa 28/9/2026",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
@@ -42934,7 +42961,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215736"
   },
   {
-    "stt": 1593,
+    "stt": 1594,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42961,7 +42988,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215406"
   },
   {
-    "stt": 1594,
+    "stt": 1595,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -42988,7 +43015,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3385483"
   },
   {
-    "stt": 1595,
+    "stt": 1596,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43015,7 +43042,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214825"
   },
   {
-    "stt": 1596,
+    "stt": 1597,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43042,7 +43069,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215506"
   },
   {
-    "stt": 1597,
+    "stt": 1598,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43069,7 +43096,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215533"
   },
   {
-    "stt": 1598,
+    "stt": 1599,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43096,7 +43123,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215488"
   },
   {
-    "stt": 1599,
+    "stt": 1600,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43123,7 +43150,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215527"
   },
   {
-    "stt": 1600,
+    "stt": 1601,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43150,7 +43177,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395606"
   },
   {
-    "stt": 1601,
+    "stt": 1602,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43177,7 +43204,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3308389"
   },
   {
-    "stt": 1602,
+    "stt": 1603,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "12/08/2026",
@@ -43204,7 +43231,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3308389"
   },
   {
-    "stt": 1603,
+    "stt": 1604,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43231,7 +43258,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216022"
   },
   {
-    "stt": 1604,
+    "stt": 1605,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43258,7 +43285,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216102"
   },
   {
-    "stt": 1605,
+    "stt": 1606,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43285,7 +43312,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215646"
   },
   {
-    "stt": 1606,
+    "stt": 1607,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43312,7 +43339,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216070"
   },
   {
-    "stt": 1607,
+    "stt": 1608,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43339,7 +43366,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215605"
   },
   {
-    "stt": 1608,
+    "stt": 1609,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43366,7 +43393,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215609"
   },
   {
-    "stt": 1609,
+    "stt": 1610,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43393,7 +43420,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215581"
   },
   {
-    "stt": 1610,
+    "stt": 1611,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43420,7 +43447,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215569"
   },
   {
-    "stt": 1611,
+    "stt": 1612,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tài",
     "ngayChuyen": "12/08/2026",
@@ -43447,7 +43474,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215720"
   },
   {
-    "stt": 1612,
+    "stt": 1613,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43474,7 +43501,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
   },
   {
-    "stt": 1613,
+    "stt": 1614,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43501,7 +43528,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215672"
   },
   {
-    "stt": 1614,
+    "stt": 1615,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43528,7 +43555,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216057"
   },
   {
-    "stt": 1615,
+    "stt": 1616,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43555,7 +43582,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216005"
   },
   {
-    "stt": 1616,
+    "stt": 1617,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43582,7 +43609,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215975"
   },
   {
-    "stt": 1617,
+    "stt": 1618,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43609,7 +43636,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216052"
   },
   {
-    "stt": 1618,
+    "stt": 1619,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43636,7 +43663,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216037"
   },
   {
-    "stt": 1619,
+    "stt": 1620,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43663,7 +43690,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216047"
   },
   {
-    "stt": 1620,
+    "stt": 1621,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "12/08/2026",
@@ -43690,7 +43717,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216041"
   },
   {
-    "stt": 1621,
+    "stt": 1622,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43717,7 +43744,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216001"
   },
   {
-    "stt": 1622,
+    "stt": 1623,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "12/08/2026",
@@ -43744,7 +43771,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3315417"
   },
   {
-    "stt": 1623,
+    "stt": 1624,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43771,7 +43798,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302343"
   },
   {
-    "stt": 1624,
+    "stt": 1625,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43798,7 +43825,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386574"
   },
   {
-    "stt": 1625,
+    "stt": 1626,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43825,7 +43852,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215158"
   },
   {
-    "stt": 1626,
+    "stt": 1627,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43852,7 +43879,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215157"
   },
   {
-    "stt": 1627,
+    "stt": 1628,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43879,7 +43906,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264089"
   },
   {
-    "stt": 1628,
+    "stt": 1629,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43906,7 +43933,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218696"
   },
   {
-    "stt": 1629,
+    "stt": 1630,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43933,7 +43960,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215198"
   },
   {
-    "stt": 1630,
+    "stt": 1631,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43960,7 +43987,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215197"
   },
   {
-    "stt": 1631,
+    "stt": 1632,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -43987,7 +44014,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215196"
   },
   {
-    "stt": 1632,
+    "stt": 1633,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -44014,7 +44041,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215195"
   },
   {
-    "stt": 1633,
+    "stt": 1634,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "12/08/2026",
@@ -44041,7 +44068,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218717"
   },
   {
-    "stt": 1634,
+    "stt": 1635,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44068,7 +44095,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216583"
   },
   {
-    "stt": 1635,
+    "stt": 1636,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44095,7 +44122,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216394"
   },
   {
-    "stt": 1636,
+    "stt": 1637,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44122,7 +44149,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216474"
   },
   {
-    "stt": 1637,
+    "stt": 1638,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44149,7 +44176,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262817"
   },
   {
-    "stt": 1638,
+    "stt": 1639,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44176,7 +44203,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216526"
   },
   {
-    "stt": 1639,
+    "stt": 1640,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44203,7 +44230,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216572"
   },
   {
-    "stt": 1640,
+    "stt": 1641,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44230,7 +44257,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226642"
   },
   {
-    "stt": 1641,
+    "stt": 1642,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44257,7 +44284,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216535"
   },
   {
-    "stt": 1642,
+    "stt": 1643,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44284,7 +44311,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216619"
   },
   {
-    "stt": 1643,
+    "stt": 1644,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44311,7 +44338,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226641"
   },
   {
-    "stt": 1644,
+    "stt": 1645,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44338,7 +44365,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226612"
   },
   {
-    "stt": 1645,
+    "stt": 1646,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44365,7 +44392,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215834"
   },
   {
-    "stt": 1646,
+    "stt": 1647,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44392,7 +44419,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215437"
   },
   {
-    "stt": 1647,
+    "stt": 1648,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44419,7 +44446,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395107"
   },
   {
-    "stt": 1648,
+    "stt": 1649,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44446,7 +44473,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215286"
   },
   {
-    "stt": 1649,
+    "stt": 1650,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44473,7 +44500,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302283"
   },
   {
-    "stt": 1650,
+    "stt": 1651,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44500,7 +44527,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215405"
   },
   {
-    "stt": 1651,
+    "stt": 1652,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44527,7 +44554,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215408"
   },
   {
-    "stt": 1652,
+    "stt": 1653,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44554,7 +44581,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3309129"
   },
   {
-    "stt": 1653,
+    "stt": 1654,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44581,7 +44608,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262708"
   },
   {
-    "stt": 1654,
+    "stt": 1655,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44608,7 +44635,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316353"
   },
   {
-    "stt": 1655,
+    "stt": 1656,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44635,7 +44662,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316443"
   },
   {
-    "stt": 1656,
+    "stt": 1657,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44662,7 +44689,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316503"
   },
   {
-    "stt": 1657,
+    "stt": 1658,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -44689,7 +44716,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316236"
   },
   {
-    "stt": 1658,
+    "stt": 1659,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44716,7 +44743,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395614"
   },
   {
-    "stt": 1659,
+    "stt": 1660,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44743,7 +44770,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395093"
   },
   {
-    "stt": 1660,
+    "stt": 1661,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44770,7 +44797,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395611"
   },
   {
-    "stt": 1661,
+    "stt": 1662,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44791,13 +44818,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3216759",
-    "baseJobName": "469/KP19/BQLDABùi Văn Tư",
+    "baseJobId": "3399754",
+    "baseJobName": "1469/KP19/BQLDA Dương Thị Thu Thanh - Hồ Trung Nghĩa",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216759"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399754"
   },
   {
-    "stt": 1662,
+    "stt": 1663,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44824,7 +44851,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216089"
   },
   {
-    "stt": 1663,
+    "stt": 1664,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44851,7 +44878,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216075"
   },
   {
-    "stt": 1664,
+    "stt": 1665,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44878,7 +44905,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320901"
   },
   {
-    "stt": 1665,
+    "stt": 1666,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44905,7 +44932,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216078"
   },
   {
-    "stt": 1666,
+    "stt": 1667,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44932,7 +44959,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216086"
   },
   {
-    "stt": 1667,
+    "stt": 1668,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -44959,7 +44986,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216077"
   },
   {
-    "stt": 1668,
+    "stt": 1669,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -44986,7 +45013,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215894"
   },
   {
-    "stt": 1669,
+    "stt": 1670,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45013,7 +45040,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216211"
   },
   {
-    "stt": 1670,
+    "stt": 1671,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45040,7 +45067,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216188"
   },
   {
-    "stt": 1671,
+    "stt": 1672,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45067,7 +45094,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216186"
   },
   {
-    "stt": 1672,
+    "stt": 1673,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45094,7 +45121,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216157"
   },
   {
-    "stt": 1673,
+    "stt": 1674,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45121,7 +45148,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216151"
   },
   {
-    "stt": 1674,
+    "stt": 1675,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45148,7 +45175,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216121"
   },
   {
-    "stt": 1675,
+    "stt": 1676,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45175,7 +45202,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216119"
   },
   {
-    "stt": 1676,
+    "stt": 1677,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45202,7 +45229,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215657"
   },
   {
-    "stt": 1677,
+    "stt": 1678,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45229,7 +45256,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215651"
   },
   {
-    "stt": 1678,
+    "stt": 1679,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45256,7 +45283,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215627"
   },
   {
-    "stt": 1679,
+    "stt": 1680,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45283,7 +45310,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215612"
   },
   {
-    "stt": 1680,
+    "stt": 1681,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45310,7 +45337,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215610"
   },
   {
-    "stt": 1681,
+    "stt": 1682,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45337,7 +45364,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215598"
   },
   {
-    "stt": 1682,
+    "stt": 1683,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45364,7 +45391,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215572"
   },
   {
-    "stt": 1683,
+    "stt": 1684,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45391,7 +45418,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214770"
   },
   {
-    "stt": 1684,
+    "stt": 1685,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "An",
     "ngayChuyen": "13/08/2026",
@@ -45418,7 +45445,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215566"
   },
   {
-    "stt": 1685,
+    "stt": 1686,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -45445,7 +45472,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264523"
   },
   {
-    "stt": 1686,
+    "stt": 1687,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "13/08/2026",
@@ -45472,7 +45499,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215156"
   },
   {
-    "stt": 1687,
+    "stt": 1688,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -45499,7 +45526,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215184"
   },
   {
-    "stt": 1688,
+    "stt": 1689,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -45526,7 +45553,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264065"
   },
   {
-    "stt": 1689,
+    "stt": 1690,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -45553,7 +45580,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218784"
   },
   {
-    "stt": 1690,
+    "stt": 1691,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -45580,7 +45607,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215138"
   },
   {
-    "stt": 1691,
+    "stt": 1692,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -45607,7 +45634,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263932"
   },
   {
-    "stt": 1692,
+    "stt": 1693,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -45634,7 +45661,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264018"
   },
   {
-    "stt": 1693,
+    "stt": 1694,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "13/08/2026",
@@ -45661,7 +45688,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348920"
   },
   {
-    "stt": 1694,
+    "stt": 1695,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "13/08/2026",
@@ -45688,7 +45715,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3333276"
   },
   {
-    "stt": 1695,
+    "stt": 1696,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "13/08/2026",
@@ -45715,7 +45742,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384791"
   },
   {
-    "stt": 1696,
+    "stt": 1697,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "13/08/2026",
@@ -45742,7 +45769,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218681"
   },
   {
-    "stt": 1697,
+    "stt": 1698,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "13/08/2026",
@@ -45769,7 +45796,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263950"
   },
   {
-    "stt": 1698,
+    "stt": 1699,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -45796,7 +45823,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3331999"
   },
   {
-    "stt": 1699,
+    "stt": 1700,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -45823,7 +45850,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216539"
   },
   {
-    "stt": 1700,
+    "stt": 1701,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -45850,7 +45877,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216564"
   },
   {
-    "stt": 1701,
+    "stt": 1702,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -45877,7 +45904,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226626"
   },
   {
-    "stt": 1702,
+    "stt": 1703,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -45904,7 +45931,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216498"
   },
   {
-    "stt": 1703,
+    "stt": 1704,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -45931,7 +45958,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3305827"
   },
   {
-    "stt": 1704,
+    "stt": 1705,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -45958,7 +45985,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216416"
   },
   {
-    "stt": 1705,
+    "stt": 1706,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -45985,7 +46012,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226636"
   },
   {
-    "stt": 1706,
+    "stt": 1707,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46012,7 +46039,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216496"
   },
   {
-    "stt": 1707,
+    "stt": 1708,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46039,7 +46066,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3306969"
   },
   {
-    "stt": 1708,
+    "stt": 1709,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46066,7 +46093,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3270067"
   },
   {
-    "stt": 1709,
+    "stt": 1710,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46093,7 +46120,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233595"
   },
   {
-    "stt": 1710,
+    "stt": 1711,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46120,7 +46147,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268224"
   },
   {
-    "stt": 1711,
+    "stt": 1712,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "14/08/2026",
@@ -46147,7 +46174,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216570"
   },
   {
-    "stt": 1712,
+    "stt": 1713,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "14/08/2026",
@@ -46174,7 +46201,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216413"
   },
   {
-    "stt": 1713,
+    "stt": 1714,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "14/08/2026",
@@ -46201,7 +46228,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216569"
   },
   {
-    "stt": 1714,
+    "stt": 1715,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "14/08/2026",
@@ -46228,7 +46255,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216550"
   },
   {
-    "stt": 1715,
+    "stt": 1716,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46255,7 +46282,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226609"
   },
   {
-    "stt": 1716,
+    "stt": 1717,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46282,7 +46309,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216438"
   },
   {
-    "stt": 1717,
+    "stt": 1718,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46309,7 +46336,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216553"
   },
   {
-    "stt": 1718,
+    "stt": 1719,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46336,7 +46363,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216551"
   },
   {
-    "stt": 1719,
+    "stt": 1720,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46363,7 +46390,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216576"
   },
   {
-    "stt": 1720,
+    "stt": 1721,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46390,7 +46417,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233466"
   },
   {
-    "stt": 1721,
+    "stt": 1722,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46417,7 +46444,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216544"
   },
   {
-    "stt": 1722,
+    "stt": 1723,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46444,7 +46471,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216565"
   },
   {
-    "stt": 1723,
+    "stt": 1724,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46471,7 +46498,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216561"
   },
   {
-    "stt": 1724,
+    "stt": 1725,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46492,13 +46519,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Hiền/Anh",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3226673",
-    "baseJobName": "448/KP18/BQLDA Phan Văn Phước (đã mất) - Võ Thị Ngọc Anh",
+    "baseJobId": "3400173",
+    "baseJobName": "348/KP18/BQLDA Võ Thanh Phương - Bùi Thị Mộng Thúy",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226673"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400173"
   },
   {
-    "stt": 1725,
+    "stt": 1726,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46525,7 +46552,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395605"
   },
   {
-    "stt": 1726,
+    "stt": 1727,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46552,7 +46579,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215404"
   },
   {
-    "stt": 1727,
+    "stt": 1728,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46579,7 +46606,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215459"
   },
   {
-    "stt": 1728,
+    "stt": 1729,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46606,7 +46633,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216137"
   },
   {
-    "stt": 1729,
+    "stt": 1730,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46633,7 +46660,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216134"
   },
   {
-    "stt": 1730,
+    "stt": 1731,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46660,7 +46687,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216099"
   },
   {
-    "stt": 1731,
+    "stt": 1732,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46687,7 +46714,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215709"
   },
   {
-    "stt": 1732,
+    "stt": 1733,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "14/08/2026",
@@ -46714,7 +46741,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214723"
   },
   {
-    "stt": 1733,
+    "stt": 1734,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46741,7 +46768,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218711"
   },
   {
-    "stt": 1734,
+    "stt": 1735,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46768,7 +46795,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218709"
   },
   {
-    "stt": 1735,
+    "stt": 1736,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46795,7 +46822,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218710"
   },
   {
-    "stt": 1736,
+    "stt": 1737,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46822,7 +46849,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215098"
   },
   {
-    "stt": 1737,
+    "stt": 1738,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46849,7 +46876,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216319"
   },
   {
-    "stt": 1738,
+    "stt": 1739,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46876,7 +46903,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218791"
   },
   {
-    "stt": 1739,
+    "stt": 1740,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46903,7 +46930,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218809"
   },
   {
-    "stt": 1740,
+    "stt": 1741,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46930,7 +46957,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264011"
   },
   {
-    "stt": 1741,
+    "stt": 1742,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46957,7 +46984,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264062"
   },
   {
-    "stt": 1742,
+    "stt": 1743,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -46984,7 +47011,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264059"
   },
   {
-    "stt": 1743,
+    "stt": 1744,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47011,7 +47038,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215173"
   },
   {
-    "stt": 1744,
+    "stt": 1745,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47038,7 +47065,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215180"
   },
   {
-    "stt": 1745,
+    "stt": 1746,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47065,7 +47092,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263983"
   },
   {
-    "stt": 1746,
+    "stt": 1747,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47092,7 +47119,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263975"
   },
   {
-    "stt": 1747,
+    "stt": 1748,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47119,7 +47146,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263935"
   },
   {
-    "stt": 1748,
+    "stt": 1749,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47146,7 +47173,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217531"
   },
   {
-    "stt": 1749,
+    "stt": 1750,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47173,7 +47200,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217502"
   },
   {
-    "stt": 1750,
+    "stt": 1751,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47200,7 +47227,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217534"
   },
   {
-    "stt": 1751,
+    "stt": 1752,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "14/08/2026",
@@ -47227,7 +47254,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263936"
   },
   {
-    "stt": 1752,
+    "stt": 1753,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "17/08/2026",
@@ -47254,7 +47281,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216417"
   },
   {
-    "stt": 1753,
+    "stt": 1754,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/08/2026",
@@ -47281,7 +47308,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320176"
   },
   {
-    "stt": 1754,
+    "stt": 1755,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "17/08/2026",
@@ -47308,7 +47335,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226643"
   },
   {
-    "stt": 1755,
+    "stt": 1756,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47335,7 +47362,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216567"
   },
   {
-    "stt": 1756,
+    "stt": 1757,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47362,7 +47389,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247913"
   },
   {
-    "stt": 1757,
+    "stt": 1758,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47389,7 +47416,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3315991"
   },
   {
-    "stt": 1758,
+    "stt": 1759,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47416,7 +47443,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216411"
   },
   {
-    "stt": 1759,
+    "stt": 1760,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47443,7 +47470,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226683"
   },
   {
-    "stt": 1760,
+    "stt": 1761,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47470,7 +47497,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216582"
   },
   {
-    "stt": 1761,
+    "stt": 1762,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47497,7 +47524,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226629"
   },
   {
-    "stt": 1762,
+    "stt": 1763,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47524,7 +47551,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216259"
   },
   {
-    "stt": 1763,
+    "stt": 1764,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/08/2026",
@@ -47551,7 +47578,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215414"
   },
   {
-    "stt": 1764,
+    "stt": 1765,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47578,7 +47605,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215413"
   },
   {
-    "stt": 1765,
+    "stt": 1766,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47605,7 +47632,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320901"
   },
   {
-    "stt": 1766,
+    "stt": 1767,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47632,7 +47659,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216073"
   },
   {
-    "stt": 1767,
+    "stt": 1768,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47659,7 +47686,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216072"
   },
   {
-    "stt": 1768,
+    "stt": 1769,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47686,7 +47713,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216069"
   },
   {
-    "stt": 1769,
+    "stt": 1770,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47713,7 +47740,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3234944"
   },
   {
-    "stt": 1770,
+    "stt": 1771,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47740,7 +47767,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216064"
   },
   {
-    "stt": 1771,
+    "stt": 1772,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47767,7 +47794,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3321058"
   },
   {
-    "stt": 1772,
+    "stt": 1773,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -47794,7 +47821,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215633"
   },
   {
-    "stt": 1773,
+    "stt": 1774,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/08/2026",
@@ -47821,7 +47848,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215255"
   },
   {
-    "stt": 1774,
+    "stt": 1775,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/08/2026",
@@ -47848,7 +47875,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215479"
   },
   {
-    "stt": 1775,
+    "stt": 1776,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "17/08/2026",
@@ -47875,7 +47902,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395610"
   },
   {
-    "stt": 1776,
+    "stt": 1777,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "17/08/2026",
@@ -47896,10 +47923,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=839/KP19/BQLDA"
+    "baseJobId": "3400081",
+    "baseJobName": "839/KP19/BQLDA Huỳnh Văn Hạnh",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400081"
   },
   {
-    "stt": 1777,
+    "stt": 1778,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "17/08/2026",
@@ -47926,7 +47956,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3365196"
   },
   {
-    "stt": 1778,
+    "stt": 1779,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/08/2026",
@@ -47953,7 +47983,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3357373"
   },
   {
-    "stt": 1779,
+    "stt": 1780,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/08/2026",
@@ -47980,7 +48010,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3319902"
   },
   {
-    "stt": 1780,
+    "stt": 1781,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "17/08/2026",
@@ -48007,7 +48037,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215567"
   },
   {
-    "stt": 1781,
+    "stt": 1782,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "17/08/2026",
@@ -48034,7 +48064,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218678"
   },
   {
-    "stt": 1782,
+    "stt": 1783,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "17/08/2026",
@@ -48061,7 +48091,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218786"
   },
   {
-    "stt": 1783,
+    "stt": 1784,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/08/2026",
@@ -48088,7 +48118,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218814"
   },
   {
-    "stt": 1784,
+    "stt": 1785,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/08/2026",
@@ -48115,7 +48145,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218812"
   },
   {
-    "stt": 1785,
+    "stt": 1786,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/08/2026",
@@ -48142,7 +48172,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3311920"
   },
   {
-    "stt": 1786,
+    "stt": 1787,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -48169,7 +48199,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215382"
   },
   {
-    "stt": 1787,
+    "stt": 1788,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48196,7 +48226,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216079"
   },
   {
-    "stt": 1788,
+    "stt": 1789,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -48223,7 +48253,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215704"
   },
   {
-    "stt": 1789,
+    "stt": 1790,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -48250,7 +48280,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215706"
   },
   {
-    "stt": 1790,
+    "stt": 1791,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -48277,7 +48307,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215608"
   },
   {
-    "stt": 1791,
+    "stt": 1792,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48304,7 +48334,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215674"
   },
   {
-    "stt": 1792,
+    "stt": 1793,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48331,7 +48361,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216080"
   },
   {
-    "stt": 1793,
+    "stt": 1794,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -48358,7 +48388,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393890"
   },
   {
-    "stt": 1794,
+    "stt": 1795,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -48385,7 +48415,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395028"
   },
   {
-    "stt": 1795,
+    "stt": 1796,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48412,7 +48442,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383291"
   },
   {
-    "stt": 1796,
+    "stt": 1797,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48439,7 +48469,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3331671"
   },
   {
-    "stt": 1797,
+    "stt": 1798,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48460,13 +48490,13 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3216201",
-    "baseJobName": "98/KP19/BQLDA - Hùynh Đình Tám (HTX)",
+    "baseJobId": "3216050",
+    "baseJobName": "198/KP19/BQLDATrang Thu Mai",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216201"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216050"
   },
   {
-    "stt": 1798,
+    "stt": 1799,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48493,7 +48523,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216197"
   },
   {
-    "stt": 1799,
+    "stt": 1800,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48517,7 +48547,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1258/KP19/BQLDA"
   },
   {
-    "stt": 1800,
+    "stt": 1801,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48544,7 +48574,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216199"
   },
   {
-    "stt": 1801,
+    "stt": 1802,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48571,7 +48601,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216195"
   },
   {
-    "stt": 1802,
+    "stt": 1803,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48598,7 +48628,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265190"
   },
   {
-    "stt": 1803,
+    "stt": 1804,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48625,7 +48655,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216177"
   },
   {
-    "stt": 1804,
+    "stt": 1805,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48652,7 +48682,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216170"
   },
   {
-    "stt": 1805,
+    "stt": 1806,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48679,7 +48709,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216124"
   },
   {
-    "stt": 1806,
+    "stt": 1807,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/08/2026",
@@ -48706,7 +48736,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215347"
   },
   {
-    "stt": 1807,
+    "stt": 1808,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48733,7 +48763,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215174"
   },
   {
-    "stt": 1808,
+    "stt": 1809,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48760,7 +48790,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215159"
   },
   {
-    "stt": 1809,
+    "stt": 1810,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48787,7 +48817,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264082"
   },
   {
-    "stt": 1810,
+    "stt": 1811,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48814,7 +48844,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218682"
   },
   {
-    "stt": 1811,
+    "stt": 1812,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48841,7 +48871,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215102"
   },
   {
-    "stt": 1812,
+    "stt": 1813,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48868,7 +48898,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263987"
   },
   {
-    "stt": 1813,
+    "stt": 1814,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48895,7 +48925,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264266"
   },
   {
-    "stt": 1814,
+    "stt": 1815,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48922,7 +48952,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218730"
   },
   {
-    "stt": 1815,
+    "stt": 1816,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48949,7 +48979,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263952"
   },
   {
-    "stt": 1816,
+    "stt": 1817,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -48976,7 +49006,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263949"
   },
   {
-    "stt": 1817,
+    "stt": 1818,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49003,7 +49033,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3290246"
   },
   {
-    "stt": 1818,
+    "stt": 1819,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49030,7 +49060,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215026"
   },
   {
-    "stt": 1819,
+    "stt": 1820,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49057,7 +49087,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264017"
   },
   {
-    "stt": 1820,
+    "stt": 1821,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49084,7 +49114,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263953"
   },
   {
-    "stt": 1821,
+    "stt": 1822,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49111,7 +49141,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215150"
   },
   {
-    "stt": 1822,
+    "stt": 1823,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49138,7 +49168,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215149"
   },
   {
-    "stt": 1823,
+    "stt": 1824,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49165,7 +49195,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215177"
   },
   {
-    "stt": 1824,
+    "stt": 1825,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49192,7 +49222,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217498"
   },
   {
-    "stt": 1825,
+    "stt": 1826,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49219,7 +49249,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217497"
   },
   {
-    "stt": 1826,
+    "stt": 1827,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49246,7 +49276,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217511"
   },
   {
-    "stt": 1827,
+    "stt": 1828,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49273,7 +49303,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217495"
   },
   {
-    "stt": 1828,
+    "stt": 1829,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49300,7 +49330,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217516"
   },
   {
-    "stt": 1829,
+    "stt": 1830,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49327,7 +49357,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217533"
   },
   {
-    "stt": 1830,
+    "stt": 1831,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49354,7 +49384,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263933"
   },
   {
-    "stt": 1831,
+    "stt": 1832,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49381,7 +49411,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263937"
   },
   {
-    "stt": 1832,
+    "stt": 1833,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49408,7 +49438,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218813"
   },
   {
-    "stt": 1833,
+    "stt": 1834,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -49435,7 +49465,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264004"
   },
   {
-    "stt": 1834,
+    "stt": 1835,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49462,7 +49492,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384676"
   },
   {
-    "stt": 1835,
+    "stt": 1836,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -49489,7 +49519,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264050"
   },
   {
-    "stt": 1836,
+    "stt": 1837,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "18/08/2026",
@@ -49516,7 +49546,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386579"
   },
   {
-    "stt": 1837,
+    "stt": 1838,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "18/08/2026",
@@ -49543,7 +49573,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384567"
   },
   {
-    "stt": 1838,
+    "stt": 1839,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49570,7 +49600,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215999"
   },
   {
-    "stt": 1839,
+    "stt": 1840,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49597,7 +49627,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215987"
   },
   {
-    "stt": 1840,
+    "stt": 1841,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49624,7 +49654,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216019"
   },
   {
-    "stt": 1841,
+    "stt": 1842,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49651,7 +49681,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3326303"
   },
   {
-    "stt": 1842,
+    "stt": 1843,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49678,7 +49708,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214758"
   },
   {
-    "stt": 1843,
+    "stt": 1844,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49705,7 +49735,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216758"
   },
   {
-    "stt": 1844,
+    "stt": 1845,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "19/08/2026",
@@ -49732,7 +49762,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3313758"
   },
   {
-    "stt": 1845,
+    "stt": 1846,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "19/08/2026",
@@ -49759,7 +49789,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395112"
   },
   {
-    "stt": 1846,
+    "stt": 1847,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49786,7 +49816,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215663"
   },
   {
-    "stt": 1847,
+    "stt": 1848,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49813,7 +49843,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
   },
   {
-    "stt": 1848,
+    "stt": 1849,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49840,7 +49870,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216104"
   },
   {
-    "stt": 1849,
+    "stt": 1850,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -49867,7 +49897,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216195"
   },
   {
-    "stt": 1850,
+    "stt": 1851,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "19/08/2026",
@@ -49894,7 +49924,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320433"
   },
   {
-    "stt": 1851,
+    "stt": 1852,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "19/08/2026",
@@ -49921,7 +49951,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395042"
   },
   {
-    "stt": 1852,
+    "stt": 1853,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "19/08/2026",
@@ -49948,7 +49978,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215543"
   },
   {
-    "stt": 1853,
+    "stt": 1854,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "19/08/2026",
@@ -49975,7 +50005,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215519"
   },
   {
-    "stt": 1854,
+    "stt": 1855,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "19/08/2026",
@@ -50002,7 +50032,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215315"
   },
   {
-    "stt": 1855,
+    "stt": 1856,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "19/08/2026",
@@ -50029,7 +50059,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215545"
   },
   {
-    "stt": 1856,
+    "stt": 1857,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "19/08/2026",
@@ -50056,7 +50086,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215547"
   },
   {
-    "stt": 1857,
+    "stt": 1858,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -50083,7 +50113,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216323"
   },
   {
-    "stt": 1858,
+    "stt": 1859,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -50110,7 +50140,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218777"
   },
   {
-    "stt": 1859,
+    "stt": 1860,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -50137,7 +50167,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264053"
   },
   {
-    "stt": 1860,
+    "stt": 1861,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -50161,7 +50191,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=350/KP17/BQLDA"
   },
   {
-    "stt": 1861,
+    "stt": 1862,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -50188,7 +50218,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384645"
   },
   {
-    "stt": 1862,
+    "stt": 1863,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -50215,7 +50245,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264041"
   },
   {
-    "stt": 1863,
+    "stt": 1864,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "19/08/2026",
@@ -50242,7 +50272,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218714"
   },
   {
-    "stt": 1864,
+    "stt": 1865,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50269,7 +50299,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216239"
   },
   {
-    "stt": 1865,
+    "stt": 1866,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50293,7 +50323,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=846/KP19/BQLDA"
   },
   {
-    "stt": 1866,
+    "stt": 1867,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50320,7 +50350,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316443"
   },
   {
-    "stt": 1867,
+    "stt": 1868,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50347,7 +50377,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215432"
   },
   {
-    "stt": 1868,
+    "stt": 1869,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50374,7 +50404,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215383"
   },
   {
-    "stt": 1869,
+    "stt": 1870,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50401,7 +50431,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216255"
   },
   {
-    "stt": 1870,
+    "stt": 1871,
     "canBoBBT": "DUy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/08/2026",
@@ -50428,7 +50458,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215520"
   },
   {
-    "stt": 1871,
+    "stt": 1872,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50455,7 +50485,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215273"
   },
   {
-    "stt": 1872,
+    "stt": 1873,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/08/2026",
@@ -50482,7 +50512,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214778"
   },
   {
-    "stt": 1873,
+    "stt": 1874,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/08/2026",
@@ -50509,7 +50539,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3329922"
   },
   {
-    "stt": 1874,
+    "stt": 1875,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/08/2026",
@@ -50536,7 +50566,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216081"
   },
   {
-    "stt": 1875,
+    "stt": 1876,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/08/2026",
@@ -50563,7 +50593,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215558"
   },
   {
-    "stt": 1876,
+    "stt": 1877,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/08/2026",
@@ -50590,7 +50620,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215472"
   },
   {
-    "stt": 1877,
+    "stt": 1878,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "20/08/2026",
@@ -50617,7 +50647,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215474"
   },
   {
-    "stt": 1878,
+    "stt": 1879,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50644,7 +50674,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215455"
   },
   {
-    "stt": 1879,
+    "stt": 1880,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50671,7 +50701,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215993"
   },
   {
-    "stt": 1880,
+    "stt": 1881,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -50698,7 +50728,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215973"
   },
   {
-    "stt": 1881,
+    "stt": 1882,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50725,7 +50755,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216017"
   },
   {
-    "stt": 1882,
+    "stt": 1883,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50752,7 +50782,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3329801"
   },
   {
-    "stt": 1883,
+    "stt": 1884,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50779,7 +50809,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216023"
   },
   {
-    "stt": 1884,
+    "stt": 1885,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50806,7 +50836,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216033"
   },
   {
-    "stt": 1885,
+    "stt": 1886,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50833,7 +50863,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395125"
   },
   {
-    "stt": 1886,
+    "stt": 1887,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "20/08/2026",
@@ -50860,7 +50890,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3323956"
   },
   {
-    "stt": 1887,
+    "stt": 1888,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -50884,7 +50914,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=894/KP19/BQLDA"
   },
   {
-    "stt": 1888,
+    "stt": 1889,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -50911,7 +50941,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215713"
   },
   {
-    "stt": 1889,
+    "stt": 1890,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -50938,7 +50968,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215429"
   },
   {
-    "stt": 1890,
+    "stt": 1891,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -50965,7 +50995,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215428"
   },
   {
-    "stt": 1891,
+    "stt": 1892,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -50992,7 +51022,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215427"
   },
   {
-    "stt": 1892,
+    "stt": 1893,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -51019,7 +51049,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215492"
   },
   {
-    "stt": 1893,
+    "stt": 1894,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -51046,7 +51076,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215430"
   },
   {
-    "stt": 1894,
+    "stt": 1895,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -51073,7 +51103,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215435"
   },
   {
-    "stt": 1895,
+    "stt": 1896,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -51100,7 +51130,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215449"
   },
   {
-    "stt": 1896,
+    "stt": 1897,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -51127,7 +51157,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215481"
   },
   {
-    "stt": 1897,
+    "stt": 1898,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "20/08/2026",
@@ -51151,7 +51181,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=623/KP19/BQLDA"
   },
   {
-    "stt": 1898,
+    "stt": 1899,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51178,7 +51208,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217525"
   },
   {
-    "stt": 1899,
+    "stt": 1900,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51205,7 +51235,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218683"
   },
   {
-    "stt": 1900,
+    "stt": 1901,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51232,7 +51262,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218686"
   },
   {
-    "stt": 1901,
+    "stt": 1902,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51259,7 +51289,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264072"
   },
   {
-    "stt": 1902,
+    "stt": 1903,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51283,7 +51313,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=446/KP17/BQLDA"
   },
   {
-    "stt": 1903,
+    "stt": 1904,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51310,7 +51340,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264032"
   },
   {
-    "stt": 1904,
+    "stt": 1905,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51337,7 +51367,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263853"
   },
   {
-    "stt": 1905,
+    "stt": 1906,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51364,7 +51394,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263903"
   },
   {
-    "stt": 1906,
+    "stt": 1907,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "20/08/2026",
@@ -51391,7 +51421,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264003"
   },
   {
-    "stt": 1907,
+    "stt": 1908,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51418,7 +51448,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264080"
   },
   {
-    "stt": 1908,
+    "stt": 1909,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51445,7 +51475,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215178"
   },
   {
-    "stt": 1909,
+    "stt": 1910,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51472,7 +51502,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215134"
   },
   {
-    "stt": 1910,
+    "stt": 1911,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51499,7 +51529,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3333276"
   },
   {
-    "stt": 1911,
+    "stt": 1912,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51526,7 +51556,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264049"
   },
   {
-    "stt": 1912,
+    "stt": 1913,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51553,7 +51583,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264045"
   },
   {
-    "stt": 1913,
+    "stt": 1914,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51580,7 +51610,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218789"
   },
   {
-    "stt": 1914,
+    "stt": 1915,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/08/2026",
@@ -51607,7 +51637,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263991"
   },
   {
-    "stt": 1915,
+    "stt": 1916,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "21/08/2026",
@@ -51634,7 +51664,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218781"
   },
   {
-    "stt": 1916,
+    "stt": 1917,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -51661,7 +51691,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3333289"
   },
   {
-    "stt": 1917,
+    "stt": 1918,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51688,7 +51718,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264083"
   },
   {
-    "stt": 1918,
+    "stt": 1919,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51715,7 +51745,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263884"
   },
   {
-    "stt": 1919,
+    "stt": 1920,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51742,7 +51772,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215041"
   },
   {
-    "stt": 1920,
+    "stt": 1921,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51769,7 +51799,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263908"
   },
   {
-    "stt": 1921,
+    "stt": 1922,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51796,7 +51826,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263847"
   },
   {
-    "stt": 1922,
+    "stt": 1923,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -51823,7 +51853,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264044"
   },
   {
-    "stt": 1923,
+    "stt": 1924,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51850,7 +51880,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264047"
   },
   {
-    "stt": 1924,
+    "stt": 1925,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -51877,7 +51907,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264046"
   },
   {
-    "stt": 1925,
+    "stt": 1926,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51904,7 +51934,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263971"
   },
   {
-    "stt": 1926,
+    "stt": 1927,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51931,7 +51961,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218796"
   },
   {
-    "stt": 1927,
+    "stt": 1928,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51958,7 +51988,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218795"
   },
   {
-    "stt": 1928,
+    "stt": 1929,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -51985,7 +52015,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218794"
   },
   {
-    "stt": 1929,
+    "stt": 1930,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -52012,7 +52042,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218793"
   },
   {
-    "stt": 1930,
+    "stt": 1931,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -52039,7 +52069,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218792"
   },
   {
-    "stt": 1931,
+    "stt": 1932,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52066,7 +52096,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215594"
   },
   {
-    "stt": 1932,
+    "stt": 1933,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "24/08/2026",
@@ -52093,7 +52123,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3385320"
   },
   {
-    "stt": 1933,
+    "stt": 1934,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52120,7 +52150,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395032"
   },
   {
-    "stt": 1934,
+    "stt": 1935,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52147,7 +52177,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216067"
   },
   {
-    "stt": 1935,
+    "stt": 1936,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52174,8 +52204,8 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3331671"
   },
   {
-    "stt": 1936,
-    "canBoBBT": "Quang Trãi",
+    "stt": 1937,
+    "canBoBBT": "Như Hà",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
     "ngayKthtChuyenVe": "",
@@ -52201,7 +52231,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215562"
   },
   {
-    "stt": 1937,
+    "stt": 1938,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52228,7 +52258,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215578"
   },
   {
-    "stt": 1938,
+    "stt": 1939,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52244,7 +52274,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "82,4",
-    "trangThai": "3. Hồ sơ thông qua nhận định pháp lý",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -52255,7 +52285,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3330911"
   },
   {
-    "stt": 1939,
+    "stt": 1940,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52282,7 +52312,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215381"
   },
   {
-    "stt": 1940,
+    "stt": 1941,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52309,7 +52339,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3328415"
   },
   {
-    "stt": 1941,
+    "stt": 1942,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52336,7 +52366,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214773"
   },
   {
-    "stt": 1942,
+    "stt": 1943,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52363,7 +52393,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214771"
   },
   {
-    "stt": 1943,
+    "stt": 1944,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52390,7 +52420,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215658"
   },
   {
-    "stt": 1944,
+    "stt": 1945,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52417,7 +52447,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3236106"
   },
   {
-    "stt": 1945,
+    "stt": 1946,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52441,7 +52471,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1278/KP19/BQLDA"
   },
   {
-    "stt": 1946,
+    "stt": 1947,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52468,7 +52498,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396394"
   },
   {
-    "stt": 1947,
+    "stt": 1948,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52495,7 +52525,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316503"
   },
   {
-    "stt": 1948,
+    "stt": 1949,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "24/08/2026",
@@ -52522,7 +52552,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3334155"
   },
   {
-    "stt": 1949,
+    "stt": 1950,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52549,7 +52579,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393663"
   },
   {
-    "stt": 1950,
+    "stt": 1951,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52576,7 +52606,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216189"
   },
   {
-    "stt": 1951,
+    "stt": 1952,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52603,7 +52633,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216191"
   },
   {
-    "stt": 1952,
+    "stt": 1953,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52630,7 +52660,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215661"
   },
   {
-    "stt": 1953,
+    "stt": 1954,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52657,7 +52687,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215655"
   },
   {
-    "stt": 1954,
+    "stt": 1955,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52684,7 +52714,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215653"
   },
   {
-    "stt": 1955,
+    "stt": 1956,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52711,7 +52741,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215649"
   },
   {
-    "stt": 1956,
+    "stt": 1957,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "24/08/2026",
@@ -52738,7 +52768,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215641"
   },
   {
-    "stt": 1957,
+    "stt": 1958,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52765,8 +52795,8 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215592"
   },
   {
-    "stt": 1958,
-    "canBoBBT": "Quang Trãi",
+    "stt": 1959,
+    "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
     "ngayKthtChuyenVe": "",
@@ -52792,7 +52822,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395022"
   },
   {
-    "stt": 1959,
+    "stt": 1960,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52819,7 +52849,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3332287"
   },
   {
-    "stt": 1960,
+    "stt": 1961,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52846,7 +52876,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215442"
   },
   {
-    "stt": 1961,
+    "stt": 1962,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52873,7 +52903,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215734"
   },
   {
-    "stt": 1962,
+    "stt": 1963,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52900,7 +52930,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215523"
   },
   {
-    "stt": 1963,
+    "stt": 1964,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52927,7 +52957,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216179"
   },
   {
-    "stt": 1964,
+    "stt": 1965,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52954,7 +52984,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216172"
   },
   {
-    "stt": 1965,
+    "stt": 1966,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -52981,7 +53011,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216174"
   },
   {
-    "stt": 1966,
+    "stt": 1967,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/08/2026",
@@ -53008,7 +53038,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216302"
   },
   {
-    "stt": 1967,
+    "stt": 1968,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "25/08/2026",
@@ -53035,7 +53065,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264030"
   },
   {
-    "stt": 1968,
+    "stt": 1969,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "25/08/2026",
@@ -53062,7 +53092,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264008"
   },
   {
-    "stt": 1969,
+    "stt": 1970,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "25/08/2026",
@@ -53089,7 +53119,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264031"
   },
   {
-    "stt": 1970,
+    "stt": 1971,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "27/08/2026",
@@ -53116,7 +53146,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218785"
   },
   {
-    "stt": 1971,
+    "stt": 1972,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "27/08/2026",
@@ -53143,7 +53173,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218798"
   },
   {
-    "stt": 1972,
+    "stt": 1973,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "04/09/2026",
@@ -53170,7 +53200,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215892"
   },
   {
-    "stt": 1973,
+    "stt": 1974,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "07/09/2026",
@@ -53197,7 +53227,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395614"
   },
   {
-    "stt": 1974,
+    "stt": 1975,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "08/09/2026",
@@ -53224,7 +53254,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395084"
   },
   {
-    "stt": 1975,
+    "stt": 1976,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "08/09/2026",
@@ -53251,7 +53281,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395072"
   },
   {
-    "stt": 1976,
+    "stt": 1977,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "08/09/2026",
@@ -53278,7 +53308,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216757"
   },
   {
-    "stt": 1977,
+    "stt": 1978,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "09/09/2026",
@@ -53302,7 +53332,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1268/KP19/BQLDA"
   },
   {
-    "stt": 1978,
+    "stt": 1979,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "09/09/2026",
@@ -53326,9 +53356,9 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1298/KP19/BQLDA"
   },
   {
-    "stt": 1979,
+    "stt": 1980,
     "canBoBBT": "Xuân Trúc",
-    "canBoKTHT": "",
+    "canBoKTHT": "An",
     "ngayChuyen": "10/09/2026",
     "ngayKthtChuyenVe": "",
     "toBoiThuong": "Tổ 4",
@@ -53342,7 +53372,7 @@ window.DOSSIER_DATA = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "4057,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -53353,7 +53383,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316353"
   },
   {
-    "stt": 1980,
+    "stt": 1981,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "10/09/2026",
@@ -53380,7 +53410,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395618"
   },
   {
-    "stt": 1981,
+    "stt": 1982,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "",
     "ngayChuyen": "10/09/2026",
@@ -53407,7 +53437,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3365196"
   },
   {
-    "stt": 1982,
+    "stt": 1983,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "10/09/2026",
@@ -53434,7 +53464,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378386"
   },
   {
-    "stt": 1983,
+    "stt": 1984,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "10/09/2026",
@@ -53461,7 +53491,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3338475"
   },
   {
-    "stt": 1984,
+    "stt": 1985,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "10/09/2026",
@@ -53488,7 +53518,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214766"
   },
   {
-    "stt": 1985,
+    "stt": 1986,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53515,7 +53545,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226640"
   },
   {
-    "stt": 1986,
+    "stt": 1987,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53542,7 +53572,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216341"
   },
   {
-    "stt": 1987,
+    "stt": 1988,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53569,7 +53599,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3324808"
   },
   {
-    "stt": 1988,
+    "stt": 1989,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53596,7 +53626,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218798"
   },
   {
-    "stt": 1989,
+    "stt": 1990,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53623,7 +53653,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264029"
   },
   {
-    "stt": 1990,
+    "stt": 1991,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53650,7 +53680,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3380584"
   },
   {
-    "stt": 1991,
+    "stt": 1992,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53674,7 +53704,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1294/KP19/BQLDA"
   },
   {
-    "stt": 1992,
+    "stt": 1993,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53701,7 +53731,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3371478"
   },
   {
-    "stt": 1993,
+    "stt": 1994,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53728,7 +53758,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226603"
   },
   {
-    "stt": 1994,
+    "stt": 1995,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "",
     "ngayChuyen": "11/09/2026",
@@ -53755,7 +53785,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216403"
   },
   {
-    "stt": 1995,
+    "stt": 1996,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -53782,7 +53812,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215024"
   },
   {
-    "stt": 1996,
+    "stt": 1997,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -53809,7 +53839,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264028"
   },
   {
-    "stt": 1997,
+    "stt": 1998,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -53836,7 +53866,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264019"
   },
   {
-    "stt": 1998,
+    "stt": 1999,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
@@ -53863,7 +53893,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264142"
   },
   {
-    "stt": 1999,
+    "stt": 2000,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
@@ -53890,7 +53920,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218707"
   },
   {
-    "stt": 2000,
+    "stt": 2001,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
@@ -53917,7 +53947,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218705"
   },
   {
-    "stt": 2001,
+    "stt": 2002,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
@@ -53944,7 +53974,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218733"
   },
   {
-    "stt": 2002,
+    "stt": 2003,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "14/09/2026",
@@ -53971,7 +54001,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348916"
   },
   {
-    "stt": 2003,
+    "stt": 2004,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -53998,7 +54028,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218726"
   },
   {
-    "stt": 2004,
+    "stt": 2005,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -54025,7 +54055,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218725"
   },
   {
-    "stt": 2005,
+    "stt": 2006,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -54052,7 +54082,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264088"
   },
   {
-    "stt": 2006,
+    "stt": 2007,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -54079,7 +54109,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264086"
   },
   {
-    "stt": 2007,
+    "stt": 2008,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -54106,7 +54136,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264085"
   },
   {
-    "stt": 2008,
+    "stt": 2009,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -54133,7 +54163,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214805"
   },
   {
-    "stt": 2009,
+    "stt": 2010,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "14/09/2026",
@@ -54160,7 +54190,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215302"
   },
   {
-    "stt": 2010,
+    "stt": 2011,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54187,7 +54217,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265199"
   },
   {
-    "stt": 2011,
+    "stt": 2012,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54214,7 +54244,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262930"
   },
   {
-    "stt": 2012,
+    "stt": 2013,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54241,7 +54271,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216738"
   },
   {
-    "stt": 2013,
+    "stt": 2014,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54268,7 +54298,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216082"
   },
   {
-    "stt": 2014,
+    "stt": 2015,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54295,7 +54325,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216143"
   },
   {
-    "stt": 2015,
+    "stt": 2016,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54322,7 +54352,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216181"
   },
   {
-    "stt": 2016,
+    "stt": 2017,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -54349,7 +54379,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384784"
   },
   {
-    "stt": 2017,
+    "stt": 2018,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54376,7 +54406,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264015"
   },
   {
-    "stt": 2018,
+    "stt": 2019,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54403,7 +54433,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348918"
   },
   {
-    "stt": 2019,
+    "stt": 2020,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54430,7 +54460,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377625"
   },
   {
-    "stt": 2020,
+    "stt": 2021,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54457,7 +54487,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395082"
   },
   {
-    "stt": 2021,
+    "stt": 2022,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54484,7 +54514,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3374092"
   },
   {
-    "stt": 2022,
+    "stt": 2023,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "15/09/2026",
@@ -54511,7 +54541,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215351"
   },
   {
-    "stt": 2023,
+    "stt": 2024,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54538,7 +54568,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216336"
   },
   {
-    "stt": 2024,
+    "stt": 2025,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54565,7 +54595,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3352195"
   },
   {
-    "stt": 2025,
+    "stt": 2026,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54592,7 +54622,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264016"
   },
   {
-    "stt": 2026,
+    "stt": 2027,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54619,7 +54649,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218708"
   },
   {
-    "stt": 2027,
+    "stt": 2028,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54646,7 +54676,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218706"
   },
   {
-    "stt": 2028,
+    "stt": 2029,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54673,7 +54703,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3284877"
   },
   {
-    "stt": 2029,
+    "stt": 2030,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54700,7 +54730,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3284874"
   },
   {
-    "stt": 2030,
+    "stt": 2031,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54727,7 +54757,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263984"
   },
   {
-    "stt": 2031,
+    "stt": 2032,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54754,7 +54784,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215628"
   },
   {
-    "stt": 2032,
+    "stt": 2033,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54781,7 +54811,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3385483"
   },
   {
-    "stt": 2033,
+    "stt": 2034,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54808,7 +54838,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3373943"
   },
   {
-    "stt": 2034,
+    "stt": 2035,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "16/09/2026",
@@ -54835,7 +54865,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3371851"
   },
   {
-    "stt": 2035,
+    "stt": 2036,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -54862,7 +54892,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216404"
   },
   {
-    "stt": 2036,
+    "stt": 2037,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -54889,7 +54919,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216405"
   },
   {
-    "stt": 2037,
+    "stt": 2038,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -54913,7 +54943,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1349/KP19/BQLDA"
   },
   {
-    "stt": 2038,
+    "stt": 2039,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -54940,7 +54970,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216195"
   },
   {
-    "stt": 2039,
+    "stt": 2040,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -54967,7 +54997,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216125"
   },
   {
-    "stt": 2040,
+    "stt": 2041,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -54994,7 +55024,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383556"
   },
   {
-    "stt": 2041,
+    "stt": 2042,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55021,7 +55051,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384492"
   },
   {
-    "stt": 2042,
+    "stt": 2043,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55048,7 +55078,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386039"
   },
   {
-    "stt": 2043,
+    "stt": 2044,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55075,7 +55105,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216054"
   },
   {
-    "stt": 2044,
+    "stt": 2045,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55102,7 +55132,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377760"
   },
   {
-    "stt": 2045,
+    "stt": 2046,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55129,7 +55159,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3376175"
   },
   {
-    "stt": 2046,
+    "stt": 2047,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55156,7 +55186,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3371669"
   },
   {
-    "stt": 2047,
+    "stt": 2048,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55183,7 +55213,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216097"
   },
   {
-    "stt": 2048,
+    "stt": 2049,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55210,7 +55240,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216193"
   },
   {
-    "stt": 2049,
+    "stt": 2050,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "",
     "ngayChuyen": "17/09/2026",
@@ -55237,7 +55267,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3352195"
   },
   {
-    "stt": 2050,
+    "stt": 2051,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "x",
     "ngayChuyen": "17/09/2026",
@@ -55261,7 +55291,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=637/KP17/BQLDA"
   },
   {
-    "stt": 2051,
+    "stt": 2052,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55288,7 +55318,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226639"
   },
   {
-    "stt": 2052,
+    "stt": 2053,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55315,7 +55345,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226641"
   },
   {
-    "stt": 2053,
+    "stt": 2054,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55342,7 +55372,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226643"
   },
   {
-    "stt": 2054,
+    "stt": 2055,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55369,7 +55399,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226645"
   },
   {
-    "stt": 2055,
+    "stt": 2056,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55396,7 +55426,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226648"
   },
   {
-    "stt": 2056,
+    "stt": 2057,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "x",
     "ngayChuyen": "18/09/2026",
@@ -55423,7 +55453,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3365667"
   },
   {
-    "stt": 888,
+    "stt": 891,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "x",
     "ngayChuyen": "18/09/2026",
@@ -55450,7 +55480,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216548"
   },
   {
-    "stt": 888,
+    "stt": 891,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "x",
     "ngayChuyen": "18/09/2026",
@@ -55477,7 +55507,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216384"
   },
   {
-    "stt": 888,
+    "stt": 891,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "xx",
     "ngayChuyen": "18/09/2026",
@@ -55504,7 +55534,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216563"
   },
   {
-    "stt": 2060,
+    "stt": 2061,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55531,7 +55561,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3286342"
   },
   {
-    "stt": 2061,
+    "stt": 2062,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55558,7 +55588,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348920"
   },
   {
-    "stt": 2062,
+    "stt": 2063,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55585,7 +55615,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218677"
   },
   {
-    "stt": 2063,
+    "stt": 2064,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55612,7 +55642,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3379929"
   },
   {
-    "stt": 2064,
+    "stt": 2065,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55639,7 +55669,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3380555"
   },
   {
-    "stt": 2065,
+    "stt": 2066,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55666,7 +55696,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378015"
   },
   {
-    "stt": 2066,
+    "stt": 2067,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55693,7 +55723,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377765"
   },
   {
-    "stt": 2067,
+    "stt": 2068,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55720,7 +55750,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216083"
   },
   {
-    "stt": 2068,
+    "stt": 2069,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55747,7 +55777,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3376430"
   },
   {
-    "stt": 2069,
+    "stt": 2070,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55774,7 +55804,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383254"
   },
   {
-    "stt": 2070,
+    "stt": 2071,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55801,7 +55831,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383667"
   },
   {
-    "stt": 2071,
+    "stt": 2072,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55828,7 +55858,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378281"
   },
   {
-    "stt": 2072,
+    "stt": 2073,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55852,7 +55882,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1353/KP19/BQLDA"
   },
   {
-    "stt": 2073,
+    "stt": 2074,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55879,7 +55909,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215478"
   },
   {
-    "stt": 2074,
+    "stt": 2075,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55906,7 +55936,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378089"
   },
   {
-    "stt": 2075,
+    "stt": 2076,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55933,7 +55963,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215475"
   },
   {
-    "stt": 2076,
+    "stt": 2077,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55960,7 +55990,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384257"
   },
   {
-    "stt": 2077,
+    "stt": 2078,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -55984,7 +56014,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1331/KP19/BQLDA"
   },
   {
-    "stt": 2078,
+    "stt": 2079,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -56008,7 +56038,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1381/KP19/BQLDA"
   },
   {
-    "stt": 2079,
+    "stt": 2080,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -56035,7 +56065,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395605"
   },
   {
-    "stt": 2080,
+    "stt": 2081,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -56059,7 +56089,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1345/KP19/BQLDA"
   },
   {
-    "stt": 2081,
+    "stt": 2082,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "",
     "ngayChuyen": "18/09/2026",
@@ -56086,7 +56116,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372478"
   },
   {
-    "stt": 2082,
+    "stt": 2083,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "x",
     "ngayChuyen": "18/09/2026",
@@ -56111,33 +56141,6 @@ window.DOSSIER_DATA = [
     "baseJobName": "371/KP19/BQLDANguyễn Thị Chạm",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215835"
-  },
-  {
-    "stt": 2083,
-    "canBoBBT": "Thiện Như",
-    "canBoKTHT": "x",
-    "ngayChuyen": "18/09/2026",
-    "ngayKthtChuyenVe": "",
-    "toBoiThuong": "Tổ 4",
-    "maHoSo": "368/KP19/BQLDA",
-    "hoTen": "Nguyễn Thị Huệ (HTX)",
-    "diaChi": "không số",
-    "duong": "Bình Quới",
-    "phuong": "Bình Quới",
-    "toBanDo": "69",
-    "thuaDat": "36",
-    "khuPho": "19",
-    "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "553,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
-    "ghiChu": "",
-    "phapChe": "Dũng/Tân",
-    "doLuong": "",
-    "trungLap": "",
-    "baseJobId": "3386297",
-    "baseJobName": "1368/KP19/BQLDA LÊ KIỆT",
-    "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386297"
   },
   {
     "stt": 2084,
@@ -57943,7 +57946,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216285"
   },
   {
-    "stt": 1161,
+    "stt": 1165,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -57970,7 +57973,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386539"
   },
   {
-    "stt": 1161,
+    "stt": 1165,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -57997,7 +58000,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384787"
   },
   {
-    "stt": 1161,
+    "stt": 1165,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -58024,7 +58027,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3333287"
   },
   {
-    "stt": 1162,
+    "stt": 1166,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -58051,7 +58054,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3333270"
   },
   {
-    "stt": 1164,
+    "stt": 1168,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -58078,7 +58081,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3317125"
   },
   {
-    "stt": 1164,
+    "stt": 1168,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -58105,7 +58108,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299296"
   },
   {
-    "stt": 1164,
+    "stt": 1168,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -58132,7 +58135,7 @@ window.DOSSIER_DATA = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299304"
   },
   {
-    "stt": 1164,
+    "stt": 1168,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "",
     "ngayChuyen": "28/09/2026",
@@ -58174,7 +58177,7 @@ window.DOSSIER_DATA = [
     "thuaDat": "MPT170",
     "khuPho": "18",
     "giaiToaMotPhan": "",
-    "giaiToaToanPhan": "",
+    "giaiToaToanPhan": "2453,8",
     "trangThai": "1. Đã chuyển phòng KTHTĐT",
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
@@ -58346,6 +58349,213 @@ window.DOSSIER_DATA = [
     "baseJobName": "49/KP18/BQLDA Đặng Thị Hương",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3385643"
+  },
+  {
+    "stt": 2167,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 4",
+    "maHoSo": "1301/KP19/BQLDA",
+    "hoTen": "Trần Văn Khích (đại diện kê khai )\n Các đồng thừa kế Trần Văn Mót và Nguyễn Thị Sung",
+    "diaChi": "558/66/7B",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "65",
+    "thuaDat": "mpt 258",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "172",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1301/KP19/BQLDA"
+  },
+  {
+    "stt": 2168,
+    "canBoBBT": "Quốc Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 4",
+    "maHoSo": "1411/KP19/BQLDA",
+    "hoTen": "Bùi Thị Ngọc Hiếu",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "65",
+    "thuaDat": "mpt 205",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "133,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1411/KP19/BQLDA"
+  },
+  {
+    "stt": 2169,
+    "canBoBBT": "Ngọc Trân",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 4",
+    "maHoSo": "1416/KP19/BQLDA",
+    "hoTen": "Ngô Huy Phong",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "65",
+    "thuaDat": "256",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "407,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1416/KP19/BQLDA"
+  },
+  {
+    "stt": 2170,
+    "canBoBBT": "Uyên Như",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 1",
+    "maHoSo": "566/KP17/BQLDA",
+    "hoTen": "Nguyễn Ngọc Huệ",
+    "diaChi": "558/15/14",
+    "duong": "Bình Quới",
+    "phuong": "17",
+    "toBanDo": "42",
+    "thuaDat": "MP405",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "998",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3218778",
+    "baseJobName": "566/KP17/BQLDA NGUYỄN NGỌC HUỆ",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218778"
+  },
+  {
+    "stt": 2171,
+    "canBoBBT": "Uyên Như",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 1",
+    "maHoSo": "155/KP17/BQLDA",
+    "hoTen": "Nguyễn Ngọc Phúc",
+    "diaChi": "558/15/14",
+    "duong": "Bình Quới",
+    "phuong": "17",
+    "toBanDo": "41",
+    "thuaDat": "104",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3263979",
+    "baseJobName": "155/KP17/BQLDA/NGUYỄN NGỌC PHÚC",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263979"
+  },
+  {
+    "stt": 2172,
+    "canBoBBT": "Duy Bảo",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "624/KP19/BQLDA",
+    "hoTen": "Huỳnh Thị Hai (HTX)",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "68",
+    "thuaDat": "MPT 7,20,21,22,23,26,28",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "9440,7",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3334144",
+    "baseJobName": "624/KP19/BQLDA HUỲNH THỊ HAI",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3334144"
+  },
+  {
+    "stt": 2173,
+    "canBoBBT": "Vinh Hiển",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "1443/KP19/BQLDA",
+    "hoTen": "Ngô Nguyễn Dạ Thảo",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "73",
+    "thuaDat": "412",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1846,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3395606",
+    "baseJobName": "1443/KP19/BQLDANgô Nguyễn Dạ Thảo",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395606"
+  },
+  {
+    "stt": 2174,
+    "canBoBBT": "Vinh Hiển",
+    "canBoKTHT": "",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "1441/KP19/BQLDA",
+    "hoTen": "Ngô Nguyễn Dạ Thảo",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "73",
+    "thuaDat": "410",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2541,5",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3395603",
+    "baseJobName": "1441/KP19/BQLDANgô Nguyễn Dạ Thảo",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395603"
   }
 ];
 window.DOSSIER_DATA_LAN2 = [
@@ -60487,10 +60697,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3302283",
-    "baseJobName": "1267/KP19/BQLDA Huỳnh Trung Dũng",
+    "baseJobId": "3400034",
+    "baseJobName": "1367/KP19/BQLDA Lưu Thị Duyên",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302283"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400034"
   },
   {
     "stt": 75,
@@ -62717,10 +62927,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3397420",
-    "baseJobName": "1369/KP19/BQLDA - Nguyễn Văn Hiếu - Hồng Ngọc Phụng",
+    "baseJobId": "3399754",
+    "baseJobName": "1469/KP19/BQLDA Dương Thị Thu Thanh - Hồ Trung Nghĩa",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397420"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399754"
   },
   {
     "stt": 152,
@@ -63031,7 +63241,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "17",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "497,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Linh/Nhi",
     "doLuong": "",
@@ -65295,10 +65505,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Linh/Nhi",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3384746",
-    "baseJobName": "642/KP17/BQLDA TRẦN VĂN MÂN (VC)",
+    "baseJobId": "3218807",
+    "baseJobName": "142/KP17/BQLDA NGUYỄN THỊ NHỊ",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384746"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218807"
   },
   {
     "stt": 241,
@@ -65527,10 +65737,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3216201",
-    "baseJobName": "98/KP19/BQLDA - Hùynh Đình Tám (HTX)",
+    "baseJobId": "3216050",
+    "baseJobName": "198/KP19/BQLDATrang Thu Mai",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216201"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216050"
   },
   {
     "stt": 249,
@@ -65643,10 +65853,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3271638",
-    "baseJobName": "1263/KP19/BQLDALưu Thị Duyên",
+    "baseJobId": "3400024",
+    "baseJobName": "1363/KP19/BQLDA Huỳnh Văn Quốc - Nguyễn Thị Kim Ngà",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3271638"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400024"
   },
   {
     "stt": 253,
@@ -65701,10 +65911,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3384792",
-    "baseJobName": "1357/KP19/BQLDA Nguyễn Thị Kim Hóa",
+    "baseJobId": "3399516",
+    "baseJobName": "1057/KP19/BQLDA Hội Đình Thần Bình Quới Tây",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384792"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399516"
   },
   {
     "stt": 255,
@@ -67001,7 +67211,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "6171,3",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
@@ -69381,10 +69591,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Hiền/Anh",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3247905",
-    "baseJobName": "436/KP18/BQLDA Phạm Thị Tuyết Nga",
+    "baseJobId": "3400150",
+    "baseJobName": "336/KP18/BQLDA Bùi Hồng Thái",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247905"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400150"
   },
   {
     "stt": 382,
@@ -69555,10 +69765,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Hiền/Anh",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3289891",
-    "baseJobName": "416/KP18/BQLDA Bà Nguyễn Phạm Minh Anh",
+    "baseJobId": "3400150",
+    "baseJobName": "336/KP18/BQLDA Bùi Hồng Thái",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3289891"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400150"
   },
   {
     "stt": 388,
@@ -74074,7 +74284,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "3104,8",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -74161,7 +74371,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "450",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -74509,7 +74719,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "2000",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -75855,6 +76065,93 @@ window.DOSSIER_DATA_LAN2 = [
   },
   {
     "stt": 605,
+    "canBoBBT": "Anh Thư",
+    "canBoKTHT": "Tùng",
+    "ngayChuyen": "15/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "18/KP18/BQLDA",
+    "hoTen": "Huỳnh Thị Thu",
+    "diaChi": "558/60",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "65",
+    "thuaDat": "19",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3400138",
+    "baseJobName": "18/KP18/BQLDA Huỳnh Thị Thu",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400138"
+  },
+  {
+    "stt": 606,
+    "canBoBBT": "Anh Thư",
+    "canBoKTHT": "Tùng",
+    "ngayChuyen": "15/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "24/KP18/BQLDA",
+    "hoTen": "Huỳnh Thị Lài",
+    "diaChi": "558/60",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "65",
+    "thuaDat": "19",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3400067",
+    "baseJobName": "24/KP18/BQLDA Huỳnh Thị Lài",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400067"
+  },
+  {
+    "stt": 607,
+    "canBoBBT": "Anh Thư",
+    "canBoKTHT": "Tùng",
+    "ngayChuyen": "15/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "25/KP18/BQLDA",
+    "hoTen": "Huỳnh Thị Bảy",
+    "diaChi": "558/60",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "65",
+    "thuaDat": "19",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3400145",
+    "baseJobName": "25/KP18/BQLDA Huỳnh Thị Bảy",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400145"
+  },
+  {
+    "stt": 608,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -75883,7 +76180,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216447"
   },
   {
-    "stt": 606,
+    "stt": 609,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -75912,7 +76209,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216620"
   },
   {
-    "stt": 607,
+    "stt": 610,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -75941,7 +76238,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226627"
   },
   {
-    "stt": 608,
+    "stt": 611,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -75970,7 +76267,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226624"
   },
   {
-    "stt": 609,
+    "stt": 612,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -75999,7 +76296,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216496"
   },
   {
-    "stt": 610,
+    "stt": 613,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "15/09/2026",
@@ -76028,7 +76325,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216437"
   },
   {
-    "stt": 611,
+    "stt": 614,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76057,7 +76354,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216515"
   },
   {
-    "stt": 612,
+    "stt": 615,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76086,7 +76383,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216377"
   },
   {
-    "stt": 613,
+    "stt": 616,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -76115,7 +76412,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216385"
   },
   {
-    "stt": 614,
+    "stt": 617,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -76144,7 +76441,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3281278"
   },
   {
-    "stt": 615,
+    "stt": 618,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -76173,7 +76470,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216530"
   },
   {
-    "stt": 616,
+    "stt": 619,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -76202,7 +76499,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215500"
   },
   {
-    "stt": 617,
+    "stt": 620,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76231,7 +76528,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3373943"
   },
   {
-    "stt": 618,
+    "stt": 621,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "15/09/2026",
@@ -76260,7 +76557,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397420"
   },
   {
-    "stt": 619,
+    "stt": 622,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76289,7 +76586,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215951"
   },
   {
-    "stt": 620,
+    "stt": 623,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76318,7 +76615,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216072"
   },
   {
-    "stt": 621,
+    "stt": 624,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -76347,7 +76644,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216211"
   },
   {
-    "stt": 622,
+    "stt": 625,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76376,7 +76673,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215702"
   },
   {
-    "stt": 623,
+    "stt": 626,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -76405,7 +76702,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265197"
   },
   {
-    "stt": 624,
+    "stt": 627,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76434,7 +76731,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215288"
   },
   {
-    "stt": 625,
+    "stt": 628,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "15/09/2026",
@@ -76463,7 +76760,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378281"
   },
   {
-    "stt": 626,
+    "stt": 629,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -76492,7 +76789,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396483"
   },
   {
-    "stt": 627,
+    "stt": 630,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -76521,7 +76818,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397097"
   },
   {
-    "stt": 628,
+    "stt": 631,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76550,7 +76847,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215800"
   },
   {
-    "stt": 629,
+    "stt": 632,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -76579,7 +76876,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215787"
   },
   {
-    "stt": 630,
+    "stt": 633,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76608,7 +76905,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216158"
   },
   {
-    "stt": 631,
+    "stt": 634,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -76637,7 +76934,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215471"
   },
   {
-    "stt": 632,
+    "stt": 635,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -76666,7 +76963,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216157"
   },
   {
-    "stt": 633,
+    "stt": 636,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76695,7 +76992,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216060"
   },
   {
-    "stt": 634,
+    "stt": 637,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -76724,7 +77021,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216130"
   },
   {
-    "stt": 635,
+    "stt": 638,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "15/09/2026",
@@ -76753,7 +77050,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383556"
   },
   {
-    "stt": 636,
+    "stt": 639,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "15/09/2026",
@@ -76782,7 +77079,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215887"
   },
   {
-    "stt": 637,
+    "stt": 640,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "15/09/2026",
@@ -76811,7 +77108,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3371478"
   },
   {
-    "stt": 638,
+    "stt": 641,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76840,7 +77137,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215991"
   },
   {
-    "stt": 639,
+    "stt": 642,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "15/09/2026",
@@ -76869,7 +77166,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215384"
   },
   {
-    "stt": 640,
+    "stt": 643,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76898,7 +77195,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264000"
   },
   {
-    "stt": 641,
+    "stt": 644,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76927,7 +77224,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263994"
   },
   {
-    "stt": 642,
+    "stt": 645,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -76956,7 +77253,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217522"
   },
   {
-    "stt": 643,
+    "stt": 646,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -76985,7 +77282,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215125"
   },
   {
-    "stt": 644,
+    "stt": 647,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77014,7 +77311,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215126"
   },
   {
-    "stt": 645,
+    "stt": 648,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -77043,7 +77340,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215143"
   },
   {
-    "stt": 646,
+    "stt": 649,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77072,7 +77369,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218722"
   },
   {
-    "stt": 647,
+    "stt": 650,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77101,7 +77398,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263961"
   },
   {
-    "stt": 648,
+    "stt": 651,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77130,7 +77427,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263966"
   },
   {
-    "stt": 649,
+    "stt": 652,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77159,7 +77456,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263962"
   },
   {
-    "stt": 650,
+    "stt": 653,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77188,7 +77485,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263960"
   },
   {
-    "stt": 651,
+    "stt": 654,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77217,7 +77514,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263941"
   },
   {
-    "stt": 652,
+    "stt": 655,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77246,7 +77543,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263965"
   },
   {
-    "stt": 653,
+    "stt": 656,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77275,7 +77572,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263958"
   },
   {
-    "stt": 654,
+    "stt": 657,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "15/09/2026",
@@ -77304,7 +77601,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384791"
   },
   {
-    "stt": 655,
+    "stt": 658,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77330,7 +77627,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=43/KKP17/BQLDA"
   },
   {
-    "stt": 656,
+    "stt": 659,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77359,7 +77656,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264244"
   },
   {
-    "stt": 657,
+    "stt": 660,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77388,7 +77685,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218699"
   },
   {
-    "stt": 658,
+    "stt": 661,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -77417,7 +77714,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218674"
   },
   {
-    "stt": 659,
+    "stt": 662,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "15/09/2026",
@@ -77446,7 +77743,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377966"
   },
   {
-    "stt": 660,
+    "stt": 663,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77475,7 +77772,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264041"
   },
   {
-    "stt": 661,
+    "stt": 664,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -77504,7 +77801,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264070"
   },
   {
-    "stt": 662,
+    "stt": 665,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77533,7 +77830,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264074"
   },
   {
-    "stt": 663,
+    "stt": 666,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "15/09/2026",
@@ -77562,7 +77859,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264094"
   },
   {
-    "stt": 664,
+    "stt": 667,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "15/09/2026",
@@ -77591,7 +77888,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264091"
   },
   {
-    "stt": 665,
+    "stt": 668,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "15/09/2026",
@@ -77620,7 +77917,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215163"
   },
   {
-    "stt": 666,
+    "stt": 669,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77649,7 +77946,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214761"
   },
   {
-    "stt": 667,
+    "stt": 670,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -77678,7 +77975,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215263"
   },
   {
-    "stt": 668,
+    "stt": 671,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -77707,7 +78004,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214740"
   },
   {
-    "stt": 669,
+    "stt": 672,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -77736,7 +78033,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214781"
   },
   {
-    "stt": 670,
+    "stt": 673,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77765,7 +78062,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214733"
   },
   {
-    "stt": 671,
+    "stt": 674,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -77794,7 +78091,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216127"
   },
   {
-    "stt": 672,
+    "stt": 675,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -77823,7 +78120,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216259"
   },
   {
-    "stt": 673,
+    "stt": 676,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77852,7 +78149,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215671"
   },
   {
-    "stt": 674,
+    "stt": 677,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77881,7 +78178,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215808"
   },
   {
-    "stt": 675,
+    "stt": 678,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -77910,7 +78207,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215606"
   },
   {
-    "stt": 676,
+    "stt": 679,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77939,7 +78236,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215520"
   },
   {
-    "stt": 677,
+    "stt": 680,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -77968,7 +78265,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3309129"
   },
   {
-    "stt": 678,
+    "stt": 681,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -77997,7 +78294,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214763"
   },
   {
-    "stt": 679,
+    "stt": 682,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -78026,7 +78323,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215566"
   },
   {
-    "stt": 680,
+    "stt": 683,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -78055,7 +78352,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215704"
   },
   {
-    "stt": 681,
+    "stt": 684,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -78084,7 +78381,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215673"
   },
   {
-    "stt": 682,
+    "stt": 685,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -78113,7 +78410,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386428"
   },
   {
-    "stt": 683,
+    "stt": 686,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "15/09/2026",
@@ -78142,7 +78439,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215601"
   },
   {
-    "stt": 684,
+    "stt": 687,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "15/09/2026",
@@ -78171,7 +78468,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3371669"
   },
   {
-    "stt": 685,
+    "stt": 688,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -78200,7 +78497,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215801"
   },
   {
-    "stt": 686,
+    "stt": 689,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -78229,7 +78526,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216027"
   },
   {
-    "stt": 687,
+    "stt": 690,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "15/09/2026",
@@ -78258,7 +78555,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215985"
   },
   {
-    "stt": 688,
+    "stt": 691,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -78287,7 +78584,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215691"
   },
   {
-    "stt": 689,
+    "stt": 692,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -78316,7 +78613,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215657"
   },
   {
-    "stt": 690,
+    "stt": 693,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "15/09/2026",
@@ -78345,7 +78642,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214798"
   },
   {
-    "stt": 691,
+    "stt": 694,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -78374,7 +78671,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216418"
   },
   {
-    "stt": 692,
+    "stt": 695,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78403,7 +78700,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226703"
   },
   {
-    "stt": 693,
+    "stt": 696,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -78432,7 +78729,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262817"
   },
   {
-    "stt": 694,
+    "stt": 697,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78461,7 +78758,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216631"
   },
   {
-    "stt": 695,
+    "stt": 698,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -78490,7 +78787,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216616"
   },
   {
-    "stt": 696,
+    "stt": 699,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78519,7 +78816,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247914"
   },
   {
-    "stt": 697,
+    "stt": 700,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78548,7 +78845,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216637"
   },
   {
-    "stt": 698,
+    "stt": 701,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "16/09/2026",
@@ -78577,7 +78874,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226667"
   },
   {
-    "stt": 699,
+    "stt": 702,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78606,7 +78903,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216587"
   },
   {
-    "stt": 700,
+    "stt": 703,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "16/09/2026",
@@ -78624,7 +78921,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "142,6",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
@@ -78635,7 +78932,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226618"
   },
   {
-    "stt": 701,
+    "stt": 704,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -78664,7 +78961,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3317125"
   },
   {
-    "stt": 702,
+    "stt": 705,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -78693,7 +78990,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216636"
   },
   {
-    "stt": 703,
+    "stt": 706,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -78722,7 +79019,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216629"
   },
   {
-    "stt": 704,
+    "stt": 707,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "16/09/2026",
@@ -78751,7 +79048,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216487"
   },
   {
-    "stt": 705,
+    "stt": 708,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -78780,7 +79077,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216543"
   },
   {
-    "stt": 706,
+    "stt": 709,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78809,7 +79106,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216541"
   },
   {
-    "stt": 707,
+    "stt": 710,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78838,7 +79135,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216425"
   },
   {
-    "stt": 708,
+    "stt": 711,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -78867,7 +79164,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320176"
   },
   {
-    "stt": 709,
+    "stt": 712,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -78896,7 +79193,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216388"
   },
   {
-    "stt": 710,
+    "stt": 713,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -78925,7 +79222,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233479"
   },
   {
-    "stt": 711,
+    "stt": 714,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -78954,7 +79251,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3305047"
   },
   {
-    "stt": 712,
+    "stt": 715,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -78983,7 +79280,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3289891"
   },
   {
-    "stt": 713,
+    "stt": 716,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79012,7 +79309,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216597"
   },
   {
-    "stt": 714,
+    "stt": 717,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79041,7 +79338,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216367"
   },
   {
-    "stt": 715,
+    "stt": 718,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79070,7 +79367,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216364"
   },
   {
-    "stt": 716,
+    "stt": 719,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79099,7 +79396,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226604"
   },
   {
-    "stt": 717,
+    "stt": 720,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79128,7 +79425,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3365667"
   },
   {
-    "stt": 718,
+    "stt": 721,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -79157,7 +79454,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216527"
   },
   {
-    "stt": 719,
+    "stt": 722,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79186,7 +79483,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216424"
   },
   {
-    "stt": 720,
+    "stt": 723,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79215,7 +79512,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217500"
   },
   {
-    "stt": 721,
+    "stt": 724,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79244,7 +79541,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217514"
   },
   {
-    "stt": 722,
+    "stt": 725,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79273,7 +79570,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217492"
   },
   {
-    "stt": 723,
+    "stt": 726,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -79302,7 +79599,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217521"
   },
   {
-    "stt": 724,
+    "stt": 727,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79331,7 +79628,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217503"
   },
   {
-    "stt": 725,
+    "stt": 728,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79360,7 +79657,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215182"
   },
   {
-    "stt": 726,
+    "stt": 729,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79389,7 +79686,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264050"
   },
   {
-    "stt": 727,
+    "stt": 730,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79418,7 +79715,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384635"
   },
   {
-    "stt": 728,
+    "stt": 731,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79447,7 +79744,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384801"
   },
   {
-    "stt": 729,
+    "stt": 732,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79476,7 +79773,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3266716"
   },
   {
-    "stt": 730,
+    "stt": 733,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79505,7 +79802,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214922"
   },
   {
-    "stt": 731,
+    "stt": 734,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79534,7 +79831,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3272907"
   },
   {
-    "stt": 732,
+    "stt": 735,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79563,7 +79860,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215005"
   },
   {
-    "stt": 733,
+    "stt": 736,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79592,7 +79889,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214940"
   },
   {
-    "stt": 734,
+    "stt": 737,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79621,7 +79918,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214939"
   },
   {
-    "stt": 735,
+    "stt": 738,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79650,7 +79947,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215027"
   },
   {
-    "stt": 736,
+    "stt": 739,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -79679,7 +79976,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218815"
   },
   {
-    "stt": 737,
+    "stt": 740,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79708,7 +80005,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215222"
   },
   {
-    "stt": 738,
+    "stt": 741,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79737,7 +80034,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215201"
   },
   {
-    "stt": 739,
+    "stt": 742,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79766,7 +80063,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216299"
   },
   {
-    "stt": 740,
+    "stt": 743,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79795,7 +80092,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215257"
   },
   {
-    "stt": 741,
+    "stt": 744,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "16/09/2026",
@@ -79824,7 +80121,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215504"
   },
   {
-    "stt": 742,
+    "stt": 745,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79853,7 +80150,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3377765"
   },
   {
-    "stt": 743,
+    "stt": 746,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79882,7 +80179,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215420"
   },
   {
-    "stt": 744,
+    "stt": 747,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -79911,7 +80208,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216041"
   },
   {
-    "stt": 745,
+    "stt": 748,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79940,7 +80237,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215550"
   },
   {
-    "stt": 746,
+    "stt": 749,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -79969,7 +80266,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215680"
   },
   {
-    "stt": 747,
+    "stt": 750,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -79998,7 +80295,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215898"
   },
   {
-    "stt": 748,
+    "stt": 751,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80027,7 +80324,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215723"
   },
   {
-    "stt": 749,
+    "stt": 752,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80056,7 +80353,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216903"
   },
   {
-    "stt": 750,
+    "stt": 753,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80085,7 +80382,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215601"
   },
   {
-    "stt": 751,
+    "stt": 754,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80114,7 +80411,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215805"
   },
   {
-    "stt": 752,
+    "stt": 755,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80143,7 +80440,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214806"
   },
   {
-    "stt": 753,
+    "stt": 756,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "16/09/2026",
@@ -80172,7 +80469,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215666"
   },
   {
-    "stt": 754,
+    "stt": 757,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80201,7 +80498,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215668"
   },
   {
-    "stt": 755,
+    "stt": 758,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80230,7 +80527,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3320901"
   },
   {
-    "stt": 756,
+    "stt": 759,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80259,7 +80556,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216748"
   },
   {
-    "stt": 757,
+    "stt": 760,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -80288,7 +80585,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215875"
   },
   {
-    "stt": 758,
+    "stt": 761,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -80317,7 +80614,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216753"
   },
   {
-    "stt": 759,
+    "stt": 762,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80346,7 +80643,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215720"
   },
   {
-    "stt": 760,
+    "stt": 763,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -80375,7 +80672,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215416"
   },
   {
-    "stt": 761,
+    "stt": 764,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -80404,7 +80701,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215418"
   },
   {
-    "stt": 762,
+    "stt": 765,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "16/09/2026",
@@ -80433,7 +80730,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215417"
   },
   {
-    "stt": 763,
+    "stt": 766,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80462,7 +80759,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397124"
   },
   {
-    "stt": 764,
+    "stt": 767,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "16/09/2026",
@@ -80491,7 +80788,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215738"
   },
   {
-    "stt": 765,
+    "stt": 768,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80520,7 +80817,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395619"
   },
   {
-    "stt": 766,
+    "stt": 769,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80549,7 +80846,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386539"
   },
   {
-    "stt": 767,
+    "stt": 770,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -80578,7 +80875,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372423"
   },
   {
-    "stt": 768,
+    "stt": 771,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80607,7 +80904,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215806"
   },
   {
-    "stt": 769,
+    "stt": 772,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80636,7 +80933,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3319902"
   },
   {
-    "stt": 770,
+    "stt": 773,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -80665,7 +80962,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395098"
   },
   {
-    "stt": 771,
+    "stt": 774,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80694,7 +80991,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397124"
   },
   {
-    "stt": 772,
+    "stt": 775,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "16/09/2026",
@@ -80723,7 +81020,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3301669"
   },
   {
-    "stt": 773,
+    "stt": 776,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80752,7 +81049,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3372312"
   },
   {
-    "stt": 774,
+    "stt": 777,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80781,7 +81078,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215405"
   },
   {
-    "stt": 775,
+    "stt": 778,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80810,7 +81107,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216183"
   },
   {
-    "stt": 776,
+    "stt": 779,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80839,7 +81136,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215963"
   },
   {
-    "stt": 777,
+    "stt": 780,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80868,7 +81165,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216098"
   },
   {
-    "stt": 778,
+    "stt": 781,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -80897,7 +81194,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395606"
   },
   {
-    "stt": 779,
+    "stt": 782,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80926,7 +81223,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262930"
   },
   {
-    "stt": 780,
+    "stt": 783,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -80955,7 +81252,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215501"
   },
   {
-    "stt": 781,
+    "stt": 784,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "16/09/2026",
@@ -80973,7 +81270,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "456,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -80984,7 +81281,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3330911"
   },
   {
-    "stt": 782,
+    "stt": 785,
     "canBoBBT": "Mỹ Thương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "16/09/2026",
@@ -81013,7 +81310,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216767"
   },
   {
-    "stt": 783,
+    "stt": 786,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -81042,7 +81339,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3275319"
   },
   {
-    "stt": 784,
+    "stt": 787,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/09/2026",
@@ -81071,7 +81368,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216760"
   },
   {
-    "stt": 785,
+    "stt": 788,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "16/09/2026",
@@ -81100,7 +81397,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216172"
   },
   {
-    "stt": 786,
+    "stt": 789,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81129,7 +81426,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226702"
   },
   {
-    "stt": 787,
+    "stt": 790,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -81158,7 +81455,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3227566"
   },
   {
-    "stt": 788,
+    "stt": 791,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81187,7 +81484,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226649"
   },
   {
-    "stt": 789,
+    "stt": 792,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81216,7 +81513,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3303634"
   },
   {
-    "stt": 790,
+    "stt": 793,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81245,7 +81542,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216431"
   },
   {
-    "stt": 791,
+    "stt": 794,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81274,7 +81571,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216435"
   },
   {
-    "stt": 792,
+    "stt": 795,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -81303,7 +81600,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216513"
   },
   {
-    "stt": 793,
+    "stt": 796,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81332,7 +81629,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216411"
   },
   {
-    "stt": 794,
+    "stt": 797,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81361,7 +81658,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216454"
   },
   {
-    "stt": 795,
+    "stt": 798,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81390,7 +81687,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216378"
   },
   {
-    "stt": 796,
+    "stt": 799,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81419,7 +81716,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216579"
   },
   {
-    "stt": 797,
+    "stt": 800,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/09/2026",
@@ -81448,7 +81745,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216449"
   },
   {
-    "stt": 798,
+    "stt": 801,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81477,7 +81774,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216478"
   },
   {
-    "stt": 799,
+    "stt": 802,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81506,7 +81803,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233432"
   },
   {
-    "stt": 800,
+    "stt": 803,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81535,7 +81832,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216626"
   },
   {
-    "stt": 801,
+    "stt": 804,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81564,7 +81861,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216632"
   },
   {
-    "stt": 802,
+    "stt": 805,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81593,7 +81890,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216452"
   },
   {
-    "stt": 803,
+    "stt": 806,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81622,7 +81919,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216457"
   },
   {
-    "stt": 804,
+    "stt": 807,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -81651,7 +81948,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216479"
   },
   {
-    "stt": 805,
+    "stt": 808,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81680,7 +81977,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216494"
   },
   {
-    "stt": 806,
+    "stt": 809,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -81709,7 +82006,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226694"
   },
   {
-    "stt": 807,
+    "stt": 810,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81738,7 +82035,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216371"
   },
   {
-    "stt": 808,
+    "stt": 811,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81767,7 +82064,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226628"
   },
   {
-    "stt": 809,
+    "stt": 812,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/09/2026",
@@ -81796,7 +82093,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216384"
   },
   {
-    "stt": 810,
+    "stt": 813,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81825,7 +82122,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216595"
   },
   {
-    "stt": 811,
+    "stt": 814,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81854,7 +82151,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216366"
   },
   {
-    "stt": 812,
+    "stt": 815,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81883,7 +82180,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216380"
   },
   {
-    "stt": 813,
+    "stt": 816,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -81912,7 +82209,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226660"
   },
   {
-    "stt": 814,
+    "stt": 817,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81941,7 +82238,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214722"
   },
   {
-    "stt": 815,
+    "stt": 818,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81970,7 +82267,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214724"
   },
   {
-    "stt": 816,
+    "stt": 819,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -81999,7 +82296,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215494"
   },
   {
-    "stt": 817,
+    "stt": 820,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -82028,7 +82325,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215583"
   },
   {
-    "stt": 818,
+    "stt": 821,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -82057,7 +82354,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215583"
   },
   {
-    "stt": 819,
+    "stt": 822,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/09/2026",
@@ -82086,7 +82383,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214818"
   },
   {
-    "stt": 820,
+    "stt": 823,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -82115,7 +82412,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276756"
   },
   {
-    "stt": 821,
+    "stt": 824,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/09/2026",
@@ -82133,7 +82430,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "86",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -82144,7 +82441,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214731"
   },
   {
-    "stt": 822,
+    "stt": 825,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -82173,7 +82470,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215508"
   },
   {
-    "stt": 823,
+    "stt": 826,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -82202,7 +82499,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214751"
   },
   {
-    "stt": 824,
+    "stt": 827,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82231,7 +82528,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215592"
   },
   {
-    "stt": 825,
+    "stt": 828,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -82260,7 +82557,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214735"
   },
   {
-    "stt": 826,
+    "stt": 829,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82289,7 +82586,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215790"
   },
   {
-    "stt": 827,
+    "stt": 830,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82318,7 +82615,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215732"
   },
   {
-    "stt": 828,
+    "stt": 831,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -82347,7 +82644,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214726"
   },
   {
-    "stt": 829,
+    "stt": 832,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/09/2026",
@@ -82376,7 +82673,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265190"
   },
   {
-    "stt": 830,
+    "stt": 833,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82405,7 +82702,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386419"
   },
   {
-    "stt": 831,
+    "stt": 834,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -82434,7 +82731,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215807"
   },
   {
-    "stt": 832,
+    "stt": 835,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -82463,7 +82760,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216091"
   },
   {
-    "stt": 833,
+    "stt": 836,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -82492,7 +82789,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215542"
   },
   {
-    "stt": 834,
+    "stt": 837,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82521,7 +82818,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216073"
   },
   {
-    "stt": 835,
+    "stt": 838,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -82550,7 +82847,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393663"
   },
   {
-    "stt": 836,
+    "stt": 839,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82579,7 +82876,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3321058"
   },
   {
-    "stt": 837,
+    "stt": 840,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -82608,7 +82905,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214760"
   },
   {
-    "stt": 838,
+    "stt": 841,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -82637,7 +82934,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216225"
   },
   {
-    "stt": 839,
+    "stt": 842,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -82660,13 +82957,13 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3395600",
-    "baseJobName": "1439/KP19/BQLDAHuỳnh Đình Nhỏ đại diện",
+    "baseJobId": "3400081",
+    "baseJobName": "839/KP19/BQLDA Huỳnh Văn Hạnh",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395600"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400081"
   },
   {
-    "stt": 840,
+    "stt": 843,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82695,7 +82992,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3389641"
   },
   {
-    "stt": 841,
+    "stt": 844,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -82724,7 +83021,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215387"
   },
   {
-    "stt": 842,
+    "stt": 845,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82753,7 +83050,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216174"
   },
   {
-    "stt": 843,
+    "stt": 846,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82782,7 +83079,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216120"
   },
   {
-    "stt": 844,
+    "stt": 847,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82811,7 +83108,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216177"
   },
   {
-    "stt": 845,
+    "stt": 848,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82840,7 +83137,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216009"
   },
   {
-    "stt": 846,
+    "stt": 849,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82869,7 +83166,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216011"
   },
   {
-    "stt": 847,
+    "stt": 850,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -82898,7 +83195,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215474"
   },
   {
-    "stt": 848,
+    "stt": 851,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -82927,7 +83224,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216317"
   },
   {
-    "stt": 849,
+    "stt": 852,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "17/09/2026",
@@ -82956,7 +83253,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215134"
   },
   {
-    "stt": 850,
+    "stt": 853,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -82985,7 +83282,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215105"
   },
   {
-    "stt": 851,
+    "stt": 854,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -83014,7 +83311,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264055"
   },
   {
-    "stt": 852,
+    "stt": 855,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -83043,7 +83340,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378015"
   },
   {
-    "stt": 853,
+    "stt": 856,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "17/09/2026",
@@ -83072,7 +83369,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264072"
   },
   {
-    "stt": 854,
+    "stt": 857,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -83101,7 +83398,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215100"
   },
   {
-    "stt": 855,
+    "stt": 858,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -83130,7 +83427,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3378386"
   },
   {
-    "stt": 856,
+    "stt": 859,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -83159,7 +83456,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215041"
   },
   {
-    "stt": 857,
+    "stt": 860,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -83188,7 +83485,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263847"
   },
   {
-    "stt": 858,
+    "stt": 861,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -83217,7 +83514,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263884"
   },
   {
-    "stt": 859,
+    "stt": 862,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -83243,7 +83540,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=440/KKP17/BQLDA"
   },
   {
-    "stt": 860,
+    "stt": 863,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tài",
     "ngayChuyen": "17/09/2026",
@@ -83269,7 +83566,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=296/KKP17/BQLDA"
   },
   {
-    "stt": 861,
+    "stt": 864,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -83298,7 +83595,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217499"
   },
   {
-    "stt": 862,
+    "stt": 865,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "An",
     "ngayChuyen": "17/09/2026",
@@ -83327,7 +83624,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215225"
   },
   {
-    "stt": 863,
+    "stt": 866,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -83356,7 +83653,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215200"
   },
   {
-    "stt": 864,
+    "stt": 867,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "17/09/2026",
@@ -83385,7 +83682,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215199"
   },
   {
-    "stt": 865,
+    "stt": 868,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83414,7 +83711,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263972"
   },
   {
-    "stt": 866,
+    "stt": 869,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83443,7 +83740,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263973"
   },
   {
-    "stt": 867,
+    "stt": 870,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83472,7 +83769,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3284877"
   },
   {
-    "stt": 868,
+    "stt": 871,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83501,7 +83798,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348916"
   },
   {
-    "stt": 869,
+    "stt": 872,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83530,7 +83827,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348918"
   },
   {
-    "stt": 870,
+    "stt": 873,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83559,7 +83856,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264037"
   },
   {
-    "stt": 871,
+    "stt": 874,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83588,7 +83885,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264035"
   },
   {
-    "stt": 872,
+    "stt": 875,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83617,7 +83914,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264034"
   },
   {
-    "stt": 873,
+    "stt": 876,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "17/09/2026",
@@ -83646,7 +83943,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264036"
   },
   {
-    "stt": 874,
+    "stt": 877,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -83675,7 +83972,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216332"
   },
   {
-    "stt": 875,
+    "stt": 878,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -83704,7 +84001,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226636"
   },
   {
-    "stt": 876,
+    "stt": 879,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -83733,7 +84030,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226652"
   },
   {
-    "stt": 877,
+    "stt": 880,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -83762,7 +84059,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216330"
   },
   {
-    "stt": 878,
+    "stt": 881,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -83791,7 +84088,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247913"
   },
   {
-    "stt": 879,
+    "stt": 882,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -83820,7 +84117,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226649"
   },
   {
-    "stt": 880,
+    "stt": 883,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "18/09/2026",
@@ -83849,7 +84146,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216417"
   },
   {
-    "stt": 881,
+    "stt": 884,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -83878,7 +84175,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233452"
   },
   {
-    "stt": 882,
+    "stt": 885,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -83907,7 +84204,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233591"
   },
   {
-    "stt": 883,
+    "stt": 886,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "18/09/2026",
@@ -83936,7 +84233,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216393"
   },
   {
-    "stt": 884,
+    "stt": 887,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "18/09/2026",
@@ -83965,7 +84262,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226593"
   },
   {
-    "stt": 885,
+    "stt": 888,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -83994,7 +84291,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216529"
   },
   {
-    "stt": 886,
+    "stt": 889,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84023,7 +84320,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216625"
   },
   {
-    "stt": 887,
+    "stt": 890,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84052,7 +84349,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247912"
   },
   {
-    "stt": 888,
+    "stt": 891,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84081,7 +84378,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216567"
   },
   {
-    "stt": 889,
+    "stt": 892,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -84110,7 +84407,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216556"
   },
   {
-    "stt": 890,
+    "stt": 893,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84139,7 +84436,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216429"
   },
   {
-    "stt": 891,
+    "stt": 894,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84168,7 +84465,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216536"
   },
   {
-    "stt": 892,
+    "stt": 895,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "18/09/2026",
@@ -84197,7 +84494,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226614"
   },
   {
-    "stt": 893,
+    "stt": 896,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84226,7 +84523,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3315991"
   },
   {
-    "stt": 894,
+    "stt": 897,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84255,7 +84552,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233479"
   },
   {
-    "stt": 895,
+    "stt": 898,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "18/09/2026",
@@ -84284,7 +84581,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216305"
   },
   {
-    "stt": 896,
+    "stt": 899,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -84313,7 +84610,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384831"
   },
   {
-    "stt": 897,
+    "stt": 900,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "18/09/2026",
@@ -84342,7 +84639,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264080"
   },
   {
-    "stt": 898,
+    "stt": 901,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84371,7 +84668,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215161"
   },
   {
-    "stt": 899,
+    "stt": 902,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84400,7 +84697,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3255781"
   },
   {
-    "stt": 900,
+    "stt": 903,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84429,7 +84726,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215170"
   },
   {
-    "stt": 901,
+    "stt": 904,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84458,7 +84755,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263967"
   },
   {
-    "stt": 902,
+    "stt": 905,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84487,7 +84784,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218704"
   },
   {
-    "stt": 903,
+    "stt": 906,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -84516,7 +84813,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218723"
   },
   {
-    "stt": 904,
+    "stt": 907,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84545,7 +84842,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263969"
   },
   {
-    "stt": 905,
+    "stt": 908,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84574,7 +84871,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215099"
   },
   {
-    "stt": 906,
+    "stt": 909,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84603,7 +84900,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218681"
   },
   {
-    "stt": 907,
+    "stt": 910,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84632,7 +84929,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384793"
   },
   {
-    "stt": 908,
+    "stt": 911,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84661,7 +84958,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3290246"
   },
   {
-    "stt": 909,
+    "stt": 912,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84690,7 +84987,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386574"
   },
   {
-    "stt": 910,
+    "stt": 913,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84719,7 +85016,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386572"
   },
   {
-    "stt": 911,
+    "stt": 914,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -84748,7 +85045,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264096"
   },
   {
-    "stt": 912,
+    "stt": 915,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -84777,7 +85074,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386574"
   },
   {
-    "stt": 913,
+    "stt": 916,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "18/09/2026",
@@ -84806,7 +85103,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3275012"
   },
   {
-    "stt": 914,
+    "stt": 917,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tài",
     "ngayChuyen": "18/09/2026",
@@ -84835,7 +85132,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215727"
   },
   {
-    "stt": 915,
+    "stt": 918,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -84864,7 +85161,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215825"
   },
   {
-    "stt": 916,
+    "stt": 919,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "18/09/2026",
@@ -84893,7 +85190,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214824"
   },
   {
-    "stt": 917,
+    "stt": 920,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -84922,7 +85219,36 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215413"
   },
   {
-    "stt": 918,
+    "stt": 921,
+    "canBoBBT": "Thiện Như",
+    "canBoKTHT": "Văn Bình",
+    "ngayChuyen": "18/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 4",
+    "maHoSo": "368/KP19/BQLDA",
+    "hoTen": "Nguyễn Thị Huệ (HTX)",
+    "diaChi": "không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "69",
+    "thuaDat": "36",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "553,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3386297",
+    "baseJobName": "1368/KP19/BQLDA LÊ KIỆT",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386297"
+  },
+  {
+    "stt": 922,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -84951,7 +85277,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216761"
   },
   {
-    "stt": 919,
+    "stt": 923,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -84980,7 +85306,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216081"
   },
   {
-    "stt": 920,
+    "stt": 924,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -85009,7 +85335,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216170"
   },
   {
-    "stt": 921,
+    "stt": 925,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -85038,7 +85364,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215910"
   },
   {
-    "stt": 922,
+    "stt": 926,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "18/09/2026",
@@ -85067,7 +85393,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215880"
   },
   {
-    "stt": 923,
+    "stt": 927,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tài",
     "ngayChuyen": "18/09/2026",
@@ -85096,7 +85422,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395603"
   },
   {
-    "stt": 924,
+    "stt": 928,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -85125,7 +85451,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3275319"
   },
   {
-    "stt": 925,
+    "stt": 929,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -85154,7 +85480,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215698"
   },
   {
-    "stt": 926,
+    "stt": 930,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -85183,7 +85509,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215495"
   },
   {
-    "stt": 927,
+    "stt": 931,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -85212,7 +85538,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216033"
   },
   {
-    "stt": 928,
+    "stt": 932,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -85241,7 +85567,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214777"
   },
   {
-    "stt": 929,
+    "stt": 933,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -85270,7 +85596,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215347"
   },
   {
-    "stt": 930,
+    "stt": 934,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "18/09/2026",
@@ -85299,7 +85625,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215661"
   },
   {
-    "stt": 931,
+    "stt": 935,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "18/09/2026",
@@ -85328,7 +85654,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214749"
   },
   {
-    "stt": 932,
+    "stt": 936,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85357,7 +85683,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263982"
   },
   {
-    "stt": 933,
+    "stt": 937,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "21/09/2026",
@@ -85386,7 +85712,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264033"
   },
   {
-    "stt": 934,
+    "stt": 938,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85415,7 +85741,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383016"
   },
   {
-    "stt": 935,
+    "stt": 939,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85444,7 +85770,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218731"
   },
   {
-    "stt": 936,
+    "stt": 940,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85473,7 +85799,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218728"
   },
   {
-    "stt": 937,
+    "stt": 941,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85502,7 +85828,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264020"
   },
   {
-    "stt": 938,
+    "stt": 942,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85531,7 +85857,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215189"
   },
   {
-    "stt": 939,
+    "stt": 943,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85560,7 +85886,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264083"
   },
   {
-    "stt": 940,
+    "stt": 944,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85589,7 +85915,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215172"
   },
   {
-    "stt": 941,
+    "stt": 945,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "21/09/2026",
@@ -85618,7 +85944,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215171"
   },
   {
-    "stt": 942,
+    "stt": 946,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85647,7 +85973,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217494"
   },
   {
-    "stt": 943,
+    "stt": 947,
     "canBoBBT": "Văn Tân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85676,7 +86002,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3217515"
   },
   {
-    "stt": 944,
+    "stt": 948,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "21/09/2026",
@@ -85705,7 +86031,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386576"
   },
   {
-    "stt": 945,
+    "stt": 949,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "21/09/2026",
@@ -85734,7 +86060,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264086"
   },
   {
-    "stt": 946,
+    "stt": 950,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85763,7 +86089,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215038"
   },
   {
-    "stt": 947,
+    "stt": 951,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "21/09/2026",
@@ -85792,7 +86118,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215022"
   },
   {
-    "stt": 948,
+    "stt": 952,
     "canBoBBT": "Thiện Như",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85821,7 +86147,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3301631"
   },
   {
-    "stt": 949,
+    "stt": 953,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85850,7 +86176,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3261823"
   },
   {
-    "stt": 950,
+    "stt": 954,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85879,7 +86205,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216002"
   },
   {
-    "stt": 951,
+    "stt": 955,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -85908,7 +86234,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3298211"
   },
   {
-    "stt": 952,
+    "stt": 956,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85937,7 +86263,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3261823"
   },
   {
-    "stt": 953,
+    "stt": 957,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tài",
     "ngayChuyen": "21/09/2026",
@@ -85966,7 +86292,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3249320"
   },
   {
-    "stt": 954,
+    "stt": 958,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -85995,7 +86321,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
   },
   {
-    "stt": 955,
+    "stt": 959,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "21/09/2026",
@@ -86024,7 +86350,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215381"
   },
   {
-    "stt": 956,
+    "stt": 960,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/09/2026",
@@ -86053,7 +86379,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214819"
   },
   {
-    "stt": 957,
+    "stt": 961,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/09/2026",
@@ -86082,7 +86408,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216176"
   },
   {
-    "stt": 958,
+    "stt": 962,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -86111,7 +86437,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216039"
   },
   {
-    "stt": 959,
+    "stt": 963,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/09/2026",
@@ -86140,7 +86466,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215255"
   },
   {
-    "stt": 960,
+    "stt": 964,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "21/09/2026",
@@ -86169,7 +86495,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215578"
   },
   {
-    "stt": 961,
+    "stt": 965,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -86198,7 +86524,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215296"
   },
   {
-    "stt": 962,
+    "stt": 966,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "21/09/2026",
@@ -86227,7 +86553,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265199"
   },
   {
-    "stt": 963,
+    "stt": 967,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -86256,7 +86582,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215741"
   },
   {
-    "stt": 964,
+    "stt": 968,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -86285,7 +86611,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214788"
   },
   {
-    "stt": 965,
+    "stt": 969,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "21/09/2026",
@@ -86314,7 +86640,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215546"
   },
   {
-    "stt": 966,
+    "stt": 970,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "21/09/2026",
@@ -86343,7 +86669,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215858"
   },
   {
-    "stt": 967,
+    "stt": 971,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -86372,7 +86698,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215519"
   },
   {
-    "stt": 968,
+    "stt": 972,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -86401,7 +86727,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3393890"
   },
   {
-    "stt": 969,
+    "stt": 973,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "21/09/2026",
@@ -86430,7 +86756,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214753"
   },
   {
-    "stt": 970,
+    "stt": 974,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -86459,7 +86785,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215499"
   },
   {
-    "stt": 971,
+    "stt": 975,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -86488,7 +86814,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214738"
   },
   {
-    "stt": 972,
+    "stt": 976,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -86517,7 +86843,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3251394"
   },
   {
-    "stt": 973,
+    "stt": 977,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -86546,7 +86872,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215797"
   },
   {
-    "stt": 974,
+    "stt": 978,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "21/09/2026",
@@ -86575,7 +86901,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215404"
   },
   {
-    "stt": 975,
+    "stt": 979,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "21/09/2026",
@@ -86604,7 +86930,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215600"
   },
   {
-    "stt": 976,
+    "stt": 980,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "22/09/2026",
@@ -86633,7 +86959,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216321"
   },
   {
-    "stt": 977,
+    "stt": 981,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -86662,7 +86988,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3380555"
   },
   {
-    "stt": 978,
+    "stt": 982,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -86691,7 +87017,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264079"
   },
   {
-    "stt": 979,
+    "stt": 983,
     "canBoBBT": "Đăng Vinh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -86720,7 +87046,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215209"
   },
   {
-    "stt": 980,
+    "stt": 984,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -86749,7 +87075,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215153"
   },
   {
-    "stt": 981,
+    "stt": 985,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -86778,7 +87104,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264037"
   },
   {
-    "stt": 982,
+    "stt": 986,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -86807,7 +87133,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3288382"
   },
   {
-    "stt": 983,
+    "stt": 987,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -86836,7 +87162,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263953"
   },
   {
-    "stt": 984,
+    "stt": 988,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -86865,7 +87191,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215101"
   },
   {
-    "stt": 985,
+    "stt": 989,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -86894,7 +87220,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263965"
   },
   {
-    "stt": 986,
+    "stt": 990,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -86923,7 +87249,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263963"
   },
   {
-    "stt": 987,
+    "stt": 991,
     "canBoBBT": "Hoàng Minh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -86952,7 +87278,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3365167"
   },
   {
-    "stt": 988,
+    "stt": 992,
     "canBoBBT": "Thành Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -86981,7 +87307,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226640"
   },
   {
-    "stt": 989,
+    "stt": 993,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87010,7 +87336,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233537"
   },
   {
-    "stt": 990,
+    "stt": 994,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87039,7 +87365,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3266225"
   },
   {
-    "stt": 991,
+    "stt": 995,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "22/09/2026",
@@ -87068,7 +87394,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3281278"
   },
   {
-    "stt": 992,
+    "stt": 996,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -87097,7 +87423,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226623"
   },
   {
-    "stt": 993,
+    "stt": 997,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87126,7 +87452,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233472"
   },
   {
-    "stt": 994,
+    "stt": 998,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -87155,7 +87481,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216333"
   },
   {
-    "stt": 995,
+    "stt": 999,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87184,7 +87510,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3270173"
   },
   {
-    "stt": 996,
+    "stt": 1000,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "22/09/2026",
@@ -87213,7 +87539,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3268345"
   },
   {
-    "stt": 997,
+    "stt": 1001,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87242,7 +87568,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216582"
   },
   {
-    "stt": 998,
+    "stt": 1002,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87271,7 +87597,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216588"
   },
   {
-    "stt": 999,
+    "stt": 1003,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87300,7 +87626,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226642"
   },
   {
-    "stt": 1000,
+    "stt": 1004,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87329,7 +87655,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233474"
   },
   {
-    "stt": 1001,
+    "stt": 1005,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -87358,7 +87684,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216451"
   },
   {
-    "stt": 1002,
+    "stt": 1006,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87387,7 +87713,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216352"
   },
   {
-    "stt": 1003,
+    "stt": 1007,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -87416,7 +87742,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216504"
   },
   {
-    "stt": 1004,
+    "stt": 1008,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "22/09/2026",
@@ -87445,7 +87771,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216427"
   },
   {
-    "stt": 1005,
+    "stt": 1009,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "22/09/2026",
@@ -87474,7 +87800,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216624"
   },
   {
-    "stt": 1006,
+    "stt": 1010,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87503,7 +87829,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233469"
   },
   {
-    "stt": 1007,
+    "stt": 1011,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -87532,7 +87858,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216354"
   },
   {
-    "stt": 1008,
+    "stt": 1012,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87561,7 +87887,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247914"
   },
   {
-    "stt": 1009,
+    "stt": 1013,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -87590,7 +87916,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216370"
   },
   {
-    "stt": 1010,
+    "stt": 1014,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "22/09/2026",
@@ -87619,7 +87945,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216335"
   },
   {
-    "stt": 1011,
+    "stt": 1015,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87648,7 +87974,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216621"
   },
   {
-    "stt": 1012,
+    "stt": 1016,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87677,7 +88003,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216420"
   },
   {
-    "stt": 1013,
+    "stt": 1017,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -87706,7 +88032,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3270173"
   },
   {
-    "stt": 1014,
+    "stt": 1018,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87735,7 +88061,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3247913"
   },
   {
-    "stt": 1015,
+    "stt": 1019,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87764,7 +88090,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216410"
   },
   {
-    "stt": 1016,
+    "stt": 1020,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "22/09/2026",
@@ -87793,7 +88119,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216406"
   },
   {
-    "stt": 1017,
+    "stt": 1021,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tài",
     "ngayChuyen": "22/09/2026",
@@ -87822,7 +88148,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215639"
   },
   {
-    "stt": 1018,
+    "stt": 1022,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "22/09/2026",
@@ -87851,7 +88177,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384257"
   },
   {
-    "stt": 1019,
+    "stt": 1023,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "22/09/2026",
@@ -87880,7 +88206,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215327"
   },
   {
-    "stt": 1020,
+    "stt": 1024,
     "canBoBBT": "Duy Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87909,7 +88235,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214809"
   },
   {
-    "stt": 1021,
+    "stt": 1025,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87938,7 +88264,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316503"
   },
   {
-    "stt": 1022,
+    "stt": 1026,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "22/09/2026",
@@ -87967,7 +88293,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215493"
   },
   {
-    "stt": 1023,
+    "stt": 1027,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "An",
     "ngayChuyen": "22/09/2026",
@@ -87996,7 +88322,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215824"
   },
   {
-    "stt": 1024,
+    "stt": 1028,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88025,7 +88351,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264004"
   },
   {
-    "stt": 1025,
+    "stt": 1029,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88054,7 +88380,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3311920"
   },
   {
-    "stt": 1026,
+    "stt": 1030,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "23/09/2026",
@@ -88083,7 +88409,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218812"
   },
   {
-    "stt": 1027,
+    "stt": 1031,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "23/09/2026",
@@ -88112,7 +88438,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215178"
   },
   {
-    "stt": 1028,
+    "stt": 1032,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/09/2026",
@@ -88141,7 +88467,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263989"
   },
   {
-    "stt": 1029,
+    "stt": 1033,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/09/2026",
@@ -88170,7 +88496,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214952"
   },
   {
-    "stt": 1030,
+    "stt": 1034,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88199,7 +88525,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214950"
   },
   {
-    "stt": 1031,
+    "stt": 1035,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tài",
     "ngayChuyen": "23/09/2026",
@@ -88228,7 +88554,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264151"
   },
   {
-    "stt": 1032,
+    "stt": 1036,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/09/2026",
@@ -88257,7 +88583,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3285004"
   },
   {
-    "stt": 1033,
+    "stt": 1037,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88286,7 +88612,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302283"
   },
   {
-    "stt": 1034,
+    "stt": 1038,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88315,7 +88641,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216215"
   },
   {
-    "stt": 1035,
+    "stt": 1039,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88344,7 +88670,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3274781"
   },
   {
-    "stt": 1036,
+    "stt": 1040,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88373,7 +88699,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216023"
   },
   {
-    "stt": 1037,
+    "stt": 1041,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88402,7 +88728,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3332287"
   },
   {
-    "stt": 1038,
+    "stt": 1042,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88431,7 +88757,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215803"
   },
   {
-    "stt": 1039,
+    "stt": 1043,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88460,7 +88786,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3276792"
   },
   {
-    "stt": 1040,
+    "stt": 1044,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88489,7 +88815,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216099"
   },
   {
-    "stt": 1041,
+    "stt": 1045,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88518,7 +88844,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3383291"
   },
   {
-    "stt": 1042,
+    "stt": 1046,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88547,7 +88873,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3329922"
   },
   {
-    "stt": 1043,
+    "stt": 1047,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88576,7 +88902,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395028"
   },
   {
-    "stt": 1044,
+    "stt": 1048,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/09/2026",
@@ -88605,7 +88931,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215638"
   },
   {
-    "stt": 1045,
+    "stt": 1049,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88634,7 +88960,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395092"
   },
   {
-    "stt": 1046,
+    "stt": 1050,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88663,7 +88989,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215965"
   },
   {
-    "stt": 1047,
+    "stt": 1051,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88692,7 +89018,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216095"
   },
   {
-    "stt": 1048,
+    "stt": 1052,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88721,7 +89047,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3385320"
   },
   {
-    "stt": 1049,
+    "stt": 1053,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "23/09/2026",
@@ -88750,7 +89076,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3236089"
   },
   {
-    "stt": 1050,
+    "stt": 1054,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tài",
     "ngayChuyen": "23/09/2026",
@@ -88779,7 +89105,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3321058"
   },
   {
-    "stt": 1051,
+    "stt": 1055,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88808,7 +89134,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263900"
   },
   {
-    "stt": 1052,
+    "stt": 1056,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "23/09/2026",
@@ -88837,7 +89163,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395063"
   },
   {
-    "stt": 1053,
+    "stt": 1057,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "23/09/2026",
@@ -88866,7 +89192,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214732"
   },
   {
-    "stt": 1054,
+    "stt": 1058,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -88895,7 +89221,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215598"
   },
   {
-    "stt": 1055,
+    "stt": 1059,
     "canBoBBT": "Vân Khánh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88924,7 +89250,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214723"
   },
   {
-    "stt": 1056,
+    "stt": 1060,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88953,7 +89279,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215653"
   },
   {
-    "stt": 1057,
+    "stt": 1061,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -88982,7 +89308,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215480"
   },
   {
-    "stt": 1058,
+    "stt": 1062,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -89011,7 +89337,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215734"
   },
   {
-    "stt": 1059,
+    "stt": 1063,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -89040,7 +89366,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215265"
   },
   {
-    "stt": 1060,
+    "stt": 1064,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/09/2026",
@@ -89069,7 +89395,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215632"
   },
   {
-    "stt": 1061,
+    "stt": 1065,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "23/09/2026",
@@ -89098,7 +89424,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215634"
   },
   {
-    "stt": 1062,
+    "stt": 1066,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "23/09/2026",
@@ -89127,7 +89453,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215636"
   },
   {
-    "stt": 1063,
+    "stt": 1067,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "23/09/2026",
@@ -89156,7 +89482,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214752"
   },
   {
-    "stt": 1064,
+    "stt": 1068,
     "canBoBBT": "Trí Nghĩa",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "23/09/2026",
@@ -89185,7 +89511,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215555"
   },
   {
-    "stt": 1065,
+    "stt": 1069,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/09/2026",
@@ -89214,7 +89540,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218797"
   },
   {
-    "stt": 1066,
+    "stt": 1070,
     "canBoBBT": "Uyên Như",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "24/09/2026",
@@ -89243,7 +89569,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264008"
   },
   {
-    "stt": 1067,
+    "stt": 1071,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "24/09/2026",
@@ -89272,7 +89598,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384656"
   },
   {
-    "stt": 1068,
+    "stt": 1072,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/09/2026",
@@ -89301,7 +89627,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215155"
   },
   {
-    "stt": 1069,
+    "stt": 1073,
     "canBoBBT": "Kiều Oanh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/09/2026",
@@ -89330,7 +89656,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215155"
   },
   {
-    "stt": 1070,
+    "stt": 1074,
     "canBoBBT": "Hoài Thương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "24/09/2026",
@@ -89359,7 +89685,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264085"
   },
   {
-    "stt": 1071,
+    "stt": 1075,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "25/09/2026",
@@ -89377,7 +89703,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "18",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1229,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
@@ -89388,7 +89714,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216407"
   },
   {
-    "stt": 1072,
+    "stt": 1076,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "25/09/2026",
@@ -89417,7 +89743,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226695"
   },
   {
-    "stt": 1073,
+    "stt": 1077,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89446,7 +89772,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216600"
   },
   {
-    "stt": 1074,
+    "stt": 1078,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89475,7 +89801,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226626"
   },
   {
-    "stt": 1075,
+    "stt": 1079,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89504,7 +89830,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233445"
   },
   {
-    "stt": 1076,
+    "stt": 1080,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89533,7 +89859,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3270067"
   },
   {
-    "stt": 1077,
+    "stt": 1081,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89562,7 +89888,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216484"
   },
   {
-    "stt": 1078,
+    "stt": 1082,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89591,7 +89917,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3310748"
   },
   {
-    "stt": 1079,
+    "stt": 1083,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89620,7 +89946,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216445"
   },
   {
-    "stt": 1080,
+    "stt": 1084,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "25/09/2026",
@@ -89649,7 +89975,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226638"
   },
   {
-    "stt": 1081,
+    "stt": 1085,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "25/09/2026",
@@ -89678,7 +90004,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216428"
   },
   {
-    "stt": 1082,
+    "stt": 1086,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "25/09/2026",
@@ -89707,7 +90033,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233462"
   },
   {
-    "stt": 1083,
+    "stt": 1087,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tài",
     "ngayChuyen": "25/09/2026",
@@ -89736,7 +90062,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216408"
   },
   {
-    "stt": 1084,
+    "stt": 1088,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89765,7 +90091,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226630"
   },
   {
-    "stt": 1085,
+    "stt": 1089,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "25/09/2026",
@@ -89794,7 +90120,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233537"
   },
   {
-    "stt": 1086,
+    "stt": 1090,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "An",
     "ngayChuyen": "25/09/2026",
@@ -89823,7 +90149,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216472"
   },
   {
-    "stt": 1087,
+    "stt": 1091,
     "canBoBBT": "Thanh Tùng",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "25/09/2026",
@@ -89852,7 +90178,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216473"
   },
   {
-    "stt": 1088,
+    "stt": 1092,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89881,7 +90207,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216046"
   },
   {
-    "stt": 1089,
+    "stt": 1093,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -89910,7 +90236,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215412"
   },
   {
-    "stt": 1090,
+    "stt": 1094,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "25/09/2026",
@@ -89939,7 +90265,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215483"
   },
   {
-    "stt": 1091,
+    "stt": 1095,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "25/09/2026",
@@ -89968,7 +90294,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216264"
   },
   {
-    "stt": 1092,
+    "stt": 1096,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "25/09/2026",
@@ -89986,7 +90312,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "698,9",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Hiền/Anh",
     "doLuong": "",
@@ -89997,7 +90323,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215587"
   },
   {
-    "stt": 1093,
+    "stt": 1097,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tài",
     "ngayChuyen": "25/09/2026",
@@ -90026,7 +90352,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3319902"
   },
   {
-    "stt": 1094,
+    "stt": 1098,
     "canBoBBT": "Bảo Vi",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -90055,7 +90381,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3319782"
   },
   {
-    "stt": 1095,
+    "stt": 1099,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "25/09/2026",
@@ -90084,7 +90410,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215388"
   },
   {
-    "stt": 1096,
+    "stt": 1100,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -90113,7 +90439,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218695"
   },
   {
-    "stt": 1097,
+    "stt": 1101,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -90142,7 +90468,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215029"
   },
   {
-    "stt": 1098,
+    "stt": 1102,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -90171,7 +90497,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215033"
   },
   {
-    "stt": 1099,
+    "stt": 1103,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "25/09/2026",
@@ -90189,7 +90515,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "149,1",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -90200,7 +90526,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214742"
   },
   {
-    "stt": 1100,
+    "stt": 1104,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -90229,7 +90555,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215440"
   },
   {
-    "stt": 1101,
+    "stt": 1105,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "25/09/2026",
@@ -90247,7 +90573,7 @@ window.DOSSIER_DATA_LAN2 = [
     "khuPho": "19",
     "giaiToaMotPhan": "",
     "giaiToaToanPhan": "1007,2",
-    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "trangThai": "5. Đã trình UBND phường",
     "ghiChu": "",
     "phapChe": "Dũng/Tân",
     "doLuong": "",
@@ -90258,7 +90584,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397040"
   },
   {
-    "stt": 1102,
+    "stt": 1106,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "An",
     "ngayChuyen": "25/09/2026",
@@ -90287,7 +90613,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3316236"
   },
   {
-    "stt": 1103,
+    "stt": 1107,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tài",
     "ngayChuyen": "25/09/2026",
@@ -90316,7 +90642,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215670"
   },
   {
-    "stt": 1104,
+    "stt": 1108,
     "canBoBBT": "Trọng Phúc",
     "canBoKTHT": "An",
     "ngayChuyen": "25/09/2026",
@@ -90345,7 +90671,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215627"
   },
   {
-    "stt": 1105,
+    "stt": 1109,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "25/09/2026",
@@ -90374,7 +90700,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215621"
   },
   {
-    "stt": 1106,
+    "stt": 1110,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "25/09/2026",
@@ -90403,7 +90729,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215284"
   },
   {
-    "stt": 1107,
+    "stt": 1111,
     "canBoBBT": "Duy Quang",
     "canBoKTHT": "An",
     "ngayChuyen": "25/09/2026",
@@ -90432,7 +90758,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215610"
   },
   {
-    "stt": 1108,
+    "stt": 1112,
     "canBoBBT": "Như Hà",
     "canBoKTHT": "Tài",
     "ngayChuyen": "25/09/2026",
@@ -90461,7 +90787,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216300"
   },
   {
-    "stt": 1109,
+    "stt": 1113,
     "canBoBBT": "Ánh Linh",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "28/09/2026",
@@ -90490,7 +90816,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384772"
   },
   {
-    "stt": 1110,
+    "stt": 1114,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -90519,7 +90845,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215138"
   },
   {
-    "stt": 1111,
+    "stt": 1115,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -90548,7 +90874,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3348920"
   },
   {
-    "stt": 1112,
+    "stt": 1116,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -90577,7 +90903,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3263932"
   },
   {
-    "stt": 1113,
+    "stt": 1117,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -90606,7 +90932,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264018"
   },
   {
-    "stt": 1114,
+    "stt": 1118,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -90635,7 +90961,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218784"
   },
   {
-    "stt": 1115,
+    "stt": 1119,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "28/09/2026",
@@ -90664,7 +90990,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215141"
   },
   {
-    "stt": 1116,
+    "stt": 1120,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "28/09/2026",
@@ -90693,7 +91019,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215148"
   },
   {
-    "stt": 1117,
+    "stt": 1121,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "28/09/2026",
@@ -90722,7 +91048,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216313"
   },
   {
-    "stt": 1118,
+    "stt": 1122,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "28/09/2026",
@@ -90751,7 +91077,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264030"
   },
   {
-    "stt": 1119,
+    "stt": 1123,
     "canBoBBT": "Quốc Thạch",
     "canBoKTHT": "Tấn Lộc",
     "ngayChuyen": "28/09/2026",
@@ -90780,7 +91106,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264031"
   },
   {
-    "stt": 1120,
+    "stt": 1124,
     "canBoBBT": "Thanh Tuyền",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -90809,7 +91135,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214935"
   },
   {
-    "stt": 1121,
+    "stt": 1125,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -90838,7 +91164,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218734"
   },
   {
-    "stt": 1122,
+    "stt": 1126,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -90867,7 +91193,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218717"
   },
   {
-    "stt": 1123,
+    "stt": 1127,
     "canBoBBT": "Minh Châu",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "28/09/2026",
@@ -90896,7 +91222,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218712"
   },
   {
-    "stt": 1124,
+    "stt": 1128,
     "canBoBBT": "Văn Hải",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -90925,7 +91251,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265199"
   },
   {
-    "stt": 1125,
+    "stt": 1129,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -90954,7 +91280,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215450"
   },
   {
-    "stt": 1126,
+    "stt": 1130,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -90983,7 +91309,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3302267"
   },
   {
-    "stt": 1127,
+    "stt": 1131,
     "canBoBBT": "Ngọc Trân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -91012,7 +91338,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215810"
   },
   {
-    "stt": 1128,
+    "stt": 1132,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91041,7 +91367,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215897"
   },
   {
-    "stt": 1129,
+    "stt": 1133,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -91070,7 +91396,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215700"
   },
   {
-    "stt": 1130,
+    "stt": 1134,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -91099,7 +91425,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216109"
   },
   {
-    "stt": 1131,
+    "stt": 1135,
     "canBoBBT": "Minh Quân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91128,7 +91454,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216105"
   },
   {
-    "stt": 1132,
+    "stt": 1136,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -91157,7 +91483,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215708"
   },
   {
-    "stt": 1133,
+    "stt": 1137,
     "canBoBBT": "Quốc Bảo",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91186,7 +91512,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214770"
   },
   {
-    "stt": 1134,
+    "stt": 1138,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91215,7 +91541,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215678"
   },
   {
-    "stt": 1135,
+    "stt": 1139,
     "canBoBBT": "Xuân Trúc",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91244,7 +91570,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395602"
   },
   {
-    "stt": 1136,
+    "stt": 1140,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91273,7 +91599,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215544"
   },
   {
-    "stt": 1137,
+    "stt": 1141,
     "canBoBBT": "Tố Lam",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91302,7 +91628,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215509"
   },
   {
-    "stt": 1138,
+    "stt": 1142,
     "canBoBBT": "Ngọc Thịnh",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91331,7 +91657,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216179"
   },
   {
-    "stt": 1139,
+    "stt": 1143,
     "canBoBBT": "Quang Trãi",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91360,7 +91686,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215697"
   },
   {
-    "stt": 1140,
+    "stt": 1144,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "28/09/2026",
@@ -91389,7 +91715,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216163"
   },
   {
-    "stt": 1141,
+    "stt": 1145,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91418,7 +91744,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216199"
   },
   {
-    "stt": 1142,
+    "stt": 1146,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91447,7 +91773,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216197"
   },
   {
-    "stt": 1143,
+    "stt": 1147,
     "canBoBBT": "Vinh Hiển",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91473,7 +91799,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=1258/KP19/BQLDA"
   },
   {
-    "stt": 1144,
+    "stt": 1148,
     "canBoBBT": "Thúy Quyên",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -91502,7 +91828,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215643"
   },
   {
-    "stt": 1145,
+    "stt": 1149,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91531,7 +91857,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3303634"
   },
   {
-    "stt": 1146,
+    "stt": 1150,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91560,7 +91886,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216585"
   },
   {
-    "stt": 1147,
+    "stt": 1151,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91589,7 +91915,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226629"
   },
   {
-    "stt": 1148,
+    "stt": 1152,
     "canBoBBT": "Trọng Nhân",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -91618,7 +91944,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216412"
   },
   {
-    "stt": 1149,
+    "stt": 1153,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91647,7 +91973,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226699"
   },
   {
-    "stt": 1150,
+    "stt": 1154,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91676,7 +92002,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215795"
   },
   {
-    "stt": 1151,
+    "stt": 1155,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Lộc",
     "ngayChuyen": "28/09/2026",
@@ -91705,7 +92031,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216155"
   },
   {
-    "stt": 1152,
+    "stt": 1156,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "Tấn Trường",
     "ngayChuyen": "28/09/2026",
@@ -91734,7 +92060,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215390"
   },
   {
-    "stt": 1153,
+    "stt": 1157,
     "canBoBBT": "Anh Thư",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91763,7 +92089,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215379"
   },
   {
-    "stt": 1154,
+    "stt": 1158,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "28/09/2026",
@@ -91792,7 +92118,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215591"
   },
   {
-    "stt": 1155,
+    "stt": 1159,
     "canBoBBT": "Tiến Thành",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91821,7 +92147,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215891"
   },
   {
-    "stt": 1156,
+    "stt": 1160,
     "canBoBBT": "Tiến Thành",
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "28/09/2026",
@@ -91850,7 +92176,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386422"
   },
   {
-    "stt": 1157,
+    "stt": 1161,
     "canBoBBT": "Tiến Thành",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91879,7 +92205,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215400"
   },
   {
-    "stt": 1158,
+    "stt": 1162,
     "canBoBBT": "Tiến Thành",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91908,7 +92234,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216164"
   },
   {
-    "stt": 1159,
+    "stt": 1163,
     "canBoBBT": "Thiên Ngân",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91937,7 +92263,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3386039"
   },
   {
-    "stt": 1160,
+    "stt": 1164,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -91966,7 +92292,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216302"
   },
   {
-    "stt": 1161,
+    "stt": 1165,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -91995,7 +92321,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3233593"
   },
   {
-    "stt": 1162,
+    "stt": 1166,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -92024,7 +92350,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216456"
   },
   {
-    "stt": 1163,
+    "stt": 1167,
     "canBoBBT": "Thảo Nguyên",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -92053,7 +92379,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216468"
   },
   {
-    "stt": 1164,
+    "stt": 1168,
     "canBoBBT": "Lan Phương",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -92082,7 +92408,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226625"
   },
   {
-    "stt": 1165,
+    "stt": 1169,
     "canBoBBT": "Anh Tuấn",
     "canBoKTHT": "Tùng",
     "ngayChuyen": "28/09/2026",
@@ -92111,7 +92437,123 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216355"
   },
   {
-    "stt": 1166,
+    "stt": 1170,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "28/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "190/KP18/BQLDA",
+    "hoTen": "Nguyễn Thị Bích Thùy",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "MPT128",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3317125",
+    "baseJobName": "190/KP18/BQLDA Nguyễn Thị Bích Thùy",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3317125"
+  },
+  {
+    "stt": 1171,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "28/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "253/KP18/BQLDA",
+    "hoTen": "Phan Văn Linh - Nguyễn Thị Kim Hạnh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "MPT128",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3299296",
+    "baseJobName": "253/KP18/BQLDA Ông Phan Văn Linh và bà Nguyễn Thị Kim Hạnh",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299296"
+  },
+  {
+    "stt": 1172,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "28/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "265/KP18/BQLDA",
+    "hoTen": "Nguyễn Thị Màu",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "MPT128",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3299304",
+    "baseJobName": "265/KP18/BQLDA bà Nguyễn Thị Màu",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3299304"
+  },
+  {
+    "stt": 1173,
+    "canBoBBT": "Anh Tuấn",
+    "canBoKTHT": "",
+    "ngayChuyen": "28/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 2",
+    "maHoSo": "270/KP18/BQLDA",
+    "hoTen": "Nguyễn Văn Thong",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "Bình Quới",
+    "toBanDo": "62",
+    "thuaDat": "MPT128",
+    "khuPho": "18",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Hiền/Anh",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3216465",
+    "baseJobName": "270/KP18/BQLDA Nguyễn Văn Thong - Nguyễn Thị Thuỳ Giang",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216465"
+  },
+  {
+    "stt": 1174,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -92140,7 +92582,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216570"
   },
   {
-    "stt": 1167,
+    "stt": 1175,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -92169,7 +92611,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216550"
   },
   {
-    "stt": 1168,
+    "stt": 1176,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -92198,7 +92640,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216569"
   },
   {
-    "stt": 1169,
+    "stt": 1177,
     "canBoBBT": "Kim Ngân",
     "canBoKTHT": "An",
     "ngayChuyen": "28/09/2026",
@@ -92227,7 +92669,7 @@ window.DOSSIER_DATA_LAN2 = [
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216550"
   },
   {
-    "stt": 1170,
+    "stt": 1178,
     "canBoBBT": "Thanh Giang",
     "canBoKTHT": "Tài",
     "ngayChuyen": "28/09/2026",
@@ -92254,6 +92696,354 @@ window.DOSSIER_DATA_LAN2 = [
     "baseJobName": "462/KP18/BQLDA Nguyễn Kiên Karel",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226659"
+  },
+  {
+    "stt": 1179,
+    "canBoBBT": "Thiện Như",
+    "canBoKTHT": "Văn Bình",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 4",
+    "maHoSo": "94/KP19/BQLDA",
+    "hoTen": "Nguyễn Ngọc Hùng",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "69",
+    "thuaDat": "85",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "979,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3216740",
+    "baseJobName": "494/KP19/BQLDABùi Văn Thông",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216740"
+  },
+  {
+    "stt": 1180,
+    "canBoBBT": "Thiện Như",
+    "canBoKTHT": "Tùng",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 4",
+    "maHoSo": "65/KP19/BQLDA",
+    "hoTen": "Nguyễn Ngọc Lợi - Nguyễn Thị Lắm Lớn",
+    "diaChi": "558/64/44/21A",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "69",
+    "thuaDat": "417, mpt 67",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "723,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3397040",
+    "baseJobName": "1365/KP19/BQLDA Trịnh Thị Kim Xuyến",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3397040"
+  },
+  {
+    "stt": 1181,
+    "canBoBBT": "Thiện Như",
+    "canBoKTHT": "An",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 4",
+    "maHoSo": "688/KP19/BQLDA",
+    "hoTen": "Nguyễn Tuấn Anh - Nguyễn Thị Rành",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "69",
+    "thuaDat": "MPT 66",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "58,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3215455",
+    "baseJobName": "688/KP19/BQLDANguyễn Tuấn Anh",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215455"
+  },
+  {
+    "stt": 1182,
+    "canBoBBT": "Hoài Thương",
+    "canBoKTHT": "An",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 1",
+    "maHoSo": "44/KP17/BQLDA",
+    "hoTen": "Trần Thị Mai",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "17",
+    "toBanDo": "42",
+    "thuaDat": "MP23",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "33,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Linh/Nhi",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3379929",
+    "baseJobName": "644/KP17/BQLDA TRẦN VĂN MÂN (VC)",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3379929"
+  },
+  {
+    "stt": 1183,
+    "canBoBBT": "Minh Châu",
+    "canBoKTHT": "Văn Bình",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 1",
+    "maHoSo": "217/KP17/BQLDA",
+    "hoTen": "Trần Thị Năm",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "17",
+    "toBanDo": "44",
+    "thuaDat": "MP72",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "59,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "linh/Nhi",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3218721",
+    "baseJobName": "217/KP17/BQLDA TRẦN THỊ NĂM",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218721"
+  },
+  {
+    "stt": 1184,
+    "canBoBBT": "Kiều Oanh",
+    "canBoKTHT": "Văn Bình",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 1",
+    "maHoSo": "475/KP17/BQLDA",
+    "hoTen": "Trần Thị Ngọc Ánh",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "17",
+    "toBanDo": "44",
+    "thuaDat": "590",
+    "khuPho": "17",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "211",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "linh/Nhi",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3264081",
+    "baseJobName": "475/KP17/BQLDA/TRẦN THỊ NGỌC ÁNH",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264081"
+  },
+  {
+    "stt": 1185,
+    "canBoBBT": "Quang Trãi",
+    "canBoKTHT": "Lộc",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "571/KP19/BQLDA",
+    "hoTen": "Đoàn Văn Yên-Bùi Thị Cái",
+    "diaChi": "480/77",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "66",
+    "thuaDat": "65",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "976,2",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3215689",
+    "baseJobName": "571/KP19/BQLDAĐoàn Thanh Hiếu ( Đoàn Văn Yên)",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215689"
+  },
+  {
+    "stt": 1186,
+    "canBoBBT": "Trọng Phúc",
+    "canBoKTHT": "Tài",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "583/KP19/BQLDA",
+    "hoTen": "Trần Văn Xút - Nguyễn Thị Lý",
+    "diaChi": "480/81/1",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "67",
+    "thuaDat": "11",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2716,8",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3215665",
+    "baseJobName": "583/KP19/BQLDATrần Văn Xút - Nguyễn Thị Lý",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215665"
+  },
+  {
+    "stt": 1187,
+    "canBoBBT": "Thúy Quyên",
+    "canBoKTHT": "Tấn Trường",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "604/KP19/BQLDA",
+    "hoTen": "Nguyễn Thị Hà",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "66",
+    "thuaDat": "444",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "2580,3",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3215623",
+    "baseJobName": "604/KP19/BQLDANguyễn Thị Hà",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215623"
+  },
+  {
+    "stt": 1188,
+    "canBoBBT": "Thúy Quyên",
+    "canBoKTHT": "Tấn Trường",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "336/KP19/BQLDA",
+    "hoTen": "HTX Nông nghiệp Bình Quới \n (Lê Quan Hải đại diện)",
+    "diaChi": "Không số",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "66",
+    "thuaDat": "5",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "15829,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3374092",
+    "baseJobName": "1336/KP19/BQLDA Nguyễn Ngọc Mai - Hoàng Thị Thoa",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3374092"
+  },
+  {
+    "stt": 1189,
+    "canBoBBT": "Như Hà",
+    "canBoKTHT": "An",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "1192/KP19/BQLDA",
+    "hoTen": "Lương Văn Khối",
+    "diaChi": "480/89/17",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "68",
+    "thuaDat": "mpt 42; 403",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "1464,6",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3214783",
+    "baseJobName": "1192/KP19/BQLDALương Văn Khối",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214783"
+  },
+  {
+    "stt": 1190,
+    "canBoBBT": "Vân Khánh",
+    "canBoKTHT": "Tùng",
+    "ngayChuyen": "29/09/2026",
+    "ngayKthtChuyenVe": "",
+    "ngayChuyenLan2": "",
+    "ngayKthtChuyenVeLan2": "",
+    "toBoiThuong": "Tổ 3",
+    "maHoSo": "805/KP19/BQLDA",
+    "hoTen": "Phạm Đức Hưởng",
+    "diaChi": "480/89/10",
+    "duong": "Bình Quới",
+    "phuong": "19",
+    "toBanDo": "67",
+    "thuaDat": "77",
+    "khuPho": "19",
+    "giaiToaMotPhan": "",
+    "giaiToaToanPhan": "138,9",
+    "trangThai": "1. Đã chuyển phòng KTHTĐT",
+    "ghiChu": "",
+    "phapChe": "Dũng/Tân",
+    "doLuong": "",
+    "trungLap": "",
+    "baseJobId": "3215282",
+    "baseJobName": "805/KP19/BQLDAPhạm Đức Hưởng",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215282"
   }
 ];
 window.TABLE_VII_DATA_DAILY = [
@@ -94578,6 +95368,42 @@ window.TABLE_VII_DATA_DAILY = [
     "soHsTraSua": 12,
     "tongHs": 25,
     "ghiChu": "1"
+  },
+  {
+    "timeKey": "29/09/2026",
+    "khuPho": "17 (Tổ 1)",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 0,
+    "soHsTraSua": 5,
+    "tongHs": 5,
+    "ghiChu": "3"
+  },
+  {
+    "timeKey": "29/09/2026",
+    "khuPho": "18 (Tổ 2)",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 12,
+    "soHsTraSua": 20,
+    "tongHs": 32,
+    "ghiChu": "10"
+  },
+  {
+    "timeKey": "29/09/2026",
+    "khuPho": "19 (Tổ 3)",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 7,
+    "soHsTraSua": 8,
+    "tongHs": 15,
+    "ghiChu": "0"
+  },
+  {
+    "timeKey": "29/09/2026",
+    "khuPho": "19 (Tổ 4)",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 6,
+    "soHsTraSua": 7,
+    "tongHs": 13,
+    "ghiChu": "0"
   }
 ];
 window.TABLE_VII_DATA_WEEKLY = [
@@ -94961,18 +95787,20 @@ window.TABLE_VII_DATA_WEEKLY = [
   }
 ];
 window.BASE_WORKFLOW_COUNTS = {
+  "Trần Thị Bảo Vi": 54,
+  "Trương Ngọc Anh Thư": 50,
+  "Nguyễn Thanh Tùng": 56,
+  "Phạm Trần Vân Khánh": 57,
+  "Lê Anh Tuấn": 62,
   "Vương Trọng Nhân": 65,
   "Nguyễn Phạm Thành Giang": 58,
-  "Trần Thị Bảo Vi": 50,
-  "Trương Ngọc Anh Thư": 47,
-  "Phạm Trần Vân Khánh": 56,
   "Nguyễn Thị Thiên Ngân": 55,
   "Nguyễn Vinh Hiển": 68,
-  "Trương Duy Bảo": 73,
+  "Trương Duy Bảo": 71,
   "Lê Quang Trãi": 61,
   "Đoàn Trí Nghĩa": 78,
   "Đỗ Thị Thúy Quyên": 66,
-  "Phạm Thị Ánh Linh": 53,
+  "Phạm Thị Ánh Linh": 51,
   "Đoàn Thị Tố Lam": 75,
   "Nguyễn Thanh Tuyền": 69,
   "Nguyễn Ngọc Thảo Nguyên": 63,
@@ -94984,26 +95812,100 @@ window.BASE_WORKFLOW_COUNTS = {
   "Tô Ngọc Uyên Như": 56,
   "Đặng Hải Đăng Vinh": 63,
   "Phạm Lê Xuân Trúc": 82,
-  "Hồ Quốc Thạch": 92,
-  "Đặng Cao Kiều Oanh": 61,
-  "Võ Trọng Phúc": 48,
+  "Hồ Quốc Thạch": 93,
+  "Đặng Cao Kiều Oanh": 62,
+  "Võ Trọng Phúc": 50,
   "Cao Thị Mỹ Thương": 72,
   "Phạm Duy Quang": 67,
   "Nguyễn Minh Quân": 55,
-  "Nguyễn Đoàn Minh Châu": 61,
+  "Nguyễn Đoàn Minh Châu": 62,
   "Trần Thị Như Hà": 39,
-  "Nguyễn Thanh Tùng": 54,
   "Phạm Ngọc Thịnh": 52,
-  "Lê Anh Tuấn": 62,
   "Nguyễn Ngọc Trân": 37,
   "Trịnh Hoàng Minh": 70,
   "Huỳnh Văn Tân": 68,
   "Hoàng Hoài Thương": 66,
-  "Võ Thị Yến Nhi": 3,
   "Bùi Tiến Thành": 6,
-  "_total_jobs": 2372
+  "_total_jobs": 2380
 };
 window.BASE_JOBS_MAP = {
+  "348KP18BQLDAVTHANHPHNGBITHMNGTHY": {
+    "id": "3400173",
+    "name": "348/KP18/BQLDA Võ Thanh Phương - Bùi Thị Mộng Thúy",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400173"
+  },
+  "336KP18BQLDABIHNGTHI": {
+    "id": "3400150",
+    "name": "336/KP18/BQLDA Bùi Hồng Thái",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400150"
+  },
+  "25KP18BQLDAHUNHTHBY": {
+    "id": "3400145",
+    "name": "25/KP18/BQLDA Huỳnh Thị Bảy",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400145"
+  },
+  "18KP18BQLDAHUNHTHTHU": {
+    "id": "3400138",
+    "name": "18/KP18/BQLDA Huỳnh Thị Thu",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400138"
+  },
+  "839KP19BQLDAHUNHVNHNH": {
+    "id": "3400081",
+    "name": "839/KP19/BQLDA Huỳnh Văn Hạnh",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400081"
+  },
+  "24KP18BQLDAHUNHTHLI": {
+    "id": "3400067",
+    "name": "24/KP18/BQLDA Huỳnh Thị Lài",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400067"
+  },
+  "1367KP19BQLDALUTHDUYN": {
+    "id": "3400034",
+    "name": "1367/KP19/BQLDA Lưu Thị Duyên",
+    "stageId": "117748",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400034"
+  },
+  "1363KP19BQLDAHUNHVNQUCNGUYNTHKIMNG": {
+    "id": "3400024",
+    "name": "1363/KP19/BQLDA Huỳnh Văn Quốc - Nguyễn Thị Kim Ngà",
+    "stageId": "117748",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3400024"
+  },
+  "1469KP19BQLDADNGTHTHUTHANHHTRUNGNGHA": {
+    "id": "3399754",
+    "name": "1469/KP19/BQLDA Dương Thị Thu Thanh - Hồ Trung Nghĩa",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399754"
+  },
+  "198KP19BQLDATRANGTHUMAI": {
+    "id": "3216050",
+    "name": "198/KP19/BQLDATrang Thu Mai",
+    "stageId": "120424",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216050"
+  },
+  "1057KP19BQLDAHINHTHNBNHQUITY": {
+    "id": "3399516",
+    "name": "1057/KP19/BQLDA Hội Đình Thần Bình Quới Tây",
+    "stageId": "120424",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399516"
+  },
   "40KP18BQLDALTHNGC": {
     "id": "3397630",
     "name": "40/KP18/BQLDA Lê Thị Ngọc",
@@ -95063,7 +95965,7 @@ window.BASE_JOBS_MAP = {
   "1356KP19BQLDANGBCSN": {
     "id": "3396483",
     "name": "1356/KP19/BQLDA Đặng Bắc Sơn",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396483"
   },
@@ -95676,20 +96578,6 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384764"
   },
-  "651KP17BQLDATRNVNMNVC": {
-    "id": "3384755",
-    "name": "651/KP17/BQLDA TRẦN VĂN MÂN (VC)",
-    "stageId": "116732",
-    "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384755"
-  },
-  "642KP17BQLDATRNVNMNVC": {
-    "id": "3384746",
-    "name": "642/KP17/BQLDA TRẦN VĂN MÂN (VC)",
-    "stageId": "116732",
-    "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3384746"
-  },
   "630KP17BQLDAKHUVILLASTHINHVNGCH": {
     "id": "3384676",
     "name": "630/KP17/BQLDA KHU VILLAS THIÊN HÀ (VẮNG CHỦ)",
@@ -96071,7 +96959,7 @@ window.BASE_JOBS_MAP = {
   "1272KP19BQLDANGUYNVNTYVCCTKCABPHMTHBY": {
     "id": "3338483",
     "name": "1272/KP19/BQLDA Nguyễn Văn Tây và các ĐTK của bà Phạm Thị Bảy",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3338483"
   },
@@ -96176,7 +97064,7 @@ window.BASE_JOBS_MAP = {
   "1289KP19BQLDANGUYNPHCHUHTX": {
     "id": "3329801",
     "name": "1289/KP19/BQLDA Nguyễn Phúc Hậu (HTX)",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3329801"
   },
@@ -96687,7 +97575,7 @@ window.BASE_JOBS_MAP = {
   "1227KP19BQLDANGVNC": {
     "id": "3273150",
     "name": "1227/KP19/BQLDA Đặng Văn Đức",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3273150"
   },
@@ -97030,7 +97918,7 @@ window.BASE_JOBS_MAP = {
   "475KP17BQLDATRNTHNGCNH": {
     "id": "3264081",
     "name": "475/KP17/BQLDA/TRẦN THỊ NGỌC ÁNH",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264081"
   },
@@ -97387,7 +98275,7 @@ window.BASE_JOBS_MAP = {
   "508KP17BQLDALNGTHKIMNGC": {
     "id": "3264027",
     "name": "508/KP17/BQLDA/LƯƠNG THỊ KIM NGỌC",
-    "stageId": "120424",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3264027"
   },
@@ -99410,7 +100298,7 @@ window.BASE_JOBS_MAP = {
   "214KP17BQLDANGUYNTHHNG": {
     "id": "3218724",
     "name": "214/KP17/BQLDA NGUYỄN THỊ HỒNG",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218724"
   },
@@ -100667,13 +101555,6 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216689"
   },
-  "49KP18BQLDABNGTHHNG": {
-    "id": "3216688",
-    "name": "49/KP18/BQLDA Bà Đặng Thị Hương",
-    "stageId": "117748",
-    "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216688"
-  },
   "50KP18BQLDANGNGUYNTHANHLIM": {
     "id": "3216687",
     "name": "50/KP18/BQLDA Ông Nguyễn Thanh Liêm",
@@ -100726,14 +101607,14 @@ window.BASE_JOBS_MAP = {
   "57KP18BQLDABPHMTHNGUYN": {
     "id": "3216680",
     "name": "57/KP18/BQLDA Bà Phạm Thị Nguyện",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216680"
   },
   "58KP18BQLDANGPHMMINHTUNCONNGPHMVNC": {
     "id": "3216679",
     "name": "58/KP18/BQLDA Ông Phạm Minh Tuấn (con ông Phạm Văn Cư)",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216679"
   },
@@ -101503,7 +102384,7 @@ window.BASE_JOBS_MAP = {
   "182KP18BQLDANGPHMANHC": {
     "id": "3216554",
     "name": "182/KP18/BQLDA Ông Phạm Anh Đức",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216554"
   },
@@ -102189,7 +103070,7 @@ window.BASE_JOBS_MAP = {
   "299KP18BQLDACAOTHIHNG": {
     "id": "3216436",
     "name": "299/KP18/BQLDA Cao Thị Hương",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216436"
   },
@@ -102413,7 +103294,7 @@ window.BASE_JOBS_MAP = {
   "335KP18BQLDALMPHIVN": {
     "id": "3216400",
     "name": "335/KP18/BQLDA Lâm Phối Vân",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216400"
   },
@@ -103316,7 +104197,7 @@ window.BASE_JOBS_MAP = {
   "834KP19BQLDAPHANNGCGIANG": {
     "id": "3216243",
     "name": "834/KP19/BQLDAPhan Ngọc Giang",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216243"
   },
@@ -103785,7 +104666,7 @@ window.BASE_JOBS_MAP = {
   "121KP19BQLDAPHANVNTHPHANTHANHLM": {
     "id": "3216154",
     "name": "121/KP19/BQLDAPhan Văn Thế ( Phan Thanh Lâm)",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216154"
   },
@@ -104419,13 +105300,6 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216052"
   },
-  "198KP19BQLDATRANGTHUMAI": {
-    "id": "3216050",
-    "name": "198/KP19/BQLDATrang Thu Mai",
-    "stageId": "117748",
-    "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216050"
-  },
   "956KP19BQLDAHUNHTHMAI": {
     "id": "3216049",
     "name": "956/KP19/BQLDAHuỳnh Thị Mai",
@@ -104555,7 +105429,7 @@ window.BASE_JOBS_MAP = {
   "966KP19BQLDAONVNHNG": {
     "id": "3216029",
     "name": "966/KP19/BQLDAĐoàn Văn Hùng",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216029"
   },
@@ -105178,7 +106052,7 @@ window.BASE_JOBS_MAP = {
   "295KP19BQLDALTHCM": {
     "id": "3215911",
     "name": "295/KP19/BQLDALê Thị Cẩm",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215911"
   },
@@ -106641,7 +107515,7 @@ window.BASE_JOBS_MAP = {
   "583KP19BQLDATRNVNXTNGUYNTHL": {
     "id": "3215665",
     "name": "583/KP19/BQLDATrần Văn Xút - Nguyễn Thị Lý",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215665"
   },
@@ -107740,7 +108614,7 @@ window.BASE_JOBS_MAP = {
   "674KP19BQLDANGUYNXUNQUNHONTHTHANHTHO": {
     "id": "3215485",
     "name": "674/KP19/BQLDANguyễn Xuân Quỳnh-Đoạn Thị Thanh Thảo",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215485"
   },
@@ -107992,7 +108866,7 @@ window.BASE_JOBS_MAP = {
   "1172KP19BQLDANGUYNVNTM": {
     "id": "3215446",
     "name": "1172/KP19/BQLDANguyễn Văn Tám",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215446"
   },
@@ -108041,7 +108915,7 @@ window.BASE_JOBS_MAP = {
   "699KP19BQLDATRNVNX": {
     "id": "3215439",
     "name": "699/KP19/BQLDATrần Văn Xê",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215439"
   },
@@ -108097,7 +108971,7 @@ window.BASE_JOBS_MAP = {
   "706KP19BQLDATRNTHHONGTRANG": {
     "id": "3215431",
     "name": "706/KP19/BQLDATrần Thị Hoàng Trang",
-    "stageId": "117748",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215431"
   },
@@ -108251,7 +109125,7 @@ window.BASE_JOBS_MAP = {
   "728KP19BQLDANGUYNTHHNG": {
     "id": "3215409",
     "name": "728/KP19/BQLDANguyễn Thị Hồng",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215409"
   },
@@ -108328,7 +109202,7 @@ window.BASE_JOBS_MAP = {
   "739KP19BQLDAHUNHTHKIMLOAN": {
     "id": "3215397",
     "name": "739/KP19/BQLDAHuỳnh Thị Kim Loan",
-    "stageId": "117748",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215397"
   },
