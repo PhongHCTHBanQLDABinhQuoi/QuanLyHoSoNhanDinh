@@ -14154,7 +14154,7 @@ window.DOSSIER_DATA = [
     "canBoKTHT": "Văn Bình",
     "ngayChuyen": "16/07/2026",
     "ngayKthtChuyenVe": "",
-    "toBoiThuong": "Tổ 3",
+    "toBoiThuong": "Tổ 4",
     "maHoSo": "368/KP19/BQLDA",
     "hoTen": "Nguyễn Thị Huệ",
     "diaChi": "Không số",
