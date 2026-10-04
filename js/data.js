@@ -98900,7 +98900,7 @@ window.BASE_JOBS_MAP = {
   "1440KP19BQLDANGNGUYNDTHO": {
     "id": "3395602",
     "name": "1440/KP19/BQLDANgô Nguyễn Dạ Thảo",
-    "stageId": "116730",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395602"
   },
