@@ -7840,10 +7840,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215745",
-    "baseJobName": "543/KP19/BQLDA Trần Thị Hồng Loan",
+    "baseJobId": "3418778",
+    "baseJobName": "1543/KP19/BQLDA Vắng chủ",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215745"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3418778"
   },
   {
     "stt": 292,
@@ -23752,10 +23752,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3410015",
-    "baseJobName": "1324/KP19/BQLDA Trịnh Thị Kim Xuyến",
+    "baseJobId": "3409981",
+    "baseJobName": "1524/KP19/BQLDA NGUYỄN THỊ THU ÁI",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3410015"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409981"
   },
   {
     "stt": 882,
@@ -43183,10 +43183,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3395606",
-    "baseJobName": "1443/KP19/BQLDANgô Nguyễn Dạ Thảo",
+    "baseJobId": "3418778",
+    "baseJobName": "1543/KP19/BQLDA Vắng chủ",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395606"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3418778"
   },
   {
     "stt": 1602,
@@ -46558,10 +46558,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3395605",
-    "baseJobName": "1442/KP19/BQLDANgô Nguyễn Dạ Thảo",
+    "baseJobId": "3418783",
+    "baseJobName": "1542/KP19/BQLDA Vắng chủ (Võ Tấn Tài)",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395605"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3418783"
   },
   {
     "stt": 1727,
@@ -60718,10 +60718,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3410015",
-    "baseJobName": "1324/KP19/BQLDA Trịnh Thị Kim Xuyến",
+    "baseJobId": "3409981",
+    "baseJobName": "1524/KP19/BQLDA NGUYỄN THỊ THU ÁI",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3410015"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409981"
   },
   {
     "stt": 69,
@@ -64601,10 +64601,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3215745",
-    "baseJobName": "543/KP19/BQLDA Trần Thị Hồng Loan",
+    "baseJobId": "3418778",
+    "baseJobName": "1543/KP19/BQLDA Vắng chủ",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215745"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3418778"
   },
   {
     "stt": 203,
@@ -81386,10 +81386,10 @@ window.DOSSIER_DATA_LAN2 = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseJobId": "3395606",
-    "baseJobName": "1443/KP19/BQLDANgô Nguyễn Dạ Thảo",
+    "baseJobId": "3418778",
+    "baseJobName": "1543/KP19/BQLDA Vắng chủ",
     "baseStageName": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395606"
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3418778"
   },
   {
     "stt": 782,
@@ -98207,6 +98207,42 @@ window.TABLE_VII_DATA_DAILY = [
     "soHsTraSua": 7,
     "tongHs": 12,
     "ghiChu": "0"
+  },
+  {
+    "timeKey": "08/10/2026",
+    "khuPho": "17 (Tổ 1)",
+    "canBo": "Linh/Nhi",
+    "soHsDuyet": 7,
+    "soHsTraSua": 7,
+    "tongHs": 14,
+    "ghiChu": "0"
+  },
+  {
+    "timeKey": "08/10/2026",
+    "khuPho": "18 (Tổ 2)",
+    "canBo": "Hiền/Anh",
+    "soHsDuyet": 0,
+    "soHsTraSua": 3,
+    "tongHs": 3,
+    "ghiChu": "3"
+  },
+  {
+    "timeKey": "08/10/2026",
+    "khuPho": "19 (Tổ 3)",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 7,
+    "soHsTraSua": 9,
+    "tongHs": 16,
+    "ghiChu": "0"
+  },
+  {
+    "timeKey": "08/10/2026",
+    "khuPho": "19 (Tổ 4)",
+    "canBo": "Tân/Dũng",
+    "soHsDuyet": 5,
+    "soHsTraSua": 3,
+    "tongHs": 8,
+    "ghiChu": "2"
   }
 ];
 window.TABLE_VII_DATA_WEEKLY = [
@@ -98626,8 +98662,9 @@ window.TABLE_VII_DATA_WEEKLY = [
   }
 ];
 window.BASE_WORKFLOW_COUNTS = {
-  "Phạm Lê Xuân Trúc": 92,
-  "Lê Quang Trãi": 74,
+  "Phạm Trần Vân Khánh": 77,
+  "Lê Quang Trãi": 77,
+  "Phạm Lê Xuân Trúc": 91,
   "Ngô Văn Hải": 60,
   "Trương Duy Bảo": 84,
   "Hoàng Lâm Quốc Bảo": 74,
@@ -98638,11 +98675,10 @@ window.BASE_WORKFLOW_COUNTS = {
   "Đỗ Thị Thúy Quyên": 69,
   "Trương Ngọc Anh Thư": 53,
   "Đặng Cao Kiều Oanh": 63,
-  "Đoàn Thị Tố Lam": 78,
+  "Đoàn Thị Tố Lam": 79,
   "Phạm Thị Ánh Linh": 52,
   "Trần Thị Bảo Vi": 53,
   "Nguyễn Thanh Tùng": 56,
-  "Phạm Trần Vân Khánh": 75,
   "Lê Anh Tuấn": 62,
   "Vương Trọng Nhân": 65,
   "Nguyễn Phạm Thành Giang": 60,
@@ -98665,9 +98701,44 @@ window.BASE_WORKFLOW_COUNTS = {
   "Huỳnh Văn Tân": 68,
   "Hoàng Hoài Thương": 66,
   "Bùi Tiến Thành": 33,
-  "_total_jobs": 2471
+  "_total_jobs": 2476
 };
 window.BASE_JOBS_MAP = {
+  "1542KP19BQLDAVNGCHVTNTI": {
+    "id": "3418783",
+    "name": "1542/KP19/BQLDA Vắng chủ (Võ Tấn Tài)",
+    "stageId": "121331",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3418783"
+  },
+  "1543KP19BQLDAVNGCH": {
+    "id": "3418778",
+    "name": "1543/KP19/BQLDA Vắng chủ",
+    "stageId": "121331",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3418778"
+  },
+  "1524KP19BQLDANGUYNTHTHUI": {
+    "id": "3409981",
+    "name": "1524/KP19/BQLDA NGUYỄN THỊ THU ÁI",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409981"
+  },
+  "79KP19BQLDABITHML": {
+    "id": "3409940",
+    "name": "79/KP19/BQLDA BÙI THỊ MỸ LỆ",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409940"
+  },
+  "1522KP19BQLDAVNGCHCHKHNGHPTC": {
+    "id": "3410100",
+    "name": "1522/KP19/BQLDA VẮNG CHỦ (CHỦ KHÔNG HỢP TÁC)",
+    "stageId": "116730",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3410100"
+  },
   "1456KP19BQLDANGUYNTHTHANHLAN": {
     "id": "3418026",
     "name": "1456/KP19/BQLDA NGUYỄN THỊ THANH LAN",
@@ -98944,7 +99015,7 @@ window.BASE_JOBS_MAP = {
   "1306KP19BQLDAVNGCH": {
     "id": "3410107",
     "name": "1306/KP19/BQLDA Vắng chủ",
-    "stageId": "116730",
+    "stageId": "116729",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3410107"
   },
@@ -98961,13 +99032,6 @@ window.BASE_JOBS_MAP = {
     "stageId": "116730",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3410102"
-  },
-  "1522KP19BQLDAVNGCHCHKHNGHPTC": {
-    "id": "3410100",
-    "name": "1522/KP19/BQLDA VẮNG CHỦ (CHỦ KHÔNG HỢP TÁC)",
-    "stageId": "116730",
-    "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3410100"
   },
   "1525KP19BQLDATRNNHTVINH": {
     "id": "3410094",
@@ -99098,44 +99162,30 @@ window.BASE_JOBS_MAP = {
   "1321KP19BQLDATRNHTHKIMXUYN": {
     "id": "3409982",
     "name": "1321/KP19/BQLDA Trịnh Thị Kim Xuyến",
-    "stageId": "116730",
+    "stageId": "116731",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409982"
-  },
-  "1524KP19BQLDANGUYNTHTHUI": {
-    "id": "3409981",
-    "name": "1524/KP19/BQLDA NGUYỄN THỊ THU ÁI",
-    "stageId": "116730",
-    "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409981"
   },
   "1320KP19BQLDAVNGCH": {
     "id": "3409973",
     "name": "1320/KP19/BQLDA Vắng chủ",
-    "stageId": "116730",
+    "stageId": "116729",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409973"
   },
   "1319KP19BQLDAVNGCH": {
     "id": "3409964",
     "name": "1319/KP19/BQLDA Vắng chủ",
-    "stageId": "116730",
+    "stageId": "116729",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409964"
   },
   "1318KP19BQLDAVNGCH": {
     "id": "3409959",
     "name": "1318/KP19/BQLDA Vắng chủ",
-    "stageId": "116730",
+    "stageId": "116729",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409959"
-  },
-  "79KP19BQLDABITHML": {
-    "id": "3409940",
-    "name": "79/KP19/BQLDA BÙI THỊ MỸ LỆ",
-    "stageId": "116730",
-    "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409940"
   },
   "1317KP19BQLDAVNGCTHU": {
     "id": "3409849",
@@ -99147,7 +99197,7 @@ window.BASE_JOBS_MAP = {
   "1316KP19BQLDANGUYNTHIUVCCTKCANGHUNHVNL": {
     "id": "3409823",
     "name": "1316/KP19/BQLDA Nguyễn Thị Điểu và các ĐTK của ông Huỳnh Văn Lễ",
-    "stageId": "116730",
+    "stageId": "116731",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3409823"
   },
@@ -99420,7 +99470,7 @@ window.BASE_JOBS_MAP = {
   "1469KP19BQLDADNGTHTHUTHANHHTRUNGNGHA": {
     "id": "3399754",
     "name": "1469/KP19/BQLDA Dương Thị Thu Thanh - Hồ Trung Nghĩa",
-    "stageId": "116731",
+    "stageId": "116729",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3399754"
   },
@@ -99476,21 +99526,21 @@ window.BASE_JOBS_MAP = {
   "1458KP19BQLDAPHMDUY": {
     "id": "3396558",
     "name": "1458/KP19/BQLDA Phạm Duy",
-    "stageId": "116731",
+    "stageId": "116732",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396558"
   },
   "1459KP19BQLDATRNHTHKIMXUYN": {
     "id": "3396550",
     "name": "1459/KP19/BQLDA Trịnh Thị Kim Xuyến",
-    "stageId": "116730",
+    "stageId": "116731",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396550"
   },
   "1460KP19BQLDATRNHTHKIMXUYN": {
     "id": "3396544",
     "name": "1460/KP19/BQLDA Trịnh Thị Kim Xuyến",
-    "stageId": "116730",
+    "stageId": "116731",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3396544"
   },
@@ -100743,7 +100793,7 @@ window.BASE_JOBS_MAP = {
   "1211KP19BQLDANGUYNNGCTHANH": {
     "id": "3308389",
     "name": "1211/KP19/BQLDA Nguyễn Ngọc Thanh",
-    "stageId": "116729",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3308389"
   },
@@ -110585,7 +110635,7 @@ window.BASE_JOBS_MAP = {
   "551KP19BQLDAPHMTHTUYTLOANPHMVNHNGPHMTHPHCPHMTHQUPHMTHHACHT": {
     "id": "3215729",
     "name": "551/KP19/BQLDA Phạm Thị Tuyết Loan - Phạm Văn Hồng - Phạm Thị Phúc - Phạm Thị Quý - Phạm Thị Hòa (chết)",
-    "stageId": "116732",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215729"
   },
@@ -110613,7 +110663,7 @@ window.BASE_JOBS_MAP = {
   "553KP19BQLDAPHMTHNGA": {
     "id": "3215725",
     "name": "553/KP19/BQLDA Phạm Thị Nga",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215725"
   },
@@ -110655,7 +110705,7 @@ window.BASE_JOBS_MAP = {
   "557KP19BQLDAPHMVNHNG": {
     "id": "3215717",
     "name": "557/KP19/BQLDAPhạm Văn Hồng",
-    "stageId": "116729",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215717"
   },
@@ -110851,7 +110901,7 @@ window.BASE_JOBS_MAP = {
   "572KP19BQLDAPHMTHPHC": {
     "id": "3215687",
     "name": "572/KP19/BQLDAPhạm Thị Phúc",
-    "stageId": "116729",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215687"
   },
@@ -111621,7 +111671,7 @@ window.BASE_JOBS_MAP = {
   "637KP19BQLDANGUYNNGTRNGNGUYNTHCHINH": {
     "id": "3215558",
     "name": "637/KP19/BQLDA Nguyễn Đăng Trường - Nguyễn Thị Chinh",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215558"
   },
@@ -112209,7 +112259,7 @@ window.BASE_JOBS_MAP = {
   "683KP19BQLDAPHNGTHPHNG": {
     "id": "3215466",
     "name": "683/KP19/BQLDA Phùng Thị Phụng",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215466"
   },
@@ -112265,7 +112315,7 @@ window.BASE_JOBS_MAP = {
   "687KP19BQLDATRNTHNHTUYT": {
     "id": "3215457",
     "name": "687/KP19/BQLDA Trần Thị Ánh Tuyết",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215457"
   },
@@ -113280,7 +113330,7 @@ window.BASE_JOBS_MAP = {
   "795KP19BQLDANGUYNTNTRUNG": {
     "id": "3215302",
     "name": "795/KP19/BQLDANguyễn Tấn Trung",
-    "stageId": "116732",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215302"
   },
@@ -113700,7 +113750,7 @@ window.BASE_JOBS_MAP = {
   "177KP17BQLDATRNHTHNGUYT": {
     "id": "3215219",
     "name": "177/KP17/BQLDA TRỊNH THỊ NGUYỆT",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215219"
   },
@@ -113735,14 +113785,14 @@ window.BASE_JOBS_MAP = {
   "185KP17BQLDABITHMDUNG": {
     "id": "3215214",
     "name": "185/KP17/BQLDA BÙI THỊ MỸ DUNG",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215214"
   },
   "186KP17BQLDABITHMDUNG": {
     "id": "3215213",
     "name": "186/KP17/BQLDA BÙI THỊ MỸ DUNG",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215213"
   },
@@ -113812,14 +113862,14 @@ window.BASE_JOBS_MAP = {
   "199KP17BQLDALKHANG": {
     "id": "3215203",
     "name": "199/KP17/BQLDA LÊ KHANG",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215203"
   },
   "200KP17BQLDANGUYNVNTN": {
     "id": "3215202",
     "name": "200/KP17/BQLDA NGUYỄN VĂN TÂN",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215202"
   },
@@ -113875,7 +113925,7 @@ window.BASE_JOBS_MAP = {
   "232KP17BQLDAHUNHTHNGCIPVCAOVNTI": {
     "id": "3215194",
     "name": "232/KP17/BQLDA HUỲNH THỊ NGỌC ĐIỆP VÀ CAO VĂN TÀI",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215194"
   },
@@ -114925,7 +114975,7 @@ window.BASE_JOBS_MAP = {
   "394KP17BQLDATRNGHONGANH": {
     "id": "3215036",
     "name": "394/KP17/BQLDA TRƯƠNG HOÀNG ANH",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215036"
   },
@@ -115163,7 +115213,7 @@ window.BASE_JOBS_MAP = {
   "349KP17BQLDANGUYNVNC": {
     "id": "3214932",
     "name": "349/KP17/BQLDA NGUYỄN VĂN ĐỨC",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214932"
   },
@@ -115870,7 +115920,7 @@ window.BASE_JOBS_MAP = {
   "540KP19BQLDAPHMXNG": {
     "id": "3214723",
     "name": "540/KP19/BQLDAPhạm Xứng",
-    "stageId": "117748",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3214723"
   },
