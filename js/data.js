@@ -105740,7 +105740,7 @@ window.BASE_JOBS_MAP = {
   "459KP19BQLDACHUVNTRNG": {
     "id": "3216766",
     "name": "459/KP19/BQLDA Chu Văn Trường",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216766"
   },
@@ -105789,7 +105789,7 @@ window.BASE_JOBS_MAP = {
   "470KP19BQLDALTHANHTRC": {
     "id": "3216758",
     "name": "470/KP19/BQLDALê Thanh Trúc",
-    "stageId": "116734",
+    "stageId": "117748",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216758"
   },
