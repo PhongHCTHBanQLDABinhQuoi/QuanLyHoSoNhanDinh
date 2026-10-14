@@ -107969,7 +107969,7 @@ window.BASE_JOBS_MAP = {
   "327KP18BQLDANGUYNKINKAREL": {
     "id": "3216408",
     "name": "327/KP18/BQLDA Nguyễn Kiên Karel",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216408"
   },
