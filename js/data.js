@@ -100515,7 +100515,7 @@ window.BASE_JOBS_MAP = {
   "1527KP19BQLDATRSKHUPH19": {
     "id": "3410064",
     "name": "1527/KP19/BQLDA Trụ sở khu phố 19",
-    "stageId": "121331",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3410064"
   },
