@@ -14315,7 +14315,7 @@ window.DOSSIER_DATA = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3413136",
-    "baseJobName": "621/KP17/BQLDA (vắng chủ)",
+    "baseJobName": "621/KP17/BQLDA Nguyễn Thị Liên (vắng chủ)",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3413136"
   },
@@ -79964,7 +79964,7 @@ window.DOSSIER_DATA_LAN2 = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3413136",
-    "baseJobName": "621/KP17/BQLDA (vắng chủ)",
+    "baseJobName": "621/KP17/BQLDA Nguyễn Thị Liên (vắng chủ)",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3413136"
   },
@@ -100330,9 +100330,9 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3413162"
   },
-  "621KP17BQLDAVNGCH": {
+  "621KP17BQLDANGUYNTHLINVNGCH": {
     "id": "3413136",
-    "name": "621/KP17/BQLDA (vắng chủ)",
+    "name": "621/KP17/BQLDA Nguyễn Thị Liên (vắng chủ)",
     "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3413136"
