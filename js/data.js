@@ -100039,7 +100039,7 @@ window.BASE_JOBS_MAP = {
   "1536KP19BQLDAPHMDUY": {
     "id": "3419983",
     "name": "1536/KP19/BQLDA Phạm Duy",
-    "stageId": "116734",
+    "stageId": "120424",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3419983"
   },
@@ -104631,7 +104631,7 @@ window.BASE_JOBS_MAP = {
   "487KP18BQLDANGUYNDUYPHANNGICYQUYNTHKHNHVY": {
     "id": "3226634",
     "name": "487/KP18/BQLDA Nguyễn Duy Phan ( Người được ủy quyền: Đỗ Thị Khánh Vy )",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3226634"
   },
@@ -108180,7 +108180,7 @@ window.BASE_JOBS_MAP = {
   "329KP18BQLDANGUYNTHNHTRUNGNGIYQUYN": {
     "id": "3216406",
     "name": "329/KP18/BQLDA Nguyễn Thành Trung ( người ủy quyền)",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216406"
   },
@@ -108579,7 +108579,7 @@ window.BASE_JOBS_MAP = {
   "400KP18BQLDALMQUANGHNGOTHN": {
     "id": "3216335",
     "name": "400/KP18/BQLDA Lâm Quang Hưng - Đào Thị Nở",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216335"
   },
