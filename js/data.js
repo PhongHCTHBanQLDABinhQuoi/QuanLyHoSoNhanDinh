@@ -53554,7 +53554,10 @@ window.DOSSIER_DATA = [
     "phapChe": "Dũng/Tân",
     "doLuong": "",
     "trungLap": "",
-    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?q=998/KP19/BQLDA"
+    "baseJobId": "3408506",
+    "baseJobName": "998/KP19/BQLDA Nguyễn Văn Cẩm (HTX)",
+    "baseStageName": "",
+    "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3408506"
   },
   {
     "stt": 1986,
@@ -100983,12 +100986,12 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3408511"
   },
-  "865KP19BQLDANGUYNTHBNH": {
-    "id": "3216182",
-    "name": "865/KP19/BQLDA Nguyễn Thị Bình",
+  "998KP19BQLDANGUYNVNCMHTX": {
+    "id": "3408506",
+    "name": "998/KP19/BQLDA Nguyễn Văn Cẩm (HTX)",
     "stageId": "119938",
     "stageName": "",
-    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216182"
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3408506"
   },
   "1315KP19BQLDAHUNHVNTM": {
     "id": "3407031",
@@ -109561,14 +109564,14 @@ window.BASE_JOBS_MAP = {
   "103KP19BQLDABIVNHIU": {
     "id": "3216191",
     "name": "103/KP19/BQLDA Bùi Văn Hiếu",
-    "stageId": "121331",
+    "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216191"
   },
   "104KP19BQLDABIVNHIU": {
     "id": "3216189",
     "name": "104/KP19/BQLDA Bùi Văn Hiếu",
-    "stageId": "121331",
+    "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216189"
   },
@@ -109599,6 +109602,13 @@ window.BASE_JOBS_MAP = {
     "stageId": "121331",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216183"
+  },
+  "865KP19BQLDANGUYNTHBNH": {
+    "id": "3216182",
+    "name": "865/KP19/BQLDA Nguyễn Thị Bình",
+    "stageId": "119938",
+    "stageName": "",
+    "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216182"
   },
   "108KP19BQLDALUNGCYN": {
     "id": "3216181",
