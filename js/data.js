@@ -11510,7 +11510,7 @@ window.DOSSIER_DATA = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3445768",
-    "baseJobName": "1508/KP19/BQLDAVắng chủ - có GCN",
+    "baseJobName": "1508/KP19/BQLDAVắng chủ",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3445768"
   },
@@ -15527,7 +15527,7 @@ window.DOSSIER_DATA = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3445768",
-    "baseJobName": "1508/KP19/BQLDAVắng chủ - có GCN",
+    "baseJobName": "1508/KP19/BQLDAVắng chủ",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3445768"
   },
@@ -75312,7 +75312,7 @@ window.DOSSIER_DATA_LAN2 = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3445768",
-    "baseJobName": "1508/KP19/BQLDAVắng chủ - có GCN",
+    "baseJobName": "1508/KP19/BQLDAVắng chủ",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3445768"
   },
@@ -99368,9 +99368,9 @@ window.BASE_WORKFLOW_COUNTS = {
   "_total_jobs": 2571
 };
 window.BASE_JOBS_MAP = {
-  "1508KP19BQLDAVNGCHCGCN": {
+  "1508KP19BQLDAVNGCH": {
     "id": "3445768",
-    "name": "1508/KP19/BQLDAVắng chủ - có GCN",
+    "name": "1508/KP19/BQLDAVắng chủ",
     "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3445768"
@@ -100372,7 +100372,7 @@ window.BASE_JOBS_MAP = {
   "1507KP19BQLDAVNGCH": {
     "id": "3421304",
     "name": "1507/KP19/BQLDA VẮNG CHỦ",
-    "stageId": "121331",
+    "stageId": "116733",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3421304"
   },
