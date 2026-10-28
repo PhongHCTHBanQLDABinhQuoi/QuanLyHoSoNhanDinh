@@ -114065,7 +114065,7 @@ window.BASE_JOBS_MAP = {
   "680KP19BQLDABIVNTHY": {
     "id": "3215472",
     "name": "680/KP19/BQLDA Bùi Văn Thấy",
-    "stageId": "120424",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215472"
   },
