@@ -100775,7 +100775,7 @@ window.BASE_JOBS_MAP = {
   "1568KP19BQLDATRNTHHNGLOAN": {
     "id": "3436152",
     "name": "1568/KP19/BQLDA Trần Thị Hồng Loan",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3436152"
   },
@@ -102560,7 +102560,7 @@ window.BASE_JOBS_MAP = {
   "29KP19BQLDABIVNXTTHS": {
     "id": "3395146",
     "name": "29/KP19/BQLDA Bùi Văn Xê (Tạ Thị Sự)",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395146"
   },
@@ -102574,7 +102574,7 @@ window.BASE_JOBS_MAP = {
   "1379KP19BQLDACCNGTHAKCABVTHBI": {
     "id": "3395136",
     "name": "1379/KP19/BQLDA Các đồng thừa kế của bà Võ Thị Bơi",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395136"
   },
@@ -102609,7 +102609,7 @@ window.BASE_JOBS_MAP = {
   "1424KP19BQLDATRNHTHKIMXUYN": {
     "id": "3395107",
     "name": "1424/KP19/BQLDA Trịnh Thị Kim Xuyến",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3395107"
   },
@@ -104093,7 +104093,7 @@ window.BASE_JOBS_MAP = {
   "144KP18BQLDANGUYNTNMNH": {
     "id": "3265739",
     "name": "144/KP18/BQLDA Nguyễn Tấn Mạnh",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3265739"
   },
@@ -108790,7 +108790,7 @@ window.BASE_JOBS_MAP = {
   "208KP18BQLDANGTRNHUPHCBLTHHONGMAI": {
     "id": "3216527",
     "name": "208/KP18/BQLDA Ông Trần Hữu Phước Bà Lê Thị Hoàng Mai",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216527"
   },
@@ -109224,7 +109224,7 @@ window.BASE_JOBS_MAP = {
   "285KP18BQLDANGUYNTHUHIN": {
     "id": "3216450",
     "name": "285/KP18/BQLDA Nguyễn Thu Hiền",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216450"
   },
