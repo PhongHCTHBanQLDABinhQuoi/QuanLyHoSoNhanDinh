@@ -41813,7 +41813,7 @@ window.DOSSIER_DATA = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3432987",
-    "baseJobName": "1600/KP19/BQLDA Bùi Văn Minh Đức, Phạm Thế Phương",
+    "baseJobName": "1600/KP19/BQLDA Nguyễn Văn Minh Đức, Phạm Thế Phương",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3432987"
   },
@@ -100915,9 +100915,9 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3434532"
   },
-  "1600KP19BQLDABIVNMINHCPHMTHPHNG": {
+  "1600KP19BQLDANGUYNVNMINHCPHMTHPHNG": {
     "id": "3432987",
-    "name": "1600/KP19/BQLDA Bùi Văn Minh Đức, Phạm Thế Phương",
+    "name": "1600/KP19/BQLDA Nguyễn Văn Minh Đức, Phạm Thế Phương",
     "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3432987"
@@ -110788,7 +110788,7 @@ window.BASE_JOBS_MAP = {
   "110KP19BQLDANGUYNTHLI": {
     "id": "3216177",
     "name": "110/KP19/BQLDA Nguyễn Thị Lời",
-    "stageId": "119939",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216177"
   },
@@ -115100,7 +115100,7 @@ window.BASE_JOBS_MAP = {
   "752KP19BQLDAHUNHVNQUNGUYNTHTNGNGC": {
     "id": "3215384",
     "name": "752/KP19/BQLDA Huỳnh Văn Quý - Nguyễn Thị Tường Ngọc",
-    "stageId": "119939",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215384"
   },
@@ -115254,7 +115254,7 @@ window.BASE_JOBS_MAP = {
   "09KP19BQLDANGUYNTHBCHTUYT": {
     "id": "3215360",
     "name": "09/KP19/BQLDA Nguyễn Thị Bạch Tuyết",
-    "stageId": "119939",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215360"
   },
@@ -115429,7 +115429,7 @@ window.BASE_JOBS_MAP = {
   "24KP19BQLDANGUYNTHGHT": {
     "id": "3215330",
     "name": "24/KP19/BQLDA Nguyễn Thị Ghết",
-    "stageId": "119939",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215330"
   },
