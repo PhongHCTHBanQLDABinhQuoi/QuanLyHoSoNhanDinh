@@ -113546,7 +113546,7 @@ window.BASE_JOBS_MAP = {
   "589KP19BQLDANGUYNTHTHANHXUN": {
     "id": "3215653",
     "name": "589/KP19/BQLDA Nguyễn Thị Thanh Xuân",
-    "stageId": "119939",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215653"
   },
