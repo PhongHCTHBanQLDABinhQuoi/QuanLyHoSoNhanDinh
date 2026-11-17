@@ -101457,7 +101457,7 @@ window.BASE_JOBS_MAP = {
   "1487KP19BQLDANGUYNANHTUNINHTHMINHTHY": {
     "id": "3420794",
     "name": "1487/KP19/BQLDA Nguyễn Anh Tuần - Đinh Thị Minh Thủy",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3420794"
   },
@@ -103942,7 +103942,7 @@ window.BASE_JOBS_MAP = {
   "1177KP19BQLDAVVNTRNGUYNTHPHI": {
     "id": "3285004",
     "name": "1177/KP19/BQLDA Võ Văn Trí - Nguyễn Thị Phải",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3285004"
   },
