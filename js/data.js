@@ -39467,7 +39467,7 @@ window.DOSSIER_DATA = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3215561",
-    "baseJobName": "635/KP19/BQLDA Nguyễn Thị Đẹp",
+    "baseJobName": "635/KP19/BQLDA Các đồng thừa kế của ông Nguyễn Văn Chà và bà Huỳnh Thị Hai",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215561"
   },
@@ -100078,7 +100078,7 @@ window.BASE_JOBS_MAP = {
   "1617KP19BQLDALTHHONGMAI": {
     "id": "3460252",
     "name": "1617/KP19/BQLDA Lê Thị Hoàng Mai",
-    "stageId": "119939",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3460252"
   },
@@ -100729,14 +100729,14 @@ window.BASE_JOBS_MAP = {
   "1611KP19BQLDAUBNDPBNHQUITMIDINCHSDNG": {
     "id": "3438050",
     "name": "1611/KP19/BQLDA UBND P.Bình Quới (tạm đại diện chủ sử dụng)",
-    "stageId": "119939",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3438050"
   },
   "1610KP19BQLDALVNPHNGIDINCCNGTHAK": {
     "id": "3438041",
     "name": "1610/KP19/BQLDA Lê Văn Phụng (đại diện các đồng thừa kế)",
-    "stageId": "119939",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3438041"
   },
@@ -105468,7 +105468,7 @@ window.BASE_JOBS_MAP = {
   "648KP19BQLDALTHHONGMAI": {
     "id": "3262822",
     "name": "648/KP19/BQLDA Lê Thị Hoàng Mai",
-    "stageId": "119939",
+    "stageId": "119938",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3262822"
   },
@@ -112741,7 +112741,7 @@ window.BASE_JOBS_MAP = {
   "395KP19BQLDANGUYNPHCHU": {
     "id": "3215811",
     "name": "395/KP19/BQLDA Nguyễn Phúc Hậu",
-    "stageId": "119939",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215811"
   },
@@ -114040,9 +114040,9 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215562"
   },
-  "635KP19BQLDANGUYNTHP": {
+  "635KP19BQLDACCNGTHAKCANGNGUYNVNCHVBHUNHTHHAI": {
     "id": "3215561",
-    "name": "635/KP19/BQLDA Nguyễn Thị Đẹp",
+    "name": "635/KP19/BQLDA Các đồng thừa kế của ông Nguyễn Văn Chà và bà Huỳnh Thị Hai",
     "stageId": "119939",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215561"
@@ -115191,7 +115191,7 @@ window.BASE_JOBS_MAP = {
   "1616KP19BQLDALTHHONGMAI": {
     "id": "3215369",
     "name": "1616/KP19/BQLDA Lê Thị Hoàng Mai",
-    "stageId": "116733",
+    "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3215369"
   },
