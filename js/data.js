@@ -3206,7 +3206,7 @@ window.DOSSIER_DATA = [
     "doLuong": "03/07/2026 17:57:47",
     "trungLap": "",
     "baseJobId": "3218697",
-    "baseJobName": "545/KP17/BQLDA ĐINH QUỐC THỊNH",
+    "baseJobName": "545/KP17/BQLDA ĐINH QUỐC THỊNH - LÊ NGỌC QUÝ",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218697"
   },
@@ -33695,7 +33695,7 @@ window.DOSSIER_DATA = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3218729",
-    "baseJobName": "146/KP17/BQLDA TRẦN VĂN GIANG",
+    "baseJobName": "146/KP17/BQLDA TRẦN VĂN GIANG - NGUYỄN THỊ LIỄU",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218729"
   },
@@ -58971,7 +58971,7 @@ window.DOSSIER_DATA_LAN2 = [
     "doLuong": "",
     "trungLap": "",
     "baseJobId": "3218697",
-    "baseJobName": "545/KP17/BQLDA ĐINH QUỐC THỊNH",
+    "baseJobName": "545/KP17/BQLDA ĐINH QUỐC THỊNH - LÊ NGỌC QUÝ",
     "baseStageName": "",
     "baseLink": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218697"
   },
@@ -106641,9 +106641,9 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218730"
   },
-  "146KP17BQLDATRNVNGIANG": {
+  "146KP17BQLDATRNVNGIANGNGUYNTHLIU": {
     "id": "3218729",
-    "name": "146/KP17/BQLDA TRẦN VĂN GIANG",
+    "name": "146/KP17/BQLDA TRẦN VĂN GIANG - NGUYỄN THỊ LIỄU",
     "stageId": "119939",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218729"
@@ -106865,9 +106865,9 @@ window.BASE_JOBS_MAP = {
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218698"
   },
-  "545KP17BQLDAINHQUCTHNH": {
+  "545KP17BQLDAINHQUCTHNHLNGCQU": {
     "id": "3218697",
-    "name": "545/KP17/BQLDA ĐINH QUỐC THỊNH",
+    "name": "545/KP17/BQLDA ĐINH QUỐC THỊNH - LÊ NGỌC QUÝ",
     "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3218697"
