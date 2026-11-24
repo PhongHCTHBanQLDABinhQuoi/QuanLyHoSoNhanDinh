@@ -100652,7 +100652,7 @@ window.BASE_JOBS_MAP = {
   "673KP17BQLDACCNGTHAKCANGNGUYNVNKIMVBNGUYNTHMNG": {
     "id": "3438931",
     "name": "673/KP17/BQLDA Các đồng thừa kế của ông Nguyễn Văn Kiệm và bà Nguyễn Thị Mạng",
-    "stageId": "119938",
+    "stageId": "116735",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3438931"
   },
