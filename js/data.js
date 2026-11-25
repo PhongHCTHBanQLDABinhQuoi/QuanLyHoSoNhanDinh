@@ -100026,7 +100026,7 @@ window.BASE_WORKFLOW_COUNTS = {
   "Đoàn Trí Nghĩa": 75,
   "Bùi Tiến Thành": 79,
   "Nguyễn Ngọc Trân": 52,
-  "Nguyễn Minh Quân": 62,
+  "Nguyễn Minh Quân": 61,
   "Trương Ngọc Anh Thư": 56,
   "Lê Anh Tuấn": 64,
   "Phạm Lê Xuân Trúc": 100,
@@ -100046,7 +100046,7 @@ window.BASE_WORKFLOW_COUNTS = {
   "Hoàng Hoài Thương": 66,
   "Đặng Hải Đăng Vinh": 64,
   "Trương Duy Bảo": 85,
-  "Phạm Ngọc Thịnh": 79,
+  "Phạm Ngọc Thịnh": 80,
   "Huỳnh Văn Tân": 68,
   "Đoàn Thị Tố Lam": 82,
   "Võ Trọng Phúc": 81,
@@ -111215,7 +111215,7 @@ window.BASE_JOBS_MAP = {
   "902KP19BQLDALMINHHIU": {
     "id": "3216103",
     "name": "902/KP19/BQLDA - Lê Minh Hiếu",
-    "stageId": "119938",
+    "stageId": "116734",
     "stageName": "",
     "link": "https://workflow.base.vn/bql-du-an-binh-quoi-thanh-da?job=3216103"
   },
